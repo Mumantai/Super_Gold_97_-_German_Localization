@@ -13,7 +13,8 @@ jobs:
       - name: Systempackete aktualisieren
         run: |
           sudo apt update
-          sudo apt -y install make git python3-pip pkg-config libpng-dev
+          sudo ACCEPT_EULA=Y apt -y --fix-missing --allow-downgrades upgrade
+          sudo apt -y --allow-downgrades install make g++-10 bison git python-is-python3 python3-pip bison pkg-config libpng-dev
           sudo pip install pypng
 
       - name: Repository auschecken
@@ -24,21 +25,17 @@ jobs:
         with:
           repository: gbdev/rgbds
           path: rgbds
-          ref: 'v0.4.2'  # Passende Version für dein Projekt
 
       - name: RGBDS kompilieren und installieren
         run: |
           cd rgbds
-          make
+          make Q=
           sudo make install
-
-      - name: Tools kompilieren
-        run: |
-          make tools
 
       - name: ROM bauen
         run: |
           make pokemon_sg97.gbc
+        working-directory: .
 
       - name: ROM-Datei hochladen
         uses: actions/upload-artifact@v4
