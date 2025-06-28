@@ -38,8 +38,14 @@ jobs:
           make pokemon_sg97.gbc
         working-directory: .
 
+      - name: Belegten Speicherplatz prüfen
+        run: python3 tools/used_space.py
+
+      - name: Freier Speicherplatz prüfen
+        run: python3 tools/free_space.py
+
       - name: ROM-Datei hochladen
         uses: actions/upload-artifact@v4
         with:
           name: pokemon_sg97
-          path: .
+          path: pokemon_sg97.gbc
