@@ -1,0 +1,47 @@
+name: Build Super Gold 97 German ROM
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Systempackete aktualisieren
+        run: |
+          sudo apt update
+          sudo apt -y install make git python3-pip pkg-config libpng-dev
+          sudo pip install pypng
+
+      - name: Repository auschecken
+        uses: actions/checkout@v4
+
+      - name: RGBDS installieren
+        uses: actions/checkout@v4
+        with:
+          repository: gbdev/rgbds
+          path: rgbds
+          ref: 'v0.4.2'  # Passende Version für dein Projekt
+
+      - name: RGBDS kompilieren und installieren
+        run: |
+          cd rgbds
+          make
+          sudo make install
+
+      - name: Tools kompilieren
+        run: |
+          make tools
+
+      - name: ROM bauen
+        run: |
+          make pokemon_sg97.gbc
+
+      - name: ROM-Datei hochladen
+        uses: actions/upload-artifact@v4
+        with:
+          name: pokemon_sg97
+          path: pokemon_sg97.gbc
