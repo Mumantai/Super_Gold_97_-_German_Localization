@@ -165,32 +165,32 @@ PlaceOptionsString:
 	ret
 
 .Page1_text:
-	db "TEXT SPEED        <LF>"
+	db "TEXT-TEMPO        <LF>"
 	db "                  <LF>"
 	db " FAST  MED    SLOW<LF><LF>"
 	db "BATTLE SCENE      <LF>"
 	db "                  <LF>"
-	db " ON       OFF     <LF><LF>"
-	db "BATTLE STYLE      <LF>"
+	db " AN       AUS     <LF><LF>"
+	db "KAMPFSTIL         <LF>"
 	db "                  <LF>"
-	db " SHIFT    SET     <LF><LF>"
+	db " WECHSEL    FOLGEND     <LF><LF>"
 	db " MONO    STEREO   @"
 
 .Page2_text:
-	db "PRINT BRIGHTNESS  <LF>"
+	db "DRUCK-HELLIGKEIT  <LF>"
 	db "                  <LF>"
 	db " -2  -1  0  +1  +2<LF><LF>"
-	db "MENU ACCOUNT      <LF>"
+	db "MENÜ INFO         <LF>"
 	db "                  <LF>"
-	db " ON       OFF     <LF><LF>@"
+	db " AN       AUS     <LF><LF>@"
 
 .Page2_CGB_text:
-	db "COLOR:  SGB   GBC @"
+	db "FARBE:  SGB   GBC @"
 
 .Page2_textframe_text: db "TEXT FRAME@"
 
-.ExitText: db "EXIT@"
-.PageText: db "PAGE  @"
+.ExitText: db "ENDE@"
+.PageText: db "SEITE @"
 
 
 

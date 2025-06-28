@@ -63,10 +63,10 @@ MainMenu:
 
 .Strings:
 ; entries correspond to MAINMENUITEM_* constants
-	db "CONTINUE@"
-	db "NEW GAME@"
-	db "OPTION@"
-	db "MYSTERY GIFT@"
+	db "WEITER@"
+	db "NEUES SPIEL@"
+	db "OPTIONEN@"
+	db "GEHEIMGESCHEHEN@"
 
 .Jumptable:
 ; entries correspond to MAINMENUITEM_* constants
@@ -245,13 +245,13 @@ PrintDayOfWeek:
 
 
 .Days:
-	db "SUNDAY       @"
-	db "MONDAY       @"
-	db "TUESDAY      @"
-	db "WEDNESDAY    @"
-	db "THURSDAY     @"
-	db "FRIDAY       @"
-	db "SATURDAY     @"
+	db "SONNTAG      @"
+	db "MONTAG       @"
+	db "DIENSTAG     @"
+	db "MITTWOCH     @"
+	db "DONNERSTAG   @"
+	db "FREITAG      @"
+	db "SAMSTAG      @"
 .Day:
 	db "@"
 
