@@ -42,7 +42,7 @@ jobs:
         run: python3 tools/used_space.py
 
       - name: Freier Speicherplatz prüfen
-        run: python3 tools/free_space.py
+        run: python3 tools/free_space.py ./pokegold.map
 
       - name: ROM-Datei hochladen
         uses: actions/upload-artifact@v4
