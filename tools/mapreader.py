@@ -49,11 +49,11 @@ class MapReader:
     INIT, BANK, SECTION = range(3)
 
     # $506D-$519A ($012E bytes) ["Type Matchups"]
-    section_header_regex = re.compile('\$([0-9A-Fa-f]{4})-\$([0-9A-Fa-f]{4}) \(.*\) \["(.*)"\]')
+    section_header_regex = re.compile(r'\$([0-9A-Fa-f]{4})-\$([0-9A-Fa-f]{4}) \(.*\) \["(.*)"\]')
     # $506D = TypeMatchups
-    section_data_regex = re.compile('\$([0-9A-Fa-f]{4}) = (.*)')
+    section_data_regex = re.compile(r'\$([0-9A-Fa-f]{4}) = (.*)')
     # $3ED2 bytes
-    slack_regex = re.compile('\$([0-9A-Fa-f]{4}) bytes?')
+    slack_regex = re.compile(r'\$([0-9A-Fa-f]{4}) bytes?')
 
     def __init__(self, *args, **kwargs):
         self.__dict__.update(kwargs)
