@@ -2,9 +2,9 @@ name: Build Super Gold 97 German ROM
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   build:
@@ -20,13 +20,13 @@ jobs:
       - name: Repository auschecken
         uses: actions/checkout@v4
 
-      - name: RGBDS installieren
+      - name: RGBDS auschecken
         uses: actions/checkout@v4
         with:
           repository: gbdev/rgbds
           path: rgbds
 
-      - name: RGBDS kompilieren und installieren
+      - name: RGBDS installieren
         run: |
           cd rgbds
           make Q=
