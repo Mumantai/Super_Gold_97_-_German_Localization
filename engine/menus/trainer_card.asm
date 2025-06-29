@@ -471,7 +471,7 @@ TrainerCard_Page1_PrintDexCaught_GameTime:
 	db "ORDEN@"
 
 .Options:
-	db "  ZURÜCK   ORDEN@"
+	db "   ZURÜCK ORDEN@"
 
 .StatusTilemap:
 	db $29, $2a, $2b, $2c, $2d, -1
