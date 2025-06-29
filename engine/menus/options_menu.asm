@@ -167,7 +167,7 @@ PlaceOptionsString:
 .Page1_text:
 	db "TEXT-TEMPO        <LF>"
 	db "                  <LF>"
-	db " SCHN.  NORM.    LANG.<LF><LF>"
+	db " SCHN. NORM. LANG.<LF><LF>"
 	db "KAMPFHINTERGRUND  <LF>"
 	db "                  <LF>"
 	db " AN       AUS     <LF><LF>"
@@ -187,7 +187,7 @@ PlaceOptionsString:
 .Page2_CGB_text:
 	db "FARBE:  SGB   GBC @"
 
-.Page2_textframe_text: db "TEXT FRAME@"
+.Page2_textframe_text: db "RAHMEN@"
 
 .ExitText: db "ENDE@"
 .PageText: db "SEITE @"

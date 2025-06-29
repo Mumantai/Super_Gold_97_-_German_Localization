@@ -225,12 +225,12 @@ StartMenu::
 	next "ändern@"
 
 .ExitDesc:
-	db   "Close this"
-	next "menu@"
+	db   "Menü"
+	next "schließen@"
 
 .QuitDesc:
-	db   "Menü"
-	next "schliessen@"
+	db   "Quit and"
+	next "be judged.@"
 
 .OpenMenu:
 	ld a, [wMenuSelection]
