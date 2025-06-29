@@ -437,7 +437,7 @@ Options_TextSpeed:
 .PositionOffsets:
 	db 0
 	db 6
-	db 13
+	db 12
 
 GetTextSpeed:
 ; converts TEXT_DELAY_* value in a to OPT_TEXT_SPEED_* value in c,
