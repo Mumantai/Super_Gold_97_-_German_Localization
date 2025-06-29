@@ -76,8 +76,8 @@ endif
 $(gold_obj):   RGBASMFLAGS += -D _GOLD
 $(silver_obj): RGBASMFLAGS += -D _SILVER
 
-#rgbdscheck.o: rgbdscheck.asm
-#	$(RGBASM) -o $@ $<
+rgbdscheck.o: rgbdscheck.asm
+	$(RGBASM) -o $@ $<
 
 # The dep rules have to be explicit or else missing files won't be reported.
 # As a side effect, they're evaluated immediately instead of when the rule is invoked.
