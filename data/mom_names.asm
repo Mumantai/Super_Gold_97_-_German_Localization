@@ -7,11 +7,11 @@ MomNameMenuHeader:
 .Names:
 	db STATICMENU_CURSOR | STATICMENU_PLACE_TITLE | STATICMENU_DISABLE_B ; flags
 	db 5 ; items
-	db "NEW NAME@"
+	db "NAME@"
 MomNameArray:
 	db "MOM@"
 	db "MAMA@"
-	db "MOMMY@"
-	db "MOTHER@"
+	db "MAMI@"
+	db "MUTTER@"
 	db 2
 	db "NAME@" ; title

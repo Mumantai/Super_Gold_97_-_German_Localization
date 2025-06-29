@@ -20,7 +20,7 @@ NameInputUpper:
 	db "J K L M N O P Q R"
 	db "S T U V W X Y Z /"
 	db "Ä Ö Ü <PK> <MN> :   [ ]"
-	db "klein  LÖSCH  ENDE"
+	db "klein LÖSCH  ENDE"
 
 BoxNameInputUpper:
 	db "A B C D E F G H I"
@@ -28,4 +28,4 @@ BoxNameInputUpper:
 	db "S T U V W X Y Z ẞ"
 	db "Ä Ö Ü [ ] : × <PK> <MN>"
 	db "- ? ! ♂ ♀ . , &  "
-	db "klein  LÖSCH  ENDE"
+	db "klein LÖSCH  ENDE"

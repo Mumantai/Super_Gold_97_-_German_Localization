@@ -420,7 +420,7 @@ Options_TextSpeed:
 	ld [hl], " "
 	hlcoord 7, 3
 	ld [hl], " "
-	hlcoord 14, 3
+	hlcoord 13, 3
 	ld [hl], " "
 ; determine arrow position
 	ld e, c
