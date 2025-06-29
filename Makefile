@@ -82,10 +82,10 @@ $(silver_obj): RGBASMFLAGS += -D _SILVER
 # The dep rules have to be explicit or else missing files won't be reported.
 # As a side effect, they're evaluated immediately instead of when the rule is invoked.
 # It doesn't look like $(shell) can be deferred so there might not be a better way.
-#define DEP
-#$1: $2 $$(shell tools/scan_includes $2) | rgbdscheck.o
-#	$$(RGBASM) $$(RGBASMFLAGS) -o $$@ $$<
-#endef
+define DEP
+$1: $2 $$(shell tools/scan_includes $2)
+	$$(RGBASM) $$(RGBASMFLAGS) -o $$@ $$<
+endef
 
 # Build tools when building the rom.
 # This has to happen before the rules are processed, since that's when scan_includes is run.
