@@ -74,6 +74,8 @@ ROMX $12
 	org $4000
 	"Pic Pointers"
 	"Pics 1"
+ROMX $13
+    "bank13"
 ROMX $14
 	"bank14"
 ROMX $15

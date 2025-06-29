@@ -193,8 +193,8 @@ INCLUDE "engine/pokemon/mail.asm"
 INCLUDE "engine/games/pikachu_minigame.asm"
 INCLUDE "audio/music/surfingpikachu.asm"
 
+SECTION "bank13", ROMX
 INCLUDE "engine/menus/trainer_card.asm"
-
 
 
 SECTION "bank14", ROMX
