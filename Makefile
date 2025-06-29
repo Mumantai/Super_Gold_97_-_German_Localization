@@ -76,14 +76,14 @@ endif
 $(gold_obj):   RGBASMFLAGS += -D _GOLD
 $(silver_obj): RGBASMFLAGS += -D _SILVER
 
-#rgbdscheck.o: rgbdscheck.asm
-#	$(RGBASM) -o $@ $<
+rgbdscheck.o: rgbdscheck.asm
+	$(RGBASM) -o $@ $<
 
 # The dep rules have to be explicit or else missing files won't be reported.
 # As a side effect, they're evaluated immediately instead of when the rule is invoked.
 # It doesn't look like $(shell) can be deferred so there might not be a better way.
 define DEP
-$1: $2 $$(shell tools/scan_includes $2)
+$1: $2 $$(shell tools/scan_includes $2) | rgbdscheck.o
 	$$(RGBASM) $$(RGBASMFLAGS) -o $$@ $$<
 endef
 

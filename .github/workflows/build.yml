@@ -25,7 +25,7 @@ jobs:
         with:
           repository: gbdev/rgbds
           path: rgbds
-          ref: 'v0.8.0'
+          ref: 'v0.7.0'
 
       - name: RGBDS installieren
         run: |
