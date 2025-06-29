@@ -167,13 +167,13 @@ PlaceOptionsString:
 .Page1_text:
 	db "TEXT-TEMPO        <LF>"
 	db "                  <LF>"
-	db " FAST  MED    SLOW<LF><LF>"
-	db "BATTLE SCENE      <LF>"
+	db " SCHN.  NORM.    LANG.<LF><LF>"
+	db "KAMPFHINTERGRUND  <LF>"
 	db "                  <LF>"
 	db " AN       AUS     <LF><LF>"
 	db "KAMPFSTIL         <LF>"
 	db "                  <LF>"
-	db " WECHSEL    FOLGEND     <LF><LF>"
+	db " WECHSEL  FOLGEND <LF><LF>"
 	db " MONO    STEREO   @"
 
 .Page2_text:
