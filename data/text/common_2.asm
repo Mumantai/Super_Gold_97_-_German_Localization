@@ -1,11 +1,11 @@
 _CantSurfText::
-	text "You can't SURF"
-	line "here."
+	text "Du kannst hier"
+	line "nicht SURFEN."
 	prompt
 
 _AlreadySurfingText::
-	text "You're already"
-	line "SURFING."
+	text "Du bist bereits"
+	line "am SURFEN."
 	prompt
 
 _AskSurfText::
@@ -1165,24 +1165,25 @@ _MainMenuTimeUnknownText::
 	done
 
 _OakText1::
-	text "Hello! Sorry to"
-	line "keep you waiting!"
+	text "Hi! Entschuldige"
+	line "die Verspätung!"
 
-	para "Welcome to the"
-	line "world of #MON!"
+	para "Willkommen in der"
+	line "Welt der #MON!"
 
-	para "My name is OAK."
+	para "Mein Name ist"
+	line "EICH!"
 
-	para "People call me the"
-	line "#MON PROF."
+	para "Man nennt mich"
+	line "den #MON-"
+	cont "PROFESSOR."
 	prompt
 
 _OakText2::
-	text "As you may know,"
-	line "this world is in-"
-	cont "habited by crea-"
-	cont "tures that we call"
-	cont "#MON.@"
+	text "Diese Welt wird"
+	line "von Wesen"
+	cont "bewohnt, die man"
+	cont "#MON nennt.@"
 	text_end
 
 _OakText3::
@@ -1190,95 +1191,100 @@ _OakText3::
 	text_end
 
 _OakText4::
-	text "People and #MON"
-	line "live together by"
+	text "Menschen und"
+	line "#MON leben"
 
-	para "supporting each"
-	line "other."
+	para "zusammen und"
+	line "helfen einander."
 
-	para "Some people play"
-	line "with #MON, some"
-	cont "battle with them."
+	para "Für manche Leute"
+	line "sind #MON"
+	cont "Haustiere, andere"
+	cont "tragen Kämpfe mit"
+	cont "ihnen aus."
 	prompt
 
 _OakText5::
-	text "But we don't know"
-	line "everything about"
-	cont "#MON yet."
+	text "Leider wissen wir"
+	line "noch nicht alles"
+	cont "über #MON."
 
-	para "There are still"
-	line "many mysteries to"
-	cont "solve."
+	para "Es gibt noch"
+	line "viele Geheimnisse"
+	cont "zu lüften."
 
-	para "That's why I study"
-	line "#MON every day."
+	para "Darum studiere"
+	line "ich #MON"
+	cont "tagaus, tagein!"
 	prompt
 
 _OakText6::
-	text "Now, what did you"
-	line "say your name was?"
+	text "Wie lautet dein"
+	line "Name?"
 	prompt
 
 _OakText6a::
-	text "Ah, so you are"
+	text "Ah, du bist also"
 	line "<PLAYER>!"
 	prompt
 
 _OakText6b::
-	text "This boy has been"
-	line "friends with you"
-	cont "since childhood,"
-	cont "is that right?"
+	text "Dieser Junge ist"
+	line "seit Kindestagen"
+	cont "mit dir befreun-"
+	cont "det, oder?"
 
-	para "…Erm, what was"
-	line "his name again?"
+	para "…Ähm, wie war sein"
+	line "Name noch gleich?"
 	prompt
 
 _OakText6c::
-	text "…That's right!"
-	line "<RIVAL> was his"
-	cont "name!"
+	text "…Ja, genau!"
+	line "Sein Name war"
+	cont "<RIVAL>!"
 	prompt
 
 _OakText7a::
 	text "<PLAYER>!"
 
-	para "Before you start"
-	line "your journey,"
+	para "Bevor du deine"
+	line "Reise beginnst,"
 
-	para "you'll have to"
-	line "set the time and"
-	cont "day of the week."
+	para "musst du noch"
+	line "die Zeit und den"
+	cont "Wochentag angeben."
 
 	prompt
 _OakText7::
-	text "<PLAYER>, are you"
-	line "ready?"
+	text "<PLAYER>, bist du"
+	line "bereit?"
 
-	para "Your very own"
-	line "#MON story is"
-	cont "about to unfold."
+	para "Dein eigenes"
+	line "#MON-Abenteuer"
+	cont "erwartet dich."
 
-	para "You'll face fun"
-	line "times and tough"
-	cont "challenges."
+	para "Dich erwarten tol-"
+	line "le Dinge, aber"
+	cont "auch harte Zeiten."
 
-	para "A world of dreams"
-	line "and adventures"
+	para "Eine Welt voller"
+	line "Träume und aufre-"
 
-	para "with #MON"
-	line "awaits! Let's go!"
+	para "gender #MON-"
+	line "Abenteuer erwar-"
+	cont "tet dich! Mach"
+	cont "dich bereit!
 
-	para "I'll be seeing you"
-	line "later!"
+	para "Ich treffe dich"
+	line "später!"
 	done
 
 _ClockTimeMayBeWrongText::
-	text "The clock's time"
-	line "may be wrong."
+	text "Die Zeit ist"
+	line "eventuell falsch."
 
-	para "Please reset the"
-	line "time."
+	para "Bitte stelle die"
+	line "Zeit neu ein."
 	prompt
 
 _ClockSetWithControlPadText::
