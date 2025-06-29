@@ -127,7 +127,6 @@ INCLUDE "engine/items/switch_items.asm"
 INCLUDE "engine/menus/menu_2.asm"
 INCLUDE "engine/pokemon/mon_submenu.asm"
 INCLUDE "engine/battle/menu.asm"
-INCLUDE "engine/menus/trainer_card.asm"
 INCLUDE "engine/overworld/decorations.asm"
 INCLUDE "data/moves/effects.asm"
 
@@ -193,6 +192,9 @@ INCLUDE "engine/gfx/place_graphic.asm"
 INCLUDE "engine/pokemon/mail.asm"
 INCLUDE "engine/games/pikachu_minigame.asm"
 INCLUDE "audio/music/surfingpikachu.asm"
+
+INCLUDE "engine/menus/trainer_card.asm"
+
 
 
 SECTION "bank14", ROMX
