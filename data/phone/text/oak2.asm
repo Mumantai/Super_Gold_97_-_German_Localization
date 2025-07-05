@@ -1,146 +1,161 @@
 Oak2PhoneHealYourMonText:
-	text "Hello, <PLAYER>?"
+	text "Hallo, <PLAYER>?"
 
-	para "Try not to overdo"
-	line "it."
+	para "Übertreib es"
+	line "nicht."
 
-	para "Be sure to heal"
-	line "your #MON if"
-	cont "they are hurt."
+	para "Heile deine #-"
+	line "MON, falls sie"
+	cont "verletzt sind."
 	done
 
 Oak2PhoneSawMrPokemonText:
-	text "Hello, <PLAYER>?"
+	text "Hallo, <PLAYER>?"
 
-	para "Did you meet MR."
-	line "#MON? Great!"
-	cont "Come back safely!"
+	para "Hast du MR. #-"
+	line "MON getroffen? "
+	cont "Komm heil wieder!"
 	done
 
 Oak2PhonePokemonStolenText:
-	text "<PLAYER>? I'm very"
-	line "upset now."
+	text "<PLAYER>? Ich bin"
+	line "sehr verärgert."
 
-	para "We had a #MON"
-	line "stolen from here."
+	para "Uns wurde ein"
+	line "#MON gestohlen."
 
-	para "How could anyone"
-	line "do that?"
+	para "Wie kann man so"
+	line "etwas nur tun?"
 	done
 
 Oak2PhoneCheckingTheEggText:
-	text "Hello, <PLAYER>?"
+	text "Hallo, <PLAYER>?"
 
-	para "We're checking the"
-	line "EGG now. It does"
+	para "Wir überprüfen das"
+	line "EI. Es scheint"
 
-	para "appear to be a"
-	line "#MON EGG."
+	para "ein #MON-EI"
+	line "zu sein."
 	done
 
 Oak2PhoneAssistantText:
-	text "Hello, <PLAYER>?"
+	text "Hallo, <PLAYER>?"
 
-	para "Did you see my"
-	line "assistant? He's at"
+	para "Hast du meinen"
+	line "Assistenten"
 
-	para "the #MON CENTER"
-	line "in PAGOTA CITY."
+	para "getroffen? Er ist"
+	line "im #MON-CENTER"
+	cont "in VIOLA CITY."
 	done
 
 Oak2PhoneHowIsTheEggText:
-	text "Hello, <PLAYER>?"
-	line "I hear you're"
-	para "taking the NIHON"
-	line "#MON LEAGUE"
-	cont "challenge."
-	para "That's great!"
-	line "I'm sure you've"
-	para "got a fighting"
-	line "chance to do"
-	cont "great things!"
+	text "Hallo, <PLAYER>?"
+	line "Ich habe gehört,"
+	para "du willst dich der"
+	line "NIHON #MON LIGA"
+	cont "stellen?"
+
+	para "Das ist großartig!"
+	line "Ich bin sicher, du"
+	para "du hast das Zeug,"
+	line "um Großes zu"
+	cont "erreichen!"
 	done
 
 Oak2PhoneEggHatchedText:
-	text "Hello, <PLAYER>?"
-	line "How is the EGG?"
+	text "Hallo, <PLAYER>?"
+	line "Was macht das EI?"
 
-	para "What? It hatched?"
-	line "Wow! What kind of"
-	cont "#MON is it?"
+	para "Wie? Es ist"
+	line "geschlüpft? Wow!"
 
-	para "Please come show"
-	line "me now!"
+	para "Was für ein"
+	line "#MON ist es?"
+
+	para "Komm und zeige es"
+	line "mir bitte!"
 	done
 
 Oak2PhoneDiscoveredHatchTimeText:
-	text "Hello, <PLAYER>?"
+	text "Hallo, <PLAYER>?"
 
-	para "I just made a new"
-	line "discovery."
+	para "Ich habe soeben"
+	line "eine neue Ent-"
+	cont "deckung gemacht."
 
-	para "The time it takes"
-	line "for an EGG to"
+	para "Die Zeit, bis es"
+	line "aus dem EI"
 
-	para "hatch depends on"
-	line "the #MON."
+	para "schlüpft, hängt"
+	line "vom #MON ab."
 	done
 
 Oak2PhoneInvestigatingEggMovesText:
-	text "Hello, <PLAYER>?"
+	text "Hallo, <PLAYER>?"
 
-	para "It's still a"
-	line "mystery what kinds"
+	para "Es ist noch nicht"
+	line "gelöst, welche"
 
-	para "of moves hatched"
-	line "#MON have."
+	para "Attacken junge"
+	line "#MON haben."
 
-	para "We're investigat-"
-	line "ing that now."
+	para "Das untersuchen"
+	line "wir jetzt."
 	done
 
 Oak2PhoneDiscoveredPokerusText:
-	text "Hello, <PLAYER>?"
+	text "Hallo, <PLAYER>?"
 
-	para "I discovered an"
-	line "odd thing."
+	para "Ich habe etwas"
+	line "Seltsames"
+	cont "entdeckt."
 
-	para "Apparently there's"
-	line "something called"
+	para "Scheinbar gibt es"
+	line "einen sogenannten"
 
-	para "#RUS that in-"
-	line "fects #MON."
+	para "#RUS, der"
+	line "#MON infiziert."
 
-	para "Yes, it's like a"
-	line "virus, so it's"
-	cont "called #RUS."
+	para "Es ist eine Art"
+	line "Virus und wird"
 
-	para "It multiplies fast"
-	line "and infects other"
+	para "daher #RUS"
+	line "genannt."
 
-	para "#MON too. But"
-	line "that's all."
+	para "Es vermehrt sich"
+	line "rapide und infi-"
+	cont "ziert andere #-"
+	cont "MON. Das ist"
+	cont "alles."
 
-	para "It doesn't seem to"
-	line "do anything, and"
+	para "Es scheint keine"
+	line "Auswirkungen zu"
 
-	para "it goes away over"
-	line "time."
+	para "haben und ver-"
+	line "schwindet nach"
+	cont "einiger Zeit."
 
-	para "I guess it's"
-	line "nothing to worry"
-	cont "about. Bye!"
+	para "Ich denke, man"
+	line "braucht sich"
+
+	para "darüber keine"
+	line "Sorgen zu machen!"
 	done
 
 Oak2PhoneDisasterText:
-	text "Hello, <PLAYER>?"
-	para "Long time no see!"
-	line "If I'm not"
-	para "mistaken, I hear"
-	line "you've already"
-	para "acquired three GYM"
-	line "BADGES!"
-	para "That's impressive!"
+	text "Hallo, <PLAYER>?"
+
+	para "Lange nicht mehr"
+	line "von dir gehört!"
+
+	para "Ich habe gehört,"
+	line "du hast schon"
+	para "drei ARENA-ORDEN"
+	line "erhalten!"
+
+	para "Beeindruckend!"
+
 	para "But if it's not"
 	line "too much to ask,"
 	para "I'd appreciate it"
@@ -149,27 +164,33 @@ Oak2PhoneDisasterText:
 	line "TOWN. It's a small"
 	para "town north of"
 	line "WESTPORT CITY."
+
 	para "The town has a"
 	line "WELL that's known"
 	para "to be a habitat"
 	line "for SLOWPOKE."
+
 	para "I'm studying the"
 	line "fascinating"
 	para "relationship"
 	line "between SLOWPOKE"
 	cont "and DISTURBAN."
+
 	para "I could use some"
 	line "assistance in"
 	para "capturing a few"
 	line "SLOWPOKE to help"
 	cont "with the study."
+
 	para "<RIVAL>, BLUE,"
 	line "and myself will"
 	para "all be meeting"
 	line "there!"
+
 	para "It'll be a good"
 	line "chance to catch"
 	cont "up for all of us!"
+
 	para "Please join us"
 	line "there when you get"
 	cont "the chance!"

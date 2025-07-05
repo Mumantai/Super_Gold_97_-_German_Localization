@@ -1,18 +1,18 @@
 PhoneNationalParkText:
-	db "NATIONAL PARK@"
+	db "NATIONALPARK@"
 
 PhoneLighthouseText:
-	db "LIGHTHOUSE@"
+	db "LEUCHTTURM@"
 
 ; unreferenced
 PhoneUndergroundText:
-	db "UNDERGROUND@"
+	db "UNTERGRUND@"
 
 PhoneDarkCaveText:
-	db "DARK CAVE@"
+	db "DUNKELHÖHLE@"
 
 PhoneMtMortarText:
-	db "MT.MORTAR@"
+	db "KESSELBERG@"
 
 PhoneRouteU6UText:
 	db "ROUTE 26@"
@@ -43,7 +43,7 @@ PhoneRoute102Text:
 
 ; unreferenced
 PhoneSilentHillsText:
-	db "SILENT HILLS@"
+	db "SILENITIA HÜGEL@"
 
 PhoneRoute106Text:
 	db "ROUTE 106@"
@@ -61,7 +61,7 @@ PhoneRouteU4UText:
 	db "ROUTE 42@"
 
 PhoneBoardwalkText:
-	db "BOARDWALK@"
+	db "PROMENADE@"
 
 PhoneKikaiStraitText:
 	db "ROUTE 44@"

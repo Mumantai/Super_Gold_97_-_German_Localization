@@ -1,19 +1,19 @@
 BikeShopPhoneCallerText:
-	text "Hi, <PLAYER>!"
-	line "Our BICYCLE sales"
+	text "Hi, <PLAY_G>!"
+	line "Unsere FAHRRAD-"
+	cont "Verkäufe brechen"
+	cont "alle Rekorde!"
 
-	para "have gone through"
-	line "the roof!"
+	para "Das verdanken wir"
+	line "nur dir, weil du"
 
-	para "We owe it all to"
-	line "your advertising"
+	para "mit unserem FAHR-"
+	line "RAD herumgefahren"
+	cont "bist."
 
-	para "by riding around"
-	line "on our BICYCLE."
+	para "Als Dankeschön"
+	line "darfst du das"
 
-	para "As our way of say-"
-	line "ing thanks, please"
-
-	para "keep that BICYCLE."
-	line "Thanks again!"
+	para "FAHRRAD behalten."
+	line "Herzlichen Dank!"
 	done
