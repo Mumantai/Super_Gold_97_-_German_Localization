@@ -195,7 +195,7 @@ MomOKIllSaveText:
 	line "dein Geld sparen."
 	done
 
-MomPhoneWontSaveMoneyText:
+MomPhoneStopSavingMoneyText:
 	text "O.K. Ich höre auf,"
 	line "dein Geld zu spa-"
 	cont "ren."

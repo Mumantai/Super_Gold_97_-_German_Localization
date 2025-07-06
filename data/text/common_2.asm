@@ -325,14 +325,14 @@ _AskThrowAwayText::
 _AskQuantityThrowAwayText::
 	text "Wegwerfen?"
 	line "@"
-	text_decimal wItemQuantityChange, 1, 2
+	text_decimal wItemQuantityChangeBuffer, 1, 2
 	text " x @"
 	text_ram wStringBuffer2
 	text "?"
 	done
 
 _ThrewAwayText::
-	text_decimal wItemQuantityChange, 1, 2
+	text_decimal wItemQuantityChangeBuffer, 1, 2
 	text " x @"
 	text_ram wStringBuffer2
 	text_start
@@ -516,14 +516,14 @@ _BreedAskNicknameText::
 	done
 
 _LeftWithDayCareLadyText::
-	text_ram wBreedMon2Nickname
+	text_ram wBreedMon2Nick
 	text " hast du"
 	line "der PENSIONSLEI-"
 	cont "TERIN anvertraut."
 	done
 
 _LeftWithDayCareManText::
-	text_ram wBreedMon1Nickname
+	text_ram wBreedMon1Nick
 	text " hast du"
 	line "dem PENSIONSLEITER"
 	cont "anvertraut."
@@ -810,7 +810,7 @@ _PlayersPCHowManyWithdrawText::
 	done
 
 _PlayersPCWithdrewItemsText::
-	text_decimal wItemQuantityChange, 1, 2
+	text_decimal wItemQuantityChangeBuffer, 1, 2
 	text " x @"
 	text_ram wStringBuffer2
 	text_start
@@ -834,7 +834,7 @@ _PlayersPCHowManyDepositText::
 	done
 
 _PlayersPCDepositItemsText::
-	text_decimal wItemQuantityChange, 1, 2
+	text_decimal wItemQuantityChangeBuffer, 1, 2
 	text " x @"
 	text_ram wStringBuffer2
 	text_start
@@ -1091,14 +1091,14 @@ _ItemsTossOutHowManyText::
 _ItemsThrowAwayText::
 	text "Wegwerfen"
 	line "@"
-	text_decimal wItemQuantityChange, 1, 2
+	text_decimal wItemQuantityChangeBuffer, 1, 2
 	text " x @"
 	text_ram wStringBuffer2
 	text "?"
 	done
 
 _ItemsDiscardedText::
-	text_decimal wItemQuantityChange, 1, 2
+	text_decimal wItemQuantityChangeBuffer, 1, 2
 	text " x @"
 	text_ram wStringBuffer1
 	text_start
@@ -1411,7 +1411,7 @@ _LinkAbnormalMonText::
 
 _LinkAskTradeForText::
 	text "Tausche @"
-	text_ram wBufferTrademonNickname
+	text_ram wceef
 	text_start
 	line "mit @"
 	text_ram wStringBuffer1
@@ -1555,7 +1555,7 @@ _MartHowManyText::
 	done
 
 _MartFinalPriceText::
-	text_decimal wItemQuantityChange, 1, 2
+	text_decimal wItemQuantityChangeBuffer, 1, 2
 	text " x"
 	line "@"
 	text_ram wStringBuffer2
@@ -1589,7 +1589,7 @@ _HerbalLadyHowManyText::
 	done
 
 _HerbalLadyFinalPriceText::
-	text_decimal wItemQuantityChange, 1, 2
+	text_decimal wItemQuantityChangeBuffer, 1, 2
 	text " x @"
 	text_ram wStringBuffer2
 	text_start
@@ -1678,7 +1678,7 @@ _PharmacyHowManyText::
 	done
 
 _PharmacyFinalPriceText::
-	text_decimal wItemQuantityChange, 1, 2
+	text_decimal wItemQuantityChangeBuffer, 1, 2
 	text " x @"
 	text_ram wStringBuffer2
 	text_start
@@ -1765,7 +1765,7 @@ _MartBoughtText::
 	text_decimal hMoneyTemp, 3, 6
 	text " für"
 	line "@"
-	text_decimal wItemQuantityChange, 1, 2
+	text_decimal wItemQuantityChangeBuffer, 1, 2
 	text " x @"
 	text_ram wStringBuffer2
 	text "."
