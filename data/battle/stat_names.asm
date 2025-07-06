@@ -1,10 +1,10 @@
 StatNames:
 ; entries correspond to stat ids
-	db "ATTACK@"
-	db "DEFENSE@"
-	db "SPEED@"
-	db "SPCL.ATK@"
-	db "SPCL.DEF@"
-	db "ACCURACY@"
-	db "EVASION@"
-	db "ABILITY@" ; used for BattleCommand_Curse
+	db "ANGR@"
+	db "VER@"
+	db "INIT@"
+	db "SPEZ.ANG@"
+	db "SPEZ.VER@"
+	db "GENAUIGKEIT@"
+	db "FLUCHTWERT@"
+	db "FÄHIGKEIT@" ; used for BattleCommand_Curse

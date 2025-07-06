@@ -294,7 +294,7 @@ OakTimeWhatTimeIsItText:
 	text_end
 
 String_oclock:
-	db "o'clock@"
+	db "UHR@"
 
 OakTimeWhatHoursText:
 	; What?@ @
@@ -331,19 +331,44 @@ OakTimeWhoaMinutesText:
 
 OakText_ResponseToSetTime:
 	text_asm
-	hlcoord 1, 14
-;	call SetDayOfWeek.PlaceWeekdayString
-	ld d, b
-	ld e, c
-	inc de
-	call PrintHourAndMinutesAdjusted
+	decoord 1, 14
+	ld a, [wInitHourBuffer]
+	ld c, a
+	call PrintHour
+	ld [hl], ":"
+	inc hl
+	ld de, wInitMinuteBuffer
+	lb bc, PRINTNUM_LEADINGZEROS | 1, 2
+	call PrintNum
 	ld b, h
 	ld c, l
 	ld a, [wInitHourBuffer]
+	cp MORN_HOUR
+	jr c, .nite
+	cp DAY_HOUR + 1
+	jr c, .morn
+	cp NITE_HOUR
+	jr c, .day
+.nite
+	ld hl, .OakTimeSoDarkText
+	ret
+.morn
+	ld hl, .OakTimeOversleptText
+	ret
+.day
 	ld hl, .OakTimeYikesText
 	ret
+
+.OakTimeOversleptText:
+	text_far _OakTimeOversleptText
+	text_end
+
 .OakTimeYikesText:
 	text_far _OakTimeYikesText
+	text_end
+
+.OakTimeSoDarkText:
+	text_far _OakTimeSoDarkText
 	text_end
 
 
@@ -704,33 +729,6 @@ MrChrono:
 	call PrintNum
 	ret
 
-PrintHourAndMinutesAdjusted:
-	ld a, [wInitHourBuffer]
-	ld c, a
-	ld l, e
-	ld h, d
-	call AdjustHourForAMorPM
-	push af
-	  ld [wDeciramBuffer], a
-	  ld de, wDeciramBuffer
-	  call PrintTwoDigitNumberLeftAlign
-	  ld [hl], ":"
-	  inc hl
-	  ld de, wInitMinuteBuffer
-	  lb bc, PRINTNUM_LEADINGZEROS | 1, 2
-	  call PrintNum
-	pop af
-	jr nc, .not_am
-	ld de, .am
-	jr .end
-.not_am
-	ld de, .pm
-.end
-	inc hl
-	call PlaceString
-	ret
-.am: db "AM@"
-.pm: db "PM@"
 
 PrintHour:
 	ld l, e
