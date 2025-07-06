@@ -70,7 +70,6 @@ ROMX $10
 ROMX $11
 	"bank11"
 	"Tileset Data 8"
-	"Maps"
 ROMX $12
 	org $4000
 	"Pic Pointers"
@@ -114,7 +113,7 @@ ROMX $23
 ROMX $24
 	"bank24"
 ROMX $25
-	"Events"
+	"Maps"
 ROMX $26
 	"bank26"
 	"Pics 15"
@@ -138,6 +137,8 @@ ROMX $33
 	"Move Animations"
 	"Extra Songs 2"
 	"Sprites 3"
+ROMX $34
+    "Events"
 ROMX $36
 	"Font Inversed"
 	"Tileset Data 7"
