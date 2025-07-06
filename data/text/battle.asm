@@ -84,7 +84,7 @@ PerishCountText:
 	text "<USER>:"
 	line "ABGESANG steht bei"
 	cont "@"
-	text_decimal wTextDecimalByte, 1, 1
+	text_decimal wDeciramBuffer, 1, 1
 	text "!"
 	prompt
 
@@ -109,6 +109,13 @@ BattleText_TargetWasHitByFutureSight:
 	line "wurde von"
 	cont "SEHER"
 	cont "erfasst!"
+	prompt
+
+BattleText_MonsLightScreenFell:
+	text_ram wStringBuffer1
+	text_start
+	line "LICHTSCHILD"
+	cont "schwindet!"
 	prompt
 
 BattleText_SafeguardFaded:
@@ -1085,7 +1092,7 @@ SafeguardProtectText:
 
 MagnitudeText:
 	text "Intensität @"
-	text_decimal wTextDecimalByte, 1, 1
+	text_decimal wDeciramBuffer, 1, 1
 	text "!"
 	prompt
 

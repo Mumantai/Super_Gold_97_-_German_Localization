@@ -274,7 +274,7 @@ _BallSoCloseText::
 
 Text_BallCaught::
 	text "Toll! @"
-	text_ram wEnemyMonNickname
+	text_ram wEnemyMonNick
 	text_start
 	line "wurde gefangen!@"
 	sound_caught_mon
@@ -297,7 +297,7 @@ _BallSentToPCText::
 
 _NewDexDataText::
 	text "Für @"
-	text_ram wEnemyMonNickname
+	text_ram wEnemyMonNick
 	text_start
 	line "wird ein neuer"
 	cont "Eintrag im"
