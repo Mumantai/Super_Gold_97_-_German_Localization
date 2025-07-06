@@ -202,7 +202,7 @@ PokemonNames::
 	db "ICOGNITO@@"
 	db "BIPULLA@@@"     ;
 	db "GIRAFARIG@"
-	db "DISTURBAN@"     ;
+	db "BISTURBAN@"     ; Biss + Turbanschnecke
 	db "SLEIMY@@@@"     ; Schleim + Baby
 	db "PARASPOR@@"     ;
 	db "MIMMEO@@@@"     ; Mimeographie + Mimic
