@@ -36,10 +36,10 @@ MenuData_0x24e93:
 	dbw BANK(MenuData_0x24e93), 0
 
 Strings24e9c:
-	db "FIGHT@"
+	db "KMPF@"
 	db "<PK><MN>@"
-	db "PACK@"
-	db "RUN@"
+	db "BEUTEL@"
+	db "FLUCHT@"
 
 MenuHeader_0x24eae:
 	db MENU_BACKUP_TILES ; flags
@@ -81,10 +81,10 @@ MenuData_0x24ef1:
 	dba Strings24f13
 
 Strings24efa:
-	db "FIGHT@"
+	db "KMPF@"
 	db "<PK><MN>@"
 	db "PARKBALL×  @"
-	db "RUN@"
+	db "FLUCHT@"
 
 Strings24f13:
 	hlcoord 13, 16

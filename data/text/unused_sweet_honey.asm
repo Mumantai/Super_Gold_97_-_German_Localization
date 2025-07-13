@@ -8,61 +8,62 @@
 ; Most of these texts seem to be associated with a single NPC.
 ; The last text is associated with a second NPC, probably a Butterfree.
 
-UnusedSweetHoneyText:
-	text "My #MON is an"
-	line "expert at collect-"
-	cont "ing SWEET HONEY."
+UnusedSweetHoneyText: ; unreferenced
+	text "Mein #MON ist"
+	line "Meister im Sammeln"
+	cont "von HONIG."
 
-	para "I'll share some"
-	line "with you."
+	para "Ich gebe dir gerne"
+	line "etwas ab."
 	done
 
-UnusedSweetHoneyBagFullText:
-	text "I want to give you"
-	line "some SWEET HONEY,"
-
-	para "but you have no"
-	line "room for it."
+UnusedSweetHoneyBagFullText: ; unreferenced
+	text "Ich würde dir ger-"
+	line "ne etwas HONIG ge-"
+	cont "ben, aber du hast"
+	cont "nicht genug Platz."
 	done
 
-UnusedSweetHoneyGiveText:
-	text "Here you go! Have"
-	line "some SWEET HONEY!"
+UnusedSweetHoneyGiveText: ; unreferenced
+	text "Bitte schön! Nimm"
+	line "etwas HONIG!"
 	done
 
-UnusedGotSweetHoneyText:
-	text "<PLAYER> received"
-	line "SWEET HONEY."
+UnusedGotSweetHoneyText: ; unreferenced
+	text "<PLAYER> erhält"
+	line "HONIG."
 	done
 
-UnusedSweetHoneyAfterText1:
-	text "My little brother"
-	line "takes SWEET HONEY"
+UnusedSweetHoneyAfterText1: ; unreferenced
+	text "Mein kleiner Bru-"
+	line "der nimmt den HO-"
+	cont "NIG und bringt ihn"
+	cont "irgendwo hin."
 
-	para "and goes somewhere"
-	line "with it."
-
-	para "I wonder what he's"
-	line "up to?"
+	para "Ich frage mich,"
+	line "was er vorhat?"
 	done
 
-UnusedSweetHoneyAfterText2:
-	text "Did you put SWEET"
-	line "HONEY on a tree?"
+UnusedSweetHoneyAfterText2: ; unreferenced
+	text "Hast du schon mal"
+	line "HONIG an einen"
+	cont "Baum geschmiert?"
 
-	para "What happened to"
-	line "it?"
+	para "Was ist dann ge-"
+	line "schehen?"
 	done
 
-UnusedSweetHoneyAfterText3:
-	text "Did you put SWEET"
-	line "HONEY on a tree?"
+UnusedSweetHoneyAfterText3: ; unreferenced
+	text "Hast du schon mal"
+	line "HONIG an einen"
+	cont "Baum geschmiert?"
 
-	para "It takes about a"
-	line "day for #MON to"
-	cont "be drawn to it."
+	para "Es dauert etwa ei-"
+	line "nen Tag, bis #-"
+	cont "MON davon angezo-"
+	cont "gen werden."
 	done
 
-UnusedSweetHoneyButterfreeText:
-	text "BUTTERFREE: Freeh!"
+UnusedSweetHoneyButterfreeText: ; unreferenced
+	text "SMETTBO: Booh!"
 	done

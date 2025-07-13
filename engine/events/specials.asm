@@ -101,7 +101,7 @@ NameRival:
 
 .default
 IF DEF(_GOLD)
-	db "SILVER@"
+	db "SILBER@"
 ELIF DEF(_SILVER)
 	db "GOLD@"
 ENDC
@@ -130,7 +130,7 @@ NameMom:
 	ret
 	
 .default
-	db "MOMMY@"
+	db "MAMA@"
 
 NameRater:
 	farcall _NameRater
