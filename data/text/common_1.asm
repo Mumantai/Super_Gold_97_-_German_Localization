@@ -385,7 +385,7 @@ _LookAdorableDecoText::
 	done
 
 _ConsoleDecoText::
-	text "<PLAYER> Spielt"
+	text "<PLAYER> spielt"
 	line " @"
 	text_ram wStringBuffer3
 	text "!"
