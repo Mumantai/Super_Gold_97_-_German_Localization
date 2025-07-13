@@ -204,21 +204,21 @@ PokemonNames::
 	db "GIRAFARIG@"
 	db "BISTURBAN@"     ; Biss + Turbanschnecke
 	db "SLEIMY@@@@"     ; Schleim + Baby
-	db "PARASPOR@@"     ;
+	db "PARASPOR@@"     ; Paras + Spore
 	db "MIMMEO@@@@"     ; Mimeographie + Mimic
 	db "STAHLOS@@@"
 	db "SNUBBULL@@"
 	db "MORLORD@@@"
-	db "TRICULEX@@"     ; Trypoxylus dichotomus + Dynastes hercules
+	db "ZANGUWA@@@"     ; Zange + Kuwagata (jap. Hirschkäfer) alt. ZANGATA
 	db "SCHEROX@@@"
 	db "MOIBELLE@@"     ;
 	db "BELLEDAM@@"     ;
 	db "SNIEBEL@@@"
 	db "BALDORFISH"
 	db "KAZAPPELIN"     ;
-	db "COINPUR@@@"     ;
+	db "KITTSEN@@@"     ; Kitten + Sen (jap. Münzeinheit)
 	db "SWALIASK@@"     ; Schwan + Allium + Maske
-	db "STROMEN@@@"     ;
+	db "VLOODU@@@@"     ; Fluch + Voodoo    alt. FLUDOO
 	db "PAN-SHI@@@"     ; Panda + Jiang-Shi
 	db "POMERANI@@"     ; Pomeranian + canis
 	db "REMORAID@@"
@@ -245,7 +245,7 @@ PokemonNames::
 	db "ENTEI@@@@@"
 	db "SUICUNE@@@"
 	db "LUPONCHO@@"     ; Lupus + Poncho
-	db "WEARLYCAN@"     ;
+	db "WERLYCOS@@"     ; Werwolf + Lycanthrop + Costume (engl. Kostüm)
 	db "SCHLURPURP"     ; Slurp (engl. schlecken) + Lickylicky (engl. Schlurplek)
 	db "HEITEIRA@@"
 	db "HO-OH@@@@@"

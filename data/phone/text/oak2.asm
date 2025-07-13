@@ -213,108 +213,131 @@ Oak2PhoneEggAssistantText:
 	done
 
 Oak2PhoneRadioTowerRocketTakeoverText:
-	text "<PLAYER>, how are"
-	line "things going?"
+	text "<PLAYER>, wie"
+	line "stehen die Dinge?"
 
-	para "I called because"
-	line "something weird is"
+	para "Ich rufe an, weil"
+	line "etwas Merkwürdiges"
 
-	para "happening with the"
-	line "radio broadcasts."
+	para "mit den Radiosen-"
+	line "dungen geschieht."
 
-	para "They were talking"
-	line "about TEAM ROCKET."
+	para "Sie redeten über"
+	line "TEAM ROCKET."
 
-	para "<PLAYER>, do you"
-	line "know anything"
-	cont "about it?"
+	para "<PLAYER>, weißt"
+	line "du etwas darüber?"
 
 	para "…"
-	para "Hm? You just dealt"
-	line "with TEAM ROCKET"
-	para "in their base in"
-	line "STAND CITY?"
-	para "You'll have to"
-	line "tell me all about"
-	cont "that soon!"
-	para "Do you know where"
-	line "they were planning"
-	cont "to go after that?"
-	para "If these weird"
-	line "radio broadcasts"
-	para "are anything to go"
-	line "by, I'd check the"
-	para "JOPM RADIO TOWER"
-	line "in WESTPORT CITY."
-	para "Keep me updated!"
-	line "I'm rooting for"
-	cont "you and <RIVAL>!"
-	done
+
+	para "Was? Du hattest"
+	line "erst kürzlich mit"
+	para "ihnen in ihrer"
+	line "Basis in SENDESTIA"
+	cont "CITY zu tun?"
+
+	para "Davon musst du mir"
+	line "beim nächsten Mal"
+	cont "alles erzählen!"
+
+	para "Weißt du, wohin"
+	line "sie als nächstes"
+	cont "gehen wollten?"
+
+	para "Du könntest den"
+	line "RADIOTURM in PORT"
+	line "ABANTIA besuchen"
+	para "und diesen selt-"
+	line "samen Radiosen-"
+	cont "dungen nachgehen."
+
+	para "Halt mich auf dem"
+	line "Laufenden!"
+
+	para "Ich drück dir und"
+	line "<RIVAL> die"
+	cont "Daumen!"
+    done
 	
 Oak2PhoneRocketsText:
-	text "Hello, <PLAYER>?"
+	text "Hallo, <PLAYER>?"
 
-	para "I worry that TEAM"
-	line "ROCKET is planning"
-	para "something truly"
-	line "terrible…"
-	para "But you don't need"
-	line "to dwell on that!"
-	para "Keep up the great"
-	line "work with catching"
-	para "#MON and the"
-	line "LEAGUE challenge!"
+    para "Ich befürchte,"
+    line "dass TEAM ROCKET"
+    para "etwas wirklich"
+    line "Schreckliches"
+    cont "plant…"
+
+    para "Aber mach dir"
+    line "darüber keine"
+    cont "Gedanken!"
+
+    para "Fülle weiter den"
+    line "#DEX und sammle"
+    cont "alle ARENA-ORDEN!"
 	done
 	
 Oak2AfterRadioTower:
-	text "Hello, <PLAYER>?"
-	para "So what was going"
-	line "on with TEAM"
-	cont "ROCKET?"
-	para "I heard they were"
-	line "trying to generate"
-	para "a signal that"
-	line "could control"
-	cont "#MON!"
-	para "That's insane!"
-	para "And apparently"
-	line "they had a lackey"
-	cont "who resembled me?"
-	para "That's even more"
-	line "unbelievable!"
-	para "I'm so incredibly"
-	line "proud of you and"
-	para "<RIVAL> for"
-	line "getting rid of"
-	cont "them!"
-	para "When you work with"
-	line "#MON, there's"
-	para "no limit to what"
-	line "you can do!"
+	text "Hallo, <PLAYER>?"
+
+    para "Also was war da"
+    line "genau mit TEAM"
+    cont "ROCKET los?"
+
+    para "Sie sollen ein"
+    line "Signal erzeugt"
+    para "haben, mit dem"
+    line "sie #MON"
+    para "kontrollieren"
+    cont "können!"
+
+    para "Das ist doch"
+    line "wahnsinnig!"
+
+    para "Und angeblich gab"
+    line "es einen RÜPEL,"
+    para "der mein Zwilling"
+    line "sein könnte?"
+
+    para "Das ist noch viel"
+    line "unglaublicher!"
+
+    para "Ich bin so stolz"
+    line "auf dich und"
+    para "<RIVAL>, dass ihr"
+    line "sie loswerden"
+    cont "konntet!"
+
+    para "Wenn man mit"
+    line "seinen #MON"
+    para "zusammenarbeitet,"
+    line "kann man einfach"
+    cont "alles erreichen!"
 	done
 
 Oak2PhoneGiftText:
-	text "Hello, <PLAYER>?"
+	text "Hallo, <PLAYER>?"
 
-	para "I have something"
-	line "here for you."
+	para "Ich habe hier"
+	line "etwas für dich."
 
-	para "Could you swing by"
-	line "my LAB?"
+	para "Schaust du mal in"
+	line "meinem LABOR"
+	cont "vorbei?"
 
-	para "See you later!"
+	para "Bis später!"
 	done
 
 ; unused
 Oak2PhoneGotAholdOfSomethingNeatText:
-	text "Hello, <PLAYER>?"
-	line "How's it going?"
+	text "Hallo, <PLAYER>?"
+	line "Wie steht's?"
 
-	para "I got ahold of"
-	line "something neat."
+	para "Ich habe etwas"
+	line "Tolles für dich."
 
-	para "Swing by my LAB"
-	line "and pick it up!"
+	para "Hol es dir im"
+	line "LABOR ab!"
 
-	para "See you later!"
+	para "Bis die Tage!"
 	done
