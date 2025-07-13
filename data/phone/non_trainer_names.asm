@@ -9,5 +9,5 @@ NonTrainerCallerNames:
 .none:     db "----------@"
 .mom:      db "MAMA:@"
 .bill:     db "BILL:@"
-.elm:      db "PROF. EICH:@"
+.oak2:      db "PROF. EICH:@"
 .bikeshop: db "FAHRRADLADEN:@"
