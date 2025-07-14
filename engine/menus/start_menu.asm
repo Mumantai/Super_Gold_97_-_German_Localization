@@ -194,7 +194,7 @@ StartMenu::
 .OptionString:   db "OPTION@"
 .ExitString:     db "ZURÜCK@"
 .PokegearString: db "<POKE>COM@"
-.QuitString:     db "QUIT@"
+.QuitString:     db "FERTIG@"
 
 .PokedexDesc:
 	db   "#MON-"
@@ -217,8 +217,7 @@ StartMenu::
 	next "Status@"
 
 .SaveDesc:
-	db   "Speichern"
-	next "@"
+	db   "Speichern@"
 
 .OptionDesc:
 	db   "Einstell."
@@ -226,11 +225,11 @@ StartMenu::
 
 .ExitDesc:
 	db   "Menü"
-	next "schließen@"
+	next "schliessen@"
 
 .QuitDesc:
-	db   "Quit and"
-	next "be judged.@"
+	db   "Aufhören +"
+	next "Wertung.@"
 
 .OpenMenu:
 	ld a, [wMenuSelection]

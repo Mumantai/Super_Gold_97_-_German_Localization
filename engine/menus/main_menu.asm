@@ -66,7 +66,7 @@ MainMenu:
 	db "WEITER@"
 	db "NEUES SPIEL@"
 	db "OPTIONEN@"
-	db "GEHEIMGESCHEHEN@"
+	db "GEHEIMGABE@"
 
 .Jumptable:
 ; entries correspond to MAINMENUITEM_* constants
@@ -214,7 +214,7 @@ MainMenu_PrintCurrentTimeAndDay:
 	ret
 
 .TimeNotSet:
-	db "TIME NOT SET@"
+	db "UHR NICHT GESTELLT@"
 
 .MainMenuTimeUnknownText:
 	text_far _MainMenuTimeUnknownText
