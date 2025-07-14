@@ -316,7 +316,7 @@ InitPokegearTilemap:
 	
 
 .switch
-	db " NEXT▶@"
+	db " WEITER▶@"
 
 
 .Map:
@@ -1305,9 +1305,9 @@ PokegearPhoneContactSubmenu:
 .CallDeleteCancelStrings:
 	dwcoord 10, 6
 	db 3
-	db   "CALL"
-	next "DELETE"
-	next "CANCEL"
+	db   "ANRUF"
+	next "LÖSCHEN"
+	next "ZURÜCK"
 	db   "@"
 
 .CallDeleteCancelJumptable:
@@ -1318,8 +1318,8 @@ PokegearPhoneContactSubmenu:
 .CallCancelStrings:
 	dwcoord 10, 8
 	db 2
-	db   "CALL"
-	next "CANCEL"
+	db   "ANRUF"
+	next "ZURÜCK"
 	db   "@"
 
 .CallCancelJumptable:
@@ -1769,19 +1769,19 @@ NoRadioStation:
 	ldh [hBGMapMode], a
 	ret
 
-OaksPKMNTalkName:     db "KEN's <PK><MN> Talk@"
+OaksPKMNTalkName:     db "KENs <PK><MN> Talk@"
 PokedexShowName:      db "#DEX Show@"
-PokemonMusicName:     db "#MON Music@"
-LuckyChannelName:     db "Lucky Channel@"
+PokemonMusicName:     db "#MON-Musik@"
+LuckyChannelName:     db "Glückskanal@"
 UnownStationName:     db "?????@"
 
-PlacesAndPeopleName:  db "Places & People@"
-LetsAllSingName:      db "Let's All Sing!@"
-PokeFluteStationName: db "# FLUTE@"
+PlacesAndPeopleName:  db "Orte & Personen@"
+LetsAllSingName:      db "Lasst uns singen@"
+PokeFluteStationName: db "#MON-FLÖTE@"
 
 RadioInstructions:
-	text "Hold the A button"
-	line "to tune!"
+	text "Halte den A-Knopf,"
+	line "zum Einstellen!"
 	done
 
 _TownMap:

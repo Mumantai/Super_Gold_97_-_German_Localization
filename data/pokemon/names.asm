@@ -192,8 +192,8 @@ PokemonNames::
 	db "GOLUPPY@@@"     ; Goldfisch + Guppy
 	db "SONNFLORA@"
 	db "MOLAMBINO@"     ; Mola Mola + Bambino
-	db "ANKORAG@@@"     ; Anker + Rage
-	db "LURREENE@@"     ; Lure (engl. Köder) + Muräne
+	db "ANKORAG@@@"     ; Anker + Rage                      NOCH NICT FINAL
+	db "LURREENE@@"     ; Lure (engl. Köder) + Muräne       NOCH NICHT FINAL
 	db "PSIANA@@@@"
 	db "NACHTARA@@"
 	db "KRAMURX@@@"
@@ -202,23 +202,23 @@ PokemonNames::
 	db "ICOGNITO@@"
 	db "BIPULLA@@@"     ;
 	db "GIRAFARIG@"
-	db "BISTURBAN@"     ; Biss + Turbanschnecke
+	db "BISTURBAN@"     ; Biss + Turbanschnecke     NOCH NICHT FINAL
 	db "SLEIMY@@@@"     ; Schleim + Baby
 	db "PARASPOR@@"     ; Paras + Spore
-	db "MIMMEO@@@@"     ; Mimeographie + Mimic
+	db "MIMMEO@@@@"     ; Mimeographie + Mimic      NOCH NICHT FINAL
 	db "STAHLOS@@@"
 	db "SNUBBULL@@"
 	db "MORLORD@@@"
-	db "ZANGUWA@@@"     ; Zange + Kuwagata (jap. Hirschkäfer) alt. ZANGATA
+	db "ZANGUWA@@@"     ; Zange + Kuwagata (jap. Hirschkäfer) alt. ZANGATA      NOCH NICHT FINAL
 	db "SCHEROX@@@"
 	db "MOIBELLE@@"     ;
 	db "BELLEDAM@@"     ;
 	db "SNIEBEL@@@"
 	db "BALDORFISH"
-	db "KAZAPPELIN"     ;
-	db "KITTSEN@@@"     ; Kitten + Sen (jap. Münzeinheit)
+	db "FUNGUMIN@@"     ; Funken + Fugu (jap. Kugelfisch) + (See-)Mine      NOCH NICHT FINAL
+	db "SENYAN@@@@"     ; Sen (jap. Münzeinheit) + Nyan (jap. Miau)
 	db "SWALIASK@@"     ; Schwan + Allium + Maske
-	db "VLOODU@@@@"     ; Fluch + Voodoo    alt. FLUDOO
+	db "VLOODU@@@@"     ; Fluch + Voodoo    alt. FLUDOO     NOCH NICHT FINAL
 	db "PAN-SHI@@@"     ; Panda + Jiang-Shi
 	db "POMERANI@@"     ; Pomeranian + canis
 	db "REMORAID@@"
@@ -232,14 +232,14 @@ PokemonNames::
 	db "PHANPY@@@@"
 	db "DONPHAN@@@"
 	db "PORYGON2@@"
-	db "PANTIRINA@"     ; Pantomime + Ballerina
+	db "PANTIRINA@"     ; Pantomime + Ballerina     evtl. doch PANTIMIMI?
 	db "FARBEAGLE@"
 	db "RABAUZ@@@@"
 	db "KAPOERA@@@"
 	db "KUSSILLA@@"
 	db "ELEKID@@@@"
 	db "MAGBY@@@@@"
-	db "DODORST@@@"     ; Dodo + Horst
+	db "DODORST@@@"     ; Dodo + Horst      NOCH NICHT FINAL
 	db "MILTANK@@@"
 	db "RAIKOU@@@@"
 	db "ENTEI@@@@@"

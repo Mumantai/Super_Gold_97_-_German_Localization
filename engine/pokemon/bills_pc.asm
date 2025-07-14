@@ -234,10 +234,10 @@ BillsPCDepositMenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "DEPOSIT@"
-	db "STATS@"
-	db "RELEASE@"
-	db "CANCEL@"
+	db "ABLEGEN@"
+	db "STATUS@"
+	db "FREILASSEN@"
+	db "ZURÜCK@"
 
 _WithdrawPKMN:
 	ld hl, wOptions
@@ -472,10 +472,10 @@ BillsPC_Withdraw:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "WITHDRAW@"
-	db "STATS@"
-	db "RELEASE@"
-	db "CANCEL@"
+	db "MITNEHMEN@"
+	db "STATUS@"
+	db "FREILASSEN@"
+	db "ZURÜCK@"
 
 _MovePKMNWithoutMail:
 	ld hl, wOptions
@@ -682,9 +682,9 @@ _MovePKMNWithoutMail:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 3 ; items
-	db "MOVE@"
-	db "STATS@"
-	db "CANCEL@"
+	db "WECHSELN@"
+	db "STATUS@"
+	db "ZURÜCK@"
 
 .PrepInsertCursor:
 	xor a
@@ -993,7 +993,7 @@ BillsPC_BoxName:
 	ret
 
 .PartyPKMN:
-	db "PARTY <PK><MN>@"
+	db "Dein Team@"
 
 PCMonInfo:
 ; Display a monster's pic and
@@ -1240,7 +1240,7 @@ BillsPC_RefreshTextboxes:
 	ret
 
 .CancelString:
-	db "CANCEL@"
+	db "ABBRECHEN@"
 
 .PlaceNickname:
 	ld a, [de]
@@ -1945,7 +1945,7 @@ MovePKMNWitoutMail_InsertMon:
 	ret
 
 .Saving_LeaveOn:
-	db "Saving… Leave ON!@"
+	db "Speichern…@"
 
 .Jumptable:
 	dw .BoxToBox
@@ -2188,22 +2188,22 @@ BillsPC_InitGFX:
 PCSelectLZ: INCBIN "gfx/pc/pc.2bpp.lz"
 PCMailGFX:  INCBIN "gfx/pc/pc_mail.2bpp"
 
-PCString_ChooseaPKMN: db "Choose a <PK><MN>.@"
-PCString_WhatsUp: db "What's up?@"
-PCString_ReleasePKMN: db "Release <PK><MN>?@"
-PCString_MoveToWhere: db "Move to where?@"
-PCString_ItsYourLastPKMN: db "It's your last <PK><MN>!@"
-PCString_TheresNoRoom: db "There's no room!@"
-PCString_NoMoreUsablePKMN: db "No more usable <PK><MN>!@"
-PCString_RemoveMail: db "Remove MAIL.@"
-PCString_ReleasedPKMN: db "Released <PK><MN>.@"
-PCString_Bye: db "Bye,@"
-PCString_Stored: db "Stored @"
-PCString_Got: db "Got @"
-PCString_Non: db "Non.@"
-PCString_BoxFull: db "The BOX is full.@"
-PCString_PartyFull: db "The party's full!@"
-PCString_NoReleasingEGGS: db "No releasing EGGS!@"
+PCString_ChooseaPKMN: db "#MON wählen.@"
+PCString_WhatsUp: db "Wähle!@"
+PCString_ReleasePKMN: db "<PK><MN> freilassen?@"
+PCString_MoveToWhere: db "Wohin verschieben?@"
+PCString_ItsYourLastPKMN: db "Letztes #MON!@"
+PCString_TheresNoRoom: db "Die BOX ist voll!@"
+PCString_NoMoreUsablePKMN: db "Nicht einsetzbar.@"
+PCString_RemoveMail: db "Entferne BRIEF.@"
+PCString_ReleasedPKMN: db "<PK><MN> freigelassen.@"
+PCString_Bye: db "Ade, @"
+PCString_Stored: db " abgel.!@"
+PCString_Got: db " erhal.!@"
+PCString_Non: db "Nein@" ; unreferenced
+PCString_BoxFull: db "Die BOX ist voll!@"
+PCString_PartyFull: db "Team ist voll!@"
+PCString_NoReleasingEGGS: db "EI ablegen verbt.!@"
 
 _ChangeBox:
 	call LoadStandardMenuHeader
@@ -2384,7 +2384,7 @@ BillsPC_PrintBoxName:
 	ret
 
 .Current:
-	db "CURRENT@"
+	db "Aktiviert@"
 
 BillsPC_ChangeBoxSubmenu:
 	ld hl, .MenuHeader
@@ -2464,24 +2464,24 @@ BillsPC_ChangeBoxSubmenu:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "SWITCH@"
+	db "WECH.@"
 	db "NAME@"
-	db "PRINT@"
-	db "QUIT@"
+	db "DRUCK@"
+	db "ZURÜCK@"
 
 BillsPC_PlaceChooseABoxString:
 	ld de, .ChooseABox
 	jr BillsPC_PlaceChangeBoxString
 
 .ChooseABox:
-	db "Choose a BOX.@"
+	db "<PK><MN>-BOX wählen.@"
 
 BillsPC_PlaceWhatsUpString:
 	ld de, .WhatsUp
 	jr BillsPC_PlaceChangeBoxString
 
 .WhatsUp:
-	db "What's up?@"
+	db "Wähle!@"
 
 BillsPC_PlaceEmptyBoxString_SFX:
 	ld de, .NoMonString

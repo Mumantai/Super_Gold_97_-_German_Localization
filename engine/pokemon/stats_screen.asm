@@ -495,19 +495,19 @@ LoadPinkPage:
 
 .Status_Type:
 	db   "STATUS/"
-	next "TYPE/@"
+	next "TYP/@"
 
 .OK_str:
-	db "OK @"
+	db "OK@"
 
 .ExpPointStr:
-	db "EXP POINTS@"
+	db "EP-PUNKTE@"
 
 .LevelUpStr:
 	db "LEVEL UP@"
 
 .ToStr:
-	db "TO@"
+	db "▶@"
 
 .PkrsStr:
 	db "#RUS@"
@@ -613,7 +613,7 @@ LoadGreenPage:
 	db "---@"
 
 .Move:
-	db "MOVE@"
+	db "ATTACKE@"
 
 LoadBluePage:
 	push bc
@@ -793,31 +793,34 @@ EggStatsScreen:
 	ret
 
 EggString:
-	db "EGG@"
+	db "EI@"
 
 FiveQMarkString:
 	db "?????@"
 
 EggSoonString:
-	db   "It's making sounds"
-	next "inside. It's going"
-	next "to hatch soon!@"
+	db   "Es sind schon"
+	next "Laute zu hören."
+	next "Es wird bald"
+	next "schlüpfen!@"
 
 EggCloseString:
-	db   "It moves around"
-	next "inside sometimes."
-	next "It must be close"
-	next "to hatching.@"
+	db   "Es bewegt sich"
+	next "manchmal."
+	next "Es könnte bald"
+	next "schlüpfen!@"
 
 EggMoreTimeString:
-	db   "Wonder what's"
-	next "inside? It needs"
-	next "more time, though.@"
+	db   "Was ist in"
+	next "dem EI?"
+	next "Gedulde dich noch"
+	next "ein wenig!@"
 
 EggALotMoreTimeString:
-	db   "This EGG needs a"
-	next "lot more time to"
-	next "hatch.@"
+	db   "Das Ei braucht"
+	next "noch eine ganze"
+	next "Weile,bis"
+	next "es schlüpft!@"
 
 StatsScreen_LoadPageIndicators:
 	hlcoord 13, 5
