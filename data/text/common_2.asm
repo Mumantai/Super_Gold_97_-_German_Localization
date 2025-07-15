@@ -384,14 +384,17 @@ _ActorNameText::
 _UsedMove1Text::
 	text_start
 	line "ben. @"
+	text_end
 
 _UsedMove2Text::
 	text_start
 	line "ben. @"
+	text_end
 
 _UsedInsteadText::
 	text "stattdessen"
 	cont "@@"
+	text_end
 
 _MoveNameText::
 	text_ram wStringBuffer2

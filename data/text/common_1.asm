@@ -386,7 +386,7 @@ _LookAdorableDecoText::
 
 _ConsoleDecoText::
 	text "<PLAYER> spielt"
-	line " @"
+	line "@"
 	text_ram wStringBuffer3
 	text "!"
 	para "…OK! Die Reise"
