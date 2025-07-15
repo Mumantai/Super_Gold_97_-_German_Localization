@@ -537,10 +537,10 @@ SetDayOfWeek:
 .PutWeekdayString_InTextBox:
 	xor a
 	ldh [hBGMapMode], a
-	hlcoord 1, $11
-	lb bc, 1, 9
+	hlcoord 1, $10
+	lb bc, 1, 10
 	call ClearBox
-	hlcoord 1, $11
+	hlcoord 1, $10
 	call .PlaceWeekdayString
 	call WaitBGMap
 	and a
