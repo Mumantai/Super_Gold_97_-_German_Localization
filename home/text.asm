@@ -945,11 +945,11 @@ TextCommand_DAY::
 	dw .Fri
 	dw .Satur
 
-.Sun:    db "SUN@"
-.Mon:    db "MON@"
-.Tues:   db "TUES@"
-.Wednes: db "WEDNES@"
-.Thurs:  db "THURS@"
-.Fri:    db "FRI@"
-.Satur:  db "SATUR@"
-.Day:    db "DAY@"
+.Sun:    db "SONNTAG@"
+.Mon:    db "MONTAG@"
+.Tues:   db "DIENSTAG@"
+.Wednes: db "MITTWOCH@"
+.Thurs:  db "DONNERSTAG@"
+.Fri:    db "FREITAG@"
+.Satur:  db "SAMSTAG@"
+.Day:    db "@"
