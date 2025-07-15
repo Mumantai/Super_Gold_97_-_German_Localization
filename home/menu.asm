@@ -377,7 +377,7 @@ CopyNameFromMenu::
 	ret
 
 YesNoBox::
-	lb bc, SCREEN_WIDTH - 6, 7
+	lb bc, SCREEN_WIDTH - 7, 7
 
 PlaceYesNoBox::
 	jr _YesNoBox
