@@ -915,8 +915,6 @@ TextCommand_STRINGBUFFER::
 TextCommand_DAY::
 ; print the day of the week
 	call GetWeekday
-	cp 3
-	jr z, .mittwoch
 	push hl
 	push bc
 	ld c, a
@@ -938,17 +936,6 @@ TextCommand_DAY::
 	pop hl
 	ret
 
-.mittwoch
-	push hl
-	push bc
-	ld hl, .Wednes
-	ld d, h
-	ld e, l
-	pop hl
-	call PlaceString
-	pop hl
-	ret
-
 .Days:
 	dw .Sun
 	dw .Mon
@@ -958,11 +945,11 @@ TextCommand_DAY::
 	dw .Fri
 	dw .Satur
 
-.Sun:    db "SONN@"
+.Sun:    db "SUN@"
 .Mon:    db "MON@"
-.Tues:   db "DIENS@"
-.Wednes: db "MITTWOCH@"
-.Thurs:  db "DONNERS@"
-.Fri:    db "FREI@"
-.Satur:  db "SAMS@"
-.Day:    db "TAG@"
+.Tues:   db "TUES@"
+.Wednes: db "WEDNES@"
+.Thurs:  db "THURS@"
+.Fri:    db "FRI@"
+.Satur:  db "SATUR@"
+.Day:    db "DAY@"
