@@ -395,7 +395,7 @@ _YesNoBox::
 
 	ld a, b
 	ld [wMenuBorderLeftCoord], a
-	add 5
+	add 6
 	ld [wMenuBorderRightCoord], a
 	ld a, c
 	ld [wMenuBorderTopCoord], a
