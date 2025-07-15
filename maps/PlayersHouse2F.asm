@@ -327,7 +327,7 @@ PlayersRadioText1:
 	para "…"
 
 	para "Sie hören JOPM,"
-	line "den #MON-Sender!"
+	line "das #MON-Radio!"
 	
 	para "Und jetzt: #-"
 	line "MON-Nachrichten!"
