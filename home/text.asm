@@ -1,20 +1,17 @@
 ClearBox::
 ; Fill a c*b box at hl with blank tiles.
 	ld a, " "
-	; fallthrough
-
-FillBoxWithByte::
+	ld de, SCREEN_WIDTH
 .row
-	push bc
 	push hl
+	push bc
 .col
 	ld [hli], a
 	dec c
 	jr nz, .col
-	pop hl
-	ld bc, SCREEN_WIDTH
-	add hl, bc
 	pop bc
+	pop hl
+	add hl, de
 	dec b
 	jr nz, .row
 	ret
@@ -141,15 +138,6 @@ RadioTerminator::
 
 PrintText::
 	call SetUpTextbox
-	; fallthrough
-
-BuenaPrintText::
-	push hl
-	hlcoord TEXTBOX_INNERX, TEXTBOX_INNERY
-	lb bc, TEXTBOX_INNERH - 1, TEXTBOX_INNERW
-	call ClearBox
-	pop hl
-	; fallthrough
 
 PrintTextboxText::
 	bccoord TEXTBOX_INNERX, TEXTBOX_INNERY
@@ -166,7 +154,6 @@ SetUpTextbox::
 
 PlaceString::
 	push hl
-	; fallthrough
 
 PlaceNextChar::
 	ld a, [de]
@@ -177,40 +164,35 @@ PlaceNextChar::
 	pop hl
 	ret
 
-DummyChar:: ; unreferenced
-	pop de
-	; fallthrough
+	pop de ; unused
 
 NextChar::
 	inc de
 	jp PlaceNextChar
 
 CheckDict::
-MACRO dict
-	assert CHARLEN(\1) == 1
-	if \1 == 0
-		and a
-	else
-		cp \1
-	endc
-	if ISCONST(\2)
-		; Replace a character with another one
-		jr nz, .not\@
-		ld a, \2
-		jr .place
-	.not\@:
-	elif !STRCMP(STRSUB("\2", 1, 1), ".")
-		; Locals can use a short jump
-		jr z, \2
-	else
-		jp z, \2
-	endc
+dict: MACRO
+if \1 == "<NULL>"
+	and a
+else
+	cp \1
+endc
+
+if STRSUB("\2", 1, 1) == "\""
+; Replace a character with another one
+	jr nz, ._\@
+	ld a, \2
+._\@:
+elif STRSUB("\2", 1, 1) == "."
+; Locals can use a short jump
+	jr z, \2
+else
+	jp z, \2
+endc
 ENDM
 
-	dict "<MOBILE>",  MobileScriptChar
 	dict "<LINE>",    LineChar
 	dict "<NEXT>",    NextLineChar
-	dict "<CR>",      CarriageReturnChar
 	dict "<NULL>",    NullChar
 	dict "<SCROLL>",  _ContTextNoPause
 	dict "<_CONT>",   _ContText
@@ -238,18 +220,15 @@ ENDM
 	dict "<POKE>",    PlacePOKE
 	dict "%",         NextChar
 	dict "¯",         " "
-	dict "<¯>",       NextChar
-	dict "<->",       PlaceHyphenSplit
 	dict "<DEXEND>",  PlaceDexEnd
 	dict "<TARGET>",  PlaceMoveTargetsName
 	dict "<USER>",    PlaceMoveUsersName
 	dict "<ENEMY>",   PlaceEnemysName
-	dict "<PLAY_G>",  PlaceGenderedPlayerName
-	dict "ﾟ",         .place ; should be .diacritic
-	dict "ﾞ",         .place ; should be .diacritic
-	jr .not_diacritic
+	dict "ﾟ",         .diacritic
+	cp "ﾞ"
+	jr nz, .not_diacritic
 
-.diacritic ; unreferenced
+.diacritic
 	ld b, a
 	call Diacritic
 	jp NextChar
@@ -257,19 +236,18 @@ ENDM
 .not_diacritic
 	cp FIRST_REGULAR_TEXT_CHAR
 	jr nc, .place
-; dakuten or handakuten
+
 	cp "パ"
 	jr nc, .handakuten
-; dakuten
+
+.dakuten
 	cp FIRST_HIRAGANA_DAKUTEN_CHAR
 	jr nc, .hiragana_dakuten
-; katakana dakuten
 	add "カ" - "ガ"
-	jr .place_dakuten
-
+	jr .katakana_dakuten
 .hiragana_dakuten
 	add "か" - "が"
-.place_dakuten
+.katakana_dakuten
 	ld b, "ﾞ" ; dakuten
 	call Diacritic
 	jr .place
@@ -277,13 +255,11 @@ ENDM
 .handakuten
 	cp "ぱ"
 	jr nc, .hiragana_handakuten
-; katakana handakuten
 	add "ハ" - "パ"
-	jr .place_handakuten
-
+	jr .katakana_handakuten
 .hiragana_handakuten
 	add "は" - "ぱ"
-.place_handakuten
+.katakana_handakuten
 	ld b, "ﾟ" ; handakuten
 	call Diacritic
 
@@ -292,13 +268,7 @@ ENDM
 	call PrintLetterDelay
 	jp NextChar
 
-MobileScriptChar::
-	ld c, l
-	ld b, h
-	farcall RunMobileScript
-	jp PlaceNextChar
-
-MACRO print_name
+print_name: MACRO
 	push de
 	ld de, \1
 	jp PlaceCommandCharacter
@@ -319,11 +289,6 @@ PlaceKougeki: print_name KougekiText
 SixDotsChar:  print_name SixDotsCharText
 PlacePKMN:    print_name PlacePKMNText
 PlacePOKE:    print_name PlacePOKEText
-
-PlaceHyphenSplit:
-	ld [hl], "-"
-	jp LineFeedChar
-
 PlaceJPRoute: print_name PlaceJPRouteText
 PlaceWatashi: print_name PlaceWatashiText
 PlaceKokoWa:  print_name PlaceKokoWaText
@@ -331,18 +296,17 @@ PlaceKokoWa:  print_name PlaceKokoWaText
 PlaceMoveTargetsName::
 	ldh a, [hBattleTurn]
 	xor 1
-	jr PlaceBattlersName
+	jr PlaceMoveUsersName.place
 
 PlaceMoveUsersName::
 	ldh a, [hBattleTurn]
-	; fallthrough
 
-PlaceBattlersName:
+.place:
 	push de
 	and a
 	jr nz, .enemy
 
-	ld de, wBattleMonNickname
+	ld de, wBattleMonNick
 	jr PlaceCommandCharacter
 
 .enemy
@@ -350,7 +314,7 @@ PlaceBattlersName:
 	call PlaceString
 	ld h, b
 	ld l, c
-	ld de, wEnemyMonNickname
+	ld de, wEnemyMonNick
 	jr PlaceCommandCharacter
 
 PlaceEnemysName::
@@ -386,19 +350,6 @@ PlaceEnemysName::
 	ld de, wOTClassName
 	jr PlaceCommandCharacter
 
-PlaceGenderedPlayerName::
-	push de
-	ld de, wPlayerName
-	call PlaceString
-	ld h, b
-	ld l, c
-	ld a, [wPlayerGender]
-	bit PLAYERGENDER_FEMALE_F, a
-	ld de, KunSuffixText
-	jr z, PlaceCommandCharacter
-	ld de, ChanSuffixText
-	jr PlaceCommandCharacter
-
 PlaceCommandCharacter::
 	call PlaceString
 	ld h, b
@@ -413,7 +364,7 @@ RocketCharText::  db "ROCKET@"
 PlacePOKeText::   db "POKé@"
 KougekiText::     db "こうげき@"
 SixDotsCharText:: db "……@"
-EnemyText::       db "Gegn. @"
+EnemyText::       db "Enemy @"
 PlacePKMNText::   db "<PK><MN>@"
 PlacePOKEText::   db "<PO><KE>@"
 String_Space::    db " @"
@@ -421,8 +372,6 @@ String_Space::    db " @"
 PlaceJPRouteText::
 PlaceWatashiText::
 PlaceKokoWaText:: db "@"
-KunSuffixText::   db "@"
-ChanSuffixText::  db "@"
 
 NextLineChar::
 	pop hl
@@ -438,47 +387,6 @@ LineFeedChar::
 	push hl
 	jp NextChar
 
-CarriageReturnChar::
-	pop hl
-	push de
-	ld bc, -wTilemap + $10000
-	add hl, bc
-	ld de, -SCREEN_WIDTH
-	ld c, 1
-.loop
-	ld a, h
-	and a
-	jr nz, .next
-	ld a, l
-	cp SCREEN_WIDTH
-	jr c, .done
-
-.next
-	add hl, de
-	inc c
-	jr .loop
-
-.done
-	hlcoord 0, 0
-	ld de, SCREEN_WIDTH
-	ld a, c
-.loop2
-	and a
-	jr z, .done2
-	add hl, de
-	dec a
-	jr .loop2
-
-.done2
-	pop de
-	inc de
-	ld a, [de]
-	ld c, a
-	ld b, 0
-	add hl, bc
-	push hl
-	jp NextChar
-
 LineChar::
 	pop hl
 	hlcoord TEXTBOX_INNERX, TEXTBOX_INNERY + 2
@@ -490,8 +398,6 @@ Paragraph::
 
 	ld a, [wLinkMode]
 	cp LINK_COLOSSEUM
-	jr z, .linkbattle
-	cp LINK_MOBILE
 	jr z, .linkbattle
 	call LoadBlinkingCursor
 
@@ -558,8 +464,6 @@ PromptText::
 	ld a, [wLinkMode]
 	cp LINK_COLOSSEUM
 	jr z, .ok
-	cp LINK_MOBILE
-	jr z, .ok
 	call LoadBlinkingCursor
 
 .ok
@@ -567,8 +471,6 @@ PromptText::
 	call PromptButton
 	ld a, [wLinkMode]
 	cp LINK_COLOSSEUM
-	jr z, DoneText
-	cp LINK_MOBILE
 	jr z, DoneText
 	call UnloadBlinkingCursor
 
@@ -582,35 +484,23 @@ DoneText::
 	text_end
 
 NullChar::
-	ld a, "?"
-	ld [hli], a
-	call PrintLetterDelay
-	jp NextChar
+	ld b, h
+	ld c, l
+	pop hl
+	ld de, .ErrorText
+	dec de
+	ret
+
+.ErrorText
+	text_decimal hObjectStructIndexBuffer, 1, 2
+	text "エラー"
+	done
 
 TextScroll::
-	hlcoord TEXTBOX_INNERX, TEXTBOX_INNERY
-	decoord TEXTBOX_INNERX, TEXTBOX_INNERY - 1
-	ld a, TEXTBOX_INNERH - 1
-
-.col
-	push af
-	ld c, TEXTBOX_INNERW
-
-.row
-	ld a, [hli]
-	ld [de], a
-	inc de
-	dec c
-	jr nz, .row
-
-	inc de
-	inc de
-	inc hl
-	inc hl
-	pop af
-	dec a
-	jr nz, .col
-
+	hlcoord TEXTBOX_X, TEXTBOX_INNERY
+	decoord TEXTBOX_X, TEXTBOX_INNERY - 1
+	ld bc, 3 * SCREEN_WIDTH
+	call CopyBytes
 	hlcoord TEXTBOX_INNERX, TEXTBOX_INNERY + 2
 	ld a, " "
 	ld bc, TEXTBOX_INNERW
@@ -634,6 +524,14 @@ Text_WaitBGMap::
 	ret
 
 Diacritic::
+	push af
+	push hl
+	ld a, b
+	ld bc, -SCREEN_WIDTH
+	add hl, bc
+	ld [hl], a
+	pop hl
+	pop af
 	ret
 
 LoadBlinkingCursor::
@@ -642,11 +540,11 @@ LoadBlinkingCursor::
 	ret
 
 UnloadBlinkingCursor::
-	lda_coord 17, 17
+	ld a, "─"
 	ldcoord_a 18, 17
 	ret
 
-PlaceFarString::
+FarString::
 	ld b, a
 	ldh a, [hROMBank]
 	push af
@@ -659,7 +557,7 @@ PlaceFarString::
 	rst Bankswitch
 	ret
 
-PokeFluteTerminator::
+PokeFluteTerminator:: ; unreferenced
 	ld hl, .stop
 	ret
 
@@ -705,31 +603,29 @@ DoTextUntilTerminator::
 
 TextCommands::
 ; entries correspond to TX_* constants (see macros/scripts/text.asm)
-	table_width 2, TextCommands
-	dw TextCommand_START         ; TX_START
-	dw TextCommand_RAM           ; TX_RAM
-	dw TextCommand_BCD           ; TX_BCD
-	dw TextCommand_MOVE          ; TX_MOVE
-	dw TextCommand_BOX           ; TX_BOX
-	dw TextCommand_LOW           ; TX_LOW
-	dw TextCommand_PROMPT_BUTTON ; TX_PROMPT_BUTTON
-	dw TextCommand_SCROLL        ; TX_SCROLL
-	dw TextCommand_START_ASM     ; TX_START_ASM
-	dw TextCommand_DECIMAL       ; TX_DECIMAL
-	dw TextCommand_PAUSE         ; TX_PAUSE
-	dw TextCommand_SOUND         ; TX_SOUND_DEX_FANFARE_50_79
-	dw TextCommand_DOTS          ; TX_DOTS
-	dw TextCommand_WAIT_BUTTON   ; TX_WAIT_BUTTON
-	dw TextCommand_SOUND         ; TX_SOUND_DEX_FANFARE_20_49
-	dw TextCommand_SOUND         ; TX_SOUND_ITEM
-	dw TextCommand_SOUND         ; TX_SOUND_CAUGHT_MON
-	dw TextCommand_SOUND         ; TX_SOUND_DEX_FANFARE_80_109
-	dw TextCommand_SOUND         ; TX_SOUND_FANFARE
-	dw TextCommand_SOUND         ; TX_SOUND_SLOT_MACHINE_START
-	dw TextCommand_STRINGBUFFER  ; TX_STRINGBUFFER
-	dw TextCommand_DAY           ; TX_DAY
-	dw TextCommand_FAR           ; TX_FAR
-	assert_table_length NUM_TEXT_CMDS
+	dw TextCommand_START              ; TX_START
+	dw TextCommand_RAM                ; TX_RAM
+	dw TextCommand_BCD                ; TX_BCD
+	dw TextCommand_MOVE               ; TX_MOVE
+	dw TextCommand_BOX                ; TX_BOX
+	dw TextCommand_LOW                ; TX_LOW
+	dw TextCommand_PROMPT_BUTTON      ; TX_PROMPT_BUTTON
+	dw TextCommand_SCROLL             ; TX_SCROLL
+	dw TextCommand_START_ASM          ; TX_START_ASM
+	dw TextCommand_NUM                ; TX_NUM
+	dw TextCommand_PAUSE              ; TX_PAUSE
+	dw TextCommand_SOUND              ; TX_SOUND_DEX_FANFARE_50_79
+	dw TextCommand_DOTS               ; TX_DOTS
+	dw TextCommand_LINK_PROMPT_BUTTON ; TX_LINK_PROMPT_BUTTON
+	dw TextCommand_SOUND              ; TX_SOUND_DEX_FANFARE_20_49
+	dw TextCommand_SOUND              ; TX_SOUND_ITEM
+	dw TextCommand_SOUND              ; TX_SOUND_CAUGHT_MON
+	dw TextCommand_SOUND              ; TX_SOUND_DEX_FANFARE_80_109
+	dw TextCommand_SOUND              ; TX_SOUND_FANFARE
+	dw TextCommand_SOUND              ; TX_SOUND_SLOT_MACHINE_START
+	dw TextCommand_STRINGBUFFER       ; TX_STRINGBUFFER
+	dw TextCommand_DAY                ; TX_DAY
+	dw TextCommand_FAR                ; TX_FAR
 
 TextCommand_START::
 ; write text until "@"
@@ -834,9 +730,7 @@ TextCommand_PROMPT_BUTTON::
 ; wait for button press; show arrow
 	ld a, [wLinkMode]
 	cp LINK_COLOSSEUM
-	jp z, TextCommand_WAIT_BUTTON
-	cp LINK_MOBILE
-	jp z, TextCommand_WAIT_BUTTON
+	jp z, TextCommand_LINK_PROMPT_BUTTON
 
 	push hl
 	call LoadBlinkingCursor
@@ -860,17 +754,10 @@ TextCommand_SCROLL::
 
 TextCommand_START_ASM::
 ; run assembly code
-	bit 7, h
-	jr nz, .not_rom
 	jp hl
 
-.not_rom
-	ld a, TX_END
-	ld [hl], a
-	ret
-
-TextCommand_DECIMAL::
-; print a decimal number
+TextCommand_NUM::
+; print a number
 	ld a, [hli]
 	ld e, a
 	ld a, [hli]
@@ -990,8 +877,8 @@ TextCommand_DOTS::
 	pop hl
 	ret
 
-TextCommand_WAIT_BUTTON::
-; wait for button press; don't show arrow
+TextCommand_LINK_PROMPT_BUTTON::
+; wait for button press; display arrow
 	push hl
 	push bc
 	call PromptButton
@@ -1006,8 +893,8 @@ TextCommand_STRINGBUFFER::
 ; 2: wStringBuffer5
 ; 3: wStringBuffer2
 ; 4: wStringBuffer1
-; 5: wEnemyMonNickname
-; 6: wBattleMonNickname
+; 5: wEnemyMonNick
+; 6: wBattleMonNick
 	ld a, [hli]
 	push hl
 	ld e, a
@@ -1016,7 +903,7 @@ TextCommand_STRINGBUFFER::
 	add hl, de
 	add hl, de
 	ld a, BANK(StringBufferPointers)
-	call GetFarWord
+	call GetFarHalfword
 	ld d, h
 	ld e, l
 	ld h, b
@@ -1058,11 +945,11 @@ TextCommand_DAY::
 	dw .Fri
 	dw .Satur
 
-.Sun:    db "SONNTAG@"
-.Mon:    db "MONTAG@"
-.Tues:   db "DIENSTAG@"
-.Wednes: db "MITTWOCH@"
-.Thurs:  db "DONNERSTAG@"
-.Fri:    db "FREITAG@"
-.Satur:  db "SAMSTAG@"
-.Day:    db "@"
+.Sun:    db "SUN@"
+.Mon:    db "MON@"
+.Tues:   db "TUES@"
+.Wednes: db "WEDNES@"
+.Thurs:  db "THURS@"
+.Fri:    db "FRI@"
+.Satur:  db "SATUR@"
+.Day:    db "DAY@"
