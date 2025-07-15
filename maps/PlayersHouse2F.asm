@@ -356,7 +356,7 @@ PlayersRadioText1:
 	para "…"
 	
 	para "Und das waren die"
-	line "heutigen" #-"
+	line "heutigen #-"
 	cont "MON-Nachrichten!"
 	
 	para "…"
