@@ -243,7 +243,7 @@ KenGreeting1pt2:
     para "Ich glaube, du"
     line "hast vorhin eine"
     para "neue E-Mail auf"
-    line "deinem PC bekommen."
+    line "dem PC bekommen."
 
     para "Lies sie lieber,"
     line "bevor du das Haus"
