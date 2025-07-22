@@ -697,7 +697,7 @@ Oak2DirectionsTextNew:
     cont "Reise eure besten"
     cont "Freunde sein."
 
-    para "Behandelt sie gut.
+    para "Behandelt sie gut."
 
     para "Jetzt geht bitte"
     line "zu BLAU, er hat"
