@@ -647,7 +647,7 @@ BlueText_Pokedex:
     para "Doch als ich zu"
     line "arrogant wurde…"
 
-    para "Gab es jemanden,
+    para "Gab es jemanden,"
     line "der mir Demut"
     cont "beibrachte."
 
