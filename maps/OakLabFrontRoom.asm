@@ -345,7 +345,7 @@ DaisyStopsScript2:
 	end
 
 .mapcardname
-	db "MAP CARD@"
+	db "KARTEN-MODUL@"
 	
 DaisyScript_ReceiveTheBalls:
 	jumpstd ReceiveItemScript
@@ -527,366 +527,406 @@ BlueGoesToGetDex6Movement:
 	
 
 Oak2Text_Accepted:
-	text "Thanks, <PLAYER>!"
+    text "Danke, <PLAYER>!"
 
-	para "I appreciate you"
-	line "helping out my"
-	cont "grandpa."
+    para "Ich bin froh, dass"
+    line "du meinem Opa"
+    cont "aushilfst."
 	done
 
 Oak2Text_Accepted2:
-	text "How are things"
-	line "now that you've"
-	cont "beat the LEAGUE?"
-	para "I hope they're"
-	line "going well."
-	para "Have you seen"
-	line "<RIVAL> lately?"
-	para "I know he's out"
-	line "training with his"
-	cont "#MON."
-	para "I think he's"
-	line "learned how to"
-	para "work together with"
-	line "them as a team."
+    text "Wie stehen die"
+    line "Dinge jetzt, wo du"
+    cont "der CHAMP bist?"
+
+    para "Ich hoffe, alles"
+    line "läuft bestens."
+
+    para "Hast du <RIVAL> in"
+    line "letzter Zeit mal"
+    cont "gesehen?"
+
+    para "Ich weiß, dass er"
+    line "fleißig mit seinen"
+    cont "#MON trainiert."
+
+    para "Ich glaube, er hat"
+    line "gelernt, mit ihnen"
+    para "zusammen als Team"
+    line "zu arbeiten."
 	done
 	
 Oak2Text_Accepted3:
-	text "Hi <PLAYER>!"
-	para "Thanks for that"
-	line "incredible battle!"
-	para "Me and my #MON"
-	line "felt as fired up"
-	cont "as we ever had!"
+    text "Hi, <PLAYER>!"
+
+    para "Danke für den un-"
+    line "glaublichen Kampf!"
+
+    para "Meine #MON und"
+    line "ich waren schon"
+    para "lange nicht mehr"
+    line "so in Fahrt!"
 	done
 	
 	
 OakLabFrontRoomSilverText2:
-	text "My #MON will be"
-	line "the best ever!"
+    text "Mein #MON wird"
+    line "das Beste sein,"
+    cont "das es je gab!"
 	done
 	
 Oak2DirectionsText3:
 	text "<PLAYER>."
+
 	para "<RIVAL>."
-	para "I'm counting on"
-	line "you both!"
+
+	para "Ich zähle auf"
+	line "euch beide!"
 	done
 
 Oak2DirectionsText1:
-	text "OAK: With that"
-	line "#DEX, you're"
-	para "ready to begin the"
-	line "adventure of a"
-	cont "lifetime!"
-	
-	para "ROUTE 101 and"
-	line "SILENT HILLS would"
-	
-	para "be great places to"
-	line "start looking for"
-	cont "#MON."
-	
-	para "If you want to get"
-	line "some # BALLS,"
-	para "you should head"
-	line "towards PAGOTA"
-	para "CITY nearby to"
-	line "pick some up at"
-	cont "their MART."
-	
-	para "If your #MON is"
-	line "hurt, you should"
+    text "EICH: Mit diesem"
+    line "#DEX bist du"
+    para "bereit für das"
+    line "Abenteuer deines"
+    cont "Lebens!"
 
-	para "heal it with the"
-	line "#MON CENTER"
-	
-	para "just behind the"
-	line "lab."
+    para "ROUTE 101 und die"
+    line "SILENITIA HÜGEL"
+    para "wären ein guter"
+    line "Start, um nach"
+    cont "#MON zu suchen."
 
-	para "Feel free to use"
-	line "it anytime."
+    para "Wenn du ein paar"
+    line "#BÄLLE brauchst,"
+    para "solltest du im"
+    line "<PKMN>-SUPERMARKT"
+    para "von PAGOTIA CITY"
+    line "vorbeischauen."
 
-	
-	para "I'm sure you'll do"
-	line "great!"
+	text "Ist dein #MON"
+	line "verletzt, solltest"
+    para "solltest du es"
+    line "im <PKMN>-CENTER"
+    para "direkt hinter dem"
+    line "Labor heilen."
 
-	para "But just in case,"
-	line "here's my phone"
-	cont "number."
+    para "Besuche es, wann"
+    line "immer du möchtest."
 
-	para "Call me if any-"
-	line "thing comes up!"
+    para "Ich bin sicher, du"
+    line "machst das super!"
+
+	para "Aber nur für den"
+	line "Fall, dass… hier"
+	para "ist meine Nummer."
+	line "Ruf an, wenn es"
+	cont "etwas gibt!"
 	done
 	
 
 GotOak2sNumberText:
-	text "<PLAYER> got OAK's"
-	line "phone number."
+	text "<PLAYER> erhält"
+	line "EICHs Nummer."
 	done
 	
 	
 Lab_GetDexText:
-	text "<PLAYER> received"
+	text "<PLAYER> erhält"
 	line "#DEX!"
 	done
 
 
 BlueText_Pokedex:
-	text "BLUE: I used to"
-	line "want to be the"
-	para "world's best"
-	line "#MON trainer."
-	para "But when I got"
-	line "too arrogant…"
-	para "There was someone"
-	line "who showed me"
-	cont "humility."
-	para "<PLAYER>, you"
-	line "remind me of him."
-	para "And <RIVAL>!"
-	line "You remind me of"
-	cont "myself!"
-	para "Right, though!"
-	para "Here! Take this"
-	line "#DEX!"
-	para "It automatically"
-	line "records data on"
-	para "#MON you've"
-	line "seen or caught!"
+    text "BLAU: Ich wollte"
+    line "früher immer der"
+    para "beste #MON-"
+    line "Trainer der Welt"
+    cont "werden."
+
+    para "Doch als ich zu"
+    line "arrogant wurde…"
+
+    para "Gab es jemanden,
+    line "der mir Demut"
+    cont "beibrachte."
+
+    para "<PLAYER>, du"
+    line "erinnerst mich"
+    cont "sehr an ihn."
+
+    para "Und <RIVAL>!"
+    line "Du erinnerst mich"
+    cont "an mich selbst!"
+
+    para "So, genug davon!"
+
+    para "Hier! Nehmt diesen"
+    line "#DEX!"
+
+    para "Er speichert auto-"
+    line "matisch Daten über"
+    para "#MON, die ihr"
+    line "fang oer denen ihr"
+    cont "begegnet!"
 	done
 
 
 	
 BlueWillGiveDexText:
-	text "BLUE: Ah, I see"
-	line "you both got a"
-	cont "#MON!"
-	para "Here, I have"
-	line "something else"
-	cont "for you!"
+    text "BLAU: Ah, ihr habt"
+    line "also beide ein"
+    cont "#MON bekommen!"
+
+    para "Hier, ich habe"
+    line "noch etwas für"
+    cont "euch!"
 	done
 
 Text_GoSeeOak:
-	text "BLUE: Gramps is"
-	line "waiting for you in"
-	cont "the back!"
+    text "BLAU: Opa wartet"
+    line "hinten auf euch!"
 	done
 
 Text_Interesting:
 	text "<RIVAL>: Hey,"
 	line "<PLAYER>!"
 
-	para "This just got"
-	line "interesting!"
-
+    para "Jetzt wird's"
+    line "spannend!"
 	done
 
 Text_OakSpeechComeToBack:
-	text "OAK: Won't you two"
-	line "follow me to the"
-	cont "back?"
+    text "EICH: Würdet ihr"
+    line "mir bitte nach"
+    cont "hinten folgen?"
 	done
 	
 Text_OakSpeech:
-	text "OAK: Indeed! I am"
-	line "PROF.OAK! You've"
-	para "got quite the"
-	line "mouth on you!"
-	para "Won't you listen"
-	line "for a while?"
-	para "One year ago, in"
-	line "KANTO, I entrusted"
-	para "two boys with a"
-	line "#MON and a"
-	para "#DEX each to"
-	line "assist in my"
-	cont "research."
-	para "In the end, they"
-	line "did an astounding"
-	cont "job!"
-	para "They succeeded in"
-	line "documenting 150"
-	para "species of"
-	line "#MON!"
-	para "However, new"
-	line "#MON are being"
-	para "found all over"
-	line "NIHON!"
-	para "Therefore, I moved"
-	line "my lab from KANTO"
-	para "to here, SILENT"
-	line "TOWN, to further"
-	cont "my research."
-	para "My grandson BLUE"
-	line "and my AIDES help,"
-	para "but it's not quite"
-	line "enough!"
-	para "<PLAYER>!"
-	para "<RIVAL>!"
-	para "Please help me"
-	line "research #MON!"
+    text "EICH: Es stimmt!"
+    line "Ich bin wirklich"
+    cont "PROF. EICH!"
+
+    para "Du hast ein ganz"
+    line "schön loses Mund-"
+    cont "werk, Jungchen!"
+
+    para "Vor einem Jahr"
+    line "habe ich zwei"
+    para "Jungen in KANTO"
+    line "mit einem #MON"
+    para "und einem #DEX"
+    line "ausgestattet, um"
+    para "meine Forschungen"
+    line "zu unterstützen."
+
+    para "Am Ende haben sie"
+    line "großartige Arbeit"
+    cont "geleistet!"
+
+    para "Sie haben 150"
+    line "Arten von #MON"
+    cont "dokumentiert!"
+
+    para "Doch überall in"
+    line "NIHON werden neue"
+    cont "#MON gefunden!"
+
+    para "Deshalb habe ich"
+    line "mein Labor hier"
+    para "nach SILENITIA"
+    line "verlegt, um meine"
+    para "Forschungen weiter"
+    line "fortzusetzen."
+
+    para "Mein Enkel BLAU"
+    line "und meine ASSIS-"
+    para "TENTEN helfen mir"
+    line "dabei, doch das"
+    cont "reicht nicht aus!"
+
+    para "<PLAYER>!"
+
+    para "<RIVAL>!"
+
+    text "Bitte helft mir,"
+    line "die #MON zu"
+    cont "erforschen!"
 	done
 	
 	
 
 Oak2Text_Intro:
-	text "OAK: <PLAYER>!"
-	line "There you are!"
+	text "EICH: <PLAYER>!"
+	line "Da bist du ja!"
 
 	done	
 	
 Text_OakIsOld:
-	text "<RIVAL>: I can't"
-	line "believe this old"
-	para "geezer is PROF."
-	line "OAK…"
+    text "<RIVAL>: Ich kann"
+    line "es nicht fassen."
+
+    para "Dieser alte Kauz"
+    line "soll PROF. EICH"
+    para "sein…"
 	done
 	
 WhatIsDexText:
-	text "What is this?"
-	para "Some sort of"
-	line "encyclopedia?"
+	text "Was ist das?"
+
+	para "Eine Art Lexikon?"
 	done
 	
 OakLabFrontRoomSignText:
-	text "Remember to SAVE"
-	line "your progress!"
+	text "SICHERE regelmäßig"
+	line "deinen Spielstand!"
 	done	
 	
 OakLabFrontRoomComputerText:
-	text "It's a paper on"
-	line "#MON habitats."
+    text "Ein Bericht über"
+    line "#MON Habitate."
 	done
 	
 Text_RootingText:
-	text "I'll be rooting"
-	line "for you!"
+	text "Ich drück dir die"
+	line "Daumen!"
 	done
 	
 DaisySpeechText:
-	text "The boy who"
-	line "brought you"
-	para "here is my little"
-	line "brother."
-	para "In other words…"
-	para "I'm PROF.OAK's"
-	line "granddaughter!"
-	para "Grandpa's a"
-	line "fantastic"
-	cont "researcher!"
-	para "…But he can be a"
-	line "little forgetful."
-	para "He was also"
-	line "supposed to give"
-	cont "you this!"
+    text "Der Junge, der"
+    line "dich hierher"
+    para "gebracht hat, ist"
+    line "mein kleiner"
+    cont "Bruder."
+
+    para "Ich bin also PROF."
+    line "EICHs Enkelin!"
+
+    para "Opa ist ein"
+    line "großartiger"
+    cont "Forscher!"
+
+    para "…Aber manchmal ist"
+    line "er ein bischen"
+    cont "vergesslich."
+
+    para "Er sollte dir"
+    line "eigentlich noch"
+    cont "das hier geben!"
 	done
 
 DaisySpeechText2:
-	text "A POTION helps"
-	line "restore your"
-	para "#MON's health"
-	line "if you're not at"
-	cont "a #MON CENTER!"
-	para "I'll also throw"
-	line "in a few"
-	para "# BALLS to"
-	line "help out."
+    text "Ein TRANK kann die"
+    line "KP deines #MON"
+    para "außerhalb vom"
+    line "#MON-CENTER"
+    cont "wiederherstellen."
+
+    para "Ich gebe dir auch"
+    line "noch ein paar"
+    para "#BÄLLE mit, um dir"
+    line "den Start etwas zu"
+    cont "erleichtern."
 	done
 
 DaisySpeechText3:
-	text "But like Grandpa"
-	line "said, if you need"
-	para "more # BALLS,"
-	line "you can find them"
-	para "at just about any"
-	line "MART."
-	para "Also, we can't"
-	line "have your family"
-	para "worrying, so make"
-	line "sure to say"
-	para "goodbye to your"
-	line "MOM and KEN before"
-	cont "you leave town!"
-	para "I'll be rooting"
-	line "for you!"
+    text "Aber wie Opa schon"
+    line "sagte, wenn du"
+    para "mehr #BÄLLE"
+    line "brauchst, kannst"
+    para "du dir in jedem"
+    line "<PKMN>-SUPERMARKT"
+    cont "neue kaufen."
+
+    para "Vergiss nicht,"
+    line "dich von deiner"
+    para "MUTTER und KEN"
+    line "zu verabschieden,"
+    para "bevor du die Stadt"
+    line "verlässt!"
+
+    para "Ich drück dir die"
+    line "Daumen!"
 	done
 
 SilverEntranceWinText:
-	text "Wow! I thought my"
-	line "#MON would have"
-	para "been the best!"
+    text "Wow! Ich dachte,"
+    line "mein #MON wäre"
+    cont "das Beste!"
 	done
 
 EntranceRivalText_YouLost:
-	text "<PLAYER>! I'm"
-	line "so ready to show"
-	para "the world how"
-	line "great my #MON"
-	cont "is!"
-	para "I'll see you"
-	line "around soon!"
+    text "<PLAYER>! Ich bin"
+    line "bereit der Welt zu"
+    para "zeigen, wie stark"
+    line "mein #MON ist!"
+
+    para "Wir sehen uns!"
 	done
 
 SilverEntranceLossText:
-	text "Alright! My"
-	line "#MON rules!"
+    text "Alles klar!"
+    line "Mein #MON ist"
+    cont "der Hammer!"
 	done
 
 EntranceRivalText_YouWon:
-	text "<PLAYER>! I'm"
-	line "so ready to show"
-	para "the world how"
-	line "great my #MON"
-	cont "is!"
-	para "I'll see you"
-	line "around soon!"
+    text "<PLAYER>! Ich bin"
+    line "bereit der Welt zu"
+    para "zeigen, wie stark"
+    line "mein #MON ist!"
+
+    para "Wir sehen uns!"
 	done
 	
 TimeToBattle:
 	text "<PLAYER>!"
-	para "You're not getting"
-	line "off that easy!"
-	para "OAK gave us these"
-	line "#MON, so now"
-	para "we gotta battle"
-	line "them!"
-	para "I'm not gonna hold"
-	line "back!"
+
+	para "So einfach kommst"
+	line "du nicht davon!"
+
+	para "PROF. EICH hat uns"
+	line "diese #MON ge-"
+	para "geben, also müssen"
+	line "wir jetzt mit"
+	cont "ihnen kämpfen!"
+
+	para "Ich werde mich"
+	line "nicht zurückhalten!"
 	done
 	
 Text_InBack:
-	text "PROF.OAK just got"
-	line "back in. He's"
-	para "waiting to see"
-	line "you!"
+    text "PROF. EICH ist"
+    line "gerade wiederge-"
+    para "kommen. Er wartet"
+    line "schon auf dich!"
 	done
 
 OakLabFrontRoomAideText:
-	text "I'm one of PROF."
-	line "OAK's AIDES."
-	para "Of course, we"
-	line "respect each other"
-	cont "greatly."
+    text "Ich bin einer von"
+    line "PROF. EICHs ASSIS-"
+    cont "TENTEN."
+
+    para "Natürlich respek-"
+    line "tieren wir uns"
+    cont "gegenseitig."
 	done
 	
 DoorLockedText:
-	text "The door seems to"
-	line "be locked…"
+    text "Die Tür ist"
+    line "verschlossen…"
 	done
 	
 OakLabFrontRoomSilverText:
-	text "Yo, <PLAYER>!"
-	
-	para "Looks like PROF."
-	line "OAK isn't here!"
-	
-	para "I wonder when"
-	line "he would have"
-	
-	para "expected us to"
-	line "show up!"
-	
+    text "Y, <PLAYER>!"
+
+    para "Anscheinend ist"
+    line "PROF. EICH gerade"
+    cont "nicht da!"
+
+    para "Was hat er denn"
+    line "gedacht, wann wir"
+    cont "hier sein würden?"
 	done
 	
 DaisyLeftMovement:

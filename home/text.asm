@@ -944,12 +944,12 @@ TextCommand_DAY::
 	dw .Thurs
 	dw .Fri
 	dw .Satur
-
-.Sun:    db "SONN@"
-.Mon:    db "MON@"
-.Tues:   db "DIEN@"
-.Wednes: db "MITT@"
-.Thurs:  db "DONN@"
-.Fri:    db "FREI@"
-.Satur:  db "SAMS@"
+; TODO: Wochentage komplett anzeigen lassen, ohne ROM0 überlaufen zu lassen
+.Sun:    db "SO@"
+.Mon:    db "MO@"
+.Tues:   db "DI@"
+.Wednes: db "MI@"
+.Thurs:  db "DO@"
+.Fri:    db "FR@"
+.Satur:  db "SA@"
 .Day:    db ".@"

@@ -164,7 +164,7 @@ Oak2PhoneDisasterText:
     line "treffen könntest."
     para "Es ist eine kleine"
     line "Stadt nördlich von"
-    para "PORT ABANTIA."
+    para "PORT ABANISHI."
 
     para "Die Stadt ist"
     line "berühmt für ihre"
@@ -246,7 +246,7 @@ Oak2PhoneRadioTowerRocketTakeoverText:
 
 	para "Du könntest den"
 	line "RADIOTURM in PORT"
-	line "ABANTIA besuchen"
+	line "ABANISHI besuchen"
 	para "und diesen selt-"
 	line "samen Radiosen-"
 	cont "dungen nachgehen."

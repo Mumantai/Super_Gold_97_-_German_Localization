@@ -283,7 +283,7 @@ KenGreeting4:
     line "stellungsgespräch"
     para "für einen Job als"
     line "Radio-Moderator in"
-    cont "PORT AABANTIA!"
+    cont "PORT ABANISHI!"
 
     para "Vielleicht hörst"
     line "du mich bald im"
@@ -300,7 +300,7 @@ KenGreeting5:
     line "stellungsgespräch"
     para "für einen Job als"
     line "Radio-Moderator in"
-    cont "PORT AABANTIA!"
+    cont "PORT ABANISHI!"
 
     para "Vielleicht hörst"
     line "du mich bald im"

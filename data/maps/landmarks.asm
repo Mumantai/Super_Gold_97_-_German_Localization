@@ -106,7 +106,7 @@ SilentTownName:     db "SILENITIA@"         ; Silens (lat. Stille) + initium (la
 CrownCityName:      db "COROA CITY@"        ; Coroa (port. Krone)
 PagotaCityName:     db "PAGETIA CITY@"      ; Pagode + vetus (lat. alt)
 BirdonTownName:     db "TOTOMONIA@"         ; Tottori + Flegmon
-WestportCityName:   db "PORT ABANTIA@"      ; Port (alt. Hafen) + Abanti (ahd. Abend bzw. Westen)
+WestportCityName:   db "PORT ABANISHI@"     ; Port (alt. Hafen) + Abanti (ahd. Abend bzw. Westen) + Nishi (jap. Westen)
 TeknosCityName:     db "TEKNOPIA CITY@"     ; Teknos (griech. Technik) + Utopia
 AlloyCityName:      db "GENEOS CITY@"       ; Genus (lat. Gattung) + neos (griech. neu)
 SunpointCityName:   db "MINAMIDIA CITY@"    ; Minami (jap. Süden) + Pyramide

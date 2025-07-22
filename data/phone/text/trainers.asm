@@ -344,7 +344,7 @@ IrwinRocketTakeoverRumorText:
 	line "du gehört?"
 
 	para "Der RADIOTURM von"
-	line "PORT ABANTIA wurde"
+	line "PORT ABANISHI wurde"
 
 	para "von TEAM ROCKET"
 	line "annektiert!"
@@ -359,7 +359,7 @@ GinaRocketTakeoverRumorText:
 
 	para "Sie annektierten"
 	line "den RADIOTURM in"
-	cont "PORT ABANTIA."
+	cont "PORT ABANISHI."
 
 	para "Sind die Menschen"
 	line "im TURM in"

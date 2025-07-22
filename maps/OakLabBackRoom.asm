@@ -564,65 +564,73 @@ BlueGivesDex3:
 	step_end
 	
 Text_YesSilverGetsOneToo:
-	text "OAK: Yes, of"
-	line "course."
-	para "Go on, choose!"
+	text "EICH: Ja, aber"
+	line "natürlich."
+
+	para "Los, such dir"
+	line "eines aus!"
 	done
 	
 Text_SilverGetsOneToo:
-	text "<RIVAL>: We"
-	line "both get one?"
-	para "I get one too!?"
+	text "<RIVAL>: Wir beide"
+	line "bekommen eines?"
+
+	para "Ich etwa auch?!"
 	done
 	
 
 	
 Text_SilverTakeThisOne:
-	text "You sure you chose"
-	line "right, <PLAYER>?"
-	para "This #MON looks"
-	line "much stronger!"
+    text "Bist du sicher, du"
+    line "hast die richtige"        ; ggf. nur "Bist du dir sicher, PLAYER?"
+    para "Wahl getroffen,"
+    line "<PLAYER>?"
+
+    para "Dieses #MON"
+    line "sieht viel stärker"
+    cont "aus!"
 	done
 	
 Text_SilverGetCruise:
-	text "<RIVAL> received"
-	line "PALSSIO!"
+	text "<RIVAL> erhält"
+	line "AMISSIO!"
 	done
 	
 Text_SilverGetCubburn:
-	text "<RIVAL> received"
-	line "CUBBURN!"
+	text "<RIVAL> erhält"
+	line "PYROXIO!"
 	done
 	
 Text_SilverGetChikorita:
-	text "<RIVAL> received"
-	line "CHIKORITA!"
+	text "<RIVAL> erhält"
+	line "ENDIVIE!"
 	done
 		
 Text_Best:
-	text "My #MON is"
-	line "gonna be the best"
-	cont "one!"
+	text "Mein #MON wird"
+	line "das beste werden!"
 	done
 
 Text_OakTakeAMon:
-	text "OAK: Look over"
-	line "there!"
-	para "On the table are"
-	line "three # BALLS."
-	para "Each of you,"
-	line "choose one to be"
-	para "your own partner"
-	line "#MON!"
+    text "EICH: Dort auf dem"
+    line "Tisch liegen drei"
+    cont "#BÄLLE."
+
+    para "Ihr dürft euch"
+    line "beide einen davon"
+    cont "aussuchen."
+
+    para "Das #MON darin"
+    line "wird euer Partner!"
 	done
 	
 Text_RivalGenerous:
-	text "<RIVAL>: I'll"
-	line "let you choose"
-	para "first, <PLAYER>,"
-	line "because I'm a"
-	para "generous kind of"
-	line "guy!"
+    text "<RIVAL>: Ich werde"
+    line "dir den Vortritt"
+    cont "lassen, <PLAYER>."
+
+    para "Ich bin eben ein"
+    line "großzügiger Kerl!"
 	done
 
 
@@ -630,68 +638,71 @@ Text_RivalGenerous:
 
 
 Oak2Text_LetYourMonBattleIt:
-	text "If a wild #MON"
-	line "appears, let your"
-	cont "#MON battle it!"
+	text "Erscheint ein"
+	line "wildes #MON,"
+	cont "lass deine #MON"
+	cont "dagegen kämpfen."
 	done
 
 LabWhereGoingText:
-	text "OAK: Wait! Where"
-	line "are you going?"
+	text "EICH: Warte! Wohin"
+	line "gehst du?"
 	done
 
 TakeCubburnText:
-	text "OAK: You'll take"
-	line "CUBBURN, the"
-	cont "fire #MON?"
+	text "EICH: Willst du"
+	line "PYROXIO, das"
+	cont "Feuer-#MON?"
 	done
 
 TakeCruiseText:
-	text "OAK: Do you want"
-	line "PALSSIO, the"
-	cont "water #MON?"
+	text "EICH: Wählst du"
+	line "AMISSIO, das"
+	cont "Wasser-#MON?"
 	done
 
 TakeChikoritaText:
-	text "OAK: So, you like"
-	line "CHIKORITA, the"
-	cont "grass #MON?"
+	text "EICH: Entscheidest"
+	line "du dich für"
+	para "ENDIVIE, das"
+	line "Pflanzen-#MON?"
 	done
 
 DidntChooseStarterText:
-	text "OAK: Think it over"
-	line "carefully."
+	text "EICH: Überlege es"
+	line "dir gut!"
 
-	para "Your partner is"
-	line "important."
+	para "Die Wahl deines"
+	line "Partners ist sehr"
+	cont "wichtig."
 	done
 
 ChoseStarterText:
-	text "OAK: I think"
-	line "that's a great"
-	cont "#MON too!"
+	text "EICH: Ich bin auch"
+	line "der Meinung, dass"
+	cont "dieses #MON"
+	cont "sehr gut ist!"
 	done
 
 ReceivedStarterText:
-	text "<PLAYER> received"
+	text "<PLAYER> erhält"
 	line "@"
 	text_ram wStringBuffer3
 	text "!"
 	done
 	
 Oak2DirectionsTextNew:
-	text "OAK: Your partner"
-	line "#MON wil be an"
-	para "important ally as"
-	line "well as a friend."
-	para "Be sure to treat"
-	line "it kindly."
-	para "Now, both of you"
-	line "should go see"
-	cont "BLUE."
-	para "He has something"
-	line "important to give"
-	cont "to you."
+    text "EICH: Eure #MON"
+    line "werden auf eurer"
+    cont "Reise eure besten"
+    cont "Freunde sein."
+
+    para "Behandelt sie gut.
+
+    para "Jetzt geht bitte"
+    line "zu BLAU, er hat"
+    cont "etwas Wichtiges"
+    cont "für euch."
 	done
 
 
@@ -713,335 +724,364 @@ Oak2PokeBallText:
 	done
 
 OakLabBackRoomHealingMachineText1:
-	text "I wonder what this"
-	line "does?"
+	text "Ich frage mich,"
+	line "wozu das gut ist!"
 	done
 
 OakLabBackRoomHealingMachineText2:
-	text "Would you like to"
-	line "heal your #MON?"
+	text "Willst du deine"
+	line "#MON heilen?"
 	done
 
 Oak2AfterTheftText1:
-	text "OAK2: <PLAYER>, this"
-	line "is terrible…"
+	text "EICH2: <PLAYER>, es"
+	line "ist schrecklich…"
 
-	para "Oh, yes, what was"
-	line "MR.#MON's big"
-	cont "discovery?"
+	para "Oh, was hat MR."
+	line "#MON denn"
+	cont "Großes entdeckt?"
 	done
 
 Oak2AfterTheftText2:
-	text "<PLAYER> handed"
-	line "the MYSTERY EGG to"
-	cont "PROF.OAK2."
+	text "<PLAYER> übergibt"
+	line "PROF. EICH2 das"
+	cont "RÄTSEL-EI."
 	done
 
 Oak2AfterTheftText3:
-	text "OAK2: This?"
+	text "EICH2: Das hier?"
 	done
 
 Oak2AfterTheftText4:
-	text "But… Is it a"
-	line "#MON EGG?"
+	text "Aber… ist das auch"
+	line "ein #MON-EI?"
 
-	para "If it is, it is a"
-	line "great discovery!"
+	para "Falls ja, dann ist"
+	line "es in der Tat eine"
+	cont "große Entdeckung!"
 	done
 
 Oak2AfterTheftText5:
-	text "OAK2: What?!?"
+	text "EICH2: Wie?!?"
 
-	para "PROF.OAK gave you"
-	line "a #DEX?"
+	para "PROF. EICH hat dir"
+	line "einen #DEX"
+	cont "gegeben?"
 
-	para "<PLAYER>, is that"
-	line "true? Th-that's"
-	cont "incredible!"
+	para "<PLAYER>, ist das"
+	line "wahr? D-Das ist ja"
+	cont "unglaublich!"
 
-	para "He is superb at"
-	line "seeing the poten-"
-	cont "tial of people as"
-	cont "trainers."
+	para "Kein anderer ist"
+	line "wie er in der"
+	para "Lage, das wahre"
+	line "Potenzial eines"
+	para "Trainers zu er-"
+	line "kennen."
 
-	para "Wow, <PLAYER>. You"
-	line "may have what it"
+	para "Wow, <PLAX>. Es"
+	line "ist vielleicht"
+	para "deine Bestimmung,"
+	line "der CHAMP zu"
+	cont "werden."
 
-	para "takes to become"
-	line "the CHAMPION."
+	para "Es sieht auch so"
+	line "aus, als könntest"
+	para "du hervorragend"
+	line "mit #MON um-"
+	cont "gehen."
 
-	para "You seem to be"
-	line "getting on great"
-	cont "with #MON too."
+	para "Du solltest die"
+	line "Herausforderung"
+	para "der PKMN-ARENEN"
+	line "annehmen."
 
-	para "You should take"
-	line "the #MON GYM"
-	cont "challenge."
-
-	para "The closest GYM"
-	line "would be the one"
-	cont "in PAGOTA CITY."
+	para "Die nächste PKMN-"
+	line "ARENA befindet"
+	cont "sich in PAGETIA."
 	done
 
 Oak2AfterTheftText6:
-	text "…<PLAYER>. The"
-	line "road to the"
+	text "…<PLAYER>. Der"
+    line "Weg zum Ruhm ist"
+    para "lang und beschwer-"
+    line "lich."
 
-	para "championship will"
-	line "be a long one."
-
-	para "Before you leave,"
-	line "make sure that you"
-	cont "talk to your mom."
+    para "Bevor du los-"
+    line "ziehst, solltest"
+    cont "du mit deiner Mama"
+    cont "sprechen."
 	done
 
 Oak2StudyingEggText:
-	text "OAK2: Don't give"
-	line "up! I'll call if"
-
-	para "I learn anything"
-	line "about that EGG!"
+	text "EICH2: Gib nicht"
+	line "auf! Ich rufe dich"
+	para "an, wenn ich etwas"
+	line "über dieses EI he-"
+	cont "rausgefunden habe."
 	done
 
 Oak2AideHasEggText:
-	text "OAK2: <PLAYER>?"
-	line "Didn't you meet my"
-	cont "assistant?"
+	text "EICH2: <PLAYER>?"
+	line "Hast du schon mei-"
+	cont "nen Assistenten"
+	cont "getroffen?"
 
-	para "He should have met"
-	line "you with the EGG"
+	para "Er sollte mit dem"
+	line "EI im #MON-"
+	cont "CENTER von PAGETIA"
+	cont "CITY warten."
 
-	para "at PAGOTA CITY's"
-	line "#MON CENTER."
-
-	para "You must have just"
-	line "missed him. Try to"
-	cont "catch him there."
+	para "Du musst ihn ver-"
+	line "passt haben. Ver-"
+	cont "suche, ihn dort zu"
+	cont "finden."
 	done
 
 OakHearsYouChallengeLeagueText:
-	text "So, I hear you're"
-	line "taking the NIHON"
-	para "#MON LEAGUE"
-	line "challenge."
-	para "That's great!"
-	line "I'm sure you've"
-	para "got a fighting"
-	line "chance to do"
-	cont "great things!"
+    text "Wie ich höre,"
+    line "stellst du dich"
+    para "der #MON LIGA"
+    line "von NIHON."               ; evtl. angleichen an Dialog aus /data/phone/text/oak2.asm
+
+    para "Das ist großartig!"
+
+    para "Ich bin sicher, du"
+    line "du hast das Zeug,"
+    cont "um Großes zu"
+    cont "erreichen!"
 	done
 
 
 Oak2GiveEverstoneText1:
-	text "Thanks, <PLAYER>!"
-	line "You're helping"
+	text "Danke, <PLAYER>!"
+	line "Du hilfst uns beim"
+	para "Aufklären vieler"
+	line "#MON-Mysterien!"
 
-	para "unravel #MON"
-	line "mysteries for us!"
-
-	para "I want you to have"
-	line "this as a token of"
-	cont "our appreciation."
+	para "Bitte nimm dies"
+	line "als Zeichen unser-"
+	cont "er Wertschätzung."
 	done
 
 
 
 AideText_AfterTheft:
-	text "We appreciate"
-	line "your assistance!"
+	text "Wir schätzen deine"
+	line "Hilfe sehr!"
 	done
 
 Oak2GiveMasterBallText1:
-	text "OAK: Hi, <PLAYER>!"
-	line "Thanks to you, my"
+	text "EICH2: Hi, <PLAYER>!"
+	line "Dank dir komme ich"
+	para "mit meinen For-"
+	line "schungen hervor-"
+	cont "ragend voran!"
 
-	para "research is going"
-	line "great!"
-
-	para "Take this as a"
-	line "token of my"
-	cont "appreciation."
+	para "Nimm dies als"
+	line "Zeichen meiner"
+	cont "Dankbarkeit!"
 	done
 
 Oak2GiveMasterBallText2:
-	text "The MASTER BALL is"
-	line "the best!"
+	text "Der MEISTERBALL"
+	line "ist der Beste von"
+	cont "allen!"
 
-	para "It's the ultimate"
-	line "BALL! It'll catch"
+	para "Er ist der ultima-"
+	line "tive BALL! Ihm"
+	para "kann kein #MON"
+	line "entwischen."
 
-	para "any #MON with-"
-	line "out fail."
+	para "Er wird nur aner-"
+	line "kannten #MON-"
+	cont "Forschern"
+	cont "überreicht."
 
-	para "It's given only to"
-	line "recognized #MON"
-	cont "researchers."
-
-	para "I think you can"
-	line "make much better"
-
-	para "use of it than I"
-	line "can, <PLAYER>!"
+	para "Aber ich glaube,"
+	line "du hast bessere"
+	para "Verwendung dafür"
+	line "als ich, <PLAYER>!"
 	done
 
 Oak2GiveTicketText1:
-	text "OAK: <PLAYER>!"
-	line "There you are!"
+	text "EICH: <PLAYER>!"
+	line "Da bist du ja!"
 
-	para "I called because I"
-	line "have something for"
-	cont "you."
+	para "Ich habe dich ge-"
+	line "rufen, weil ich"
+	cont "dir etwas geben"
+	cont "möchte."
 
-	para "See? It's an"
-	line "S.S.TICKET."
+	para "Es handelt sich um"
+	line "ein BOOTSTICKET."
 	done
 Oak2GiveTicketText2:
-	text "If you go to the"
-	line "docks over in"
-	cont "WESTPORT CITY,"
-	para "you can take a"
-	line "boat to NIHON's"
-	cont "SOUTHWEST ISLANDS."
-	para "There are lots of"
-	line "rare #MON there"
-	para "that can't be"
-	line "found on the"
-	cont "mainland."
-	para "You should head on"
-	line "down there when"
-	cont "you get a chance."
+    text "Am Hafen von PORT"
+    line "ABANISHI kannst du"
+    para "mit dem Schiff zu"
+    line "den SÜDWESTINSELN"
+    cont "NIHON fahren."
+
+    para "Dort gibt es viele"
+    line "seltene #MON,"
+    para "die du auf dem"
+    line "Festland nicht"
+    cont "finden kannst."
+
+    para "Du solltest mal"
+    line "vorbeischauen,"
+    para "wenn du die"
+    line "Gelegenheit dazu"
+    cont "hast."
 	done
 
 
 AideText_GiveYouPotion:
-	text "<PLAYER>, I want"
-	line "you to have"
-	para "something that"
-	line "might help you"
-	cont "out."
+	text "<PLAYER>, ich"
+    line "möchte, dass du"
+    cont "das mitnimmst."
 	done
 
 AideText_AlwaysBusy:
-	text "We appreciate"
-	line "your assistance!"
+	text "Wir sind nur zu"          ;eigentlich "Wir schätzen deine Hilfe sehr!"
+	line "zweit und wir ha-"
+	cont "ben viel zu tun."
 	done
 
 AideText_TheftTestimony:
-	text "We appreciate"
-	line "your assistance!"
+	text "Wir schätzen deine"
+	line "Hilfe sehr!"
 	done
 
 
 
 OakLabBackRoomTravelTip1Text:
-	text "<PLAYER> opened a"
-	line "book."
+	text "<PLAYER> öffnet"
+	line "ein Buch."
 
-	para "Travel Tip 1:"
+	para "Reise-Tipp 1:"
 
-	para "Press START to"
-	line "open the MENU."
+	para "Drücke START, um"
+	line "das MENÜ zu"
+	cont "öffnen."
 	done
 
 OakLabBackRoomTravelTip2Text:
-	text "<PLAYER> opened a"
-	line "book."
+	text "<PLAYER> öffnet"
+	line "ein Buch."
 
-	para "Travel Tip 2:"
+	para "Reise-Tipp 2:"
 
-	para "Record your trip"
-	line "with SAVE!"
+	para "Speichere deine"
+	line "Fortschritte mit"
+	cont "SICHERN!"
 	done
 
 OakLabBackRoomTravelTip3Text:
-	text "<PLAYER> opened a"
-	line "book."
+	text "<PLAYER> öffnet"
+	line "ein Buch."
 
-	para "Travel Tip 3:"
+	para "Reise-Tipp 3:"
 
-	para "Open your PACK and"
-	line "press SELECT to"
-	cont "move items."
+	para "Öffne deinen"
+	line "BEUTEL und drücke"
+	cont "SELECT, um deine"
+	cont "Items zu ver-"
+	cont "walten."
 	done
 
 OakLabBackRoomTravelTip4Text:
-	text "<PLAYER> opened a"
-	line "book."
+	text "<PLAYER> öffnet"
+	line "ein Buch."
 
-	para "Travel Tip 4:"
+	para "Reise-Tipp 4:"
 
-	para "Check your #MON"
-	line "moves. Press the"
-
-	para "A Button to switch"
-	line "moves."
+	para "Verwalte die At-"
+	line "tacken deiner"
+	cont "#MON. Drücke"
+	cont "den A-Knopf, um"
+	cont "ihre Position zu"
+	cont "verändern."
 	done
 
 OakLabBackRoomTrashcanText:
-	text "The wrapper from"
-	line "the snack PROF.OAK"
-	cont "ate is in there…"
+	text "Die Verpackung"
+	line "des Snacks, den"
+	cont "PROF. EICH geges-"
+	cont "sen hat, befindet"
+	cont "sich hier…"
 	done
 
 Oak2GiveEverstoneText2:
-	text "That's an"
-	line "EVERSTONE."
+	text "Das ist ein"
+	line "EWIGSTEIN."
 
-	para "Some species of"
-	line "#MON evolve"
+	para "Einige #MON"
+	line "entwickeln sich"
 
-	para "when they grow to"
-	line "certain levels."
+	para "weiter, wenn sie"
+	line "einen bestimmten"
+	cont "Level erreichen."
 
-	para "A #MON holding"
-	line "the EVERSTONE"
-	cont "won't evolve."
+	para "Ein #MON,"
+	line "das den EWIGSTEIN"
+	cont "trägt, wird sich"
+	cont "aber nicht ent-"
+	cont "wickeln."
 
-	para "Give it to a #-"
-	line "MON you don't want"
-	cont "to evolve."
+	para "Gib ihn einem"
+	line "#MON, das"
+	cont "sich nicht weiter-"
+	cont "entwickeln soll!"
 	done
 
 Oak2Text_CallYou:
-	text "OAK: <PLAYER>, I'll"
-	line "call you if any-"
-	cont "thing comes up."
+	text "EICH: <PLAYER>, ich"
+	line "rufe dich an, wenn"
+	cont "sich etwas tut."
 	done
 	
 Oak2RocketsReturnedText:
-	text "I worry that TEAM"
-	line "ROCKET is planning"
-	para "something truly"
-	line "terrible…"
+    text "Ich befürchte,"
+    line "dass TEAM ROCKET"
+    para "etwas wirklich"
+    line "Schreckliches"
+    cont "plant…"
 	done
 	
 Oak2YoureBasicallyAHeroText:
-	text "It's incredible you"
-	line "and <RIVAL>"
-	para "took on TEAM"
-	line "ROCKET!"
-	para "You both are"
-	line "heroes to all"
-	cont "#MON!"
-	para "Keep up the great"
-	line "work, and aim for"
-	cont "MT.FUJI!"
+    text "Unglaublich, dass"
+    line "du und <RIVAL> es"
+    para "mit TEAM ROCKET"
+    line "aufgenommen habt!"
+
+    para "Ihr seid Helden"
+    line "für alle #MON!"
+
+    para "Macht weiter so"
+    line "und kämpft euch"
+    cont "zum FUJIYAMA!"        ;evtl. ändern
 	done
 	
 Oak2AfterLeagueInPersonText:
-	text "Congratulations on"
-	line "defeating the"
-	cont "LEAGUE!"
-	para "That's a huge"
-	line "accomplishment!"
-	para "And thanks again"
-	line "for helping me"
-	cont "with my research."
-	para "If this is what"
-	line "you've been able"
-	para "to do already,"
-	line "you've got a great"
-	cont "future ahead!"
+    text "Glückwunsch zu"
+    line "deinem Sieg über"
+    cont "die #MON LIGA!"
+
+    para "Das ist eine"
+    line "große Leistung!"
+
+    para "Vielen Dank auch"
+    line "für deine Unter-"
+    para "stützung bei"
+    line "meiner Forschung."
+
+    para "Mit dem, was du"
+    line "schon geschafft"
+    para "hast, liegt eine"
+    line "großartige Zukunft"
+    cont "vor dir!"
 	done
 
 OakLabBackRoom_MapEvents:
