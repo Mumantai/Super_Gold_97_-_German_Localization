@@ -33,9 +33,14 @@ jobs:
           make Q=
           sudo make install
 
-      - name: ROM bauen
+      - name: Gold ROM bauen
         run: |
-          make -j -k all
+          make -j -k pokemon_sg97.gbc
+        working-directory: .
+
+      - name: Silber ROM bauen
+        run: |
+          make -j -k pokesilver.gbc
         working-directory: .
 
       - name: Belegten Speicherplatz prüfen
