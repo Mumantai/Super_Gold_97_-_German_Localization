@@ -544,65 +544,65 @@ SilverWingDesc:
 	db   "Eine seltsame"
 	next "silberne Feder.@"
 
-ExpShareDesc:
-	db   "Teilt Kampf-EP."
-	next "(TRAGEN)@"
+MoomooMilkDesc:
+	db   "Füllt KP um"
+	next "100 auf.@"
 
-OldRodDesc:
-	db   "Damit kannst du"
-	next "#MON angeln.@"
+QuickClawDesc:
+	db   "Erhöht Erstschlag-"
+	next "quote. (TRAGEN)@"
 
-GoodRodDesc:
-	db   "Eine gute ANGEL"
-	next "zum Fischen.@"
+PsnCureBerryDesc:
+	db   "Selbstheilung bei"
+	next "Gift. (TRAGEN)@"
 
-SilverLeafDesc:
+GoldLeafDesc:
 	db   "Ein seltsames"
-	next "silbernes Blatt.@"
+	next "goldenes Blatt.@"
 
-SuperRodDesc:
-	db   "Die beste ANGEL"
-	next "zum Fischen.@"
+SoftSandDesc:
+	db   "Verstärkt Boden-"
+	next "Attacken. (TRAGEN)@"
 
-PPUpDesc:
-	db   "Hebt die max."
-	next "Anzahl der AP.@"
+SharpBeakDesc:
+	db   "Verstärkt Flug-"
+	next "Attacken. (TRAGEN)@"
 
-EtherDesc:
-	db   "Füllt AP um"
-	next "10 auf.@"
+PrzCureBerryDesc:
+	db   "Selbstheilung bei"
+	next "Paralyse. (TRAGEN)@"
 
-MaxEtherDesc:
-	db   "Füllt AP"
-	next "vollständig auf.@"
+BurntBerryDesc:
+	db   "Selbstheilung bei"
+	next "Frost. (TRAGEN)@"
 
-ElixerDesc:
-	db   "Füllt alle AP"
-	next "um 10 auf.@"
+IceBerryDesc:
+	db   "Selbstheilung bei"
+	next "Brand. (TRAGEN)@"
 
-RedScaleDesc:
-	db   "Haut vom roten"
-	next "GARADOS.@"
+PoisonBarbDesc:
+	db   "Verstärkt Gift-"
+	next "Attacken. (TRAGEN)@"
 
-SecretPotionDesc:
-	db   "Heilt jedes #-"
-	next "MON vollständig.@"
+KingsRockDesc:
+	db   "Feind flieht"
+	next "evtl. (TRAGEN)@"
 
-SSTicketDesc:
-	db   "Ein Ticket für die"
-	next "M.S. AQUA.@"
+BitterBerryDesc:
+	db   "Selbstheilung bei"
+	next "Verwirr. (TRAGEN)@"
 
-MysteryEggDesc:
-	db   "Ein EI von"
-	next "MR. #MON.@"
+MintBerryDesc:
+	db   "Auto-Aufwecker bei"
+	next "Schlaf. (TRAGEN)@"
 
-ClearBellDesc:
-	db   "Erzeugt ein"
-	next "angenehmes Läuten.@"
+RedApricornDesc:
+	db   "Eine rote"
+	next "APRIKOKO.@"
 
-SilverWingDesc:
-	db   "Eine seltsame"
-	next "silberne Feder.@"
+TinyMushroomDesc:
+	db   "Ein gemeiner Pilz."
+	next "Wert gering.@"
 
 BigMushroomDesc:
 	db   "Ein seltener Pilz."
