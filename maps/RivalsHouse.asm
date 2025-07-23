@@ -42,57 +42,62 @@ RivalsPCScript:
 	end
 	
 AnEmailForRivalText:
-	text "What's this?"
-	para "An e-mail for"
+	text "Was ist das?"
+
+	para "Eine E-Mail für"
 	line "<RIVAL>?"
-	para "Want to read it?"
+
+	para "E-Mail lesen?"
 	done
 	
 PlayerDoesntReadMailText:
-	text "Right, it's not"
-	line "good to read"
-	para "other people's"
-	line "mail…"
+	text "Stimmt, es gehört"
+	line "sich nicht, die"
+	para "E-Mails von"
+	line "anderen zu lesen…"
 	done
 
 RivalPCIsOffText:
-	text "It appears to be"
-	line "powered off…"
+	text "Er ist anscheinend"
+	line "ausgeschaltet…"
 	done
 	
 RivalsEmailText:
 	text "…"
 	
-	para "I hope you'll"
-	line "excuse the sudden"
-	para "e-mail, but there"
-	line "is something that"
-	para "I would like to"
-	line "entrust you with."
-	
-	para "Won't you come by"
-	line "to collect it?"
-	
-	para "#MON researcher"
-	line "OAK"
+	para "Ich hoffe, du"
+    line "entschuldigst die"
+    para "plötzliche E-Mail,"
+    line "aber es gibt da"
+    para "etwas, was ich dir"
+    line "anvertrauen will."
+
+    para "Kommst du bitte"
+    line "vorbei, um es dir"
+    cont "abzuholen?"
+
+    para "#MON-Professor"
+    line "EICH"
 	
 	done
 
 RivalsMomText:
-	text "Hi, <PLAYER>! My"
-	line "son's always so"
-	cont "energetic."
-	para "When he gets his"
-	line "mind set on"
-	para "something, he'll"
-	line "just go at it,"
-	cont "full speed ahead."
+    text "Hi, <PLAYER>! Mein"
+    line "Sohn ist immer so"
+    cont "energiegeladen."
+
+    para "Wenn er sich etwas"
+    line "in den Kopf setzt,"
+    cont "dann geht er es"
+    line "auch mit voller"
+    cont "Energie an."
 	done
 
 RivalsBrotherText:
-	text "The other day, I"
-	line "saw a strangely-"
-	cont "colored PIDGEY!"
+	text "Ich habe neulich"
+	line "ein komisch ge-"
+	cont "färbtes TAUBSI"
+	cont "gesehen!"
 	done
 
 
