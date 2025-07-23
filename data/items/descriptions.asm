@@ -259,7 +259,7 @@ ItemDescriptions:
 
 MasterBallDesc:
 	db   "Der beste BALL."
-	next "Erfolg garantiert!"
+	next "Erfolg garantiert!@"
 
 UltraBallDesc:
 	db   "Ein BALL mit hoher"
