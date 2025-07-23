@@ -35,7 +35,7 @@ jobs:
 
       - name: ROM bauen
         run: |
-          make -j -k pokemon_sg97.gbc
+          make -j -k all
         working-directory: .
 
       - name: Belegten Speicherplatz prüfen
@@ -50,6 +50,6 @@ jobs:
         with:
           name: pokemon_sg97
           path: |
-            pokemon_sg97.gbc
-            pokegold.map
+            *.gbc
+            *.map
             used_space.png
