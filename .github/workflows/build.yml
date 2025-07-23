@@ -38,6 +38,12 @@ jobs:
           make -j -k pokemon_sg97.gbc
         working-directory: .
 
+      - name: Belegten Speicherplatz prüfen
+        run: python3 tools/used_space.py
+
+      - name: Freier Speicherplatz prüfen
+        run: python3 tools/free_space.py ./pokegold.map
+
       - name: Dateien hochladen
         if: always()
         uses: actions/upload-artifact@v4

@@ -88,7 +88,7 @@ RivalsMomText:
 
     para "Wenn er sich etwas"
     line "in den Kopf setzt,"
-    cont "dann geht er es"
+    para "dann geht er es"
     line "auch mit voller"
     cont "Energie an."
 	done

@@ -685,7 +685,7 @@ BlueWillGiveDexText:
 
 Text_GoSeeOak:
     text "BLAU: Opa wartet"
-    line "hinten auf euch!"
+    line "hinten auf dich!"
 	done
 
 Text_Interesting:
@@ -749,7 +749,7 @@ Text_OakSpeech:
 
     para "<RIVAL>!"
 
-    text "Bitte helft mir,"
+    para "Bitte helft mir,"
     line "die #MON zu"
     cont "erforschen!"
 	done
@@ -918,7 +918,7 @@ DoorLockedText:
 	done
 	
 OakLabFrontRoomSilverText:
-    text "Y, <PLAYER>!"
+    text "Yo, <PLAYER>!"
 
     para "Anscheinend ist"
     line "PROF. EICH gerade"

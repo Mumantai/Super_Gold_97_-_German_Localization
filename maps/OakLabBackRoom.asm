@@ -568,12 +568,12 @@ Text_YesSilverGetsOneToo:
 	line "natürlich."
 
 	para "Los, such dir"
-	line "eines aus!"
+	line "eins aus!"
 	done
 	
 Text_SilverGetsOneToo:
 	text "<RIVAL>: Wir beide"
-	line "bekommen eines?"
+	line "bekommen eins?"
 
 	para "Ich etwa auch?!"
 	done

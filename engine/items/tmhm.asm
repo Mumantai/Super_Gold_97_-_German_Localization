@@ -461,13 +461,13 @@ PlaceMoveNameAfterTMHMName: ; unreferenced
 	ret
 
 TMHM_CancelString:
-	db "CANCEL@"
+	db "ZURÜCK@"
 	
 TM_HM_TMString:
 	db "TM@"
 	
 TM_HM_HMString:
-	db "HM@"	
+	db "VM@"
 
 TMHM_GetCurrentPocketPosition:
 	ld hl, wTMsHMs

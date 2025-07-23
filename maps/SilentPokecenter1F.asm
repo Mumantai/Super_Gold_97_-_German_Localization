@@ -59,7 +59,7 @@ NoPokemonText:
 
 	para "Du brauchst ein"
 	line "#MON, um das"
-	para "#MON CENTER zu"
+	para "#MON-CENTER zu"
 	line "benutzen."
 	done
 	
