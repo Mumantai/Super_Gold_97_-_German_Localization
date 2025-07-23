@@ -35,12 +35,12 @@ jobs:
 
       - name: Gold ROM bauen
         run: |
-          make -j -k pokemon_sg97.gbc
+          make -j -k gold
         working-directory: .
 
       - name: Silber ROM bauen
         run: |
-          make -j -k pokesilver.gbc
+          make -j -k silver
         working-directory: .
 
       - name: Belegten Speicherplatz prüfen
