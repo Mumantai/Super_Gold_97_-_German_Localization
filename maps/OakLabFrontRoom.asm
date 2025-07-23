@@ -586,9 +586,9 @@ Oak2DirectionsText3:
 
 Oak2DirectionsText1:
     text "EICH: Mit diesem"
-    line "#DEX bist du"
+    line "#DEX seid ihr"
     para "bereit für das"
-    line "Abenteuer deines"
+    line "Abenteuer eures"
     cont "Lebens!"
 
     para "ROUTE 101 und die"
@@ -597,30 +597,31 @@ Oak2DirectionsText1:
     line "Start, um nach"
     cont "#MON zu suchen."
 
-    para "Wenn du ein paar"
-    line "#BÄLLE brauchst,"
-    para "solltest du im"
+    para "Wenn ihr ein paar"
+    line "#BÄLLE braucht,"
+    para "solltet ihr im"
     line "<PKMN>-SUPERMARKT"
     para "von PAGOTIA CITY"
     line "vorbeischauen."
 
-	text "Ist dein #MON"
-	line "verletzt, solltest"
-    para "solltest du es"
-    line "im <PKMN>-CENTER"
-    para "direkt hinter dem"
-    line "Labor heilen."
+	para "Ist euer #MON"
+	line "verletzt, solltet"
+    para "ihr es im #MON-"
+    line "CENTER direkt"
+    para "hinter dem Labor"
+    line "heilen lassen."
 
-    para "Besuche es, wann"
-    line "immer du möchtest."
+    para "Besucht es, wann"
+    line "immer ihr möchtet."
 
-    para "Ich bin sicher, du"
-    line "machst das super!"
+    para "Ich bin sicher,"
+    line "ihr macht das"
+    cont "super!"
 
 	para "Aber nur für den"
 	line "Fall, dass… hier"
 	para "ist meine Nummer."
-	line "Ruf an, wenn es"
+	line "Ruft an, wenn es"
 	cont "etwas gibt!"
 	done
 	
@@ -667,8 +668,8 @@ BlueText_Pokedex:
     para "Er speichert auto-"
     line "matisch Daten über"
     para "#MON, die ihr"
-    line "fang oer denen ihr"
-    cont "begegnet!"
+    line "fangt oder denen"
+    cont "ihr begegnet."
 	done
 
 
@@ -807,7 +808,7 @@ DaisySpeechText:
     cont "Forscher!"
 
     para "…Aber manchmal ist"
-    line "er ein bischen"
+    line "er ein bisschen"
     cont "vergesslich."
 
     para "Er sollte dir"
@@ -824,9 +825,10 @@ DaisySpeechText2:
 
     para "Ich gebe dir auch"
     line "noch ein paar"
-    para "#BÄLLE mit, um dir"
-    line "den Start etwas zu"
-    cont "erleichtern."
+    para "#BÄLLE mit, um"
+    line "dir den Start"
+    para "etwas leichter"
+    cont "zu machen."
 	done
 
 DaisySpeechText3:
