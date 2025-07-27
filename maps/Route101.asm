@@ -224,95 +224,97 @@ DudeMovementData2b:
 	step_end
 	
 DebugSignText:
-	text "Debug sign"
+	text "Debug Schild"
 	done
 
 CatchingTutorialBoxFullText:
-	text "#MON hide in"
-	line "the grass. Who"
+	text "#MON verstecken"
+	line "sich im Gras."
 
-	para "knows when they'll"
-	line "pop out…"
+	para "Niemand weiß, wann"
+	line "sie auftauchen…"
 	done
 
 CatchingTutorialIntroText:
-	text "Well, hey now!"
+	text "Hey, du da!"
 
-	para "You sure look like"
-	line "a rookie trainer!"
-	
-	para "I bet you'll be"
-	line "wanting to catch"
-	cont "some #MON!"
+	para "Du siehst mir aus"
+	line "wie ein Anfänger!"
 
-	para "Would you like me"
-	line "to show you how to"
-	cont "catch #MON?"
+	para "Du willst doch be-"
+	line "stimmt ein paar"
+	cont "#MON fangen!"
+
+	para "Soll ich dir"
+	line "zeigen, wie man"
+	cont "#MON fängt?"
 	done
 
 CatchingTutorialDebriefText:
-	text "That's how you do"
-	line "it."
+	text "So geht das!"
 
-	para "If you weaken them"
-	line "first, #MON are"
-	cont "easier to catch."
+	para "Wenn du sie zuerst"
+	line "schwächst, kannst"
+	cont "du sie leichter"
+	cont "fangen."
 	done
 
 CatchingTutorialDeclinedText:
-	text "Oh. Fine, then."
+	text "Oh. In Ordnung."
 
-	para "Anyway, if you"
-	line "want to catch"
+	para "Egal, wenn du"
+	line "viele #MON"
 
-	para "#MON, you have"
-	line "to walk a lot."
+	para "fangen möchtest,"
+	line "musst du weite"
+	cont "Wege gehen."
 	done
 
 CatchingTutorialRepeatText:
-	text "Huh? You want me"
-	line "to show you how to"
-	cont "catch #MON?"
+	text "Häh? Ich soll dir"
+	line "zeigen, wie man"
+	cont "#MON fängt?"
 	done
 
 Route101YoungsterText:
-	text "Yo. How are your"
-	line "#MON?"
+	text "Yo. Wie geht es"
+	line "deinen #MON?"
 
-	para "If they're weak"
-	line "and not ready for"
-
-	para "battle, keep out"
-	line "of the grass."
+	para "Sind sie schwach"
+	line "und nicht bereit"
+	para "zu kämpfen, halte"
+	line "dich vom Gras"
+	cont "fern."
 	done
 
 Route101TeacherText:
-	text "See that ledge?"
-	line "It's scary to jump"
-	cont "off of it."
+	text "Siehst du die"
+	line "Stufen hier?"
 
-	para "But you can jump"
-	line "down them as a"
+	para "Du kannst nicht"
+	line "hinaufklettern,"
+	cont "dafür aber"
+	cont "herunterspringen!"
 
-	para "shortcut in many"
-	line "places."
+	para "Du kannst sie oft"
+	line "als Abkürzung"
+	cont "benutzen."
 	done
 
 Route101Sign1Text:
 	text "ROUTE 101"
 
-	para "SILENT TOWN -"
-	line "PAGOTA CITY"
+	para "SILENITIA -"
+	line "PAGETIA CITY"
 	
-	para "SILENT HILLS"
-	line "In Between"
+	para "Über die"
+	line "SILENITIA HÜGEL"
 	done
 
 SilentHillsEntranceSignText:
-	text "SILENT HILLS"
+	text "SILENITIA HÜGEL"
 	
-	para "Entrance to the"
-	line "left"
+	para "Eingang links"
 	done
 
 Route101_MapEvents:

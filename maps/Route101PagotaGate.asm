@@ -23,16 +23,16 @@ Route101PagotaGateYoungsterText:
 	done
 
 Route101PagotaGateOfficerText:
-	text "Hi there!"
-	line "Did you get to"
-	para "see PAGOTA CITY's"
-	line "5 FLOOR TOWER?"
+	text "Tach auch!"
+	line "Warst du im"
+	cont "5-STOCK-TURM?"
 	done
 
 Route101PagotaGateCooltrainerFText:
-	text "I came too far"
-	line "out. I'd better"
-	cont "phone home!"
+	text "Ich bin zu weit"
+	line "gelaufen. Ich"
+	cont "sollte zu Hause"
+	cont "anrufen!"
 	done
 
 Route101PagotaGate_MapEvents:

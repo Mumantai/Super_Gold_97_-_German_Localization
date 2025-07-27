@@ -99,101 +99,111 @@ SilverGoesThroughGateMovement:
 	step_end
 	
 SilverAtTheGateText:
-	text "<PLAYER>!"
-	para "You made it out of"
-	line "SILENT HILLS!"
-	para "I wasn't sure you"
-	line "could do it!"
-	para "I already caught"
-	line "some super awesome"
-	cont "#MON!"
-	para "You better stay on"
-	line "top of your game"
-	para "if you want to"
-	line "keep up with me!"
-	para "Anyways, see ya!"
+    text "<PLAYER>!"
+
+    para "Du hast es also"
+    line "über die SILENITIA"
+    cont "HÜGEL geschafft!"
+
+    para "Ich war mir nicht"
+    line "sicher, ob du es"
+    cont "packen würdest."
+
+    para "Ich habe schon ein"
+    line "paar super tolle"
+    cont "#MON gefangen!"
+
+    para "Du musst dich"
+    line "besser anstrengen,"
+    para "wenn du mit mir"
+    line "mithalten willst!"
+
+    para "Naja, bis dann!"
 	done
 	
 FledglingHugoSeenText:
-	text "Um…"
-	para "Are you a new"
-	line "trainer too?"
+	text "Ähm…"
+
+	para "Bist du auch ein"
+	line "neuer Trainer?"
 	done
 
 FledglingHugoBeatenText:
-	text "Wow, you don't"
-	line "seem new…"
+	text "Wow, du bist"
+	line "schon so gut…"
 	done
 
 FledglingHugoAfterBattleText:
-	text "How did you get"
-	line "so good?"
+	text "Wie bist du so"
+	line "gut geworden?"
 	done
 
 
 Route101FisherText:
-	text "I wanted to take a"
-	line "break, so I saved"
+	text "Ich wollte eine"
+	line "Pause einlegen,"
 
-	para "to record my"
-	line "progress."
+	para "darum habe ich"
+	line "meinen Spielstand"
+	cont "abgespeichert."
 	done
 
 ; unused
 Text_WaitingForDay:
-	text "I'm waiting for"
-	line "#MON that"
+	text "Ich warte auf"
+	line "#MON, die nur"
 
-	para "appear only in the"
-	line "daytime."
+	para "tagsüber"
+	line "auftauchen."
 	done
 
 Route101CooltrainerMText_WaitingForNight:
-	text "I'm waiting for"
-	line "#MON that"
+	text "Ich warte auf"
+	line "#MON, die"
 
-	para "appear only at"
-	line "night."
+	para "nur des NACHTs"
+	line "auftauchen."
 	done
 
 Route101CooltrainerMText_WaitingForMorning:
-	text "I'm waiting for"
-	line "#MON that"
+	text "Ich warte auf"
+	line "#MON, die"
 
-	para "appear only in the"
-	line "morning."
+	para "nur am VORMITTAG"
+	line "auftauchen."
 	done
 
 
 Route101Sign2Text:
-	text "TRAINER TIPS"
+	text "TIPPS für TRAINER"
 
-	para "No stealing other"
-	line "people's #MON!"
+	para "Du sollst keine"
+	line "#MON stehlen!"
 
-	para "# BALLS are to"
-	line "be thrown only at"
-	cont "wild #MON!"
+	para "#BÄLLE dürfen"
+	line "nur bei wilden"
+	cont "#MON eingesetzt"
+	cont "werden!"
 	done
 
 
 TeacherColetteSeenText:
-	text "My DODAERIE is the"
-	line "cutest in the"
-	cont "world."
+	text "Mein DODORST ist"
+	line "das Süßeste auf"
+	cont "der Welt."
 	done
 
 TeacherColetteBeatenText:
-	text "My DODAERIE!"
+	text "Mein DODORST!"
 	done
 
 TeacherColetteAfterBattleText:
-	text "Look how adorable"
-	line "my DODAERIE acts!"
+    text "Schau, wie süß"
+    line "mein DODORST ist!"
 
-	para "Isn't it cute"
-	line "enough to make"
-	cont "your heart melt?"
+    para "Es ist so süß,"
+    line "dass einem glatt"
+    cont "das Herz schmilzt!"
 	done
 
 
