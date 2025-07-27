@@ -133,165 +133,189 @@ SilentHillsRockerScript:
 	jumptextfaceplayer SilentHillsRockerText
 	
 SilentHillsRockerText:
-	text "I'm not a trainer,"
-	line "but there are"
-	cont "several up ahead!"
-	para "If they see you,"
-	line "you'll have to"
-	cont "battle."
-	para "Make sure you're"
-	line "ready!"
+    text "Ich bin kein"
+    line "Trainer, aber hier"
+    cont "gibt es einige!"
+
+    para "Wenn sie dich"
+    line "sehen, musst du"
+    cont "gegen sie kämpfen."
+
+    para "Sei darauf"
+    line "vorbereitet!"
 	done
 
 BugCatcherDonSeenText:
-	text "These hills seem"
-	line "like a good place"
-	cont "to find more bugs!"
+    text "Diese Hügel sind"
+    line "ein guter Ort, um"
+    cont "noch mehr Käfer zu"
+    cont "finden!"
 	done
 
 BugCatcherDonBeatenText:
-	text "I lost. That's"
-	line "no good…"
+	text "Ich habe verloren."
+	line "So ein Mist…"
 	done
 
 BugCatcherDonAfterBattleText:
-	text "I ran out of #"
-	line "BALLS while I was"
-	cont "catching #MON."
+    text "Mir sind die #-"
+    line "BÄLLE ausgegangen,"
+    para "als ich #MON"
+    line "fangen wollte."
 
-	para "I should've bought"
-	line "some more…"
+    para "Ich hätte mehr"
+    line "kaufen sollen…"
 	done
 	
 YoungsterAlbertSeenText:
-	text "I haven't seen you"
-	line "around before."
+    text "Dich habe ich hier"
+    line "noch nie gesehen."
 
-	para "So you think you"
-	line "are pretty tough?"
+    para "Hälst dich wohl"
+    line "für stark, was?"
 	done
 
 YoungsterAlbertBeatenText:
-	text "You're strong!"
+	text "Du bist stark!"
 	done
 
 YoungsterAlbertAfterBattleText:
-	text "I'm going to try"
-	line "to be the best"
-	cont "with my favorites."
+    text "Ich versuche, der"
+    line "Beste mit meinen"
+    para "Lieblings-#MON"
+    line "zu werden."
 
-	para "I'm not using the"
-	line "same tough #MON"
-	cont "as everyone else."
+    para "Ich benutze nicht"
+    line "die gleichen #-"
+    para "MON wie alle"
+    line "anderen."
 	done
 	
 FledglingClaytonSeenText:
-	text "I'm… I'm pretty"
-	line "new at this."
-	para "Oh, are you too?"
+    text "Das ist für mich"
+    line "noch alles neu…"
+
+    para "Oh, für dich auch?"
 	done
 
 FledglingClaytonBeatenText:
-	text "You're tough!"
+	text "Du bist hart!"
 	done
 
 FledglingClaytonAfterBattleText:
-	text "I like to think"
-	line "that even losing"
-	para "can help me grow"
-	line "as a trainer."
+    text "Ich glaube daran,"
+    line "dass Niederlagen"
+    para "mir helfen, ein"
+    line "besserer Trainer"
+    cont "zu werden."
 	done
 	
 LassEllenSeenText:
-	text "Oh, you are a cute"
-	line "little trainer! "
+    text "Oh, du bist ja ein"
+    line "süßer Trainer!"
 
-	para "I like you, but I"
-	line "won't hold back!"
+    para "Ich mag dich, aber"
+    line "ich halte mich"
+    para "nicht zurück!"
 	done
 
 LassEllenBeatenText:
-	text "Let's see… Oops,"
-	line "it's over?"
+    text "Dann mal los… Ups,"
+    line "schon vorbei?"
 	done
 
 LassEllenAfterBattleText:
-	text "Wow, you must be"
-	line "good to beat me!"
-	cont "Keep it up!"
+    text "Wow, du musst echt"
+    line "gut sein, um mich"
+    cont "zu besiegen!"
+
+    para "Mach weiter so!"
 	done
 
 MeetSunnyText:
-	text "SUNNY: Hi!"
+	text "SONNFRIED: Hi!"
 
-	para "I'm SUNNY of Sun-"
-	line "day, meaning it's"
-	cont "Sunday today!"
+	para "Ich bin SONNFRIED"
+	line "von Sonntag. Soll"
+	cont "heißen, heute ist"
+	cont "Sonntag!"
 	done
 
 SunnyGivesGiftText1:
-	text "I was told to give"
-	line "you this if I saw"
-	cont "you!"
+	text "Man hat mir auf-"
+	line "getragen, dir das"
+	cont "zu geben, wenn ich"
+	cont "dich treffe!"
 	done
 
 SunnyGivesGiftText2:
-	text "I was told to give"
-	line "you this if I saw"
-	cont "you!"
+	text "Mir wurde aufge-"
+	line "tragen, dir das"
+
+	para "zu überreichen,"
+	line "wenn ich dich"
+	cont "treffe!"
 	done
 
 SunnyGaveGiftText:
-	text "SUNNY: That thing…"
+	text "SONNFRIED: Dieses"
+	line "Ding…"
 
-	para "Um…"
+	para "Äh…"
 
-	para "… What was it now…"
+	para "…Was war das"
+	line "nochmal…"
 
 	para "…"
 
-	para "Oh! I remember"
-	line "now!"
+	para "Ah! Jetzt erinnere"
+	line "ich mich!"
 
-	para "A #MON that"
-	line "knows electric"
+	para "Ein #MON, das"
+	line "Elektro-Attacken"
 
-	para "moves should hold"
-	line "it."
+	para "verwendet, sollte"
+	line "dies erhalten."
 
-	para "My sis MONICA said"
-	line "it powers up"
-	cont "electric moves!"
+	para "Meine Schwester"
+	line "MONJA behauptet,"
+	cont "es verstärkt"
+	cont "Elektro-Attacken!"
 	done
 
 SunnySundayText:
-	text "SUNNY: My sisters"
-	line "and brothers are"
-	cont "MONICA, TUSCANY,"
-	cont "WESLEY, ARTHUR,"
-	cont "FRIEDA and SANTOS."
+	text "SONNFRIED: Meine"
+	line "Geschwister heißen"
+	cont "MONJA, DIETLINDE,"
+	cont "MITKO, DONATUS,"
+	cont "FRIEDA und SAMSON."
 
-	para "They're all older"
-	line "than me!"
+	para "Sie sind alle"
+	line "älter als ich!"
 	done
 
 SunnyNotSundayText:
-	text "SUNNY: Isn't today"
-	line "Sunday?"
-	cont "Um… I forgot!"
+	text "SONNFRIED: Ist"
+	line "heute nicht Sonn-"
+	cont "tag? Äh… Das habe"
+	cont "ich vergessen!"
 	done
 
 SilentHillsSignText:
-	text "SILENT HILLS"
-	para "A Gathering Spot"
-	line "For Trainers"
+	text "SILENITIA HÜHEL"
+
+	para "Ein Sammelpunkt"
+	line "for Trainer"
 	done
 
 SilentHillsSign2Text:
-	text "SILENT HILLS"
-	para "North to exit."
-	para "Continue north to"
-	line "PAGOTA CITY."
+	text "SILENITIA HÜGEL"
+
+	para "Nach Norden zum"
+	line "Ausgang."
+
+	para "Weiter nach Norden"
+	line "nach PAGERTIA CITY."
 	done
 
 SilentHills_MapEvents:
