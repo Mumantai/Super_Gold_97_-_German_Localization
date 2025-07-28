@@ -302,10 +302,10 @@ SunnyNotSundayText:
 	done
 
 SilentHillsSignText:
-	text "SILENITIA HÜHEL"
+	text "SILENITIA HÜGEL"
 
 	para "Ein Sammelpunkt"
-	line "for Trainer"
+	line "für Trainer"
 	done
 
 SilentHillsSign2Text:
@@ -315,7 +315,7 @@ SilentHillsSign2Text:
 	line "Ausgang."
 
 	para "Weiter nach Norden"
-	line "nach PAGERTIA CITY."
+	line "nach PAGETIA CITY."
 	done
 
 SilentHills_MapEvents:

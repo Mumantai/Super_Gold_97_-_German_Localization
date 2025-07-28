@@ -54,7 +54,7 @@ PagotaPokecenter1F_Oak2sAideScript:
 	end
 
 .eggname
-	db "EGG@"
+	db "EI@"
 
 .AideGivesEgg:
 	jumpstd ReceiveTogepiEggScript
@@ -108,133 +108,159 @@ MovementData_AideFinishesLeavingPokecenter:
 	step_end
 
 UnknownText_0x69555:
-	text "<PLAYER>, long"
-	line "time, no see."
+	text "<PLAYER>, lange"
+	line "nicht gesehen."
 
-	para "PROF.OAK asked me"
-	line "to find you."
+	para "PROF. EICH hat"
+	line "mich gebeten, nach"
+	cont "dir zu suchen."
 
-	para "He has another"
-	line "favor to ask."
+	para "Er hat noch eine"
+	line "Bitte an dich."
 
-	para "Would you take"
-	line "this #MON EGG?"
-	
-	para "It would benefit"
-	line "our research to"
-	para "learn a bit more"
-	line "about how baby"
-	para "#MON interact"
-	line "with other"
-	para "#MON and how"
-	line "this affects their"
-	cont "growth."
-	para "So could you keep"
-	line "this egg with you?"
+	para "Nimm bitte das"
+	line "#MON-EI!"
+
+	para "Es würde unserer"
+	line "Forschung helfen,"
+	para "mehr darüber zu"
+	line "erfahren, wie"
+	para "Baby-#MON mit"
+	line "anderen #MON"
+	cont "interagieren und"
+	para "wie sich das auf"
+	line "ihr Wachstum"
+    cont "auswirkt."
+
+    para "Also könntest du"
+    line "dieses Ei bitte"
+    cont "mitnehmen?"
 	done
 
 UnknownText_0x695c5:
-	text "What's in the egg?"
-	para "Well, we thought"
-	line "we'd keep that a"
-	cont "surprise!"
-	para "I'm sure it could"
-	line "be a helpful"
-	para "addition to your"
-	line "party!"
-	para "Consider it a"
-	line "gift!"
-	para "Also, did you hear"
-	line "that BILL is in"
-	cont "town?"
-	para "If you don't know,"
-	line "BILL created the"
-	cont "PC storage system!"
-	para "He's highly"
-	line "respected among"
-	para "#MON"
-	line "researchers."
-	para "You should pay him"
-	line "a visit if you've"
-	cont "got a chance."
-	para "Anyways, I'm off!"
-	line "See you around!"
+    text "Was in dem Ei ist?"
+
+    para "Nun, das soll eine"
+    line "Überraschung sein!"
+
+    para "Ich bin mir aber"
+    line "sicher, dass es"
+    para "dein Team gut"
+    line "ergänzen wird!"
+
+    para "Betrachte es als"
+    line "Geschenk!"
+
+    para "Hast du schon"
+    line "gehört, dass BILL"
+    cont "in der Stadt ist?"
+
+    para "Falls du es nicht"
+    line "weißt, BILL hat"
+    para "das #MON-PC-"
+    line "LAGERUNGS-SYSTEM"
+    cont "erfunden!"
+
+    para "Er ist unter uns"
+    line "Forschern sehr"
+    cont "angesehen."
+
+    para "Du solltest ihn"
+    line "besuchen, wenn du"
+    cont "Zeit hast."
+
+    para "So, ich bin dann"
+    line "mal weg!"
+
+    para "Bis bald!"
 	done
 
 UnknownText_0x69693:
-	text "Oh, no. You can't"
-	line "carry any more"
-	cont "#MON with you."
+	text "Oh, du hast keinen"
+	line "Platz mehr für ein"
+	cont "weiteres #MON."
 
-	para "I'll wait here"
-	line "while you make"
-	cont "room for the EGG."
+	para "Ich warte hier,"
+	line "bis du Platz für"
+	cont "das EI geschaffen"
+	cont "hast."
 	done
 
 UnknownText_0x696f2:
-	text "B-but… PROF.OAK"
-	line "asked for you…"
+	text "A-Aber… PROF."
+	line "EICH hat nach dir"
+	cont "gefragt…"
 	done
 
 UnknownText_0x69712:
-	text "<PLAYER>, will you"
-	line "take the EGG?"
+	text "<PLAYER>, nimmst du"
+    line "das EI?"
 	done
 
 UnknownText_0x6972d:
-	text "I've been thinking"
-	line "it'd be great to"
+	text "Ich denke, es wäre"
+	line "wunderbar, wenn"
 
-	para "be able to link up"
-	line "and battle with my"
+	para "ich mit meinen"
+	line "Freunden, die weit"
 
-	para "friends who live"
-	line "far away."
+	para "entfernt wohnen,"
+	line "via Link-Kabel"
+	cont "kämpfen könnte."
 	done
 
 UnknownText_0x69791:
-	text "I just battled a"
-	line "friend in SUNPOINT"
-	cont "over a link."
+	text "Ich habe gerade"
+	line "über größere"
+	para "Distanz mit einem"
+	line "Freund aus"
+	para "MINAMIDIA CITY"
+	line "gekämpft."
 
-	para "If you connect a"
-	line "MOBILE ADAPTER,"
-
-	para "you can link with"
-	line "a friend far away."
+	para "Mit dem MOBILEN"
+	line "ADAPTER kannst du"
+	para "dich mit weit ent-"
+	line "fernten Freunden"
+	cont "verbinden."
 	done
 
 PagotaPokecenter1FGameboyKidText:
-	text "A guy named BILL"
-	line "made the #MON"
-	cont "PC storage system."
+	text "Ein Kerl namens"
+	line "BILL hat das"
+
+	para "#MON-PC-LAGE-"
+	line "RUNGS-SYSTEM"
+
+	para "erfunden."
 	done
 
 PagotaPokecenter1FGentlemanText:
-	text "It was around"
-	line "a year or so ago."
+	text "Es war vor etwa"
+	line "einem Jahr."
 
-	para "TEAM ROCKET was up"
-	line "to no good with"
-	cont "#MON."
+	para "TEAM ROCKET hatte"
+	line "etwas Übles mit"
+	cont "den #MON vor."
 
-	para "But justice pre-"
-	line "vailed--a young"
-	cont "kid broke 'em up."
+	para "Aber die Gerech-"
+	line "tigkeit hat ge-"
+	cont "siegt! Ein junger"
+	cont "Trainer hat sie"
+	cont "zerschlagen."
 	done
 
 PagotaPokecenter1FYoungsterText:
-	text "#MON are smart."
-	line "They won't obey a"
+	text "#MON sind"
+	line "schlau. Sie gehor-"
+	cont "chen nur Trainern,"
+	cont "vor denen sie auch"
+	cont "Respekt haben."
 
-	para "trainer they don't"
-	line "respect."
+	para "Hat der Trainer"
+	line "nicht genug ORDEN,"
 
-	para "Without the right"
-	line "GYM BADGES, they"
-
-	para "will just do as"
-	line "they please."
+	para "machen sie, was"
+	line "sie wollen."
 	done
 
 PagotaPokecenter1F_MapEvents:

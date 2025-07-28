@@ -110,97 +110,102 @@ KurtsDoorLocked_Movement:
 
 	
 KurtsDoorLockedText:
-	text "It's locked…"
+	text "Abgeschlossen…"
 	done
 
 	
 PagotaCityLassText:
-	text "Ghosts are rumored"
-	line "to appear in"
-	cont "5 FLOOR TOWER."
+	text "Man sagt, dass im"
+	line "5-STOCK-TURM"
+	cont "Geister umgehen."
 
-	para "They said normal-"
-	line "type #MON moves"
-
-	para "had no effect on"
-	line "ghosts."
+	para "#MON-Attacken"
+	line "des Typs Normal"
+	para "haben bei Geistern"
+	line "keine Wirkung."
 	done
 
 PagotaCitySuperNerdText:
-	text "Hey, you're a"
-	line "#MON trainer?"
+	text "Hey, bist du ein"
+	line "#MON-Trainer?"
 
-	para "If you beat the"
-	line "GYM LEADER here,"
+	para "Schlägst du den"
+	line "hiesigen ARENA-"
+	cont "LEITER, dann"
+	cont "darfst du dich"
 
-	para "you'll be ready"
-	line "for prime time!"
+	para "bald zur Elite"
+	line "zählen!"
 	done
 
 PagotaCityGrampsText:
-	text "FALKNER, from the"
-	line "PAGOTA CITY"
+	text "FALK von der"
+	line "PKMN-ARENA in"
 
-	para "GYM, is a fine"
-	line "trainer!"
+	para "PAGETIA CITY ist"
+	line "ein großartiger"
+	cont "Trainer!"
 
-	para "His flying-type"
-	line "bird #MON are"
-	para "trained to perform"
-	line "in parades and"
-	cont "other events."
+	para "Seine Flug-#MON"
+	line "sind trainiert, um"
+	para "in Paraden und"
+	line "anderen Events"
+	cont "aufzutreten."
 	done
 
 PagotaCityYoungsterTextTree:
-	text "Behind me is the"
-	line "5 FLOOR TOWER!"
-	para "But getting to it"
-	line "can be difficult"
-	para "because of this"
-	line "tree that's in the"
-	cont "way."
+    text "Hinter mir ist der"
+    line "5-STOCK-TURM!"
+
+    para "Aber dorthin zu"
+    line "kommen, ist"
+    para "schwierig, weil"
+    line "dieser Baum im"
+    cont "Weg steht."
 	done
 	
 PagotaCityYoungsterTextNoTree:
-	text "Cool! Now that the"
-	line "tree is gone, I"
-	para "can go play in the"
-	line "tower!"
+    text "Cool! Jetzt, wo"
+    line "der Baum weg ist,"
+    para "kann ich im Turm"
+    line "spielen gehen!"
 	done
 
 PagotaCitySignText:
-	text "PAGOTA CITY"
+	text "PAGETIA CITY"
 
-	para "Timeless As the"
-	line "Stars Above"
+	para "Zeitlos wie die"
+	line "Sterne am Himmel"
 	done
 
 PagotaGymSignText:
-	text "PAGOTA CITY"
-	line "#MON GYM"
-	cont "LEADER: FALKNER"
+	text "PKMN-ARENA von"
+	line "PAGETIA CITY"
 
-	para "The Elegant Master"
-	line "of Flying #MON"
+	para "LEITUNG: FALK"
+	line "Der elegante"
+
+	para "Meister der Flug-"
+	line "#MON"
 	done
 
 FiveFloorTowerSignText:
-	text "5 FLOOR TOWER"
+	text "5-STOCK-TURM"
 
-	para "Experience the"
-	line "Way of #MON"
+	para "Erfahre die Art"
+	line "der #MON"
 	done
 
 PagotaPokemonAcademySignText:
-	text "EARL'S ART HOUSE"
+	text "EARLs KUNST-HAUS"
 	done
 	
 KurtsHouseSignText:
-	text "KURT'S HOUSE"
+	text "KURTs HAUS"
 	done
 	
 EarlsMuseumSign2Text:
-	text "BILL'S HOUSE"
+	text "BILLs HAUS"
 	done
 	
 

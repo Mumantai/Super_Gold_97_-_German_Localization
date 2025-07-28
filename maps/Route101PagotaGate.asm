@@ -18,8 +18,8 @@ Route101PagotaGateYoungsterScript:
 	jumptextfaceplayer Route101PagotaGateYoungsterText
 
 Route101PagotaGateYoungsterText:
-	text "Through this gate"
-	line "is PAGOTA CITY!"
+	text "Hinter diesem Tor"
+	line "ist PAGETIIA CITY!"
 	done
 
 Route101PagotaGateOfficerText:
