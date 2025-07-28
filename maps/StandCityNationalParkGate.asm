@@ -464,9 +464,9 @@ BugCatchingContestant10BScript:
 	closetext
 	end
 
-UnusedBugCatchingContestExplanationSign:
+;UnusedBugCatchingContestExplanationSign:
 ; duplicate of BugCatchingContestExplanationSign in Route103NationalParkGate.asm
-	jumptext UnusedBugCatchingContestExplanationText
+;	jumptext UnusedBugCatchingContestExplanationText
 
 ExitBuildingMovement:
 	step DOWN
@@ -803,39 +803,39 @@ BugCatchingContestant10BStillCompetingText:
 	line "win."
 	done
 
-UnusedBellignanText:
+;UnusedBellignanText:
 ; This text is unused and unreferenced in the final game.
 ; The tree Pokémon is Bellignan.
 ; The Silph Scope 2 was later reworked into the Squirtbottle.
-	text "I hear there's a"
-	line "#MON that looks"
-	cont "just like a tree."
+;	text "I hear there's a"
+;	line "#MON that looks"
+;	cont "just like a tree."
 
-	para "You can reveal its"
-	line "identity using a"
-	cont "SILPHSCOPE 2."
-	done
+;	para "You can reveal its"
+;	line "identity using a"
+;	cont "SILPHSCOPE 2."
+;	done
 
-UnusedBugCatchingContestExplanationText:
+;UnusedBugCatchingContestExplanationText:
 ; duplicate of BugCatchingContestExplanationText in Route103NationalParkGate.asm
-	text "The Bug-Catching"
-	line "Contest is held on"
+;	text "The Bug-Catching"
+;	line "Contest is held on"
 
-	para "Tuesday, Thursday"
-	line "and Saturday."
+;	para "Tuesday, Thursday"
+;	line "and Saturday."
 
-	para "Not only do you"
-	line "earn a prize just"
+;	para "Not only do you"
+;	line "earn a prize just"
 
-	para "for participating,"
-	line "you also get to"
+;	para "for participating,"
+;	line "you also get to"
 
-	para "keep the bug"
-	line "#MON you may"
+;	para "keep the bug"
+;	line "#MON you may"
 
-	para "have at the end of"
-	line "the contest."
-	done
+;	para "have at the end of"
+;	line "the contest."
+;	done
 
 UnknownText_0x6b910:
 	text "Uh-oh… Your PACK"
