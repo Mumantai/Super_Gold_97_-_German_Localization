@@ -343,11 +343,11 @@ AcademyBlackboardText:
 	cont "klärt."
 	done
 
-AcademyBlackboardText2:
+;AcademyBlackboardText2:
 ; unused
-	text "Über welches Thema"
-	line "willst du lesen?"
-	done
+;	text "Über welches Thema"
+;	line "willst du lesen?"
+;	done
 
 AcademyPoisonText:
 	text "Wird ein #MON"
