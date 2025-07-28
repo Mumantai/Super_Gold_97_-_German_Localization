@@ -180,7 +180,7 @@ AcademyTeacherSpinMovement:
 ;.NotSGBCheck
 ;	writetext GBText3
 ;	waitbutton
-,	closetext
+;	closetext
 ;	end
 
 ;GBText1:
