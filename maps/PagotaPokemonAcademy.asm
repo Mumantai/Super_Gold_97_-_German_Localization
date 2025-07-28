@@ -259,7 +259,7 @@ AcademyTeacherTeachMoreText:
 	done
 
 AcademyTeacherTeachHowToRaiseWellText:
-	para "Selbst, wenn ein"
+	text "Selbst, wenn ein"
 	line "#MON nur kurz"
 	para "an einem Kampf"
 	line "teilnimmt, erhält"
