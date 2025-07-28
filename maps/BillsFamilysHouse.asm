@@ -111,16 +111,8 @@ BillGoGetBadge:
     line "diesen Text nicht"
     cont "sehen können!"
 
-    para "Ich habe die"
-    line "Reihenfolge der"
-    para "Ereignisse geändert,"
-    line "damit ich nicht"
-    para "hier sein sollte,"
-    line "wenn du nicht"
-    para "den FLÜGELORDEN"
-    line "hast. Also ist"
-    para "hier etwas schief"
-    line "gelaufen!"
+    para "Hier ist etwas"
+    line "schief gelaufen!"
     done
 
 BillTakeThisCutText:
