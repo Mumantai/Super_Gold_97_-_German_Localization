@@ -307,6 +307,8 @@ INCLUDE "maps/TeknosTradeHouse.asm"
 INCLUDE "maps/Route112SanskritRuinsGate.asm"
 INCLUDE "maps/Route106Pokecenter1F.asm"
 INCLUDE "maps/Route103WestportGate.asm"
+
+SECTION "Map Scripts 21.5", ROMX
 INCLUDE "maps/Route103NationalParkGate.asm"
 INCLUDE "maps/Route112StandGate.asm"
 INCLUDE "maps/StandCityNationalParkGate.asm"

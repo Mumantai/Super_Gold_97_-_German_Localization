@@ -157,71 +157,71 @@ AcademyTeacherSpinMovement:
 	turn_head DOWN
 	step_end
 	
-;AcademyGBChecker:
-;	faceplayer
-;	opentext
-;	writetext GBText1
-;	waitbutton
-;	special GameboyCheck
-;	ifnotequal GBCHECK_CGB, .NotGBCCheck
-;	writetext GBText2
-;	waitbutton
-;	closetext
-;	end
+AcademyGBChecker:
+	faceplayer
+	opentext
+	writetext GBText1
+	waitbutton
+	special GameboyCheck
+	ifnotequal GBCHECK_CGB, .NotGBCCheck
+	writetext GBText2
+	waitbutton
+	closetext
+	end
 	
-;.NotGBCCheck
-;	special GameboyCheck
-;	ifnotequal GBCHECK_SGB, .NotSGBCheck
-;	writetext GBText4
-;	waitbutton
-;	closetext
-;	end
+.NotGBCCheck
+	special GameboyCheck
+	ifnotequal GBCHECK_SGB, .NotSGBCheck
+	writetext GBText4
+	waitbutton
+	closetext
+	end
 
-;.NotSGBCheck
-;	writetext GBText3
-;	waitbutton
-;	closetext
-;	end
+.NotSGBCheck
+	writetext GBText3
+	waitbutton
+	closetext
+	end
 
-;GBText1:
-;    text "Ich habe gelesen,"
-;    line "dass, wenn du auf"
-;    para "dem Game Boy Color"
-;    line "spielst, es eine"
-;    para "Einstellung gibt,"
-;    line "die du im OPTION-"
-;    para "Menü ändern"
-;    line "kannst, um die"
-;    para "Farben im Spiel"
-;    line "zu verändern."
-;	done
+GBText1:
+    text "Ich habe gelesen,"
+    line "dass, wenn du auf"
+    para "dem Game Boy Color"
+    line "spielst, es eine"
+    para "Einstellung gibt,"
+    line "die du im OPTION-"
+    para "Menü ändern"
+    line "kannst, um die"
+    para "Farben im Spiel"
+    line "zu verändern."
+	done
 	
-;GBText2:
-;    text "Sieht so aus, als"
-;    line "ob du einen Game"
-;    cont "Boy Color benutzt!"
+GBText2:
+    text "Sieht so aus, als"
+    line "ob du einen Game"
+    cont "Boy Color benutzt!"
 
-;    para "Versuche die"
-;    line "Einstellung mal!"
-;	done
+    para "Versuche die"
+    line "Einstellung mal!"
+	done
 	
-;GBText3:
-;    text "Sieht so aus, als"
-;    line "ob du einen Game"
-;    cont "Boy benutzt!"
+GBText3:
+    text "Sieht so aus, als"
+    line "ob du einen Game"
+    cont "Boy benutzt!"
 
-;    para "Da gibt es keine"
-;    line "Farben!"
-;	done
+    para "Da gibt es keine"
+    line "Farben!"
+	done
 
-;GBText4:
-;    text "Sieht so aus, als"
-;    line "ob du einen Super"
-;    cont "Game Boy benutzt!"
+GBText4:
+    text "Sieht so aus, als"
+    line "ob du einen Super"
+    cont "Game Boy benutzt!"
 
-;    para "Wow! Ich bin im"
-;    line "Fernsehen!"
-;	done
+    para "Wow! Ich bin im"
+    line "Fernsehen!"
+	done
 
 AcademyTeacherIntroText:
 	text "Hallo!"
@@ -343,11 +343,11 @@ AcademyBlackboardText:
 	cont "klärt."
 	done
 
-;AcademyBlackboardText2:
+AcademyBlackboardText2:
 ; unused
-;	text "Über welches Thema"
-;	line "willst du lesen?"
-;	done
+	text "Über welches Thema"
+	line "willst du lesen?"
+	done
 
 AcademyPoisonText:
 	text "Wird ein #MON"
@@ -524,7 +524,7 @@ PagotaPokemonAcademy_MapEvents:
 
 	db 7 ; object events
 	object_event  4,  2, SPRITE_ROCKER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_SCRIPT, 0, AcademyTeacher, -1
-	;object_event  0,  2, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, AcademyGBChecker, -1
+	object_event  0,  2, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, AcademyGBChecker, -1
 	object_event  2,  5, SPRITE_JANINE, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, PagotaPokemonAcademyYoungster1Script, -1
 	object_event  3, 11, SPRITE_GAMEBOY_KID, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, PagotaPokemonAcademyGameboyKid1Script, -1
 	object_event  4, 11, SPRITE_GAMEBOY_KID, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_SCRIPT, 0, PagotaPokemonAcademyGameboyKid2Script, -1
