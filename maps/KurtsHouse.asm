@@ -347,7 +347,7 @@ MovementData_0x18e46c:
 
 UnknownText_0x18e473:
     text "Erklimm den"
-    line "5-EBENEN-TURM.
+    line "5-EBENEN-TURM."
 
     para "Es ist ein guter"
     line "Test, um dein Po-"
