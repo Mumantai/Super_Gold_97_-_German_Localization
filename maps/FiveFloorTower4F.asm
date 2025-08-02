@@ -15,16 +15,20 @@ FiveFloorTower4FSign:
 	jumptext FiveFloorTower4FSignText
 	
 FiveFloorTower4FSignText:
-	text "This is a statue"
-	line "of HO-OH."
-	para "The legendary bird"
-	line "#MON that once"
-	para "made roost on the"
-	line "top of this tower."
-	para "May we honor its"
-	line "nesting place so"
-	para "that one day it"
-	line "may return."
+    text "Eine Statue von"
+    line "HO-OH."
+
+    para "Das legendäre"
+    line "Vogel-#MON, das"
+    para "einst auf dem"
+    line "Dach dieses Turmes"
+    cont "nistete."
+
+    para "Mögen wir seinen"
+    line "Nistplatz ehren,"
+    para "auf dass es eines"
+    line "Tages zurückkehren"
+    cont "möge."
 	done
 
 
@@ -45,20 +49,22 @@ TrainerSageLi:
 
 
 SageLiSeenText:
-	text "I sense that it"
-	line "was the right"
-	para "decision for you"
-	line "to make this"
-	cont "journey."
+    text "Es war die richti-"
+    line "ge Entscheidung,"
+    para "diese Reise an-"
+    line "zutreten."
+
+    para "Das spüre ich."
 	done
 
 SageLiBeatenText:
-	text "I know it!"
+	text "Ich wusste es!"
 	done
 
 SageLiAfterBattleText:
-	text "Please, continue"
-	line "to the last floor."
+	text "Bitte, geh weiter"
+	line "auf die nächste"
+	cont "Ebene."
 	done
 	
 TrainerSageGaku:
@@ -74,21 +80,23 @@ TrainerSageGaku:
 
 
 SageGakuSeenText:
-	text "We spend our days"
-	line "in serious"
-	cont "reflection."
+    text "Die meiste Zeit"
+    line "verbringen wir mit"
+    cont "Selbstreflexion."
 	done
 
 SageGakuBeatenText:
-	text "I feel whole."
+	text "Ich fühle mich"
+	line "vollkommen."
 	done
 
 SageGakuAfterBattleText:
-	text "The mind is able"
-	line "to think of and"
-	para "pass along many"
-	line "thoughts in a day."
-	done
+    text "Der Geist vermag"
+    line "es, viele Gedanken"
+    para "an einem Tag zu"
+    line "fassen und weiter-"
+    cont "zugeben."
+	donew
 	
 TrainerSageMasa:
 	trainer SAGE, MASA, EVENT_BEAT_SAGE_MASA, SageMasaSeenText, SageMasaBeatenText, 0, .Script
@@ -103,8 +111,8 @@ TrainerSageMasa:
 
 
 SageMasaSeenText:
-	text "I have little to"
-	line "say."
+	text "Ich habe wenig"
+	line "zu sagen."
 	done
 
 SageMasaBeatenText:
@@ -112,8 +120,8 @@ SageMasaBeatenText:
 	done
 
 SageMasaAfterBattleText:
-	text "Complete the"
-	line "climb."
+	text "Erreiche die"
+	line "Spitze."
 	done
 	
 TrainerSageKoji:
@@ -129,19 +137,21 @@ TrainerSageKoji:
 
 
 SageKojiSeenText:
-	text "I one day wish"
-	line "to see the sacred"
-	para "bird with my own"
-	line "eyes."
+    text "Ich wünsche mir,"
+    line "eines Tages den"
+    para "geheiligten Vogel"
+    line "mit eigenen Augen"
+    cont "zu sehen."
 	done
 
 SageKojiBeatenText:
-	text "It shall be."
+	text "So soll es sein."
 	done
 
 SageKojiAfterBattleText:
-	text "I hope you have"
-	line "felt enlightened."
+	text "Ich hoffe du hast"
+	line "dich erleuchtet"
+	cont "gefühlt."
 	done
 
 

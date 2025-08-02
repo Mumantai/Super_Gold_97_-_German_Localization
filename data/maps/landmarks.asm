@@ -114,7 +114,7 @@ SanskritTownName:   db "GLYPHONTIA@"        ; Glyphe + Font
 BlueForestName:     db "BLAUTANNENWALD@"
 KikaiVillageName:   db "KIKAI VILLAGE@"     ;
 DaitoRanchName:     db "DAITO RANCH@"       ;
-FiveFloorTowerName: db "5-STOCK-TURM@"
+FiveFloorTowerName: db "5-EBENEN-TURM@"
 SanskritRuinsName:  db "GLYPHONTIA RUINEN@" ; siehe Glyphontia
 BoulderMineName:    db "GERÖLLMINE@"
 SlowpokeWellName:   db "FLEGMON-BRUNNEN@"

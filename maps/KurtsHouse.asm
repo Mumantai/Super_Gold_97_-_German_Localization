@@ -346,227 +346,266 @@ MovementData_0x18e46c:
 	step_end
 
 UnknownText_0x18e473:
-	text "Climb the 5 FLOOR"
-	line "TOWER."
-	para "It is a great test"
-	line "of your potential"
-	cont "as a trainer."
+    text "Erklimm den"
+    line "5-EBENEN-TURM.
+
+    para "Es ist ein guter"
+    line "Test, um dein Po-"
+    para "tenzial als Trai-"
+    line "ner zu prüfen."
 	done
 
 UnknownText_0x18e615:
-	text "You have learned"
-	line "of the ways of"
-	cont "#MON."
-	para "I would be honored"
-	line "to provide"
-	cont "assistance to you."
-	para "I can build"
-	line "# BALLS. Unique"
-	para "custom ones that"
-	line "may prove useful."
-	para "Here, I'll give"
-	line "one to you now."
+	text "Du hast die Wege"
+	line "der #MON"
+	cont "kennengelernt."
+
+	para "Es wäre mir eine"
+	line "Ehre, für einen"
+
+	para "Trainer wie dich"
+	line "BÄLLE anzuferti-"
+	cont "gen."
+
+	para "Hier, nimm einen!"
 	done
 
 KurtsHouseKurtBallsFromApricornsText:
-	text "KURT: I make BALLS"
-	line "from APRICORNS."
+	text "KURT: Ich mache"
+	line "BÄLLE aus APRIKO-"
+	cont "KOS."
 
-	para "Collect them from"
-	line "trees and bring"
-	cont "'em to me."
+	para "Pflücke sie von"
+	line "Bäumen und bring"
+	cont "sie zu mir."
 
-	para "I'll make BALLS"
-	line "out of them."
+	para "Ich fertige daraus"
+	line "BÄLLE an."
 	done
 
 KurtsHouseKurtAskYouHaveAnApricornText:
-	text "KURT: You have an"
-	line "APRICORN for me?"
+	text "KURT: Hast du eine"
+	line "APRIKOKO für mich?"
 
-	para "Fine! I'll turn it"
-	line "into a BALL."
+	para "Schön! Ich werde"
+	line "einen BALL daraus"
+	cont "machen."
 	done
 
 KurtsHouseKurtItWillTakeADayText:
-	text "KURT: It'll take a"
-	line "day to make you a"
+	text "KURT: Ich werde"
+	line "einen Tag brau-"
+	cont "chen, um einen"
+	cont "BALL zu machen."
 
-	para "BALL. Come back"
-	line "for it later."
+	para "Komm später wie-"
+	line "der!"
 	done
 
 KurtsHouseKurtThatsALetdownText:
 	text "KURT: Oh…"
-	line "That's a letdown."
+	line "Du lässt mich im"
+	cont "Stich?"
 	done
 
 KurtsHouseKurtDontBotherMeText:
-	text "KURT: I'm working!"
-	line "Don't bother me!"
+	text "KURT: Ich arbeite!"
+	line "Stör mich nicht!"
 	done
 
 KurtsHouseKurtJustFinishedYourBallText:
 	text "KURT: Ah, <PLAYER>!"
-	line "I just finished"
-	cont "your BALL. Here!"
+	line "Ich bin gerade"
+	cont "fertig geworden."
+	cont "Hier hast du den"
+	cont "BALL!"
 	done
 
 KurtsHouseKurtTurnedOutGreatText:
-	text "KURT: That turned"
-	line "out great."
+	text "KURT: Er ist groß-"
+	line "artig geworden."
 
-	para "Try catching"
-	line "#MON with it."
+	para "Versuche, ein"
+	line "#MON damit"
+	cont "zu fangen."
 	done
 
 UnknownText_0x18e863:
-	text "I feel like I've"
-	line "improved at this,"
-
-	para "and can work much"
-	line "faster than I used"
-	cont "to be able to."
+    text "Ich merke, wie ich"
+    line "mich verbessert"
+    para "habe und jetzt"
+    line "viel schneller als"
+    para "vorher arbeiten"
+    line "kann."
 	done
 
 UnknownText_0x18e8ab:
-	text "Wh-what is that?"
+	text "W-was ist das?"
 
-	para "I've never seen"
-	line "one before."
+	para "Das habe ich noch"
+	line "nie gesehen."
 
-	para "It looks a lot"
-	line "like a # BALL,"
+	para "Es sieht wie ein"
+	line "#BALL aus, es"
 
-	para "but it appears to"
-	line "be something else."
+	para "scheint, aber"
+	line "etwas anderes zu"
+	cont "sein."
 
-	para "Let me check it"
-	line "for you."
+	para "Ich überprüfe das"
+	line "für dich."
 	done
 
 UnknownText_0x18e934:
-	text "I'm checking it"
-	line "now."
+	text "Ich überprüfe es"
+	line "gerade."
 	done
 
 UnknownText_0x18e949:
-	text "Ah-ha! I see!"
-	line "So…"
+	text "Ah-ha! Verstehe!"
+	line "So ist das…"
 	done
 
 UnknownText_0x18e95c:
 	text "<PLAYER>!"
 
-	para "This BALL started"
-	line "to shake while I"
-	cont "was checking it."
+	para "Dieser BALL hat"
+	line "sich bewegt, als"
+	cont "ich ihn"
+	cont "überprüfte."
 
-	para "There must be"
-	line "something to this!"
+	para "Da geht etwas vor"
+	line "sich!"
 	done
 
 
 
 KurtsHouseSlowpokeText:
-	text "SLOWPOKE: …"
-	line "Yawn?"
+	text "FLEGMON: …"
+	line "Gähn?"
 	done
 
 KurtsHouseOakPhotoText:
-	text "It's KURT standing"
-	line "in the tower with"
-	para "a SAGE and a man"
-	line "in a CAPTAIN's"
-	cont "hat."
+    text "KURT, wie er mit"
+    line "einem WEISEN und"
+    para "einem Mann mit"
+    line "KAPITÄNSMÜTZE im"
+    cont "TURM steht."
 	done
 
 KurtsHouseLeafeonStatueText:
-	text "It's a statue of"
-	line "the forest's pro-"
-	cont "tector."
+	text "Eine Statue des"
+	line "Waldpatrons."
 	done
 	
 FalknerGreets:
-	text "FALKNER: Well who"
-	line "might you be?"
-	para "<PLAYER>, hm?"
-	line "What brings you"
-	cont "here?"
-	para "Well, I'm sure"
-	line "it's because I'm"
-	para "not where I should"
-	line "be right now."
-	para "I'll get on back"
-	line "to the GYM so you"
-	para "can challenge me"
-	line "for a BADGE."
-	para "…"
-	para "Hm?"
-	para "You're not taking"
-	line "the #MON LEAGUE"
-	cont "challenge?"
-	para "What brings you"
-	line "to PAGOTA CITY?"
-	para "…"
-	para "Wow, it's very"
-	line "impressive that"
-	para "PROF.OAK has asked"
-	line "you to go out and"
-	para "help him research"
-	line "#MON."
-	para "But I see the"
-	line "glimmer in your"
-	cont "eye!"
-	para "If you feel the"
-	line "urge to start your"
-	para "own LEAGUE"
-	line "challenge,"
-	para "feel free to stop"
-	line "by to take me on!"
-	para "Anyways, I'll be"
-	line "on my way now."
-	para "I hope I'll be"
-	line "seeing you soon!"
+    text "FALK: Oh, wer bist"
+    line "du denn?"
+
+    para "<PLAYER>, hm?"
+    line "Was führt dich"
+    cont "hierher?"
+
+    para "Wahrscheinlich,"
+    line "weil ich gerade"
+    para "nicht da bin, wo"
+    line "ich sein sollte."
+
+    para "Ich gehe zurück"
+    line "in die ARENA,"
+    para "damit du mich um"
+    line "meinen ORDEN her-"
+    cont "ausfordern kannst."
+
+    para "…"
+
+    para "Hm?"
+
+    para "Du kämpfst gar"
+    line "nicht um die"
+    cont "ARENA-ORDEN?"
+
+    para "Was führt dich"
+    line "dann nach PAGETIA"
+    cont "CITY?"
+
+    para "…"
+
+    para "Wow, es ist sehr"
+    line "beeindruckend,"
+    para "dass PROF.EICH"
+    line "dich gebeten hat,"
+    cont "ihm bei seiner"
+    para "Forschung über"
+    line "#MON zu helfen."
+
+    para "Aber ich sehe"
+    line "dieses Funkeln in"
+    cont "deinen Augen!"
+
+    para "Wenn du den Drang"
+    line "verspürst, NIHONs"
+    para "#MON LIGA doch"
+    line "herauszufordern,"
+    para "dann komm gerne"
+    line "jederzeit vorbei!"
+
+    para "Wie dem auch sei,"
+    line "ich mache mich mal"
+    cont "auf den Weg."
+
+    para "Ich hoffe, wir"
+    line "sehen uns bald!"
 	done
 	
 KurtTalks:
-	text "KURT: I could tell"
-	line "when you walked"
-	cont "in the room."
-	para "You have great"
-	line "potential as a"
-	cont "trainer."
-	para "FALKNER could tell"
-	line "as well."
-	para "I strongly suggest"
-	line "you take the"
-	para "LEAGUE challenge"
-	line "while traveling."
-	para "But apart from"
-	line "that, I want to"
-	para "help you with your"
-	line "research by"
-	para "providing you with"
-	line "something that can"
-	para "help you catch"
-	line "#MON."
-	para "But I request that"
-	line "you prove yourself"
-	cont "first."
-	para "PAGOTA CITY's 5"
-	line "FLOOR TOWER is a"
-	para "sacred place where"
-	line "I spent many years"
-	para "strengthening my"
-	line "understanding of"
-	para "the relationship"
-	line "between people and"
-	cont "#MON."
-	para "I ask that you"
-	line "climb this tower."
-	para "Do this, then"
-	line "return to me."
+    text "KURT: Ich habe es"
+    line "gleich gespürt,"
+    para "alss du herein-"
+    line "gekommen bist."
+
+    para "Du hast großes"
+    line "Potenzial als"
+    cont "Trainer."
+
+    para "FALK konnte es"
+    line "auch spüren."
+
+    para "Ich schlage vor,"
+    line "dass du, während"
+    para "deiner Reise, die"
+    line "ARENEN in NIHON"
+    cont "herausforderst."
+
+    para "Aber abgesehen"
+    line "davon möchte ich"
+    para "dir bei deiner"
+    line "Forschung helfen"
+    para "und dir etwas"
+    line "geben, das dir"
+    para "beim Fangen von"
+    line "#MON hilft."
+
+    para "Aber zuerst musst"
+    line "du dich beweisen."
+
+    para "Der 5-EBENEN-TURM"
+    line "ist ein heiliger"
+    para "Ort, an dem ich"
+    line "viele Jahre damit"
+    para "verbracht habe,"
+    line "mein Verständnis"
+    para "über die Beziehung"
+    line "zwischen Menschen"
+    para "und #MON zu"
+    line "stärken."
+
+    para "Ich möchte, dass"
+    line "du diesen Turm"
+    cont "erklimmst."
+
+    para "Kehre danach zu"
+    line "mir zurück."
 	done
 
 KurtsHouse_MapEvents:

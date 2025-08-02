@@ -116,7 +116,7 @@ KurtsDoorLockedText:
 	
 PagotaCityLassText:
 	text "Man sagt, dass im"
-	line "5-STOCK-TURM"
+	line "5-EBENEN-TURM"
 	cont "Geister umgehen."
 
 	para "#MON-Attacken"
@@ -155,7 +155,7 @@ PagotaCityGrampsText:
 
 PagotaCityYoungsterTextTree:
     text "Hinter mir ist der"
-    line "5-STOCK-TURM!"
+    line "5-EBENEN-TURM!"
 
     para "Aber dorthin zu"
     line "kommen, ist"
@@ -190,9 +190,9 @@ PagotaGymSignText:
 	done
 
 FiveFloorTowerSignText:
-	text "5-STOCK-TURM"
+	text "5-EBENEN-TURM"
 
-	para "Erfahre die Art"
+	para "Erfahre das Wesen"
 	line "der #MON"
 	done
 

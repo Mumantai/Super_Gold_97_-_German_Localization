@@ -93,89 +93,104 @@ PlayerWalksToHoOhGroup1:
 	step_end
 	
 KurtKnewIt:
-	text "KURT: I knew I was"
-	line "right when I"
-	para "sensed something"
-	line "about you."
+    text "KURT: Ich wusste,"
+    line "ich hatte Recht,"
+    para "als ich etwas an"
+    line "dir gespürt habe."
 	done
 	
 CaptainCantBelieve:
-	text "I can't believe"
-	line "it!"
-	para "The return of the"
-	line "bird!"
-	para "It's happening!"
+    text "Ich kann es nicht"
+    line "fassen!"
+
+    para "Die Rückkehr des"
+    line "Vogels!"
+
+    para "Es geschieht!"
 	done
 	
 SageTellsYouToSeeBird:
-	text "<PLAYER>."
-	para "HO-OH roosts above"
-	line "our heads."
-	para "The bird has"
-	line "returned, as"
-	para "predicted in"
-	line "legend."
-	para "I sense that it"
-	line "wants to meet"
-	cont "you."
-	para "It has determined"
-	line "that actions you"
-	para "have taken have"
-	line "shown that you are"
-	para "worthy of"
-	line "approaching it."
-	para "Make your way to"
-	line "the roof."
+    text "<PLAYER>."
+
+    para "HO-OH nistet über"
+    line "unseren Köpfen."
+
+    para "Es ist tatsächlich"
+    line "zurückgekehrt."
+
+    para "Wie es die Legende"
+    line "voraussagt."
+
+    para "Ich spüre, dass es"
+    line "dich treffen will."
+
+    para "Es hat entschieden,"
+    line "dass deine Taten"
+    line "dich als würdig"
+    para "erweisen, um ihm"
+    line "gegenüberzutreten."
+
+    para "Nun begib dich"
+    line "auf das Dach."
 	done
 	
 Text_5FSageDuringHoOh:
-	text "The bird awaits."
+	text "Der Vogel wartet."
 	done
 
 Text_5FSageAfterHoOh:
-	text "Such an encounter"
-	line "with the bird is"
-	cont "a legendary event."
+    text "Eine Begegnung"
+    line "mit dem Vogel gilt"
+    cont "als legendär."
 	done
 	
 Text_5FSageNope:
-	text "You have reached"
-	line "the top of the"
-	cont "tower."
-	para "But you have not"
-	line "heard all of its"
-	cont "messages."
-	para "Please be sure you"
-	line "have read all"
-	para "signs on every"
-	line "floor."
-	para "Each one teaches"
-	line "a valuable lesson."
+    text "Du hast die Spitze"
+    line "dieses Turms"
+    cont "erreicht."
+
+    para "Aber du hast nicht"
+    line "alle seiner Bot-"
+    cont "schaften gehört."
+
+    para "Bitte stelle"
+    line "sicher, dass du"
+    para "alle Schilder auf"
+    line "jeder Ebene"
+    cont "gelesen hast."
+
+    para "Jedes lehrt eine"
+    line "wertvolle Lektion."
 	done
 	
 Text_5FSageYup:
-	text "Welcome to the top"
-	line "of the 5 FLOOR"
-	cont "TOWER."
-	para "This is a sacred"
-	line "place that should"
-	para "only be visited"
-	line "by those willing"
-	para "to show proper"
-	line "respect."
-	para "I understand that"
-	line "KURT has asked"
-	para "you to scale its"
-	line "floors."
-	para "I hope you can"
-	line "go forward with"
-	para "the knowledge and"
-	line "understanding of"
-	para "how to properly"
-	line "treat #MON."
-	para "Return now to see"
-	line "KURT. You have my"
-	cont "blessing."
+    text "Willkommen auf"
+    line "der Spitze des"
+    cont "5-EBENEN-TURMs."
+
+    para "Dies ist ein ge-"
+    line "weihter Ort, der"
+    para "nur von denen"
+    line "besucht werden"
+    cont "sollte, die ihm"
+    para "den angemessenen"
+    line "Respekt erweisen."
+
+    para "Ich verstehe, dass"
+    line "KURT dich gebeten"
+    para "hat, seine Ebenen"
+    line "zu erklimmen."
+
+    para "Ich hoffe, du"
+    line "konntest lernen,"
+    line "wie man #MON"
+    para "den richtigen"
+    line "Respekt entgegen-"
+    cont "bringt."
+
+    para "Kehre jetzt zu"
+    line "KURT zurück. Du"
+    cont "hast meinen Segen."
 	done
 
 FiveFloorTower5FSign:
@@ -184,26 +199,30 @@ FiveFloorTower5FSign:
 
 	
 FiveFloorTower5FSignText:
-	text "This is a statue"
-	line "of an ABRA."
-	para "ABRA are easily"
-	line "startled and quick"
-	para "to flee when"
-	line "encountered in the"
-	cont "wild."
-	para "Be sure to honor"
-	line "and respect all"
-	para "#MON in their"
-	line "natural habitats."
+    text "Eine Statue von"
+    line "ABRA."
+
+    para "ABRA sind sehr"
+    line "schreckhaft und"
+    para "fliehen schnell,"
+    line "wenn man ihnen in"
+    para "freier Wildbahn"
+    line "begegnet."
+
+    para "Ehre und respek-"
+    line "tiere alle #MON"
+    para "in ihrem natür-"
+    line "lichen Lebensraum."
 	done
 	
 FiveFloorTower5FIncense:
 	jumptext FiveFloorTower5FIncenseText
 
 FiveFloorTower5FIncenseText:
-	text "What is this?"
-	para "Oh, it's an"
-	line "incense burner!"
+	text "Was ist das?"
+
+	para "Oh, das ist ein"
+	line "Räucherstäbchen!"
 	done
 
 FiveFloorTower5F_MapEvents:

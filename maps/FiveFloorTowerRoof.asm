@@ -67,10 +67,10 @@ HoOhText:
 	done
 	
 BeastsHaveScatteredText:
-	text "It feels as though"
-	line "three gusts of"
-	para "wind have shaken"
-	line "the land…"
+    text "Es fühlt sich an,"
+    line "als ob drei Wind-"
+    para "stöße das Land"
+    line "erschüttert haben…"
 	done
 
 FiveFloorTowerRoof_MapEvents:

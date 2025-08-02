@@ -25,7 +25,7 @@ Route101PagotaGateYoungsterText:
 Route101PagotaGateOfficerText:
 	text "Tach auch!"
 	line "Warst du im"
-	cont "5-STOCK-TURM?"
+	cont "5-EBENEN-TURM?"
 	done
 
 Route101PagotaGateCooltrainerFText:

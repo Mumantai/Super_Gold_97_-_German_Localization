@@ -33,7 +33,7 @@ Route101PagotaGate2FTwinText:
 
     para "Nicht jeder darf"
     line "einfach so in den"
-    cont "5-STOCK-TURM."
+    cont "5-EBENEN-TURM."
 	done
 	
 Route101PagotaGate2FSign:
