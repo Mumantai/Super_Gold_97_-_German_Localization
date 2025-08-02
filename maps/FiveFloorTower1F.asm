@@ -160,7 +160,7 @@ SageTroyBeatenText:
 
 SageTroyAfterBattleText:
     text "Gehe jeden Schritt"
-    line "mit Bedacht.
+    line "mit Bedacht."
 	done
 
 FiveFloorTower1FStatueText:

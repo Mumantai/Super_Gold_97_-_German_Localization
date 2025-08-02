@@ -95,7 +95,7 @@ SagePingSeenText:
     cont "Zugang zum Dach."
 
     para "Aber selbst wir"
-    line dürfen diesen"
+    line "dürfen diesen"
     para "geweihten Ort"
     line "nicht betreten."
 	done
