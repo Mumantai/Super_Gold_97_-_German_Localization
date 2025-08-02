@@ -96,7 +96,7 @@ SageGakuAfterBattleText:
     para "an einem Tag zu"
     line "fassen und weiter-"
     cont "zugeben."
-	donew
+	done
 	
 TrainerSageMasa:
 	trainer SAGE, MASA, EVENT_BEAT_SAGE_MASA, SageMasaSeenText, SageMasaBeatenText, 0, .Script
