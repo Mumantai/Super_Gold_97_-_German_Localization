@@ -506,10 +506,11 @@ FalknerGreets:
     line "Was führt dich"
     cont "hierher?"
 
-    para "Wahrscheinlich,"
-    line "weil ich gerade"
-    para "nicht da bin, wo"
-    line "ich sein sollte."
+    para "Wahrscheinlich die"
+    line "Tatsache, dass ich"
+    para "gerade nicht da"
+    line "bin, wo ich sein"
+    cont "sollte."
 
     para "Ich gehe zurück"
     line "in die ARENA,"
@@ -561,7 +562,7 @@ FalknerGreets:
 KurtTalks:
     text "KURT: Ich habe es"
     line "gleich gespürt,"
-    para "alss du herein-"
+    para "als du herein-"
     line "gekommen bist."
 
     para "Du hast großes"
@@ -596,7 +597,7 @@ KurtTalks:
     para "verbracht habe,"
     line "mein Verständnis"
     para "über die Beziehung"
-    line "zwischen Menschen"
+    line "zwischen Mensch"
     para "und #MON zu"
     line "stärken."
 

@@ -151,143 +151,168 @@ ArtHousePokefanMScript:
 	jumptextfaceplayer ArtHousePokefanMText
 	
 ArtHousePokefanMText:
-	text "This guy's work"
-	line "is really impress-"
-	cont "ive!"
+	text "Die Werke von"
+	line "diesem Kerl sind"
+	cont "beeindruckend!"
 	done
 	
 ArtHouseLassText:
-	text "You know, I like"
-	line "this EGG one the"
-	cont "best."
+	text "Weißt du, ich mag"
+	line "dieses EI am"
+	cont "liebsten."
 	done
 
 EggStatueText:
-	text "#MON EGG STATUE"
-	line "by EARL"
+	text "#MON-EI STATUE"
+	line "von EARL"
 	done
 	
 ArtSignText:
-	text "EARL'S ART HOUSE"
-	para "Please look, but"
-	line "do not touch."
+	text "EARLs KUNSTGALERIE"
+
+	para "Nur gucken,"
+	line "nicht anfassen."
 	done
 
 ArtistEarlIntroText:
-	text "Oh, boo."
-	para "I'm a failure."
-	para "Don't ask why!"
-	para "Alright, I'll tell"
-	line "you."
-	para "My name is EARL,"
-	line "and I'm an artist."
-	para "Or at least, I"
-	line "wish I was a"
-	cont "decent one."
-	para "I never feel"
-	line "inspired."
-	para "I opened this"
-	line "ART HOUSE to"
-	para "show off my work,"
-	line "but the only"
-	para "sculpture I've"
-	line "ever finished is"
-	para "a sculpture of a"
-	line "#MON EGG."
-	para "I need to do"
-	line "something"
-	cont "impressive!"
-	para "I've been working"
-	line "on a statue of the"
-	para "#MON LUXWAN,"
-	line "but it's not quite"
-	para "finished."
+    text "Ach, verdammt."
+
+    para "Ich bin eine"
+    line "Enttäuschung."
+
+    para "Frag nicht, warum!"
+
+    para "Na gut, ich sage"
+    line "es dir."
+
+    para "Mein Name ist EARL"
+    line "und ich bin ein"
+    cont "Künstler."
+
+    para "Oder zumindest"
+    line "wäre ich, gerne"
+    cont "einer."
+
+    para "Ich fühle mich nie"
+    line "inspiriert."
+
+    para "Ich habe diese"
+    line "KUNSTGALERIE er-"
+    para "öffnet, um meine"
+    line "Arbeit mit der"
+    para "Welt zu teilen,"
+    line "aber die einzige"
+    para "Skulptur, die ich"
+    line "jemals fertig-"
+    para "gestellt habe, ist"
+    line "eine Skulptur von"
+    cont "einem #MON-EI."
+
+    para "Ich muss etwas"
+    line "Beeindruckendes"
+    cont "erschaffen!"
+
+    para "Ich arbeite an"
+    line "einer Statue vom"
+    para "#MON SWALIASK,"
+    line "aber sie ist noch"
+    cont "nicht ganz fertig."
 	done
 
 ArtistEarlAskToSeeMonText:
-	text "If you have that"
-	line "#MON, may I see"
-	cont "it, please?"
+    text "Falls du dieses"
+    line "#MON hast,"
+    para "könntest du es mir"
+    line "bitte zeigen?"
 	done
 
 ArtistEarlExcitedToSeeText:
-	text "You will show me?"
-	line "How good of you!"
+    text "Du zeigst es mir?"
+    line "Das ist großartig!"
 	done
 
 ArtistEarlYouDontHaveItTextText:
-	text "You don't have it?"
-	line "That's too bad…"
+    text "Oh, du hast keins?"
+    line "Das ist schade…"
 	done
 
 ArtistEarlShownPokemonText:
-	text "Ah, yes! That is"
-	line "@"
-	text_ram wStringBuffer3
-	text "!"
+    text "Ah, ja! Das ist"
+    line "@"
+    text_ram wStringBuffer3
+    text "!"
 
-	para "Thank you so much!"
-	line "I feel inspired!"
+    para "Ich fühle mich von"
+    line "der Muse geküsst!"
 	done
 
 ArtistEarlTokenOfAppreciationText:
-	text "This is a token of"
-	line "my appreciation."
+    text "Hier, nimm dies"
+    line "als Zeichen meiner"
+    cont "Dankbarkeit."
 	done
 
 ArtistEarlComeAgainText:
-	text "Come by again"
-	line "sometime."
+    text "Komm doch mal"
+    line "wieder vorbei."
 	done
 
 ArtistEarlShownAllThePokemonText:
-	text "Thanks for showing"
-	line "me those #MON."
-	para "With your help,"
-	line "I've made great"
-	para "progress on my"
-	line "dream!"
+    text "Danke, dass du mir"
+    line "diese #MON"
+    cont "gezeigt hast!"
+
+    para "Dank deiner Hilfe,"
+    line "bin ich meinem"
+    para "Traum ein großes"
+    line "Stück näher"
+    cont "gekommen!"
 	done
 
 ArtistEarlWrongPokemonText:
 	text "Hm?"
-
-	para "That's not the"
-	line "#MON that I was"
-	cont "thinking about."
+	para "Das ist nicht das"
+	line "#MON, an das"
+	cont "ich gedacht habe."
 	done
 
 ArtistEarlLickitungText:
-	text "If I could only"
-	line "see a LUXWAN in"
-	para "person, I might"
-	line "feel inspired to"
-	cont "finish my statue."
+    text "Ein SWALIASK aus"
+    line "der Nähe zu sehen,"
+    para "könnte mich dazu"
+    line "inspirieren, meine"
+    para "Statue endlich zu"
+    line "vollenden."
 	done
 	
 
 ArtistEarlOddishText:
-	text "I've finished my"
-	line "LUXWAN statue!"
-	para "Now I'd like to"
-	line "finish my statue"
-	cont "of a DRATINI."
-	para "If I could only"
-	line "see a DRATINI in"
-	para "person, I might"
-	line "feel inspired to"
-	cont "finish my statue."
+    text "Ich habe meine"
+    line "SWALIASK-Statue"
+    cont "vollendet!"
+
+    para "Jetzt möchte ich"
+    line "eine Statue von"
+    para "einem DRATINI"
+    line "anfertigen."
+
+    para "Wenn ich nur ein"
+    line "echtes DRATINI"
+    para "sehen könnte, um"
+    line "mich anzuspornen,"
+    para "die Statue fertig-"
+    line "zustellen."
 	done
 
 	
 BirdText:
-	text "LUXWAN STATUE"
-	line "by EARL"
+	text "SWALIASK STATUE"
+	line "von EARL"
 	done
 	
 DragonText:
 	text "DRATINI STATUE"
-	line "by EARL"
+	line "von EARL"
 	done
 
 EarlsMuseum_MapEvents:

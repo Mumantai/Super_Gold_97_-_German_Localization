@@ -187,10 +187,10 @@ FalknerIntroText:
     line "du hier aufkreuzen"
     cont "würdest!"
 
-    para "Es ist immer schön,"
+    para "Es ist immer schön"
     line "zu sehen, wie ein"
     para "neuer Trainer die"
-    line "#MON-LIGA"
+    line "#MON LIGA"
     cont "herausfordert."
 
     para "Aber bist du auch"

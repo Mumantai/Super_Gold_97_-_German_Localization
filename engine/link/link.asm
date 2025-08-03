@@ -484,7 +484,7 @@ ExchangeBytes:
 	ret
 
 String_PleaseWait:
-	db "PLEASE WAIT!@"
+	db "BITTE WARTEN…!@"
 
 ClearLinkData:
 	ld hl, wLinkData
@@ -1366,7 +1366,7 @@ Function2884a:
 	text_end
 
 .String_Stats_Trade:
-	db "STATS     TRADE@"
+	db "STATUS    TAUSCH@"
 
 .LinkAbnormalMonText:
 	text_far _LinkAbnormalMonText
@@ -1431,7 +1431,7 @@ Function28a16:
 	jp PlaceString
 
 .CancelString:
-	db "CANCEL@"
+	db "ABBRECHEN@"
 
 Function28a3c:
 	ld a, [wOtherPlayerLinkMode]
@@ -1776,19 +1776,19 @@ Function28d3c:
 	jp InitTradeMenuDisplay
 
 String28d44:
-	db   "TRADE"
-	next "CANCEL@"
+	db   "TAUSCH"
+	next "ABBRECHEN@"
 
 LinkAskTradeForText:
 	text_far _LinkAskTradeForText
 	text_end
 
 String28d56:
-	db   "Trade completed!@"
+	db   "TAUSCH VOLLZOGEN!@"
 
 String_TooBadTheTradeWasCanceled:
-	db   "Too bad! The trade"
-	next "was canceled!@"
+	db   "Schade! Der Tausch"
+	next "wurde abgebrochen!@"
 
 LinkTextboxAtHL:
 	push hl
