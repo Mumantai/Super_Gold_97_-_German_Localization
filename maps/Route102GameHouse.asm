@@ -162,20 +162,24 @@ N64HouseN64Script:
 	jumptext N64HouseN64Text
 	
 N64HouseN64Text:
-	text "<PLAYER> played the"
+	text "<PLAYER> spielt"
 	line "N64."
 
-	para "Better get going--"
-	line "no time to lose!"
+	para "Mach besser"
+	line "weiter - du hast"
+	cont "keine Zeit zu"
+	cont "verlieren!"
 	done
 	
 N64HouseFisherText:
-	text "Should I try to"
-	line "play the racing"
-	para "game with those"
-	line "guys?"
-	para "I think I'd be no"
-	line "good at it."
+    text "Sollte ich ver-"
+    line "suchen, das Renn-"
+    para "spiel mit diesen"
+    line "Leuten zu spielen?"
+
+    para "Ich glaube, ich"
+    line "wäre nicht gut"
+    cont "darin."
 	done
 	
 N64HouseCooltrainerMText:

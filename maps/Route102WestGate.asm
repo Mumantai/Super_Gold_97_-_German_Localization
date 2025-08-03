@@ -11,23 +11,23 @@ Route102WestGateOfficerScript:
 	jumptextfaceplayer Route102WestGateOfficerText
 
 Route102WestGateOfficerText:
-	text "WESTPORT CITY is a"
-	line "quickly growing"
-	para "metropolis that"
-	line "has many resources"
-	cont "for trainers."
+    text "PORT ABANISHI ist"
+    line "eine rasant wach-"
+    cont "sende Metropole,"
+    para "die viel für Trai-"
+    line "ner zu bieten hat."
 	done
 	
 Route102WestGateYoungsterScript:
 	jumptextfaceplayer Route102WestGateYoungsterText
 
 Route102WestGateYoungsterText:
-	text "Whew!"
-	para "The WESTPORT CITY"
-	line "DEPT. STORE has an"
-	para "underground level"
-	line "that's full of"
-	cont "tough trainers!"
+	text "Puh!"
+	para "Das Untergeschoss"
+	line "vom KAUFHAUS in"
+	para "PORT ABANISHI ist"
+    line "voll von starken"
+    cont "Trainern!"
 	done
 
 

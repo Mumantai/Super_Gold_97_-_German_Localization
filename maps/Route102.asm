@@ -345,225 +345,246 @@ Route102RivalBattleExitMovement:
 	step_end
 	
 Route102SilverWinText:
-	text "Wow! Looks like"
-	line "you've been"
-	para "working hard to"
-	line "raise your"
-	cont "#MON!"
+    text "Wow! Du hast ja"
+    line "hart gearbeitet"
+    para "und deine #MON"
+    line "gut trainiert!"
 	done
 	
 Route102SilverLossText:
-	text "My team is the"
-	line "best!"
+	text "Mein Team ist"
+	line "das beste!"
 	done
 	
 Route102RivalBeforeText:
 	text "<PLAYER>!"
-	para "You gotta check"
-	line "out WESTPORT CITY!"
-	para "There's a giant"
-	line "MART and a RADIO"
-	cont "TOWER, and…"
-	para "Oh, yeah!"
-	para "I've started the"
-	line "LEAGUE challenge!"
-	para "I heard you have,"
-	line "too, <PLAYER>!"
-	para "This will be a"
-	line "great way to show"
-	para "the world how"
-	line "my team is the"
-	para "strongest there"
-	line "is!"
-	para "I've also been out"
-	line "catching some"
-	cont "#MON!"
-	para "Have you? Let's"
-	line "battle to see"
-	cont "whose are better!"
+
+	para "Du musst dir PORT"
+	line "ABANISHI ansehen!"
+
+	para "Es gibt dort ein"
+	line "riesiges KAUFHAUS"
+	para "und einen RADIO-"
+	line "TURM und…"
+
+	para "Oh, ja!"
+
+	text "Ich habe angefang-"
+	line "en, die ARENA-"
+	cont "ORDEN zu sammeln!"
+
+	para "Ich habe gehört,"
+	line "du auch, <PLAYER>!"
+
+	para "Das wird meine"
+	line "Gelegenheit, der"
+	para "Welt zu zeigen,"
+	line "dass mein Team das"
+	cont "stärkste ist!"
+
+	para "Ich habe auch ein"
+	line "paar neue #MON"
+	cont "gefangen!"
+
+	para "Du auch? Dann lass"
+	line "uns kämpfen, um zu"
+	para "sehen, wessen"
+	line "besser sind!"
 	done
 	
 Route102RivalAfterText:
-	text "Whew! It was good"
-	line "catching up with"
-	cont "you, <PLAYER>!"
-	para "I'm heading back"
-	line "into the city!"
-	para "See you around!"
+    text "Puh! Es war schön,"
+    line "dich wieder zu"
+    cont "treffen, <PLAYER>!"
+
+    para "Ich gehe zurück"
+    line "in die Stadt!"
+
+    para "Wir sehen uns!"
 	done
 
 
 Route102LassText:
-	text "A small tree is"
-	line "blocking the way"
-	cont "to WESTPORT CITY."
+	text "Ein Baum versperrt"
+	line "den Weg nach"
+	cont "PORT ABANISHI."
 
-	para "If you need to"
-	line "get through, a"
-	para "#MON could"
-	line "probably CUT the"
-	cont "tree."
+	para "Wenn du durch"
+	line "möchtest, kann"
+	para "ein #MON den"
+	line "Baum vielleicht"
+	cont "ZERSCHNEIDEN."
 	done
 
 PsychicMarkSeenText:
-	text "I'm going to read"
-	line "your thoughts!"
+	text "Ich werde jetzt"
+	line "deine Gedanken"
+	cont "lesen!"
 	done
 
 PsychicMarkBeatenText:
-	text "I misread you!"
+	text "Ich habe mich wohl"
+	line "bei dir verlesen!"
 	done
 
 PsychicMarkAfterBattleText:
-	text "I'd be strong if"
-	line "only I could tell"
+	text "Ich wäre wirklich"
+	line "stark, wenn ich "
 
-	para "what my opponent"
-	line "was thinking."
+	para "wüsste, was mein"
+	line "Gegner denkt."
 	done
 
 SchoolboyAlan1SeenText:
-	text "Thanks to my stud-"
-	line "ies, I'm ready for"
-	cont "any #MON!"
+	text "Dank meiner"
+	line "Studien bin ich"
+	cont "für jedes #MON"
+	cont "bereit!"
 	done
 
 SchoolboyAlan1BeatenText:
-	text "Oops! Computation"
-	line "error?"
+	text "Ups! Ein Fehler"
+	line "in der Berechnung?"
 	done
 
 SchoolboyAlanBooksText:
-	text "Darn. I study five"
-	line "hours a day too."
+	text "Mist! Ich lerne"
+	line "auch fünf Stunden"
+	cont "am Tag."
 
-	para "There's more to"
-	line "learning than just"
-	cont "reading books."
+	para "Es gibt vieles,"
+	line "das du nicht aus"
+	cont "Büchern lernen"
+	cont "kannst."
 	done
 
 MeetArthurText:
-	text "ARTHUR: Who are"
-	line "you?"
+	text "DONATUS: Wer bist"
+	line "du?"
 
-	para "I'm ARTHUR of"
-	line "Thursday."
+	para "Ich bin DONATUS"
+	line "von Donnerstag."
 	done
 
 ArthurGivesGiftText:
-	text "Here. You can have"
-	line "this."
+	text "Hier bitte. Das"
+	line "kannst du haben."
 	done
 
 ArthurGaveGiftText:
-	text "ARTHUR: A #MON"
-	line "that uses rock-"
+	text "DONATUS: Ein"
+	line "#MON, das"
+	para "Gestein-Attacken"
+	line "benutzt, sollte"
+	cont "dies mit sich"
+	cont "tragen."
 
-	para "type moves should"
-	line "hold on to that."
-
-	para "It pumps up rock-"
-	line "type attacks."
+	para "Es verstärkt"
+	line "Gestein-Attacken."
 	done
 
 ArthurThursdayText:
-	text "ARTHUR: I'm ARTHUR"
-	line "of Thursday. I'm"
-
-	para "the second son out"
-	line "of seven children."
+	text "DONATUS: Ich bin"
+	line "DONATUS von"
+	para "Donnerstag. Ich"
+	line "bin der zweite"
+	para "Sohn von"
+	line "sieben Kindern."
 	done
 
 ArthurNotThursdayText:
-	text "ARTHUR: Today's"
-	line "not Thursday. How"
-	cont "disappointing."
+	text "DONATUS: Heute ist"
+	line "nicht Donnerstag."
+	cont "Wie bedauerlich!"
 	done
 
 Route102SignText:
 	text "ROUTE 102"
-	para "PAGOTA CITY -"
-	line "WESTPORT CITY"
+	para "PAGETIA CITY -"
+	line "PORT ABANISHI"
 	done
 
 SanskritRuinsNorthSignText:
-	text "RUINS OF ALPH"
-	line "NORTH ENTRANCE"
+	text "ALPH-RUINEN"
+	line "NORDEINGANG"
 	done
 
 Route102TrainerTips1Text:
-	text "TRAINER TIPS"
+	text "TIPPS für TRAINER"
 
-	para "#MON stats"
-	line "vary--even within"
-	cont "the same species."
+	para "Der Status der"
+	line "#MON ist unter-"
+	para "schiedlich, sogar"
+	line "innerhalb der-"
+	cont "selben Spezies."
 
-	para "Their stats may be"
-	line "similar at first."
+	para "Zu Beginn ist er"
+	line "vielleicht noch"
+	cont "ähnlich."
 
-	para "However, differ-"
-	line "ences will become"
-
-	para "pronounced as the"
-	line "#MON grow."
+	para "Doch die Unter-"
+	line "schiede werden "
+	para "deutlicher, wenn"
+	line "die #MON"
+	cont "heranwachsen."
 	done
 
 Route102TrainerTips2Text:
-	text "TRAINER TIPS"
+	text "TIPPS für TRAINER"
 
-	para "Use DIG to return"
-	line "to the entrance of"
-	cont "any place."
+	para "Setze den"
+	line "SCHAUFLER ein, um"
+	para "an den Eingang"
+	line "eines Ortes"
+	cont "zurückzugelangen."
 
-	para "It is convenient"
-	line "for exploring"
-
-	para "caves and other"
-	line "landmarks."
+	para "Das ist sehr nütz-"
+	line "lich beim Erkunden"
+	para "von Höhlen und an-"
+	line "deren Umgebungen."
 	done
 	
 Route102GameHouseText:
-	text "Come and take a"
-	line "break!"
-	para "GAME HOUSE"
+	text "Mach eine Pause!"
+
+	para "SPIELHÜTTE"
 	done
 	
 
 
 YoungsterSamuelSeenText:
-	text "This is where I do"
-	line "my training!"
+	text "Hier trainiere"
+	line "ich!"
 	done
 
 YoungsterSamuelBeatenText:
-	text "Beaten by a"
-	line "passing stranger!"
+	text "Besiegt von einem"
+	line "Passanten!"
 	done
 
 YoungsterSamuelAfterText:
-	text "I'm going to train"
-	line "even harder."
+	text "Ich werde noch"
+	line "härter trainieren."
 
-	para "After all, I'm"
-	line "trying to become"
-	cont "a GYM LEADER."
+	para "Ich möchte doch"
+	line "ein ARENALEITER"
+	cont "werden."
 	done
 
 YoungsterIanSeenText:
-	text "I'm the best in my"
-	line "class at #MON."
-	para "It's honestly not"
-	line "even close."
+	text "Ich bin der"
+	line "#MON-Experte"
+	cont "in meiner Klasse."
 	done
 
 YoungsterIanBeatenText:
-	text "No! There are bet-"
-	line "ter trainers…"
+	text "Nein! Es gibt noch"
+	line "bessere Trainer…"
 	done
 
 YoungsterIanAfterText:
-	text "I guess I gotta"
-	line "try even harder."
+	text "Ich muss mich wohl"
+	line "mehr anstregen."
 	done
 	
 WateredWeirdTreeScript::
