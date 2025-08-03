@@ -183,133 +183,162 @@ N64HouseFisherText:
 	done
 	
 N64HouseCooltrainerMText:
-	text "This place has a"
-	line "great selection of"
-	cont "sports games!"
+    text "Es gibt hier eine"
+    line "tolle Auswahl an"
+    cont "Sport-Spielen!"
 	done
 	
 N64HouseLassText:
-	text "I'm no good at"
-	line "sports games, but"
-	para "my friend here"
-	line "helps me learn."
+    text "Ich bin nicht gut"
+    line "in Sportspielen,"
+    para "aber mein Freund"
+    line "hier hilft mir,"
+    cont "besser zu werden."
 	done
 	
 TakeGoodCareOfStarter3:
-	text "I know you'll take"
-	line "great care of that"
-	cont "#MON."
+    text "Ich weiß, du wirst"
+    line "dich gut um das"
+    cont "#MON kümmern."
 	done
 	
 NoRoomForStarter3:
-	text "Oh, wait! You have"
-	line "no room for this!"
+    text "Oh, warte! Du hast"
+    line "keinen Platz dafür!"
 	done
 	
 AlreadyGotStarter3Text:
-	text "This place is the"
-	line "coolest spot for"
-	para "trainers to come"
-	line "socialize and play"
-	cont "games!"
-	para "All thanks to you!"
+    text "Das hier ist der"
+    line "coolste Ort für"
+    para "Trainer, um sich"
+    line "zu treffen und"
+    cont "zu spielen!"
+
+    para "Alles dank dir!"
 	done
 	
 N64HouseScientistText5:
-	text "Wow, look at all"
-	line "of these trainers."
-	para "It's incredible!"
-	line "I owe you a ton!"
-	para "Here, take this"
-	line "#MON EGG."
-	para "It's a rare"
-	line "#MON, I'm sure"
-	para "you'd appreciate"
-	line "it."
+    text "Wow, schau die all"
+    line "diese Trainer an."
+
+    para "Es ist unglaublich!"
+
+    para "Ich schulde dir"
+    line "eine Menge!"
+
+    para "Hier, nimm dieses"
+    line "#MON-Ei."
+
+    para "Es ist ein sehr"
+    line "seltenes #MON."
+
+    para "Ich bin mir"
+    line "sicher, du weißt"
+    cont "es zu schätzen."
 	done
 	
 N64HouseRockerText:
-	text "I'm gonna win!"
+	text "Ich werde"
+	line "gewinnen!"
 	done
 
 RockerN64AloneText:
-	text "This racing game"
-	line "is neat, but"
-	para "there's no one"
-	line "here to race"
-	cont "against!"
-	para "I came here to"
-	line "meet other"
-	para "trainers, but I'm"
-	line "alone so far."
+    text "Das Rennspiel ist"
+    line "cool, aber hier"
+    para "ist niemand, mit"
+    line "dem ich spielen"
+    cont "kann!"
+
+    para "Ich bin hier, um"
+    line "andere Trainer zu"
+    para "treffen, aber ich"
+    line "bin bisher allein."
 	done
 	
 RockerN64TwoPeopleText:
-	text "Hey, this is much"
-	line "more fun with"
-	cont "another person!"
+    text "Hey, das macht zu"
+    line "zweit viel mehr"
+    cont "Spaß!"
 	done
 
 N64HouseScientistText4:
-	text "Wow, two people!"
-	para "I may realize my"
-	line "dream of owning"
-	para "a hot gathering"
-	line "place for #MON"
-	cont "trainers!"
-	para "See if you can"
-	line "find another!"
-	para "Maybe somewhere"
-	line "that people meet"
-	para "to socialize, but"
-	line "doesn't have any"
-	cont "games to play…"
+    text "Wow, zwei Leute!"
+
+    para "Vielleicht kann"
+    line "ich meinen Traum"
+    para "eines heißen"
+    line "Treffpunkts für"
+    cont "Trainer erfüllen!"
+
+    para "Schau, ob du noch"
+    line "jemanden findest!"
+
+    para "Vielleicht irgend-"
+    line "wo, wo Leute sich"
+    para "treffen, um sich"
+    line "zu unterhalten, es"
+    para "aber keine Spiele"
+    line "zu spielen gibt…"
 	done
 	
 N64HouseScientistText3:
-	text "Hey, someone"
-	line "showed up!"
-	para "That's great!"
-	para "Did you let him"
-	line "know about this"
-	cont "place?"
-	para "I'm very grateful."
-	para "See if you can"
-	line "find anyone else!"
-	para "Maybe look some-"
-	line "where that people"
-	para "play other types"
-	line "of games…"
+    text "Hey, jemand ist"
+    line "hier aufgetaucht!"
+
+    para "Das ist großartig!"
+
+    para "Hast du ihm von"
+    line "diesem Ort hier"
+    cont "erzählt?"
+
+    para "Danke dir."
+
+    para "Guck, ob du noch"
+    line "jemanden findest!"
+
+    para "Vielleicht irgend-"
+    line "wo, wo Leute"
+    para "andere Arten von"
+    line "Spielen spielen…"
 	done
 	
 N64HouseScientistText2:
-	text "How about it?"
-	para "Let any trainers"
-	line "who might be"
-	para "interested know"
-	line "about this place."
-	para "Maybe look in a"
-	line "town where there"
-	para "isn't too much"
-	line "to do…"
+    text "Wie sieht's aus?"
+
+    para "Erzähle allen"
+    line "Trainern, die"
+    para "vielleicht Inte-"
+    line "resse haben, von"
+    cont "diesem Ort hier."
+
+    para "Vielleicht findest"
+    line "du jemanden in ei-"
+    para "ner Stadt, in der"
+    line "es nicht so viel"
+    cont "zu tun gibt…"
 	done
 
 N64HouseScientistText:
 	text "Hmmm."
-	para "I opened this game"
-	line "house as a place"
-	para "for trainers to"
-	line "come and socialize"
-	cont "between battles."
-	para "But it doesn't"
-	line "seem to be"
-	cont "catching on…"
-	para "Hey, if you find"
-	line "any trainers who"
-	para "might be interest-"
-	line "ed in a place like"
-	para "this, could you"
-	line "let them know?"
+
+	para "Ich habe diese"
+	line "Spielhütte als Ort"
+	para "für Trainer eröff-"
+	line "net, um sich"
+	line "zwischen den Kämp-"
+	cont "fen auszutauschen."
+
+    para "Aber es findet"
+    line "einfach keinen"
+    cont "Anklang…"
+
+    para "Hey, wenn du ein"
+    line "paar Trainer"
+    para "findest, denen ein"
+    line "Ort wie dieser"
+    para "gefallen könnte,"
+    line "bringst du sie"
+    cont "dann hierher?"
 	done
 	
 Route102GameHouse_MapEvents:
