@@ -35,7 +35,7 @@ jobs:
 
       - name: Gold ROM bauen
         run: |
-          make -j -k gold RGBASMFLAGS="-Wnone" RGBLINKFLAGS="-Wnone"
+          make -j -k gold
         working-directory: .
 
       - name: Silber ROM bauen
