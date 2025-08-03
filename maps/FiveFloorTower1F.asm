@@ -39,25 +39,25 @@ FiveFloorTower1FSign:
 	
 
 SageChowSeenText:
-	text "We stand guard in"
-	line "this tower."
+	text "Wir bewachen"
+	line "diesen Turm."
 
-	para "Here, we express"
-	line "our gratitude to"
-	cont "honor all #MON."
+	para "In tiefster Dank-"
+	line "barkeit ehren wir"
+	cont "hier alle #MON."
 	done
 
 SageChowBeatenText:
-	text "Th-Thank you!"
+	text "Da-Danke!"
 	done
 
 SageChowAfterBattleText:
-	text "All living beings"
-	line "coexist through"
-	cont "cooperation."
+	text "Die Basis jeder"
+	line "Koexistenz ist"
+	cont "Zusammenarbeit."
 
-	para "We must always be"
-	line "thankful for this."
+	para "Lasst uns dies"
+	line "nie vergessen!"
 	done
 	
 TrainerSageNico:

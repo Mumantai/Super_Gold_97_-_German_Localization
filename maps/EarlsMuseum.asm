@@ -163,7 +163,7 @@ ArtHouseLassText:
 	done
 
 EggStatueText:
-	text "#MON-EI STATUE"
+	text "#MON-EI-STATUE"
 	line "von EARL"
 	done
 	
@@ -306,12 +306,12 @@ ArtistEarlOddishText:
 
 	
 BirdText:
-	text "SWALIASK STATUE"
+	text "SWALIASK-STATUE"
 	line "von EARL"
 	done
 	
 DragonText:
-	text "DRATINI STATUE"
+	text "DRATINI-STATUE"
 	line "von EARL"
 	done
 

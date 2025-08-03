@@ -183,10 +183,10 @@ Text_5FSageYup:
 
     para "Ich hoffe, du"
     line "konntest lernen,"
-    line "wie man #MON"
-    para "den richtigen"
-    line "Respekt entgegen-"
-    cont "bringt."
+    para "wie man #MON"
+    line "den richtigen"
+    para "Respekt entgegen-"
+    line "bringt."
 
     para "Kehre jetzt zu"
     line "KURT zurück. Du"
