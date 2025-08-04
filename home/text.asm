@@ -171,7 +171,7 @@ NextChar::
 	jp PlaceNextChar
 
 CheckDict::
-dict: MACRO
+MACRO dict
 if \1 == "<NULL>"
 	and a
 else
@@ -268,7 +268,7 @@ ENDM
 	call PrintLetterDelay
 	jp NextChar
 
-print_name: MACRO
+MACRO print_name
 	push de
 	ld de, \1
 	jp PlaceCommandCharacter
