@@ -24,22 +24,23 @@ Route102WestGate2FFisherScript:
 	end
 
 Route102WestGate2FFisherText:
-	text "The WESTPORT DOCK"
-	line "has resumed taking"
-	para "ferries out to"
-	line "TEKNOS CITY."
-	para "You should check"
-	line "it out if you get"
-	cont "a chance."
+    text "Die Fähre von PORT"
+    line "ABANISHI nach"
+    para "TEKNOPIA CITY ist"
+    line "wieder in Betrieb."
+
+    para "Du solltest sie"
+    line "bei Gelegenheit"
+    cont "ausprobieren."
 	done
 	
 DocksClosedText:
-	text "WESTPORT CITY has"
-	line "a dock where"
-	para "ferries depart for"
-	line "TEKNOS CITY, but"
-	para "it's closed right"
-	line "now."
+    text "Am Hafen von PORT"
+    line "ABANISHI legt"
+    para "die Fähre nach"
+    line "TEKNOPIA CITY ab,"
+    para "aber er ist zur"
+    line "Zeit geschlossen."
 	done
 	
 	
@@ -47,23 +48,25 @@ Route102WestGate2FSign:
 	jumptext Route102WestGate2FSignText
 	
 Route102WestGate2FSignText:
-	text "<PLAYER> peeked"
-	line "through the"
-	cont "telescope!"
-	para "I see a small"
-	line "desert town north"
-	cont "of here!"
+	text "<PLAYER> schaut"
+	line "durch das"
+	cont "Fernrohr!"
+
+	para "Im Norden ist eine"
+	line "kleine Wüstenstadt"
+	cont "zu sehen!"
 	done
 
 Route102WestGate2FSign2:
 	jumptext Route102WestGate2FSign2Text
 	
 Route102WestGate2FSign2Text:
-	text "<PLAYER> peeked"
-	line "through the"
-	cont "telescope!"
-	para "Is that WESTPORT"
-	line "CITY RADIO TOWER?"
+	text "<PLAYER> schaut"
+	line "durch das"
+	cont "Fernrohr!"
+
+	para "Ist das der"
+	line "RADIOTURM?"
 	done
 	
 Route102WestGate2F_MapEvents:

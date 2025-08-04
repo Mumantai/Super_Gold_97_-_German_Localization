@@ -369,7 +369,7 @@ Route102RivalBeforeText:
 
 	para "Oh, ja!"
 
-	text "Ich habe angefang-"
+	para "Ich habe angefang-"
 	line "en, die ARENA-"
 	cont "ORDEN zu sammeln!"
 
@@ -505,7 +505,7 @@ Route102SignText:
 	done
 
 SanskritRuinsNorthSignText:
-	text "ALPH-RUINEN"
+	text "GLYPHONTIA RUINEN"
 	line "NORDEINGANG"
 	done
 
