@@ -283,21 +283,21 @@ WestportCityCooltrainerF1Text_ClearedRadioTower:
     cont "nicht umbenennen."
 	done
 
-#WestportCityCooltrainerF1Text_ClearedRadioTower:
-#	text "Der Mann in diesem"
-#	line "Haus bewertet dei-"
-#	cont "ne #MON-Namen."
-#
-#	para "Er kann deine"
-#	line "#MON auch"
-#	cont "umbenennen."
-#
-#    para "#MON, die du"
-#    line "durch Tausch"
-#    para "erhalten hast,"
-#   line "kannst du aber"
-#    cont "nicht umbenennen."
-#	done
+;WestportCityCooltrainerF1Text_ClearedRadioTower:
+;	text "Der Mann in diesem"
+;	line "Haus bewertet dei-"
+;	cont "ne #MON-Namen."
+;
+;	para "Er kann deine"
+;	line "#MON auch"
+;	cont "umbenennen."
+;
+;    para "#MON, die du"
+;    line "durch Tausch"
+;    para "erhalten hast,"
+;   line "kannst du aber"
+;    cont "nicht umbenennen."
+;	done
 
 WestportCityCooltrainerF2Text:
 	text "Der RADIOTURM in"
