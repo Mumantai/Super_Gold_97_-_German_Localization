@@ -54,7 +54,7 @@ TrainerHouse1FReceptionistText:
 TrainerHouse1FCooltrainerMText:
 	text "VIRIDIAN is the"
 	line "town closest to"
-	cont "MOUNT_FUJI PLATEAU."
+	cont "MOUNT FUJI PLATEAU."
 
 	para "They built this"
 	line "place because so"
@@ -62,7 +62,7 @@ TrainerHouse1FCooltrainerMText:
 	para "many trainers pass"
 	line "through on their"
 
-	para "way up to MOUNT_FUJI"
+	para "way up to MOUNT FUJI"
 	line "PLATEAU."
 	done
 

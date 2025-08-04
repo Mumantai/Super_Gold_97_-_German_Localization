@@ -718,9 +718,9 @@ Oak2DescribesMrPokemonText:
 	done
 
 Oak2PokeBallText:
-	text "It contains a"
-	line "#MON caught by"
-	cont "PROF.OAK."
+	text "Er beinhaltet ein"
+	line "von PROF. EICH ge-"
+	cont "fangenes #MON."
 	done
 
 OakLabBackRoomHealingMachineText1:
@@ -779,7 +779,7 @@ Oak2AfterTheftText5:
 	para "Trainers zu er-"
 	line "kennen."
 
-	para "Wow, <PLAX>. Es"
+	para "Wow, <PLAYER>. Es"
 	line "ist vielleicht"
 	para "deine Bestimmung,"
 	line "der CHAMP zu"
