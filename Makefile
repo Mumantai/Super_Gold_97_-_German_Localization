@@ -126,13 +126,13 @@ include gfx/lz.mk
 
 ### Misc file-specific graphics rules
 
-gfx/pokemon/%/front.2bpp: rgbgfx += -h
-gfx/pokemon/%/front_gold.2bpp: rgbgfx += -h
-gfx/pokemon/%/front_silver.2bpp: rgbgfx += -h
+gfx/pokemon/%/front.2bpp: rgbgfx += -Z
+gfx/pokemon/%/front_gold.2bpp: rgbgfx += -Z
+gfx/pokemon/%/front_silver.2bpp: rgbgfx += -Z
 
-gfx/pokemon/%/back.2bpp: rgbgfx += -h
-gfx/pokemon/%/back_gold.2bpp: rgbgfx += -h
-gfx/pokemon/%/back_silver.2bpp: rgbgfx += -h
+gfx/pokemon/%/back.2bpp: rgbgfx += -Z
+gfx/pokemon/%/back_gold.2bpp: rgbgfx += -Z
+gfx/pokemon/%/back_silver.2bpp: rgbgfx += -Z
 
 gfx/pokemon/%/back_gold.2bpp: gfx/pokemon/%/back.png
 	$(RGBGFX) $(rgbgfx) -o $@ $<
@@ -144,14 +144,14 @@ gfx/pokemon/%/back_silver.2bpp: gfx/pokemon/%/back.png
 	$(if $(tools/gfx),\
 		tools/gfx $(tools/gfx) -o $@ $@)
 
-gfx/trainers/%.2bpp: rgbgfx += -h
+gfx/trainers/%.2bpp: rgbgfx += -Z
 
 gfx/intro/fire1.2bpp: gfx/intro/charizard1.2bpp gfx/intro/charizard2_top.2bpp gfx/intro/space.2bpp ; cat $^ > $@
 gfx/intro/fire2.2bpp: gfx/intro/charizard2_bottom.2bpp gfx/intro/charizard3.2bpp ; cat $^ > $@
 gfx/intro/fire3.2bpp: gfx/intro/fire.2bpp gfx/intro/unused_blastoise_venusaur.2bpp ; cat $^ > $@
 
-gfx/new_game/shrink1.2bpp: rgbgfx += -h
-gfx/new_game/shrink2.2bpp: rgbgfx += -h
+gfx/new_game/shrink1.2bpp: rgbgfx += -Z
+gfx/new_game/shrink2.2bpp: rgbgfx += -Z
 
 gfx/mail/dragonite.1bpp: tools/gfx += --remove-whitespace
 gfx/mail/large_note.1bpp: tools/gfx += --remove-whitespace
@@ -161,7 +161,7 @@ gfx/mail/litebluemail_border.1bpp: tools/gfx += --remove-whitespace
 
 gfx/pokedex/pokedex.2bpp: tools/gfx += --trim-whitespace
 gfx/pokedex/pokedex_sgb.2bpp: tools/gfx += --trim-whitespace
-gfx/pokedex/question_mark.2bpp: rgbgfx += -h
+gfx/pokedex/question_mark.2bpp: rgbgfx += -Z
 gfx/pokedex/slowpoke.2bpp: tools/gfx += --trim-whitespace
 
 gfx/pokegear/pokegear.2bpp: rgbgfx += -x2
@@ -205,8 +205,8 @@ gfx/battle_anims/rocks.2bpp: tools/gfx += --remove-whitespace
 gfx/battle_anims/skyattack.2bpp: tools/gfx += --remove-whitespace
 gfx/battle_anims/status.2bpp: tools/gfx += --remove-whitespace
 
-gfx/player/chris.2bpp: rgbgfx += -h
-gfx/player/chris_back.2bpp: rgbgfx += -h
+gfx/player/chris.2bpp: rgbgfx += -Z
+gfx/player/chris_back.2bpp: rgbgfx += -Z
 
 gfx/trainer_card/leaders.2bpp: tools/gfx += --trim-whitespace
 
@@ -214,7 +214,7 @@ gfx/overworld/chris_fish.2bpp: tools/gfx += --trim-whitespace
 
 gfx/sprites/big_onix.2bpp: tools/gfx += --remove-whitespace --remove-xflip
 
-gfx/battle/dude.2bpp: rgbgfx += -h
+gfx/battle/dude.2bpp: rgbgfx += -Z
 
 gfx/font/unused_bold_font.1bpp: tools/gfx += --trim-whitespace
 
