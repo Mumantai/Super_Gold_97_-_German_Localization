@@ -1,5 +1,5 @@
 BikeShopPhoneCallerText:
-	text "Hi, <PLAY_G>!"
+	text "Hi, <PLAYER>!"
 	line "Unsere FAHRRAD-"
 	cont "Verkäufe brechen"
 	cont "alle Rekorde!"

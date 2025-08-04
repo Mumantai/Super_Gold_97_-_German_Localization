@@ -67,7 +67,7 @@ tools:
 	$(MAKE) -C tools/
 
 
-RGBASMFLAGS = -L -Weverything -H
+RGBASMFLAGS = -L -Weverything -H -Wno-numeric-string
 # Create a sym/map for debug purposes if `make` run with `DEBUG=1`
 ifeq ($(DEBUG),1)
 RGBASMFLAGS += -E
