@@ -1,7 +1,7 @@
 ; Maps that roaming monsters can be on, and possible maps they can jump to.
 ; Notably missing are Route 110 and Route 111, which are water routes.
 
-roam_map: MACRO
+MACRO roam_map
 	map_id \1
 	db _NARG - 1
 rept _NARG - 1
