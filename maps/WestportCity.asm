@@ -203,213 +203,238 @@ WestportSilverWalksUp2:
 
 	
 SilverHasItFiguredOut:
-	text "<RIVAL>:"
-	line "<PLAYER>!"
-	para "I think I have it"
-	line "figured out!"
-	para "TEAM ROCKET is"
-	line "going to use the"
-	para "RADIO TOWER as a"
-	line "replacement for"
-	para "the antenna we had"
-	line "destroyed!"
+	text "<RIVAL>: <PLAYER>!"
+
+    para "Ich glaube ich"
+    line "weiß, was los ist!"
+
+    para "TEAM ROCKET will"
+    line "den RADIOTURM als"
+    para "Ersatz für die"
+    line "Antenne benutzen,"
+    para "die wir zerstört"
+    line "haben!"
 	done
 	
 SilverHasItFiguredOut2:
-	text "What?"
-	para "I was right!"
-	para "But you already"
-	line "got rid of them?"
-	para "Man, I missed out"
-	line "on all the fun!"
-	para "Well, I guess I"
-	line "had better get"
-	cont "back to training!"
-	para "I only need one"
-	line "more GYM BADGE"
-	para "before I can climb"
-	line "MT.FUJI and take"
-	cont "on the LEAGUE!"
-	para "Bet I can beat you"
-	line "to it!"
+    text "Was?"
+
+    para "Ich hatte Recht!"
+
+    para "Aber du hast sie"
+    line "schon erledigt?"
+
+    para "Mann, ich habe"
+    line "den ganzen Spaß"
+    cont "verpasst!"
+
+    para "Na ja, ich gehe,"
+    line "besser weiter"
+    cont "trainieren!"
+
+    para "Ich brauche nur"
+    line "noch einen ORDEN,"
+    para "um den FUJIYAMA zu"
+    line "besteigen und die"
+    para "TOP VIER heraus-"
+    cont "fordern zu dürfen!"
+
+    para "Ich wette, ich bin"
+    line "schneller als du!"
 	done
 	
 WestportCityMonText:
-	text "BLISSEY:"
-	line "BIBI!"
+	text "HEITEIRA:"
+	line "HEIHEI!"
 	done
 	
 WestportCityDocksSignText:
-	text "WESTPORT CITY"
-	line "DOCKS"
-	para "Ferries to TEKNOS"
-	line "CITY daily."
+	text "PORT ABANISHI"
+	line "HAFEN"
+
+	para "Tägliche Fähren"
+	line "nach TEKNOPIA CITY"
 	done
 
 
 WestportCityYoungster1Text:
-	text "I know there's a"
-	line "new BIKE SHOP, but"
+	text "Es soll einen neu-"
+	line "en FAHRRADLADEN"
 
-	para "I can't find it"
-	line "anywhere."
+	para "geben, aber ich"
+	line "kann ihn nirgends"
+	cont "finden."
 	done
 
 WestportCityCooltrainerF1Text:
-	text "The man in this"
-	line "house here will"
-	para "rate the nicknames"
-	line "of your #MON!"
-	para "He'll even let you"
-	line "rename them."
-	para "But know that you"
-	line "cannot rename any"
-	para "#MON you got"
-	line "in trades."
+WestportCityCooltrainerF1Text_ClearedRadioTower:
+	text "Der Mann in diesem"
+	line "Haus bewertet dei-"
+	cont "ne #MON-Namen."
+
+	para "Er kann deine"
+	line "#MON auch"
+	cont "umbenennen."
+
+    para "#MON, die du"
+    line "durch Tausch"
+    para "erhalten hast,"
+    line "kannst du aber"
+    cont "nicht umbenennen."
 	done
 
-WestportCityCooltrainerF1Text_ClearedRadioTower:
-	text "The man in this"
-	line "house here will"
-	para "rate the nicknames"
-	line "of your #MON!"
-	para "He'll even let you"
-	line "rename them."
-	para "But know that you"
-	line "cannot rename any"
-	para "#MON you got"
-	line "in trades."
-	done
+#WestportCityCooltrainerF1Text_ClearedRadioTower:
+#	text "Der Mann in diesem"
+#	line "Haus bewertet dei-"
+#	cont "ne #MON-Namen."
+#
+#	para "Er kann deine"
+#	line "#MON auch"
+#	cont "umbenennen."
+#
+#    para "#MON, die du"
+#    line "durch Tausch"
+#    para "erhalten hast,"
+#   line "kannst du aber"
+#    cont "nicht umbenennen."
+#	done
 
 WestportCityCooltrainerF2Text:
-	text "The RADIO TOWER in"
-	line "WESTPORT CITY is"
-	cont "a landmark."
+	text "Der RADIOTURM in"
+	line "PORT ABANISHI ist"
+	cont "ein Wahrzeichen."
 
-	para "They're running a"
-	line "promotional cam- "
-	cont "paign right now."
+	para "Zurzeit läuft ge-"
+	line "rade eine Werbe-"
+	cont "kampagne."
 
-	para "They'll modify"
-	line "your #GEAR,"
-
-	para "so it can also"
-	line "serve as a radio."
+	para "Sie können deinen"
+	line "#COM modifi-"
+	para "zieren, so dass er"
+	line "auch als Radio"
+	para "verwendet werden"
+	line "kann."
 	done
 
 WestportCityCooltrainerF2Text_GotRadioCard:
-	text "Oh, your #GEAR"
-	line "works as a radio!"
+	text "Oh, dein #COM"
+	line "ist auch ein"
+	cont "Radio!"
 	done
 
 WestportCityYoungster2Text:
 	text "E-he-he-he…"
 
-	para "I got in trouble"
-	line "for playing in the"
-
-	para "basement of the"
-	line "DEPT.STORE."
+	para "Ich habe Ärger be-"
+	line "kommen, weil ich"
+	para "im Keller des"
+	line "KAUFHAUSes ge-"
+	cont "spielt habe."
 	done
 
 WestportCityLassText:
-	text "My BLISSEY is able"
-	line "to heal #MON"
-	cont "using a move!"
-	para "Some #MON have"
-	line "special moves they"
-	para "can use outside of"
-	line "battle."
+    text "Mein HEITEIRA kann"
+    line "#MON mit einer"
+    cont "Attacke heilen!"
+
+    para "Einige #MON"
+    line "haben spezielle"
+    para "Attacken, die sie"
+    line "auch außerhalb von"
+    para "Kämpfen einsetzen"
+    line "können."
 	done
 
 WestportCityGrampsText:
-	text "Whew! This is one"
-	line "big town. I don't"
-
-	para "know where any-"
-	line "thing is."
+	text "Wow! Das ist eine"
+	line "große Stadt. Ich"
+	para "finde mich noch"
+	line "gar nicht zurecht."
 	done
 
 WestportCityRocketScoutText1:
-	text "So this is the"
-	line "RADIO TOWER…"
+	text "Das ist also der"
+	line "RADIOTURM…"
 	done
 
 WestportCityRocketScoutText2:
-	text "What do you want,"
-	line "you pest? Scram!"
+	text "Was willst du, du"
+	line "Nervensäge?"
+
+	para "Hau ab!"
 	done
 
 WestportCityRocket1Text:
-	text "Stay out of the"
-	line "way! Beat it!"
+	text "Aus dem Weg!"
+	line "Verschwinde!"
 	done
 
 WestportCityRocket2Text:
-	text "Take over the"
-	line "RADIO TOWER…"
+	text "Den RADIOTURM ein-"
+	line "nehmen…"
 
-	para "What? It's none of"
-	line "your business!"
+	para "Was? Das geht dich"
+	line "nichts an!"
 	done
 
 WestportCityRocket3Text:
-	text "#MON? They're"
-	line "nothing more than"
-
-	para "tools for making"
-	line "money!"
+	text "#MON? Sie sind"
+	line "nicht mehr als"
+	para "Werkzeuge zum"
+	line "Geldscheffeln!"
 	done
 
 WestportCityRocket4Text:
-	text "Our dream will"
-	line "soon come true…"
+	text "Bald wird sich"
+	line "unser Traum"
+	cont "erfüllen…"
 
-	para "It was such a long"
-	line "struggle…"
+	para "So lange hat es"
+	line "schon gedauert…"
 	done
 
 WestportCityRocket5Text:
-	text "Hey, brat! You"
-	line "don't belong here!"
-	cont "Get lost!"
+	text "Hey, Grünschnabel!"
+	line "Du hast hier"
+	cont "nichts zu suchen!"
 	done
 
 WestportCityRocket6Text:
-	text "Come taste the"
-	line "true terror of"
-	cont "TEAM ROCKET!"
+	text "Komm und werde"
+	line "Zeuge der Macht"
+	cont "von TEAM ROCKET!"
 	done
 
 
 WestportCityRadioTowerSignText:
-	text "WESTPORT CITY"
-	line "RADIO TOWER"
-	para "JOPM HQ"
+	text "PORT ABANISHI"
+	line "RADIOTURM"
+	para "JOPM-Zentrale"
 	done
 
 WestportDeptStoreSignText:
-	text "Full Selection of"
-	line "#MON Goods!"
+	text "Große Auswahl an"
+	line "#MON-Artikeln!"
 
-	para "WESTPORT CITY"
-	line "DEPT.STORE"
+	para "PORT ABANISHI"
+	line "KAUFHAUS"
 	done
 
 TeknosGymSignText:
-	text "WESTPORT CITY"
-	line "#MON GYM"
-	cont "LEADER: BUGSY"
+	text "PKMN-ARENA von"
+	line "PORT ABANISHI"
+	cont "LEITUNG: KAI"
 
-	para "The High-Class"
-	line "Master of Insects"
+	para "Die lebende Käfer-"
+	line "#MON-Enzyklo-"
+	cont "pädie"
 	done
 
 WestportCitySignText:
-	text "WESTPORT CITY"
+	text "PORT ABANISHI"
 
-	para "NIHON's Shining"
-	line "Coastal Metropolis"
+	para "NIHONs Strahlende"
+	line "Küstenmetropole"
 	done
 
 

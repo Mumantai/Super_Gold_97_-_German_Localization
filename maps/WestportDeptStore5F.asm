@@ -141,77 +141,81 @@ WestportDeptStore5FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 UnknownText_0x56143:
-	text "Hello. Oh, your"
+	text "Hallo! Oh, dein"
 	line "#MON…"
 	done
 
 UnknownText_0x5615a:
-	text "It's very attached"
-	line "to you."
+	text "Es hängt sehr an"
+	line "dir."
 
-	para "This move should"
-	line "be perfect for a"
-	cont "pair like you."
+	para "Diese Attacke"
+	line "passt genau zu"
+	cont "euch beiden."
 	done
 
 UnknownText_0x561a6:
-	text "It's adorable!"
+	text "Oh, wie süß!"
 
-	para "You should teach"
-	line "it good TM moves."
+	para "Du solltest ihm"
+	line "gute TM-Attacken"
+	cont "beibringen."
 	done
 
 UnknownText_0x561d8:
-	text "It looks evil. How"
-	line "about this TM for"
-	cont "it?"
+	text "Es sieht böse aus."
+	line "Wie wär's mit die-"
+	cont "ser TM?"
 	done
 
 UnknownText_0x56202:
-	text "There are sure to"
-	line "be TMs that are"
-
-	para "just perfect for"
-	line "your #MON."
+	text "Es gibt für jedes"
+	line "#MON passen-"
+	cont "de TMs."
 	done
 
 UnknownText_0x56241:
-	text "MYSTERY GIFT."
+	text "GEHEIMGABE."
 
-	para "With just a"
-	line "little beep, you"
-	cont "get a gift."
+	para "Mit nur einem"
+	line "kleinen Biep er-"
+	cont "hältst du ein Ge-"
+	cont "schenk."
 	done
 
 UnknownText_0x56279:
-	text "The MYSTERY GIFT"
-	line "option requires a"
+	text "Die GEHEIMGABE"
+	line "erfordert einen"
 	cont "Game Boy Color."
 	done
 
 WestportDeptStore5FLassText:
-	text "Some #MON can"
-	line "evolve into many"
-	cont "forms, like EEVEE."
-	para "My POLIWRATH"
-	line "evolved from a"
-	cont "POLIWHIRL."
-	para "But I also could"
-	line "have evolved it"
-	cont "into POLITOED."
+    text "Manche #MON"
+    line "können sich in"
+    para "verschiedene Arten"
+    line "entwickeln, so"
+    cont "wie EVOLI."
+
+    para "Mein QUAPPO hat"
+    line "sich aus einem"
+    para "QUAPUTZI entwick-"
+    line "elt."
+
+    para "Abe ich hätte es"
+    line "auch zu QUAXO"
+    cont "entwickeln können."
 	done
 
 WestportDeptStore5FPoliText:
-	text "POLIWRATH:"
-	line "Polipoli!"
+	text "QUAPPO: Quaak!"
 	done
 
 
 WestportDeptStore5FDirectoryText:
-	text "Customize Your"
-	line "#MON"
+	text "Rüste deine #-"
+	line "MON auf."
 
-	para "5F TM CORNER"
+	para "4S TM-ECKE"
 	done
 
 WestportDeptStore5F_MapEvents:

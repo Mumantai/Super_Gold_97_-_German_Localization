@@ -28,52 +28,54 @@ WestportDeptStore1FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 WestportDeptStore1FReceptionistText:
-	text "Welcome to the"
-	line "WESTPORT CITY"
-	cont "DEPT. STORE."
+	text "Willkommen im"
+	line "KAUFHAUS von"
+	cont "PORT ABANISHI."
 	done
 
 WestportDeptStore1FGentlemanText:
-	text "The DEPT.STORE"
-	line "has a decent se-"
-	cont "lection."
+	text "Das KAUFHAUS"
+	line "bietet eine große"
+	cont "Auswahl."
 
-	para "But some items"
-	line "are only available"
+	para "Aber einige Items"
+	line "erhält man nur an"
 
-	para "in the vendor"
-	line "shops in the"
-	cont "basement."
+	para "den Ständen im"
+	line "Keller."
 	done
 
 WestportDeptStore1FPokefanFText:
-	text "I'm raring to shop"
-	line "again today!"
+	text "Ich freue mich"
+	line "heute schon wieder"
+	cont "aufs Einkaufen!"
 	done
 
 WestportDeptStore1FBugCatcherText:
-	text "Mom's good at"
-	line "bargain hunting."
+	text "Mama ist sehr gut"
+	line "im Schnäppchen-"
+	cont "finden."
 
-	para "She always buys"
-	line "stuff at lower"
-	cont "prices."
+	para "Sie kauft ständig"
+	line "Waren unter dem"
+	cont "Normalpreis."
 	done
 
 WestportDeptStore1FDirectoryText:
-	text "1F SERVICE COUNTER"
+	text "EG INFO-SCHALTER"
 
-	para "2F TRAINER'S"
-	line "   MARKET"
+	para "1S TRAINER-"
+	line "   MARKT"
 
-	para "3F BATTLE"
-	line "   COLLECTION"
+	para "2S KAMPF-"
+	line "   KOLLEKTION"
 
-	para "4F MEDICINE BOX"
+	para "3S ARZNEI"
 
-	para "5F TM CORNER"
+	para "4S TM-ECKE"
 
-	para "6F TRANQUIL SQUARE"
+	para "5S PLATZ DER"
+	line "   EWIGEN STILLE"
 	done
 
 WestportDeptStore1F_MapEvents:

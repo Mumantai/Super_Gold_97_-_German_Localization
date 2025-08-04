@@ -18,23 +18,26 @@ SWIslandsHospitalRocker:
 	jumptextfaceplayer SWIslandsHospitalRockerText
 	
 SWIslandsHospitalJanineText:
-	text "Me and my boy-"
-	line "friend are on"
-	cont "vacation!"
+    text "Mein Freund und"
+    line "ich machen Urlaub!"
 	done
 	
 SWIslandsHospitalRockerText:
-	text "I've never been to"
-	line "SWISLANDS before."
-	para "There's a lot to"
-	line "see here."
+    text "Ich war noch nie"
+    line "auf den SÜDWEST-"
+    cont "INSELN."
+
+    para "Es gibt hier viel"
+    line "zu sehen."
 	done
 
 SWIslandsHospitalNurseText:
-	text "#MON? No, this"
-	line "is a hotel for"
-	cont "people."
-	para "We're full up."
+    text "#MON? Nein, das"
+    line "ist ein Hotel für"
+    cont "Menschen."
+
+    para "Wir sind voll"
+    line "ausgebucht."
 	done
 
 WestportMagnetTrainStation_MapEvents:

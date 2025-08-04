@@ -74,37 +74,37 @@ WestportDeptStoreB1FUltraBall:
 	end
 
 WestportDeptStoreB1FBlackBelt1Text:
-	text "Hey, kid! You're"
-	line "holding us up!"
+	text "Hey! Du"
+	line "hältst uns auf!"
 
-	para "Our policy is to"
-	line "work behind the"
-
-	para "scenes where no-"
-	line "one can see us!"
+	para "Wir arbeiten stets"
+	line "im Hintergrund,"
+	para "damit uns niemand"
+	line "sieht!"
 	done
 
 WestportDeptStoreB1FBlackBelt2Text:
-	text "I lose my passion"
-	line "for work if some-"
-	cont "one's watching."
+	text "Ich verliere die"
+	line "Lust am Arbeiten,"
+	cont "wenn mir jemand"
+	cont "zusieht."
 
-	para "Come on, kid,"
-	line "scoot!"
+	para "Hey, Gnom,"
+	line "zisch ab!"
 	done
 
 WestportDeptStoreB1FBlackBelt3Text:
 	text "Oohah! Oohah!"
 
-	para "The stuff on the"
-	line "ground's junk."
+	para "Das Zeug am"
+	line "Boden ist Plunder."
 
-	para "Take it if you"
-	line "want it!"
+	para "Nimm es dir, wenn"
+	line "du möchtest!"
 	done
 
 WestportDeptStoreB1FMachokeText:
-	text "MACHOKE: Maaacho!"
+	text "MASCHOCK: Mascho!"
 	done
 
 WestportDeptStoreB1F_MapEvents:

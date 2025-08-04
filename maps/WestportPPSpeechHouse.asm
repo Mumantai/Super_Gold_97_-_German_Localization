@@ -24,30 +24,31 @@ WestportPPSpeechHouseRadio:
 	jumpstd Radio2Script
 
 WestportPPSpeechHouseFisherText:
-	text "Once while I was"
-	line "battling, my"
+	text "Als ich einmal"
+	line "kämpfte, konnte"
 
-	para "#MON couldn't"
-	line "make any moves."
+	para "mein #MON kei-"
+	line "ne Attacken mehr"
+	cont "ausführen."
 
-	para "The POWER POINTS,"
-	line "or PP, of its"
-
-	para "moves were all"
-	line "gone."
+	para "Die ANGRIFFSPUNK-"
+	line "TE, oder AP, sei-"
+	cont "ner Attacken waren"
+	cont "verbraucht."
 	done
 
 WestportPPSpeechHouseLassText:
-	text "Sometimes, a"
-	line "healthy #MON"
+	text "Manchmal kann auch"
+	line "ein gesundes"
 
-	para "may be unable to"
-	line "use its moves."
+	para "#MON nicht mehr"
+	line "angreifen."
 
-	para "If that happens,"
-	line "heal it at a #-"
-	cont "MON CENTER or use"
-	cont "an item."
+	para "In diesem Fall"
+	line "musst du es in ei-"
+	cont "nem #MON-CENTER"
+	cont "oder mit einem"
+	cont "Item heilen."
 	done
 
 WestportPPSpeechHouse_MapEvents:

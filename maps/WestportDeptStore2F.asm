@@ -41,61 +41,61 @@ WestportDeptStore2FElevatorButton:
 
 WestportDeptStore2FUnusedText1:
 ; unused
-	text "We intend to sell"
-	line "items for #MON"
-	cont "to hold."
+	text "Wir wollen Items"
+	line "verkaufen, die von"
+	cont "#MON getragen"
+	cont "werden können."
 
-	para "This is a free"
-	line "gift. Have a #-"
-	cont "MON hold it."
+	para "Das ist ein Werbe-"
+	line "Geschenk. Lass ein"
+	cont "#MON es tragen."
 	done
 
 WestportDeptStore2FUnusedText2:
 ; unused
-	text "By giving #MON"
-	line "items to hold, I"
-
-	para "bet trainers will"
-	line "develop new battle"
-	cont "techniques."
+	text "Trägt ein #MON"
+	line "ein Item, könnte"
+	cont "das einen Kampf zu"
+	cont "deinen Gunsten"
+	cont "entscheiden."
 	done
 
 WestportDeptStore2FYoungsterText:
-	text "#GEAR can store"
-	line "up to ten phone"
-	cont "numbers."
+	text "Der #COM kann"
+	line "bis zu zehn Num-"
+	cont "mern speichern."
 
-	para "It's hard to de-"
-	line "cide which numbers"
-	cont "to keep."
+	para "Es ist schwer zu"
+	line "entscheiden, wel-"
+	cont "che Nummer man be-"
+	cont "halten soll."
 	done
 
 WestportDeptStore2FCooltrainerFText:
-	text "A # DOLL is"
-	line "useful to have"
-	para "when you're having"
-	line "trouble escaping"
-	cont "a wild #MON."
+    text "Eine #PUPPE ist"
+    line "nützlich, wenn du"
+    para "vor einem wilden"
+    line "#MON fliehen"
+    cont "möchtest."
 	done
 
 WestportDeptStore2FGentlemanText:
-	text "This DEPT.STORE"
-	line "makes me realize"
+	text "Dieses KAUFHAUS"
+	line "zeigt mir, dass"
+	para "PORT ABANISHI eine"
+	line "sehr große Stadt"
+	cont "ist."
 
-	para "that WESTPORT CITY"
-	line "is growing fast."
-
-	para "The selection here"
-	line "is unmatched any-"
-	cont "where else."
+	para "Dieses Angebot ist"
+	line "unübertrefflich!"
 	done
 
 WestportDeptStore2FDirectoryText:
-	text "Your Travel"
-	line "Companion"
+	text "Ihr Reise-"
+	line "begleiter"
 
-	para "2F TRAINER'S"
-	line "   MARKET"
+	para "1S TRAINER-"
+	line "   MARKT"
 	done
 
 WestportDeptStore2F_MapEvents:

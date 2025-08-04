@@ -40,41 +40,41 @@ WestportDeptStore4FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 WestportDeptStore4FCooltrainerMText:
-	text "Hey. I love strong"
-	line "#MON."
+	text "Hey! Ich mag star-"
+	line "ke #MON."
 
-	para "I feed them PRO-"
-	line "TEIN to crank up"
-	cont "their ATTACK."
+	para "Ich füttere sie"
+	line "mit PROTEIN, um"
+	cont "ihren ANGR zu ver-"
+	cont "stärken."
 	done
 
 WestportDeptStore4FBugCatcherText:
-	text "IRON adds to your"
-	line "#MON's DEFENSE."
+	text "EISEN verstärkt"
+	line "die VERT deiner"
+	cont "#MON."
 	done
 
 WestportDeptStore4FGameboyKidText:
-	text "Some #MON"
-	line "evolve only by"
+	text "Manche #MON"
+	line "entwickeln sich"
+	cont "nur durch Tausch."
 
-	para "being traded via a"
-	line "Game Link cable."
+	para "Ich kenne vier:"
+	line "MASCHOCK, KADABRA,"
 
-	para "I know of four:"
-	line "MACHOKE, KADABRA,"
+	para "ALPOLLO und"
+	line "GEOROK."
 
-	para "HAUNTER and, um,"
-	line "GRAVELER."
-
-	para "I heard there are"
-	line "others too."
+	para "Ich hörte, es gibt"
+	line "noch weitere."
 	done
 
 WestportDeptStore4FDirectoryText:
-	text "Let Us Pump Up"
-	line "Your #MON!"
+	text "Wir kümmern uns um"
+	line "Ihre #MON!"
 
-	para "4F MEDICINE BOX"
+	para "3S ARZNEI"
 	done
 
 WestportDeptStore4F_MapEvents:

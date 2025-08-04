@@ -160,7 +160,7 @@ ItemNames::
     db "LEVELBALL@"
     db "KÖDERBALL@"
     db "TURBOBALL@"
-    db "SPITZHORN@"
+    db "SPITZHORN@" ;sharp horns
     db "KUGELBLITZ@"
     db "FREUNDESBALL@"
     db "MONDBALL@"
