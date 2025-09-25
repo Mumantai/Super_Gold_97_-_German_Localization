@@ -143,14 +143,6 @@ PrintText::
 	call SetUpTextbox
 	; fallthrough
 
-BuenaPrintText::
-	push hl
-	hlcoord TEXTBOX_INNERX, TEXTBOX_INNERY
-	lb bc, TEXTBOX_INNERH - 1, TEXTBOX_INNERW
-	call ClearBox
-	pop hl
-	; fallthrough
-
 PrintTextboxText::
 	bccoord TEXTBOX_INNERX, TEXTBOX_INNERY
 	call PlaceHLTextAtBC
@@ -207,7 +199,6 @@ MACRO dict
 	endc
 ENDM
 
-	dict "<MOBILE>",  MobileScriptChar
 	dict "<LINE>",    LineChar
 	dict "<NEXT>",    NextLineChar
 	dict "<CR>",      CarriageReturnChar
@@ -291,12 +282,6 @@ ENDM
 	ld [hli], a
 	call PrintLetterDelay
 	jp NextChar
-
-MobileScriptChar::
-	ld c, l
-	ld b, h
-	farcall RunMobileScript
-	jp PlaceNextChar
 
 MACRO print_name
 	push de
@@ -386,7 +371,6 @@ PlaceEnemysName::
 	ld de, wOTClassName
 	jr PlaceCommandCharacter
 
-
 PlaceCommandCharacter::
 	call PlaceString
 	ld h, b
@@ -409,8 +393,6 @@ String_Space::    db " @"
 PlaceJPRouteText::
 PlaceWatashiText::
 PlaceKokoWaText:: db "@"
-KunSuffixText::   db "@"
-ChanSuffixText::  db "@"
 
 NextLineChar::
 	pop hl
@@ -479,8 +461,6 @@ Paragraph::
 	ld a, [wLinkMode]
 	cp LINK_COLOSSEUM
 	jr z, .linkbattle
-	cp LINK_MOBILE
-	jr z, .linkbattle
 	call LoadBlinkingCursor
 
 .linkbattle
@@ -546,8 +526,6 @@ PromptText::
 	ld a, [wLinkMode]
 	cp LINK_COLOSSEUM
 	jr z, .ok
-	cp LINK_MOBILE
-	jr z, .ok
 	call LoadBlinkingCursor
 
 .ok
@@ -555,8 +533,6 @@ PromptText::
 	call PromptButton
 	ld a, [wLinkMode]
 	cp LINK_COLOSSEUM
-	jr z, DoneText
-	cp LINK_MOBILE
 	jr z, DoneText
 	call UnloadBlinkingCursor
 
@@ -634,7 +610,7 @@ UnloadBlinkingCursor::
 	ldcoord_a 18, 17
 	ret
 
-PlaceFarString::
+FarString::
 	ld b, a
 	ldh a, [hROMBank]
 	push af
@@ -647,7 +623,7 @@ PlaceFarString::
 	rst Bankswitch
 	ret
 
-PokeFluteTerminator::
+PokeFluteTerminator:: ; unreferenced
 	ld hl, .stop
 	ret
 
@@ -693,31 +669,29 @@ DoTextUntilTerminator::
 
 TextCommands::
 ; entries correspond to TX_* constants (see macros/scripts/text.asm)
-	table_width 2, TextCommands
-	dw TextCommand_START         ; TX_START
-	dw TextCommand_RAM           ; TX_RAM
-	dw TextCommand_BCD           ; TX_BCD
-	dw TextCommand_MOVE          ; TX_MOVE
-	dw TextCommand_BOX           ; TX_BOX
-	dw TextCommand_LOW           ; TX_LOW
-	dw TextCommand_PROMPT_BUTTON ; TX_PROMPT_BUTTON
-	dw TextCommand_SCROLL        ; TX_SCROLL
-	dw TextCommand_START_ASM     ; TX_START_ASM
-	dw TextCommand_DECIMAL       ; TX_DECIMAL
-	dw TextCommand_PAUSE         ; TX_PAUSE
-	dw TextCommand_SOUND         ; TX_SOUND_DEX_FANFARE_50_79
-	dw TextCommand_DOTS          ; TX_DOTS
-	dw TextCommand_WAIT_BUTTON   ; TX_WAIT_BUTTON
-	dw TextCommand_SOUND         ; TX_SOUND_DEX_FANFARE_20_49
-	dw TextCommand_SOUND         ; TX_SOUND_ITEM
-	dw TextCommand_SOUND         ; TX_SOUND_CAUGHT_MON
-	dw TextCommand_SOUND         ; TX_SOUND_DEX_FANFARE_80_109
-	dw TextCommand_SOUND         ; TX_SOUND_FANFARE
-	dw TextCommand_SOUND         ; TX_SOUND_SLOT_MACHINE_START
-	dw TextCommand_STRINGBUFFER  ; TX_STRINGBUFFER
-	dw TextCommand_DAY           ; TX_DAY
-	dw TextCommand_FAR           ; TX_FAR
-	assert_table_length NUM_TEXT_CMDS
+	dw TextCommand_START              ; TX_START
+	dw TextCommand_RAM                ; TX_RAM
+	dw TextCommand_BCD                ; TX_BCD
+	dw TextCommand_MOVE               ; TX_MOVE
+	dw TextCommand_BOX                ; TX_BOX
+	dw TextCommand_LOW                ; TX_LOW
+	dw TextCommand_PROMPT_BUTTON      ; TX_PROMPT_BUTTON
+	dw TextCommand_SCROLL             ; TX_SCROLL
+	dw TextCommand_START_ASM          ; TX_START_ASM
+	dw TextCommand_NUM                ; TX_NUM
+	dw TextCommand_PAUSE              ; TX_PAUSE
+	dw TextCommand_SOUND              ; TX_SOUND_DEX_FANFARE_50_79
+	dw TextCommand_DOTS               ; TX_DOTS
+	dw TextCommand_LINK_PROMPT_BUTTON ; TX_LINK_PROMPT_BUTTON
+	dw TextCommand_SOUND              ; TX_SOUND_DEX_FANFARE_20_49
+	dw TextCommand_SOUND              ; TX_SOUND_ITEM
+	dw TextCommand_SOUND              ; TX_SOUND_CAUGHT_MON
+	dw TextCommand_SOUND              ; TX_SOUND_DEX_FANFARE_80_109
+	dw TextCommand_SOUND              ; TX_SOUND_FANFARE
+	dw TextCommand_SOUND              ; TX_SOUND_SLOT_MACHINE_START
+	dw TextCommand_STRINGBUFFER       ; TX_STRINGBUFFER
+	dw TextCommand_DAY                ; TX_DAY
+	dw TextCommand_FAR                ; TX_FAR
 
 TextCommand_START::
 ; write text until "@"
@@ -822,9 +796,7 @@ TextCommand_PROMPT_BUTTON::
 ; wait for button press; show arrow
 	ld a, [wLinkMode]
 	cp LINK_COLOSSEUM
-	jp z, TextCommand_WAIT_BUTTON
-	cp LINK_MOBILE
-	jp z, TextCommand_WAIT_BUTTON
+	jp z, TextCommand_LINK_PROMPT_BUTTON
 
 	push hl
 	call LoadBlinkingCursor
@@ -848,17 +820,10 @@ TextCommand_SCROLL::
 
 TextCommand_START_ASM::
 ; run assembly code
-	bit 7, h
-	jr nz, .not_rom
 	jp hl
 
-.not_rom
-	ld a, TX_END
-	ld [hl], a
-	ret
-
-TextCommand_DECIMAL::
-; print a decimal number
+TextCommand_NUM::
+; print a number
 	ld a, [hli]
 	ld e, a
 	ld a, [hli]
@@ -978,8 +943,8 @@ TextCommand_DOTS::
 	pop hl
 	ret
 
-TextCommand_WAIT_BUTTON::
-; wait for button press; don't show arrow
+TextCommand_LINK_PROMPT_BUTTON::
+; wait for button press; display arrow
 	push hl
 	push bc
 	call PromptButton
@@ -994,8 +959,8 @@ TextCommand_STRINGBUFFER::
 ; 2: wStringBuffer5
 ; 3: wStringBuffer2
 ; 4: wStringBuffer1
-; 5: wEnemyMonNickname
-; 6: wBattleMonNickname
+; 5: wEnemyMonNick
+; 6: wBattleMonNick
 	ld a, [hli]
 	push hl
 	ld e, a
@@ -1004,7 +969,7 @@ TextCommand_STRINGBUFFER::
 	add hl, de
 	add hl, de
 	ld a, BANK(StringBufferPointers)
-	call GetFarWord
+	call GetFarHalfword
 	ld d, h
 	ld e, l
 	ld h, b
