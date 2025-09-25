@@ -244,7 +244,7 @@ ENDM
 	dict "<TARGET>",  PlaceMoveTargetsName
 	dict "<USER>",    PlaceMoveUsersName
 	dict "<ENEMY>",   PlaceEnemysName
-	dict "<PLAY_G>",  PlaceGenderedPlayerName
+	dict "<PLAY_G>",  PrintPlayerName
 	dict "ﾟ",         .place ; should be .diacritic
 	dict "ﾞ",         .place ; should be .diacritic
 	jr .not_diacritic
@@ -386,18 +386,6 @@ PlaceEnemysName::
 	ld de, wOTClassName
 	jr PlaceCommandCharacter
 
-PlaceGenderedPlayerName::
-	push de
-	ld de, wPlayerName
-	call PlaceString
-	ld h, b
-	ld l, c
-	ld a, [wPlayerGender]
-	bit PLAYERGENDER_FEMALE_F, a
-	ld de, KunSuffixText
-	jr z, PlaceCommandCharacter
-	ld de, ChanSuffixText
-	jr PlaceCommandCharacter
 
 PlaceCommandCharacter::
 	call PlaceString
