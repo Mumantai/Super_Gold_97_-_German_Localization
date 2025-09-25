@@ -180,9 +180,9 @@ WestportDocksAfterHOFMenu:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 3 ; items
-	db "TEKNOS CITY@"
-	db "SOUTHWEST ISLANDS@"
-	db "CANCEL@"
+	db "TEKNOPIA CITY@"
+	db "SÜDWEST INSELN@"
+	db "ZURÜCK@"
 	
 WestportDocksCancel:
 	writetext HopeToSeeYouAgainText
@@ -327,151 +327,162 @@ MovementData_0x74a49:
 	step_end
 	
 WelcomeToTheDocksAfterHOF:
-	text "Welcome to the"
-	line "WESTPORT DOCKS!"
-	para "We have expanded"
-	line "our services and"
-	para "now offer rides"
-	line "to both TEKNOS"
-	para "CITY as well as"
-	line "NIHON's SOUTHWEST"
-	cont "ISLANDS!"
-	para "Where would you"
-	line "like to go today?"
+    text "Willkommen!"
+
+    para "Wir haben unseren"
+    line "Service erweitert"
+    para "und bieten jetzt"
+    line "Fahrten nach"
+    para "TEKNOPIA CITY und"
+    line "NIHONs SÜDWEST"
+    cont "INSELN an!"
+
+    para "Wohin möchtest du"
+    line "heute fahren?"
 	done
 
 WestportPortSailorNotGoingToTeknosText:
-	text "Please join us"
-	line "another time!"
+    text "Bitte besuche uns"
+    line "ein andermal!"
 	done
 
 WestportPortSailorGoToTeknosText:
-	text "Welcome to the"
-	line "WESTPORT DOCKS."
-	para "Would you like to"
-	line "take a ferry to"
-	cont "TEKNOS CITY?"
+    text "Willkommen."
+
+    para "Möchtest du die"
+    line "Fähre nach"
+    para "TEKNOPIA CITY"
+    line "nehmen?"
 	done
 
 WestportPortSailorGoToTeknosText2:
-	text "Okay! Departing to"
-	line "TEKNOS CITY."
+    text "Okay! Abfahrt nach"
+    line "TEKNOPIA CITY."
 	done
 
 DepartureTimeText:
-	text "We're departing"
-	line "soon. Please get"
-	cont "on board."
+	text "Wir legen bald"
+	line "ab! Geh an"
+	cont "Bord."
 	done
 
 SorryCantBoardText:
-	text "Sorry. You can't"
-	line "board now."
+	text "Du darfst jetzt"
+	line "nicht an Bord."
 	done
 
 
 AskForTicketText:
-	text "May I see your"
-	line "S.S.TICKET?"
+	text "Zeige mir bitte"
+	line "dein"
+
+	para "BOOTSTICKET."
 	done
 
 HopeToSeeYouAgainText:
-	text "We hope to see you"
-	line "again!"
+	text "Komm jederzeit"
+	line "wieder vorbei!"
 	done
 
 FlashTheTicketText:
-	text "<PLAYER> flashed"
-	line "the S.S.TICKET."
+	text "<PLAYER> zeigt"
+	line "das BOOTSTICKET."
 
-	para "That's it."
-	line "Thank you!"
+	para "In Ordnung."
+	line "Danke schön!"
 	done
 
 DontHaveTicketWhoopsText:
-	text "<PLAYER> tried to"
-	line "show the S.S."
-	cont "TICKET…"
+	text "<PLAYER> sucht"
+	line "das BOOTSTICKET…"
 
-	para "…But no TICKET!"
+	para "…Kein TICKET!"
 
-	para "Sorry!"
-	line "Trips to the"
-	para "ISLANDS require"
-	line "you to have an"
-	cont "S.S.TICKET."
+	para "Tut mir Leid!"
+	line "Du darfst nur"
+
+	para "mit TICKET"
+	line "an Bord."
 	done
 
 NoTripsToIslandsTodayText:
-	text "Sorry, but the"
-	line "next boat to the"
-	para "SOUTHWEST ISLANDS"
-	line "will set sail on"
-	cont "Monday."
-	para "Today, we only"
-	line "offer ferries to"
-	cont "TEKNOS CITY."
+    text "Tut mir leid, aber"
+    line "die nächste Fähre"
+    para "zu den SÜDWEST"
+    line "INSELN fährt erst"
+    cont "am Montag ab."
+
+    para "Heute bieten wir"
+    line "nur Fahrten nach"
+    cont "TEKNOPIA CITY an."
 	done
 
 NoTripsToIslandsToday2Text:
-	text "Sorry, but the"
-	line "next boat to the"
-	para "SOUTHWEST ISLANDS"
-	line "will set sail on"
-	cont "Friday."
-	para "Today, we only"
-	line "offer ferries to"
-	cont "TEKNOS CITY."
+    text "Tut mir leid, aber"
+    line "die nächste Fähre"
+    para "zu den SÜDWEST"
+    line "INSELN fährt erst"
+    cont "am Freitag ab."
+
+    para "Heute bieten wir"
+    line "nur Fahrten nach"
+    cont "TEKNOPIA CITY an."
 	done
 
 WestportPortFishingGuru1Text:
-	text "SHELLDER are easy"
-	line "to catch here."
-
-	para "They're kind of"
-	line "rare elsewhere."
+	text "Hier kannst du"
+	line "MUSCHAS leicht"
+	para "fangen. An anderen"
+	line "Orten sind sie"
+	cont "seltener."
 	done
 
 WestportPortFishingGuru2Text:
-	text "Do you have any"
-	line "fishing RODS?"
+	text "Wie viele ANGELN"
+	line "hast du?"
 
-	para "Different RODS"
-	line "catch different"
+	para "Mit verschiedenen"
+	line "ANGELN, fängst du"
+	cont "verschiedene"
 	cont "#MON."
 	done
 
 WestportPortYoungsterText:
-	text "S.S.AQUA uses jets"
-	line "to skim over the"
-	cont "waves!"
+	text "M.S. AQUA benutzt"
+	line "Spezialdüsen,"
+	cont "um über die Wellen"
+	cont "zu gleiten!"
 	done
 
 WestportPortCooltrainerFText:
-	text "There are lots of"
-	line "#MON on the"
-	cont "ISLANDS."
+	text "Auf den INSELN"
+	line "gibt es viele"
+	cont "#MON."
 
-	para "I wish I could go…"
+	para "Ich wünschte, ich"
+	line "könnte dorthin…"
 	done
 
 WestportPortSailorBeforeHiveBadgeText:
-	text "We're very sorry,"
-	line "but at this time,"
-	para "the WESTPORT CITY"
-	line "DOCKS are closed"
-	cont "for maintenance."
-	para "You look like a"
-	line "tough trainer,"
-	cont "though."
-	para "Have you given"
-	line "BUGSY a challenge?"
-	para "Why don't you give"
-	line "that a try and"
-	cont "come back later."
-	para "We'll probably be"
-	line "done with our work"
-	cont "by then."
+    text "Es tut uns leid,"
+    line "aber der HAFEN ist"
+    para "wegen Renovierung"
+    line "geschlossen."
+
+    para "Du siehst mir aber"
+    line "nach einem toughen"
+    cont "Trainer aus."
+
+    para "Hast du schon KAI"
+    line "herausgefordert?"
+
+    para "Versuch es doch"
+    line "einmal und komm"
+    cont "dann wieder."
+
+    para "Vermutlich sind"
+    line "wir bis dann mit"
+    cont "der Arbeit fertig."
 	done
 
 

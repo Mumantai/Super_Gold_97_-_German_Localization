@@ -400,271 +400,296 @@ WestportUndergroundClerkScript:
 	jumptextfaceplayer WestportUndergroundClerkText
 	
 WestportUndergroundClerkText:
-	text "Welcome."
-	para "Here you can find"
-	line "unique stores run"
-	cont "by vendors."
-	para "These stores are"
-	line "open only at"
-	cont "particular times,"
-	para "so you may need to"
-	line "come by later if"
-	para "you want to buy"
-	line "from someone."
-	done
+    text "Willkommen."
+
+    para "Hier findest du"
+    line "einzigartige"
+    cont "Verkaufsstände."
+
+    para "Sie sind aber nur"
+    line "zu bestimmten"
+    cont "Zeiten geöffnet."
+
+    para "Du musst also"
+    line "vielleicht später"
+    para "wiederkommen, wenn"
+    line "du zu einem"
+    para "bestimmten Stand"
+    line "möchtest."
+    done
 	
 WestportUndergroundJanineText:
-	text "This place has"
-	line "some interesting"
-	cont "shops."
-	para "But the dimly-lit"
-	line "halls attract some"
-	para "seedy trainers"
-	line "looking to battle!"
+    text "Hier gibt es viele"
+    line "interessante"
+    cont "Geschäfte."
+
+    para "Aber die düsteren"
+    line "Gänge ziehen auch"
+    para "viele zwielichtige"
+    line "Trainer an, die"
+    cont "kämpfen wollen!"
 	done
 
 SupernerdEricSeenText:
-	text "The DEPT. STORE"
-	line "employees don't"
-	para "want me hanging"
-	line "around down here"
-	cont "anymore."
-	para "You better not"
-	line "tell them that I'm"
-	cont "here!"
+    text "Die Angestellten"
+    line "vom KAUFHAUS"
+    para "wollen nicht, dass"
+    line "ich hier unten"
+    cont "rumhänge."
+
+    para "Bitte sag ihnen"
+    line "nicht, dass ich"
+    cont "trotzdem hier bin!"
 	done
 
 SupernerdEricBeatenText:
-	text "…Grumble…"
+	text "…Grummel…"
 	done
 
 SupernerdEricAfterBattleText:
-	text "I guess I should"
-	line "just behave"
-	cont "better…"
+	text "Ich sollte mich"
+	line "wohl besser"
+	cont "benehmen…"
 	done
 
 SupernerdTeruSeenText:
-	text "Do you consider"
-	line "type alignments in"
-	cont "battle?"
+	text "Beschränkst du"
+	line "dich beim Kämpfen"
+	cont "nur auf einen Typ?"
 
-	para "If you know your"
-	line "type advantages,"
+	para "Wenn du die Stär-"
+	line "ken deiner Typen"
 
-	para "you'll do better"
-	line "in battle."
+	para "kennst, hast du im"
+	line "Kampf Vorteile."
 	done
 
 SupernerdTeruBeatenText:
-	text "Ow, ow, ow!"
+	text "Oh, oh, oh!"
 	done
 
 SupernerdTeruAfterBattleText:
-	text "I know my #MON"
-	line "type alignments."
+	text "Ich kenne die"
+	line "Stärken und"
+	cont "Schwächen meiner"
+	cont "#MON."
 
-	para "But I only use one"
-	line "type of #MON."
+	para "Aber ich setze nur"
+	line "einen #MON-Typ"
+	cont "ein."
 	done
 
 PokemaniacIssacSeenText:
-	text "My #MON just"
-	line "got a haircut!"
+	text "Meine #MON"
+	line "kommen gerade vom"
+	cont "Coiffeur!"
 
-	para "I'll show you how"
-	line "strong it is!"
+	para "Ich zeige dir, wie"
+	line "stark sie sind!"
 	done
 
 PokemaniacIssacBeatenText:
-	text "Aiyeeee!"
+	text "Arghhh!"
 	done
 
 PokemaniacIssacAfterBattleText:
-	text "Your #MON will"
-	line "like you more if"
+	text "Deine #MON"
+	line "mögen dich mehr,"
 
-	para "you give them"
-	line "haircuts."
+	para "wenn du sie zum"
+	line "Coiffeur bringst."
 	done
 
 PokemaniacDonaldSeenText:
-	text "I think you have"
-	line "some rare #MON"
-	cont "with you."
+	text "Ich glaube, du"
+	line "besitzt seltene"
+	cont "#MON."
 
-	para "Let me see them!"
+	para "Zeig sie mir!"
 	done
 
 PokemaniacDonaldBeatenText:
-	text "Gaah! I lost!"
-	line "That makes me mad!"
+	text "Guah! Ich habe"
+	line "verloren! Ich"
+	cont "dreh durch!"
 	done
 
 PokemaniacDonaldAfterBattleText:
-	text "Are you making a"
-	line "#DEX? Here's a"
-	cont "hot tip."
+	text "Erstellst du einen"
+	line "#DEX? Ich habe"
+	cont "einen heißen"
+	cont "Tipp für dich."
 
-	para "Some trainers will"
-	line "phone you if they"
-	para "see any rare"
-	line "#MON."
-	para "You'll have to"
-	line "figure out who"
-	cont "they are."
+	para "WANDERER TOM auf"
+	line "ROUTE 33 ist sehr"
+	cont "freundlich."
+
+	para "Er ruft dich an,"
+	line "wenn er seltene"
+	cont "#MON sieht."
 	done
 
 
 UnknownText_0x7c5b01:
-	text "DEPT.STORE"
-	line "ELEVATOR"
+	text "KAUFHAUS"
+	line "AUFZUG"
 	done
 
 
 UnknownText_0x7c5f9:
-	text "Welcome!"
+	text "Willkommen!"
 
-	para "I run the #MON"
-	line "SALON!"
+	para "Ich leite den"
+	line "#MON-SALON!"
 
-	para "I'm the older and"
-	line "better of the two"
-	cont "HAIRCUT BROTHERS."
+	para "Ich bin der ältere"
+	line "und bessere der"
+	cont "beiden COIFFEUR-"
+	cont "BRÜDER."
 
-	para "I can make your"
-	line "#MON beautiful"
-	cont "for just ¥500."
+	para "Ich verleihe"
+	line "deinen #MON ein"
+	cont "schöneres Äußeres"
+	cont "für nur ¥500."
 
-	para "Would you like me"
-	line "to do that?"
+	para "Soll ich damit"
+	line "anfangen?"
 	done
 
 UnknownText_0x7c69a:
-	text "Which #MON"
-	line "should I work on?"
+	text "Bei welchem"
+	line "#MON soll ich"
+	cont "Hand anlegen?"
 	done
 
 UnknownText_0x7c6b8:
-	text "OK! Watch it"
-	line "become beautiful!"
+	text "O.K.! Sieh her,"
+	line "wie schön es wird!"
 	done
 
 UnknownText_0x7c6d8:
-	text "There! All done!"
+	text "Hier! Fertig!"
 	done
 
+
 UnknownText_0x7c6ea:
-	text "Is that right?"
-	line "That's a shame!"
+	text "Ist das wahr? Das"
+	line "ist eine Schande!"
 	done
 
 UnknownText_0x7c709:
-	text "You'll need more"
-	line "money than that."
+	text "Du hast nicht"
+	line "genügend Geld."
 	done
 
 UnknownText_0x7c72b:
-	text "I do only one"
-	line "haircut a day. I'm"
-	cont "done for today."
+	text "Ich mache nur"
+	line "einen Haarschnitt"
+	cont "pro Tag; und für"
+	cont "heute bin ich"
+	cont "fertig."
 	done
 
 UnknownText_0x7c75c:
-	text "Welcome to the"
-	line "#MON SALON!"
+	text "Willkommen im"
+	line "#MON-SALON!"
 
-	para "I'm the younger"
-	line "and less expen-"
-	cont "sive of the two"
-	cont "HAIRCUT BROTHERS."
+	para "Ich bin der"
+	line "jüngere und"
+	cont "preiswertere der"
+	cont "beiden COIFFEUR-"
+	cont "BRÜDER."
 
-	para "I'll spiff up your"
-	line "#MON for just"
-	cont "¥300."
+	para "Ich verschönere"
+	line "deine #MON"
+	cont "für nur ¥300."
 
-	para "So? How about it?"
+	para "Also? Wie wär's?"
 	done
 
 UnknownText_0x7c7f1:
-	text "OK, which #MON"
-	line "should I do?"
+	text "Welches #MON"
+	line "soll ich be-"
+	cont "arbeiten?"
 	done
 
 UnknownText_0x7c80e:
-	text "OK! I'll make it"
-	line "look cool!"
+	text "O.K.! Es wird"
+	line "cool aussehen!"
 	done
 
 UnknownText_0x7c82a:
-	text "There we go!"
-	line "All done!"
+	text "Bitte schön!"
+	line "Fertig!"
 	done
 
 UnknownText_0x7c842:
-	text "No? "
-	line "How disappointing!"
+	text "Nein? "
+	line "Schade!"
 	done
 
 UnknownText_0x7c85b:
-	text "You're a little"
-	line "short on funds."
+	text "Du hast nicht"
+	line "genügend Geld."
 	done
 
 UnknownText_0x7c87b:
-	text "I can do only one"
-	line "haircut a day."
+	text "Ich mache nur"
+	line "einen Haarschnitt"
 
-	para "Sorry, but I'm all"
-	line "done for today."
+	para "pro Tag; und für"
+	line "heute bin ich"
+	cont "fertig."
 	done
 
 HaircutBrosText_SlightlyHappier:
 	text_ram wStringBuffer3
-	text " looks a"
-	line "little happier."
+	text " sieht"
+	line "fröhlicher aus."
 	done
 
 HaircutBrosText_Happier:
 	text_ram wStringBuffer3
-	text " looks"
-	line "happy."
+	text " sieht"
+	line "glücklich aus."
 	done
 
 HaircutBrosText_MuchHappier:
 	text_ram wStringBuffer3
-	text " looks"
-	line "delighted!"
+	text_start
+	line "ist entzückt!"
 	done
 
 UnknownText_0x7c904:
-	text "We're not open"
-	line "today."
+	text "Wir haben heute"
+	line "geschlossen."
 	done
 
 WestportUndergroundNoEntryText:
-	text "The World is a"
-	line "Cycle Path!"
-	cont "BIKE SHOP"
+	text "Die Welt ist ein"
+	line "Radweg!"
+	cont "FAHRRADLADEN"
 	done
 	
 WestportUndergroundSalonText:
-	text "HAIRCUT BROTHERS"
-	line "#MON SALON"
-	para "CLOSED MONDAYS"
+	text "COIFFEUR-BRÜDER"
+	line "#MON-SALON"
+	para "MONTAG GESCHLOSSEN"
 	done
 	
 WestportUndergroundBitterText:
-	text "NATURAL REMEDIES"
-	para "OPEN SATURDAY AND"
-	line "SUNDAY ALL DAY"
+    text "NATURHEILKUNDE"
+
+    para "SAMSTAG UND"
+    line "SONNTAG GEÖFFNET"
 	done
 	
 WestportUndergroundGrampsText:
-	text "GRAMPS' BARGAINS"
-	para "OPEN MONDAY"
-	line "MORNINGS AND"
-	cont "WEDNESDAY ALL DAY"
+    text "OPAs SCHNÄPPCHEN"
+
+    para "MONTAG MORGENS UND"
+    line "MITTWOCH GANZTAGS"
+    cont "GEÖFFNET"
 	done
 
 WestportUnderground_MapEvents:

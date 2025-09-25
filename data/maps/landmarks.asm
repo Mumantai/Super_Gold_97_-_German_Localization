@@ -106,71 +106,71 @@ SilentTownName:     db "SILENITIA@"         ; Silens (lat. Stille) + initium (la
 CrownCityName:      db "COROA CITY@"        ; Coroa (port. Krone)
 PagotaCityName:     db "PAGETIA CITY@"      ; Pagode + vetus (lat. alt)
 BirdonTownName:     db "TOTOMONIA@"         ; Tottori + Flegmon
-WestportCityName:   db "PORT ABANISHI@"     ; Port (alt. Hafen) + Abanti (ahd. Abend bzw. Westen) + Nishi (jap. Westen)
+WestportCityName:   db "PORT ABANISHI@"     ; Port (alt. Hafen) + Abanti (ahd. Abend bzw. Westen) + Nishi (jap. Westen)     evtl. PORT ABANTIA
 TeknosCityName:     db "TEKNOPIA CITY@"     ; Teknos (griech. Technik) + Utopia
 AlloyCityName:      db "GENEOS CITY@"       ; Genus (lat. Gattung) + neos (griech. neu)
-SunpointCityName:   db "MINAMIDIA CITY@"    ; Minami (jap. Süden) + Pyramide
+SunpointCityName:   db "KAZANAMI CITY@"     ; Kazan (jap. Vulkan) + Minami (jap. Süden)
 SanskritTownName:   db "GLYPHONTIA@"        ; Glyphe + Font
-BlueForestName:     db "BLAUTANNENWALD@"
-KikaiVillageName:   db "KIKAI VILLAGE@"     ;
-DaitoRanchName:     db "DAITO RANCH@"       ;
-FiveFloorTowerName: db "5-EBENEN-TURM@"
+BlueForestName:     db "BLAUTANNENWALD@"    ; Blautannen
+KikaiVillageName:   db "KIKAI TAL@"         ; NICHT FINAL Kikai - Ort in Ryukyu
+DaitoRanchName:     db "DAITO RANCH@"       ; NICHT FINAL Daito - Ort in Ryukyu
+FiveFloorTowerName: db "5-EBENEN-TURM@"     ; "Ebenen" anstelle von "Etagen" um Zweideutigkeit mit Spirituellem zu haben
 SanskritRuinsName:  db "GLYPHONTIA RUINEN@" ; siehe Glyphontia
-BoulderMineName:    db "GERÖLLMINE@"
-SlowpokeWellName:   db "FLEGMON-BRUNNEN@"
-RadioTowerName:     db "RADIOTURM@"
-HydroPlantName:     db "WASSERKRAFTWERK@"
-NationalParkName:   db "NATIONALPARK@"
-TropicalIslandName: db "TROPENINSEL@"
-EndonCaveName:      db "ENDON HÖHLE@"       ;
-WhirlIslandsName:   db "STRUDELINSEL@"
+BoulderMineName:    db "GERÖLLMINE@"        ;
+SlowpokeWellName:   db "FLEGMON-BRUNNEN@"   ;
+RadioTowerName:     db "RADIOTURM@"         ;
+HydroPlantName:     db "WASSERKRAFTWERK@"   ;
+NationalParkName:   db "NATIONALPARK@"      ;
+TropicalIslandName: db "TROPENINSEL@"       ;
+EndonCaveName:      db "ENDON HÖHLE@"       ; NICHT FINAL Endon vielleicht von "No End" ?
+WhirlIslandsName:   db "STRUDELINSEL@"      ;
 MtMortarName:       db "NOT USED@"
-DragonsDenName:     db "DRACHENSCHLUND@"
-IcePathName:        db "TIEFWASSER PASSAGE@"
+DragonsDenName:     db "DRACHENSCHLUND@"    ;
+IcePathName:        db "TIEFWASSER PASSAGE@";
 NotApplicableName:  db "N/A@" ; "オバケやしき" ("HAUNTED HOUSE") in Japanese
-KobanIslandName:    db "SATORIA-INSEL@"    ; Satou (jap. Zucker)
-IejimaTown:         db "IEJIMA TOWN@"
-KumeCityName:       db "KUME CITY@"
-NagoVillageName:    db "NAGO VILLAGE@"
+KobanIslandName:    db "SATORIA-INSEL@"     ; Satou (jap. Zucker)    alt. Satoria Eiland
+IejimaTown:         db "IEJIMA TOWN@"       ;
+KumeCityName:       db "KUME CITY@"         ;
+NagoVillageName:    db "NAGO VILLAGE@"      ;
 LavenderTownName:   db "LAVANDIA@"
-AmamiTownName:      db "AMAMI TOWN@"
-KantoRegionName:    db "KANTO REGION@"
-RyukyuCityName:     db "RYUKYU CITY@"
+AmamiTownName:      db "AMAMIA@"            ; NICHT FINAL Amami - Ort in Ryukyu
+KantoRegionName:    db "KANTO REGION@"      ; alt. Kanto
+RyukyuCityName:     db "RYUKYU CITY@"       ; Ryukyu-Inseln
 StandCityName:      db "SENDESTIA CITY@"    ; Sendai + Podest
-FrostpointTownName: db "SPIZARDIA@"         ; Spitze + Blizzard
-MountFujiName:      db "FUJIYAMA@"
+FrostpointTownName: db "SPIZARDIA@"         ; Spitze + Blizzard     NICHT FINAL
+MountFujiName:      db "FUJIYAMA@"          ;
 MtFujiInteriorLowerName:     db "COROA-PFAD@"
-UrasoeParkName:     db "URASOE PARK@"
-CharredSummitName:  db "CHARRED SUMMIT@"
-ForkedStraitName:   db "FORKED STRAIT@"
-SilphCoName:        db "SILPH CO.@"
-SafariZoneName:     db "SAFARI ZONE@"
-NanjoForestName:    db "NANJO WALD@"
-PokemonMansionName: db "#MON MANSION@"
-NagoCaveName:       db "NAGO CAVE@"
+UrasoeParkName:     db "URASOE PARK@"       ; NICHT FINAL Urasoe - Ort in Ryukyu
+CharredSummitName:  db "RUẞ-GIPFEL@"        ;
+ForkedStraitName:   db "FORKED STRAIT@"     ;
+SilphCoName:        db "SILPH CO.@"         ;
+SafariZoneName:     db "SAFARI ZONE@"       ;
+NanjoForestName:    db "NANJO WALD@"        ;
+PokemonMansionName: db "#MON VILLA@"        ;
+NagoCaveName:       db "NAGO HÖHLE@"        ; NICHT FINAL
 TropicalIslandJungleName:          db "ROUTE 1@"
 Route116Name:       db "ROUTE 116@"
 Route117Name:       db "ROUTE 117@"
 Route118Name:       db "ROUTE 118@"
-SunpointDocksName:  db "MINAMIDIA DOCKS@"
+SunpointDocksName:  db "KAZANAMI DOCKS@"
 Route119Name:       db "ROUTE 119@"
 Route120Name:       db "ROUTE 120@"
 Route114Name:       db "ROUTE 114@"
-SeasidePathName:    db "SEASIDE PATH@"
-MotobuPathName:     db "MOTOBU PATH@"
+SeasidePathName:    db "SEASIDE PFAD@"
+MotobuPathName:     db "MOTOBU PFAD@"       ; Motobu - Ort in Ryukyu
 UrasoeTrailName:    db "URASOE TRAIL@"
-TatsugoPathName:    db "TATSUGO PATH@"
+TatsugoPathName:    db "TATSUGO PFAD@"      ; Tatsugo - Ort in Ryukyu
 Route121Name:       db "ROUTE 121@"
-KikaiStraitName:    db "KIKAI STRAIT@"
-KikaiCalderaName:   db "KIKAI KRATER@"
-WeatheredTrailName: db "WEATHERED TRAIL@"
+KikaiStraitName:    db "KIKAI STRAIT@"      ; Kikai - Ort in Ryukyu
+KikaiCalderaName:   db "KIKAI KRATER@"      ;
+WeatheredTrailName: db "WEATHERED TRAIL@"   ;
 RouteU8UName:       db "ROUTE 18@"
-KeramaStraitName:   db "KERAMA STRAIT@"
-IsenStraitName:     db "ISEN STRAIT@"
+KeramaStraitName:   db "KERAMA STRAIT@"     ;
+IsenStraitName:     db "ISEN STRAIT@"       ;
 Route107Name:       db "ROUTE 107@"
 RouteU7UName:       db "ROUTE 22@"
 FujiSummitName:     db "ROUTE 23@"
-KumePointName:      db "PUNKT KUME@"
+KumePointName:      db "PUNKT KUME@"        ; NICHT FINAL
 MeridianPathName:   db "MERIDIAN PFAD@"
 RouteU6UName:       db "ROUTE 26@"
 Route115Name:       db "ROUTE 115@"

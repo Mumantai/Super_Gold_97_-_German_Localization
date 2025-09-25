@@ -245,7 +245,7 @@ SilverHasItFiguredOut2:
 	
 WestportCityMonText:
 	text "HEITEIRA:"
-	line "HEIHEI!"
+	line "Heihei!"
 	done
 	
 WestportCityDocksSignText:
@@ -439,10 +439,11 @@ WestportCitySignText:
 
 
 WestportCityNameRaterSignText:
-	text "NAME RATER"
+	text "NAMEN-BEWERTER"
 
-	para "Get Your #MON"
-	line "Nicknames Rated"
+	para "Möchtest du deine"
+	line "Spitznamen bewer-"
+	cont "ten lassen?"
 	done
 
 
