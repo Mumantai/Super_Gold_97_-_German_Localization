@@ -353,12 +353,12 @@ DisplaySaveInfoOnContinue:
 	call CheckRTCStatus
 	and %10000000
 	jr z, .clock_ok
-	lb de, 4, 8
+	lb de, 2, 8
 	call DisplayContinueDataWithRTCError
 	ret
 
 .clock_ok
-	lb de, 4, 8
+	lb de, 2, 8
 	call DisplayNormalContinueData
 	ret
 
