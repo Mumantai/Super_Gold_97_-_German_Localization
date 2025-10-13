@@ -3,11 +3,7 @@
 ; Control characters (see home/text.asm)
 
 	charmap "<NULL>",    $00
-	charmap "<PLAY_G>",  $14 ; "<PLAYER>くん" or "<PLAYER>ちゃん"; same as "<PLAYER>" in English
-	charmap "<MOBILE>",  $15
 	charmap "<CR>",      $16
-	charmap "<->",       $1d ; hyphen split, same as "-<LF>"
-	charmap "<¯>",       $1e ; soft hyphen split
 	charmap "¯",         $1f ; soft linebreak
 	charmap "<LF>",      $22
 	charmap "<POKE>",    $24 ; "<PO><KE>"
@@ -86,7 +82,7 @@
 
 ; Actual characters (from other graphics files)
 
-	; needed for _LoadFontsExtra1 (see engine/gfx/load_font.asm)
+	; needed for _LoadFontsExtra1 (see engine/load_font.asm)
 	charmap "■",         $60 ; gfx/font/black.2bpp
 	charmap "▲",         $61 ; gfx/font/up_arrow.png
 	charmap "☎",         $62 ; gfx/font/phone_icon.2bpp
@@ -161,50 +157,28 @@
 	charmap "y",         $b8
 	charmap "z",         $b9
 
-	charmap "à",         $ba
-	charmap "è",         $bb
-	charmap "<é>",       $bc
-	charmap "ù",         $bd
-	charmap "ß",         $be
-	charmap "ç",         $bf
-
 	charmap "Ä",         $c0
 	charmap "Ö",         $c1
 	charmap "Ü",         $c2
 	charmap "ä",         $c3
 	charmap "ö",         $c4
 	charmap "ü",         $c5
+	charmap "ẞ",         $c6
+	charmap "ß",         $c7
 
-	charmap "ë",         $c6
-	charmap "ï",         $c7
-	charmap "â",         $c8
-	charmap "ô",         $c9
-	charmap "û",         $ca
-	charmap "ê",         $cb
-	charmap "î",         $cc
-	charmap "ẞ",         $cd ; sharp S, used in German
+	charmap "'d",        $d0
+	charmap "'l",        $d1
+	charmap "'m",        $d2
+	charmap "'r",        $d3
+	charmap "'s",        $d4
+	charmap "'t",        $d5
+	charmap "'v",        $d6
 
-	charmap "←",         $cf
-
-	charmap "c'",        $d4
-	charmap "d'",        $d5
-	charmap "j'",        $d6
-
-	charmap "l'",         $d7
-	charmap "m'",         $d8
-	charmap "n'",         $d9
-	charmap "p'",         $da
-	charmap "s'",         $db
-	charmap "'s",         $dc
-	charmap "t'",         $dd
-	charmap "u'",         $de
-	charmap "y'",         $df
-
+	charmap "←",         $df
 	charmap "'",         $e0
 	charmap "<PK>",      $e1
 	charmap "<MN>",      $e2
 	charmap "-",         $e3
-	charmap "+",         $e4
 
 	charmap "?",         $e6
 	charmap "!",         $e7
@@ -237,6 +211,7 @@
 
 ; Japanese control characters (see home/text.asm)
 
+	charmap "<JP_14>",   $14 ; "ナﾞ" (ungrammatical)
 	charmap "<JP_18>",   $18 ; "ノ゛" (ungrammatical)
 	charmap "<NI>",      $1d ; "に　"
 	charmap "<TTE>",     $1e ; "って"
@@ -308,7 +283,6 @@
 	charmap "「", $70
 	charmap "」", $71
 	charmap "』", $73
-	charmap "・", $74
 	charmap "⋯", $75
 
 	charmap "　", $7f
