@@ -179,6 +179,7 @@
 	charmap "<PK>",      $e1
 	charmap "<MN>",      $e2
 	charmap "-",         $e3
+	charmap "+",         $e4
 
 	charmap "?",         $e6
 	charmap "!",         $e7
