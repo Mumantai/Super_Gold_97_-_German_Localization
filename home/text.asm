@@ -1,20 +1,17 @@
 ClearBox::
 ; Fill a c*b box at hl with blank tiles.
 	ld a, " "
-	; fallthrough
-
-FillBoxWithByte::
+	ld de, SCREEN_WIDTH
 .row
-	push bc
 	push hl
+	push bc
 .col
 	ld [hli], a
 	dec c
 	jr nz, .col
-	pop hl
-	ld bc, SCREEN_WIDTH
-	add hl, bc
 	pop bc
+	pop hl
+	add hl, de
 	dec b
 	jr nz, .row
 	ret
@@ -141,7 +138,6 @@ RadioTerminator::
 
 PrintText::
 	call SetUpTextbox
-	; fallthrough
 
 PrintTextboxText::
 	bccoord TEXTBOX_INNERX, TEXTBOX_INNERY
@@ -158,7 +154,6 @@ SetUpTextbox::
 
 PlaceString::
 	push hl
-	; fallthrough
 
 PlaceNextChar::
 	ld a, [de]
@@ -169,9 +164,7 @@ PlaceNextChar::
 	pop hl
 	ret
 
-DummyChar:: ; unreferenced
-	pop de
-	; fallthrough
+	pop de ; unused
 
 NextChar::
 	inc de
@@ -179,29 +172,27 @@ NextChar::
 
 CheckDict::
 MACRO dict
-	assert CHARLEN(\1) == 1
-	if \1 == 0
-		and a
-	else
-		cp \1
-	endc
-	if ISCONST(\2)
-		; Replace a character with another one
-		jr nz, .not\@
-		ld a, \2
-		jr .place
-	.not\@:
-	elif !STRCMP(STRSUB("\2", 1, 1), ".")
-		; Locals can use a short jump
-		jr z, \2
-	else
-		jp z, \2
-	endc
+if \1 == "<NULL>"
+	and a
+else
+	cp \1
+endc
+
+if STRSUB("\2", 1, 1) == "\""
+; Replace a character with another one
+	jr nz, ._\@
+	ld a, \2
+._\@:
+elif STRSUB("\2", 1, 1) == "."
+; Locals can use a short jump
+	jr z, \2
+else
+	jp z, \2
+endc
 ENDM
 
 	dict "<LINE>",    LineChar
 	dict "<NEXT>",    NextLineChar
-	dict "<CR>",      CarriageReturnChar
 	dict "<NULL>",    NullChar
 	dict "<SCROLL>",  _ContTextNoPause
 	dict "<_CONT>",   _ContText
@@ -229,18 +220,15 @@ ENDM
 	dict "<POKE>",    PlacePOKE
 	dict "%",         NextChar
 	dict "¯",         " "
-	dict "<¯>",       NextChar
-	dict "<->",       PlaceHyphenSplit
 	dict "<DEXEND>",  PlaceDexEnd
 	dict "<TARGET>",  PlaceMoveTargetsName
 	dict "<USER>",    PlaceMoveUsersName
 	dict "<ENEMY>",   PlaceEnemysName
-	dict "<PLAY_G>",  PrintPlayerName
-	dict "ﾟ",         .place ; should be .diacritic
-	dict "ﾞ",         .place ; should be .diacritic
-	jr .not_diacritic
+	dict "ﾟ",         .diacritic
+	cp "ﾞ"
+	jr nz, .not_diacritic
 
-.diacritic ; unreferenced
+.diacritic
 	ld b, a
 	call Diacritic
 	jp NextChar
@@ -248,19 +236,18 @@ ENDM
 .not_diacritic
 	cp FIRST_REGULAR_TEXT_CHAR
 	jr nc, .place
-; dakuten or handakuten
+
 	cp "パ"
 	jr nc, .handakuten
-; dakuten
+
+.dakuten
 	cp FIRST_HIRAGANA_DAKUTEN_CHAR
 	jr nc, .hiragana_dakuten
-; katakana dakuten
 	add "カ" - "ガ"
-	jr .place_dakuten
-
+	jr .katakana_dakuten
 .hiragana_dakuten
 	add "か" - "が"
-.place_dakuten
+.katakana_dakuten
 	ld b, "ﾞ" ; dakuten
 	call Diacritic
 	jr .place
@@ -268,13 +255,11 @@ ENDM
 .handakuten
 	cp "ぱ"
 	jr nc, .hiragana_handakuten
-; katakana handakuten
 	add "ハ" - "パ"
-	jr .place_handakuten
-
+	jr .katakana_handakuten
 .hiragana_handakuten
 	add "は" - "ぱ"
-.place_handakuten
+.katakana_handakuten
 	ld b, "ﾟ" ; handakuten
 	call Diacritic
 
@@ -304,11 +289,6 @@ PlaceKougeki: print_name KougekiText
 SixDotsChar:  print_name SixDotsCharText
 PlacePKMN:    print_name PlacePKMNText
 PlacePOKE:    print_name PlacePOKEText
-
-PlaceHyphenSplit:
-	ld [hl], "-"
-	jp LineFeedChar
-
 PlaceJPRoute: print_name PlaceJPRouteText
 PlaceWatashi: print_name PlaceWatashiText
 PlaceKokoWa:  print_name PlaceKokoWaText
@@ -316,18 +296,17 @@ PlaceKokoWa:  print_name PlaceKokoWaText
 PlaceMoveTargetsName::
 	ldh a, [hBattleTurn]
 	xor 1
-	jr PlaceBattlersName
+	jr PlaceMoveUsersName.place
 
 PlaceMoveUsersName::
 	ldh a, [hBattleTurn]
-	; fallthrough
 
-PlaceBattlersName:
+.place:
 	push de
 	and a
 	jr nz, .enemy
 
-	ld de, wBattleMonNickname
+	ld de, wBattleMonNick
 	jr PlaceCommandCharacter
 
 .enemy
@@ -335,7 +314,7 @@ PlaceBattlersName:
 	call PlaceString
 	ld h, b
 	ld l, c
-	ld de, wEnemyMonNickname
+	ld de, wEnemyMonNick
 	jr PlaceCommandCharacter
 
 PlaceEnemysName::
@@ -385,7 +364,7 @@ RocketCharText::  db "ROCKET@"
 PlacePOKeText::   db "POKé@"
 KougekiText::     db "こうげき@"
 SixDotsCharText:: db "……@"
-EnemyText::       db "Gegn. @"
+EnemyText::       db "Enemy @"
 PlacePKMNText::   db "<PK><MN>@"
 PlacePOKEText::   db "<PO><KE>@"
 String_Space::    db " @"
@@ -404,47 +383,6 @@ NextLineChar::
 LineFeedChar::
 	pop hl
 	ld bc, SCREEN_WIDTH
-	add hl, bc
-	push hl
-	jp NextChar
-
-CarriageReturnChar::
-	pop hl
-	push de
-	ld bc, -wTilemap + $10000
-	add hl, bc
-	ld de, -SCREEN_WIDTH
-	ld c, 1
-.loop
-	ld a, h
-	and a
-	jr nz, .next
-	ld a, l
-	cp SCREEN_WIDTH
-	jr c, .done
-
-.next
-	add hl, de
-	inc c
-	jr .loop
-
-.done
-	hlcoord 0, 0
-	ld de, SCREEN_WIDTH
-	ld a, c
-.loop2
-	and a
-	jr z, .done2
-	add hl, de
-	dec a
-	jr .loop2
-
-.done2
-	pop de
-	inc de
-	ld a, [de]
-	ld c, a
-	ld b, 0
 	add hl, bc
 	push hl
 	jp NextChar
@@ -546,35 +484,23 @@ DoneText::
 	text_end
 
 NullChar::
-	ld a, "?"
-	ld [hli], a
-	call PrintLetterDelay
-	jp NextChar
+	ld b, h
+	ld c, l
+	pop hl
+	ld de, .ErrorText
+	dec de
+	ret
+
+.ErrorText
+	text_decimal hObjectStructIndexBuffer, 1, 2
+	text "エラー"
+	done
 
 TextScroll::
-	hlcoord TEXTBOX_INNERX, TEXTBOX_INNERY
-	decoord TEXTBOX_INNERX, TEXTBOX_INNERY - 1
-	ld a, TEXTBOX_INNERH - 1
-
-.col
-	push af
-	ld c, TEXTBOX_INNERW
-
-.row
-	ld a, [hli]
-	ld [de], a
-	inc de
-	dec c
-	jr nz, .row
-
-	inc de
-	inc de
-	inc hl
-	inc hl
-	pop af
-	dec a
-	jr nz, .col
-
+	hlcoord TEXTBOX_X, TEXTBOX_INNERY
+	decoord TEXTBOX_X, TEXTBOX_INNERY - 1
+	ld bc, 3 * SCREEN_WIDTH
+	call CopyBytes
 	hlcoord TEXTBOX_INNERX, TEXTBOX_INNERY + 2
 	ld a, " "
 	ld bc, TEXTBOX_INNERW
@@ -598,6 +524,14 @@ Text_WaitBGMap::
 	ret
 
 Diacritic::
+	push af
+	push hl
+	ld a, b
+	ld bc, -SCREEN_WIDTH
+	add hl, bc
+	ld [hl], a
+	pop hl
+	pop af
 	ret
 
 LoadBlinkingCursor::
@@ -606,7 +540,7 @@ LoadBlinkingCursor::
 	ret
 
 UnloadBlinkingCursor::
-	lda_coord 17, 17
+	ld a, "─"
 	ldcoord_a 18, 17
 	ret
 
