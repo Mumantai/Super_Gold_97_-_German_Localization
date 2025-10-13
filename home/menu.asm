@@ -1,20 +1,22 @@
 SetMenuAttributes::
 	push hl
 	push bc
-	ld hl, w2DMenuCursorInitY
-	ld b, $8
+	ld hl, w2DMenuData
+	ld b, w2DMenuDataEnd - w2DMenuData
 .loop
 	ld a, [de]
 	inc de
 	ld [hli], a
 	dec b
 	jr nz, .loop
+
+	; Reset menu state
 	ld a, $1
-	ld [hli], a
-	ld [hli], a
+	ld [hli], a ; wMenuCursorY
+	ld [hli], a ; wMenuCursorX
 	xor a
-	ld [hli], a
-	ld [hli], a
+	ld [hli], a ; wCursorOffCharacter
+	ld [hli], a ; wCursorCurrentTile
 	ld [hli], a
 	pop bc
 	pop hl
@@ -425,7 +427,7 @@ InterpretTwoOptionMenu::
 
 YesNoMenuHeader::
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 10, 5, 15, 9
+	menu_coords 10, 5, 16, 9
 	dw .MenuData
 	db 1 ; default option
 
