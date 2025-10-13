@@ -1,6 +1,6 @@
 SaveMenu:
 	call LoadStandardMenuHeader
-	lb de, 4, 0
+	lb de, 2, 0
 	farcall DisplayNormalContinueData
 	call SpeechTextbox
 	call UpdateSprites
