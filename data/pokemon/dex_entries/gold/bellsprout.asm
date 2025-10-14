@@ -1,10 +1,10 @@
-	db "FLOWER@" ; species name
-	dw 204, 90 ; height, weight
+	db "BLUME@" ; species name
+		db 7
+	dw 40 ; height, weight
 
-	db   "If it notices"
-	next "anything that"
-	next "moves, it"
+	db   "Bemerkt es etwas,"
+	next "das sich bewegt,"
+	next "schlingt es sofort"
 
-	page "immediately flings"
-	next "its vine at the"
-	next "object.@"
+	page "seine Ranke um"
+	next "dieses Objekt.@"

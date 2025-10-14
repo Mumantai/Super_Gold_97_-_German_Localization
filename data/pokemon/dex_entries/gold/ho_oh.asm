@@ -1,10 +1,11 @@
-	db "RAINBOW@" ; species name
-	dw 1206, 4390 ; height, weight
+	db "REGENBOGEN@" ; species name
+		db 38
+	dw 1990 ; height, weight
 
-	db   "It will reveal"
-	next "itself before a"
-	next "pure-hearted"
+	db   "Es wird sich dem"
+	next "Trainer offenba-"
+	next "ren, der reinen"
 
-	page "trainer by shining"
-	next "its bright rain-"
-	next "bow-colored wings.@"
+	page "Herzens ist und"
+	next "ihm seine bunten"
+	next "Schwingen zeigen.@"

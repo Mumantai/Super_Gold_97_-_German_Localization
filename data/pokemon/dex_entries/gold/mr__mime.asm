@@ -1,10 +1,11 @@
-	db "BARRIER@" ; species name
-	dw 403, 1200 ; height, weight
+	db "SPERRE@" ; species name
+		db 13
+	dw 545 ; height, weight
 
-	db   "It uses the"
-	next "mysterious"
-	next "power it has in"
+	db   "Es setzt die mys-"
+	next "tische Kraft sei-"
+	next "ner Finger ein, um"
 
-	page "its fingers to"
-	next "solidify air into"
-	next "an invisible wall.@"
+	page "durch Kompression"
+	next "eine unsichtbare"
+	next "Wand zu errichten.@"

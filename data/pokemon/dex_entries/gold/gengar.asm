@@ -1,10 +1,11 @@
-	db "SHADOW@" ; species name
-	dw 411, 890 ; height, weight
+	db "SCHATTEN@" ; species name
+		db 15
+	dw 405 ; height, weight
 
-	db   "Hiding in people's"
-	next "shadows at night,"
-	next "it absorbs their"
+	db   "Es versteckt sich"
+	next "im Schatten der"
+	next "Menschen und"
 
-	page "heat. The chill it"
-	next "causes makes the"
-	next "victims shake.@"
+	page "absorbiert deren"
+	next "Wärme, so dass die"
+	next "Menschen frieren.@"

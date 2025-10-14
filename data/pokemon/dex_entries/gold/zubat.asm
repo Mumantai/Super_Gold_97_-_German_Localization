@@ -1,10 +1,11 @@
-	db "BAT@" ; species name
-	dw 207, 170 ; height, weight
+	db "FLEDERMAUS@" ; species name
+		db 8
+	dw 75 ; height, weight
 
-	db   "During the day, it"
-	next "gathers with"
-	next "others and hangs"
+	db   "Am Tag versammelt"
+	next "es sich mit"
+	next "seinesgleichen und"
 
-	page "from the ceilings"
-	next "of old buildings"
-	next "and caves.@"
+	page "hängt sich an De-"
+	next "cken von Häusern"
+	next "oder Höhlen.@"

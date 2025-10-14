@@ -1,10 +1,11 @@
-	db "MOLE@" ; species name
-	dw 204, 730 ; height, weight
+	db "MAULWURF@" ; species name
+		db 7
+	dw 333 ; height, weight
 
-	db   "These DIGLETT"
-	next "triplets dig over"
-	next "60 miles below sea"
+	db   "Diese DIGDA-Dril-"
+	next "linge graben"
+	next "100 km unter"
 
-	page "level. No one"
-	next "knows what it's"
-	next "like underground.@"
+	page "Normalnull. Keiner"
+	next "weiß, wie es dort"
+	next "aussieht.@"

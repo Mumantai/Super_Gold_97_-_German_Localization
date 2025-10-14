@@ -1,10 +1,11 @@
-	db "FIVE STAR@" ; species name
-	dw 407, 780 ; height, weight
+	db "FÜNF-PUNKT@" ; species name
+		db 14
+	dw 356 ; height, weight
 
-	db   "In the daytime"
-	next "when it gets warm,"
-	next "it curls up inside"
+	db   "Wenn es tagsüber"
+	next "warm wird, rollt"
+	next "es sich in einem"
 
-	page "a big leaf and"
-	next "drifts off into"
-	next "a deep slumber.@"
+	page "großen Blatt ein"
+	next "und fällt in einen"
+	next "tiefen Schlaf.@"

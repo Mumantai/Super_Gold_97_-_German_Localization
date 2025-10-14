@@ -1,10 +1,11 @@
-	db "PIG MONKEY@" ; species name
-	dw 108, 620 ; height, weight
+	db "SCHW./ AFFE@" ; species name
+		db 5
+	dw 280 ; height, weight
 
-	db   "It lives in groups"
-	next "in the treetops."
-	next "If it loses sight"
+	db   "Es lebt mit Artge-"
+	next "nossen in Baumkro-"
+	next "nen. Verliert es"
 
-	page "of its group, it"
-	next "becomes infuriated"
-	next "by its loneliness.@"
+	page "sie aus den Augen,"
+	next "wird es vor Ein-"
+	next "samkeit zornig.@"

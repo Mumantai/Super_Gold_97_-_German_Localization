@@ -1,10 +1,11 @@
-	db "COTTONWEED@" ; species name
-	dw 104, 10 ; height, weight
+	db "LÖWENZAHN@" ; species name
+		db 4
+	dw 5 ; height, weight
 
-	db   "It can be carried"
-	next "away on even the"
-	next "gentlest breeze."
+	db   "Eine kleine Brise"
+	next "reicht aus, um es"
+	next "wegzuwehen. Es"
 
-	page "It may even float"
-	next "all the way to the"
-	next "next town.@"
+	page "kann sogar bis in"
+	next "den nächsten Ort"
+	next "getragen werden.@"

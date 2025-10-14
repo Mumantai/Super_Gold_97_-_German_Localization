@@ -1,10 +1,11 @@
-	db "HUMANSHAPE@" ; species name
-	dw 407, 900 ; height, weight
+	db "HUMANOTYP@" ; species name
+		db 14
+	dw 406 ; height, weight
 
-	db   "It has several"
-	next "different cry pat-"
-	next "terns, each of"
+	db   "Es stößt unter-"
+	next "schiedliche Rufe"
+	next "aus. Es scheint,"
 
-	page "which seems to"
-	next "have its own"
-	next "meaning.@"
+	page "dass jeder Ruf"
+	next "eine andere"
+	next "Bedeutung hat.@"

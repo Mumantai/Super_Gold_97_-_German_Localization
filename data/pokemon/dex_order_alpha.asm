@@ -1,5 +1,5 @@
 ; Every Pokémon sorted alphabetically by name.
-
+; TODO Reihenfolge anpassen
 AlphabeticalPokedexOrder:
 	db ABRA
 	db AERODACTYL

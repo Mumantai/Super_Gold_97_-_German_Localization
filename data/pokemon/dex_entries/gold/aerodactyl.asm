@@ -1,10 +1,10 @@
 	db "FOSSIL@" ; species name
-	dw 511, 1300 ; height, weight
+		db 18
+	dw 590 ; height, weight
 
-	db   "In prehistoric"
-	next "times, this"
-	next "#MON flew"
+	db   "In der Urzeit"
+	next "flog dieses"
+	next "#MON frei"
 
-	page "freely and"
-	next "fearlessly through"
-	next "the skies.@"
+	page "und furchtlos"
+	next "durch die Luft.@"

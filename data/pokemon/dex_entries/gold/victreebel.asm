@@ -1,10 +1,11 @@
-	db "FLYCATCHER@" ; species name
-	dw 507, 340 ; height, weight
+	db "FLIEGENTOT@" ; species name
+		db 17
+	dw 155 ; height, weight
 
-	db   "Once ingested into"
-	next "this #MON's"
-	next "body, even the"
+	db   "Selbst die härtes-"
+	next "ten Objekte"
+	next "schmelzen, wenn"
 
-	page "hardest object"
-	next "will melt into"
-	next "nothing.@"
+	page "der Körper sie"
+	next "erst aufgenommen"
+	next "hat.@"

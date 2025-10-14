@@ -1,10 +1,11 @@
-	db "BALLOON@" ; species name
-	dw 108, 90 ; height, weight
+	db "BALLON@" ; species name
+		db 5
+	dw 39 ; height, weight
 
-	db   "When faced with a"
-	next "larger opponent,"
-	next "it swallows as"
+	db   "Sieht es sich ei-"
+	next "nem größerem Feind"
+	next "gegenüber, trinkt"
 
-	page "much water as it"
-	next "can to match the"
-	next "opponent's size.@"
+	page "es möglichst viel"
+	next "Wasser, um größer"
+	next "zu wirken.@"

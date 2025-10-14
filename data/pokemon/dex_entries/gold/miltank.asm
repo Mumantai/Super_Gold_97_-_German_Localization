@@ -1,10 +1,11 @@
-	db "MILK COW@" ; species name
-	dw 311, 1660 ; height, weight
+	db "MILCHKUH@" ; species name
+		db 12
+	dw 755 ; height, weight
 
-	db   "In order to milk a"
-	next "MILTANK, one must"
-	next "have a knack for"
+	db   "Um MILTANK zu"
+	next "melken, muss man"
+	next "ein Gespür dafür"
 
-	page "rhythmically pull-"
-	next "ing up and down"
-	next "on its udders.@"
+	page "haben, wie man das"
+	next "Euter rhythmisch"
+	next "auf und ab bewegt.@"

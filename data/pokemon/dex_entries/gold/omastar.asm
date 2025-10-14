@@ -1,10 +1,11 @@
-	db "SPIRAL@" ; species name
-	dw 303, 770 ; height, weight
+	db "SPIRALE@" ; species name
+		db 10
+	dw 350 ; height, weight
 
-	db   "Its heavy shell"
-	next "allowed it to"
-	next "reach only nearby"
+	db   "Seine Schale war"
+	next "so schwer, dass es"
+	next "nur nahe Beute er-"
 
-	page "food. This could"
-	next "be the reason it"
-	next "is extinct.@"
+	page "legen konnte. Des-"
+	next "wegen könnte es"
+	next "ausgestorben sein.@"

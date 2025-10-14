@@ -1,10 +1,11 @@
-	db "BIRD@" ; species name
-	dw 411, 870 ; height, weight
+	db "VOGEL@" ; species name
+		db 15
+	dw 395 ; height, weight
 
-	db   "Its outstanding"
-	next "vision allows it"
-	next "to spot splashing"
+	db   "Aufgrund seiner"
+	next "überragenden Seh-"
+	next "fähigkeit kann es"
 
-	page "MAGIKARP, even"
-	next "while flying at"
-	next "3300 feet.@"
+	page "KARPADOR selbst"
+	next "aus einer Höhe von"
+	next "1000 m erkennen.@"

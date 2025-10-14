@@ -1,10 +1,11 @@
-	db "DRILL@" ; species name
-	dw 603, 2650 ; height, weight
+	db "BOHRER@" ; species name
+		db 19
+	dw 1200 ; height, weight
 
-	db   "By lightly spin-"
-	next "ning its drill-"
-	next "like horn, it can"
+	db   "Wenn es sein boh-"
+	next "rerähnliches Horn"
+	next "dreht, kann es"
 
-	page "easily shatter"
-	next "even a diamond in"
-	next "the rough.@"
+	page "sogar einen Roh-"
+	next "diamanten leicht"
+	next "zerschmettern.@"

@@ -1,10 +1,11 @@
-	db "STARSHAPE@" ; species name
-	dw 207, 760 ; height, weight
+	db "STERNFORM@" ; species name
+		db 8
+	dw 345 ; height, weight
 
-	db   "When the stars"
-	next "twinkle at night,"
-	next "it floats up from"
+	db   "Leuchten die Ster-"
+	next "ne in der Nacht,"
+	next "verlässt es den"
 
-	page "the sea floor, and"
-	next "its body's center"
-	next "core flickers.@"
+	page "Meeresgrund und"
+	next "der Kern in seinem"
+	next "Inneren blinkt.@"

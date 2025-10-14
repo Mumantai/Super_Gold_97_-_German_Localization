@@ -1,10 +1,11 @@
-	db "PUPPY@" ; species name
-	dw 204, 420 ; height, weight
+	db "HUND@" ; species name
+		db 7
+	dw 190 ; height, weight
 
-	db   "It controls a big"
-	next "territory. If it"
-	next "detects an unknown"
+	db   "Stößt es in seinem"
+	next "weiten Gebiet auf"
+	next "einen fremden Ge-"
 
-	page "smell, it roars"
-	next "loudly to force"
-	next "out the intruder.@"
+	page "ruch, versucht es"
+	next "den Eindringling"
+	next "zu vertreiben.@"

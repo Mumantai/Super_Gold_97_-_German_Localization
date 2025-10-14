@@ -1,10 +1,10 @@
-	db "BIRD@" ; species name
-	dw 307, 660 ; height, weight
+	db "VOGEL@" ; species name
+		db 11
+	dw 300 ; height, weight
 
-	db   "It slowly flies in"
-	next "a circular pat-"
-	next "tern, all the"
+	db   "Während es lang-"
+	next "sam Kreise fliegt,"
+	next "hält es stets"
 
-	page "while keeping a"
-	next "sharp lookout for"
-	next "prey.@"
+	page "Ausschau nach"
+	next "möglicher Beute.@"

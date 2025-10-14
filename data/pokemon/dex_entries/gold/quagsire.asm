@@ -1,10 +1,11 @@
-	db "WATER FISH@" ; species name
-	dw 407, 1650 ; height, weight
+	db "FISCH@" ; species name
+		db 14
+	dw 750 ; height, weight
 
-	db   "Its body is always"
-	next "slimy. It often"
-	next "bangs its head on"
+	db   "Sein Körper ist"
+	next "stets schleimig."
+	next "Es stößt sich den"
 
-	page "the river bottom"
-	next "as it swims but"
-	next "seems not to care.@"
+	page "Kopf am Fluss-"
+	next "grund, aber das"
+	next "ist ihm egal.@"

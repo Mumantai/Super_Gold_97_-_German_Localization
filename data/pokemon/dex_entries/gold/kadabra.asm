@@ -1,10 +1,11 @@
 	db "PSI@" ; species name
-	dw 403, 1250 ; height, weight
+		db 13
+	dw 565 ; height, weight
 
-	db   "When it closes its"
-	next "eyes, twice as"
-	next "many alpha parti-"
+	db   "Schließt es seine"
+	next "Augen, entstehen"
+	next "auf der Oberfläche"
 
-	page "cles come out of"
-	next "the surface of its"
-	next "body.@"
+	page "seines Körpers"
+	next "doppelt so viele"
+	next "Alpha-Teilchen.@"

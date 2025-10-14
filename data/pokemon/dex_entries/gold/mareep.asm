@@ -1,10 +1,11 @@
-	db "WOOL@" ; species name
-	dw 200, 170 ; height, weight
+	db "WOLLE@" ; species name
+		db 6
+	dw 78 ; height, weight
 
-	db   "It stores lots of"
-	next "air in its soft"
-	next "fur, allowing it"
+	db   "Es speichert viel"
+	next "Luft in seinem"
+	next "weichen Pelz. Da-"
 
-	page "to stay cool in"
-	next "summer and warm"
-	next "in winter.@"
+	page "durch ist es im"
+	next "Sommer kalt und"
+	next "im Winter warm.@"

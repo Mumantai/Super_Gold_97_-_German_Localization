@@ -1,10 +1,11 @@
 	db "GAS@" ; species name
-	dw 403, 2 ; height, weight
+		db 13
+	dw 1 ; height, weight
 
-	db   "It wraps its op-"
-	next "ponent in its gas-"
-	next "like body, slowly"
+	db   "Es umwickelt seine"
+	next "Feinde mit seinem"
+	next "Gaskörper und"
 
-	page "weakening its prey"
-	next "by poisoning it"
-	next "through the skin.@"
+	page "schwächt sie,"
+	next "indem es langsam"
+	next "Gift injiziert.@"

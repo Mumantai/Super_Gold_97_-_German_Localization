@@ -1,10 +1,11 @@
-	db "FLOWER@" ; species name
-	dw 311, 410 ; height, weight
+	db "BLUME@" ; species name
+		db 12
+	dw 186 ; height, weight
 
-	db   "By shaking its big"
-	next "petals, it scat-"
-	next "ters toxic pollen"
+	db   "Schüttelt es seine"
+	next "großen Blätter,"
+	next "verstreut es Gift-"
 
-	page "into the air,"
-	next "turning the air"
-	next "yellow.@"
+	page "pollen, wodurch"
+	next "sich die Luft gelb"
+	next "verfärbt.@"

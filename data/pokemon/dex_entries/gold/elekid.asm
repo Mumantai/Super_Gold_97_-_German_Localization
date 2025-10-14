@@ -1,10 +1,11 @@
-	db "ELECTRIC@" ; species name
-	dw 200, 520 ; height, weight
+	db "ELEKTRO@" ; species name
+		db 6
+	dw 235 ; height, weight
 
-	db   "It loves violent"
-	next "thunder. The space"
-	next "between its horns"
+	db   "Es mag gewaltigen"
+	next "Donner. Die Luft"
+	next "zwischen seinen"
 
-	page "flickers bluish-"
-	next "white when it is"
-	next "charging energy.@"
+	page "Hörnern leuchtet"
+	next "blau, wenn es sich"
+	next "auflädt.@"

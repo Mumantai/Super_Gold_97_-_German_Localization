@@ -1,10 +1,11 @@
-	db "RIVER CRAB@" ; species name
-	dw 104, 140 ; height, weight
+	db "KRABBE@" ; species name
+		db 4
+	dw 65 ; height, weight
 
-	db   "If it is unable"
-	next "to find food, it"
-	next "will absorb"
+	db   "Findet es keine"
+	next "Nahrung, ver-"
+	next "schluckt es ein"
 
-	page "nutrients by"
-	next "swallowing a"
-	next "mouthful of sand.@"
+	page "Maul voll Sand und"
+	next "filtert die Nähr-"
+	next "stoffe heraus.@"

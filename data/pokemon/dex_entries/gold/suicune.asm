@@ -1,10 +1,11 @@
-	db "AURORA@" ; species name
-	dw 607, 4120 ; height, weight
+	db "POLARLICHT@" ; species name
+		db 20
+	dw 1870 ; height, weight
 
-	db   "This divine"
-	next "#MON blows"
-	next "around the world,"
+	db   "Dieses göttliche"
+	next "#MON rennt"
+	next "über das Land. Es"
 
-	page "always in search"
-	next "of a pure"
-	next "reservoir.@"
+	page "ist ständig auf"
+	next "Suche nach purem"
+	next "Wasser.@"

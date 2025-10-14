@@ -1,10 +1,11 @@
-	db "ROCK@" ; species name
-	dw 303, 2320 ; height, weight
+	db "GESTEIN@" ; species name
+		db 10
+	dw 1050 ; height, weight
 
-	db   "It travels by rol-"
-	next "ling on mountain"
-	next "paths. If it gains"
+	db   "Es rollt Bergpfade"
+	next "entlang. Rollt es"
+	next "zu schnell, bremst"
 
-	page "too much speed, it"
-	next "stops by running"
-	next "into huge rocks.@"
+	page "es ab, indem es"
+	next "gegen gewaltige"
+	next "Felsen rollt.@"

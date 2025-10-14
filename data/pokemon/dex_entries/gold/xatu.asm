@@ -1,10 +1,11 @@
-	db "MYSTIC@" ; species name
-	dw 411, 330 ; height, weight
+	db "MYSTIK@" ; species name
+		db 15
+	dw 150 ; height, weight
 
-	db   "Once it begins to"
-	next "meditate at sun-"
-	next "rise, the entire"
+	db   "Wenn es bei Son-"
+	next "nenaufgang anfängt"
+	next "zu meditieren,"
 
-	page "day will pass"
-	next "before it will"
-	next "move again.@"
+	page "vergeht der ganze"
+	next "Tag, ehe es sich"
+	next "wieder bewegt.@"

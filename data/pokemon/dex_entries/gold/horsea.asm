@@ -1,10 +1,11 @@
-	db "DRAGON@" ; species name
-	dw 104, 180 ; height, weight
+	db "DRACHE@" ; species name
+		db 4
+	dw 80 ; height, weight
 
-	db   "When they're in a"
-	next "safe location,"
-	next "they can be seen"
+	db   "Sind sie an einem"
+	next "sicheren Ort, kann"
+	next "man beobachten,"
 
-	page "playfully tangling"
-	next "their tails"
-	next "together.@"
+	page "dass sie ihre"
+	next "Schwanzflossen"
+	next "verheddern.@"

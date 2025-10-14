@@ -1,10 +1,11 @@
-	db "MUSHROOM@" ; species name
-	dw 303, 650 ; height, weight
+	db "PILZ@" ; species name
+		db 10
+	dw 295 ; height, weight
 
-	db   "When nothing's"
-	next "left to extract"
-	next "from the bug, the"
+	db   "Kann der Pilz auf"
+	next "seinem Rücken dem"
+	next "Käfer nichts mehr"
 
-	page "mushrooms on its"
-	next "back leave spores"
-	next "on the bug's egg.@"
+	page "entziehen, übersät"
+	next "er dessen Ei mit"
+	next "Sporen.@"
