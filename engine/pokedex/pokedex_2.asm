@@ -140,7 +140,7 @@ DisplayDexEntry:
 	inc hl
 	push hl
 	dec hl
-	call GetFarHalfWord
+	call GetFarHalfword
 	ld d, l
 	ld e, h
 	ld a, e
@@ -245,7 +245,7 @@ DisplayNewDexEntry: ; erosunica: new, needed by NewPokedexEntry
 	inc hl
 	push hl
 	dec hl
-	call GetFarHalfWord
+	call GetFarHalfword
 	ld d, l
 	ld e, h
 	ld a, e
