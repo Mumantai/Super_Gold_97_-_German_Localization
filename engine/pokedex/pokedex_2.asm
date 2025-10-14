@@ -134,9 +134,9 @@ DisplayDexEntry:
 	hlcoord 12, 6
 	lb bc, 2, (2 << 4) | 4
 	call PrintNum
-; Replace the decimal point with a ft symbol
-	hlcoord 14, 6
-	ld [hl], $5e
+; Replace the decimal point with a ft symbol        (Removed for German localization)
+;	hlcoord 14, 6
+;	ld [hl], $5e
 	pop af
 	pop hl
 
