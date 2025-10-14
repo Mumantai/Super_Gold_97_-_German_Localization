@@ -125,7 +125,7 @@ DisplayDexEntry:
 	ld hl, sp+1
 	ld d, h
 	ld e, l
-	hlcoord 12, 6
+	hlcoord 13, 6
 	lb bc, 1, (2 << 4) | 3
 	call PrintNum
 ; Replace the decimal point with a ft symbol        (Removed for German localization)
@@ -151,7 +151,7 @@ DisplayDexEntry:
 	ld hl, sp+0
 	ld d, h
 	ld e, l
-	hlcoord 12, 8
+	hlcoord 13, 8
 	lb bc, 2, (3 << 4) | 4
 	call PrintNum
 	pop de
@@ -230,7 +230,7 @@ DisplayNewDexEntry: ; erosunica: new, needed by NewPokedexEntry
 	ld hl, sp+1
 	ld d, h
 	ld e, l
-	hlcoord 12, 6
+	hlcoord 13, 6
 	lb bc, 1, (2 << 4) | 3
 	call PrintNum
 ; Replace the decimal point with a ft symbol        (Removed for German localization)
@@ -256,7 +256,7 @@ DisplayNewDexEntry: ; erosunica: new, needed by NewPokedexEntry
 	ld hl, sp+0
 	ld d, h
 	ld e, l
-	hlcoord 12, 8
+	hlcoord 13, 8
 	lb bc, 2, (3 << 4) | 4
 	call PrintNum
 	pop de

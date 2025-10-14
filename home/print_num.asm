@@ -166,8 +166,8 @@ PrintNum::
 	inc e
 	dec e
 	jr nz, .money_leading_zero
-	inc hl
-	ld [hl], "."
+    inc hl
+    ld [hl], ","
 
 .money_leading_zero
 	call .AdvancePointer
@@ -276,8 +276,8 @@ PrintNum::
 	inc e
 	dec e
 	ret nz
-	inc hl
-	ld [hl], "."
+    inc hl
+    ld [hl], ","
 	ret
 
 .PrintLeadingZero:
