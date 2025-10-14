@@ -1084,9 +1084,9 @@ Pokedex_DrawDexEntryScreenBG:
 .Height:
 	db "GR.  ???m", -1
 .Weight:
-	db "GEW   ???kg", -1
+	db "GEW  ???kg", -1
 .MenuItems:
-	db "S.   GEB. RUF  DRCK", -1
+	db "S.   GEB. RUF DRCK", -1
 
 Pokedex_DrawOptionScreenBG:
 	call Pokedex_FillBackgroundColor2
