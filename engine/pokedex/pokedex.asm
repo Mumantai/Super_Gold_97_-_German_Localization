@@ -381,9 +381,9 @@ Pokedex_ReinitDexEntryScreen:
 DexEntryScreen_ArrowCursorData:
 	db D_RIGHT | D_LEFT, 4
 	dwcoord 1, 16  ; PAGE
-	dwcoord 6, 16  ; AREA
-	dwcoord 11, 16 ; CRY
-	dwcoord 15, 16 ; PRNT
+	dwcoord 5, 16  ; AREA
+	dwcoord 10, 16 ; CRY
+	dwcoord 14, 16 ; PRNT
 
 DexEntryScreen_MenuActionJumptable:
 	dw Pokedex_Page
@@ -1086,7 +1086,7 @@ Pokedex_DrawDexEntryScreenBG:
 .Weight:
 	db "GEW  ???kg", -1
 .MenuItems:
-	db "S.   GEB. RUF DRCK", -1
+	db "S.  GEB. RUF DRCK", -1
 
 Pokedex_DrawOptionScreenBG:
 	call Pokedex_FillBackgroundColor2
