@@ -1,6 +1,6 @@
-	db "FLIEGENFALLE@" ; species name
+	db "FALLE@" ; species name
 	db 13
-	dw 122 ; height, weight
+	dw 120 ; height, weight
 
     db   "Eine überraschend"
     next "schnelle Pflanze."

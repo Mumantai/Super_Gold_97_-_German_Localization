@@ -1,6 +1,6 @@
 	db "LAUTKATZE@" ; species name
 	db 8
-	dw 186 ; height, weight
+	dw 185 ; height, weight
 
     db   "Der Ring an seinem"
     next "Schweif verrät"

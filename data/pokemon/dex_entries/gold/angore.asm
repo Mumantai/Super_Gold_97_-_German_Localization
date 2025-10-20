@@ -1,6 +1,6 @@
 	db "STAHLFISCH@" ; species name
 	    db 19
-	dw 163 ; height, weight
+	dw 165 ; height, weight
 
     db   "Der Körper dieses"
     next "#MONs besteht"

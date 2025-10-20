@@ -1,6 +1,6 @@
-	db "DUO GROWTH@" ; species name
+	db "ZWILLING@" ; species name
 	db 5
-	dw 136 ; height, weight
+	dw 135 ; height, weight
 
     db   "Dieses #MON ist"
     next "ein lebender"
@@ -9,7 +9,6 @@
     page "zu zwei separaten"
     next "#MON mit zwei"
     next "Persönlichkeiten.@"
-
 
 ;	db   "This #MON is"
 ;	next "a living embryo"
