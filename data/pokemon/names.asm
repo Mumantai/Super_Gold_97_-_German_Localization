@@ -193,18 +193,18 @@ PokemonNames::
 	db "SONNFLORA@"
 	db "MOLAMBINO@"     ; Mola Mola + Bambino
 	db "ANKORAG@@@"     ; Anker + Rage                      NOCH NICT FINAL
-	db "LURREENE@@"     ; Lure (engl. Köder) + Muräne       NOCH NICHT FINAL
+	db "LUREENE@@@"     ; Lure (engl. Köder) + Muräne       NOCH NICHT FINAL
 	db "PSIANA@@@@"
 	db "NACHTARA@@"
 	db "KRAMURX@@@"
 	db "LASCHOKING"
 	db "VULTRES@@@"     ; Vulpes + tres (lat. 3)
 	db "ICOGNITO@@"
-	db "BIPULLA@@@"     ;
+	db "ZWILLIST@@"     ; Zwilling + List           NOCH NICHT FINAL
 	db "GIRAFARIG@"
 	db "BISTURBAN@"     ; Biss + Turbanschnecke     NOCH NICHT FINAL
 	db "SLEIMY@@@@"     ; Schleim + Baby
-	db "PARASPOR@@"     ; Paras + Spore
+	db "SPORAS@@@@"     ; Spore + Parasit
 	db "MIMMEO@@@@"     ; Mimeographie + Mimic      NOCH NICHT FINAL
 	db "STAHLOS@@@"
 	db "SNUBBULL@@"
@@ -216,10 +216,10 @@ PokemonNames::
 	db "SNIEBEL@@@"
 	db "BALDORFISH"
 	db "FUNGUMIN@@"     ; Funken + Fugu (jap. Kugelfisch) + (See-)Mine      NOCH NICHT FINAL
-	db "SENYAN@@@@"     ; Sen (jap. Münzeinheit) + Nyan (jap. Miau)
+	db "SENIAN@@@@"     ; Sen (jap. Münzeinheit) + Nyan (jap. Miau)
 	db "SWALIASK@@"     ; Schwan + Allium + Maske
 	db "VLOODU@@@@"     ; Fluch + Voodoo    alt. FLUDOO     NOCH NICHT FINAL
-	db "PAN-SHI@@@"     ; Panda + Jiang-Shi
+	db "PANG-SHI@@"     ; Panda + Jiang-Shi
 	db "POMERANI@@"     ; Pomeranian + canis
 	db "REMORAID@@"
 	db "OCTILLERY@"

@@ -1,10 +1,19 @@
-	db "FLYCATCHER@" ; species name
-	dw 403, 270 ; height, weight
+	db "FLIEGENFALLE@" ; species name
+	db 13
+	dw 122 ; height, weight
 
-	db   "A surprisingly"
-	next "speedy plant. Able"
-	next "to move on the"
+    db   "Eine überraschend"
+    next "schnelle Pflanze."
+    next "Bewegt sich am"
 
-	page "ground much more"
-	next "quickly than its"
-	next "previous forms.@"
+    page "Boden viel flinker"
+    next "als seine vorher-"
+    next "igen Formen.@"
+
+;	db   "A surprisingly"
+;	next "speedy plant. Able"
+;	next "to move on the"
+;
+;	page "ground much more"
+;	next "quickly than its"
+;	next "previous forms.@"
