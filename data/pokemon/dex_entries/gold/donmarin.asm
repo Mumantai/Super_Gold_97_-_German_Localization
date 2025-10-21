@@ -1,10 +1,19 @@
-	db "MAJESTIC@" ; species name
-	dw 702, 2170 ; height, weight
+	db "ANMUTIG@" ; species name
+	db 22
+	dw 985 ; height, weight
 
-	db   "Because it has a"
-	next "massive body, it"
-	next "is nimble in water"
+    db   "Mit seinem großen"
+    next "Körper ist es"
+    next "im Wasser flink,"
 
-	page "but bulky on land."
-	next "Can easily hold"
-	next "its ground.@"
+    page "auf dem Land aber"
+    next "tollpatschig. Kann"
+    next "sich behaupten.@"
+
+;	db   "Because it has a"
+;	next "massive body, it"
+;	next "is nimble in water"
+;
+;	page "but bulky on land."
+;	next "Can easily hold"
+;	next "its ground.@"

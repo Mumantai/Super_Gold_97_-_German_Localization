@@ -1,5 +1,6 @@
-	db "BALLOON@" ; species name
-	dw 211, 180 ; height, weight
+	db "BALLON@" ; species name
+	db 9
+	dw 80 ; height, weight
 
 	db   "The spines on its"
 	next "body emit electric"
