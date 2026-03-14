@@ -89,105 +89,119 @@ TrainerGruntM26:
 	end
 	
 RadioTower2fBuenaText:
-	text "Hi! I'm BUENA!"
-	para "I was just hired"
-	line "to host a new"
-	cont "radio show!"
-	para "I can't wait until"
-	line "it starts airing!"
+    text "Hi! Ich bin BUENA!"
+
+    para "Ich wurde gerade"
+    line "erst eingestellt,"
+    cont "um eine neue"
+    cont "Radiosendung zu"
+    cont "moderieren!"
+
+    para "Ich kann es kaum"
+    line "erwarten, dass sie"
+    cont "gesendet wird!"
 	done
 	
 RadioTower2fBuenaTextTakeover:
-	text "Eek!"
-	para "This is not what"
-	line "I expected out of"
-	cont "radio business!"
+    text "Wuah!"
+
+    para "So habe ich mir"
+    line "das Radio aber"
+    cont "nicht vorgestellt!"
 	done
-	
-	
+
 GruntM24SeenText:
-	text "TEAM ROCKET can"
-	line "conduct operations"
-	cont "in secret bases."
-	para "But we also have"
-	line "no problem barging"
-	para "in and taking what"
-	line "we need if it's"
-	cont "necessary!"
+    text "TEAM ROCKET arbei-"
+    line "tet normalerweise"
+    cont "in geheimen"
+    cont "Unterschlupfen."
+
+    para "Wir haben aber"
+    line "auch kein Problem,"
+    cont "reinzustürmen und"
+    cont "uns zu nehmen, was"
+    cont "wir wollen!"
 	done
 	
 GruntM24BeatenText:
-	text "And you had no"
-	line "problem defeating"
-	cont "me!"
+    text "Und du hattest"
+    line "kein Problem, mich"
+    cont "zu besiegen!"
 	done
 	
 GruntM24AfterBattleText:
-	text "Have you met our"
-	line "leader?"
-	para "I have a feeling"
-	line "you two wouldn't"
-	cont "get along."
+    text "Hast du unseren"
+    line "Anführer schon"
+    cont "getroffen?"
+
+    para "Ich glaube, ihr"
+    line "würdet euch gar"
+    cont "nicht verstehen."
 	done
 
 GruntM26SeenText:
-	text "Why are we here?"
-	para "Because you and"
-	line "your friend"
-	para "destroyed our"
-	line "antenna!"
-	para "Why build another"
-	line "when we could just"
-	cont "take this one?"
+    text "Warum wir hier"
+    line "sind?"
+
+    para "Weil du und dein"
+    line "Freund unsere"
+    cont "Antenne zerstört"
+    cont "habt!"
+
+    para "Warum eine neue"
+    line "bauen, wenn wir"
+    cont "uns einfach diese"
+    cont "nehmen können?"
 	done
 	
 GruntM26BeatenText:
-	text "Yeowch!"
+	text "Autsch!"
 	done
 	
 GruntM26AfterBattleText:
-	text "I blame you for"
-	line "all the problems"
-	cont "we've had!"
+    text "Du bist Schuld,"
+    line "an all unseren"
+    cont "Problemen!"
 	done
 
 	
 RadioTower2fRockerTextTakeover:
-	text "Every radio"
-	line "station is talking"
-	cont "about TEAM ROCKET!"
+	text "Jeder Sender be-"
+	line "richtet nur noch"
+	cont "über TEAM ROCKET!"
 	done
 
 RadioTower2fRockerText:
-	text "Have you listened"
-	line "to the #MON"
-	cont "March?"
-	para "It makes wild"
-	line "#MON appear"
-	cont "more frequently."
+	text "Hast du schon den"
+	line "#MON-Marsch"
+	cont "gehört?"
+
+	para "Er lässt wilde"
+	line "#MON häufiger"
+	cont "erscheinen."
 	done
 
 RadioTowerJigglypuffText:
-	text "JIGGLYPUFF:"
-	line "Jiggly…"
+	text "PUMMELUFF:"
+    line "Pummel…"
 	done
 
 
 RadioTower2FSalesSignText:
-	text "2F STUDIO 1"
+	text "1S STUDIO 1"
 	done
 
 RadioTower2FOaksPKMNTalkSignText:
-	text "PROF.OAK'S #MON"
-	line "TALK"
+	text "PROF. EICHs #-"
+    line "MON-TALK"
 
-	para "The Hottest Show"
-	line "on the Air!"
+    para "Die beste Show"
+    line "am Äther!"
 	done
 
 RadioTower2FPokemonRadioSignText:
-	text "Anywhere, Anytime"
-	line "#MON Radio"
+	text "Überall, jederzeit"
+    line "#MON Radio"
 	done
 
 RadioTower2F_MapEvents:

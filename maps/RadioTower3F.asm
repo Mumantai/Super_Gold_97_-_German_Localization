@@ -103,106 +103,113 @@ TrainerScientistJed:
 	
 
 ScientistJedSeenText:
-	text "It shouldn't be"
-	line "too much work to"
-	para "get our mind"
-	line "control signal to"
-	cont "broadcast here!"
-	done
+	text "Es sollte nicht"
+    line "allzu schwer sein,"
+    cont "unser Signal zur"
+    cont "Gedankenkontrolle"
+    cont "hier zu senden!"
+    done
 	
 ScientistJedBeatenText:
-	text "#MON battles"
-	line "are more difficult"
-	cont "than science…"
-	done
+	text "#MON-Kämpfe"
+    line "sind schwerer"
+    cont "als Wissenschaft…"
+    done
 	
 ScientistJedAfterBattleText:
-	text "How about you stop"
-	line "interfering in our"
-	cont "business?"
+    text "Wie wär's, wenn du"
+	line "endlich aufhörst,"
+	cont "dich in unsere"
+	cont "Angelegenheiten"
+	cont "einzumischen?"
 	done
 	
 GruntF5SeenText:
-	text "These employees"
-	line "didn't know what"
-	cont "hit them!"
+	text "Die Angestellten"
+	line "wussten gar nicht,"
+	cont "wie ihnen geschah!"
 	done
 	
 GruntF5BeatenText:
-	text "Oof, I know what"
-	line "hit me!"
+	text "Uff, ich weiß,"
+	line "wie mir geschah!"
 	done
 	
 GruntF5AfterBattleText:
-	text "Looks like all"
-	line "these people will"
-	para "be out of a job"
-	line "soon!"
+    text "Sieht so aus, als"
+	line "wären alle hier"
+	cont "bald ihren Job"
+	cont "los!"
 	done
 
 	
 RadioTower3fRockerText:
-	text "We have recordings"
-	line "of the cries of"
-	para "all #MON that"
-	line "have been found."
-	para "We must have about"
-	line "200 kinds."
+    text "Wir haben Auf-"
+    line "nahmen von den"
+    cont "Rufen aller bisher"
+    cont "bekannten #MON."
+
+    para "Es müssen so an"
+    line "die 200 sein."
 	done
 	
 RadioTower3fRockerTextTakeover:
-	text "What is going on"
-	line "here!? I can't do"
-	para "my job with all of"
-	line "these criminals"
-	cont "in my workspace!"
+	text "Was ist hier los?!"
+
+	para "Mit all diesen"
+	line "Kriminellen hier,"
+	cont "kann ich nicht"
+	cont "arbeiten!"
 	done
 	
 RadioTower3fJanineText:
-	text "KEN is probably"
-	line "the most popular"
-	cont "DJ here."
+	text "KEN ist wohl der"
+	line "beliebteste DJ"
+	cont "hier im Sender."
 	done
 	
 RadioTower3fJanineTextTakeover:
-	text "Help! What does"
-	line "TEAM ROCKET plan"
-	para "to do with our"
-	line "radio antenna?"
+	text "Hilfe! Was hat"
+	line "TEAM ROCKET mit"
+	cont "unserer Antenne"
+	cont "vor?"
 	done
 	
 RadioTower3fSuperNerdText:
-	text "We run 24 hours a"
-	line "day to broadcast"
-	para "entertaining pro-"
-	line "grams."
-	para "I'll do my best to"
-	line "run around the"
-	cont "clock too!"
+	text "Wir senden 24"
+	line "Stunden am Tag"
+	cont "Unterhaltung für"
+	cont "unsere Region."
+
+	para "Also gebe auch ich"
+	line "rund um die Uhr"
+	cont "mein Bestes!"
 	done
 	
 RadioTower3fSuperNerdTextTakeover:
-	text "This can't be a"
-	line "good thing!"
-	para "TEAM ROCKET will"
-	line "hurt #MON if"
-	para "they keep control"
-	line "of this tower!"
+	text "Das kann nichts"
+	line "Gutes bedeuten!"
+
+	para "TEAM ROCKET wird"
+	line "#MON wehtun, wenn"
+	cont "sie die Kontrolle"
+	cont "über den RADIOTURM"
+	cont "behalten!"
 	done
 	
 RadioTower3fTeacherText:
-	text "Lullabies on the"
-	line "radio may make"
-	cont "#MON sleep."
+	text "<PKMN>-Schlaflied hält"
+	line "dir wilde #MON"
+	cont "vom Leib!"
 	done
 	
 RadioTower3fTeacherTextTakeover:
-	text "What do we do"
-	line "about this?"
+	text "Was sollen wir"
+	line "nur tun?"
 	done
 	
 RadioTower3FPersonelSignText:
-	text "3F PERSONNEL"
+	text "2S PERSONAL"
 	done
 
 RadioTower3F_MapEvents:

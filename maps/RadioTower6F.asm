@@ -177,65 +177,81 @@ PlayerWalksToDirector:
 	step_end
 	
 DirectorThanksText:
-	text "Oh, dear!"
-	para "Where have those"
-	line "nasty TEAM ROCKET"
-	cont "members gone?"
-	para "Have they left?"
-	para "Hello, kid!"
-	line "Did you get rid"
-	cont "of them?"
-	para "Oh, you did?"
-	line "I am forever"
-	cont "grateful!"
-	para "They had kicked me"
-	line "out of my office,"
-	para "and my poor"
-	line "CLEFABLE was left"
-	cont "behind!"
-	para "I had no way to"
-	line "battle my way"
-	cont "back up!"
-	para "I must give you"
-	line "something to show"
-	cont "my gratitude!"
-	para "Here, take this!"
+    text "Oh je!"
+
+    para "Wo sind all die"
+    line "fiesen TEAM ROCKER"
+    cont "Rüpel hin?"
+
+    para "Sind sie weg?"
+
+    para "Hallo, Kleiner!"
+    line "Hast du sie etwa"
+    cont "vertrieben?"
+
+    para "Oh, das hast du?"
+    line "Ich bin dir auf"
+    cont "ewig dankbar!"
+
+	para "Sie hatten mich"
+	line "aus meinem Büro"
+	cont "geworfen und mein"
+	cont "armes PIXI wurde"
+	cont "zurückgelassen!"
+
+	para "Alleine konnte ich"
+	line "mich auch nicht"
+	cont "durchkämpfen!"
+
+	para "Ich möchte mich"
+	line "dir erkenntlich"
+    cont "zeigen!"
+
+    para "Hier, nimm das!"
 	done
 	
 DirectorThanksText2:
-	text "With that move,"
-	line "your #MON can"
-	para "break rocks you"
-	line "may find blocking"
-	cont "certain locations."
-	para "I'm sure you'd"
-	line "get more use out"
-	cont "of it than me!"
-	para "I don't ever want"
-	line "to leave this"
-	cont "office again!"
+	text "Diese Attacke"
+	line "ermöglicht deinen"
+	cont "#MON Felsen zu"
+	cont "zertrümmern, die"
+	cont "die dir den Weg"
+	cont "versperren."
+
+	para "Sie ist dir sicher"
+	line "von größerem"
+	cont "Nutzen als mir!"
+
+	para "Ich werde dieses"
+	line "Büro sicher nie"
+	cont "wieder verlassen!"
 	done
 	
 GiovanniExitingText:
-	text "I tell you now."
-	para "The world has not"
-	line "seen the end of"
+	text "Eines sag ich dir."
+
+	para "Das war noch lange"
+	line "nicht das Ende von"
 	cont "TEAM ROCKET."
-	para "We rose from the"
-	line "ashes before, and"
-	para "one day, we shall"
-	line "do it again!"
+
+	para "Wir sind bereits"
+	line "einmal aus der"
+	cont "Asche auferstanden"
+	cont "und eines Tages"
+	cont "werden wir es"
+	cont "wieder tun!"
 	done
 	
 GiovanniWinText:
-	text "No! Not again!"
-	
-	para "My plans…"
-	
-	para "My efforts…"
-	
-	para "Was it all for"
-	line "naught!?"
+	text "Nein! Nicht"
+	line "schon wieder!"
+
+	para "Meine Pläne…"
+
+	para "Meine Mühen…"
+
+	para "War das alles"
+	line "umsonst!?"
 	done
 	
 GiovanniLossText:
@@ -244,144 +260,162 @@ GiovanniLossText:
 	
 GiovanniGreeting:
 	text "Ah."
-	para "I assume you are"
-	line "one of the two"
-	para "children I've been"
-	line "hearing about."
-	para "Are you <RIVAL>?"
-	para "No, you must be"
-	line "<PLAYER>."
-	para "Well, <PLAYER>,"
-	line "do you understand"
-	para "why you stand here"
-	line "before me?"
-	para "I know why."
-	
-	para "It is because you"
-	line "are very brave…"
-	para "Or very foolish."
-	
-	para "I am the leader of"
-	line "TEAM ROCKET."
-	
-	para "I have endured"
-	line "much to restore"
-	para "my organization to"
-	line "its former glory."
-	
-	para "And you remind me"
-	line "of another certain"
-	para "child I once"
-	line "faced."
+
+	para "Ich nehme an, du"
+	line "bist eins der"
+	cont "beiden Kinder, von"
+	cont "denen ich ständig"
+	cont "hören muss."
+
+	para "Bist du <RIVAL>?"
+
+	para "Nein, du musst"
+	line "<PLAYER> sein."
+
+	para "Nun, <PLAYER>,"
+	line "verstehst du,"
+	para "warum du hier"
+	line "vor mir stehst?"
+
+	para "Ich weiß es."
+
+	para "Entweder bist du"
+	line "sehr tapfer…"
+
+	para "Oder sehr dumm."
+
+	para "Ich bin der Boss"
+	line "von TEAM ROCKET."
+
+	para "Ich musste viel"
+	line "ertragen, um meine"
+	cont "Organisation zu"
+	cont "altem Ruhm zu"
+	cont "verhelfen."
+
+	para "Du erinnerst mich"
+	line "an ein anderes"
+	cont "Kind, das mir"
+	cont "einst gegenüber-"
+	cont "stand."
 
 	para "…"
-	
-	para "It truly angers"
-	line "me."
 
-	para "I know exactly"
-	line "what your flawed"
-	cont "intentions are."
-	
-	para "You wish to stop"
-	line "my plans."
-	
-	para "Well I won't allow"
-	line "it."
-	
-	para "Not again!"
-	
-	para "I, GIOVANNI, the"
-	line "mighty LEADER of"
-	cont "TEAM ROCKET,"	
-	para "will crush you!"	
+	para "Es macht mich"
+	line "wirklich wütend."
+
+	para "Ich weiß ganz"
+	line "genau, was deine"
+	cont "fehlgeleiteten"
+	cont "Absichten sind."
+
+	para "Du willst meine"
+	line "Pläne aufhalten."
+
+	para "Das werde ich"
+	line "nicht zulassen."
+
+	para "Nicht noch einmal!"
+
+	para "Ich, GIOVANNI, der"
+	line "mächtige BOSS von"
+	cont "TEAM ROCKET, werde"
+	cont "dich vernichten!"
 	done
 	
 
 	
 Executive6FSeenText:
-	text "EXECUTIVE: No!"
+	text "VORSTAND: Nein!"
 
-	para "You will go no"
-	line "further!"
-	
-	para "Brats like you do"
-	line "not deserve an"
-	cont "audience with our"
-	cont "leader!"
-	
-	para "This ends here!"
+	para "Keinen Schritt"
+	line "weiter!"
+
+	para "Gören wie du"
+	line "verdienen keine"
+	cont "Audienz bei"
+	cont "unserem Boss!"
+
+	para "Hier endet es"
+	line "für dich!"
 	done
 	
 Executive6FBeatenText:
-	text "No!"
+	text "Nein!"
 	
 	para "GIOVANNI,"
-	line "forgive me!"
+	line "vergib mir!"
 	done
 	
 Executive6FAfterBattleText:
 	text "…"
-	para "I have no anger"
-	line "left for you."
-	para "If you would like"
-	line "to see GIOVANNI,"
-	para "he's right over"
-	line "there."
+
+	para "Ich habe keinen"
+	line "Zorn mehr über."
+
+	para "Wenn du GIOVANNI"
+	line "sehen willst,"
+	cont "er ist direkt"
+	cont "dort drüben."
 	done
 	
 RadioTower6FDirectorsOfficeSignText:
-	text "6F DIRECTOR'S"
-	line "   OFFICE"
+	text "5S BÜRO DES"
+	line "   INTENDANTEN"
 	done
 	
 RadioTower6FClefableText:
-	text "CLEFABLE:"
-	line "Cleffa-fa!"
+	text "PIXI: Pix-pixi!"
 	done
 
 ClefableScaredText:
-	text "CLEFABLE:"
-	line "Cl..cleffa?"
+	text "PIXI: Pi..pixi?"
 	done
 	
 ClefableScaredText2:
-	text "It seems to be"
-	line "frightened…"
-	para "Also there's no"
-	line "way to talk to"
-	para "the scared cleffa,"
-	line "so you never see"
-	cont "this text…"
+	text "Es scheint Angst"
+	line "zu haben…"
+
+	para "Außerdem gibt es"
+	line "keinen Weg, mit"
+	cont "dem PIXI zu reden,"
+	cont "also wir niemand"
+	cont "jemals diesen Text"
+	cont "sehen…"
 	done
 
 RadioTower6fTeacherText:
-	text "This is the office"
-	line "of the DIRECTOR"
-	para "in charge of this"
-	line "whole operation!"
+	text "Das ist das Büro"
+	line "des INTENDANTEN,"
+	cont "der hier alles"
+	cont "leitet!"
 	done
 	
 RadioTower6fTeacherTextTakeover:
-	text "Where'd the"
-	line "DIRECTOR go?"
-	para "I hope he's okay!"
+	text "Wo ist der"
+	line "INTENDANT hin?"
+
+	para "Hoffentlich geht"
+	line "es ihm gut!"
 	done
 
 RadioTower6fGentlemanText:
-	text "I started the JOPM"
-	line "RADIO COMPANY to"
-	para "share my love of"
-	line "#MON!"
-	para "I hope people and"
-	line "#MON alike"
-	cont "enjoy our shows."
+	text "Ich gründete JOPM,"
+	line "um meine Liebe für"
+	cont "#MON mit der"
+	cont "Welt zu teilen!"
+
+	para "Ich hoffe, Mensch"
+	line "und #MON"
+	cont "haben Freude an"
+	cont "unserem Programm."
 	done
 	
 RadioTower6fGentlemanTextTakeover:
-	text "I am missing right"
-	line "now, so you never"
-	cont "see this text"
+	text "Ich werde gerade"
+	line "vermisst, also"
+	cont "siehst du diesen"
+	cont "Text niemals."
 	done
 	
 

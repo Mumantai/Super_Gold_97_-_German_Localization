@@ -142,148 +142,174 @@ TrainerGruntM28:
 	
 
 GruntM28SeenText:
-	text "Surprise!"
+	text "Überraschung!"
 	done
 	
 GruntM28BeatenText:
-	text "You were prepared"
-	line "for this…"
+	text "Darauf warst du"
+	line "wohl vorbereitet…"
 	done
 	
 GruntM28AfterBattleText:
-	text "I'm sure you're"
-	line "used to seeing"
-	para "TEAM ROCKET grunts"
-	line "by now."
+	text "Du bist es sicher"
+	line "schon gewohnt,"
+	para "TEAM ROCKET Rüpel"
+	line "zu sehen."
 	done
 
 KenGiveMapInTower:
-	text "KEN: Hey, bro!"
-	line "I did it!"
-	para "I'm a DJ now!"
-	para "And the research"
-	line "you've been doing"
-	para "for PROF.OAK is"
-	line "super useful for"
-	cont "my radio show!"
-	para "I owe ya one!"
-	para "…Oh, wait!"
-	line "I never had a"
-	para "chance to give"
-	line "this to you!"
+	text "KEN: Hey, Bruder!"
+	line "Ich hab's wirklich"
+	cont "geschafft!"
+
+	para "Ich bin ein DJ!"
+
+	para "Deine Forschung"
+	line "für PROF. EICH ist"
+	cont "auch super hilf-"
+	cont "reich für meine"
+	cont "Radiosendung!"
+
+	para "Du hast was gut"
+	line "bei mir!"
+
+	para "…Oh, warte!"
+	line "Ich hatte noch gar"
+	cont "keine Chance, dir"
+	cont "das hier zu geben!"
 	done
 	
 KenGiveMapInTower2:
-	text "How did you make"
-	line "it this far with-"
-	para "out a map and not"
-	line "get lost?"
+    text "Wie hast du es"
+    line "ohne Karte nur so"
+    cont "weit geschafft,"
+    cont "ohne dich zu"
+    cont "verlaufen?"
 	done
 	
 GruntM27SeenText:
-	text "Going to the top?"
-	para "I don't think so!"
+	text "Du willst nach"
+	line "oben gehen?"
+
+	para "Das kannst du"
+	line "vergessen!"
 	done
 	
 GruntM27BeatenText:
-	text "I hear the view"
-	line "is lovely up"
-	cont "there."
+	text "Die aussicht von"
+	line "da oben soll echt"
+	cont "schön sein."
 	done
 	
 GruntM27AfterBattleText:
-	text "You can beat me,"
-	line "but you can't beat"
-	cont "GIOVANNI!"
+	text "Gegen mich kannst"
+	line "du vielleicht"
+	cont "gewinnen, aber du"
+	cont "hast keine Chance"
+	cont "gegen GIOVANNI!"
 	done
 
 	
 ScientistMarcSeenText:
-	text "My research shows"
-	line "we have a brat!"
+	text "Meine Daten sagen,"
+	line "du bist eine Göre!"
 	done
 	
 ScientistMarcBeatenText:
-	text "Oh, dear."
+	text "Ojemine."
 	done
 	
 ScientistMarcAfterBattleText:
-	text "You stand in the"
-	line "way of science!"
+	text "Du stehst der"
+	line "Wissenschaft"
+	cont "im Weg!"
 	done
 	
 RadioTower4fTeacherText:
-	text "MARY: Be sure to"
-	line "tune in to KEN's"
-	cont "#MON TALK,"
-	para "daily after 10"
-	line "in the morning!"
+	text "MARY: Hör dir"
+	line "KENs #MON-"
+	cont "TALK an!"
+
+	para "Täglich ab 10"
+	line "Uhr morgens!"
 	done
 	
 RadioTower4fTeacherTextTakeover:
-	text "MARY: I should've"
-	line "stayed home today!"
+	text "MARY: Ich wäre"
+	line "heute besser zu"
+	cont "Hause geblieben!"
 	done
 	
 RadioTower4fBurglarText:
-	text "Hiya, kid!"
-	para "I'm the production"
-	line "manager for KEN's"
-	cont "#MON TALK!"
-	para "Be sure to tune in"
-	line "to our show!"
+	text "Hey, Kleiner!"
+
+	para "Ich leite die"
+	line "Produktion von"
+	cont "KENs #MON-TALK!"
+
+	para "Hör doch mal rein."
 	done
 	
 RadioTower4fBurglarTextTakeover:
-	text "This isn't part of"
-	line "the production"
+	text "Das gehört nicht"
+	line "zum Produktions-"
 	cont "plan!"
 	done
 
 RadioTower4fRockerText:
-	text "I listened to the"
-	line "radio while I was"
-	cont "at SANSKRIT RUINS."
-	para "I heard a strange"
-	line "broadcast there."
+	text "Ich habe Radio"
+	line "gehört, als ich in"
+	cont "den GLYPHONTIA"
+	cont "RUINEN war."
+
+	para "Dort gab es eine"
+	line "seltsame Sendung…"
 	done
 	
 RadioTower4fRockerTextTakeover:
-	text "All our regular"
-	line "shows are"
-	cont "currently off-air!"
+	text "Unsere normalen"
+	line "Sendungen sind"
+	para "zur Zeit nicht"
+	line "auf Sendung!"
 	done
 	
 	
 RadioTower4fSuperNerdText:
-	text "KEN: Hey, bro!"
-	line "I did it!"
-	para "I'm a DJ now!"
-	para "And the research"
-	line "you've been doing"
-	para "for PROF.OAK is"
-	line "super useful for"
-	cont "my radio show!"
-	para "I owe ya one!"
+	text "KEN: Hey, Bruder!"
+	line "Ich hab's wirklich"
+	cont "geschafft!"
+
+	para "Ich bin ein DJ!"
+
+	para "Deine Forschung"
+	line "für PROF. EICH ist"
+	cont "auch super hilf-"
+	cont "reich für meine"
+	cont "Radiosendung!"
+
+    para "Du hast was gut"
+    line "bei mir!"
 	done
 	
 RadioTower4fSuperNerdTextTakeover:
-	text "KEN: Bro! What are"
-	line "you doing here!?"
-	para "Stay safe!"
+	text "KEN: Bruder! Was"
+	line "machst du hier?!"
+
+	para "Pass auf dich auf!"
 	done
 	
 RadioTower4fSuperNerdTextAfter:
-	text "KEN: Did you kick"
-	line "those ROCKETS out"
-	cont "of here?"
-	para "Bro, you and your"
-	line "#MON are"
-	cont "seriously strong!"
+	text "KEN: Hast du"
+	line "TEAM ROCKET"
+	cont "fertiggemacht?"
+
+	para "Wow. Du und deine"
+	line "#MON, ihr seid"
+	cont "echt stark!"
 	done
 	
 RadioTower4FStudio2SignText:
-	text "4F STUDIO 2"
+	text "3S STUDIO 2"
 	done
 
 RadioTower4F_MapEvents:
