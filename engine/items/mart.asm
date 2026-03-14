@@ -766,9 +766,9 @@ MenuHeader_BuySell:
 .MenuData
 	db STATICMENU_CURSOR ; strings
 	db 3 ; items
-	db "BUY@"
-	db "SELL@"
-	db "QUIT@"
+	db "KAUF@"
+	db "VERKAUF@"
+	db "TSCHÜẞ@"
 
 MartThanksText:
 	text_far _MartThanksText
