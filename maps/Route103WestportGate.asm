@@ -18,14 +18,14 @@ RandyScript:
 	
 GiftSpearowMail:
 	db FLOWER_MAIL
-	db   "DARK CAVE leads"
-	next "to another road@"
+	db   "DUNKELHÖHLE führt"
+	next "zu anderer Route@"
 
 GiftSpearowName:
-	db "KENYA@"
+	db "HABSI@"
 
 GiftSpearowOTName:
-	db "RANDY@"
+	db "HARALD@"
 
 	db 0 ; filler
 
@@ -49,105 +49,126 @@ Route103WestportGateFisherScript:
 	jumptextfaceplayer Route103WestportGateFisherText
 
 UnknownText_0x69ddd:
-	text "WESTPORT CITY kind"
-	line "of bores me."
-	para "Everyone loves the"
-	line "city, but I'd"
-	para "rather live where"
-	line "it's quiet."
+    text "PORT ABANISHI"
+    line "langweilt mich."
+
+    para "Alle lieben die"
+    line "Stadt, aber ich"
+    cont "würde lieber an"
+    cont "einem ruhigeren"
+    cont "Ort wohnen."
 	done
 
 UnknownText_0x69e48:
-	text "You will? Perfect!"
-	line "Thanks, kid!"
+	text "Das würdest du"
+	line "tun? Super!"
+	cont "Vielen Dank!"
 
-	para "My pal's a chubby"
-	line "guy who snoozes"
-	cont "all the time."
+	para "Mein Freund ist"
+	line "ein Flegel!"
+	cont "Er schläft die"
+	cont "ganze Zeit."
 
-	para "You'll recognize"
-	line "him right away!"
+	para "Du wirst ihn"
+	line "sofort erkennen!"
 	done
 
 UnknownText_0x69eb8:
-	text "<PLAYER> received a"
-	line "#MON with MAIL."
+	text "<PLAYER> hat ein"
+	line "#MON, das einen"
+
+	para "BRIEF trägt,"
+	line "erhalten."
 	done
 
 UnknownText_0x69ed6:
-	text "You can read it,"
-	line "but don't lose it!"
+	text "Du darfst ihn le-"
+	line "sen, aber verliere"
+	cont "ihn nicht!"
 	cont "ROUTE 31!"
 
-	para "Oh, yeah. There"
-	line "was a weird tree"
-	cont "blocking the road."
+	para "Stimmt! Ein"
+	line "merkwürdiger"
+	cont "Baum hat die"
+	cont "Straße blockiert."
 
-	para "I wonder if it's"
-	line "been cleared?"
+	para "Ich frage mich,"
+	line "ob die Straße"
+	cont "jetzt frei ist."
 	done
 
 UnknownText_0x69f56:
-	text "You can't carry"
-	line "another #MON…"
+	text "Du kannst kein"
+	line "weiteres #MON"
+	cont "mehr tragen…"
 	done
 
 UnknownText_0x69f74:
-	text "Oh… Never mind,"
-	line "then…"
+	text "Oh… Dann"
+	line "geht das in"
+	cont "Ordnung…"
 	done
 
 UnknownText_0x69f8b:
-	text "Thanks, kid! You"
-	line "made the delivery"
-	cont "for me!"
+	text "Ich danke dir!"
+	line "Du hast die"
+	cont "Lieferung für mich"
+	cont "erledigt!"
 
-	para "Here's something"
-	line "for your trouble!"
+	para "Ich habe hier"
+	line "etwas für dich"
+	cont "wegen der Un-"
+	cont "annehmlichkeiten!"
 	done
 
 UnknownText_0x69fd9:
-	text "My pal was snooz-"
-	line "ing, right? Heh,"
-	cont "what'd I say?"
+	text "Mein Freund hat"
+	line "geschlafen, nicht"
+	cont "wahr? Na, was"
+	cont "habe ich dir"
+	cont "gesagt?"
 	done
 
 Route103WestportGatePokefanFText:
-	text "The ground north"
-	line "of here is prone"
-	para "to instability"
-	line "due to the lack"
-	cont "of foliage."
-	para "Some rocks have"
-	line "moved and blocked"
-	cont "the road ahead."
-	para "I don't think"
-	line "you'll be able"
-	para "to get by right"
-	line "now."
+    text "Der Boden nördlich"
+    line "von hier droht"
+    cont "einzubrechen, da"
+    cont "es dort fast keine"
+    cont "Vegetation gibt."
+
+    para "Ein paar Felsen"
+    line "sind herunterge-"
+    cont "kommen und haben"
+    cont "den Weg blockiert."
+
+    para "Da kommst du im"
+    line "Moment glaube ich"
+    cont "nicht durch."
 	done
 
 Route103WestportGatePokefanFText_FoughtBellignan:
-	text "The path ahead has"
-	line "been cleared."
-	para "That's good, since"
-	line "travelers have"
-	para "been wanting to"
-	line "visit BIRDON TOWN."
+    text "Der Pfad da hinten"
+    line "wurde geräumt."
+
+    para "Das ist gut, viele"
+    line "Reisende warten"
+    cont "darauf, endlich"
+    cont "TOTOMONIA besuchen"
+    cont "zu können."
 	done
 
 Route103WestportGateFisherText:
-	text "I wonder how many"
-	line "kinds of #MON"
+	text "Ich frage mich,"
+	line "wie viele Arten"
+	cont "von #MON es"
+	cont "wohl geben mag."
 
-	para "there are in the"
-	line "world."
-
-	para "One year ago,"
-	line "PROF.OAK said that"
-
-	para "there were 150"
-	line "different kinds."
+	para "Vor einem Jahr"
+	line "hat PROF. EICH"
+	cont "verlautbart, dass"
+	cont "es 150 verschie-"
+	cont "dene Arten geben"
+	cont "soll."
 	done
 
 Route103WestportGate_MapEvents:

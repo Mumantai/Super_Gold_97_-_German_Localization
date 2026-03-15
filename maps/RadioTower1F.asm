@@ -461,13 +461,14 @@ RadioTower1FYoungsterText:
 
 RadioTower1FDirectoryText:
 	text "EG REZEPTION"
-	line "1S VERKAUF"
+	line "1S STUDIO 1"
 
 	para "2S PERSONAL"
-	line "3S PRODUKTION"
+	line "3S STUDIO 2"
 
-	para "4S BÜRO DES"
-	line "   INTENDANTEN"
+	para "4S STUDIO 3"
+	line "5S BÜRO DES"
+	cont "   INTENDANTEN"
 	done
 
 RadioTower1FLuckyChannelSignText:
