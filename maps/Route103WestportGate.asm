@@ -59,7 +59,7 @@ UnknownText_0x69ddd:
     cont "Ort wohnen."
 	done
 
-UnknownText_0x69e48:
+UnknownText_0x69e48:    ;unused
 	text "Das würdest du"
 	line "tun? Super!"
 	cont "Vielen Dank!"
@@ -73,7 +73,7 @@ UnknownText_0x69e48:
 	line "sofort erkennen!"
 	done
 
-UnknownText_0x69eb8:
+UnknownText_0x69eb8:    ;unused
 	text "<PLAYER> hat ein"
 	line "#MON, das einen"
 
@@ -81,7 +81,7 @@ UnknownText_0x69eb8:
 	line "erhalten."
 	done
 
-UnknownText_0x69ed6:
+UnknownText_0x69ed6:    ;unused
 	text "Du darfst ihn le-"
 	line "sen, aber verliere"
 	cont "ihn nicht!"
@@ -97,19 +97,19 @@ UnknownText_0x69ed6:
 	cont "jetzt frei ist."
 	done
 
-UnknownText_0x69f56:
+UnknownText_0x69f56:    ;unused
 	text "Du kannst kein"
 	line "weiteres #MON"
 	cont "mehr tragen…"
 	done
 
-UnknownText_0x69f74:
+UnknownText_0x69f74:    ;unused
 	text "Oh… Dann"
 	line "geht das in"
 	cont "Ordnung…"
 	done
 
-UnknownText_0x69f8b:
+UnknownText_0x69f8b:    ;unused
 	text "Ich danke dir!"
 	line "Du hast die"
 	cont "Lieferung für mich"
@@ -121,7 +121,7 @@ UnknownText_0x69f8b:
 	cont "annehmlichkeiten!"
 	done
 
-UnknownText_0x69fd9:
+UnknownText_0x69fd9:    ;unused
 	text "Mein Freund hat"
 	line "geschlafen, nicht"
 	cont "wahr? Na, was"
@@ -130,11 +130,15 @@ UnknownText_0x69fd9:
 	done
 
 Route103WestportGatePokefanFText:
-    text "Der Boden nördlich"
-    line "von hier droht"
-    cont "einzubrechen, da"
-    cont "es dort fast keine"
-    cont "Vegetation gibt."
+    text "Auf Route 103 gab"
+    line "es mal wieder"
+    cont "einen Erdrutsch."
+
+;    text "Der Boden nördlich"
+;    line "von hier droht"
+;    cont "einzubrechen, da"
+;    cont "es dort fast keine"
+;    cont "Vegetation gibt."
 
     para "Ein paar Felsen"
     line "sind herunterge-"

@@ -199,110 +199,126 @@ SlowpokeTailSalesmanScript:
 	
 
 Text_MillionDollarSlowpokeTail:
-	text "Hey, kid!"
-	para "How would you like"
-	line "to have this"
+	text "Wie möchtest du"
+	line "die schmackhafte,"
+	cont "gehaltvolle"
+	cont "FLEGMONRUTE"
+	cont "zubereitet haben?"
 
-	para "tasty, nutritious"
-	line "SLOWPOKETAIL?"
+	para "Für dich jetzt nur"
+	line "¥1,000,000!"
 
-	para "For you right now,"
-	line "just ¥1,000,000!"
-
-	para "You'll want this!"
+	para "Möchtest du sie?"
 	done
 
 Text_ThoughtKidsWereLoaded:
-	text "Tch! I thought"
-	line "kids these days"
-	cont "were loaded…"
+	text "Ts! Ich dachte,"
+	line "die Kinder von"
+	cont "heute wären"
+	cont "stinkreich…"
 	done
 
 Text_RefusedToBuySlowpokeTail:
-	text "You don't want it?"
-	line "Then scram. Shoo!"
+	text "Du möchtest sie"
+	line "nicht? Dann mach"
+	cont "dich vom Acker!"
 	done
 
 CamperIvanSeenText:
-	text "I've been getting"
-	line "#MON data off"
+	text "Ich habe aus dem"
+	line "Radio #MON-"
+	cont "Daten erhalten."
 
-	para "my radio. I think"
-	line "I'm good."
+	para "Ich glaube, ich"
+	line "bin gut."
 	done
 
 CamperIvanBeatenText:
-	text "I give!"
+	text "Ich teile aus!"
 	done
 
 CamperIvanAfterBattleText:
-	text "Music on the radio"
-	line "changes the moods"
-	cont "of wild #MON."
+	text "Die Musik aus dem"
+	line "Radio beeinflusst"
+	cont "die Stimmung von"
+	cont "wilden #MON."
 	done
 
-
-
 PicnickerKimSeenText:
-	text "Have you been to"
-	line "any #MON GYMS?"
+	text "Gehst du auch"
+	line "zur PKMN-ARENA?"
 	done
 
 PicnickerKimBeatenText:
-	text "Oh. I couldn't"
-	line "win…"
+	text "Oh, ich habe"
+	line "verloren…"
 	done
 
 PicnickerKimAfterBattleText:
-	text "The GYM BADGES are"
-	line "pretty. I collect"
-	cont "them."
+	text "Die ORDEN"
+	line "sind hübsch."
+	cont "Deshalb sammle ich"
+	cont "sie."
 	done
 
 BirdKeeperBryanSeenText:
-	text "What kinds of"
-	line "BALLS do you use?"
+	text "Welche Art von"
+	line "#BALL"
+	cont "benutzt du?"
 	done
 
 BirdKeeperBryanBeatenText:
-	text "Yikes! Not fast"
-	line "enough!"
+	text "Mist! Nicht"
+	line "schnell genug!"
 	done
 
 BirdKeeperBryanAfterBattleText:
-	text "Some #MON flee"
-	line "right away."
+	text "Manche #MON"
+	line "rennen sofort weg."
 
-	para "If you can get"
-	line "ahold of KURT's"
-	para "custom FAST BALLS,"
-	line "they're great for"
-	cont "quick #MON."
+	para "Versuche, sie mit"
+	line "KURTs TURBOBALL"
+	cont "einzufangen. "
+
+	para "Sobald ich eine"
+	line "APRIKOKO WSS"
+	cont "finde, bringe ich"
+	cont "sie zu KURT."
+
+	para "Er macht dann"
+	line "daraus einen maß-"
+	cont "gefertigten"
+	cont "#BALL."
 	done
 
 JugglerIrwin1SeenText:
-	text "Behold my graceful"
-	line "BALL dexterity!"
+	text "Siehe meine"
+	line "Virtuosität, mit"
+	cont "der ich die BÄLLE"
+	cont "jongliere!"
 	done
 
 JugglerIrwin1BeatenText:
-	text "Whew! That was a"
-	line "jolt!"
+	text "Puh, das war ein"
+	line "Ruck!"
 	done
 
 JugglerIrwinAfterBattleText:
-	text "I was going to"
-	line "dazzle you with my"
-	cont "prize #MON."
+	text "Ich wollte dich"
+	line "mit meinen"
 
-	para "But your prowess"
-	line "electrified me!"
+	para "prämierten #MON"
+	line "fritzeln."
+
+	para "Aber dein Können"
+	line "elektrisierte"
+	cont "mich!"
 	done
 
 Route103SignText:
 	text "ROUTE 103"
-	para "WESTPORT CITY -"
-	line "BIRDON TOWN"
+	para "PORT ABANISHI -"
+	line "TOTOMONIA"
 	done
 
 Route103_MapEvents:
