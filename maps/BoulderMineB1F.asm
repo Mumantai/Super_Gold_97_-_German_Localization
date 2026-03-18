@@ -48,37 +48,39 @@ BoulderMineB1FMoonStone:
 	itemball MOON_STONE
 	
 HikerPhillipSeenText:
-	text "Hiking up"
-	line "mountains is fun,"
-	para "but exploring"
-	line "caves is fun in"
-	cont "a different way."
+    text "Berge hoch zu"
+    line "wandern macht zwar"
+    cont "Spaß, aber Höhlen"
+    cont "zu erkunden ist"
+    cont "einfach spannend."
 	done
 
 HikerPhillipBeatenText:
-	text "Don't get lost!"
+	text "Verirr dich nicht!"
 	done
 	
 HikerPhillipAfterBattleText:
-	text "My rock #MON"
-	line "feel right at home"
-	cont "here."
+	text "Meine Gesteins-"
+	line "#MON fühlen sich"
+	cont "hier pudelwohl."
 	done
 	
 PokemaniacAndrewSeenText:
-	text "I hear a rare"
-	line "#MON sometimes"
-	para "appears deep under"
-	line "these mines."
+	text "Man sagt, ein"
+	line "seltenes #MON"
+	cont "wohnt tief in"
+	cont "diesen Minen."
 	done
 
 PokemaniacAndrewBeatenText:
-	text "I've been clubbed!"
+	text "Du hast mich echt"
+	line "verdroschen!
 	done
 	
 PokemaniacAndrewAfterBattleText:
-	text "Have you seen this"
-	line "rare #MON?"
+	text "Hast du dieses"
+	line "seltene #MON"
+	cont "gesehen?"
 	done
 
 BoulderMineB1F_MapEvents:

@@ -77,55 +77,62 @@ BoulderMine1FBoulder:
 	jumpstd StrengthBoulderScript
 	
 CooltrainerFEmmaSeenText:
-	text "This cave is very"
-	line "confusing to"
-	cont "navigate."
+	text "In dieser Höhle"
+	line "verirrt man sich"
+	cont "ziemlich leicht."
 	done
 
 CooltrainerFEmmaBeatenText:
-	text "I couldn't cut it!"
+	text "Ich hatte keine"
+	line "Chance!"
 	done
 	
 CooltrainerFEmmaAfterBattleText:
-	text "I hope no one has"
-	line "gotten lost in"
-	cont "here."
-	para "That could be"
-	line "pretty scary."
+	text "Ich hoffe, hier"
+	line "hat sich niemand"
+	cont "verlaufen."
+
+	para "Das wäre echt"
+	line "beängstigend."
 	done
 
 PokemaniacLarrySeenText:
-	text "I wonder what"
-	line "gets mined from"
-	cont "this cave…"
+	text "Ich frage mich,"
+	line "was man hier"
+	cont "abbaut…"
 	done
 
 PokemaniacLarryBeatenText:
-	text "How are you so"
-	line "strong?"
+	text "Warum bist du so"
+	line "stark?"
 	done
 	
 PokemaniacLarryAfterBattleText:
-	text "I wonder if there"
-	line "is anything worth"
-	cont "any money…"
+	text "Ich frage mich, ob"
+	line "es hier etwas"
+	cont "Wertvolles gibt…"
 	done
 
 Text_FoundMe:
-	text "Oh, hi!"
-	para "Um…"
-	line "Do you happen to"
-	para "know the way out"
-	line "of here?"
+	text "Oh, hallo!"
+
+	para "Ähm…"
+	line "Weißt du zufällig"
+	para "wie man hier"
+	line "wieder rauskommt?"
+
 	para "…"
-	para "Oh! Grandpa is"
-	line "looking for me?"
-	para "I didn't mean to"
-	line "make him worry…"
-	para "Okay! You'll help"
-	line "me get out of"
-	cont "here?"
-	para "Let's go!"
+
+	para "Oh! Opa sucht"
+	line "mich schon?"
+
+	para "Ich wollte ihn"
+	line "nicht beunruhigen…"
+
+	para "Okay! Du hilfst"
+	line "mir hier raus?"
+
+	para "Dann los!"
 	done
 
 BoulderMine1F_MapEvents:

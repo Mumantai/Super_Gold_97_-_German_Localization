@@ -174,10 +174,10 @@ LassConnie1AfterBattleText:
 
 	
 SchoolboyDudleySeenText:
-	text "This route is"
-	line "where all of my"
-	para "friends meet after"
-	line "school!"
+	text "Auf dieser Route"
+	line "treffen sich alle"
+	cont "meine Freunde nach"
+	cont "der Schule!"
 	done
 
 SchoolboyDudleyBeatenText:

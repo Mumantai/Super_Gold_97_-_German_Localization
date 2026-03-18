@@ -20,9 +20,10 @@ BoulderMineB4FGiftShopLassScript:
 	jumptextfaceplayer BoulderMineB4FGiftShopLassText
 
 BoulderMineB4FGiftShopLassText:
-	text "When the sun goes"
-	line "down, CLEFAIRY"
-	cont "come out to play."
+    text "Wenn die Sonne"
+    line "untergeht, kommen"
+    cont "die PIEPI raus zum"
+    cont "spielen."
 	done
 
 BoulderMineB4FGiftShop_MapEvents:
