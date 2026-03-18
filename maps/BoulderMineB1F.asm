@@ -74,7 +74,7 @@ PokemaniacAndrewSeenText:
 
 PokemaniacAndrewBeatenText:
 	text "Du hast mich echt"
-	line "verdroschen!
+	line "verdroschen!"
 	done
 	
 PokemaniacAndrewAfterBattleText:
