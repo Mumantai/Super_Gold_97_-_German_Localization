@@ -243,7 +243,7 @@ TeknosCityFisherText:
 	line "#MON ja ständig"
 	cont "auf hoher See!"
 
-	para "Yohohoho!
+	para "Yohohoho!"
 	done
 
 TeknosCityFisherText_TheresRockets:
