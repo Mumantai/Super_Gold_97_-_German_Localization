@@ -312,6 +312,7 @@ SECTION "Map Scripts 21.5", ROMX
 INCLUDE "maps/Route103NationalParkGate.asm"
 INCLUDE "maps/Route112StandGate.asm"
 INCLUDE "maps/StandCityNationalParkGate.asm"
+INCLUDE "maps/DayCare.asm"
 
 
 SECTION "Map Scripts 22", ROMX
@@ -335,7 +336,6 @@ INCLUDE "maps/WestportDeptStoreElevator.asm"
 INCLUDE "maps/BoardwalkGameCorner.asm"
 INCLUDE "maps/Route115KantoGate.asm"
 INCLUDE "maps/Route113Route114Gate.asm"
-INCLUDE "maps/DayCare.asm"
 
 
 SECTION "Map Scripts 23", ROMX
