@@ -61,8 +61,9 @@ HikerPhillipBeatenText:
 	
 HikerPhillipAfterBattleText:
 	text "Meine Gesteins-"
-	line "#MON fühlen sich"
-	cont "hier pudelwohl."
+	line "#MON fühlen"
+	cont "sich hier pudel-"
+	cont "wohl."
 	done
 	
 PokemaniacAndrewSeenText:

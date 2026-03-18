@@ -119,7 +119,7 @@ PlacePartyHPBar:
 	ret z
 	ld c, a
 	ld b, 0
-	hlcoord 11, 0
+	hlcoord 11, 2
 .loop
 	push bc
 	push hl
@@ -226,7 +226,7 @@ PlacePartyMonLevel:
 	ret z
 	ld c, a
 	ld b, 0
-	hlcoord 8, 0
+	hlcoord 8, 2
 .loop
 	push bc
 	push hl
@@ -268,7 +268,7 @@ PlacePartyMonStatus:
 	ret z
 	ld c, a
 	ld b, 0
-	hlcoord 5, 0
+	hlcoord 5, 2
 .loop
 	push bc
 	push hl
@@ -300,7 +300,7 @@ PlacePartyMonTMHMCompatibility:
 	ret z
 	ld c, a
 	ld b, 0
-	hlcoord 12, 0
+	hlcoord 12, 2
 .loop
 	push bc
 	push hl
@@ -351,7 +351,7 @@ PlacePartyMonEvoStoneCompatibility:
 	ret z
 	ld c, a
 	ld b, 0
-	hlcoord 12, 0
+	hlcoord 12, 2
 .loop
 	push bc
 	push hl
@@ -430,7 +430,7 @@ PlacePartyMonGender:
 	ret z
 	ld c, a
 	ld b, 0
-	hlcoord 12, 0
+	hlcoord 12, 2
 .loop
 	push bc
 	push hl
