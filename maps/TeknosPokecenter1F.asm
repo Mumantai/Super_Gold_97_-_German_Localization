@@ -111,7 +111,7 @@ TeknosPokecenter1F_BillText1:
 
     para "Oh nein."
     line "Hoffentlich ist"
-    cont "sie nciht in der"
+    cont "sie nicht in der"
     cont "MINE gefangen…"
 
     para "Hör zu, es gibt"
@@ -126,7 +126,7 @@ TeknosPokecenter1F_BillText1:
     line "natürlich nicht"
     cont "sicher!"
 
-    para "Könntest du dort"
+    para "Könntest du bitte"
     line "nachsehen, ob"
     cont "meine Enkeltochter"
     cont "dort vielleicht"

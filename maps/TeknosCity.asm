@@ -212,8 +212,8 @@ TeknosCityLass2Text:
     line "ARENALEITERIN!"
 
     para "Sie ist immer eine"
-    line "große Hilfe für die"
-    cont "Stadt gewesen!"
+    line "große Hilfe für"
+    cont "die Stadt gewesen!"
 
     para "Manchmal ist es"
     line "schwer, sie in der"

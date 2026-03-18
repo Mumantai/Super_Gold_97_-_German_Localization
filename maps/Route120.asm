@@ -136,37 +136,40 @@ Route120SuperRepel:
 	itemball SUPER_REPEL
 	
 Route120GrampsText:
-	text "Oh, good! You're"
-	line "here!"
-	para "Please help me"
-	line "out."
-	para "My granddaughter"
-	line "could be trapped"
-	cont "in there!"
+	text "Oh, gut! Du"
+	line "bist hier!"
+
+	para "Bitte hilf mir"
+	line "doch."
+
+	para "Meine Enkelin"
+	line "könnte da drin"
+	cont "gefangen sein!"
 	done
 	
 
 LassConnie1SeenText:
-	text "I don't know why"
-	line "I hang out with"
-	cont "DUDLEY or JOEY."
+	text "Ich weiß nicht,"
+	line "warum ich mit"
+	cont "FLAVIO oder JULIAN"
+	cont "abhänge."
 
-	para "You're probably"
-	line "cooler than either"
-	cont "of them!"
+	para "Du bist sicher"
+	line "viel cooler als"
+	cont "die beiden!"
 	done
 
 LassConnie1BeatenText:
-	text "Aaack! My #MON!"
+	text "Aaah! Meine"
+	line "#MON!"
 	done
 
 LassConnie1AfterBattleText:
-	text "Well, I lost, but"
-	line "that battle was"
-	para "more fun than"
-	line "anything those"
-	para "two could be up"
-	line "to."
+	text "Na ja, verloren,"
+	line "aber der Kampf"
+	cont "war lustiger als"
+	cont "alles, was die"
+	cont "zwei so anstellen."
 	done
 
 	
@@ -178,62 +181,68 @@ SchoolboyDudleySeenText:
 	done
 
 SchoolboyDudleyBeatenText:
-	text "Whoo! Good stuff."
+	text "Wooh! Das war gut."
 	done
 
 SchoolboyDudleyAfterBattleText:
-	text "I did my best."
-	line "I have no regrets."
+	text "Ich hab mein"
+	line "Bestes gegeben."
+
+	para "Ich bereue nichts."
 	done
 	
 YoungsterJoey1SeenText:
-	text "It's fun to play"
-	line "in the MINE."
-	para "But don't tell"
-	line "our parents!"
+	text "Es macht Spaß,"
+	line "in der MINE zu"
+	cont "spielen."
+
+	para "Aber verrate es"
+	line "bitte nicht"
+	cont "unseren Eltern!"
 	done
 
 YoungsterJoey1BeatenText:
-	text "Ack! I lost!"
-	line "Doggone it!"
+	text "Mist! Verloren!"
+	line "Verdammich!"
 	done
 
 YoungsterJoey1AfterText:
-	text "Do I have to have"
-	line "more #MON in"
+	text "Brauche ich mehr"
+	line "#MON, um besser"
+	cont "zu kämpfen?"
 
-	para "order to battle"
-	line "better?"
-
-	para "No! I'm sticking"
-	line "with this one no"
-	cont "matter what!"
+	para "Nein! Ich bleibe"
+	line "bei diesem hier,"
+	cont "komme was wolle!"
 	done
 
 
 YoungsterJoeyText_GiveHPUpAfterBattle:
-	text "I lost again…"
-	line "Gee, you're tough!"
+	text "Wieder verloren…"
+	line "Mann, bist du"
+	cont "stark!"
 
-	para "Oh yeah, I almost"
-	line "forgot that I had"
-	cont "to give you this."
+	para "Ach ja, fast hätte"
+	line "ich vergessen, dir"
+	cont "das hier zu geben."
 
-	para "Use it to get even"
-	line "tougher, OK?"
+	para "Benutze es, um"
+	line "noch stärker zu"
+	cont "werden, okay?"
 
-	para "I'm going to get"
-	line "tougher too."
+	para "Ich werde auch"
+	line "stärker werden."
 	done
 
 Route120BoulderMineSignText:
-	text "BOULDER MINE"
-	para "Dangerous mining"
-	line "area!"
-	para "Please do not"
-	line "enter without"
-	para "#MON for"
-	line "protection."
+	text "GERÖLLMINE"
+
+	para "Gefährliches"
+	line "Abbaugebiet!"
+
+	para "Betreten ohne"
+	line "#MON zum Schutz"
+	cont "verboten."
 	done
 
 Route120_MapEvents:
