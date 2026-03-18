@@ -91,9 +91,9 @@ DollSalesmanThursdayMenu:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
 	db "GENGAR      ¥5000@"
-	db "SHELLDER    ¥5000@"
-	db "GRIMER      ¥5000@"
-	db "CANCEL@"
+	db "MUSCHAS     ¥5000@"
+	db "SLEIMA      ¥5000@"
+	db "ZURÜCK@"
 	
 DollSalesmanThursday_FinishScript:
 	waitsfx
@@ -116,49 +116,57 @@ DollSalesmanThursdayNoMoney:
 	end
 	
 SendItemToPCTextDollThursday:
-	text "Send this DOLL to"
-	line "your bedroom PC?"
+    text "Diese PUPPE an den"
+    line "PC in deinem"
+    cont "Zimmer schicken?" ; alt. übertragen
 	done
 
 AlreadyHaveDecorItemTextSalesmanThursday:
-	text "You already have"
-	line "this DOLL!"
+	text "Du besitzt diese"
+	line "PUPPE bereits!"
 	done
 
 DollSalesmanThursday_HereYouGoText:
-	text "Here you go!"
+	text "Hier, bitte sehr!"
 	done
 	
 DollSalesmanThursdayComeAgain:
-	text "Hope to see you"
-	line "again somewhere!"
+	text "Hoffentlich sehen"
+	line "wir uns wieder!"
 	done
 	
 DollSalesmanThursdayNoMoneyText:
-	text "Sorry, you'll"
-	line "need more money!"
+	text "Sorry, du hast"
+	line "nicht genug Geld!"
 	done
 	
 DollSalesmanTextThursday:
-	text "Hiya!"
-	para "I'm a traveling"
-	line "DOLL salesman!"
-	para "What does that"
-	line "mean?"
-	para "It means that I'm"
-	line "who you talk to"
-	para "if you want to"
-	line "deck out your"
-	cont "bedroom!"
-	para "My stock and my"
-	line "location change"
-	para "daily, so keep an"
-	line "eye out for me!"
+    text "Hey!"
+
+    para "Ich bin ein"
+    line "reisender"
+    cont "PUPPEN-Verkäufer!"
+
+    para "Was das heißt?"
+
+    para "Das heißt, dass du"
+    line "mit mir sprechen"
+    cont "solltest, wenn du"
+    cont "dein Schlafzimmer"
+    cont "dekorieren willst!"
+
+    para "Mein Angebot und"
+    line "mein Standort sind"
+    cont "täglich wechselnd."
+
+    para "Halte also die"
+    line "Augen nach mir"
+    cont "offen!"
 	done
 	
 DollSalesmanTextThursday_AskWhichPrizeText:
-	text "Now which DOLL"
-	line "would you like?"
+    text "Also, welche PUPPE"
+    line "hättest du gerne?"
 	done
 	
 ;---------------------------------

@@ -192,7 +192,7 @@ PokemonNames::
 	db "GOLUPPY@@@"     ; Goldfisch + Guppy
 	db "SONNFLORA@"
 	db "MOLAMBINO@"     ; Mola Mola + Bambino
-	db "ANKORAG@@@"     ; Anker + Rage                      NOCH NICT FINAL
+	db "ANKORASCH@"     ; Anker + Rage + Rasch              NOCH NICHT FINAL PREDANKOR
 	db "LUREENE@@@"     ; Lure (engl. Köder) + Muräne       NOCH NICHT FINAL
 	db "PSIANA@@@@"
 	db "NACHTARA@@"

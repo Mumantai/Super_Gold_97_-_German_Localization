@@ -44,70 +44,76 @@ ItemFinderHouseRadio:
 	jumpstd Radio2Script
 
 TeknosItemfinderAdventureText:
-	text "I can't thank you"
-	line "enough for finding"
-	cont "my granddaughter!"
-	para "She needs to be"
-	line "more mindful in"
-	para "the future, but"
-	line "right now I'm"
-	para "just glad she's"
-	line "okay!"
-	para "You handled"
-	line "yourself very well"
-	cont "in the MINE."
-	para "If you know where"
-	line "to look, you can"
-	para "find a lot of"
-	line "interesting items"
-	para "hidden in caves"
-	line "like that."
-	para "If you want, I can"
-	line "give you something"
-	para "that could help"
-	line "you find more"
-	cont "items."
+    text "Ich kann dir nicht"
+    line "genug danken, dass"
+    cont "du meine Enkelin"
+    cont "gefunden hast!"
+
+    para "Sie muss in"
+    line "Zukunft vorsich-"
+    cont "tiger sein, aber"
+    cont "jetzt bin ich nur"
+    cont "froh, dass es ihr"
+    cont "gut geht!"
+
+    para "Du hast dich in"
+    line "der MINE sehr gut"
+    cont "geschlagen."
+
+    para "Wenn man weiß,"
+    line "wo man suchen"
+    cont "muss, kann man in"
+    cont "Höhlen wie dieser"
+    cont "viele Schätze"
+    cont "finden."
+
+    para "Wenn du magst,"
+    line "gebe ich dir"
+    cont "etwas, das dir"
+    cont "beim Suchen"
+    cont "helfen wird."
 	done
 
 TeknosItemfinderTrueSpiritText:
-	text "Here you go! Take"
-	line "this with you."
+	text "Hier, bitte! Nimm"
+	line "das hier mit."
 	done
 
 ItemfinderExplanationText:
-	text "There are many"
-	line "items lying about"
+	text "Manchmal liegen"
+	line "Items herum, die"
+	cont "man leicht über-"
+	cont "sieht."
 
-	para "that aren't ob-"
-	line "vious."
+	para "Setze den DETEKTOR"
+	line "ein, um Items auf-"
+	cont "zuspüren, die sich"
+	cont "in der Nähe befin-"
+	cont "den."
 
-	para "Use ITEMFINDER to"
-	line "check if there is"
-
-	para "an item on the"
-	line "ground near you."
-
-	para "It doesn't show"
-	line "the exact spot,"
-
-	para "so you'll have to"
-	line "look yourself."
+	para "Den exakten Fund-"
+	line "ort musst du aber"
+	cont "selbst herausfin-"
+	cont "den."
 	done
 
 TeknosItemfinderToEachHisOwnText:
-	text "You sure? I think"
-	line "you'd find this"
-	cont "useful."
+	text "Bist du sicher?"
+
+	para "Ich denke, das"
+	line "wäre nützlich."
 	done
 
 TeknosHistoryBookText:
-	text "Grandpa doesn't"
-	line "want me playing in"
-	cont "the MINE."
-	para "I guess that makes"
-	line "sense. He just"
-	para "wants me to be"
-	line "safe."
+	text "Opa will nicht,"
+	line "dass ich in der"
+	cont "MINE spiele."
+
+	para "Ich schätze, das"
+	line "ergibt Sinn."
+
+	para "Er will nur, dass"
+	line "ich sicher bin."
 	done
 
 

@@ -134,143 +134,160 @@ PlayerWalksUpToWhitneyAfterRocketsMovement:
 	
 
 WhitneyWayToGoText:
-	text "Way to go,"
+	text "Gut gemacht,"
 	line "<PLAYER>!"
-	
-	para "You really showed"
-	line "them who's boss!"
-	
-	para "TEAM ROCKET won't"
-	line "hurt any of these"
-	cont "aquatic #MON"
-	cont "anymore."
-	
-	para "Hey…"
-	
-	para "You're actually"
-	line "pretty strong!"
 
-	para "Why don't you come"
-	line "by my GYM later?"
-	
-	para "I would love to"
-	line "battle you!"
-	
-	para "Speaking of which,"
-	line "I better get back"
-	cont "over there!"
-	
-	para "See ya!"
+	para "Du hast es ihnen"
+	line "echt gezeigt!"
+
+	para "TEAM ROCKET wird"
+	line "diesen Wasser-#"
+	cont "MON nichts mehr"
+	cont "antun."
+
+	para "Hey…"
+
+	para "Du bist wirklich"
+	line "ziemlich stark!"
+
+	para "Schau doch später"
+	line "mal in meiner"
+	cont "ARENA vorbei!"
+
+	para "Ich würde gerne"
+	line "gegen dich"
+	cont "kämpfen!"
+
+	para "Wo wir gerade"
+	line "dabei sind: Ich"
+	cont "sollte langsam"
+	cont "mal zurück!"
+
+	para "Wir sehen uns!"
 	done
 	
 
 Aqua2FExhibit1Text:
-	text "ORFRY are among"
-	line "the smallest of"
-	para "all aquatic"
-	line "#MON."
+	text "GOLUPPY gehören zu"
+	line "den kleinsten"
+	cont "Wasser-#MON."
 	done
 
 Aqua2FExhibit2Text:
-	text "NEW EXHIBIT COMING"
-	line "SOON"
+	text "NEUE AUSSTELLUNG"
+	line "IN KÜRZE"
 	done
 	
 Aqua2FExhibit3Text:
-	text "DISTURBAN can"
-	line "survive on land"
-	cont "and underwater."
-	para "It has a unique"
-	line "relationship with"
-	cont "the SLOWPOKE line."
+	text "BISTURBAN können"
+	line "an Land und unter"
+	cont "Wasser leben."
+
+	para "Sie haben eine"
+	line "enge Beziehung zur"
+	cont "FLEGMON-Familie."
 	done
 
 GruntM1SeenText:
-	text "What do you want?"
+	text "Was willst du?"
 
-	para "If you interrupt"
-	line "our work, don't"
-	cont "expect any mercy!"
+	para "Wer uns bei der"
+	line "Arbeit stört, kann"
+	cont "keine Gnade"
+	cont "erwarten!"
 	done
 
 GruntM1BeatenText:
-	text "You did OK today,"
-	line "but wait till next"
-	cont "time!"
+    text "Dieses Mal warst"
+    line "du OK, aber das"
+    cont "nächste Mal, bist"
+    cont "du dran!"
 	done
 
 TrainerGruntM1WhenTalkText:
-	text "Yeah, TEAM ROCKET"
-	line "was broken up"
-	cont "a year ago."
+    text "Ja, TEAM ROCKET"
+    line "wurde vor einem"
+    cont "Jahr zerschlagen."
 
-	para "But we continued"
-	line "our activities"
-	cont "underground."
+    para "Aber wir haben im"
+    line "Geheimen weiter-"
+    cont "gemacht."
 
-	para "Now you can have"
-	line "fun watching us"
-	cont "stir up trouble!"
-	
-	para "We don't need this"
-	line "place! There are"
-	para "plenty of other"
-	line "avenues for us to"
-	cont "make some money."
-	para "Our ambitions are"
-	line "bigger than cash,"
-	cont "though!"
-	para "You haven't seen"
-	line "the last of us!"
+    para "Jetzt kannst du"
+    line "dich freuen, uns"
+    cont "beim Unruhestiften"
+    cont "zuzusehen!"
+
+    para "Wir haben diesen"
+    line "Ort nicht nötig!"
+
+    para "Es gibt genügend"
+    line "Möglichkeiten für"
+    cont "uns, Geld zu"
+    cont "verdienen."
+
+    para "Unsere Ziele sind"
+    line "weitaus größer als"
+    cont "das Bisschen Geld!"
+
+    para "Du hast uns noch"
+    line "nicht zum letzten"
+    cont "Mal gesehen!"
 	done
 	
 
 GruntM3SeenText:
-	text "We'll show you"
-	line "how scary we are!"
+	text "Wir zeigen dir,"
+	line "wie furchteinflö-"
+	cont "ßend wir sind!"
 	done
 
 GruntM3BeatenText:
-	text "Too strong! We"
-	line "must watch you…"
+	text "Zu stark!"
+
+	para "Wir behalten dich"
+	line "im Auge…"
 	done
 
 GruntM3AfterBattleText:
-	text "You're too strong."
+	text "Du bist zu stark."
 
-	para "Our plan for here"
-	line "isn't the most"
-	para "important part of"
-	line "our plan."
-	para "You're merely a"
-	line "distraction."
+	para "Unser Vorhaben"
+	line "hier ist eh nicht"
+	cont "der wichtigste"
+	cont "Teil des Plans."
+
+	para "Du bist lediglich"
+	line "ein Stolperstein."
 	done
 	
 AquaPokefanMRocketsText:
-	text "I reckon these"
-	line "troublemakers do"
-	cont "not belong here."
+	text "Ich finde, diese"
+	line "Unruhestifter"
+	cont "gehören hier"
+	cont "nicht her."
 	done
 	
 AquaPokefanMNoRocketsText:
-	text "Were those guys"
-	line "part of TEAM"
-	cont "ROCKET?"
-	para "I thought they'd"
-	line "been taken care"
-	cont "of last year."
+	text "Gehörten diese"
+	line "Leute echt zu"
+	cont "TEAM ROCKET?"
+
+	para "Ich dachte, man"
+	line "hätte sich letztes"
+	cont "Jahr schon um die"
+	cont "gekümmert."
 	done
 	
 AquaPokefanFRocketsText:
-	text "Oh dear, so much"
-	line "for a peaceful"
-	cont "day."
+    text "Oh man, das sollte"
+    line "doch ein ruhiger"
+    cont "Tag werden."
 	done
 	
 AquaPokefanFNoRocketsText:
-	text "I've never been"
-	line "a huge fan of"
-	cont "fish anyways."
+	text "Ich mochte Fische"
+	line "eh nie besonders."
 	done
 
 TeknosAquarium2F_MapEvents:

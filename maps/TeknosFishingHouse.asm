@@ -42,43 +42,46 @@ TeknosFishingHouseFishingGuruScript:
 
 
 TeknosFishingHouseFishingGuruText_Question:
-	text "The river on"
-	line "ROUTE 119 is a"
-	para "popular fishing"
-	line "spot."
+	text "Der Fluss auf"
+	line "ROUTE 119 ist"
+	para "ein beliebter"
+	line "Ort zum Angeln."
 	
-	para "You want to fish?"
+	para "Möchtest du auch"
+	line "angeln?"
 
-	para "Would you like one"
-	line "of my RODS?"
+	para "Hättest du gerne"
+	line "eine ANGEL"
+	cont "von mir?"
 	done
 
 TeknosFishingHouseFishingGuruText_Yes:
-	text "Heh, that's good"
-	line "to hear."
+	text "He! Das höre ich"
+	line "wirklich gerne!"
 
-	para "Now you're an"
-	line "angler too!"
+	para "Jetzt bist du"
+	line "auch ein Angler!"
 	done
 
 TeknosFishingHouseFishingGuruText_GiveOldRod:
-	text "Fishing is great!"
+	text "Angeln ist toll!"
 
-	para "If there's water,"
-	line "be it the sea or a"
-
-	para "stream, try out"
-	line "your ROD."
+	para "Probiere überall,"
+	line "wo Wasser ist,"
+	cont "deine ANGEL aus;"
+	cont "sei es am Meer"
+	cont "oder an einem"
+	cont "Fluss."
 	done
 
 TeknosFishingHouseFishingGuruText_No:
-	text "Oh. That's rather"
-	line "disappointing…"
+	text "Na, das ist aber"
+	line "ziemlich mager…"
 	done
 
 TeknosFishingHouseFishingGuruText_After:
-	text "Yo, kid. How are"
-	line "they biting?"
+	text "Moin, lüttes Ding."
+	line "Und beißen sie?"
 	done
 
 TeknosFishingHouse_MapEvents:

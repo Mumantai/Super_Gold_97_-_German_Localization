@@ -86,110 +86,127 @@ TeknosPokecenter1FPlayerMovement1:
 	step_end
 
 TeknosPokecenter1F_BillText1:
-	text "Oh dear, oh dear."
-	para "She's not here"
-	line "either!"
-	para "I've looked"
-	line "everywhere!"
-	para "Oh dear, oh dear."
-	para "Excuse me, son."
-	line "You wouldn't have"
-	para "happened to see"
-	line "a young girl come"
-	para "through here,"
-	line "have you?"
-	para "It's my"
-	line "granddaughter."
-	para "I can't find her"
-	line "anywhere!"
-	para "She's gone missing"
-	line "and I can't find"
-	cont "her."
-	para "…"
-	para "Oh, no. I hope she"
-	line "didn't get trapped"
-	cont "in the MINE…"
-	para "Listen, there's an"
-	line "old MINE just west"
-	para "of town that has"
-	line "become a popular"
-	para "spot for kids to"
-	line "run off to play"
-	cont "at."
-	para "But it's obviously"
-	line "not safe!"
-	para "Could you go look"
-	line "there to see if"
-	para "my granddaughter"
-	line "could be stuck"
-	cont "inside?"
-	para "I don't know where"
-	line "else she could be."
-	para "Oh dear, oh dear."
-	done
+    text "Ohje, ohje."
+
+    para "Hier ist sie auch"
+    line "nicht!"
+
+    para "Ich habe schon"
+    line "überall gesucht!"
+
+    para "Ohje, ohje."
+
+    para "Du hast nicht zu-"
+    line "fällig ein junges"
+    cont "Mädchen hier in"
+    cont "der Nähe gesehen?"
+
+    para "Es geht um meine"
+    line "Enkeltochter."
+
+    para "Ich kann sie"
+    line "nirgendwo finden!"
+
+    para "…"
+
+    para "Oh nein."
+    line "Hoffentlich ist"
+    cont "sie nciht in der"
+    cont "MINE gefangen…"
+
+    para "Hör zu, es gibt"
+    line "eine alte MINE"
+    cont "westlich von hier,"
+    cont "die ein beliebter"
+    cont "Spielplatz bei den"
+    cont "Kindern der Stadt"
+    cont "geworden ist."
+
+    para "Aber dort ist es"
+    line "natürlich nicht"
+    cont "sicher!"
+
+    para "Könntest du dort"
+    line "nachsehen, ob"
+    cont "meine Enkeltochter"
+    cont "dort vielleicht"
+    cont "feststeckt?"
+
+    para "Ich wieß nicht, wo"
+    line "sie sonst sein"
+    cont "könnte."
+
+    para "Ohje, ohje."
+    done
 
 TeknosPokecenter1F_BillText2:
-	text "I made the #MON"
-	line "storage system!"
+    text "Ich habe das"
+    line "#MON-LAGERUNGS-"
+    cont "SYSTEM erfunden!"
 
-	para "I truly hope you"
-	line "find it useful."
-	
-	para "It's a great tool"
-	line "if you want to"
-	para "catch every single"
-	line "#MON! Anyways,"
+    para "Ich hoffe, du"
+    line "findest es"
+    cont "nützlich."
 
-	para "I have to hurry on"
-	line "back to WESTPORT"
-	cont "and see my folks."
+    para "Es ist wirklich"
+    line "hilfreich, wenn du"
+    cont "alle #MON"
+    cont "fangen willst!"
 
-	para "Buh-bye!"
+	para "Ich muss zurück"
+	line "nach PORT ABANISHI"
+	cont "und meine Familie"
+	cont "besuchen."
+
+	para "Tschü-hüs!"
 	done
 
 TeknosPokecenter1FPokefanMText:
-	text "Your #MON will"
-	line "become more"
-	para "friendly towards"
-	line "you if you treat"
-	cont "them well."
+	text "Behandelst du"
+	line "deine #MON gut,"
+	cont "werden sie dich"
+	cont "regelrecht lieben."
 	done
 
 TeknosPokecenter1FPokefanMTextMobile:
-	text "You must be hoping"
-	line "to battle more"
+	text "Du hoffst, hier"
+	line "mehr Kämpfe zu er-"
+	cont "leben, nicht wahr?"
 
-	para "people, right?"
-	line "There's apparently"
+	para "Es gibt offen-"
+	line "sichtlich einen"
+	cont "Ort, an dem sich"
+	cont "Trainer treffen."
 
-	para "some place where"
-	line "trainers gather."
+	para "Wo, fragst du?"
 
-	para "Where, you ask?"
-
-	para "It's a little past"
-	line "ALLOY CITY."
-	done
+	para "Kurz nach"
+	line "GENEOS CITY."
+    done
 
 TeknosPokecenter1FCooltrainerFText:
-	text "Your #MON know"
-	line "HM moves, right?"
-	para "Those moves can"
-	line "be used outside of"
-	para "battle even if the"
-	line "#MON fainted."
+    text "Kennen deine #-"
+    line "MON VM-Attacken?"
+
+    para "Außerhalb von"
+    line "Kämpfen, können"
+    cont "sie auch dann"
+    cont "eingesetzt werden,"
+    cont "wenn das #MON"
+    cont "kampfunfähig ist."
 	done
 
 TeknosPokecenter1FGymGuyText:
-	text "Have you ever been"
-	line "to the SUNPOINT"
-	cont "DOCKS?"
-	para "Forget any other"
-	line "port in NIHON,"
-	para "that's where the"
-	line "most trade"
-	cont "happens."
-	done
+    text "Warst du schon"
+    line "am Hafen von"
+    cont "KAZANAMI CITY?"
+
+    para "Vergiss die an-"
+    line "deren Häfen in"
+    cont "NIHON. In KAZANAMI"
+    cont "findet der meiste"
+    cont "Handel statt."
+    done
 
 TeknosPokecenter1F_MapEvents:
 	db 0, 0 ; filler

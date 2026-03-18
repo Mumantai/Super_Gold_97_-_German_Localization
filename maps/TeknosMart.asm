@@ -21,24 +21,26 @@ TeknosMartGrannyScript:
 	jumptextfaceplayer TeknosMartGrannyText
 
 TeknosMartSuperNerdText:
-	text "My EEVEE evolved"
-	line "into a FLAREON."
+	text "Mein EVOLI ent-"
+	line "wickelte sich zu"
+	cont "einem FLAMARA."
 
-	para "But my friend's"
-	line "EEVEE turned into"
-	cont "an UMBREON."
+	para "Aber das EVOLI"
+	line "meines Freundes"
+	cont "wurde zu einem"
+	cont "NACHTARA."
 	
-	para "EEVEE can become"
-	line "many different"
-	cont "types of #MON."
+	para "EVOLI können sich"
+	line "nämlich in ver-"
+	cont "schiedene #MON"
+	cont "entwickeln."
 	done
 
 TeknosMartGrannyText:
-	text "If you use REVIVE,"
-	line "a #MON that's"
-
-	para "fainted will wake"
-	line "right up."
+	text "Setzt du BELEBER"
+	line "ein, wacht ein"
+	cont "besiegtes #MON"
+	cont "wieder auf."
 	done
 
 TeknosMart_MapEvents:

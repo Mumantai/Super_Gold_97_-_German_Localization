@@ -19,15 +19,18 @@ Kyle:
 	end
 
 TeknosTradeHousePokefanMText:
-	text "A #MON you get"
-	line "in a trade grows"
-	cont "quickly."
+	text "Ein #MON, das"
+	line "du durch Tausch"
+	cont "erhalten hast,"
+	cont "wird schneller"
+	cont "wachsen."
 
-	para "But if you don't"
-	line "have the right GYM"
-
-	para "BADGE, they may"
-	line "disobey you."
+	para "Aber wenn du nicht"
+	line "im Besitz des pas-"
+	cont "senden ORDENs"
+	cont "bist, gehorchen"
+	cont "sie dir vielleicht"
+	cont "nicht."
 	done
 
 TeknosTradeHouse_MapEvents:
