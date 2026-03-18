@@ -209,7 +209,7 @@ TeknosCityLass1Text:
 
 TeknosCityLass2Text:
     text "BIANKA ist unsere"
-    line "ARENALEITERIN!
+    line "ARENALEITERIN!"
 
     para "Sie ist immer eine"
     line "große Hilfe für die"
