@@ -141,9 +141,9 @@ WhitneyWayToGoText:
 	line "echt gezeigt!"
 
 	para "TEAM ROCKET wird"
-	line "diesen Wasser-#"
-	cont "MON nichts mehr"
-	cont "antun."
+	line "diesen Wasser-"
+	cont "#MON nichts"
+	cont "mehr antun."
 
 	para "Hey…"
 
@@ -175,7 +175,7 @@ Aqua2FExhibit1Text:
 
 Aqua2FExhibit2Text:
 	text "NEUE AUSSTELLUNG"
-	line "IN KÜRZE"
+	line "DEMNÄCHST"
 	done
 	
 Aqua2FExhibit3Text:
