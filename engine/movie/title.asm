@@ -149,7 +149,7 @@ LoadTitleScreenTilemap:
 	call DrawTitleGraphic
 ; ...except game title
 	hlcoord 5, 6
-	ld bc, 9
+	ld bc, 10
 	ld a, $80
 	call ByteFill
 	ret
