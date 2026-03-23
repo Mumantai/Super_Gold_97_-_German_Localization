@@ -245,169 +245,195 @@ SlowpokeWellB2FCovenantOrb:
 	
 ElderAsksToSeeYou:
 	text "Oho!"
-	para "It seems those"
-	line "men are no longer"
-	para "hurting our poor"
-	line "SLOWPOKE!"
-	para "In my younger days"
-	line "I would have taken"
-	cont "care of it myself!"
-	para "But I'm too old"
-	line "for such things"
-	cont "any more."
-	para "So I must thank"
-	line "you for your help!"
-	para "Please, come by my"
-	line "house to see me."
-	para "I'll have a gift"
-	line "for you."
+
+	para "Sieht aus, als ob"
+	line "diese Männer nicht"
+	cont "mehr unsere armen"
+	cont "FLEGMON quälen!"
+
+	para "In jungen Jahren"
+	line "hätte ich das"
+	cont "selbst geregelt!"
+
+	para "Doch ich bin für"
+	line "so etwas nunmal"
+	cont "zu alt geworden."
+
+	para "Darum danke ich"
+	line "dir für die Hilfe!"
+
+	para "Besuch mich doch"
+	line "bitte Zuhause."
+
+	para "Ich habe ein"
+	line "Geschenk für dich."
 	done
 
 SlowpokeWellB2FGymGuyText:
-	text "I'm waiting to see"
-	line "SLOWPOKE's moment"
-	cont "of evolution."
+	text "Ich warte darauf,"
+	line "dass sich FLEGMON"
+	cont "entwickelt."
 
-	para "Through observa-"
-	line "tion, I made a new"
-	cont "discovery."
+	para "Aufgrund meiner"
+	line "Beobachtungen"
+	cont "habe ich eine"
+	cont "neue Entdeckung"
+	cont "gemacht."
 
-	para "A SLOWPOKE with a"
-	line "KING'S ROCK often"
+	para "Trägt FLEGMON"
+	line "einen KING-STEIN"
+	cont "wird es oft von"
+	cont "einem BISTURBAN"
+	cont "gebissen."
 
-	para "gets bitten by a"
-	line "DISTURBAN."
-
-	para "Here, I'll share a"
-	line "KING'S ROCK with"
-	cont "you."
+	para "Hier, ich gebe"
+	line "dir einen von"
+	cont "meinen."
 	done
 
 SlowpokeWellB2FGymGuyText_GotKingsRock:
-	text "I'm going to be"
-	line "like SLOWPOKE."
+	text "Ich werde mich wie"
+	line "FLEGMON verhalten."
 
-	para "I'll wait patient-"
-	line "ly, so I can see"
-	cont "one evolve."
+	para "Ich werde geduldig"
+	line "abwarten, bis es"
+	cont "sich entwickelt."
 	done
 	
 OakSpeechText:
-	text "OAK: Well…"
-	
-	para "This research trip"
-	line "didn't go as"
-	cont "planned…"
-	
-	para "Regardless…"
-	
-	para "We have rescued"
-	line "the SLOWPOKE."
-	
-	para "Now they can live"
-	line "without losing"
-	para "their TAILS to"
-	line "TEAM ROCKET."
-	
-	para "But TEAM ROCKET"
-	line "returning…"
-	
-	para "It can't be a"
-	line "good thing."
-	
-	para "BLUE, we best re-"
-	line "turn to the lab"
-	cont "and investigate."
-	
-	para "<PLAYER>, <RIVAL>!"
-	line "You two should go"	
-	para "ahead and continue"
-	line "your journey."
-	
-	para "If you need me,"
-	line "you know where"
-	cont "I'll be."
+    text "EICH: Tja…"
+
+    para "Dieser Forschungs-"
+    line "ausflug lief nicht"
+    cont "wie geplant…"
+
+    para "Wie dem auch sei…"
+
+    para "Wir haben die"
+    line "FLEGMON gerettet."
+
+    para "Jetzt können sie"
+    line "leben, ohne dass"
+    cont "TEAM ROCKET ihnen"
+    line "an die RUTEN will."
+
+    para "Aber dass TEAM"
+    line "ROCKET wieder"
+    cont "zurück ist…"
+
+    para "Das kann nichts"
+    line "Gutes verheißen."
+
+    para "BLAU, wir sollten"
+    line "am besten zurück"
+    cont "ins Labor und"
+    cont "nachforschen."
+
+    para "<PLAYER>, <RIVAL>!"
+    line "Ihr beiden solltet"
+    cont "vorgehen und eure"
+    cont "Reise fortsetzen."
+
+    para "Wenn ihr mich"
+    line "braucht, wisst ihr"
+    cont "ja, wo ihr mich"
+    cont "finden könnt."
 	done
 	
 BlueOutText:
-	text "BLUE: Thanks for"
-	line "your help today,"
-	cont "guys."
+    text "BLAU: Danke für"
+    line "eure Hilfe heute,"
+    cont "Leute."
 	done
 	
 SilverOutText:
-	text "<RIVAL>: See ya"
-	line "around, <PLAYER>!"
-	para "Don't fall too far"
-	line "behind!"
+    text "<RIVAL>: Bis dann,"
+    line "<PLAYER>!"
+
+    para "Lass dich nicht"
+    line "abhängen!"
 	done
 
 RocketsPlan:
-	text "This doesn't"
-	line "really matter."
-	para "TEAM ROCKET is"
-	line "already so far"
-	para "along with our"
-	line "plan that small"
-	para "setbacks like this"
-	line "mean nothing!"
-	para "You'll soon see"
-	line "the fruits of our"
-	para "labor when all"
-	line "#MON are under"
-	cont "our control!"
-	para "Team, retreat!"
+    text "Das ist nicht"
+    line "weiter schlimm."
+
+    para "Wir sind mit unse-"
+    line "rem Plan schon so"
+    cont "weit, da macht ein"
+    cont "kleiner Rückschlag"
+    cont "nichts mehr aus!"
+
+    para "Schon bald werden"
+    line "alle die Früchte"
+    cont "unserer Arbeit"
+    cont "sehen, wenn alle"
+    cont "#MON unter der"
+    cont "Kontrolle von TEAM"
+    cont "ROCKET stehen!"
+
+    para "Team, Rückzug!"
 	done
 
 GruntM4SeenText:
-	text "ARGH! Beaten by"
-	line "children?"
+    text "ARGH! Besiegt von"
+    line "ein paar Kindern?!"
 	done
 
 GruntM4BeatenText:
-	text "Ha! Told ya!"
+    text "Ha! Hab's dir"
+    line "doch gesagt!"
 	done
 
 WeDoWhatWeWantText:
-	text "TEAM ROCKET will"
-	line "do what it wants!"
-	para "You can't stop us!"
+    text "TEAM ROCKET wird"
+    line "tun, was es will!"
+
+    para "Ihr könnt uns"
+    line "nicht aufhalten!"
 	done
 	
 WeAreAllTrainersText:
-	text "<RIVAL>: BLUE,"
-	line "<PLAYER>, and I"
-	cont "are trainers!"
-	para "We sure could stop"
-	line "you!"
-	para "My #MON are"
-	line "stronger than"
-	cont "anyone else's!"
+    text "<RIVAL>: BLAU,"
+    line "<PLAYER> und ich"
+    cont "sind Trainer!"
+
+    para "Wie könnten euch"
+    line "auf jeden Fall"
+    cont "aufhalten!"
+
+    para "Mein #MON sind"
+    line "stärker als alle"
+    cont "anderen!"
 	done
 	
 WellSeeText:
-	text "Ha!"
-	para "We'll see about"
-	line "that!"
+    text "Ha!"
+
+    para "Das werden wir ja"
+    line "sehen!"
 	done
 
 BlueProblemText:
-	text "BLUE: <PLAYER>!"
-	line "It's a good thing"
-	para "you and <RIVAL>"
-	line "showed up!"
-	para "We've got a"
-	line "problem!"
+    text "BLAU: <PLAYER>!"
+    line "Zum Glück sind du"
+    cont "und <RIVAL> noch"
+    cont "aufgetaucht!"
+
+    para "Wir haben hier"
+    line "ein Problem!"
 	done
 
 OakStopThisText:
-	text "OAK: You people"
-	line "are hurting these"
-	cont "innocent SLOWPOKE!"
-	para "It's not right to"
-	line "cut their TAILS"
-	para "off to sell them"
-	line "for profit!"
+    text "EICH: Ihr tut"
+    line "diesen unschuldi-"
+    cont "gen FLEGMON weh!"
+
+    para "Es ist nicht in"
+    line "Ordnung, ihnen die"
+    cont "RUTEN abzuschnei-"
+    cont "den, um sie dann"
+    cont "zu verkaufen!"
 	done
 
 SlowpokeWellB2F_MapEvents:

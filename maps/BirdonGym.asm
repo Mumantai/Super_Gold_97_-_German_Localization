@@ -129,35 +129,35 @@ PostRematchScriptMorty:
 	end
 
 MortyRematchText:
-	text "Am I seeing a"
-	line "ghost, or have"
-	para "you returned to"
-	line "my GYM once more?"
-	
-	para "if it be true,"
-	line "then please"
-	para "indulge me in a"
-	line "battle once"
-	para "again so I may"
-	line "further my"
-	cont "training!"
+    text "Sehe ich ein"
+    line "Gespenst, oder"
+    cont "bist du in meine"
+    cont "ARENA zurück-"
+    line "gekehrt?"
+
+    para "Wenn dem so ist,"
+    line "dann gewähre mir"
+    cont "bitte einen Kampf"
+    cont "gegen dich, damit"
+    cont "ich mein Training"
+    cont "vorantreiben kann!"
 	done
 
 MortyRematchWinText:
-	text "Impeccable…"
+	text "Tadellos…"
 	done
 
 MortyAfterRematchText:
-	text "That rainbow bird"
-	line "of legend… did"
-	para "you ever witness"
-	line "it during your"
-	cont "travels?"
-	
-	para "If it were to"
-	line "appear for anyone,"
-	para "I would think it"
-	line "to be you."
+    text "Dieser legendäre"
+    line "regenbogenfarbene"
+    cont "Vogel… bist du ihm"
+    cont "auf deinen Reisen"
+    cont "jemals begegnet?"
+
+    para "Ich glaube, wenn"
+    line "er sich jemals"
+    cont "jemandem zeigen"
+    cont "würde, dann dir."
 	done
 
 
@@ -218,170 +218,194 @@ BirdonGymGrampsSlowStepDownMovement:
 	step_end
 
 MortyIntroText:
-	text "Good of you to"
-	line "have come."
+	text "Gut, dass du ge-"
+	line "kommen bist."
 
-	para "Here in BIRDON,"
-	line "#MON have been"
-	cont "revered."
+	para "Hier in TOTOMONIA"
+	line "werden #MON"
+	cont "verehrt."
 
-	para "It's said that a"
-	line "rainbow-colored"
+	para "Man sagt, dass ein"
+	line "regenbogenfarbenes"
+	cont "#MON einem"
+	cont "wahrlich starken"
+	cont "Trainer erscheinen"
+	cont "wird."
 
-	para "#MON of flame"
-	line "will come down"
+	para "nur wahrlich star-"
+	line "ken Trainern er-"
+	cont "scheinen werden."
 
-	para "before a truly"
-	line "powerful trainer."
+	para "Ich glaube an die-"
+	line "se Legende. Daher"
 
-	para "I believed that"
-	line "tale, so I have"
+	para "habe ich mein gan-"
+	line "zes Leben lang im"
 
-	para "secretly trained"
-	line "here all my life."
+	para "Geheimen trai-"
+	line "niert."
 
-	para "As a result, I can"
-	line "now see what"
-	cont "others cannot."
+	para "Als Resultat kann"
+	line "ich nun Dinge"
 
-	para "Just a bit more…"
+	para "sehen, die andere"
+	line "nicht sehen kön-"
+	cont "nen."
 
-	para "With a little"
-	line "more, I could see"
+	para "Noch ein wenig…"
 
-	para "a future in which"
-	line "I meet the #MON"
-	cont "of rainbow colors."
+	para "Mit ein wenig Mehr"
+	line "könnte ich eine"
 
-	para "You're going to"
-	line "help me reach that"
-	cont "level!"
+	para "Zukunft sehen, in"
+	line "der ich das legen-"
+	cont "däre regenbogen-"
+	cont "farbene #MON"
+	cont "treffe."
+
+	para "Du könntest mir"
+	line "dabei helfen!"
 	done
 
 MortyWinLossText:
-	text "I'm not good"
-	line "enough yet…"
+	text "Ich bin noch nicht"
+	line "gut genug…"
 
-	para "All right. This"
-	line "BADGE is yours."
+	para "Dieser ORDEN soll"
+	line "dir gehören."
 	done
 
 Text_ReceivedFogBadge:
-	text "<PLAYER> received"
-	line "FOGBADGE."
+	text "<PLAYER> erhält"
+	line "PHANTOMORDEN."
 	done
 
 MortyText_FogBadgeSpeech:
-	text "By having FOG-"
-	line "BADGE, #MON up"
+	text "Durch den PHANTOM-"
+	line "ORDEN gehorchen"
+	cont "dir #MON bis zu"
+	cont "LV 50."
 
-	para "to L50 will obey"
-	line "you."
+	para "Außerdem können"
+	line "#MON, die SUR-"
+	cont "FER beherrschen,"
+	cont "diesen auch außer-"
+	cont "halb eines Kampfes"
+	cont "einsetzen."
 
-	para "Also, #MON that"
-	line "know SURF will be"
-
-	para "able to use that"
-	line "move anytime."
-
-	para "I want you to have"
-	line "this too."
+	para "Bitte nimm auch"
+	line "dies an."
 	done
 
 MortyText_ShadowBallSpeech:
-	text "It's SHADOW BALL."
-	line "It causes damage"
+	text "Das ist SPUKBALL."
+	line "Er verursacht"
+	cont "Schaden und ver-"
+	cont "ringert die SPE-"
+	cont "ZIAL-VERT."
 
-	para "and may reduce"
-	line "SPCL.DEF."
-
-	para "Use it if it"
-	line "appeals to you."
+	para "Setze ihn ein,"
+	line "wenn er dir ge-"
+	cont "fällt."
 	done
 
 MortyFightDoneText:
-	text "I see…"
+	text "Ich verstehe…"
 
-	para "Your journey has"
-	line "taken you to far-"
-	cont "away places."
+	para "Deine Reise hat"
+	line "dich an die ent-"
+	cont "legensten Orte ge-"
+	cont "führt."
 
-	para "And you have wit-"
-	line "nessed much more"
-	cont "than I."
+	para "Du hast viel mehr"
+	line "gesehen als ich."
 
-	para "I envy you for"
-	line "that…"
+	para "Dafür beneide ich"
+	line "dich…"
 	done
 
 
 MediumRebeccaSeenText:
-	text "The power of all"
-	line "those you defeated"
-	cont "comes to me!"
+	text "Die Kraft all"
+	line "derer, die du"
+	cont "besiegt hast,"
+	cont "offenbart sich"
+	cont "mir!"
 	done
 
 MediumRebeccaBeatenText:
-	text "Strong…"
-	line "Far too strong…"
+	text "Stark…"
+	line "Viel zu stark…"
 	done
 
 MediumRebeccaAfterBattleText:
-	text "What is the source"
-	line "of your power?"
+	text "Woher kommt deine"
+	line "Kraft?"
 	done
 
 BirdonGymGuyText:
-	text "The GYM here is"
-	line "full of holes that"
-	para "will send you back"
-	line "to the entrance."
-	para "But some can be"
-	line "walked over to get"
-	cont "by."
-	para "Watch your step!"
+    text "Die ARENA hier,"
+    line "ist voller Löcher,"
+    cont "die einen direkt"
+    cont "zurück zum Eingang"
+    cont "schicken."
+
+    para "Über einige von"
+    line "ihnen, kann man"
+    cont "aber laufen, um"
+    cont "voranzukommen."
+
+    para "Pass auf, wo du"
+    line "hintrittst!"
 	done
 
 BirdonGymGuyWinText:
-	text "Whew, <PLAYER>."
-	line "You did great!"
+	text "Wow, <PLAYER>."
+	line "Du warst großar-"
+	cont "tig!"
 
-	para "I was cowering in"
-	line "the corner out of"
-	cont "pure terror!"
+	para "Vor lauter Angst"
+	line "habe ich mich in"
+	cont "die Ecke gekauert!"
 	done
 
 SageYureiSeenText:
-	text "Can you prove that"
-	line "you are alive?"
+    text "Kannst du mir be-"
+    line "weisen, dass du"
+    cont "am Leben bist?"
 	done
 	
 SageYureiBeatenText:
-	text "I see…"
+	text "Verstehe…"
 	done
 	
 SageYureiAfterBattleText:
-	text "Can you prove that"
-	line "I am even alive?"
+    text "Kannst du mir be-"
+    line "beweisen, ob ich"
+    cont "überhaupt lebe?"
 	done
 
 MediumDorisSeenText:
-	text "Fufufufu…"
-	line "I see it clearly."
+	text "Hehehehe…"
+	line "Ich habe es"
+	cont "deutlich vor mir."
 
-	para "I can see into"
-	line "your soul!"
+	para "Ich kann in deine"
+	line "Seele blicken!"
 	done
 
 MediumDorisBeatenText:
-	text "Though I read you,"
-	line "I still lost…"
+	text "Obwohl ich in dir"
+	line "lesen kann, habe"
+	cont "ich verloren…"
 	done
 
 MediumDorisAfterBattleText:
-	text "Darn! I forgot"
-	line "that I predicted I"
-	cont "would lose to you."
+	text "Mist! Ich habe"
+	line "vergessen, dass"
+	cont "ich meine Nieder-"
+	cont "lage gegen dich"
+	cont "voraussah."
 	done
 
 BirdonGym_MapEvents:

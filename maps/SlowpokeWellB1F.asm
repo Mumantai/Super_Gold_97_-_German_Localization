@@ -96,61 +96,71 @@ WellSilverWalksToRoom2:
 SlowpokeWellB1FSilverScript:
 	end
 BurnedTowerSilver_BeforeText:
-	text "<PLAYER>!"
-	para "PROF.OAK and BLUE"
-	line "are waiting for"
-	para "us deeper in the"
-	line "well."
-	para "But I wanted to"
-	line "wait here, cause"
-	para "I knew you'd be"
-	line "showing up soon!"
-	para "My team is so"
-	line "much stronger than"
-	para "it was last time"
-	line "I saw you."
-	para "Here! Let me show"
-	line "you!"
+    text "<PLAYER>!"
+
+    para "PROF. EICH und"
+    line "BLAU warten weiter"
+    cont "unten im Brunnen"
+    cont "auf uns."
+
+    para "Aber ich wollte"
+    line "hier warten, weil"
+    cont "ich wusste, dass"
+    cont "du bald auftauchen"
+    cont "würdest!"
+
+    para "Mein Team ist seit"
+    line "unserem letzten"
+    cont "Treffen so viel"
+    cont "stärker geworden."
+
+    para "Hier! Lass es mich"
+    line "dir zeigen!"
 	done
 
 BurnedTowerSilver_WinText:
-	text "Huh."
+    text "Huh."
 
-	para "I've raised my"
-	line "team to be the"
-	para "strongest, but"
-	line "still I lose…"
+    para "Ich habe mein Team"
+    line "bis aufs Äußerste"
+    cont "trainiert und doch"
+    cont "habe ich verloren…"
 	done
 BurnedTowerSilver_AfterText1:
-	text "Ah, whatever."
-	para "I just gotta make"
-	line "them even stronger"
-	cont "than they are now!"
-	para "Anyways, we should"
-	line "probably go on"
-	para "ahead to meet up"
-	line "with the others!"
+    text "Ach, egal."
+
+    para "Dann muss sie eben"
+    line "noch härter trai-"
+    cont "nieren als zuvor!"
+
+    para "Komm, wir sollten"
+    line "besser weiter und"
+    cont "uns mit den"
+    cont "anderen treffen!"
 	done
 
 BurnedTowerSilver_LossText:
-	text "Yeah!"
-	para "I'm the best!"
+	text "Ja!"
+
+	para "Ich bin der Beste!"
 	done
 
 BurnedTowerSilver_AfterText2:
-	text "Humph!"
+	text "Humpf!"
 
-	para "What are you doing"
-	line "falling into a"
+	para "Was hast du dir"
+	line "dabei gedacht,"
 
-	para "hole? Some genius"
-	line "you are!"
+	para "einfach in ein"
+	line "Loch zu fallen?"
+	cont "Du Genie!"
 
-	para "Serves you right!"
+	para "Das geschieht dir"
+	line "recht!"
 	done
 	
 Text_RivalGreets:
-	text "yo"
+	text "Yo."
 	done
 
 

@@ -26,41 +26,44 @@ BirdonPokecenter1FPokefanFScript:
 	jumptextfaceplayer BirdonPokecenter1FPokefanFText
 
 BirdonPokecenter1FGentlemanText:
-	text "Do your #MON"
-	line "know HM moves?"
+	text "Beherrschen deine"
+	line "#MON VM-"
+	cont "Attacken?"
 
-	para "Those moves can"
-	line "be used even if"
-
-	para "your #MON has"
-	line "fainted."
+	para "Diese Attacken"
+	line "können auch einge-"
+	cont "setzt werden, wenn"
+	cont "dein #MON be-"
+	cont "siegt worden ist."
 	done
 
 
 BirdonPokecenter1FFishingGuruText:
-	text "BILL's PC can"
-	line "store up to 20"
-	cont "#MON per BOX."
+	text "Auf BILLs PC kön-"
+	line "nen bis zu 20"
+	cont "#MON pro BOX"
+	cont "gelagert werden."
 	done
 
 BirdonPokecenter1FPokefanFText:
-	text "Do you know about"
-	line "APRICORNS?"
+	text "Weißt du über"
+	line "APRIKOKOS Be-"
+	cont "scheid?"
 
-	para "Crack one open,"
-	line "hollow it out and"
+	para "Brich eine auf,"
+	line "höhle sie aus und"
+	cont "verbinde sie mit"
+	cont "einer speziellen"
+	cont "Vorrichtung."
 
-	para "fit it with a"
-	line "special device."
+	para "Dann kannst du"
+	line "#MON damit"
+	cont "fangen."
 
-	para "Then you can catch"
-	line "#MON with it."
-
-	para "Before # BALLS"
-	line "were invented,"
-
-	para "everyone used"
-	line "APRICORNS."
+	para "Vor der Erfindung"
+	line "von #BÄLLEN hat"
+	cont "jeder APRIKOKOS"
+	cont "verwendet."
 	done
 
 BirdonPokecenter1F_MapEvents:

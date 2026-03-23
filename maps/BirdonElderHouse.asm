@@ -52,59 +52,67 @@ BirdonElderHouseBookshelf:
 	jumpstd PictureBookshelfScript
 
 ElderSlowpokeProblem:
-	text "My old bones sense"
-	line "trouble in the"
-	para "WELL beneath the"
-	line "town."
-	para "It's always been"
-	line "my job to make"
-	para "sure the SLOWPOKE"
-	line "stay safe."
-	para "I don't know if I"
-	line "have the strength"
-	cont "to protect them."
-	para "I hope they're"
-	line "okay…"
+	text "In meinen Knochen"
+	line "spüre ich Ärger im"
+	cont "BRUNNEN unter"
+	cont "der Stadt."
+
+	para "Es war stets meine"
+	line "Aufgabe, dass die"
+	para "FLEGMON sicher"
+	line "bleiben."
+
+	para "Ich weiß nicht, ob"
+	line "ich noch die Kraft"
+	cont "habe, sie zu"
+	cont "beschützen."
+
+	para "Ich hoffe, es geht"
+	line "ihnen gut…"
 	done
 
 ElderTakeThisSurfText:
 	text "Ah!"
-	para "Thank you for"
-	line "stopping by!"
-	para "I am ever so"
-	line "grateful."
-	para "And I'm sure the"
-	line "SLOWPOKE are as"
-	cont "well!"
-	para "Here, let me"
-	line "give you something"
-	cont "for your troubles."
+
+	para "Danke, dass du"
+	line "vorbeischaust!"
+
+	para "Ich bin dir sehr"
+	line "dankbar."
+
+	para "Und die FLEGMON"
+	line "sind es sicher"
+	cont "auch!"
+
+	para "Hier, lass mich"
+	line "dir etwas für"
+	cont "deine Mühen geben."
 	done
 	
 ElderNoSurf:
-	text "Are you sure?"
-	line "You might need"
-	cont "this."
+	text "Bist du sicher?"
+	line "Du kanst das"
+	cont "bestimmt brauchen."
 	done
 	
 ElderSurfDescriptionText:
-	text "This HM allows you"
-	line "to teach your"
-	para "#MON a move"
-	line "that will let them"
-	para "ferry you across"
-	line "the water."
-	para "There isn't much"
-	line "water in this"
-	para "town, but I'm sure"
-	line "it'll be useful"
-	cont "elsewhere."
+	text "Diese VM erlaubt"
+	line "dir deinen #MON"
+	cont "eine Attacke bei-"
+	cont "zubringen, mit der"
+	cont "man jedes Gewässer"
+	cont "überqueren kann."
+
+	para "Hier gibt es zwar"
+	line "kaum Wasser, aber"
+	cont "woanders ist sie"
+	cont "bestimmt nützlich."
 	done
 	
 ElderStandardText:
-	text "The SLOWPOKE of"
-	line "the WELL deserve"
-	cont "to be protected."
+	text "Die FLEGMON im"
+	line "BRUNNEN verdienen"
+	cont "unseren Schutz."
 	done
 
 

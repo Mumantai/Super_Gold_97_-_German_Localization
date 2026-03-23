@@ -128,88 +128,109 @@ BarN64YoungsterDownMovement:
 	step_end
 	
 BarN64YoungsterBoredText:
-	text "Man, I'm bored."
-	para "There's nothing to"
-	line "do in this town."
-	para "I'd love to meet"
-	line "some other"
-	para "trainers, and hang"
-	line "out and play video"
-	cont "games with them."
-	para "But I don't know"
-	line "anywhere I could"
-	cont "do that."
+    text "Mir ist so"
+    line "langweilig."
+
+    para "Es gibt hier"
+    line "nichts zu tun."
+
+    para "Ich würde gerne"
+    line "andere Trainer"
+    cont "treffen und mit"
+    cont "ihnen abhängen"
+    cont "und Videospiele"
+    cont "spielen."
+
+    para "Aber ich habe"
+    line "keine Ahnung, wo"
+    cont "ich das könnte."
 	done
 	
 SendN64YoungsterOffText:
-	text "Oh?"
-	para "There's a place"
-	line "by WESTPORT CITY"
-	cont "where I could go?"
-	para "What the heck, I"
-	line "have nothing else"
-	cont "to do."
-	para "I'll check it out,"
-	line "thanks!"
+    text "Was?"
+
+    para "Bei PORT ABANISHI"
+    line "gibt es genau so"
+    cont "einen Ort?"
+
+    para "Ich habe hier eh"
+    line "nichts zu tun.
+
+    para "Ich werde mir das"
+    line "mal anschauen,"
+    cont "danke!"
 	done
 	
 BarFisherScriptText:
-	text "I come here just"
-	line "about every day."
-	para "I swear, that"
-	line "MOOMOO MILK must"
-	cont "be addictive."
+    text "Ich komme quasi"
+    line "jeden Tag hierher."
+
+    para "Ich schwöre, diese"
+    line "KUHMUH-MILCH muss"
+    cont "süchtig machen."
 	done
 	
 BarLassScriptText:
-	text "There isn't too"
-	line "much to do in this"
-	cont "town."
-	para "A lot of us spend"
-	line "our time here just"
-	cont "drinking milk."
+    text "Es gibt in dieser"
+    line "Stadt nicht viel"
+    cont "zu tun."
+
+    para "Viele von uns"
+    line "verbringen ihre"
+    cont "Zeit hier beim"
+    cont "Milchtrinken."
 	done
 
 FarmerMText_BuyMilk:
-	text "How'd you like a"
-	line "drink?"
-	para "We serve MOOMOO"
-	line "MILK here."
-	para "Ya want some?"
-	done
+    text "Wie wär's mit"
+    line "einem Getränk?"
+
+    para "Wir servieren hier"
+    line "KUHMUH-MILCH."
+
+    para "Willst du welche?"
+    done
 
 FarmerMText_GotMilk:
-	text "Here ya go!"
-	line "Drink up'n enjoy!"
+	text "Bitte sehr!"
+	line "Trink aus und"
+	cont "genieße es!"
 	done
 
 FarmerMText_NoMoney:
-	text "Sorry, there."
-	line "No cash, no sale!"
+	text "Tut mir Leid, mein"
+	line "Kind. Wenn du kein"
+	cont "Geld hast, kann"
+	cont "ich dir nichts"
+	cont "verkaufen!"
 	done
 
 FarmerMText_NoRoom:
-	text "I reckon yer"
-	line "PACK's full."
+	text "Ich schätze,"
+	line "dein BEUTEL ist"
+	cont "voll."
 	done
 
 FarmerMText_NoSale:
-	text "You don't want it?"
-	line "Come again, hear?"
+	text "Du hast kein"
+	line "Interesse? Komm"
+	cont "aber wieder, hörst"
+	cont "du?"
 	done
 
 FarmerMText_Milking:
-	text "It goes down real"
-	line "smooth."
-	para "#MON love it"
-	line "as well!"
+    text "Die geht runter"
+    line "wie Öl, sag ich."
+
+    para "#MON stehen"
+    line "auch total darauf!"
 	done
 
 
 FarmerFText_SnoreSpeech:
-	text "MOOMOO MILK is"
-	line "just plain"
-	cont "delicious!"
+	text "KUHMUH-MILCH"
+	line "ist einfach"
+	cont "köstlich!"
 	done
 
 BirdonMilkBar_MapEvents:

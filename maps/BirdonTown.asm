@@ -63,89 +63,95 @@ BirdonTownHiddenFullHeal:
 
 
 BirdonTownGrampsTextBefore:
-	text "ENOKI, the GYM"
-	line "LEADER here, is a"
-	cont "mysterious man."
-	para "Not much is known"
-	line "about him."
-	para "However, it is"
-	line "known that he"
-	para "studies NIHON's"
-	line "myths and legends."
-	para "He is also, of"
-	line "course, an"
-	cont "excellent trainer."
+    text "JENS, der örtliche"
+    line "ARENALEITER, ist"
+    cont "ein mysteriöser"
+    cont "Mann."
+
+    para "Es ist nicht viel"
+    line "über ihn bekannt."
+
+    para "Es ist jedoch be-"
+    line "bekannt, dass er"
+    cont "die Mythen und"
+    cont "Legenden von NIHON"
+    cont "erforscht."
+
+    para "Er ist natürlich"
+    line "auch ein ausge-"
+    cont "zeichnter Trainer."
 	done
 
 BirdonTownTeacherText:
-	text "We get very little"
-	line "rain here."
-	para "The SLOWPOKE WELL"
-	line "is an important"
-	para "part of our"
-	line "ecosystem."
+    text "Wir kriegen hier"
+    line "kaum Regena ab."
+
+    para "Der FLEGMON-"
+    line "BRUNNEN ist daher"
+    cont "ein wichtiger Teil"
+    cont "des Ökosystems."
 	done
 
 BirdonTownYoungsterText:
-	text "EAST of here, a"
-	line "far ways down the"
-	para "road, is the JADE"
-	line "FOREST."
+    text "Östlich von hier,"
+    line "weit die Straße"
+    cont "runter, ist der"
+    cont "JADEWALD."
 
-	para "Past that is"
-	line "ALLOY CITY."
-	
-	para "The journey there"
-	line "is long."
-	
-	para "Rest here if you"
-	line "plan on making"
-	cont "your way there."
+    para "Dahinter liegt"
+    line "GENEOS CITY."
+
+    para "Die Reise dorthin"
+    line "ist lang."
+
+    para "Ruh dich hier aus,"
+    line "wenn du vorhast,"
+    cont "dorthin zu gehen."
 	done
 
 BirdonTownSlowpokeText1:
-	text "SLOWPOKE: …"
+	text "FLEGMON: …"
 
 	para "<……> <……> <……>"
 	done
 
 BirdonTownSlowpokeText2:
-	text "<……> <……>Yawn?"
+	text "<……> <……>Gähn?"
 	done
 
 
 BirdonTownSignText:
-	text "BIRDON TOWN"
-	para "Desolate In Plant"
-	line "Growth, But Not In"
-	cont "Friendship"
+	text "TOTOMONIA"
+
+	para "Karg an Pflanzen,"
+    line "aber nicht an"
+    cont "Freundschaft"
 	done
 
 
 WestportGymSignText:
-	text "BIRDON TOWN"
-	line "#MON GYM"
-	cont "LEADER: BUGSY"
+	text "PKMN-ARENA von"
+	line "TOTOMONIA"
+	cont "LEITUNG: JENS"
 
-	para "The Walking"
-	line "Bug #MON"
-	cont "Encyclopedia"
+	para "Der mystische Se-"
+	line "her der Zukunft"
 	done
 
 SlowpokeWellSignText:
-	text "SLOWPOKE WELL"
+	text "FLEGMON-BRUNNEN"
 
-	para "An Oasis For"
-	line "SLOWPOKE In an"
-	cont "Arid Environment"
+	para "Eine Oase Für"
+	line "FLEGMON in einer"
+	cont "dürren Umgebung"
 	done
 
 
 BirdonTownJadeForestSignText:
-	text "JADE FOREST"
+	text "JADEWALD"
 
-	para "Enter through the"
-	line "gate."
+	para "Tritt durch das"
+	line "Tor"
 	done
 
 BirdonTown_MapEvents:
