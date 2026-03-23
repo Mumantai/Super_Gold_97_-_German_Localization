@@ -40,41 +40,48 @@ Route116BirdonGateScientistScript:
 	
 Route116BirdonGateRocket1Text:
 	text "Fufufufu…"
-	para "Our SLOWPOKE team"
-	line "should be back"
-	para "with the next"
-	line "batch of TAILS"
-	cont "soon…"
+
+	para "Unser FLEGMON-Team"
+	line "sollte bald mit"
+	cont "einer neuen Ladung"
+	cont "RUTEN zurück sein…"
 	done
 	
 Route116BirdonGateRocket2Text:
 	text "Hehehehe…"
-	para "No one will even"
-	line "notice the TAILS"
-	para "missing from those"
-	line "SLOWPOKE until"
-	cont "it's too late…"
-	done
+
+	para "Niemand wird be-"
+	line "merken, dass den"
+	cont "FLEGMON die RUTEN"
+	cont "fehlen, bis es zu"
+	cont "spät ist…"
+    done
 
 Route116BirdonGateScientistText:
-	text "These men look"
-	line "like members of"
-	cont "TEAM ROCKET."
-	para "Could they really"
-	line "be?"
-	para "I wish they'd stop"
-	line "blocking the gate,"
-	para "but they kind of"
-	line "scare me…"
-	done
+    text "Diese Männer sehen"
+    line "aus wie Mitglieder"
+    cont "von TEAM ROCKET."
+
+    para "Könnten sie das"
+    line "wirklich sein?"
+
+    para "Ich wünschte nur,"
+    line "sie würden den"
+    cont "Ausgang nicht mehr"
+    cont "blockieren, aber"
+    cont "ich habe zu viel"
+    cont "Angst vor ihnen…"
+    done
 	
 Route116BirdonGateScientistTextNoRockets:
-	text "Past here is a"
-	line "winding maze of"
-	para "trees and a tough"
-	line "cave to traverse."
-	para "Make sure you're"
-	line "prepared!"
+    text "Hinter diesem Tor,"
+    line "liegt ein wirres"
+    cont "Labyrinth aus"
+    cont "Bäumen und eine"
+    cont "verzwickte Höhle."
+
+    para "Bereite dich also"
+    line "gut darauf vor!"
 	done
 
 Route116BirdonGate_MapEvents:
