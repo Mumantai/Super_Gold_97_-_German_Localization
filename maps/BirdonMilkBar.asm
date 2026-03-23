@@ -154,7 +154,7 @@ SendN64YoungsterOffText:
     cont "einen Ort?"
 
     para "Ich habe hier eh"
-    line "nichts zu tun.
+    line "nichts zu tun."
 
     para "Ich werde mir das"
     line "mal anschauen,"
