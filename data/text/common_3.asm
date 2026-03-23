@@ -180,7 +180,7 @@ Text_MoveForgetCount::
 	text_end ; unreferenced
 
 _MoveForgotText::
-	text "Schwupp!@"
+	text " Schwupp!@"
 	text_pause
 	text_start
 

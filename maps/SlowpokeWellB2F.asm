@@ -315,7 +315,7 @@ OakSpeechText:
     para "Jetzt können sie"
     line "leben, ohne dass"
     cont "TEAM ROCKET ihnen"
-    line "an die RUTEN will."
+    cont "an die RUTEN will."
 
     para "Aber dass TEAM"
     line "ROCKET wieder"
@@ -326,13 +326,15 @@ OakSpeechText:
 
     para "BLAU, wir sollten"
     line "am besten zurück"
-    cont "ins Labor und"
-    cont "nachforschen."
+    cont "ins Labor um mehr"
+    cont "darüber herauszu-"
+    cont "finden."
 
     para "<PLAYER>, <RIVAL>!"
     line "Ihr beiden solltet"
-    cont "vorgehen und eure"
-    cont "Reise fortsetzen."
+    cont "weitermachen und"
+    cont "eure Reise fort-"
+    cont "setzen."
 
     para "Wenn ihr mich"
     line "braucht, wisst ihr"

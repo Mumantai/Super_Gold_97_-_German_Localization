@@ -129,9 +129,10 @@ BurnedTowerSilver_WinText:
 BurnedTowerSilver_AfterText1:
     text "Ach, egal."
 
-    para "Dann muss sie eben"
-    line "noch härter trai-"
-    cont "nieren als zuvor!"
+    para "Dann muss ich sie"
+    line "eben noch härter"
+    cont "trainieren als"
+    cont "bisher!"
 
     para "Komm, wir sollten"
     line "besser weiter und"

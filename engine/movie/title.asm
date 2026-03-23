@@ -148,7 +148,7 @@ LoadTitleScreenTilemap:
 	lb de, $80, 20
 	call DrawTitleGraphic
 ; ...except game title
-	hlcoord 6, 6
+	hlcoord 5, 6
 	ld bc, 9
 	ld a, $80
 	call ByteFill
@@ -339,7 +339,7 @@ TitleScreenGameTitle:
 	ret nz
 
 ; Draw game title
-	hlcoord 6, 6
+	hlcoord 5, 6
 	ld d, TITLE_TILE_GAMETITLE
 	ld b, 1
 	ld c, TITLE_SIZE_GAMETITLE

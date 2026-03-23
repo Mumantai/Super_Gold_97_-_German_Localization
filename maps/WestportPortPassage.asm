@@ -155,11 +155,12 @@ DollSalesmanTextMonday:
 
     para "Was das heißt?"
 
-    para "Das heißt, dass"
-    line "ich derjenige bin,"
-    para "mit dem du sprichst,"
-    line "wenn du dein Zimmer"
-    cont "aufpeppen willst!"
+    para "Das soll heißen,"
+    line "ich bin dein"
+    para "Ansprechpartner,"
+    line "wenn es darum"
+    cont "geht, dein Zimmer"
+    cont "aufzupeppen!"
 
     para "Mein Angebot und"
     line "mein Standort"
