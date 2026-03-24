@@ -913,26 +913,25 @@ TextCommand_STRINGBUFFER::
 	ret
 
 TextCommand_DAY::
-; print the day of the week
+; print the day of the week (full names from ROMX)
 	call GetWeekday
 	push hl
 	push bc
+
 	ld c, a
 	ld b, 0
-	ld hl, .Days
+	ld hl, SetDayOfWeek.WeekdayStrings
 	add hl, bc
 	add hl, bc
-	ld a, [hli]
-	ld h, [hl]
-	ld l, a
+	ld a, BANK(SetDayOfWeek.WeekdayStrings)
+	call GetFarHalfword ; returns pointer in hl
+
 	ld d, h
 	ld e, l
-	pop hl
-	call PlaceString
-	ld h, b
-	ld l, c
-	ld de, .Day
-	call PlaceString
+	pop hl              ; destination tilemap pointer
+	ld a, BANK(SetDayOfWeek.WeekdayStrings)
+	call FarString
+
 	pop hl
 	ret
 
