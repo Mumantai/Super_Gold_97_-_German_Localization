@@ -484,17 +484,10 @@ DoneText::
 	text_end
 
 NullChar::
-	ld b, h
-	ld c, l
-	pop hl
-	ld de, .ErrorText
-	dec de
-	ret
-
-.ErrorText
-	text_decimal hObjectStructIndexBuffer, 1, 2
-	text "エラー"
-	done
+	ld a, "?"
+	ld [hli], a
+	call PrintLetterDelay
+	jp NextChar
 
 TextScroll::
 	hlcoord TEXTBOX_X, TEXTBOX_INNERY
@@ -524,14 +517,6 @@ Text_WaitBGMap::
 	ret
 
 Diacritic::
-	push af
-	push hl
-	ld a, b
-	ld bc, -SCREEN_WIDTH
-	add hl, bc
-	ld [hl], a
-	pop hl
-	pop af
 	ret
 
 LoadBlinkingCursor::
@@ -913,25 +898,26 @@ TextCommand_STRINGBUFFER::
 	ret
 
 TextCommand_DAY::
-; print the day of the week (full names from ROMX)
+; print the day of the week
 	call GetWeekday
 	push hl
 	push bc
-
 	ld c, a
 	ld b, 0
-	ld hl, SetDayOfWeek.WeekdayStrings
+	ld hl, .Days
 	add hl, bc
 	add hl, bc
-	ld a, BANK(SetDayOfWeek.WeekdayStrings)
-	call GetFarHalfword ; returns pointer in hl
-
+	ld a, [hli]
+	ld h, [hl]
+	ld l, a
 	ld d, h
 	ld e, l
-	pop hl              ; destination tilemap pointer
-	ld a, BANK(SetDayOfWeek.WeekdayStrings)
-	call FarString
-
+	pop hl
+	call PlaceString
+	ld h, b
+	ld l, c
+	ld de, .Day
+	call PlaceString
 	pop hl
 	ret
 
@@ -944,11 +930,11 @@ TextCommand_DAY::
 	dw .Fri
 	dw .Satur
 ; TODO: Wochentage komplett anzeigen lassen, ohne ROM0 überlaufen zu lassen
-.Sun:    db "SO@"
-.Mon:    db "MO@"
-.Tues:   db "DI@"
-.Wednes: db "MI@"
-.Thurs:  db "DO@"
-.Fri:    db "FR@"
-.Satur:  db "SA@"
-.Day:    db ".@"
+.Sun:    db "SONNTAG@"
+.Mon:    db "MONTAG@"
+.Tues:   db "DIENSTAG@"
+.Wednes: db "MITTWOCH@"
+.Thurs:  db "DONNERSTAG@"
+.Fri:    db "FRREITAG@"
+.Satur:  db "SAMSTAG@"
+.Day:    db "@"
