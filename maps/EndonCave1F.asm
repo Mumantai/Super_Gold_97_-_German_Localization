@@ -58,7 +58,7 @@ EndonCave1FRichGuyText:
     para "Ich sehe zwar"
     line "nicht danach aus,"
     cont "aber ich bin echt"
-    cont "stinkreich.
+    cont "stinkreich."
 
     para "Doch der Reichtum"
     line "langweilt mich."
