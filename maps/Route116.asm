@@ -55,47 +55,50 @@ Route116FruitTree:
 
 
 BugCatcherDougSeenText:
-	text "Why don't girls"
-	line "like bug #MON?"
+	text "Warum mögen"
+	line "Mädchen keine"
+	cont "Käfer-#MON?"
 	done
 
 BugCatcherDougBeatenText:
-	text "No good!"
+	text "Sinnlos!"
 	done
 
 BugCatcherDougAfterBattleText:
-	text "Bug #MON squish"
-	line "like plush toys"
+	text "Käfer-#MON"
+	line "zischen wie"
+	cont "Plüschtiere, wenn"
+	cont "du sie auf den"
+	cont "Bauch drückst."
 
-	para "when you squeeze"
-	line "their bellies."
-
-	para "I love how they"
-	line "feel!"
+	para "Ich mag das"
+	line "Gefühl!"
 	done
 	
 
 
 HikerRussellSeenText:
-	text "I'm trying to walk"
-	line "all of NIHON!"
+    text "Ich versuche ganz"
+    line "NIHON zu Fuß zu"
+    cont "durchqueren!"
 	done
 
 HikerRussellBeatenText:
-	text "I'm tired!"
+	text "Ich bin schlapp!"
 	done
 
 HikerRussellAfterBattleText:
-	text "I think I'll stick"
-	line "around here and"
-	cont "rest for a while."
+    text "Ich glaube, ich"
+    line "werde noch eine"
+    cont "Weile hier bleiben"
+    cont "und mich ausruhen."
 	done
 
 Route116SignText:
 	text "ROUTE 116"
 
-	para "BIRDON TOWN -"
-	line "SANSKRIT TOWN"
+	para "TOTOMONIA -"
+	line "GLYPHONTIA"
 	done
 
 

@@ -53,73 +53,80 @@ TrainerPokemaniacCalvin:
 	end
 
 EndonCave1FRichGuyText:
-	text "Hello!"
-	para "I may not look it,"
-	line "but I'm fabulously"
-	cont "wealthy."
-	
-	para "But alas! Wealth"
-	line "does bore me."
-	
-	para "So I spend my time"
-	line "wandering in"
-	para "search of anything"
-	line "that can amuse me."
-	
-	para "Right now, I've"
-	line "decided to explore"
-	cont "caves!"
-	
-	para "Caves are"
-	line "fascinating!"
-	
-	para "It's so easy to"
-	line "get lost in them!"
-	
-	para "Around every turn"
-	line "is a new surprise!"
-	
-	para "Oh, and thank you"
-	line "for listening!"
-	
-	para "Here, take this!"
+    text "Hallo!"
+
+    para "Ich sehe zwar"
+    line "nicht danach aus,"
+    cont "aber ich bin echt"
+    cont "stinkreich.
+
+    para "Doch der Reichtum"
+    line "langweilt mich."
+
+    para "Deshalb suche ich"
+    line "ständig nach"
+    cont "Abwechslung."
+
+    para "Zuletzt habe ich"
+    line "beschlossen, Höh-"
+    cont "len zu erforschen!"
+
+    para "Höhlen sind so"
+    line "faszinierend!"
+
+    para "Man kann sich in"
+    line "ihnen so leicht"
+    cont "verlaufen!"
+
+    para "Hinter jeder Ecke"
+    line "wartet etwas Neues"
+    cont "auf einen!"
+
+    para "Oh und danke dir"
+    line "für's Zuhören!"
+
+    para "Hier, nimm das!"
 	done
 
 EndonCave1FRichGuyText_GotNugget:
-	text "That's a NUGGET."
+    text "Das ist ein echtes"
+    line "NUGGET!"
 
-	para "It's worth a lot"
-	line "of money."
-	
-	para "It's actually not"
-	line "taken from my"
-	cont "saved wealth!"
-	
-	para "I found it in this"
-	line "cave!"
-	
-	para "Ahahahahah!"
+    para "Es ist äußerst"
+    line "wertvoll."
+
+    para "Es ist tatsächlich"
+    line "nicht Teil meines"
+    cont "Vermögens!"
+
+    para "Ich habe es hier"
+    line "in dieser Höhle"
+    cont "gefunden!"
+
+    para "Ahahahahah!"
 	done
 	
 PokemaniacCalvinSeenText:
-	text "I spend all my"
-	line "time raising my"
-	para "#MON in this"
-	line "cave."
-	para "I wish to battle"
-	line "with you."
+    text "Ich habe die ganze"
+    line "Zeit lang meine"
+    cont "#MON in dieser"
+    cont "Höhle trainiert."
+
+    para "Ich würde gerne"
+    line "mit dir kämpfen."
 	done
 	
 PokemaniacCalvinBeatenText:
-	text "…sigh… I must"
-	line "train some more…"
+	text "…seufz… Ich muss"
+	line "mehr trainieren…"
 	done
 
 PokemaniacCalvinAfterBattleText:
-	text "Have you ever been"
-	line "to SANSKRIT TOWN?"
-	para "It's a mysterious"
-	line "place."
+    text "Warst du schon mal"
+    line "in GLYPHONTIA?"
+
+    para "Es ist ein geheim-"
+    line "nisvoller Ort."
 	done
 
 EndonCave1F_MapEvents:

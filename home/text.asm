@@ -929,7 +929,7 @@ TextCommand_DAY::
 	dw .Thurs
 	dw .Fri
 	dw .Satur
-; TODO: Wochentage komplett anzeigen lassen, ohne ROM0 überlaufen zu lassen
+
 .Sun:    db "SONNTAG@"
 .Mon:    db "MONTAG@"
 .Tues:   db "DIENSTAG@"

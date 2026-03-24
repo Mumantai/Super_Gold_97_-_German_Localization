@@ -55,60 +55,63 @@ EndonCave2FEther:
 	itemball ETHER
 
 BirdKeeperTheoSeenText:
-	text "My beautiful birds"
-	line "have no room to"
-	cont "FLY in here!"
+	text "Meine armen Vögel"
+	line "haben hier keinen"
+	cont "Platz zum FLIEGEN!"
 	done
 
 BirdKeeperTheoBeatenText:
-	text "Do you know the"
-	line "way out of here?"
+	text "Kennst du den Weg"
+	line "hier raus?"
 	done
 
 BirdKeeperTheoAfterBattleText:
-	text "How the heck do"
-	line "you get out?"
+	text "Wie zum Henker"
+	line "kommt man hier"
+	cont "wieder raus?"
 
-	para "I want to FLY!"
-	line "FLY, far away!"
+	para "Ich will FLIEGEN!"
+	line "Weit weg FLIEGEN!"
 	done
 
 SailorTerrellSeenText:
-	text "Sailors are both"
-	line "kind and strong."
-	cont "How about you?"
+	text "Matrosen sind"
+	line "nett und stark."
+	cont "Wie bist du?"
 	done
 
 SailorTerrellBeatenText:
-	text "You are both kind"
-	line "and strong…"
+	text "Du bist auch nett"
+	line "und stark…"
 	done
 
 SailorTerrellAfterBattleText:
-	text "I hear there's a"
-	line "new BOARDWALK open"
-	para "south of SANSKRIT"
-	line "TOWN."
+    text "Ich hörte südlich,"
+    line "von GLYPHONTIA"
+    cont "gibt es jetzt eine"
+    cont "neue PROMENADE."
 	done
 	
 CooltrainermNickSeenText:
-	text "Do your #MON"
-	line "know the ability"
-	para "to carry you over"
-	line "water?"
-	para "There's an old man"
-	line "over in BIRDON who"
-	cont "taught mine!"
+    text "Können deine #-"
+    line "MON dich übers"
+    cont "Wasser tragen?"
+
+    para "In TOTOMONIA lebt"
+    line "ein alter Mann,"
+    cont "der es meinen bei-"
+    cont "gebracht hat!"
 	done
 
 CooltrainermNickBeatenText:
-	text "Have you met him?"
+	text "Hast du ihn schon"
+	line "getroffen?"
 	done
 
 CooltrainermNickAfterBattleText:
-	text "Not many people"
-	line "come through here"
-	cont "to battle."
+	text "Nicht viele Leute"
+	line "kommen her, um"
+	cont "zu kämpfen."
 	done
 
 
