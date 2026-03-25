@@ -179,7 +179,7 @@ SanskritRocketHouseKeyGuyText:
 
 	para "Das Team in"
 	line "SENDESTIA CITY"
-	xont "wird über unsere"
+	cont "wird über unsere"
 	cont "Arbeit hier sicher"
 	cont "beeindruckt sein!"
 	done
@@ -332,7 +332,7 @@ RocketKey_AfterText2:
 	
 RocketKey_Afterwards:
 	text "Sprich mich"
-	line "nicht an!
+	line "nicht an!"
 	done
 
 SanskritRocketHouse_MapEvents:
