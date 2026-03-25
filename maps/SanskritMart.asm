@@ -22,16 +22,16 @@ SanskritMartCooltrainerMScript:
 
 SanskritMartLassText:
 	text "Ich interessiere"
-	line "mich nicht wirklich"
+	line "mich nicht so sehr"
 	cont "für die RUINEN."
 
 	para "In der Stadt gibt"
 	line "gab es nie viel"
 	cont "für mich zu tun."
 
-	para "Das war so, bis die"
-	line "neue PROMENADE und"
-	cont "die SPIELHALLE"
+	para "Das war so, bis"
+	line "die neue PROMENADE"
+	cont "und die SPIELHALLE"
 	cont "südlich der Stadt"
 	cont "aufgemacht haben!"
 
@@ -45,7 +45,7 @@ SanskritMartCooltrainerMText:
 	text "Warst du schon in"
 	line "KAZANAMI CITY?"
 
-	para "Es ist ein wichtiger"
+	para "Es ist ein großer"
 	line "Umschlagplatz für"
 	cont "Waren, die aus"
 	cont "Ländern nördlich"

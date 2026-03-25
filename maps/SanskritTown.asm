@@ -65,9 +65,10 @@ SanskritTownLassText:
     line "Atmosphäre dieser"
     cont "Stadt."
 
-    para "Ich fühle mich fast"
-    line "schon, in der Zeit"
-    cont "zurückversetzt."
+    para "Ich fühle mich"
+    line "fast schon, in"
+    cont "der Zeit zurück-"
+    cont "versetzt."
 	done
 	
 SanskritTownYoungsterText:
