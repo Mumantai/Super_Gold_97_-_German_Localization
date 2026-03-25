@@ -115,7 +115,7 @@ BlueForestName:     db "BLAUTANNENWALD@"    ; Blautannen
 KikaiVillageName:   db "KIKAI TAL@"         ; NICHT FINAL Kikai - Ort in Ryukyu
 DaitoRanchName:     db "DAITO RANCH@"       ; NICHT FINAL Daito - Ort in Ryukyu
 FiveFloorTowerName: db "5-EBENEN-TURM@"     ; "Ebenen" anstelle von "Etagen" um Zweideutigkeit mit Spirituellem zu haben
-SanskritRuinsName:  db "GLYPHONTIA RUINEN@" ; siehe Glyphontia
+SanskritRuinsName:  db "GLYPHONTIA-RUINEN@" ; siehe Glyphontia
 BoulderMineName:    db "GERÖLLMINE@"        ;
 SlowpokeWellName:   db "FLEGMON-BRUNNEN@"   ;
 RadioTowerName:     db "RADIOTURM@"         ;

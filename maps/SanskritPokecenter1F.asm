@@ -35,44 +35,49 @@ SanskritPokecenter1FCooltrainerFScript:
 	jumptextfaceplayer SanskritPokecenter1FCooltrainerFText
 
 SanskritPokecenter1FPokefanMText:
-	text "Good riddance to"
-	line "TEAM ROCKET!"
-	para "They have no place"
-	line "in our town!"
+	text "Endlich ist TEAM"
+	line "ROCKET weg!"
+
+	para "Die haben in"
+	line "unserer Stadt"
+	cpmt "nichts zu suchen!"
 	done
 	
 SanskritPokecenter1FPokefanMText2:
-	text "What's this? TEAM"
-	line "ROCKET has come"
-	cont "back?"
+	text "Wie? TEAM ROCKET"
+	line "ist wieder da?"
 
-	para "There's a house in"
-	line "town that sure"
-	para "seems to have"
-	line "several members"
-	cont "in it."
-	para "I wonder what"
-	line "they're up to…"
+    para "Es gibt ein Haus"
+    line "in der Stadt, in"
+    cont "dem sich angeblich"
+    cont "mehrere von denen"
+    cont "aufhalten sollen."
+
+	para "Ich frage mich,"
+	line "was sie planen…"
 	done
 
 SanskritPokecenter1FYoungsterText:
-	text "I stop my #MON"
-	line "from evolving too"
-	cont "early."
+	text "Ich verhindere,"
+	line "dass sich meine"
+	cont "#MON zu"
+	cont "rasch entwickeln."
 
-	para "I make them learn"
-	line "certain moves be-"
-	cont "fore I let them"
-	cont "evolve."
+	para "Ich bringe ihnen"
+	line "verschiedene"
+	cont "Attacken bei, be-"
+	cont "vor ich sie sich"
+	cont "entwickeln lasse."
 	done
 
 SanskritPokecenter1FCooltrainerFText:
-	text "#MON do become"
-	line "stronger when they"
+	text "#MON werden"
+	line "stärker, wenn sie"
+	cont "sich entwickeln."
 
-	para "evolve, but they"
-	line "also learn moves"
-	cont "more slowly."
+	para "Aber sie erlernen"
+	line "neue Attacken auch"
+	cont "langsamer."
 	done
 
 SanskritPokecenter1F_MapEvents:

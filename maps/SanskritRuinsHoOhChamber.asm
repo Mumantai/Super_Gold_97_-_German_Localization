@@ -44,17 +44,19 @@ SanskritRuinsHoOhChamberDescriptionSign:
 	jumptext SanskritRuinsHoOhChamberDescriptionText
 
 SanskritRuinsHoOhChamberAncientReplicaText:
-	text "It's a replica of"
-	line "an ancient #-"
-	cont "MON."
+	text "Dies ist eine"
+	line "Nachbildung eines"
+	cont "antiken #MON."
 	done
 
 SanskritRuinsHoOhChamberDescriptionText:
-	text "A #MON that"
-	line "flew gracefully on"
+	text "Ein #MON, das"
+	line "mittels"
 
-	para "rainbow-colored"
-	line "wings."
+	para "regenbogenfarbener"
+	line "Schwingen grazil"
+	cont "durch die"
+	cont "Lüfte schwebte."
 	done
 
 SanskritRuinsHoOhChamber_MapEvents:

@@ -169,72 +169,76 @@ MovementData_0x580c5:
 	step_end
 
 SanskritRuinsOutsideScientistText:
-	text "Hm? That's a #-"
-	line "DEX, isn't it?"
-	cont "May I see it?"
+	text "Hm? Das ist doch"
+	line "ein #DEX, nicht"
+	cont "wahr? Darf ich"
+	cont "ihn sehen?"
 
-	para "There are so many"
-	line "kinds of #MON."
+	para "Es gibt so viele"
+	line "unterschiedliche"
+	cont "#MON."
 
-	para "Hm? What's this?"
+	para "Hm? Was ist das?"
 
-	para "What is this"
-	line "#MON?"
+	para "Was ist das für"
+	line "ein #MON?"
 
-	para "It looks like the"
-	line "strange writing on"
+	para "Es sieht aus wie"
+	line "die merkwürdigen"
 
-	para "the walls of the"
-	line "RUINS."
+	para "Zeichen an den"
+	line "Wänden in den"
+	cont "RUINEN."
 
-	para "If those drawings"
-	line "are really #-"
-	cont "MON, there should"
-	cont "be many more."
+	para "Falls diese Zei-"
+	line "chen tatsächlich "
+	cont "#MON sind, dann"
+	cont "gibt es noch"
+	cont "viel mehr davon."
 
-	para "I know! Let me up-"
-	line "grade your #-"
-	cont "DEX."
-	
-	para "Come visit me in"
-	line "the lab just down"
-	cont "in SANSKRIT TOWN."
+	para "Ich weiß! Lass"
+	line "mich deinen #-"
+	cont "DEX erweitern."
+
+	para "Besuche mich doch"
+	line "in unserem Labor"
+	cont "in GLYPHONTIA."
 	done
 
 SuperNerdStanSeenText:
-	text "What do you want?"
-	line "I'm studying--"
-	cont "don't disturb me!"
+	text "Was willst du?"
+	line "Ich lerne--"
+	cont "stör mich nicht!"
 	done
 
 SuperNerdStanBeatenText:
-	text "Sorry…"
-	line "I'm frustrated by"
+	text "Entschuldigung…"
+	line "Unser Mangel an"
 
-	para "our lack of real"
-	line "understanding…"
+	para "Verständnis"
+	line "frustriert mich…"
 	done
 
 SuperNerdStanAfterBattleText:
-	text "The RUINS are from"
-	line "about 1500 years"
-	cont "ago."
+	text "Die RUINEN"
+	line "sind ungefähr"
+	cont "1500 Jahre alt."
 
-	para "Nobody knows who"
-	line "built them."
+	para "Niemand weiß,"
+	line "wer sie erbaute."
 
-	para "It's also not"
-	line "known if the #-"
-	cont "MON statues have"
-	cont "any meaning."
+	para "Die Bedeutung der "
+	line "#MON-Statuen"
+	cont "ist auch noch"
+	cont "nicht geklärt."
 
-	para "It's all one big"
-	line "mystery…"
+	para "Das Ganze ist ein"
+	line "großes Rätsel…"
 	done
 
 PsychicNathanSeenText:
-	text "Hmmm… This is a"
-	line "strange place."
+	text "Hm… Dies ist ein"
+	line "merkwürdiger Ort."
 	done
 
 PsychicNathanBeatenText:
@@ -242,58 +246,62 @@ PsychicNathanBeatenText:
 	done
 
 PsychicNathanAfterBattleText:
-	text "I like thinking"
-	line "here."
+	text "Ich komme oft"
+	line "hierher, um nach-"
+	cont "zudenken."
 	done
 
 
 SanskritRuinsSignText:
-	text "SANSKRIT RUINS"
-	line "OBSERVATION CENTER"
+	text "GLYPHONTIA-RUINEN"
+	line "BESUCHERZENTRUM"
 	done
 
 SanskritRuinsResearchCenterSignText:
-	text "SANSKRIT RUINS"
-	line "RESEARCH CENTER"
+	text "GLYPHONTIA-RUINEN"
+	line "FORSCHUNGSZENTRUM"
 	done
 
 SanskritRuinsOutsideFisherText1:
-	text "While exploring"
-	line "the RUINS, we"
+	text "Beim Erkunden der"
+	line "RUINEN haben wir"
 
-	para "suddenly noticed"
-	line "an odd presence."
+	para "plötzlich eine"
+	line "seltsame Gegenwart"
+	cont "gespürt."
 
-	para "We all got scared"
-	line "and ran away."
+	para "Alle hatten Angst"
+	line "und liefen davon."
 
-	para "You should be"
-	line "careful too."
+	para "Du solltest auch"
+	line "vorsichtig sein."
 	done
 
 SanskritRuinsOutsideFisherText2:
-	text "The RUINS hide a"
-	line "huge secret!"
+	text "Den RUINEN wohnt"
+	line "ein großes"
+	cont "Geheimnis inne!"
 
-	para "…I think…"
+	para "…Glaube ich…"
 	done
 
 SanskritRuinsOutsideYoungster1Text:
-	text "There are many"
-	line "kinds of UNOWN, so"
+	text "Es gibt viele un-"
+	line "terschiedliche"
 
-	para "we use them for"
-	line "our secret codes."
+	para "ICOGNITO, die wir"
+	line "für unsere Geheim-"
+	cont "codes benötigen."
 	done
 
 SanskritRuinsOutsideYoungster2Text:
-	text "A… H… E… A… D…"
+	text "V… O… R… A… U… S…"
 	line "Hmm…"
 
-	para "What?"
+	para "Wie?"
 
-	para "I'm decoding this"
-	line "message!"
+	para "Ich dechiffriere"
+	line "diese Nachricht!"
 	done
 
 SanskritRuinsOutside_MapEvents:

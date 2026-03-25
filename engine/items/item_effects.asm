@@ -1803,7 +1803,7 @@ HealHP_SFX_GFX:
 	call WaitPlaySFX
 	pop de
 	ld a, [wCurPartyMon]
-	hlcoord 11, 0
+	hlcoord 11, 2
 	ld bc, SCREEN_WIDTH * 2
 	call AddNTimes
 	ld a, $4

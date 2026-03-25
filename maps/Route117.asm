@@ -119,6 +119,7 @@ YoungsterWarrenAfterBattleText:
 	para "Ich hatte Angst,"
 	line "gegen dich zu"
 	cont "kämpfen…"
+	done
 
 YoungsterJimmySeenText:
 	text "Ich bin schnell"

@@ -40,38 +40,40 @@ SanskritRuinsInnerChamberStatue:
 	jumptext SanskritRuinsInnerChamberStatueText
 
 SanskritRuinsStrangePresenceText:
-	text "There is a strange"
-	line "presence here…"
+	text "Eine seltsame"
+	line "Anwesenheit ist"
+	cont "hier zu spüren…"
 	done
 
 SanskritRuinsInnerChamberFisherText:
-	text "This is a big"
-	line "room, but there's"
-	cont "nothing here."
+	text "Dies ist ein"
+	line "großer Raum, aber"
+	cont "er ist leer."
 	done
 
 SanskritRuinsInnerChamberTeacherText:
-	text "This place has a"
-	line "mystical quality"
-	cont "to it."
+	text "Dieser Ort strahlt"
+	line "eine eigenartige"
+	cont "Mystik aus."
 
-	para "It feels sort of"
-	line "ethereal even."
+	para "Man könnte es fast"
+	line "schon als äthe-"
+	cont "risch bezeichnen."
 	done
 
 SanskritRuinsInnerChamberGrampsText:
-	text "Ancient buildings"
-	line "are often tombs of"
-	cont "kings."
+	text "Antike Bauten sind"
+	line "oft Grabstätten"
+	cont "für Könige."
 
-	para "Like the pyramids,"
-	line "for instance."
+	para "Wie zum Beispiel"
+	line "die Pyramiden."
 	done
 
 SanskritRuinsInnerChamberStatueText:
-	text "It's a replica of"
-	line "an ancient #-"
-	cont "MON."
+	text "Dies ist eine"
+	line "Nachbildung eines"
+	cont "antiken #MON."
 	done
 
 SanskritRuinsInnerChamber_MapEvents:
