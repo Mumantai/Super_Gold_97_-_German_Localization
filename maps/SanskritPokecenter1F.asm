@@ -40,7 +40,7 @@ SanskritPokecenter1FPokefanMText:
 
 	para "Die haben in"
 	line "unserer Stadt"
-	cpmt "nichts zu suchen!"
+	cont "nichts zu suchen!"
 	done
 	
 SanskritPokecenter1FPokefanMText2:
