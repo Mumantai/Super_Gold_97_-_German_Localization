@@ -35,35 +35,41 @@ SkateboarderHouseSkateboarderDude:
 	end
 
 SkateboarderHouseSkateboarderDudeText:
-	text "Woah, dude!"
-	para "You still riding"
-	line "around on a bike?"
-	para "Get with the"
-	line "times!"
-	para "And it's time for"
-	line "you to shred!"
-	para "Here, take this!"
+    text "Woah, Alter!"
+
+    para "Du fährst noch"
+    line "'nen Drahtesel?"
+
+    para "Geh mit der Zeit!"
+
+    para "Es wird Zeit, dass"
+    line "du mal richtig"
+    cont "shreddest!"
+
+    para "Hier, nimm das!"
 	done
 	
 SkateboarderHouseSkateboarderDudeText2:
-	text "Woah, dude!"
-	para "With that board,"
-	line "you can get around"
-	para "quickly in even"
-	line "more places than"
-	cont "on a bike!"
+    text "Woah, Alter!"
+
+    para "Mit dem Board da,"
+    line "kommst du an noch"
+    cont "mehr Orten schnell"
+    cont "voran, als mit dem"
+    cont "Fahrrad!"
 	done
 	
 SkateboarderHouseSkateboarderDudeTextNoBike:
-	text "Woah, dude!"
-	para "What are you doing"
-	line "walking around"
-	cont "on your feet?"
-	para "If you're not used"
-	line "to riding a bike,"
-	para "there's no way"
-	line "you're ready to"
-	cont "shred!"
+    text "Woah, Alter!"
+
+    para "Was läufst du noch"
+    line "zu Fuß herum?"
+
+    para "Wenn du nicht mal"
+    line "radfahren kannst,"
+    cont "bist du nie im"
+    cont "Leben bereit zu"
+    cont "shredden!"
 	done
 	
 

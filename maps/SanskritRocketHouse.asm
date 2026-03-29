@@ -257,7 +257,7 @@ SanskritRocketHouseRocket3TextKey:
 	text "Nee, ich hab"
 	line "keinen Schlüssel."
 
-	para "Der KAPITÄN"
+	para "Der KÄPT'N"
 	line "traut mir so was"
 	cont "nicht an."
 	done
@@ -321,7 +321,7 @@ RocketKey_LossText:
 	
 RocketKey_AfterText:
     text "Oh nein, der"
-    line "KAPITÄN wird mich"
+    line "KÄPT'N wird mich"
     cont "dafür einen Kopf"
     cont "kürzer machen!"
 	done

@@ -53,7 +53,7 @@ WestportDeptStore3FSuperNerdText:
     cont "wenn es sie trägt."
 
     para "Welche Art ist"
-    cont "besser?"
+    line "besser?"
 	done
 
 WestportDeptStore3FRockerText:

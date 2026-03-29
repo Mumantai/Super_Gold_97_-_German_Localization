@@ -38,8 +38,8 @@ SunpointPokecenter1FSuperNerdScript:
 SunpointPokecenter1FLassText:
     text "Kennst du diesen"
     line "Drang, mit deinen"
-    cont "#MON vor Freunden"
-    cont "anzugeben?"
+    cont "#MON vor deinen"
+    cont "Freunen anzugeben?"
 
     para "Ich prahle immerzu"
     line "mit meinem schönen"

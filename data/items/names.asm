@@ -88,7 +88,7 @@ ItemNames::
 	db "RIESENPILZ@"
 	db "SILBERSTAUB@"
 	db "APRIKOKO BLU@"
-	db "TERU-SAMA@"
+	db "SKATEBOARD@"
 	db "MÜNZAMULETT@"
 	db "APRIKOKO GLB@"
 	db "APRIKOKO GRN@"

@@ -229,10 +229,10 @@ BoardwalkGameCornerPlantVendorMenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "MAGNAPLANT   1800@"
-	db "TROPICPLANT  1800@"
-	db "JUMBOPLANT   1800@"
-	db "CANCEL@"	
+	db "BAUMPFLANZE  1800@"
+	db "TROPENPFL.   1800@"
+	db "RIESENPFL.   1800@"
+	db "ZURÜCK@"
 
 BoardwalkGameCornerCarpetVendorMenuHeader:
 	db MENU_BACKUP_TILES ; flags
@@ -243,10 +243,10 @@ BoardwalkGameCornerCarpetVendorMenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "BLUE CARPET  1800@"
-	db "YELLOW CARPET1800@"
-	db "GREEN CARPET 1800@"
-	db "CANCEL@"	
+	db "BLAU         1800@"
+	db "GELB         1800@"
+	db "GRÜN         1800@"
+	db "ZURÜCK@"
 
 BoardwalkGameCornerBedsVendorMenuHeader:
 	db MENU_BACKUP_TILES ; flags
@@ -257,10 +257,10 @@ BoardwalkGameCornerBedsVendorMenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "PINK BED     1800@"
-	db "POLKADOT BED 1800@"
-	db "PIKACHU BED  1800@"
-	db "CANCEL@"	
+	db "ROSA         1800@"
+	db "GEPUNKTET    1800@"
+	db "PIKACHU      1800@"
+	db "ZURÜCK@"
 	
 BoardwalkGameCornerDecorVendorMenuHeader:
 	db MENU_BACKUP_TILES ; flags
@@ -271,10 +271,10 @@ BoardwalkGameCornerDecorVendorMenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "BEDS@"
-	db "CARPETS@"
-	db "PLANTS@"
-	db "CANCEL@"
+	db "BETT@"
+	db "TEPPICH@"
+	db "PFLANZE@"
+	db "ZURÜCK@"
 
 ;--------------------------------------
 
@@ -374,10 +374,10 @@ BoardwalkGameCornerTMVendorMenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "POISON STONE  800@"
-	db "HEART STONE   800@"
-	db "MOON STONE    800@"
-	db "CANCEL@"
+	db "GIFTSTEIN     800@"
+	db "HERZSTEIN     800@"
+	db "MONDSTEIN     800@"
+	db "ZURÜCK@"
 
 BoardwalkGameCornerPrizeMonVendorScript:
 	faceplayer
@@ -461,9 +461,9 @@ BoardwalkGameCornerPrizeMonVendorScript:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
 	db "ABRA        100@"
-	db "CUBONE      800@"
-	db "BIPULLA    1500@"
-	db "CANCEL@"
+	db "TRAGOSSO    800@"
+	db "ZWILLIST   1500@"
+	db "ZURÜCK@"
 
 BoardwalkGameCornerPharmacistScript:
 	faceplayer
@@ -551,134 +551,145 @@ MoveTutorInsideScript:
 	end
 	
 AlreadyHaveDecorItemText:
-	text "You already have"
-	line "this item."
+	text "Du besitzt dieses"
+	line "Item bereits."
 	done
 	
 SendItemToHomePCText:
-	text "Send this item to"
-	line "your bedroom PC?"
+	text "Dieses Item an"
+	line "den PC in deinem"
+	cont "Zimmer senden?
 	done
 
 BoardwalkGameCornerPrizeVendorIntroText:
-	text "Welcome!"
+	text "Willkommen!"
 
-	para "We exchange your"
-	line "game coins for"
-	cont "fabulous prizes!"
+	para "Wir tauschen deine"
+	line "Münzen ein gegen"
+	cont "fabelhafte Preise!"
 	done
 
 BoardwalkGameCornerPrizeVendorWhichPrizeText:
-	text "Which prize would"
-	line "you like?"
+	text "Welchen Preis"
+	line "hättest du gerne?"
 	done
 
 BoardwalkGameCornerPrizeVendorConfirmPrizeText:
+	text "Du willst also"
+	line "@"
 	text_ram wStringBuffer3
-	text "."
-	line "Is that right?"
+	text "?"
 	done
 
 BoardwalkGameCornerPrizeVendorHereYouGoText:
-	text "Here you go!"
+	text "Hier, bitte sehr!"
 	done
 
 BoardwalkGameCornerPrizeVendorNeedMoreCoinsText:
-	text "Sorry! You need"
-	line "more coins."
+	text "Du hast nicht"
+	line "genug Münzen."
 	done
 
 BoardwalkGameCornerPrizeVendorNoMoreRoomText:
-	text "Sorry. You can't"
-	line "carry any more."
+	text "Du hast dafür"
+	line "keinen Platz."
 	done
 
 BoardwalkGameCornerPrizeVendorQuitText:
-	text "OK. Please save"
-	line "your coins and"
-	cont "come again!"
+	text "Oh. Komm bitte"
+	line "mit Münzen wieder!"
 	done
 
 BoardwalkGameCornerPrizeVendorNoCoinCaseText:
-	text "Oh? You don't have"
-	line "a COIN CASE."
+	text "Ach, du hast"
+	line "keinen MÜNZKORB?"
 	done
 
 BoardwalkGameCornerPharmacistText:
-	text "I always play this"
-	line "slot machine. It"
+	text "Ich spiele nur an"
+	line "diesem Automaten."
 
-	para "pays out more than"
-	line "others, I think."
+	para "Ich glaube, er"
+	line "spuckt mehr aus"
+
+	para "als die anderen."
 	done
 
 BoardwalkGameCornerPokefanM1Text:
-	text "I just love this"
-	line "new slot machine."
+	text "Ich liebe diesen"
+	line "neuen Automaten."
 
-	para "It's just the"
-	line "right level of"
-	cont "challenge."
+	para "Er stellt genau"
+	line "die richtige He-"
+	cont "rausforderung dar."
 	done
 
 BoardwalkGameCornerCooltrainerMText:
-	text "Life is a gamble."
-	line "I'm going to flip"
-	cont "cards till I drop!"
+	text "Das Leben ist ein"
+	line "Spiel. Ich werde"
+	cont "Karten spielen,"
+	cont "bis ich umfalle!"
 	done
 
 BoardwalkGameCornerPokefanFText:
-	text "Card flip…"
+	text "Karten…"
+	para "Ich ziehe sie den"
+	line "Automaten vor,"
 
-	para "I prefer it over"
-	line "the slots because"
+	para "weil man seine"
+	line "Chancen besser ab-"
+	cont "schätzen kann."
 
-	para "it's easier to"
-	line "figure the odds."
-
-	para "But the payout is"
-	line "much lower."
+	para "Aber der Gewinn"
+	line "ist viel geringer."
 	done
 
 BoardwalkGameCornerCooltrainerFText:
-	text "I won't quit until"
-	line "I win!"
+	text "Ich höre erst auf,"
+	line "wenn ich gewinne!"
 	done
 
 BoardwalkGameCornerGentlemanText:
-	text "I evolved my #-"
-	line "MON with a POISON"
-	cont "STONE."
+    text "Ich habe mein"
+    line "#MON mit einem"
+    para "GIFTSTEIN ent-"
+    line "wickeln lassen."
 
-	para "It was hard to get"
-	line "enough coins for"
+	para "Es hat zwar gedau-"
+	line "ert, bis ich genug"
 
-	para "it, but it was"
-	line "worth it."
+	para "Münzen hatte, aber"
+	line "es hat sich ge-"
+	cont "lohnt."
 	done
 
 BoardwalkGameCornerPokefanM2Text:
-	text "I couldn't win at"
-	line "the slots, and I"
+	text "Ich hatte an den"
+	line "Automaten kein"
 
-	para "blew it on card"
-	line "flipping…"
+	para "Glück. Bei den"
+	line "Karten sieht es"
 
-	para "I took too many"
-	line "risks, and they"
-	cont "weren't worth it."
+	para "auch nicht anders"
+	line "aus…"
+
+	para "Ich bin zu viele"
+	line "Risiken eingegang-"
+	cont "en und keines war"
+	cont "es wert."
 	done
 
 MoveTutorInsideText:
-	text "Wahahah! The coins"
-	line "keep rolling in!"
+	text "Wahaha! Die Münzen"
+	line "fallen weiter!"
 	done
 
 BoardwalkGameCornerLeftTheirDrinkText:
-	text "Someone left their"
-	line "drink."
+	text "Jemand hat sein"
+	line "Getränk stehen"
 
-	para "It smells sweet."
+	para "lassen. Es riecht"
+	line "süß!"
 	done
 
 BoardwalkGameCorner_MapEvents:

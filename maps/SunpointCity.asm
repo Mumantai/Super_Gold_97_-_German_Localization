@@ -146,13 +146,15 @@ SunpointTrainerTipsSignText:
 	done
 
 SunpointMagmaShaftWarningSignText:
-	text "NOTICE:"
-	para "Dangerous rocks"
-	line "frequently fall"
-	para "from the MAGMA"
-	line "SHAFT."
-	para "Use proper caution"
-	line "if approaching."
+    text "ACHTUNG:"
+
+    para "Gefährliche Felsen"
+    line "fallen regelmäßig"
+    para "aus dem MAGMA-"
+    line "SCHACHT."
+
+    para "Betreten auf"
+    line "eigene Gefahr."
 	done
 
 SunpointCity_MapEvents:

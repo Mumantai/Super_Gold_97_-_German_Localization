@@ -89,7 +89,7 @@ DocksRocket1Text:
 	done
 	
 DocksRocket2Text:
-	text "Der KAPITÄN ist"
+	text "Der KÄPT'N ist"
 	line "an Bord und"
 	cont "organisiert die"
 	cont "letzte Ladung"
