@@ -558,7 +558,7 @@ AlreadyHaveDecorItemText:
 SendItemToHomePCText:
 	text "Dieses Item an"
 	line "den PC in deinem"
-	cont "Zimmer senden?
+	cont "Zimmer senden?"
 	done
 
 BoardwalkGameCornerPrizeVendorIntroText:
