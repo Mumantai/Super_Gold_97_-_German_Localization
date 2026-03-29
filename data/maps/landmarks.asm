@@ -111,7 +111,7 @@ TeknosCityName:     db "TEKNOPIA CITY@"     ; Teknos (griech. Technik) + Utopia
 AlloyCityName:      db "GENEOS CITY@"       ; Genus (lat. Gattung) + neos (griech. neu)
 SunpointCityName:   db "KAZANAMI CITY@"     ; Kazan (jap. Vulkan) + Minami (jap. Süden)
 SanskritTownName:   db "GLYPHONTIA@"        ; Glyphe + Font
-BlueForestName:     db "BLAUTANNENWALD@"    ; Blautannen
+BlueForestName:     db "BLAUTANNENWALD@"    ; Blautannen    NICHT FINAL
 KikaiVillageName:   db "KIKAI TAL@"         ; NICHT FINAL Kikai - Ort in Ryukyu
 DaitoRanchName:     db "DAITO RANCH@"       ; NICHT FINAL Daito - Ort in Ryukyu
 FiveFloorTowerName: db "5-EBENEN-TURM@"     ; "Ebenen" anstelle von "Etagen" um Zweideutigkeit mit Spirituellem zu haben
@@ -161,12 +161,12 @@ MotobuPathName:     db "MOTOBU PFAD@"       ; Motobu - Ort in Ryukyu
 UrasoeTrailName:    db "URASOE TRAIL@"
 TatsugoPathName:    db "TATSUGO PFAD@"      ; Tatsugo - Ort in Ryukyu
 Route121Name:       db "ROUTE 121@"
-KikaiStraitName:    db "KIKAI STRAIT@"      ; Kikai - Ort in Ryukyu
+KikaiStraitName:    db "STRAẞE VON KIKAI@"      ; Kikai - Ort in Ryukyu
 KikaiCalderaName:   db "KIKAI KRATER@"      ;
 WeatheredTrailName: db "WEATHERED TRAIL@"   ;
 RouteU8UName:       db "ROUTE 18@"
-KeramaStraitName:   db "KERAMA STRAIT@"     ;
-IsenStraitName:     db "ISEN STRAIT@"       ;
+KeramaStraitName:   db "STRAẞE VON KERAMA@"     ;
+IsenStraitName:     db "STRAẞE VON ISEN@"       ;
 Route107Name:       db "ROUTE 107@"
 RouteU7UName:       db "ROUTE 22@"
 FujiSummitName:     db "ROUTE 23@"

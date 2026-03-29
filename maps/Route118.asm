@@ -102,76 +102,81 @@ Route118HiddenUltraBall:
 	
 	
 SwimmermHalSeenText:
-	text "Are you going to"
-	line "SUNPOINT?"
+    text "Gehst du nach"
+    line "KAZANAMI CITY?"
 
-	para "How about a quick"
-	line "battle first?"
+    para "Wie wäre es zuerst"
+    line "mit einem Kampf?"
 	done
 	
 SwimmermHalBeatenText:
-	text "I lost that one!"
+	text "Den habe ich"
+	line "verloren!"
 	done
 
 
 SwimmermHalAfterBattleText:
-	text "I'd say I'm a bet-"
-	line "ter swimmer than"
-	cont "you. Yeah!"
+    text "Ich würde sagen,"
+    line "ich bin ein bess-"
+    cont "erer Schwimmer als"
+    line "du. Yeah!"
 	done
 
 BirdKeeperHankSeenText:
-	text "I'm raising my"
-	line "#MON. Want to"
-	cont "battle with me?"
+	text "Ich trainiere"
+	line "#MON. Trittst"
+	cont "du gegen mich an?"
 	done
 
 BirdKeeperHankBeatenText:
-	text "Ack! I lost that"
-	line "one…"
+	text "Uff! Ich habe"
+	line "verloren…"
 	done
 
 BirdKeeperHankAfterBattleText:
-	text "If you have a"
-	line "specific #MON"
+	text "Hast du ein spe-"
+	line "zielles #MON,"
 
-	para "that you want to"
-	line "raise, put it out"
+	para "das du trainieren"
+	line "möchtest, setze es"
 
-	para "first, then switch"
-	line "it right away."
+	para "an die erste Stel-"
+	line "le und tausche es"
+	cont "sofort aus."
 
-	para "That's how to do"
-	line "it."
+	para "So funktioniert"
+	line "das."
 	done
 
 PicnickerHopeSeenText:
-	text "I have a feeling"
-	line "that I can win."
+	text "Ich spüre, dass"
+	line "ich gewinnen kann."
 
-	para "Let's see if I'm"
-	line "right!"
+	para "Mal sehen, ob"
+	line "das stimmt!"
 	done
 
 PicnickerHopeBeatenText:
-	text "Aww, you are too"
-	line "strong."
+	text "Argh, du bist zu"
+	line "stark."
 	done
 
 PicnickerHopeAfterBattleText:
-	text "I hear that some"
-	line "#MON have baby"
-	para "forms that hatch"
-	line "from EGGS."
+    text "Ich hörte, dass"
+    line "manche #MON"
+    cont "Baby-Formen haben,"
 
-	para "But where does one"
-	line "get #MON EGGS?"
+    para "die aus EIERN"
+    line "schlüpfen."
+
+    para "Aber wo bekommt"
+    line "man ein #MON-EI"
+    cont "her?"
 	done
 
 PicnickerSharonSeenText:
-	text "Um…"
-	line "I…"
-	para "Battle me?"
+	text "Ähm…"
+	line "Ich…"
 	done
 
 PicnickerSharonBeatenText:
@@ -179,56 +184,63 @@ PicnickerSharonBeatenText:
 	done
 
 PicnickerSharonAfterBattleText:
-	text "……I came here to"
-	line "look for CLEFAIRY,"
-	para "but I haven't"
-	line "found any."
+    text "……Ich kam her, um"
+    line "PIEPI zu sehen,"
+
+    para "aber ich habe"
+    line "keines gefunden."
 	done
 	
 
 	
 SwimmermRandallSeenText:
-	text "Hey, you're young"
-	line "and fit!"
+	text "Heh, du bist jung"
+	line "und fit!"
 
-	para "Don't ride your"
-	line "#MON! Swim!"
+	para "Surfe nicht auf"
+	line "deinem #MON!"
+	cont "Schwimme!"
 	done
 
 SwimmermRandallBeatenText:
-	text "Uh-oh. I lost…"
+	text "Oh, oh. Ich habe"
+	line "verloren…"
 	done
 
 SwimmermRandallAfterBattleText:
-	text "Swimming exercises"
-	line "your entire body."
-	cont "It's healthy."
+	text "Schwimmen hält"
+	line "deinen ganzen"
+	cont "Körper fit und"
+	cont "gesund."
 	done
 
 Route118SignText:
 	text "ROUTE 118"
-	para "SUNPOINT CITY -"
-	line "SANSKRIT TOWN"
+	para "KAZANAMI CITY -"
+	line "GLYPHONTIA"
 	done
 	
 SwimmermBerkeSeenText:
-	text "The water's warm"
-	line "here. I'm loose"
-	cont "and limber."
+	text "Das Wasser ist"
+	line "schön warm. Ich"
+	cont "bin also sehr"
+	cont "locker und gelenk."
 
-	para "Sure, I'll take"
-	line "you on!"
+	para "Natürlich trete"
+	line "ich gegen dich an!"
 	done
 	
 SwimmermBerkeBeatenText:
-	text "Yikes! I've got"
-	line "prune skin!"
+	text "Oje! Ich habe eine"
+	line "Gänsehaut!"
 	done
 
 SwimmermBerkeAfterBattleText:
-	text "Isn't it relaxing"
-	line "just floating like"
-	cont "this?"
+	text "Ist es nicht"
+	line "sehr entspannend,"
+	cont "sich auf dem"
+	cont "Wasser treiben"
+	cont "zu lassen?"
 	done
 
 Route118_MapEvents:

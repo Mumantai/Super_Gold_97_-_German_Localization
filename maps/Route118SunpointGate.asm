@@ -95,10 +95,10 @@ DollSalesmanTuesdayMenu:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "CHARMANDER  ¥5000@"
-	db "DIGLETT     ¥5000@"
-	db "STARYU      ¥5000@"
-	db "CANCEL@"
+	db "GLUMANDA    ¥5000@"
+	db "DIGDA       ¥5000@"
+	db "STERNDU     ¥5000@"
+	db "ZURÜCK@"
 	
 DollSalesmanTuesday_FinishScript:
 	waitsfx
@@ -121,61 +121,72 @@ DollSalesmanTuesdayNoMoney:
 	end
 	
 SendItemToPCTextDollTuesday:
-	text "Send this DOLL to"
-	line "your bedroom PC?"
+    text "Die PUPPE an den"
+    line "PC schicken?"
 	done
 
 AlreadyHaveDecorItemTextSalesmanTuesday:
-	text "You already have"
-	line "this DOLL!"
+    text "Du hast diese"
+    line "PUPPE bereits!"
 	done
 
 DollSalesmanTuesday_HereYouGoText:
-	text "Here you go!"
+	text "Hier, bitte schön!"
 	done
 	
 DollSalesmanTuesdayComeAgain:
-	text "Hope to see you"
-	line "again somewhere!"
+    text "Ich hoffe, wir"
+    line "sehen uns bald"
+    cont "wieder irgendwo!"
 	done
 	
 DollSalesmanTuesdayNoMoneyText:
-	text "Sorry, you'll"
-	line "need more money!"
+    text "Tut mir leid, du"
+    line "hast nicht genug"
+    line "Geld!"
 	done
 	
 DollSalesmanTextTuesday:
-	text "Hiya!"
-	para "I'm a traveling"
-	line "DOLL salesman!"
-	para "What does that"
-	line "mean?"
-	para "It means that I'm"
-	line "who you talk to"
-	para "if you want to"
-	line "deck out your"
-	cont "bedroom!"
-	para "My stock and my"
-	line "location change"
-	para "daily, so keep an"
-	line "eye out for me!"
+    text "Hey!"
+
+    para "Ich bin ein rei-"
+    line "sender PUPPEN-"
+    cont "Händler!"
+
+    para "Was das heißt?"
+
+    para "Das soll heißen,"
+    line "ich bin dein"
+    para "Ansprechpartner,"
+    line "wenn es darum"
+    cont "geht, dein Zimmer"
+    cont "aufzupeppen!"
+
+    para "Mein Angebot und"
+    line "mein Standort"
+    para "wechseln täglich,"
+    line "also halte deine"
+    cont "Augen offen!"
 	done
 	
 DollSalesmanTextTuesday_AskWhichPrizeText:
-	text "Now which DOLL"
-	line "would you like?"
+    text "Also, welche PUPPE"
+    line "hättest du gerne?"
 	done
 	
 ;---------------------------------
 
 Route118SunpointGuardSeriousText:
-	text "SUNPOINT CITY is a"
-	line "major trade hub"
-	para "for goods coming"
-	line "into NIHON."
-	para "The DOCKS north of"
-	line "town are always"
-	cont "busy."	
+    text "KAZANAMI CITY ist"
+    line "ein wichtiger"
+
+    para "Umschlagplatz für"
+    line "Waren, die nach"
+    cont "NIHON kommen."
+
+    para "An den DOCKS im"
+    line "Norden der Stadt,"
+    cont "ist immer was los."
 	done
 
 Route118SunpointGate_MapEvents:

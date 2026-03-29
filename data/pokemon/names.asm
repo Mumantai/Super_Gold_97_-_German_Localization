@@ -211,12 +211,12 @@ PokemonNames::
 	db "MORLORD@@@"
 	db "ZANGUWA@@@"     ; Zange + Kuwagata (jap. Hirschkäfer) alt. ZANGATA      NOCH NICHT FINAL
 	db "SCHEROX@@@"
-	db "MOIBELLE@@"     ;
-	db "BELLEDAM@@"     ;
+	db "KATMOBELLE"     ; Katze, Mademoiselle, Bell, belle
+	db "BELLEDAME@"     ; Bell, belle, Madame       alt. CAMPANIVA
 	db "SNIEBEL@@@"
 	db "BALDORFISH"
 	db "FUNGUMIN@@"     ; Funken + Fugu (jap. Kugelfisch) + (See-)Mine      NOCH NICHT FINAL
-	db "SENIAN@@@@"     ; Sen (jap. Münzeinheit) + Nyan (jap. Miau)
+	db "SENIAN@@@@"     ; Sen (jap. Münzeinheit) + Nyan (jap. Miau)     NOCH NICHT FINAL
 	db "SWALIASK@@"     ; Schwan + Allium + Maske
 	db "VLOODU@@@@"     ; Fluch + Voodoo    alt. FLUDOO     NOCH NICHT FINAL
 	db "PANG-SHI@@"     ; Panda + Jiang-Shi

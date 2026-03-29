@@ -36,30 +36,32 @@ SunpointPokecenter1FSuperNerdScript:
 	jumptextfaceplayer SunpointPokecenter1FSuperNerdText
 
 SunpointPokecenter1FLassText:
-	text "Don't you get the"
-	line "urge to show off"
+    text "Kennst du diesen"
+    line "Drang, mit deinen"
+    cont "#MON vor Freunden"
+    cont "anzugeben?"
 
-	para "your #MON to"
-	line "friends?"
-	para "I always brag"
-	line "about my beautiful"
-	cont "BELLEDAM."
+    para "Ich prahle immerzu"
+    line "mit meinem schönen"
+    cont "BELLEDAME."
 	done
 
 StandGymGuyText:
-	text "Did you go up to"
-	line "the DOCKS?"
-	para "Something fishy is"
-	line "going on up there."
+    text "Warst du oben bei"
+    line "den DOCKS?"
+
+    para "Irgendwas Faules"
+    line "geht da vor sich."
 	done
 
 StandGymGuyWinText:
-	text "Those were TEAM"
-	line "ROCKET members at"
-	cont "the docks?"
-	para "I can't believe"
-	line "they showed their"
-	cont "faces again!"
+    text "Das an den DOCKS"
+    line "war TEAM ROCKET?"
+
+    para "Kaum zu glauben,"
+    line "dass die sich"
+    cont "wieder blicken"
+    cont "lassen!"
 	done
 
 SunpointPokecenter1FUnusedText1:
@@ -91,17 +93,17 @@ SunpointPokecenter1FUnusedText2:
 	done
 
 SunpointPokecenter1FSuperNerdText:
-	text "I love showing off"
-	line "the #MON that"
+	text "Ich liebe es, mit"
+	line "meinen trainierten"
 
-	para "I've raised."
-	line "Don't you?"
+	para "#MON anzugeben."
+	line "Du etwa nicht?"
 
-	para "I'm going to get"
-	line "into a bunch of"
+	para "Ich werde einige"
+	line "Kämpfe bestreiten,"
 
-	para "battles, and show"
-	line "off my #MON!"
+	para "um mit meinen"
+	line "#MON anzugeben!"
 	done
 
 SunpointPokecenter1F_MapEvents:

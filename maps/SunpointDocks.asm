@@ -80,103 +80,118 @@ DocksSailorScript:
 	jumptextfaceplayer DocksSailorText
 	
 DocksRocket1Text:
-	text "Just an innocent"
-	line "DOCK worker"
-	para "bringing in some"
-	line "cargo!"
-	para "Nothing weird"
-	line "going on here!"
+    text "Hier gibt es"
+    line "nichts zu sehen."
+
+    para "Bloß ein harmloser"
+    line "Hafenarbeiter, der"
+    cont "Fracht verlädt!"
 	done
 	
 DocksRocket2Text:
-	text "The CAPTAIN is"
-	line "onboard working on"
-	para "the logistics of"
-	line "the final shipment"
-	cont "here at the DOCKS."
-	para "We're almost ready"
-	line "to ditch this"
-	cont "place!"
+	text "Der KAPITÄN ist"
+	line "an Bord und"
+	cont "organisiert die"
+	cont "letzte Ladung"
+	cont "hier an den DOCKS."
+
+	para "Wir sind fast so"
+	line "weit, von hier zu"
+	cont "verschwinden!"
 	done
 	
 DocksRocket3Text:
-	text "Finally, our"
-	line "operations here"
-	cont "are almost done!"
-	para "I can't wait to"
-	line "get back to the"
-	para "east side of NIHON"
-	line "where it's much"
-	cont "cooler!"
+    text "Endlich, unser"
+    line "Vorhaben hier ist"
+    cont "fast vollendet!"
+
+    para "Ich kann es kaum"
+    line "erwarten, wieder"
+    cont "zurück auf die"
+    cont "Ostseite von NIHON"
+    cont "zu kehren, wo es"
+    cont "viel kühler ist!"
 	done
 	
 DocksRocket4Text:
-	text "Don't bother me!"
-	line "I'm working!"
+    text "Nerv mich nicht!"
+    line "Ich arbeite hier!"
 	done
 	
 DocksRocket5Text:
-	text "I'm a-working on"
-	line "the railroad…"
-	para "…"
-	para "Hm, wrong song."
+    text "Töff, töff, töff,"
+    line "die Eisenbahn…"
+
+    para "…"
+
+    para "Hm, falsches Lied."
 	done
 	
 DocksRocket6Text:
-	text "Being a DOCK"
-	line "worker is hard!"
+    text "Ein Hafenarbeiter"
+    line "zu sein ist hart!"
 	done
 
 GruntM29SeenText:
-	text "What do you want,"
-	line "kid?"
-	para "Authorized"
-	line "personnel only!"
-	para "Get lost, or face"
-	line "my wrath!"
+    text "Was willst du,"
+    line "Kindchen?"
+
+    para "Nur autorisiertes"
+    line "Personal erlaubt!"
+
+    para "Hau ab, oder es"
+    line "setzt was!"
 	done
 	
 GruntM29BeatenText:
-	text "Aieee!"
+	text "Ayeee!"
 	done
 	
 GruntM29AfterBattleText:
-	text "You could be a"
-	line "problem."
-	para "And I don't want"
-	line "to deal with it!"
+    text "Du könntest ein"
+    line "Problem sein."
+
+    para "Damit will ich"
+    line "nichts zu tun"
+    cont "haben!"
 	done
 
 DocksGuruText:
-	text "There aren't any"
-	line "ships in the"
-	cont "harbor right now."
-	para "It's a slow day."
+    text "Es sind gerade"
+    line "keine Schiffe im"
+    cont "Hafen."
+
+    para "Heute ist ein"
+    line "ruhiger Tag."
 	done
 	
 DocksGuruText2:
-	text "There's a cafe"
-	line "over in ALLOY"
-	para "CITY that has"
-	line "the best food!"
-	para "I wish I didn't"
-	line "work so far from"
-	cont "it…"
+    text "Drüben in GENEOS"
+    line "CITY gibt es ein"
+    cont "Café, das hat das"
+    cont "beste Essen!"
+
+    para "Wenn ich doch nur"
+    line "nicht so weit weg"
+    cont "arbeiten würde…"
 	done
 
 DocksFisherText:
-	text "I'm not a worker."
-	line "I just like"
-	para "watching ships"
-	line "come and go."
+    text "Ich bin kein"
+    line "Hafenarbeiter."
+
+    para "Ich schaue mir nur"
+    line "gerne die Schiffe"
+    cont "im hier an."
 	done
 	
 DocksSailorText:
-	text "I set sail in"
-	line "a few weeks."
-	para "It's been a while"
-	line "since I've been"
-	cont "out at sea!"
+    text "In ein paar Wochen"
+    line "setze ich Segel."
+
+    para "Es ist ne Weile"
+    line "her, dass ich auf"
+    cont "hoher See war!"
 	done
 
 SunpointDocks_MapEvents:

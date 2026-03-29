@@ -31,31 +31,35 @@ HouseForSaleBookshelf:
 	jumpstd DifficultBookshelfScript
 
 SunpointDocksCleanseTagHouseGrannyText1:
-	text "Eeyaaaah!"
+	text "Yippi!"
 
-	para "I sense a sinister"
-	line "shadow hovering"
-	cont "over you."
+	para "Ich spüre einen"
+	line "dunklen Schatten,"
+	cont "der über dir"
+	cont "schwebt."
 
-	para "Take this to ward"
-	line "it off!"
+	para "Benutze dies, um"
+	line "ihn loszuwerden!"
 	done
 
 SunpointDocksCleanseTagHouseGrannyText2:
-	text "You were in mortal"
-	line "danger, but you"
-	cont "are protected now."
+	text "Du schwebtest in"
+	line "Lebensgefahr!"
+	cont "Jetzt bist du"
+	cont "in Sicherheit."
 	done
 
 SunpointDocksCleanseTagHouseTeacherText:
-	text "My Grandma is into"
-	line "warding off what"
+	text "Meine Oma befasst"
+	line "sich mit dem"
 
-	para "she believes to be"
-	line "evil spirits."
+	para "Vertreiben von,"
+	line "wie sie sagt,"
+	cont "bösen Geistern."
 
-	para "I'm sorry that she"
-	line "startled you."
+	para "Es tut mir Leid,"
+	line "dass sie dich"
+	cont "erschreckt hat."
 	done
 
 SunpointDocksCleanseTagHouse_MapEvents:
