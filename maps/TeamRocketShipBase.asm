@@ -553,7 +553,7 @@ CaptainRAfterText:
 	para "Wir haben alle"
 	line "Materialien für"
 	para "unsere ultimative"
-	line "Waffe!
+	line "Waffe!"
 
 	para "Und diese Waffe"
 	line "richtet keinen"
