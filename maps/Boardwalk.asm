@@ -364,18 +364,19 @@ WeirdNotSureText:
 
 
 FledglingHidalgoSeenText:
-	text "Can I try battling"
-	line "against you?"
+    text "Darf ich auch"
+    line "mal einen Kampf"
+    cont "versuchen?"
 	done
 	
 FledglingHidalgoBeatenText:
-	text "This is tough!"
+	text "Das ist hart!"
 	done
 	
 FledglingHidalgoAfterBattleText:
-	text "I'll work hard to"
-	line "keep getting"
-	cont "better at this!"
+    text "Ich werde hart an"
+    line "mir arbeiten, um"
+    cont "besser zu werden!"
 	done
 	
 

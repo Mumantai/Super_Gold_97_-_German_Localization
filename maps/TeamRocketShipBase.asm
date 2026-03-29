@@ -402,7 +402,7 @@ GruntM25SeenText:
     cont "hier gerechnet!"
 
     para "Pech gehabt, denn"
-    cont "hier bin ich!"
+    line "hier bin ich!"
 	done
 
 GruntM25BeatenText:
@@ -472,12 +472,12 @@ CaptainRBeforeText:
     line "hier sind jedoch"
     cont "abgeschlossen."
 
-    para "Wie ziehen uns"
+    para "Wir ziehen uns"
     line "zurück in unsere"
     cont "Geheimbasis."
 
-    para "Unser Plan wird,"
-    line "wie geplant,"
+    para "Unsere Operation"
+    line "wird wie geplant"
     cont "weitergehen."
 	done
 	
@@ -594,8 +594,8 @@ NotGonnaStandByText:
 	para "dich einfach an"
 	line "mir vorbei!"
 
-	para "Versuch doch, an"
-	line "an vorbeizukommen!"
+	para "Versuch doch,"
+	line "durchzuzukommen!"
 	done
 	
 RocketEntranceShip_WinText:
