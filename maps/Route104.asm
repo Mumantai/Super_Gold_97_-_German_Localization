@@ -313,9 +313,8 @@ FirebreatherBurtAfterBattleText:
 
 
 CamperElliotSeenText:
-    text "Ich bin auf dem"
-    line "Weg im WALD zu"
-    cont "zelten!"
+    text "Ich gehe in den"
+    line "WALD zum Zelten!"
 	done
 
 CamperElliotBeatenText:

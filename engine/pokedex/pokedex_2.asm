@@ -151,7 +151,7 @@ DisplayDexEntry:
 	ld hl, sp+0
 	ld d, h
 	ld e, l
-	hlcoord 13, 8
+	hlcoord 12, 8
 	lb bc, 2, (3 << 4) | 4
 	call PrintNum
 	pop de

@@ -133,6 +133,7 @@ PhoneMaleReallyEnergeticText:
 
 	para "Mein @"
 	text_ram wStringBuffer4
+	text_start
 	line "ist so stark, wie"
     cont "nie zuvor."
 
@@ -147,6 +148,7 @@ PhoneFemaleTopShapeText:
 	para "Ich halte mein"
 	line "@"
 	text_ram wStringBuffer4
+	text_start
 	para "in Top-Form, indem"
 
 	para "ich es regelmäßig"
@@ -157,6 +159,7 @@ PhoneFemaleTopShapeText:
 PhoneMaleLookingAwesomeText:
 	text "Mein @"
 	text_ram wStringBuffer4
+	text_start
 	line "sieht echt cool"
 	cont "aus."
 
@@ -168,6 +171,7 @@ PhoneFemaleDressedUpText:
 	text "Ich habe mein"
 	line "@"
 	text_ram wStringBuffer4
+	text_start
 	cont "verkleidet."
 
 	para "Jetzt sieht es"
@@ -192,6 +196,7 @@ PhoneFemaleTypeAdvantageText:
 	para "neulich gegen ein"
     line "wildes @"
 	text_ram wStringBuffer4
+	text_start
 	cont "gekämpft."
 
 	para "Ich habe dank des"
@@ -205,6 +210,7 @@ PhoneMaleAlmostCaughtText:
 	para "beinahe ein"
     line "@"
 	text_ram wStringBuffer4
+	text_start
 	cont "gefangen."
 
 	para "Oh, es war nur"
@@ -301,6 +307,7 @@ PhoneSwarmFishText:
 
 	para "Auf @"
 	text_ram wStringBuffer5
+	text_start
 	line "beißen die"
 	para "@"
 	text_ram wStringBuffer4
@@ -322,6 +329,7 @@ PhoneSwarmCaveText:
 	text " in"
 	cont "@"
 	text_ram wStringBuffer5
+	text_start
 	cont "gesehen."
 
 	para "<PLAYER>, das musst"

@@ -342,8 +342,8 @@ BugCatcherWade1AfterText:
 
 Route106YoungsterText:
 	text "Ich habe ein gutes"
-	line "#MON im JADEWALD"
-	cont "gefunden."
+	line "#MON im JADE-"
+	cont "WALD gefunden."
 
 	para "Ich ziehe es groß,"
 	line "um später gegen"
