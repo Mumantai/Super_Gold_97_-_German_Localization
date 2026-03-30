@@ -203,209 +203,233 @@ Route104TMEndure:
 
 
 Route104LassText:
-	text "Pant, pant…"
+	text "Hechel, keuch…"
 
-	para "It's a long walk"
-	line "just to get this"
-	cont "far."
-	para "But there's still"
-	line "a long way to go"
-	cont "to ALLOY CITY."
-	para "JADE FOREST is a"
-	line "maze."
-	para "I need to make"
-	line "sure I'm ready."
+	para "Bis hierhin war"
+	line "es schon ein"
+	cont "weiter Weg."
+
+	para "Doch bis GENEOS"
+	line "CITY ist es noch"
+	cont "ein gutes Stück."
+
+	para "Der JADEWALD"
+	line "ist ein Labyrinth."
+
+	para "Da muss ich mich"
+	line "gut vorbereiten."
 	done
 
 Route104TeacherText:
-	text "I'm confused."
-	para "I came through"
-	line "this route by"
-	para "hopping down this"
-	line "ledge."
-	para "But I can't figure"
-	line "out my way back"
-	cont "to BIRDON TOWN."
-	para "There's got to be"
-	line "a way around…"
+    text "Ich bin verwirrt."
+
+    para "Ich bin hier ge-"
+    line "landet, als ich"
+    para "von den Stufen"
+    line "gesprungen bin."
+
+    para "Aber ich finde den"
+    line "Weg zurück nach"
+    cont "TOTOMONIA nicht."
+
+    para "Es muss doch einen"
+    line Rückweg geben…"
 	done
 
 DontStepFlowers:
 	text "Hey!"
-	para "Don't step there!"
-	para "I work really hard"
-	line "getting my garden"
-	para "to look nice in"
-	line "such a dry area!"
-	para "Don't trample my"
-	line "flowers!"
+
+	para "Nicht da lang!"
+
+	para "Ich arbeite hart,"
+	line "damit mein Garten"
+	para "in dieser Dürre"
+	line "schön aussieht!"
+
+	para "Trampel nicht auf"
+	line "meinen Blumen rum!"
 	done
 
 LaDiDa:
 	text "La-Di-Da!"
-	para "Oh, how I enjoy"
-	line "tending to my"
-	cont "garden!"
+
+	para "Oh, wie ich es"
+	line "liebe meinen"
+	cont "Garten zu pflegen!"
 	done
 
 
 SupernerdSamSeenText:
-	text "Do you collect"
-	line "rare #MON?"
+	text "Sammelst du"
+	line "seltene #MON?"
 	done
 
 SupernerdSamBeatenText:
-	text "Oi!"
+	text "Ey!"
 	done
 
 SupernerdSamAfterBattleText:
-	text "I collect rare"
-	line "#MON."
-	para "Or at least, I"
-	line "wish I did."
+    text "Ich sammle"
+    line "seltene #MON."
+
+    para "Oder zumindest"
+    line "würde ich gerne."
 	done
 	
 HikerDanielSeenText:
-	text "I'm setting out"
-	line "on a long hike."
-	para "Let's see how"
-	line "prepared I am!"
+    text "Ich mache mich für"
+    line "eine sehr lange"
+    cont "Wanderung bereit."
+
+    para "Mal sehen, ob ich"
+    line "vorbereitet bin!"
 	done
 
 HikerDanielBeatenText:
-	text "Foot cramps!"
+	text "Fußkrämpfe!"
 	done
 
 HikerDanielAfterBattleText:
-	text "Looks like I need"
-	line "to make sure I'm"
-	para "up for the long"
-	line "journey."
+    text "Sieht so aus, als"
+    line "müsste ich mich"
+    para "besser auf die"
+    line "Reise einstellen."
 	done
 
 FirebreatherBurtSeenText:
-	text "Can you take the"
-	line "heat that I'm"
-	cont "about to give?"
+    text "Packst du die"
+    line "Hitze, die ich"
+    cont "dir gleich gebe?"
 	done
 
 FirebreatherBurtBeatenText:
-	text "Ow, hot!"
+	text "Aua, heiß!"
 	done
 
 FirebreatherBurtAfterBattleText:
-	text "This ROUTE is too"
-	line "hot!"
+	text "Diese ROUTE ist"
+	line "zu heiß!"
 	done
 
 
 CamperElliotSeenText:
-	text "I'm on my way"
-	line "to go camping"
-	cont "in the FOREST!"
+    text "Ich bin auf dem"
+    line "Weg im WALD zu"
+    cont "zelten!"
 	done
 
 CamperElliotBeatenText:
-	text "I'm beat!"
+	text "Ich bin platt!"
 	done
 
 CamperElliotAfterBattleText:
-	text "This area is"
-	line "pretty dry."
-	para "But the FOREST up"
-	line "ahead is a lot"
-	cont "less arid."
+    text "Hier ist es"
+    line "ziemlich trocken."
+
+    para "Aber im WALD ist"
+    line "es nicht mehr so"
+    cont "schlimm."
 	done
 	
 
 OfficerDirkSeenText:
-	text "Danger lurks in"
-	line "the night!"
+	text "Bei Nacht lauern"
+	line "Gefahren!"
 	done
 
 OfficerDirkBeatenText:
-	text "Whoops!"
+	text "Schwupps!"
 	done
 
 OfficerDirkAfterBattleText:
-	text "You know, night-"
-	line "time is fun in its"
-	cont "own ways."
+	text "Du weißt, dass"
+	line "die Nacht auf"
+	cont "ihre Weise"
+	cont "schön sein kann."
 
-	para "But don't overdo"
-	line "it, OK?"
+	para "Aber übertreibe"
+	line "es nicht, O.K.?"
 	done
 
 OfficerDirkPrettyToughText:
-	text "Your #MON look"
-	line "pretty tough."
+	text "Deine #MON"
+	line "sehen ziemlich"
+	cont "stark aus."
 
-	para "You could go any-"
-	line "where safely."
+	para "Du wärst über-"
+	line "all sicher."
 	done
 
 Route104SignText:
-	text "GEOFFREY the"
-	line "Gardener's house"
+	text "Haus von GEOFFREY"
+	line "dem Gärtner"
 	done
 	
 Route104SignActualText:
 	text "ROUTE 104"
-	para "BIRDON TOWN -"
-	line "ALLOY CITY"
+	para "TOTOMONIA -"
+	line "GENEOS CITY"
 	done
 	
 
 MeetTuscanyText:
-	text "TUSCANY: I do be-"
-	line "lieve that this is"
+	text "DIETLINDE: Ich"
+	line "glaube, wir"
 
-	para "the first time"
-	line "we've met?"
+	para "begegnen uns zum"
+	line "ersten Mal!"
 
-	para "Please allow me to"
-	line "introduce myself."
+	para "Darf ich mich"
+	line "vorstellen? Ich"
 
-	para "I am TUSCANY of"
-	line "Tuesday."
+	para "bin DIETLINDE"
+	line "von Dienstag."
 	done
 
 TuscanyGivesGiftText:
-	text "By way of intro-"
-	line "duction, please"
+	text "Da wir uns zum"
+	line "ersten Mal sehen,"
 
-	para "accept this gift,"
-	line "a PINK BOW."
+	para "schenke ich dir"
+	line "ein ROSA BAND."
 	done
 
 TuscanyGaveGiftText:
-	text "TUSCANY: Wouldn't"
-	line "you agree that it"
-	cont "is most adorable?"
+	text "DIETLINDE: Findest"
+	line "du nicht auch,"
+	cont "dass es sehr"
+	cont "schön ist?"
 
-	para "It strengthens"
-	line "normal-type moves."
+	para "Attacken der"
+	line "Elementklasse"
+	cont "Normal, werden"
+	cont "dadurch stärker."
 
-	para "I am certain it"
-	line "will be of use."
+	para "Ich bin sicher,"
+	line "du kannst es"
+	cont "gebrauchen."
 	done
 
 TuscanyTuesdayText:
-	text "TUSCANY: Have you"
-	line "met MONICA, my"
-	cont "older sister?"
+	text "DIETLINDE: Bist"
+	line "du MONJA meiner"
+	cont "älteren Schwester"
+	cont "schon begegnet?"
 
-	para "Or my younger"
-	line "brother, WESLEY?"
+	para "Oder meinem"
+	line "kleinen Bruder"
+	cont "MITKO?"
 
-	para "I am the second of"
-	line "seven children."
+	para "Ich bin das zweite"
+	line "von sieben"
+	cont "Kindern."
 	done
 
 TuscanyNotTuesdayText:
-	text "TUSCANY: Today is"
-	line "not Tuesday. That"
-	cont "is unfortunate…"
+	text "DIETLINDE: Heute"
+	line "ist nicht Diens-"
+	cont "tag. Das ist"
+	cont "schade…"
 	done
 
 Route104_MapEvents:

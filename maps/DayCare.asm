@@ -74,83 +74,80 @@ DayCareBookshelf:
 	jumpstd DifficultBookshelfScript
 
 Text_GrampsLookingForYou:
-	text "Gramps was looking"
-	line "for you."
+	text "Opa hat nach dir"
+	line "gesucht."
 	done
 
 Text_DayCareManTalksAboutEggTicket:
-	text "I'm the DAY-CARE"
-	line "MAN."
+	text "Ich bin der"
+	line "PENSIONSLEITER."
 
-	para "There's something"
-	line "new in WESTPORT"
+	para "In PORT ABANISHI"
+	line "gibt es etwas"
+	para "Neues, das man"
+	line "TAUSCHECKE nennt."
 
-	para "called the TRADE"
-	line "CORNER."
+	para "Ich erhielt ein"
+	line "EI-TICKET, dass"
+	para "man gegen ein"
+	line "KURIOS-EI eintau-"
+	cont "schen kann."
 
-	para "I was given an EGG"
-	line "TICKET that can be"
-
-	para "traded in for a"
-	line "ODD EGG."
-
-	para "But since we run a"
-	line "DAY-CARE, we don't"
-
-	para "need it. You may"
-	line "as well have it."
+	para "Aber da wir eine"
+	line "PENSION leiten,"
+	para "brauchen wir es"
+	line "nicht. Du kannst"
+	para "es haben."
 	done
 
 DayCareManText_GiveOddEgg:
-	text "I'm the DAY-CARE"
-	line "MAN."
+	text "Ich bin der"
+	line "PENSIONSLEITER."
 
-	para "Do you know about"
-	line "EGGS?"
+	para "Kennst du dich"
+	line "mit EIERN aus?"
 
-	para "I was raising"
-	line "#MON with my"
-	cont "wife, you see."
+	para "Ich habe #MON"
+	line "mit meiner"
+	cont "Frau aufgezogen."
 
-	para "We were shocked to"
-	line "find an EGG!"
+	para "Wir waren ent-"
+	line "setzt, als wir ein"
+	cont "EI fanden!"
 
-	para "How incredible is"
-	line "that?"
+	para "Das ist doch"
+	line "unglaublich, oder?"
 
-	para "Well, wouldn't you"
-	line "like this EGG?"
-
-	para "Then fine, this is"
-	line "yours to keep!"
+	para "Nun, möchtest du"
+	line "das EI? Gut, nimm"
+	para "es, du darfst es"
+	line "behalten!"
 	done
 
 DayCareText_ComeAgain:
-	text "Come again."
+	text "Komm wieder."
 	done
 
 DayCareText_GotOddEgg:
-	text "<PLAYER> received"
-	line "ODD EGG!"
+	text "<PLAYER> erhält"
+	line "KURIOS-EI!"
 	done
 
 DayCareText_DescribeOddEgg:
-	text "I found that when"
-	line "I was caring for"
-
-	para "someone's #MON"
-	line "before."
-
-	para "But the trainer"
-	line "didn't want the"
-
-	para "EGG, so I'd kept"
-	line "it around."
+	text "Ich fand dies, als"
+	line "ich mich um ein"
+	para "#MON eines"
+	line "anderen Trainers"
+	para "kümmerte. Aber der"
+	line "Trainer wollte das"
+	para "EI nicht, also"
+	line "habe ich es"
+	cont "behalten."
 	done
 
 DayCareText_PartyFull:
-	text "You've no room for"
-	line "this."
+	text "Du hast dafür"
+	line "keinen Platz."
 	done
 
 DayCare_MapEvents:

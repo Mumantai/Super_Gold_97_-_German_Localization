@@ -236,78 +236,91 @@ Route113MovementData_DayCareManWalksBackInside_WalkAroundPlayer:
 	step_end
 	
 BugCatcherRobSeenText:
-	text "Did you see any"
-	line "cool bugs in the"
-	cont "FOREST?"
+    text "Hast du im WALD"
+    line "coole Käfer"
+    cont "gesehen?"
 	done
 	
 BugCatcherRobBeatenText:
-	text "My bugs are down!"
+	text "Meine Käfer sind"
+	line "am Boden!"
 	done
 	
 BugCatcherRobAfterBattleText:
-	text "That was a trick"
-	line "question."
-	para "All bugs are cool."
+    text "Das war eine"
+    line "Fangfrage. Alle"
+    cont "Käfer sind cool."
 	done
 
 
 SchoolboyChad1SeenText:
-	text "I'm studying rare"
-	line "#MON."
+    text "Ich lerne etwas"
+    line "über seltene"
+    cont "#MON."
 	done
 
 SchoolboyChad1BeatenText:
-	text "I didn't study"
-	line "enough, I guess."
+	text "Ich fürchte, ich"
+	line "habe noch nicht"
+	cont "genug gelernt."
 	done
 
 SchoolboyChadSoManyTestsText:
-	text "Have you ever"
-	line "heard of EEVEE?"
-	para "Rumor has it they"
-	line "live right here!"
-	para "I've never seen"
-	line "one though."
-	para "I'd definitely"
-	line "let you know if"
-	cont "I ever saw any."
+    text "Hast du schon mal"
+    line "von EVOLI gehört?"
+
+    para "Angeblich leben"
+    line "sie genau hier!"
+
+    para "Ich habe bisher"
+    line "aber noch keines"
+    cont "gesehen."
+
+    para "Ich werde es dir"
+    line "definitiv sagen,"
+    para "wenn ich jemals"
+    line "eines sehe."
 	done
 
 FledglingPaulsonSeenText:
-	text "I battle right"
-	line "by the #MON"
-	cont "CENTER."
-	para "That way it's easy"
-	line "to heal after I"
-	cont "lose."
+    text "Ich kämpfe direkt"
+    line "neben dem #MON-"
+    cont "CENTER."
+
+    para "So kann ich, nach"
+    line "einer Niederlage,"
+    para "einfach meine"
+    line "#MON heilen."
 	done
 
 FledglingPaulsonBeatenText:
-	text "Not again!"
+	text "Nicht schon"
+	line "wieder!"
 	done
 
 FledglingPaulsonAfterText:
-	text "My #MON are"
-	line "getting stronger,"
-	cont "slowly but surely."
+    text "Meine #MON"
+    line "werden langsam"
+    para "aber sicher immer"
+    line "stärker."
 	done
-	
-
 
 Route106CooltrainerMText:
-	text "Have you ever used"
-	line "a #MON DAYCARE?"
-	para "The friendly old"
-	line "couple in that"
-	para "house will raise"
-	line "your #MON."
+    text "Hast du schon mal"
+    line "eine PENSION für"
+    cont "#MON genutzt?"
+
+    para "Das nette ältere"
+    line "Pärchen in diesem"
+    para "Haus zieht deine"
+    line "#MON für dich"
+    cont "auf!"
 	done
 
 BugCatcherWade1SeenText:
-	text "I caught a bunch"
-	line "of #MON. Let me"
-	cont "battle with you!"
+	text "Ich habe einige"
+	line "#MON gefangen."
+	cont "Lass uns kämpfen!"
 	done
 
 BugCatcherWade1BeatenText:
@@ -315,78 +328,80 @@ BugCatcherWade1BeatenText:
 	done
 
 BugCatcherWade1AfterText:
-	text "You can catch"
-	line "#MON even if"
+	text "Du kannst #MON"
+	line "fangen, auch wenn"
 
-	para "you have six with"
-	line "you."
+	para "du bereits sechs"
+	line "bei dir trägst."
 
-	para "If you catch one,"
-	line "it'll go to your"
-	cont "BOX automatically."
+	para "Fängst du eines,"
+	line "wird es automa-"
+	cont "tisch auf die BOX"
+	cont "im PC übertragen."
 	done
 
-
 Route106YoungsterText:
-	text "I found a good"
-	line "#MON in JADE"
-	cont "FOREST."
+	text "Ich habe ein gutes"
+	line "#MON im JADEWALD"
+	cont "gefunden."
 
-	para "I'm going to raise"
-	line "it to take on"
-	cont "JASMINE."
+	para "Ich ziehe es groß,"
+	line "um später gegen"
+	cont "JASMIN anzutreten."
 
-	para "She's the leader"
-	line "of ALLOY CITY's"
-	cont "GYM."
+	para "Sie ist die ARENA-"
+	line "LEITERIN von"
+	cont "GENEOS CITY."
 	done
 
 Route106SignText:
 	text "ROUTE 106"
 
-	para "ALLOY CITY -"
-	line "BIRDON TOWN"
+	para "GENEOS CITY -"
+	line "TOTOMONIA"
 	done
 
 DarkCaveSignText:
-	text "#MON DAYCARE"
-	para "Let us raise your"
-	line "#MON!"
+	text "PENSION"
+
+	para "Wir Ziehen Dein"
+	line "#MON Für"
+	cont "Dich Auf!"
 	done
 
 JadeSignText:
-	text "JADE FOREST"
-	para "Entrance to the"
-	line "Right"
+	text "JADEWALD"
+	line "Eingang rechts."
 	done
 
 HikerAnthony2SeenText:
-	text "I came through the"
-	line "forest, but I"
-
-	para "still have plenty"
-	line "of energy left."
+	text "Ich bin durch den"
+	line "WALD gegangen,"
+	cont "aber ich habe noch"
+	para "viel Energie"
+	line "übrig."
 	done
 
 HikerAnthony2BeatenText:
-	text "Whoa! You've got"
-	line "more zip than me!"
+	text "Wow! Du hast mehr"
+	line "Mumm als ich!"
 	done
 
 HikerAnthony2AfterText:
-	text "We HIKERS are at"
-	line "our best when"
-	para "we're free to"
-	line "explore endlessly."
+	text "In den Bergen sind"
+	line "wir WANDERER"
+	cont "in unserem"
+	cont "Element."
 	done
 
 HikerAnthonyParaText:
-	text "Hey, did you get"
-	line "an EEVEE?"
+    text "Hey, konntest du"
+    line "ein EVOLI fangen?"
 
-	para "I caught one too."
+    para "Ich habe auch"
+    line "eines gefangen."
 
-	para "They're so fluffy!"
+    para "Sie sind so weich!"
 	done
 
 Route106_MapEvents:

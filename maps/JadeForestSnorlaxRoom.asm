@@ -40,21 +40,24 @@ SnorlaxAloneText:
 	done
 	
 SnorlaxText:
-	text "This SNORLAX looks"
-	line "kind of restless."
-	para "…Want to disturb"
-	line "it?"
+    text "Dieses RELAXO"
+    line "sieht irgendwie"
+    cont "unruhig aus."
+
+    para "…Möchtest du es"
+    line "stören?"
 	done
 	
 SnorlaxText2:
-	text "You pushed against"
-	line "the SNORLAX…"
-	para "It's awake!"
+    text "Du hast das RELAXO"
+    line "angestupst…"
+
+    para "Es ist aufgewacht!"
 	done
 	
 SnorlaxText3:
-	text "SNORLAX:"
-	line "Snor?"
+	text "RELAXO:"
+	line "Laxo?"
 	done
 	
 

@@ -46,63 +46,58 @@ Route105Antidote:
 Route105HiddenSuperPotion:
 	hiddenitem SUPER_POTION, EVENT_ROUTE_105_HIDDEN_POTION
 
-
-
-
 YoungsterMikeySeenText:
-	text "You're a #MON"
-	line "trainer, right?"
+	text "Du bist ein #-"
+	line "MON-Trainer, oder?"
 
-	para "Then you have to"
-	line "battle!"
+	para "Dann musst du"
+	line "kämpfen!"
 	done
 
 YoungsterMikeyBeatenText:
-	text "That's strange."
-	line "I won before."
+	text "Das ist seltsam."
+	line "Davor habe ich"
+	cont "gewonnen."
 	done
 
 YoungsterMikeyAfterText:
-	text "Becoming a good"
-	line "trainer is really"
-	cont "tough."
+	text "Ein guter Trainer"
+	line "zu werden ist"
+	cont "nicht einfach."
 
-	para "I'm going to bat-"
-	line "tle other people"
-	cont "to get better."
+	para "Ich kämpfe gegen"
+	line "andere Trainer, um"
+	cont "besser zu werden."
 	done
 
-
-
-
-
 Route105YoungsterText_DirectionsToMrPokemonsHouse:
-	text "I'm tired."
-	para "I don't want to"
-	line "walk anymore."
-	para "I wish my #MON"
-	line "could FLY me to"
-	cont "another town."
+    text "Ich bin müde."
+
+    para "Ich will nicht"
+    line "mehr laufen."
+
+    para "Ich wünschte, mein"
+    line "#MON könnte"
+    para "mich einfach an"
+    line "einen anderen Ort"
+    cont "FLIEGEN."
 	done
 
 Route105CooltrainerFText:
-	text "I'm looking for"
-	line "electric-type"
-	cont "#MON."
-	para "I know there's a"
-	line "few different"
-	para "species that live"
-	line "in this grass."
+    text "Ich suche nach"
+    line "Elektro-#MON."
+
+    para "Ich weiß, dass ei-"
+    line "nige Arten hier im"
+    cont "hohen Gras leben."
 	done
 
 Route105SignText:
 	text "ROUTE 105"
 
-	para "JADE FOREST"
-	line "Just Ahead"
+	para "JADEWALD"
+	line "Immer geradeaus."
 	done
-
-
 
 Route105_MapEvents:
 	db 0, 0 ; filler

@@ -132,131 +132,146 @@ RouteU4UFruitTree3:
 	fruittree FRUITTREE_TREE_JADE_FOREST_3
 	
 Text_HeadbuttIntro:
-	text "What am I doing?"
+	text "Was ich mache?"
+	line "Ich setze"
 
-	para "I'm shaking trees"
-	line "using HEADBUTT."
+	para "KOPFNUSS ein, um"
+	line "Bäume zu"
 
-	para "It's fun. Here,"
-	line "you try it too!"
+	para "schütteln."
+	line "Das macht Spaß!"
+
+	para "Probier es doch"
+	line "auch einmal!"
 	done
 
 Text_HeadbuttOutro:
-	text "Rattle trees with"
-	line "HEADBUTT. Some-"
-	cont "times, sleeping"
-	cont "#MON fall out."
+	text "Benutze KOPFNUSS,"
+	line "um Bäume zu"
+	cont "schütteln. Manch-"
+	cont "mal fallen schla-"
+	cont "fende #MON"
+	cont "herunter."
 	done
 
 Text_JadeForestLass:
-	text "There are a lot"
-	line "of #MON in the"
-	para "FOREST with moves"
-	line "that can inflict"
-	cont "status conditions."
-	para "It's a good idea"
-	line "to stock up on"
-	cont "items."
+    text "Im WALD gibt es"
+    line "viele #MON, die"
+    para "Statusveränderung-"
+    line "en verursachen"
+    cont "können."
+
+    para "Es ist eine gute"
+    line "Idee, ein paar"
+    cont "Items mitzunehmen."
 	done
 
 JadeForestSignpostText:
-	text "JADE FOREST is"
-	line "so overgrown with"
+	text "Der JADEWALD ist"
+	line "ist so dicht, dass"
 
-	para "trees that you"
-	line "can't see the sky."
+	para "man den Himmel"
+	line "nicht sehen kann."
 
-	para "Please watch out"
-	line "for items that may"
-	cont "have been dropped."
+	para "Halte Ausschau"
+	line "nach verlorenen"
+	cont "Gegenständen."
 	done
 	
 JadeForestSignpost2Text:
-	text "Exit to the right"
-	line "for ROUTE 106"
+    text "ROUTE 106"
+    line "Ausgang rechts"
 	done
 
 BugCatcherWayneSeenText:
-	text "Don't sneak up on"
-	line "me like that!"
+	text "Schleich dich"
+	line "nicht an!"
 
-	para "You frightened a"
-	line "#MON away!"
+	para "Du hast ein"
+	line "#MON verjagt!"
 	done
 
 BugCatcherWayneBeatenText:
-	text "I hadn't seen that"
-	line "#MON before…"
+	text "Dieses #MON"
+	line "habe ich noch nie"
+	cont "zuvor gesehen…"
 	done
 
 BugCatcherWayneAfterBattleText:
-	text "A #MON I've"
-	line "never seen before"
+	text "Ein #MON, das"
+	line "ich noch nie zuvor"
 
-	para "fell out of the"
-	line "tree when I used"
-	cont "HEADBUTT."
+	para "sah, fiel aus dem"
+	line "Baum, als ich"
+	cont "KOPFNUSS"
+	cont "einsetzte."
 
-	para "I ought to use"
-	line "HEADBUTT in other"
-	cont "places too."
+	para "Ich sollte"
+	line "KOPFNUSS auch an"
+	cont "anderen Stellen"
+	cont "einsetzen."
 	done
 
 
 HikerLeonardSeenText:
-	text "I'm walking"
-	line "through this"
-	para "FOREST until I see"
-	line "every #MON that"
-	cont "lives here!"
+    text "Ich laufe durch"
+    line "diesen WALD, bis"
+    para "ich jedes #MON"
+    line "gesehen habe, das"
+    cont "hier lebt!"
 	done
 
 HikerLeonardBeatenText:
-	text "I should stick to"
-	line "hiking!"
+    text "Ich sollte beim"
+    line "Wandern bleiben!"
 	done
 
 HikerLeonardAfterBattleText:
-	text "The FOREST has"
-	line "many species of"
-	para "#MON that don't"
-	line "appear anywhere"
-	cont "else."
+    text "Im WALD gibt es"
+    line "viele #MON,"
+    para "die es nirgendwo"
+    line "sonst gibt."
 	done
 
 
 FirebreatherBillSeenText:
-	text "Nothing in this"
-	line "FOREST can handle"
-	cont "my fire #MON!"
+    text "In diesem WALD,"
+    line "kann nichts mit"
+    para "meinen Feuer-#-"
+    line "MON mithalten!"
 	done
 
 FirebreatherBillBeatenText:
-	text "Yeowch!"
+	text "Auauautsch!"
 	done
 
 FirebreatherBillAfterBattleText:
-	text "I gotta be careful"
-	line "not to set the"
-	cont "trees on fire."
+    text "Ich muss vorsich-"
+    line "tig sein, dass ich"
+    para "die Bäume nicht in"
+    line "Brand setze!"
 	done
 	
 
 CooltrainerfGwenSeenText:
-	text "I'm not lost!"
-	para "And even if I was,"
-	line "my team is ready"
-	cont "for any trainer!"
+    text "Ich habe mich"
+    line "nicht verlaufen!"
+
+    para "Und selbst wenn,"
+    line "mein Team kann es"
+    para "mit allem und"
+    line "jedem aufnehmen!"
 	done
 
 CooltrainerfGwenBeatenText:
-	text "It's important to"
-	line "be prepared."
+    text "Es ist wichtig,"
+    line "auf alles vorbe-"
+    cont "reitet zu sein!"
 	done
 
 CooltrainerfGwenAfterBattleText:
-	text "I definitely know"
-	line "where I'm going!"
+    text "Ich weiß schon, wo"
+    line "ich langgehe!"
 	done
 
 JadeForest_MapEvents:

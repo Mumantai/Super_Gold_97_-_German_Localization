@@ -99,10 +99,10 @@ DollSalesmanWednesdayMenu:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "SQUIRTLE    ¥5000@"
-	db "MAGIKARP    ¥5000@"
-	db "ODDISH      ¥5000@"
-	db "CANCEL@"
+	db "SCHIGGY     ¥5000@"
+	db "KARPADOR    ¥5000@"
+	db "MYRAPLA     ¥5000@"
+	db "ZURÜCK@"
 	
 DollSalesmanWednesday_FinishScript:
 	waitsfx
@@ -125,69 +125,81 @@ DollSalesmanWednesdayNoMoney:
 	end
 	
 SendItemToPCTextDollWednesday:
-	text "Send this DOLL to"
-	line "your bedroom PC?"
+    text "Die PUPPE an den"
+    line "PC schicken?"
 	done
 
 AlreadyHaveDecorItemTextSalesmanWednesday:
-	text "You already have"
-	line "this DOLL!"
+    text "Du hast diese"
+    line "PUPPE bereits!"
 	done
 
 DollSalesmanWednesday_HereYouGoText:
-	text "Here you go!"
+	text "Hier, bitte schön!"
 	done
 	
 DollSalesmanWednesdayComeAgain:
-	text "Hope to see you"
-	line "again somewhere!"
+    text "Ich hoffe, wir"
+    line "sehen uns bald"
+    cont "wieder irgendwo!"
 	done
 	
 DollSalesmanWednesdayNoMoneyText:
-	text "Sorry, you'll"
-	line "need more money!"
+    text "Tut mir leid, du"
+    line "hast nicht genug"
+    line "Geld!"
 	done
 	
 DollSalesmanTextWednesday:
-	text "Hiya!"
-	para "I'm a traveling"
-	line "DOLL salesman!"
-	para "What does that"
-	line "mean?"
-	para "It means that I'm"
-	line "who you talk to"
-	para "if you want to"
-	line "deck out your"
-	cont "bedroom!"
-	para "My stock and my"
-	line "location change"
-	para "daily, so keep an"
-	line "eye out for me!"
+    text "Hey!"
+
+    para "Ich bin ein rei-"
+    line "sender PUPPEN-"
+    cont "Händler!"
+
+    para "Was das heißt?"
+
+    para "Das soll heißen,"
+    line "ich bin dein"
+    para "Ansprechpartner,"
+    line "wenn es darum"
+    cont "geht, dein Zimmer"
+    cont "aufzupeppen!"
+
+    para "Mein Angebot und"
+    line "mein Standort"
+    para "wechseln täglich,"
+    line "also halte deine"
+    cont "Augen offen!"
 	done
 	
 DollSalesmanTextWednesday_AskWhichPrizeText:
-	text "Now which DOLL"
-	line "would you like?"
+    text "Also, welche PUPPE"
+    line "hättest du gerne?"
 	done
 	
 ;---------------------------------
 
 
 Route105Route106GateOfficerText:
-	text "JADE FOREST is"
-	line "a mysterious area."
-	para "Be sure to treat"
-	line "it with respect."
+    text "Der JADEWALD ist"
+    line "ein mysteriöses"
+    cont "Gebiet."
+
+    para "Behandle ihn stets"
+    line "mit Respekt."
 	done
 
 Route105Route106GateRockerText:
-	text "I like going for"
-	line "peaceful walks in"
-	cont "JADE FOREST."
-	para "It's a lot less"
-	line "scary in there"
-	para "once you know your"
-	line "way around."
+    text "Ich mache gerne"
+    line "friedliche"
+    para "Spaziergänge im"
+    line "JADEWALD."
+
+    para "Sobald man sich da"
+    line "auskennt, ist er"
+    cont "auch nicht mehr so"
+    cont "gruselig."
 	done
 
 Route105Route106Gate_MapEvents:
