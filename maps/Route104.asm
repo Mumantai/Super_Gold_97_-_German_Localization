@@ -233,7 +233,7 @@ Route104TeacherText:
     cont "TOTOMONIA nicht."
 
     para "Es muss doch einen"
-    line Rückweg geben…"
+    line "Rückweg geben…"
 	done
 
 DontStepFlowers:
