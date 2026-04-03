@@ -63,12 +63,12 @@ INCLUDE "maps/TeknosAquarium1F.asm"
 INCLUDE "maps/TeknosAquarium2F.asm"
 INCLUDE "maps/EndonCave2F.asm"
 INCLUDE "maps/EndonCaveRuinsConnection.asm"
-INCLUDE "maps/AlloyLighthouse5F.asm"
-INCLUDE "maps/AlloyLighthouse6F.asm"
 
 
 SECTION "Map Scripts 4", ROMX
 
+INCLUDE "maps/AlloyLighthouse5F.asm"
+INCLUDE "maps/AlloyLighthouse6F.asm"
 INCLUDE "maps/OldMahoganyMart1F.asm"
 INCLUDE "maps/TeamRocketBaseOffice.asm"
 INCLUDE "maps/TeamRocketBaseB1F.asm"
