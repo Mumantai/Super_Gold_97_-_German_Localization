@@ -161,25 +161,31 @@ Text_FocusBandDescription:
 	done
 	
 Text_GoodJob:
-	text "WAHA! You should"
-	line "train in our DOJO,"
-	cont "kid!"
+    text "WAHA! Du solltest"
+    line "auch in unserem"
+    para "DOJO trainieren,"
+    line "Knirps!"
 	done
 	
 Text_BeatEm:
-	text "Wow, kid!"
-	para "That was an"
-	line "impressive show!"
-	para "You've earned"
-	line "this!"
+    text "Wow, Knirps!"
+
+    para "Das war eine"
+    line "beeindruckende"
+    cont "Vorstellung!"
+
+    para "Das hast du dir"
+    line "verdient!"
 	done
 
 Text_GoBeatBlackbelts:
-	text "Hey, kid!"
-	para "If you can defeat"
-	line "my students, I'll"
-	para "reward you with"
-	line "a prize!"
+    text "Hey, Knirps!"
+
+    para "Wenn du meine"
+    line "Schüler besiegen"
+    para "kannst, belohne"
+    line "ich dich mit einem"
+    cont "tollen Preis!"
 	done
 
 FightingDojoBlackBeltText:
