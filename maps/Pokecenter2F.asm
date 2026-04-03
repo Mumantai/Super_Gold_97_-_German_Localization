@@ -406,171 +406,187 @@ Pokecenter2FMovementData_ReceptionistStepsLeftLooksRight:
 	step_end
 
 Text_BattleReceptionistIntro:
-	text "Welcome to CABLE"
-	line "CLUB COLOSSEUM."
+	text "Willkommen im"
+	line "KABEL-CLUB-"
+	cont "KOLOSSEUM."
 
-	para "You may battle a"
-	line "friend here."
+	para "Du kannst hier"
+	line "gegen einen Freund"
+	cont "antreten."
 
-	para "Would you like to"
-	line "battle?"
+	para "Möchtest du gerne"
+	line "kämpfen?"
 	done
 
 Text_TradeReceptionistIntro:
-	text "Welcome to CABLE"
-	line "CLUB TRADE CENTER."
+	text "Willkommen im"
+	line "KABEL-CLUB-"
+	cont "HANDELSCENTER."
 
-	para "You may trade your"
-	line "#MON here with"
-	cont "a friend."
+	para "Du kannst hier"
+	line "#MON mit einem"
+	cont "Freund tauschen."
 
-	para "Would you like to"
-	line "trade?"
+	para "Möchtest du gerne"
+	line "tauschen?"
 	done
 
 Text_TimeCapsuleReceptionistIntro:
-	text "Welcome to CABLE"
-	line "CLUB TIME CAPSULE."
+	text "Willkommen in"
+	line "der KABEL-CLUB-"
+	cont "ZEITKAPSEL."
 
-	para "You can travel to"
-	line "the past and trade"
-	cont "your #MON."
+	para "Du kannst in die"
+	line "Vergangenheit"
+	cont "reisen und deine"
+	cont "#MON tauschen."
 
-	para "Would you like to"
-	line "trade across time?"
+	para "Möchtest du gerne"
+	line "durch die Zeit"
+	cont "tauschen?"
 	done
 
 YourFriendIsNotReadyText:
-	text "Your friend is not"
-	line "ready."
+	text "Dein Freund ist"
+	line "noch nicht fertig."
 	prompt
 
 Text_MustSaveGame:
-	text "Before opening the"
-	line "link, you must"
-	cont "save your game."
+	text "Bevor du die"
+	line "Verbindung her-"
+	cont "stellst, musst du"
+	cont "deinen Spielstand"
+	cont "speichern."
 	done
 
 Text_PleaseWait:
-	text "Please wait."
+	text "Bitte warten!"
 	done
 
 Text_LinkTimedOut:
-	text "The link has been"
-	line "closed because of"
-	cont "inactivity."
+	text "Die Verbindung"
+	line "wurde aufgrund"
+	cont "fehlender Aktionen"
+	cont "abgebrochen."
 
-	para "Please contact"
-	line "your friend and"
-	cont "come again."
+	para "Nimm bitte Kontakt"
+	line "mit deinem Freund"
+	cont "auf und komm dann"
+	cont "wieder."
 	prompt
 
 Text_PleaseComeAgain:
-	text "Please come again."
+	text "Komm später"
+	line "wieder!"
 	prompt
 
 Text_PleaseComeIn:
-	text "Please come in."
+	text "Komm bitte herein."
 	prompt
 
 Text_TemporaryStagingInLinkRoom:
-	text "We'll put you in"
-	line "the link room for"
-	cont "the time being."
+	text "Wir bringen dich"
+	line "währenddessen in"
+	cont "den Link-Raum."
 	done
 
 Text_CantLinkToThePast:
-	text "You can't link to"
-	line "the past here."
+	text "Du kannst hier"
+	line "keine Verbindung"
+	cont "zur Vergangenheit"
+	cont "herstellen."
 	prompt
 
 Text_IncompatibleRooms:
-	text "Your friend chose"
-	line "a different room."
+	text "Dein Freund hat"
+	line "einen anderen Raum"
+	cont "gewählt."
 	prompt
 
 Text_PleaseComeIn2:
-	text "Please come in."
+	text "Komm doch herein."
 	done
 
 Text_PleaseEnter:
-	text "Please enter."
+	text "Komm herein."
 	prompt
 
 Text_RejectNewMon:
-	text "Sorry--@"
+	text "Leider kannst du"
+	line "@"
 	text_ram wStringBuffer1
 	text_start
-	line "can't be taken."
+	cont "nicht mitnehmen."
 	prompt
 
 Text_RejectMonWithNewMove:
-	text "You can't take the"
-	line "@"
 	text_ram wStringBuffer1
-	text " with a"
-	cont "@"
+	text_start
+	line "kann @"
 	text_ram wStringBuffer2
-	text "."
+	text_start
+	cont "nicht anwenden."
 	prompt
 
 Text_RejectMonWithMail:
-	text "You can't take the"
+	text "Du kannst"
 	line "@"
 	text_ram wStringBuffer1
-	text " that"
-	cont "has MAIL with you."
+	text " nicht"
+	cont "anwählen, weil es"
+	cont "einen BRIEF trägt."
 	prompt
 
 Text_TimeCapsuleClosed:
-	text "I'm sorry--the"
-	line "TIME CAPSULE is"
-	cont "being adjusted."
+	text "Leider wird die"
+	line "ZEITKAPSEL gerade"
+	cont "repariert."
 	done
 
 Text_TradeRoomClosed:
-	text "I'm sorry--the"
-	line "TRADE MACHINE is"
-	cont "being adjusted."
+	text "Leider wird der"
+	line "TAUSCHAUTOMAT"
+	cont "gerade repariert."
 	done
 
 Text_BattleRoomClosed:
-	text "I'm sorry--the"
-	line "BATTLE MACHINE is"
-	cont "being adjusted."
+	text "Leider wird der"
+	line "KAMPFAUTOMAT"
+	cont "gerade repariert."
 	done
 
 Text_MysteryGiftDeliveryGuy_Intro:
-	text "Hello! You're"
-	line "<PLAYER>, right?"
+	text "Hallo! Du bist"
+	line "doch <PLAYER>."
 
-	para "I have some-"
-	line "thing for you."
+	para "Ich habe hier"
+	line "etwas für dich."
 	done
 
 Text_MysteryGiftDeliveryGuy_HereYouGo:
-	text "Here you go!"
+	text "Hier, bitte sehr!"
 	done
 
 Text_MysteryGiftDeliveryGuy_Outro:
-	text "We hope to serve"
-	line "you again."
+	text "Hoffentlich können"
+	line "wir dir bald wie-"
+	cont "der behilflich"
+	cont "sein."
 	done
 
 Text_MysteryGiftDeliveryGuy_NoRoom:
-	text "Oh, you have no"
-	line "space for this."
+	text "Oh, du hast keinen"
+	line "Platz dafür."
 
-	para "Stop in at any"
-	line "#MON CENTER"
-
-	para "across the country"
-	line "to pick it up."
+	para "Du kannst es dir"
+	line "in jedem #MON-"
+	cont "CENTER des"
+	cont "Landes abholen."
 	done
 
 Text_MysteryGiftDeliveryGuy_SaidNo:
-	text "No? That's very"
-	line "strange…"
+	text "Nein? Das ist aber"
+	line "merkwürdig…"
 	done
 
 Pokecenter2F_MapEvents:
