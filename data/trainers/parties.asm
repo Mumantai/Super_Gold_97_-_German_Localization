@@ -681,18 +681,18 @@ SchoolboyGroup:
 	db -1 ; end
 
 	; SCHOOLBOY (21)
-	db "HOLGER@", TRAINERTYPE_NORMAL; alan 4, unused
-	db 37, NATU
-	db 38, TANGELA
-	db 37, TANGELA
-	db -1 ; end
+;	db "HOLGER@", TRAINERTYPE_NORMAL; alan 4, unused
+;	db 37, NATU
+;	db 38, TANGELA
+;	db 37, TANGELA
+;	db -1 ; end
 
 	; SCHOOLBOY (22)
-	db "HOLGER@", TRAINERTYPE_MOVES; alan 5, unused
-	db 44, XATU,       PECK, NIGHT_SHADE, SWIFT, FUTURE_SIGHT
-	db 43, JUNGELA,    POISONPOWDER, VINE_WHIP, BIND, MEGA_DRAIN
-	db 44, JUNGELA,    POISONPOWDER, VINE_WHIP, BIND, MEGA_DRAIN
-	db -1 ; end
+;	db "HOLGER@", TRAINERTYPE_MOVES; alan 5, unused
+;	db 44, XATU,       PECK, NIGHT_SHADE, SWIFT, FUTURE_SIGHT
+;	db 43, JUNGELA,    POISONPOWDER, VINE_WHIP, BIND, MEGA_DRAIN
+;	db 44, JUNGELA,    POISONPOWDER, VINE_WHIP, BIND, MEGA_DRAIN
+;	db -1 ; end
 
 	; SCHOOLBOY (23)
 	db "LUTZ@", TRAINERTYPE_NORMAL
@@ -1364,10 +1364,10 @@ PokemaniacGroup:
 	db -1 ; end
 
 	; POKEMANIAC (5)
-	db "KOUJI@", TRAINERTYPE_NORMAL ; unused, in sailorhuey
-	db 21, SLOWBRO
-	db 21, DISTURBAN
-	db -1 ; end
+;	db "KOUJI@", TRAINERTYPE_NORMAL ; unused, in sailorhuey
+;	db 21, SLOWBRO
+;	db 21, DISTURBAN
+;	db -1 ; end
 
 	; POKEMANIAC (6)
 	db "TARO@", TRAINERTYPE_NORMAL; used, boardwalk
@@ -1631,10 +1631,10 @@ GentlemanGroup:
 	db -1 ; end
 
 	; GENTLEMAN (3)
-	db "ALFRED@", TRAINERTYPE_NORMAL; unused
-	db 44, PIKACHU
-	db 39, FLAAFFY
-	db -1 ; end
+;	db "ALFRED@", TRAINERTYPE_NORMAL; unused
+;	db 44, PIKACHU
+;	db 39, FLAAFFY
+;	db -1 ; end
 
 	; GENTLEMAN (4)
 	db "KASPAR@", TRAINERTYPE_NORMAL
@@ -1830,10 +1830,10 @@ FisherGroup:
 	db -1 ; end
 
 	; FISHER (5)
-	db "ACHMED@", TRAINERTYPE_NORMAL; unused, in sailorhuey
-	db  9, POLIWAG
-	db  9, POLIWAG
-	db -1 ; end
+;	db "ACHMED@", TRAINERTYPE_NORMAL; unused, in sailorhuey
+;	db  9, POLIWAG
+;	db  9, POLIWAG
+;	db -1 ; end
 
 	; FISHER (6)
 	db "ANSELM@", TRAINERTYPE_NORMAL ; used, boardwalk
@@ -2108,15 +2108,15 @@ SwimmerMGroup:
 
 SwimmerFGroup:
 	; SWIMMERF (1)
-	db "KÄTE@", TRAINERTYPE_NORMAL; unused, in sailorhuey
-	db 25, STARYU
-	db -1 ; end
+;	db "KÄTE@", TRAINERTYPE_NORMAL; unused, in sailorhuey
+;	db 25, STARYU
+;	db -1 ; end
 
 	; SWIMMERF (2)
-	db "ELFI@", TRAINERTYPE_NORMAL; unused, in sailorhuey
-	db 22, STARYU
-	db 22, SHELLDER
-	db -1 ; end
+;	db "ELFI@", TRAINERTYPE_NORMAL; unused, in sailorhuey
+;	db 22, STARYU
+;	db 22, SHELLDER
+;	db -1 ; end
 
 	; SWIMMERF (3)
 	db "KARIN@", TRAINERTYPE_NORMAL; used, route 41
@@ -2126,10 +2126,10 @@ SwimmerFGroup:
 	db -1 ; end
 
 	; SWIMMERF (4)
-	db "THEKLA@", TRAINERTYPE_MOVES ;unused, in sailorhuey
-	db 24, PSYDUCK,    SCRATCH, TAIL_WHIP, DISABLE, CONFUSION
-	db 26, GOLDEEN,    PECK, TAIL_WHIP, SUPERSONIC, HORN_ATTACK
-	db -1 ; end
+;	db "THEKLA@", TRAINERTYPE_MOVES ;unused, in sailorhuey
+;	db 24, PSYDUCK,    SCRATCH, TAIL_WHIP, DISABLE, CONFUSION
+;	db 26, GOLDEEN,    PECK, TAIL_WHIP, SUPERSONIC, HORN_ATTACK
+;	db -1 ; end
 
 	; SWIMMERF (5)
 	db "MAGDA@", TRAINERTYPE_NORMAL;used now, moved from sailorhuey.asm
@@ -2144,7 +2144,7 @@ SwimmerFGroup:
 	db -1 ; end
 
 	; SWIMMERF (7)
-	db "GERDA@", TRAINERTYPE_MOVES;unused, in sailorhuey
+	db "GERDA@", TRAINERTYPE_MOVES; in sailorhuey
 	db 25, HORSEA,     BUBBLE, SMOKESCREEN, LEER, WATER_GUN
 	db 25, HORSEA,     DRAGON_RAGE, SMOKESCREEN, LEER, WATER_GUN
 	db -1 ; end
@@ -2210,15 +2210,15 @@ SwimmerFGroup:
 	db -1 ; end
 
 	; SWIMMERF (18)
-	db "HEIDI@", TRAINERTYPE_NORMAL; unused, in sailorhuey
-	db 44, GOLDUCK
-	db -1 ; end
+;	db "HEIDI@", TRAINERTYPE_NORMAL; unused, in sailorhuey
+;	db 44, GOLDUCK
+;	db -1 ; end
 
 	; SWIMMERF (19)
-	db "HELENE@", TRAINERTYPE_NORMAL; unused, in sailorhuey
-	db 42, SEAKING
-	db 42, SEAKING
-	db -1 ; end
+;	db "HELENE@", TRAINERTYPE_NORMAL; unused, in sailorhuey
+;	db 42, SEAKING
+;	db 42, SEAKING
+;	db -1 ; end
 
 SailorGroup:
 	; SAILOR (1)
@@ -2456,12 +2456,12 @@ GuitaristGroup:
 	db -1 ; end
 
 	; GUITARIST (2)
-	db "JOE@", TRAINERTYPE_NORMAL; unused
-	db 32, MAGNEMITE
-	db 39, VOLTORB
-	db 38, MAGNEMITE
-	db 38, MAGNEMITE
-	db -1 ; end
+;	db "JOE@", TRAINERTYPE_NORMAL; unused
+;	db 32, MAGNEMITE
+;	db 39, VOLTORB
+;	db 38, MAGNEMITE
+;	db 38, MAGNEMITE
+;	db -1 ; end
 
 HikerGroup:
 	; HIKER (1)
@@ -2620,7 +2620,7 @@ BikerGroup:
 	db -1 ; end
 
 	; BIKER (3)
-	db "ELERT@", TRAINERTYPE_NORMAL ;unused
+	db "ELERT@", TRAINERTYPE_NORMAL
 	db 51, DONPHAN
 	db 50, GIRAFARIG
 	db 52, WEEZING
@@ -2628,12 +2628,12 @@ BikerGroup:
 	db -1 ; end
 
 	; BIKER (4)
-	db "GASTON@", TRAINERTYPE_NORMAL ;unused
+	db "GASTON@", TRAINERTYPE_NORMAL
 	db 54, FLAREON
 	db -1 ; end
 
 	; BIKER (5)
-	db "EGIDIUS@", TRAINERTYPE_NORMAL ;unused
+	db "EGIDIUS@", TRAINERTYPE_NORMAL
 	db 51, CHARIZARD
 	db 51, BRUINUS
 	db -1 ; end
@@ -2766,9 +2766,9 @@ FirebreatherGroup:
 	db -1 ; end
 
 	; FIREBREATHER (7)
-	db "UDE@", TRAINERTYPE_NORMAL ;unused
-	db  10, VULPIX
-	db -1 ; end
+;	db "UDE@", TRAINERTYPE_NORMAL ;unused
+;	db  10, VULPIX
+;	db -1 ; end
 
 	; FIREBREATHER (8)
 	db "WIM@", TRAINERTYPE_NORMAL; used fast ship 1
@@ -2794,12 +2794,12 @@ JugglerGroup:
 	db -1 ; end
 
 	; JUGGLER (3)
-	db "IGNAZ@", TRAINERTYPE_NORMAL; unused
-	db 39, ELECTRODE
-	db 39, ELECTRODE
-	db 39, ELECTRODE
-	db 39, ELECTRODE
-	db -1 ; end
+;	db "IGNAZ@", TRAINERTYPE_NORMAL; unused
+;	db 39, ELECTRODE
+;	db 39, ELECTRODE
+;	db 39, ELECTRODE
+;	db 39, ELECTRODE
+;	db -1 ; end
 
 	; JUGGLER (4)
 	db "ERICH@", TRAINERTYPE_NORMAL
@@ -2949,16 +2949,16 @@ PsychicGroup:
 	db -1 ; end
 
 	; PSYCHIC_T (2)
-	db "FREDERIC@", TRAINERTYPE_NORMAL; unused, in sailorhuey
-	db 44, KADABRA
-	db -1 ; end
+;	db "FREDERIC@", TRAINERTYPE_NORMAL; unused, in sailorhuey
+;	db 44, KADABRA
+;	db -1 ; end
 
 	; PSYCHIC_T (3)
-	db "MARCEL@", TRAINERTYPE_NORMAL; unused, in sailorhuey
-	db 36, EXEGGCUTE
-	db 36, EXEGGCUTE
-	db 36, EXEGGUTOR
-db -1 ; end
+;	db "MARCEL@", TRAINERTYPE_NORMAL; unused, in sailorhuey
+;	db 36, EXEGGCUTE
+;	db 36, EXEGGCUTE
+;	db 36, EXEGGUTOR
+;   db -1 ; end
 
 	; PSYCHIC_T (4)
 	db "JEAN@", TRAINERTYPE_NORMAL; used, route 10 north
@@ -3006,11 +3006,11 @@ db -1 ; end
 	db -1 ; end
 
 	; PSYCHIC_T (11)
-	db "RAINIER@", TRAINERTYPE_NORMAL; unused, in sailorhuey
-	db 38, MR__MIME
-	db 38, EXEGGCUTE
-	db 42, EXEGGCUTE
-	db -1 ; end
+;	db "RAINIER@", TRAINERTYPE_NORMAL; unused, in sailorhuey
+;	db 38, MR__MIME
+;	db 38, EXEGGCUTE
+;	db 42, EXEGGCUTE
+;	db -1 ; end
 
 	; PSYCHIC_T (12)
 	db "HENRY@", TRAINERTYPE_NORMAL; used fast ship w2a
@@ -3248,9 +3248,9 @@ CamperGroup:
 	db -1 ; end
 
 	; CAMPER (11)
-	db "PATRICK@", TRAINERTYPE_NORMAL; unused
-	db 20, MANKEY
-	db -1 ; end
+;	db "PATRICK@", TRAINERTYPE_NORMAL; unused
+;	db 20, MANKEY
+;	db -1 ; end
 
 	; CAMPER (12)
 	db "BODO@", TRAINERTYPE_NORMAL
@@ -3319,18 +3319,18 @@ CamperGroup:
 
 ExecutiveFGroup:
 	; EXECUTIVEF (1)
-	db "VORSTAND@", TRAINERTYPE_MOVES; unused
-	db 38, ARBOK,      WRAP, POISON_STING, BITE, GLARE
-	db 38, VILEPLUME,  ABSORB, SWEET_SCENT, SLEEP_POWDER, ACID
-	db 38, MURKROW,    PECK, PURSUIT, HAZE, NIGHT_SHADE
-	db -1 ; end
+;	db "VORSTAND@", TRAINERTYPE_MOVES; unused
+;	db 38, ARBOK,      WRAP, POISON_STING, BITE, GLARE
+;	db 38, VILEPLUME,  ABSORB, SWEET_SCENT, SLEEP_POWDER, ACID
+;	db 38, MURKROW,    PECK, PURSUIT, HAZE, NIGHT_SHADE
+;	db -1 ; end
 
 	; EXECUTIVEF (2)
-	db "VORSTAND@", TRAINERTYPE_MOVES; unused
-	db 27, ARBOK,      WRAP, LEER, POISON_STING, BITE
-	db 27, GLOOM,      ABSORB, SWEET_SCENT, SLEEP_POWDER, ACID
-	db 30, MURKROW,    PECK, PURSUIT, HAZE, NO_MOVE
-	db -1 ; end
+;	db "VORSTAND@", TRAINERTYPE_MOVES; unused
+;	db 27, ARBOK,      WRAP, LEER, POISON_STING, BITE
+;	db 27, GLOOM,      ABSORB, SWEET_SCENT, SLEEP_POWDER, ACID
+;	db 30, MURKROW,    PECK, PURSUIT, HAZE, NO_MOVE
+;	db -1 ; end
 
 SageGroup:
 	; SAGE (1)
@@ -3456,11 +3456,11 @@ MediumGroup:
 
 BoarderGroup:
 	; BOARDER (1)
-	db "LOUIS@", TRAINERTYPE_NORMAL ;unused
-	db 28, SEEL
-	db 30, DEWGONG
-	db 28, SEEL
-	db -1 ; end
+;	db "LOUIS@", TRAINERTYPE_NORMAL ;unused
+;	db 28, SEEL
+;	db 30, DEWGONG
+;	db 28, SEEL
+;	db -1 ; end
 
 	; BOARDER (2)
 	db "KUNO@", TRAINERTYPE_NORMAL ; used, blue forest gym
@@ -3618,16 +3618,16 @@ TwinsGroup:
 	db -1 ; end
 
 	; TWINS (5)
-	db "LEA & IDA@", TRAINERTYPE_NORMAL; unused
-	db 42, VICTREEBEL
-	db 42, VILEPLUME
-	db -1 ; end
+;	db "LEA & IDA@", TRAINERTYPE_NORMAL; unused
+;	db 42, VICTREEBEL
+;	db 42, VILEPLUME
+;	db -1 ; end
 
 	; TWINS (6)
-	db "LEA & IDA@", TRAINERTYPE_NORMAL; unused
-	db 42, VILEPLUME
-	db 42, VICTREEBEL
-	db -1 ; end
+;	db "LEA & IDA@", TRAINERTYPE_NORMAL; unused
+;	db 42, VILEPLUME
+;	db 42, VICTREEBEL
+;	db -1 ; end
 
 	; TWINS (7)
 	db "ZOE & PIA@", TRAINERTYPE_NORMAL; used, fast ship 1
@@ -3833,7 +3833,7 @@ SoldierGroup:; use officer sprite
 	db -1 ; end
 	
 	; SOLDIER (3)
-	db "DAN@", TRAINERTYPE_NORMAL ;unused
+	db "DAN@", TRAINERTYPE_NORMAL
 	db 53, ARCANINE
 	db 54, KAZAPPELIN
 	db 55, ELECTRODE
