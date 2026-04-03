@@ -285,8 +285,8 @@ BicycleDesc:
 	next "schneller zu sein.@"
 
 MoonStoneDesc:
-	db   "Entwickelt"
-	next "manche #MON.@"
+	db   "Entwickelt manche"
+	next "#MON.@"
 
 AntidoteDesc:
 	db   "Heilt"
