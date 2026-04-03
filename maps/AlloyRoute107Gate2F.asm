@@ -12,43 +12,45 @@ AlloyRoute107Gate2FCooltrainerfScript:
 	jumptextfaceplayer AlloyRoute107Gate2FCooltrainerfText
 
 AlloyRoute107Gate2FCooltrainerfText:
-	text "I like to watch"
-	line "the waves of the"
-	para "ocean from this"
-	line "gate."
+    text "Ich schaue mir"
+    line "gerne die Wellen"
+    cont "des Meeres von"
+    cont "hier aus an."
 	done
 	
 AlloyRoute107Gate2FBugCatcherScript:
 	jumptextfaceplayer AlloyRoute107Gate2FBugCatcherText
 
 AlloyRoute107Gate2FBugCatcherText:
-	text "I wish I had"
-	line "a #MON that"
-	para "could carry me"
-	line "across water!"
+    text "Ich wünschte, ich"
+    line "hätte ein #MON,"
+    para "das mich über das"
+    line "Wasser trägt!"
 	done
 	
 AlloyRoute107Gate2FSign:
 	jumptext AlloyRoute107Gate2FSignText
 	
 AlloyRoute107Gate2FSignText:
-	text "<PLAYER> peeked"
-	line "through the"
-	cont "telescope!"
-	para "A small island"
-	line "town sits in"
-	cont "the distance!"
+    text "<PLAYER> schaut"
+    line "durch das"
+    cont "Fernrohr."
+
+    para "Eine kleine Insel-"
+    line "Stadt liegt in der"
+    cont "Ferne!"
 	done
 
 AlloyRoute107Gate2FSign2:
 	jumptext AlloyRoute107Gate2FSign2Text
 	
 AlloyRoute107Gate2FSign2Text:
-	text "<PLAYER> peeked"
-	line "through the"
-	cont "telescope!"
-	para "The waters look"
-	line "rough!"
+    text "<PLAYER> schaut"
+    line "durch das"
+    cont "Fernrohr."
+
+    para "Die Wellen sehen"
+    line "rau aus!"
 	done
 	
 AlloyRoute107Gate2F_MapEvents:

@@ -113,113 +113,137 @@ HoOhCryText:
 	done
 	
 SometimesYouLiveLongEnough:
-	text "Sometimes you live"
-	line "long enough to"
-	para "witness things you"
-	line "never thought you"
-	cont "would see."
-	para "I had an encounter"
-	line "with the bird of"
-	cont "legend."
-	para "Truly a magical"
-	line "event."
-	para "…"
-	para "You know, you"
-	line "should search"
-	para "NIHON for the"
-	line "legendary beasts."
-	para "If HO-OH returned,"
-	line "anything is"
-	cont "possible."
+    text "Manchmal lebt man"
+    line "lang genug, um"
+    para "Dinge zu erleben,"
+    line "die man immer für"
+    cont "unmöglich hielt."
+
+    para "Ich hatte eine"
+    line "Begegnung mit dem"
+    cont "legendären Vogel."
+
+    para "Ein wahrhaft magi-"
+    line "sches Erlebnis."
+
+    para "…"
+
+    para "Weißt du was? Du"
+    line "solltest NIHON"
+    para "nach den legen-"
+    line "dären Bestien"
+    cont "absuchen."
+
+    para "Wenn HO-OH zurück-"
+    line "gekehrt ist, ist"
+    cont "alles möglich."
 	done
 	
 AlloyElderStoryText:
-	text "Listen closely…"
-	para "Many years ago,"
-	line "NIHON was guarded"
-	para "by a noble bird,"
-	line "whose wings burned"
-	cont "hot as fire."
-	para "This bird made its"
-	line "nest at the top"
-	para "of the 5 FLOOR"
-	line "TOWER over in"
-	cont "PAGOTA CITY."
-	para "This is where it"
-	line "roosted for many"
-	cont "years."
-	para "Some say it sat"
-	line "for centuries."
-	para "However, the bird"
-	line "became restless,"
-	para "and one fateful"
-	line "day, left the top"
-	cont "of the tower."
-	para "As it flew, ashes"
-	line "fell from its"
-	cont "wings."
-	para "From these ashes"
-	line "rose three beasts,"
-	para "who were meant to"
-	line "keep watch over"
-	para "NIHON while the"
-	line "bird was away."
-	para "The beasts"
-	line "scattered, and"
-	para "no one has seen"
-	line "them since."
-	para "But it is known"
-	line "that they have"
-	para "remained in NIHON,"
-	line "watching over it"
-	cont "in secret."
-	para "It is said that"
-	line "one day, the bird"
-	cont "shall return."
+    text "Hör gut zu…"
+
+	para "Vor vielen Jahren"
+	line "wurde NIHON von"
+	para "einem edlen Vogel"
+	line "bewacht, dessen"
+	para "Schwingen heiß wie"
+	line "Feuer brannten."
+
+	para "Dieser Vogel"
+	line "nistete einst auf"
+	para "der Spitze des"
+	line "5-EBENEN-TURMs in"
+	cont "PAGETIA CITY."
+
+    para "Dort ruhte er"
+    line "viele Jahre lang."
+
+	para "Manche sagen, es"
+	line "nistete dort gar"
+	cont "Jahrhunderte."
+
+	para "Doch der Vogel"
+	line "wurde unruhig und"
+	para "eines verhängnis-"
+	line "vollen Tages brach"
+	para "er auf und verließ"
+	line "die Spitze des"
+	cont "Turmes."
+
+	para "Als er flog, fiel"
+	line "Asche aus seinem"
+	cont "Gefieder."
+
+	para "Aus dieser Asche"
+	line "erhoben sich drei"
+	para "Bestien, die NIHON"
+	line "bewachen sollten,"
+	para "solange der Vogel"
+	line "fort war."
+
+	para "Die Bestien"
+	line "verstreuten sich"
+	para "und seither hat"
+	line "niemand sie je"
+	cont "wieder gesehen."
+
+	para "Doch man weiß,"
+	line "dass sie noch"
+	para "immer in NIHON"
+	line "verweilen und es"
+	para "im Verborgenen"
+	line "bewachen."
+
+	para "Eines Tages,"
+	line "so heißt es,"
+	para "kehrt der Vogel"
+	line "zurück."
 	done
 	
 AlloyElderStoryText2:
-	text "Could it be!?"
-	para "Has the fateful"
-	line "day arrived?"
+	text "Könnte es sein!?"
+
+	para "Ist der schicksal-"
+	line "hafte Tag endlich"
+	cont "gekommen?"
 	done
 	
 AlloySailorHoOhHouseElderAnotherTime:
-	text "Another time,"
-	line "then."
+	text "Dann ein andermal."
 	done
 
 AlloySailorHoOhHouseElderText2:
-	text "Do you want to"
-	line "hear the story of"
-	cont "the bird?"
+	text "Möchtest du die"
+	line "Geschichte des"
+	cont "Vogels hören?"
 	done
 	
 AlloySailorHoOhHouseElderIntroText:
-	text "One day I hope I"
-	line "can experience the"
-	para "conclusion of the"
-	line "legend."
+    text "Ich hoffe, eines"
+    line "Tages das Ende der"
+    para "Legende persönlich"
+    line "erleben zu können."
 	done
 
 AlloySailorHoOhHouseElderEvilText:
-	text "I sense an evil"
-	line "presence looming"
-	cont "over NIHON."
-	para "Surely the bird"
-	line "shall not return"
-	cont "until it is gone."
+    text "Ich spüre eine"
+    line "böse Präsenz über"
+    cont "NIHON schweben."
+
+    para "Der Vogel kehrt"
+    line "sicher nicht"
+    para "zurück, bis sie"
+    line "vertrieben wurde."
 	done
 	
 AlloySailorHoOhHouseElderNotBlessedText:
-	text "The time could be"
-	line "any day now, yet"
-	para "I do not sense"
-	line "that you are the"
-	para "type of trainer"
-	line "that the bird"
-	para "would present"
-	line "itself to."
+    text "Die Zeit ist schon"
+    line "bald gekommen,"
+    para "doch ich spüre"
+    line "nicht, dass du die"
+    para "Art Trainer bist,"
+    line "der sich der Vogel"
+    cont "zeigen würde."
 	done
 
 AlloySailorHoOhHouse_MapEvents:

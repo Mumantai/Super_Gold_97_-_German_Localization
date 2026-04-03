@@ -36,38 +36,40 @@ GoodRodGuru:
 	end
 
 OfferGoodRodText:
-	text "The canal that"
-	line "runs through the"
-	para "city is a popular"
-	line "fishing spot."
-	para "Wouldn't you like"
-	line "to take up a ROD"
-	cont "and fish in it?"
+    text "Der Kanal ist ein"
+    line "beliebter Platz"
+    cont "zum Angeln."
+
+    para "Möchtest du nicht"
+    line "eine ANGEL nehmen"
+    cont "und darin fischen?"
 	done
 
 GiveGoodRodText:
 	text "Ah, hahah!"
-	line "We have ourselves"
-	cont "a new angler!"
+	line "Und da haben wir"
+	cont "einen neuen"
+	cont "Angler!"
 	done
 
 GaveGoodRodText:
-	text "Fish aren't found"
-	line "in the sea alone."
+	text "Fische findet man"
+	line "nicht nur im Meer."
 
-	para "They go wherever"
-	line "there is water."
+	para "Sie sind überall,"
+	line "wo es Wasser gibt."
 	done
 
 DontWantGoodRodText:
-	text "Whaaat? You don't"
-	line "like to fish!?"
-	cont "Incomprehensible!"
+	text "Waaas? Du willst"
+	line "nicht fischen!?"
+	cont "Unfassbar!"
 	done
 
 HaveGoodRodText:
-	text "How are things?"
-	line "Land the big one?"
+	text "Wie steht's? Den"
+	line "großen Fang ge-"
+	cont "macht?"
 	done
 
 AlloyGoodRodHouse_MapEvents:

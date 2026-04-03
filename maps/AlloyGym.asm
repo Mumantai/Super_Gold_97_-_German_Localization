@@ -152,30 +152,29 @@ PostRematchScriptJasmine:
 	end
 
 JasmineRematchText:
-	text "I had faith that"
-	line "you would make"
-	para "it through the"
-	line "#MON LEAGUE!"
-	
-	para "Now, show me how"
-	line "much you've"
-	para "improved since"
-	line "last time!"
+    text "Ich wusste, du"
+    line "packst die #MON"
+    cont "LIGA!"
+
+    para "Dann zeig mir mal,"
+    line "wie sehr du dich"
+    para "seit dem letzten"
+    line "Mal verbessert"
+    cont "hast!"
 	done
 
 JasmineRematchWinText:
-	text "I hold strong"
-	line "that you are"
-	para "indeed the better"
-	line "trainer!"
+    text "Ich bin fest davon"
+    line "überzeugt, dass du"
+    para "der bessere Trai-"
+    line "ner bist!"
 	done
 
 JasmineAfterRematchText:
-	text "I hope to see"
-	line "you excel in"
-	para "whatever other"
-	line "challenges you"
-	cont "seek out!"
+	text "Ich hoffe, du"
+	line "meisterst auch"
+	para "jede weitere"
+	line "Herausforderung!"
 	done
 
 
@@ -257,64 +256,74 @@ TrainerSuperNerdTom:
 
 
 Jasmine_SteelTypeIntro:
-	text "Only those who"
-	line "have shown that"
-	para "they can handle"
-	line "the #MON of my"
-	para "GYM trainers have"
-	line "proven themselves"
-	para "to be worthy"
-	line "opponents of the"
-	para "incredible defense"
-	line "of my steel"
-	cont "#MON."
-	para "You've done well"
-	line "to defeat them."
-	para "But are you ready"
-	line "for me?"
+    text "Nur diejenigen,"
+    line "die gezeigt haben,"
+    line "dass sie es mit"
+    para "den #MON meiner"
+    line "Trainer aufnehmen"
+    para "können, haben sich"
+    line "bewiesen, würdige"
+    para "Gegner für die"
+    line "unglaubliche Ver-"
+    para "teidigung meiner"
+    line "STAHL-#MON"
+    cont "zu sein."
+
+    para "Du hast dich gut"
+    line "gegen sie geschla-"
+    para "gen. Aber bist du"
+    line "bereit für mich?"
 	done
 
 Jasmine_BetterTrainer:
-	text "…You are a better"
-	line "trainer than me,"
+	text "…Du bist ein bes-"
+	line "serer Trainer als"
 
-	para "and have proven"
-	line "it in this battle."
+	para "ich. Das betrifft"
+	line "sowohl Geschick,"
 
-	para "In accordance with"
-	line "LEAGUE rules, I"
+	para "als auch Fein-"
+	line "gefühl."
 
-	para "confer upon you"
-	line "this BADGE."
+	para "In Übereinstimmung"
+	line "mit den Regeln der"
+
+	para "LIGA überreiche"
+	line "ich dir diesen"
+	cont "ORDEN."
 	done
 
 Text_ReceivedMineralBadge:
-	text "<PLAYER> received"
-	line "MINERALBADGE."
+	text "<PLAYER> erhält"
+	line "STAHLORDEN."
 	done
 
 Jasmine_BadgeSpeech:
-	text "MINERALBADGE"
-	line "raises #MON's"
-	cont "DEFENSE."
-	
-	para "It also lets you"
-	line "use FLY outside"
-	cont "of battle."
+	text "Der STAHLORDEN"
+	line "erhöht die VERT"
+	cont "deiner #MON."
 
-	para "You've earned this"
-	line "too."
+	para "Außerdem können"
+	line "deine #MON"
+
+	para "FLIEGEN auch"
+	line "außerhalb eines"
+	cont "Kampfes einsetzen."
+
+	para "Das hast du dir"
+	line "auch verdient."
 	done
 
 Text_ReceivedTM09:
-	text "<PLAYER> received"
+	text "<PLAYER> erhält"
 	line "TM09."
 	done
 
 Jasmine_IronTailSpeech:
-	text "You could use"
-	line "that TM to teach"
-	cont "IRON TAIL."
+	text "Mit dieser TM"
+	line "kannst du deinen"
+	cont "#MON EISEN-"
+	cont "SCHWEIF lehren."
 	done
 
 Jasmine_GoodLuck:
@@ -327,90 +336,97 @@ Jasmine_GoodLuck:
 	done
 
 AlloyGymGuyText:
-	text "JASMINE uses the"
-	line "newly discovered"
-	cont "steel-type."
+	text "JASMIN setzt den"
+	line "neu entdeckten Typ"
+	cont "Stahl ein."
 
-	para "I don't know very"
-	line "much about it."
+	para "Ich weiß nicht"
+	line "viel darüber."
 	done
 
 AlloyGymGuyWinText:
-	text "That was awesome."
+	text "Das war großartig!"
 
-	para "The steel-type,"
-	line "huh?"
+	para "Der Typ Stahl,"
+	line "was?"
 
-	para "That was a close"
-	line "encounter of an"
-	cont "unknown kind!"
+	para "Das war eine un-"
+	line "heimliche Begeg-"
+	cont "nung der unbe-"
+	cont "kannten Art."
 	done
 
-
-	
 AlloyGymBoulderFilled:
-	text "The boulder filled"
-	line "the hole!"
+	text "Der Felsen füllt"
+	line "das Loch!"
 	done
-
 
 GentlemanPrestonSeenText:
-	text "Have you ever"
-	line "faced off against"
-	para "the defenses of"
-	line "steel #MON?"
+    text "Bist du jemals"
+    line "gegen die Vertei-"
+    para "digungen von"
+    line "STAHL-#MON"
+    cont "angetreten?"
 	done
 
 GentlemanPrestonBeatenText:
-	text "A good trainer is"
-	line "ready to face all"
-	cont "types."
+    text "Ein guter Trainer"
+    line "ist gegen jeden"
+    cont "Typ gerüstet."
 	done
 
 GentlemanPrestonAfterBattleText:
-	text "Steel #MON have"
-	line "high DEFENSE."
-	para "But they're not"
-	line "impenetrable."
+    text "STAHL-#MON"
+    line "haben eine hohe"
+    cont "VERTEIDIGUNG."
+
+    para "Sie sind aber"
+    line "nicht undurch-"
+    cont "dringlich."
 	done
 
 
 GentlemanAlfredSeenText:
-	text "This GYM used to"
-	line "use rock #MON."
-	para "But JASMINE found"
-	line "the new steel-type"
-	cont "more appealing."
+    text "In dieser ARENA"
+    line "benutzte man"
+    para "früher GESTEIN-"
+    line "#MON."
+
+    para "Aber JASMIN fand"
+    line "den neuen Typ"
+    cont "Stahl reizvoller."
 	done
 
 GentlemanAlfredBeatenText:
-	text "Good show!"
+	text "Gute Vorstellung!"
 	done
 
 GentlemanAlfredAfterBattleText:
-	text "ONIX wasn't known"
-	line "to have an evolved"
-	para "form until"
-	line "recently."
+    text "Bis vor kurzem,"
+    line "wusste man nicht,"
+    para "dass ONIX eine"
+    line "Weiterentwicklung"
+    cont "hat."
 	done
 	
 SuperNerdTomSeenText:
-	text "The steel-type"
-	line "is rare!"
-	para "Which means of"
-	line "course I have to"
-	cont "use it!"
+    text "Der Typ Stahl ist"
+    line "selten!"
+
+    para "Was bedeutet, dass"
+    line "ich ihn natürlich"
+    cont "benutzen muss!"
 	done
 
 SuperNerdTomBeatenText:
-	text "Victories are also"
-	line "rare…"
+	text "Siege sind auch"
+	line "selten…"
 	done
 
 SuperNerdTomAfterBattleText:
-	text "I only am"
-	line "interested in"
-	cont "rare things."
+	text "Ich interessiere"
+	line "mich nur für"
+	cont "seltene Dinge."
 	done
 
 AlloyGym_MapEvents:

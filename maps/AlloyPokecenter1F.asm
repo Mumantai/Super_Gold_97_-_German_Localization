@@ -22,28 +22,29 @@ AlloyPokecenter1FTeacherScript:
 	jumptextfaceplayer AlloyPokecenter1FTeacherText
 
 AlloyPokecenter1FFisherText:
-	text "The SAILOR in the"
-	line "ALLOY CAFE south"
+	text "Der MATROSE im"
+	line "GENEOS CITY-CAFE"
+	cont "im Süden ist sehr"
+	cont "großzügig."
 
-	para "of here is really"
-	line "generous."
+	para "Er hat meinem"
+	line "#MON FLIEGEN"
+	cont "beigebracht."
 
-	para "He taught my"
-	line "#MON FLY."
-
-	para "Now it can take"
-	line "me anywhere I've"
-	cont "already been."
+	para "Jetzt kann es mich"
+	line "überall wo ich war"
+	cont "hinbringen."
 	done
 
 AlloyPokecenter1FTeacherText:
-	text "There's a person"
-	line "on KOBAN ISLAND"
-	cont "across the sea."
+	text "Da gibt es jeman-"
+	line "den jenseits des"
+	cont "Meeres auf der"
+	cont "SATORIA-INSEL."
 
-	para "I hear she's a"
-	line "master of dragon"
-	cont "#MON."
+	para "Ich habe gehört,"
+	line "sie ist eine"
+	cont "Drachenmeisterin."
 	done
 
 AlloyPokecenter1F_MapEvents:

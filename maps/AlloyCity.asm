@@ -155,97 +155,115 @@ AlloyRivalLeaving3:
 
 AlloyCityGrampsText:
 	text "Ohohoho!"
-	para "You ever battle"
-	line "with the steel-"
-	cont "type?"
-	para "They have high"
-	line "defenses!"
-	para "Know this if you"
-	line "plan to take on"
-	cont "JASMINE!"
+
+	para "Hast du schon mal"
+	line "gegen ein #MON"
+	para "vom Typ Stahl"
+	line "gekämpft?"
+
+	para "Die haben eine"
+	line "hohe Verteidigung!"
+
+	para "Merk dir das,"
+	line "wenn du JASMIN"
+	cont "herausforderst!"
 	done
 
 AlloyCityRivalText:
 	text "<PLAYER>!"
-	para "It's been a while!"
-	para "You just got"
-	line "through JADE"
-	cont "FOREST, right?"
-	para "It's a tough place."
-	para "But it's filled"
-	line "with #MON!"
-	para "I'm actually not"
-	line "in the mood to"
-	cont "battle right now."
-	para "I'm headed back"
-	line "out to the FOREST"
-	para "to look for more"
-	line "#MON!"
-	para "Can't miss the"
-	line "opportunity to"
-	para "look for the"
-	line "strongest #MON"
-	cont "to add to my team!"
-	para "This city's pretty"
-	line "cool, though!"
-	para "There's a GYM"
-	line "LEADER that uses"
-	cont "the steel-type!"
-	para "I'd never even"
-	line "heard of that type"
-	cont "before!"
-	para "Anyways, I'm off!"
-	line "See you around!"
+
+	para "Ist 'ne Weile her!"
+
+	para "Du kommst gerade"
+	line "aus dem JADEWALD,"
+	cont "was?"
+
+	para "Der ist 'ne Nummer"
+	line "für sich."
+
+	para "Aber es gibt da"
+	line "viele #MON!"
+
+	para "Ich habe gerade"
+	line "keine Lust auf"
+	cont "einen Kampf."
+
+	para "Ich gehe zurück in"
+	line "den WALD, um noch"
+	para "mehr #MON zu"
+	line "suchen!"
+
+	para "Die Gelegenheit,"
+	line "nach dem stärksten"
+	para "#MON für mein"
+	line "Team zu suchen,"
+	para "kann ich mir nicht"
+    line "entgehen lassen!"
+
+    para "Die Stadt hier ist"
+    line "aber echt cool!"
+
+    para "Die ARENALEITERIN"
+    line "setzt #MON vom"
+    cont "Typ Stahl ein!"
+
+    para "Ich wusste gar"
+    line "nicht, dass es"
+    cont "diesen Typ gibt!"
+
+    para "Naja, ich bin dann"
+    line "mal weg!"
+
+    para "Wir sehen uns!"
 	done
 
 AlloyCitySailor1Text:
-	text "I've always had"
-	line "a dream to move"
-	para "farther north"
-	line "where it snows."
+    text "Ich träume schon"
+    line "immer davon, hoch"
+    para "in den Norden zu"
+    line "ziehen, wo es"
+    cont "schneit."
 	done
 
 AlloyCityStandingYoungsterPokegearText:
-	text "That thing you"
-	line "have--it's a #-"
-	cont "GEAR, right? Wow,"
-	cont "that's cool."
+	text "Dieses Ding da ist"
+	line "doch ein #COM."
+	cont "Wow, das ist cool!"
 	done
 
 AlloyCityStandingYoungsterPokedexText:
-	text "Wow, you have a"
+	text "Wow, du hast einen"
 	line "#DEX!"
 
-	para "That is just so"
-	line "awesome."
+	para "Das ist so toll!"
 	done
 
 AlloyCitySailor2Text:
-	text "The canal that"
-	line "runs through this"
-	para "city is a sight"
-	line "to behold at"
-	cont "sunset."
+    text "Der Kanal sieht"
+    line "bei Sonnenunter-"
+    cont "gang wundervoll"
+    cont "aus!"
 	done
 
 AlloyCitySignText:
-	text "ALLOY CITY"
+	text "GENEOS CITY"
 
-	para "A Bustling City"
-	line "by Rough Waters"
+	para "Die pulsierende"
+	line "Stadt an der"
+	cont "rauen See"
 	done
 
 AlloyGymSignText:
-	text "ALLOY CITY"
-	line "#MON GYM"
-	cont "LEADER: JASMINE"
+	text "PKMN-ARENA von"
+	line "GENEOS CITY"
+	cont "LEITUNG: JASMIN"
 
-	para "The Steel-Clad"
-	line "Defense Girl"
+	para "Ein stahlhartes"
+	line "Mädchen!"
 	done
 
 AlloyDojoSignText:
-	text "FIGHTING DOJO"
+	text "KARATE DOJO"
 	done
 
 AlloyCity_MapEvents:

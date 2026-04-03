@@ -18,17 +18,22 @@ AlloyKobanDifficultSpeechHouseRadio:
 	jumpstd Radio2Script
 
 AlloyKobanDifficultSpeechHouseDadText:
-	text "KOBAN ISLAND is"
-	line "such a quaint"
-	cont "little island."
-	para "But reaching it"
-	line "is difficult."
-	para "The waters north"
-	line "of here are filled"
-	cont "with whirlpools."
-	para "It's impossible to"
-	line "pass without the"
-	cont "help of #MON."
+    text "Die SATORIA-INSEL"
+    line "ist eine wirklich"
+    para "idyllische kleine"
+    line "Insel."
+
+    para "Aber er ist schwer"
+    line "sie zu erreichen."
+
+    para "Die Gewässer nörd-"
+    line "lich von hier sind"
+    cont "voll von Strudeln."
+
+    para "Ohne die Hilfe von"
+    line "einem #MON, ist"
+    para "es unmöglich, sie"
+    line "zu durchqueren."
 	done
 
 

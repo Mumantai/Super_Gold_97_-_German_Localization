@@ -34,47 +34,57 @@ AlloyCafeSailorScript:
 	jumptextfaceplayer AlloyCafeSailorText
 
 AlloyCafeStrengthSailorText:
-	text "Hah! Sailing is"
-	line "such an outdated"
-	cont "way to travel!"
-	para "Walking is, too!"
-	para "Why not have your"
-	line "#MON FLY you"
-	cont "everywhere?"
+    text "Ha! Segeln ist so"
+    line "eine veraltete Art"
+    cont "zu reisen!"
+
+    para "Laufen aber auch!"
+
+    para "Warum nicht ein-"
+    line "einfach von einem"
+    para "#MON FLIEGEN"
+    line "lassen?"
 	done
 
 AlloyCafeStrengthSailorText_GotStrength:
-	text "Ships still have"
-	line "to set sail since"
-	para "flying #MON"
-	line "can't carry cargo."
+    text "Schiffe braucht"
+    line "man allerdings"
+    cont "immer noch."
+
+    para "Fliegende #MON"
+    line "können keine"
+    cont "Fracht tragen."
 	done
 
 AlloyCafeFishingGuruText:
-	text "ALLOY CAFE's"
-	line "menu is chock full"
-
-	para "of hearty fare for"
-	line "hungry people!"
+	text "Im GENEOS CITY-"
+	line "CAFE gibt es nur"
+	para "delikate Seemanns-"
+	line "kost für MATROSEN"
+	para "auf dem"
+	line "Speiseplan!"
 	done
 
 AlloyCafeSailorText:
-	text "Whenever I roll"
-	line "into this town, I"
+	text "Immer wenn ich in"
+	line "diese Stadt komme,"
+	para "gehe ich ins"
+	line "GENEOS CITY CAFE."
 
-	para "always visit the"
-	line "ALLOY CAFE."
-
-	para "Everything here is"
-	line "delicious!"
+	para "Jedes Gericht auf"
+	line "der Karte stärkt"
+	para "mich. Ich kann"
+	line "nicht aufhören zu"
+	cont "essen!"
 	done
 	
 AlloyCafeClerkText:
-	text "Welcome to ALLOY"
-	line "CAFE!"
-	para "We have food to"
-	line "satisfy every"
-	cont "appetite!"
+    text "Willkommen im"
+    line "GENEOS CITY CAFE!"
+
+    para "Wir haben für"
+    line "jeden Appetit"
+    cont "etwas zu bieten!"
 	done
 
 AlloyCafe_MapEvents:
