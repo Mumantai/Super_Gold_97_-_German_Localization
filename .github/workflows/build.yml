@@ -38,11 +38,6 @@ jobs:
           make -j -k gold
         working-directory: .
 
-      - name: Silber ROM bauen
-        run: |
-          make -j -k silver
-        working-directory: .
-
       - name: Belegten Speicherplatz prüfen
         run: python3 tools/used_space.py
 
@@ -106,9 +101,9 @@ jobs:
         if: always()
         run: |
           {
-            echo "## ROM-Bankübersicht (Gold)"
+            echo "## ROM Bank and Section Report"
             echo ""
-            echo "<details><summary>Banken + Sections anzeigen</summary>"
+            echo "<details><summary>Show Banks + Sections</summary>"
             echo ""
             echo '```text'
             cat bank_sections_gold.txt
@@ -116,8 +111,11 @@ jobs:
             echo ""
             echo "</details>"
             echo ""
-            echo "## Freier Speicher (Kurzfassung)"
+            echo "<details><summary>Space allocation (shortened)</summary>"
+            echo ""
             echo '```text'
             cat free_space.txt
             echo '```'
+            echo ""
+            echo "</details>"
           } >> "$GITHUB_STEP_SUMMARY"
