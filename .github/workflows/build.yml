@@ -46,19 +46,52 @@ jobs:
       - name: Belegten Speicherplatz prüfen
         run: python3 tools/used_space.py
 
-      - name: Map-Datei prüfen
-        run: |
-          pwd
-          ls -lh *.map
-          echo "----- pokegold.map (head) -----"
-          sed -n '1,120p' pokegold.map
-
       - name: Freier Speicherplatz prüfen
         run: |
           python3 tools/free_space.py BANK=all ./pokegold.map | tee free_space.txt
 
+      - name: Bank- und Section-Report erzeugen (Gold)
+        run: |
+          python3 - <<'PY' > bank_sections_gold.txt
+          import re
+          from collections import defaultdict
+      
+          MAPFILE = "pokegold.map"
+          NUM_BANKS = 0x80
+          BANK_SIZE = 0x4000
+      
+          bank_re = re.compile(r'^(ROM0 bank|ROMX bank) #(\d+):')
+          sec_re = re.compile(r'^\s*SECTION:\s+\$([0-9A-Fa-f]{4})(?:-\$([0-9A-Fa-f]{4}))?.*\["(.*)"\]')
+      
+          sections = defaultdict(list)
+          cur_bank = None
+      
+          with open(MAPFILE, "r", encoding="utf-8") as f:
+              for line in f:
+                  m = bank_re.match(line)
+                  if m:
+                      cur_bank = int(m.group(2))
+                      continue
+                  if cur_bank is None:
+                      continue
+                  s = sec_re.match(line)
+                  if s:
+                      beg = int(s.group(1), 16)
+                      end = int(s.group(2), 16) if s.group(2) else beg
+                      name = s.group(3)
+                      sections[cur_bank].append((beg, end, name))
+      
+          for b in range(NUM_BANKS):
+              sec = sorted(sections.get(b, []), key=lambda x: x[0])
+              used = sum(e - a + 1 for a, e, _ in sec)
+              free = BANK_SIZE - used
+              print(f"Bank ${b:02X}: used {used:5d} (${used:04X}), free {free:5d} (${free:04X}), sections {len(sec)}")
+              for a, e, name in sec:
+                  print(f"  ${a:04X}-${e:04X}  {name}")
+              print()
+          PY
+
       - name: Dateien hochladen
-        id: upload_artifact
         if: always()
         uses: actions/upload-artifact@v4
         with:
@@ -73,11 +106,17 @@ jobs:
         if: always()
         run: |
           {
-            echo "## ROM-Speicherbelegung"
+            echo "## ROM-Bankübersicht (Gold)"
             echo ""
-            echo "[used_space.png öffnen](${{ steps.upload_artifact.outputs.artifact-url }})"
+            echo "<details><summary>Banken + Sections anzeigen</summary>"
             echo ""
-            echo "## Freier Speicher"
+            echo '```text'
+            cat bank_sections_gold.txt
+            echo '```'
+            echo ""
+            echo "</details>"
+            echo ""
+            echo "## Freier Speicher (Kurzfassung)"
             echo '```text'
             cat free_space.txt
             echo '```'
