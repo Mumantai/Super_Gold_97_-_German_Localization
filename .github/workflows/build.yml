@@ -46,19 +46,16 @@ jobs:
       - name: Belegten Speicherplatz prüfen
         run: python3 tools/used_space.py
 
-      - name: Freier Speicherplatz prüfen
-        run: python3 tools/free_space.py BANK=all ./pokegold.map > free_space.txt
-
-      - name: used_space.png in Job Summary anzeigen
+      - name: Map-Datei prüfen
         run: |
-          python3 - <<'PY'
-          import base64, os
-          with open("used_space.png", "rb") as f:
-              b64 = base64.b64encode(f.read()).decode("ascii")
-          with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as s:
-              s.write("## ROM-Speicherbelegung\n\n")
-              s.write("![used_space](data:image/png;base64," + b64 + ")\n")
-          PY
+          pwd
+          ls -lh *.map
+          echo "----- pokegold.map (head) -----"
+          sed -n '1,120p' pokegold.map
+
+      - name: Freier Speicherplatz prüfen
+        run: |
+          python3 tools/free_space.py BANK=all ./pokegold.map | tee free_space.txt
 
       - name: Dateien hochladen
         if: always()
@@ -70,3 +67,17 @@ jobs:
             *.map
             used_space.png
             free_space.txt
+
+      - name: Summary schreiben
+        if: always()
+        run: |
+          {
+            echo "## ROM-Speicherbelegung"
+            echo ""
+            echo "[used_space.png öffnen](${{ steps.upload_artifact.outputs.artifact-url }})"
+            echo ""
+            echo "## Freier Speicher"
+            echo '```text'
+            cat free_space.txt
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
