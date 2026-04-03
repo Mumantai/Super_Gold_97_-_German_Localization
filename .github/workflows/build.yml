@@ -47,7 +47,18 @@ jobs:
         run: python3 tools/used_space.py
 
       - name: Freier Speicherplatz prüfen
-        run: python3 tools/free_space.py ./pokegold.map
+        run: python3 tools/free_space.py BANK=all ./pokegold.map > free_space.txt
+
+      - name: used_space.png in Job Summary anzeigen
+        run: |
+          python3 - <<'PY'
+          import base64, os
+          with open("used_space.png", "rb") as f:
+              b64 = base64.b64encode(f.read()).decode("ascii")
+          with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as s:
+              s.write("## ROM-Speicherbelegung\n\n")
+              s.write("![used_space](data:image/png;base64," + b64 + ")\n")
+          PY
 
       - name: Dateien hochladen
         if: always()
@@ -58,3 +69,4 @@ jobs:
             *.gbc
             *.map
             used_space.png
+            free_space.txt
