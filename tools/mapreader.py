@@ -155,8 +155,9 @@ class MapReader:
                         self._parse_slack(parts[1])
                         self._state = MapReader.INIT
                     elif ('EMPTY' == parts[0]):
-                        self._cur_data = {'sections': [], 'used': 0, 'slack': self._cur_bank_type['size']}
-                        self._state = MapReader.INIT
+                        # self._cur_data = {'sections': [], 'used': 0, 'slack': self._cur_bank_type['size']}
+                        # self._state = MapReader.INIT
+                        pass
 
             else:
                 pass
@@ -171,3 +172,15 @@ class MapReader:
                 v['sections'].sort(key=lambda x: x['beg'])
                 for vv in v['sections']:
                         vv['symbols'].sort(key=lambda x: x['address'])
+
+        for bank_name, data in self.bank_data.items():
+            bsize = self.bank_types[bank_name]['size']
+            if self.bank_types[bank_name]['banked']:
+                for _, bd in data.items():
+                    used = sum(s['end'] - s['beg'] + 1 for s in bd['sections'])
+                    bd['used'] = used
+                    bd['slack'] = max(0, bsize - used)
+            else:
+                used = sum(s['end'] - s['beg'] + 1 for s in data['sections'])
+                data['used'] = used
+                data['slack'] = max(0, bsize - used)

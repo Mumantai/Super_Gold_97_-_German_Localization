@@ -58,6 +58,7 @@ jobs:
           python3 tools/free_space.py BANK=all ./pokegold.map | tee free_space.txt
 
       - name: Dateien hochladen
+        id: upload_artifact
         if: always()
         uses: actions/upload-artifact@v4
         with:
