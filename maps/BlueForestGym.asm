@@ -376,7 +376,6 @@ BoarderBradAfterBattleText:
 	done
 
 BoarderDouglasSeenText:
-BoarderDouglasSeenText:
 	text "Ich kenne ALBERTs"
 	line "Geheimnis."
 	done
