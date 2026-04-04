@@ -99,98 +99,103 @@ Route110HiddenHyperPotion:
 	hiddenitem HYPER_POTION, EVENT_ROUTE_110_HIDDEN_HYPER_POTION
 
 EngineerRicardoSeenText:
-	text "The air here is"
-	line "buzzing with"
-	cont "energy!"
+    text "Die Luft hier"
+    line "sprüht vor lauter"
+    cont "Energie!"
 	done
 
 EngineerRicardoBeatenText:
-	text "I'm zapped!"
+	text "Ich bin geschockt!"
 	done
 
 EngineerRicardoAfterText:
-	text "The sting of cold"
-	line "air reminds me of"
-	para "the sting of an"
-	line "electric shock."
+    text "Das Stechen der"
+    line "kalten Luft, er-"
+    para "innert mich an das"
+    line "Stechen eines"
+    cont "Stromschlags."
 	done
 
 SwimmermSimonSeenText:
-	text "I wish the water"
-	line "was warmer here."
+    text "Ich wünschte, das"
+    line "Wasser hier wäre"
+    cont "wärmer."
 	done
 
 SwimmermSimonBeatenText:
-	text "OK! Uncle! I give!"
+	text "Okay! Ich geb auf!"
 	done
 
 SwimmermSimonAfterBattleText:
-	text "Constantly moving"
-	line "helps keep body"
-	cont "temperature up."
+    text "In Bewegung zu"
+    line "bleiben, hält die"
+    para "Körpertemperatur"
+    line "oben."
 	done
 
 Route110Lass1Text:
-	text "Have you ever"
-	line "looked for #MON"
-	cont "in snowy grass?"
+    text "Hast du jemals"
+    line "im verschneiten"
+    para "Gras nach #MON"
+    line "gesucht?"
 	done
 
 Route110PokefanMText:
-	text "There's a strange"
-	line "lady who lives in"
-	para "that house on the"
-	line "water."
+    text "In dem Haus auf"
+    line "dem Wasser wohnt"
+    para "eine seltsame"
+    line "Frau."
 	done
 
-
 MeetMonicaText:
-	text "MONICA: Glad to"
-	line "meet you. I'm"
+	text "MONJA: Es freut"
+	line "mich, dich kennen"
 
-	para "MONICA of Monday."
+	para "zu lernen. Ich bin"
+	line "MONJA von Montag."
 	done
 
 MonicaGivesGiftText:
-	text "As a token of our"
-	line "friendship, I have"
-	cont "a gift for you!"
+	text "Als Zeichen"
+	line "unserer Freund-"
+	cont "schaft schenke ich"
+	cont "dir dies!"
 	done
 
 MonicaGaveGiftText:
-	text "MONICA: It's an"
-	line "item that raises"
+	text "MONJA: Dieses"
+	line "Item verstärkt"
 
-	para "the power of fly-"
-	line "ing-type moves."
+	para "Flug-Attacken."
 
-	para "You should equip a"
-	line "bird #MON with"
-	cont "that item."
+	para "Damit solltest du"
+	line "ein Vogel-#MON"
+	cont "ausstatten."
 	done
 
 MonicaMondayText:
-	text "MONICA: My broth-"
-	line "ers and sisters"
+	text "MONJA: Meine"
+	line "Geschwister"
 
-	para "are all over the"
-	line "place."
+	para "findest du"
+	line "überall."
 
-	para "See if you could"
-	line "find them all!"
+	para "Du solltest sie"
+	line "alle finden!"
 	done
 
 MonicaNotMondayText:
-	text "MONICA: I don't"
-	line "think today is"
-	cont "Monday. How sad…"
+	text "MONJA: Ich"
+	line "fürchte, heute ist"
+	cont "nicht Montag. Wie"
+	cont "schade…"
 	done
 
 Route110SignText:
 	text "ROUTE 110"
 
-	para "ALLOY CITY -"
-	line "BLUE FOREST"
+	para "GENEOS CITY     -"
+	line "KATAOMORIA CITY"
 	done
 
 Route110_MapEvents:

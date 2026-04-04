@@ -34,33 +34,41 @@ BlueForestHouse1MimmeoScript:
 	end
 	
 BlueForestHouse1MonText:
-	text "MIMMEO:"
-	line "Uoi!"
+	text "MIMMEO: Uoi!"
 	done
 
 Text_NightmareIntro:
-	text "I had a terrible"
-	line "nightmare last"
-	para "night that my"
-	line "MIMMEO had dis-"
-	cont "appeared."
-	para "I was so heart-"
-	line "broken."
-	para "Fortunately it was"
-	line "not real."
-	para "But I did find"
-	line "this in my house"
-	cont "today."
-	para "I don't want it."
-	line "Take it, please."
+    text "Ich hatte letzte"
+    line "Nacht einen"
+    para "schrecklichen"
+    line "Albtraum, in dem"
+    para "mein MIMMEO"
+    line "verschwunden war."
+
+    para "Es hat mir so das"
+    line "Herz gebrochen."
+
+    para "Glücklicherweise"
+    line "war es nicht echt."
+
+    para "Aber heute habe"
+    line "ich das hier zu"
+    cont "Hause gefunden."
+
+    para "Ich will es nicht."
+    line "Nimm es, bitte."
 	done
 	
 Text_NightmareOutro:
-	text "TM50 teaches"
-	line "NIGHTMARE."
-	para "It can do great"
-	line "damage to #MON"
-	cont "that are asleep."
+	text "TM50 enthält"
+	line "NACHTMAHR."
+
+	para "Dies ist eine"
+	line "gemeine Attacke,"
+	para "die einem schlaf-"
+	line "enden Gegner"
+	cont "kontinuierlich"
+	cont "KP abzieht."
 	done
 
 BlueForestHouse1_MapEvents:

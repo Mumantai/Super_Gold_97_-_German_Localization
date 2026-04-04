@@ -103,7 +103,7 @@ Landmarks:
 	landmark  36, 124, FastShipName
 
 SilentTownName:     db "SILENITIA@"         ; Silens (lat. Stille) + initium (lat. Anfang)
-CrownCityName:      db "COROA CITY@"        ; Coroa (port. Krone)
+CrownCityName:      db "KOROKANIA CITY@"       ; Coroa (port. Krone) + oukan (jap. Krone)
 PagotaCityName:     db "PAGETIA CITY@"      ; Pagode + vetus (lat. alt)
 BirdonTownName:     db "TOTOMONIA@"         ; Tottori + Flegmon
 WestportCityName:   db "PORT ABANISHI@"     ; Port (alt. Hafen) + Abanti (ahd. Abend bzw. Westen) + Nishi (jap. Westen)     evtl. PORT ABANTIA
@@ -111,7 +111,7 @@ TeknosCityName:     db "TEKNOPIA CITY@"     ; Teknos (griech. Technik) + Utopia
 AlloyCityName:      db "GENEOS CITY@"       ; Genus (lat. Gattung) + neos (griech. neu)
 SunpointCityName:   db "KAZANAMI CITY@"     ; Kazan (jap. Vulkan) + Minami (jap. Süden)
 SanskritTownName:   db "GLYPHONTIA@"        ; Glyphe + Font
-BlueForestName:     db "BLAUTANNENWALD@"    ; Blautannen    NICHT FINAL
+BlueForestName:     db "KITAOMORIA CITY@"   ; Kita (jap. Norden) + ao (jap. Blau) + mori (jap. Wald)
 KikaiVillageName:   db "KIKAI TAL@"         ; NICHT FINAL Kikai - Ort in Ryukyu
 DaitoRanchName:     db "DAITO RANCH@"       ; NICHT FINAL Daito - Ort in Ryukyu
 FiveFloorTowerName: db "5-EBENEN-TURM@"     ; "Ebenen" anstelle von "Etagen" um Zweideutigkeit mit Spirituellem zu haben
@@ -138,8 +138,8 @@ KantoRegionName:    db "KANTO REGION@"      ; alt. Kanto
 RyukyuCityName:     db "RYUKYU CITY@"       ; Ryukyu-Inseln
 StandCityName:      db "SENDESTIA CITY@"    ; Sendai + Podest
 FrostpointTownName: db "SPIZARDIA@"         ; Spitze + Blizzard     NICHT FINAL
-MountFujiName:      db "FUJIYAMA@"          ;
-MtFujiInteriorLowerName:     db "COROA-PFAD@"
+MountFujiName:      db "KOROKANIABERG@"     ;
+MtFujiInteriorLowerName:     db "KOROKANIA-PFAD@"
 UrasoeParkName:     db "URASOE PARK@"       ; NICHT FINAL Urasoe - Ort in Ryukyu
 CharredSummitName:  db "RUẞ-GIPFEL@"        ;
 ForkedStraitName:   db "FORKED STRAIT@"     ;

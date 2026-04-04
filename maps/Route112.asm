@@ -300,11 +300,13 @@ Route112Worker2Script:
 	jumptextfaceplayer Route112Worker2Text
 
 Route112OfficerText:
-	text "A recent snowstorm"
-	line "damaged this gate."
-	para "We're working on"
-	line "getting it"
-	cont "repaired."
+    text "Ein Schneesturm"
+    line "hat dieses Tor"
+    cont "beschädigt."
+
+    para "Wir arbeiten"
+    line "daran, es zu"
+    cont "reparieren."
 	done
 	
 Route112Worker1Text:

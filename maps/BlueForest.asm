@@ -105,102 +105,112 @@ BlueForestMartSign:
 	jumpstd MartSignScript
 
 BlackBeltText_WeirdRadio:
-	text "PRYCE is the GYM"
-	line "LEADER here."
-	para "He puts on a cold"
-	line "as ice exterior,"
-	para "but he has a heart"
-	line "of gold."
+    text "ALBERT ist der"
+    line "ARENALEITER hier."
+
+    para "Nach außen wirkt"
+    line "er eiskalt, aber"
+    para "er hat ein Herz"
+    line "aus Gold."
 	done
 
 BlueForestCooltrainerF1Text:
-	text "Are you going to"
-	line "make your #MON"
-	cont "forget some moves?"
-	para "The MOVE DELETER's"
-	line "house is just west"
-	cont "of here."
+    text "Willst du deine"
+    line "#MON ein paar"
+    para "Attacken vergessen"
+    line "lassen?"
+
+    para "Das Haus vom"
+    line "ATTACKEN-VERLERNER"
+    para "ist gleich hier um"
+    line "die Ecke."
 	done
 
 BlueForestYoungsterText:
-	text "There are lots of"
-	line "ice-type #MON"
-	para "in the DEEPWATER"
-	line "PASSAGE."
+    text "In der TIEFWASSER"
+    line "PASSAGE gibt es"
+    para "viele #MON vom"
+    line "Typ Eis."
 	done
 
 MeetSantosText:
-	text "SANTOS: …"
+	text "SAMSON: …"
 
-	para "It's Saturday…"
+	para "Heute ist Samstag…"
 
-	para "I'm SANTOS of"
-	line "Saturday…"
+	para "Ich bin SAMSON von"
+	line "Samstag…"
 	done
 
 SantosGivesGiftText:
-	text "You can have this…"
+	text "Du kannst das"
+	line "haben…"
 	done
 
 SantosGaveGiftText:
-	text "SANTOS: …"
+	text "SAMSON: …"
 
-	para "SPELL TAG…"
+	para "BANNSTICKER…"
 
-	para "Ghost-type moves"
-	line "get stronger…"
+	para "Geist-Attacken"
+	line "werden stärker…"
 
-	para "It will frighten"
-	line "you…"
+	para "Es ist geradezu"
+	line "beängstigend…"
 	done
 
 SantosSaturdayText:
-	text "SANTOS: …"
+	text "SAMSON: …"
 
-	para "See you again on"
-	line "another Saturday…"
+	para "Wir sehen uns an"
+	line "einem anderen"
+	cont "Samstag wieder…"
 
-	para "I won't have any"
-	line "more gifts…"
+	para "Aber ich werde"
+	line "dann keine Ge-"
+	cont "schenke mehr"
+	cont "haben…"
 	done
 
 SantosNotSaturdayText:
-	text "SANTOS: Today's"
-	line "not Saturday…"
+	text "SAMSON: Heute ist"
+	line "nicht Samstag…"
 	done
 
 BlueForestCooltrainerF2Text:
-	text "Wow, you went"
-	line "through the"
-	cont "DEEPWATER PASSAGE?"
-	para "You must be a real"
-	line "hotshot trainer!"
+	text "Wow, du bist über"
+	line "die TIEFWASSER"
+	cont "PASSAGE gekommen?"
+
+	para "Du musst ein rich-"
+	line "tiger Heißsporn"
+	cont "sein!"
 	done
 	
 BlueForestCooltrainerF2TextNotWow:
-	text "I've never gone up"
-	line "to FROSTPOINT"
-	cont "TOWN."
-	para "Traveling through"
-	line "the DEEPWATER"
-	para "PASSAGE is too"
-	line "intimidating."
+	text "Ich war noch nie"
+	line "in SPIZARDIA."
+
+	para "Durch die"
+	line "TIEFWASSER PASSAGE"
+	para "zu reisen ist mir"
+	line "zu unheimlich."
 	done
 
 BlueForestSignText:
-	text "BLUE FOREST"
+	text "KITAOMORIA CITY"
 
-	para "A Quiet Snowy"
-	line "Retreat"
+	para "Ruhig verschneiter"
+	line "Rückzugsort"
 	done
 
 BlueForestGymSignText:
-	text "BLUE FOREST"
-	line "#MON GYM"
-	cont "LEADER: PRYCE"
+	text "PKMN-ARENA von"
+	line "KITAOMORIA CITY"
 
-	para "The Icy Chill"
-	line "Elder"
+	para "LEITUNG: ALBERT"
+	line "Der eisige"
+	cont "Altmeister"
 	done
 
 

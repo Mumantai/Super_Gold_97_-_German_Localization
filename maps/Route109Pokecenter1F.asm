@@ -23,32 +23,36 @@ Route109Pokecenter1FCooltrainerFScript:
 	jumptextfaceplayer Route109Pokecenter1FCooltrainerFText
 
 Route109Pokecenter1FGentlemanText:
-	text "A #MON CENTER"
-	line "near a cave?"
+	text "Ein #MON-CENTER"
+	line "neben einer Höhle?"
 
-	para "That's mighty"
-	line "convenient."
+	para "Das ist sehr"
+	line "praktisch."
 	done
 
 Route109Pokecenter1FGymGuyText:
-	text "Have you ever been"
-	line "to north NIHON?"
-	para "The weather gets"
-	line "very cold there."
-	done
+	text "Warst du schon im"
+	line "Norden von NIHON?"
 
+	para "Dort wird das"
+	line "Wetter sehr kalt."
+	done
 
 Route109Pokecenter1FCooltrainerFText:
-	text "I don't feel like"
-	line "dealing with"
-	cont "AMPARE CAVERN."
-	para "It doesn't even"
-	line "lead anywhere."
-	para "You can just"
-	line "bypass it to get"
-	cont "to BLUE FOREST."
-	done
+	text "Ich hab echt keine"
+	line "Lust auf die"
+	cont "AMPERA HÖHLE."
 
+	para "Sie führt ja nicht"
+	line "ein mal irgendwo"
+	cont "hin."
+
+	para "Du kannst sie"
+	line "einfach umgehen"
+	para "und direkt nach"
+	line "KITAOMORIA CITY"
+	cont "gehen."
+	done
 
 Route109Pokecenter1F_MapEvents:
 	db 0, 0 ; filler

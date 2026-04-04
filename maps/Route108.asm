@@ -55,127 +55,143 @@ Route108FruitTree:
 	fruittree FRUITTREE_TREE_ROUTE_108
 
 BirdKeeperTobySeenText:
-	text "Fly high into the"
-	line "sky, my beloved"
-	cont "bird #MON!"
+	text "Fliege hoch in die"
+	line "Luft, mein"
+	cont "herrliches"
+	cont "Vogel-#MON!"
 	done
 
 BirdKeeperTobyBeatenText:
-	text "I feel like just"
-	line "flying away now."
+	text "Ich fühle mich,"
+	line "als würde ich mich"
+	cont "selbst in die"
+	cont "Lüfte erheben."
 	done
 
 BirdKeeperTobyAfterBattleText:
-	text "I plan to train in"
-	line "ALLOY CITY at"
-	cont "the FIGHTING DOJO."
-	para "Flying #MON are"
-	line "strong against"
-	cont "fighting-type."
-	para "…Is that an"
-	line "unfair advantage?"
+	text "Ich habe vor,"
+	line "in GENEOS CITY"
+	para "im KAMPF-DOJO zu"
+	line "trainieren."
+
+	para "FLUG-#MON sind"
+	line "stark gegen"
+	cont "KAMPF-#MON."
+
+	para "…Ist das ein"
+    line "unfairer Vorteil?"
 	done
 
 
 UnknownText_0x1a200e:
-	text "I have to take so"
-	line "many tests, I"
+	text "Ich habe so viele"
+	line "Prüfungen, dass"
 
-	para "don't have much"
-	line "time for #MON."
+	para "ich nicht viel"
+	line "Zeit für #MON"
+	cont "habe."
 
-	para "So when I do get"
-	line "to play, I really"
-	cont "concentrate."
+	para "Wenn ich also mal"
+	line "Zeit zum Spielen"
+	cont "habe, dann konzen-"
+	cont "triere ich mich."
 	done
 
 LassDana1SeenText:
-	text "You seem to be"
-	line "good at #MON."
+	text "Du scheinst dich"
+	line "mit #MON"
+	cont "auszukennen."
 
-	para "If you are, how"
-	line "about giving me"
-	cont "some advice?"
+	para "Gibst du mir bitte"
+	line "einige Ratschläge?"
 	done
 
 LassDana1BeatenText:
-	text "I see. So you can"
-	line "battle that way."
+	text "Ich verstehe. So"
+	line "kämpfst du also."
 	done
 
 UnknownText_0x1a20ec:
-	text "I know something"
-	line "good!"
+	text "Ich kenne etwas"
+	line "sehr Bekömmliches!"
 
-	para "MOOMOO MILK is"
-	line "a nutritious drink"
-	cont "for #MON!"
-	para "You can buy it"
-	line "over in STAND"
-	cont "CITY."
+	para "KUHMUH-MILCH ist"
+	line "ein nahrhaftes"
+	cont "Getränk für #-"
+	cont "MON!"
+
+	para "Du kannst sie in"
+	line "SENDESTIA CITY"
+	cont "kaufen."
 	done
 
-
 SailorHarrySeenText:
-	text "I've been over-"
-	line "seas, so I know"
+	text "Ich war im Aus-"
+	line "land. Deswegen"
 
-	para "about all sorts of"
-	line "#MON!"
+	para "kenne ich alle"
+	line "#MON-Arten!"
 	done
 
 SailorHarryBeatenText:
-	text "Your skill is"
-	line "world class!"
+	text "Deine Fähigkeiten"
+	line "sind Spitzen-"
+	cont "klasse!"
 	done
 
 SailorHarryAfterBattleText:
-	text "All kinds of peo-"
-	line "ple around the"
+	text "Alle Menschen auf"
+	line "der ganzen Welt"
 
-	para "world live happily"
-	line "with #MON."
+	para "leben glücklich"
+	line "zusammen mit den"
+	cont "#MON."
 	done
 
 BeautyOliviaSeenText:
-	text "Don't you think my"
-	line "#MON and I are"
-	cont "beautiful?"
+	text "Meine #MON und"
+	line "ich sind wunder-"
+	cont "schön, nicht wahr?"
 	done
 
 BeautyOliviaBeatenText:
-	text "I keep my #MON"
-	line "prim and proper."
+    text "Ich hale meine"
+    line "#MON stets"
+    cont "top gepflegt."
 	done
 
 BeautyOliviaAfterBattleText:
-	text "Have you ever had"
-	line "your #MON's"
-	para "hair cut in"
-	line "WESTPORT CITY?"
+	text "Warst du schon mal"
+	line "mit deinen #MON"
+	para "beim Coiffeur in"
+	line "PORT ABANISHI?"
 	done
 
 Route108SignText:
 	text "ROUTE 108"
 
-	para "ALLOY CITY -"
-	line "BLUE FOREST"
+	para "GENEOS CITY     -"
+	line "KATAOMORIA CITY"
 	done
 
 Route108TrainerTipsText:
-	text "TRAINER TIPS"
+	text "TIPPS für TRAINER"
+	line "Wenn sich ein"
 
-	para "If a #MON is"
-	line "trying to evolve,"
-	cont "you can stop it."
+	para "#MON weiter-"
+	line "entwickelt, kannst"
 
-	para "Press the B But-"
-	line "ton during evolu-"
-	cont "tion."
+	para "du diesen Prozess"
+	line "aufhalten."
 
-	para "That startles the"
-	line "#MON and stops"
-	cont "its evolution."
+	para "Drücke während"
+	line "der Entwicklung"
+	cont "den B-Knopf."
+
+	para "So wird das #-"
+	line "MON erschreckt und"
+	cont "es bricht die"
+	cont "Entwicklung ab."
 	done
 
 Route108_MapEvents:

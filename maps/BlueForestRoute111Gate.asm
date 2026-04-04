@@ -14,22 +14,25 @@ BlueForestRoute111GateYoungsterScript:
 	jumptextfaceplayer BlueForestRoute111GateYoungsterText
 
 BlueForestRoute111GateOfficerText:
-	text "NIHON's known for"
-	line "having rough north"
-	cont "waters."
-	para "The area around"
-	line "the aptly named"
-	para "WHIRL ISLAND is"
-	line "probably the best"
-	cont "example."
-	para "Don't go north"
-	line "unprepared!"
+    text "NIHON ist bekannt"
+    line "für raue Gewässer"
+    cont "im Norden."
+
+    para "Die Gegend um die,"
+    line "passend benannte,"
+    para "STRUDELINSEL ist"
+    line "wahrscheinlich das"
+    cont "beste Beispiel."
+
+    para "Geh nicht nach"
+    line "Norden, ohne dich"
+    cont "vorzubereiten!"
 	done
 
 BlueForestRoute111GateYoungsterText:
-	text "I hear rare"
-	line "#MON appear in"
-	cont "WHIRL ISLAND."
+    text "Ich hörte, seltene"
+    line "#MON leben auf"
+    cont "der STRUDELINSEL."
 	done
 
 BlueForestRoute111Gate_MapEvents:

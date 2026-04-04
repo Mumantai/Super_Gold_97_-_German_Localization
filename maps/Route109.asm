@@ -103,157 +103,168 @@ Route109HiddenNugget:
 	
 
 BugCatcherEdSeenText:
-	text "You use any bug"
-	line "#MON?"
+    text "Setzt du KÄFER-"
+    line "#MON ein?"
 	done
 
 BugCatcherEdBeatenText:
-	text "Bugs are all I"
-	line "use!"
+    text "Ich benutze aus-"
+    line "schließlich KÄFER-"
+    cont "#MON!"
 	done
 
 BugCatcherEdAfterBattleText:
-	text "Every trainer"
-	line "should have some"
-	cont "bug #MON!"
+	text "Jeder Trainer"
+	line "sollte ein paar"
+	cont "KÄFER-#MON"
+	cont "einsetzen!"
 	done
 
-
 PokefanmDerekSeenText:
-	text "This is a good"
-	line "time to brag about"
-	cont "my PIKACHU!"
+	text "Genau der richtige"
+	line "Moment, um mit"
+	cont "PIKACHU anzugeben!"
 	done
 
 PokefanmDerekBeatenText:
-	text "I had no time to"
-	line "show off PIKACHU…"
+	text "Ich hatte keine"
+	line "Zeit, mit PIKACHU"
+	cont "zu prahlen…"
 	done
 
 PokefanMDerekText_NotBragging:
-	text "I'm not listening"
-	line "to your bragging!"
+	text "Ich höre mir deine"
+	line "Prahlerei gar"
+	cont "nicht an!"
 
-	para "We # FANS have"
-	line "a policy of not"
+	para "Wir #-FANS"
+	line "haben ein Gelübde,"
 
-	para "listening to other"
-	line "people brag!"
+	para "das uns verbietet,"
+	line "Leuten beim"
+	cont "Prahlen zuzuhören!"
 	done
 
 PokefanfRuthSeenText:
-	text "Such darling"
-	line "#MON."
+	text "Was für süße"
+	line "#MON!"
 
-	para "Let's show our"
-	line "#MON together"
-	cont "at the same time."
+	para "Zeigen wir uns"
+	line "gegenseitig unsere"
+	cont "#MON, und zwar"
+	cont "gleichzeitig!"
 	done
 
 PokefanfRuthBeatenText:
-	text "I don't mind"
-	line "losing."
+	text "Mir macht es"
+	line "nichts aus,"
+	cont "zu verlieren."
 	done
 
 PokefanfRuthAfterBattleText:
-	text "Do you know about"
-	line "baby #MON?"
+	text "Weißt du über"
+	line "Baby-#MON"
+	cont "Bescheid?"
 
-	para "They're all so"
-	line "adorable!"
+	para "Die sind bestimmt"
+	line "super-süß!"
 	done
 
 PokefanMDerekPikachuIsItText:
-	text "PIKACHU is it!"
-	line "Don't you agree?"
+	text "PIKACHU muss sein!"
+	line "Was meinst du?"
 	done
 
 PsychicNormanSeenText:
-	text "Let me see what"
-	line "your #MON are"
-	cont "capable of."
+	text "Zeig doch mal, was"
+	line "deine #MON"
+	cont "drauf haben."
 	done
 
 PsychicNormanBeatenText:
-	text "Ooh, your #MON"
-	line "have potential."
+	text "He, deine #MON"
+	line "sind sehr fähig!"
 	done
 
 PsychicNormanAfterBattleText:
-	text "You know how #-"
-	line "MON have different"
-	cont "abilities?"
+	text "Du weißt von den"
+	line "unterschiedlichen"
+	cont "#-Fähigkeiten?"
 
-	para "People are like"
-	line "that too. Every-"
-	cont "one has different"
-	cont "potential."
+	para "Bei den Menschen"
+	line "ist das ganz"
+	cont "ähnlich. Jeder hat"
+	cont "unterschiedliche"
+	cont "Talente."
 	done
 
 PokefanfJaimeHopeItGetsDarkText:
-	text "Ufufufu… I hope it"
-	line "gets dark soon."
+	text "Ufu… Ich hoffe, es"
+	line "wird bald dunkel."
 	done
 
 PokefanfJaimeSeenText:
-	text "You came at just"
-	line "the right time."
+	text "Du kommst gerade"
+	line "recht."
 
-	para "Let's battle."
+	para "Auf in den Kampf."
 	done
 
 PokefanfJaimeBeatenText:
-	text "Oh, how disap-"
-	line "pointing…"
+	text "Oh, wie"
+	line "ernüchternd…"
 	done
 
 PokefanfJaimeAfterBattleText:
-	text "I met my PONYTA at"
-	line "night, right here"
-	cont "on ROUTE 109."
+	text "Ich traf PONITA"
+	line "NACHTs, genau hier"
+	cont "auf ROUTE 109."
 
-	para "I'm not sure why,"
-	line "but it seems to"
+	para "Ich weiß nicht"
+	line "warum, aber es"
 
-	para "like it when I"
-	line "train here."
+	para "scheint es zu"
+	line "mögen, wenn ich"
+	cont "hier trainiere."
 
-	para "It seems to become"
-	line "friendlier by"
+	para "Es scheint mich"
+	line "durch das Training"
 
-	para "training here than"
-	line "anywhere else."
+	para "hier mehr zu"
+	line "mögen, als wenn"
+
+	para "ich woanders"
+	line "trainiere."
 	done
 
 
 BeautyValerieSeenText:
-	text "Hi! Aren't you a"
-	line "cute trainer!"
+	text "Hallo! Du bist"
+	line "bestimmt so nett"
 
-	para "May I see your"
-	line "#MON?"
+	para "und zeigst mir"
+	line "deine #MON?"
 	done
 
 BeautyValerieBeatenText:
-	text "I'm glad I got to"
-	line "see your #MON!"
+	text "Ich bin froh, dass"
+	line "ich deine #MON"
+	cont "sehen durfte!"
 	done
 
 BeautyValerieAfterBattleText:
-	text "When I see #-"
-	line "MON, it seems to"
-	cont "soothe my nerves."
+	text "Wenn ich #-"
+	line "MON sehe, scheint"
+	cont "mich das zu"
+	cont "entspannen."
 	done
-	
-	
-
 
 Route109PokecenterSignText:
-	text "Heal Your #MON!"
-	line "#MON CENTER"
+	text "Lass deine"
+	line "#MON in einem"
+	cont "#MON-CENTER"
+	cont "heilen!"
 	done
-
-
 
 Route109_MapEvents:
 	db 0, 0 ; filler

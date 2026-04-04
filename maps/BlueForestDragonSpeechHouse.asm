@@ -20,24 +20,30 @@ BlueForestDragonSpeechHouseDratiniScript:
 
 
 BlueForestDragonSpeechHouseGrannyText:
-	text "North of town, out"
-	line "in the ocean, lies"
-	cont "WHIRL ISLAND."
-	para "It is named so"
-	line "because of the"
-	para "many whirlpools"
-	line "that surround it."
-	para "It is a dangerous"
-	line "maze that leads"
-	cont "nowhere."
-	para "Make sure you know"
-	line "what you're doing"
-	para "if you intend to"
-	line "explore it."
+    text "Nördlich der"
+    line "Stadt, draußen auf"
+    para "dem Meer, liegt"
+    line "die STRUDELINSEL."
+
+    para "Sie heißt so wegen"
+    line "der unzähligen"
+    para "Strudel, die sie"
+    line "umgeben."
+
+    para "Es ist ein gefähr-"
+    line "liches Labyrinth,"
+    para "das nirgendwohin"
+    line "führt."
+
+    para "Sei dir sicher,"
+    line "dass du weißt, was"
+    para "du tust, wenn du"
+    line "vorhast, sie zu"
+    cont "erkunden."
 	done
 
 BlueForestDragonSpeechHouseDratiniText:
-	text "SLOWPOKE: Bwa?"
+	text "FLEGMON: Fleg?"
 	done
 
 BlueForestDragonSpeechHouse_MapEvents:

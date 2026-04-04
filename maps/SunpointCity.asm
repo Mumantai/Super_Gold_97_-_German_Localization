@@ -88,7 +88,8 @@ ChucksWifeChubbyText:
 
 SunpointCityFishingGuruText:
     text "Warst du schon mal"
-    line "im BLAUTANNENWALD?"
+    line "in KITAOMORIA"
+    cont "CITY?"
 
     para "Dort ist es kalt"
     line "und verschneit."

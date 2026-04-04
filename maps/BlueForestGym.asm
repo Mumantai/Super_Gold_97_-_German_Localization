@@ -174,278 +174,304 @@ BlueForestGymStatue:
 	
 
 PryceRematchText:
-	text "So, you have"
-	line "returned from the"
-	cont "LEAGUE."
-	
-	para "Just because you"
-	line "have climbed the"
-	para "peak, don't assume"
-	line "you're no longer"
-	para "subject to the"
-	line "mountain's frozen"
-	cont "winds!"
-	
-	para "Let me show you"
-	line "the full arsenal"
-	para "of what I've"
-	line "learned in my"
-	cont "time!"
+    text "Du bist also"
+    line "zurück von der"
+    cont "LIGA."
+
+	para "Nur weil du den"
+	line "Gipfel erreicht"
+	para "hast, heißt das"
+	line "nicht, dass dich"
+	para "die eisigen Winde"
+	line "des Berges nicht"
+	cont "länger treffen!"
+
+	para "Lass mich dir das"
+	line "ganze Aresnal"
+	para "meiner gesammelten"
+	line "Erfahrung demons-"
+	cont "trieren!"
 	done
 
 PryceRematchWinText:
-	text "Perhaps there is"
-	line "something to be"
-	cont "said of youth…"
+	text "Vielleicht hat die"
+	line "Jugend doch etwas"
+	cont "zu bieten…"
 	done
 
 PryceAfterRematchText:
-	text "I am impressed"
-	line "by your prowess."
-	
-	para "With your strong"
-	line "will, I know you"
-	para "can overcome all"
-	line "life's obstacles!"
+	text "Ich bin von deinem"
+	line "Können beein-"
+	cont "druckt."
+
+	para "Mit deinem starken"
+	line "Willen, wirst du"
+	para "alle Widrigkeiten"
+	line "in deinem Leben"
+	cont "überstehen."
 	done
 
 BlueForestGymGuyNotAroundText:
-	text "Hey, kid!"
-	para "PRYCE is an ice-"
-	line "cold battler!"
-	para "But he's got a"
-	line "heart of gold."
-	para "He cares about his"
-	line "#MON and he"
-	para "cares about his"
-	line "family."
-	para "He spends his days"
-	line "in serious"
-	para "training in the"
-	line "DEEPWATER PASSAGE."
-	para "What I'm trying to"
-	line "say is that he's"
-	cont "not here often."
-	para "It might be a"
-	line "while before he"
-	cont "returns."
-	para "If you want to"
-	line "battle, it might"
-	para "do you good to"
-	line "go look for him."
+    text "Hey, Kleiner!"
+
+    para "ALBERT ist ein"
+    line "eiskalter Kämpfer!"
+
+    para "Aber er hat ein"
+    line "Herz aus Gold."
+
+    para "Er kümmert sich um"
+    line "seine #MON und"
+    cont "um seine Familie."
+
+    para "Er verbringt seine"
+    line "Tage mit seinem"
+    para "strengen Training"
+    line "in der TIEFWASSER"
+    cont "PASSAGE."
+
+    para "Was ich damit"
+    line "sagen will, ist,"
+    para "dass er nicht oft"
+    line "hier ist."
+
+    para "Es könnte eine"
+    line "Weile dauern, bis"
+    cont "er zurückkehrt."
+
+    para "Wenn du gegen ihn"
+    line "kämpfen willst,"
+    para "wäre es vielleicht"
+    line "gut, wenn du ihn"
+    cont "suchen gehst."
 	done
 
 PryceText_Intro:
-	text "So nice to see"
-	line "you again."
-	
-	para "#MON have many"
-	line "experiences in"
+	text "Wie schön, dich"
+	line "wiederzusehen."
 
-	para "their lives, just"
-	line "like we do. "
+	para "#MON machen in"
+	line "ihrem Leben viele"
 
-	para "I, too, have seen"
-	line "and suffered much"
-	cont "in my life."
-	
-	para "That is why I have"
-	line "decided in my old"
-	para "age to focus on"
-	line "what is important."
-	
-	para "#MON. Family."
-	
-	para "These are the"
-	line "things I cherish."
-	
-	para "Make sure you make"
-	line "time for things"
-	cont "that you cherish."
-	
-	para "A good battle,"
-	line "however, is still"
-	
-	para "an important"
-	line "experience."
-	
-	para "Here, let me show"
-	line "you what I mean."
+	para "Erfahrungen. Genau"
+	line "wie Menschen."
+
+	para "Auch ich habe in"
+	line "meinem Leben viel"
+	cont "gesehen und er-"
+	cont "litten."
+
+	para "Da ich der Ältere"
+	line "bin, lass mich dir"
+	cont "zeigen, was ich"
+	cont "meine."
+
+	para "Ich war schon mit"
+	line "#MON zusammen,"
+
+	para "bevor du geboren"
+	line "wurdest."
+
+	para "Ich verliere nicht"
+	line "gerne."
+
+	para "Ich, NORBERT, der"
+	line "Wintertrainer,"
+
+	para "werde meine Macht"
+	line "demonstrieren!"
 	done
 
 
 PryceText_Impressed:
-	text "Ah, I am impressed"
-	line "by your prowess."
+	text "Ich bin von deinem"
+	line "Können beein-"
+	cont "druckt."
 
-	para "With your strong"
-	line "will, I know you"
+	para "Mit deinem starken"
+	line "Willen, wirst du"
 
-	para "will overcome all"
-	line "life's obstacles."
+	para "alle Widrigkeiten"
+	line "in deinem Leben"
+	cont "überstehen."
 
-	para "You are worthy of"
-	line "this BADGE!"
+	para "Du bist dieses"
+	line "ORDENS würdig!"
 	done
 
 Text_ReceivedGlacierBadge:
-	text "<PLAYER> received"
-	line "GLACIERBADGE."
+	text "<PLAYER> erhält"
+	line "EISORDEN."
 	done
 
 PryceText_GlacierBadgeSpeech:
-	text "That BADGE will"
-	line "raise the SPECIAL"
-	cont "stats of #MON."
+	text "Dieser ORDEN hebt"
+	line "den SPEZ-Wert dei-"
+	cont "ner #MON."
 
-	para "It also lets your"
-	line "#MON use WHIRL-"
-	cont "POOL to get across"
-	cont "real whirlpools."
+	para "Außerdem können"
+	line "deine #MON"
+	cont "WHIRLPOOL einset-"
+	cont "zen, um echte"
+	cont "Strudel zu"
+	cont "überwinden."
 
-	para "And this… This is"
-	line "a gift from me!"
+	para "Und dies… dies ist"
+	line "ein Geschenk von"
+	cont "mir!"
 	done
 
 PryceText_IcyWindSpeech:
-	text "That TM contains"
-	line "ICY WIND."
+	text "Diese TM enthält"
+	line "EISSTURM."
 
-	para "It inflicts damage"
-	line "and lowers speed."
+	para "Sie verursacht"
+	line "Schaden und ver-"
+	cont "ringert die Ge-"
+	cont "schwindigkeit."
 
-	para "It demonstrates"
-	line "the harshness of"
-	cont "winter."
+	para "Sie stellt die"
+	line "Härte des Winters"
+	cont "dar."
 	done
 
 PryceText_CherishYourPokemon:
-	text "When the ice and"
-	line "snow melt, spring"
-	cont "arrives."
+	text "Wenn Eis und"
+	line "Schnee geschmolzen"
+	cont "sind, kehrt der"
+	cont "Frühling wieder."
 
-	para "You and your #-"
-	line "MON will be to-"
+	para "Du und deine"
+	line "#MON werden"
+	para "noch viele Jahre"
+	line "zusammen sein."
 
-	para "gether for many"
-	line "years to come."
-
-	para "Cherish your time"
-	line "together!"
+	para "Genießt eure ge-"
+	line "meinsame Zeit!"
 	done
 
-
 BoarderBradSeenText:
-	text "This GYM has a"
-	line "slippery floor."
+	text "Diese PKMN-ARENA"
+	line "hat einen rutschi-"
+	cont "gen Boden. Das ist"
+	cont "doch lustig, oder?"
 
-	para "It's fun, isn't"
-	line "it?"
-
-	para "But hey--we're"
-	line "not playing games"
-	cont "here!"
+	para "Aber wir sind"
+	line "nicht hier, um zu"
+	cont "spielen!"
 	done
 
 BoarderBradBeatenText:
-	text "Do you see how"
-	line "serious we are?"
+	text "Siehst du jetzt,"
+	line "wie ernst wir es"
+	cont "meinen?"
 	done
 
 BoarderBradAfterBattleText:
-	text "This GYM is great."
-	line "I love boarding"
-	cont "with my #MON!"
+	text "Diese PKMN-ARENA"
+	line "ist toll. Ich"
+	cont "liebe es, mit mei-"
+	cont "nen #MON hier"
+	cont "zu snowboarden!"
 	done
 
 BoarderDouglasSeenText:
-	text "I know PRYCE's"
-	line "secret."
+BoarderDouglasSeenText:
+	text "Ich kenne ALBERTs"
+	line "Geheimnis."
 	done
 
 BoarderDouglasBeatenText:
-	text "OK. I'll tell you"
-	line "PRYCE's secret."
+	text "O.K. Ich verrate"
+	line "dir ALBERTs Ge-"
+	cont "heimnis."
 	done
 
 BoarderDouglasAfterBattleText:
-	text "The secret behind"
-	line "PRYCE's power…"
+	text "Das Geheimnis von"
+	line "ALBERTs Kraft…"
 
-	para "He trains in"
-	line "the harsh"
-	
-	para "conditions of the"
-	line "DEEPWATER PASSAGE."
+	para "Er trainiert unter"
+	line "den harten Beding-"
+	para "ungen der TIEF-"
+	cont "WASSER-PASSAGE."
 	done
 
 SkierRoxanneSeenText:
-	text "To get to PRYCE,"
-	line "our GYM LEADER,"
+	text "Um zu ALBERT, un-"
+	line "serem ARENALEITER,"
 
-	para "you need to think"
-	line "before you skate."
+	para "zu gelangen, musst"
+	line "du denken, bevor"
+	cont "du loslegst."
 	done
 
 SkierRoxanneBeatenText:
-	text "I wouldn't lose to"
-	line "you in skiing!"
+	text "Beim Skifahren"
+	line "würde ich nie ge-"
+	cont "gen dich verlie-"
+	cont "ren."
 	done
 
 SkierRoxanneAfterBattleText:
-	text "If you don't skate"
-	line "with precision,"
+	text "Wenn du nicht ge-"
+	line "nau rutschst,"
 
-	para "you won't get far"
-	line "in this GYM."
+	para "kommst du in die-"
+	line "ser PKMN-ARENA"
+	cont "nicht weit."
 	done
 
 SkierClarissaSeenText:
-	text "Check out my"
-	line "parallel turn!"
+	text "Sieh dir meinen"
+	line "Parallelschwung"
+	cont "an!"
 	done
 
 SkierClarissaBeatenText:
-	text "No! You made me"
-	line "wipe out!"
+	text "Nein! Jetzt bin"
+	line "ich weggerutscht!"
 	done
 
 SkierClarissaAfterBattleText:
-	text "I shouldn't have"
-	line "been bragging"
-	cont "about my skiing…"
+	text "Ich hätte mit mei-"
+	line "nen Ski-Künsten"
+	cont "nicht so angeben"
+	cont "sollen…"
 	done
 
 BlueForestGymGuyText:
-	text "PRYCE is a veteran"
-	line "who has trained"
+	text "ALBERT ist ein"
+	line "Veteran, der seine"
 
-	para "#MON for some"
-	line "50 years."
+	para "#MON schon"
+	line "seit fast 50 Jah-"
+	cont "ren trainiert."
 
-	para "He's said to be"
-	line "good at freezing"
+	para "Angeblich friert"
+	line "er seine Gegner"
 
-	para "opponents with"
-	line "ice-type moves."
+	para "gerne mit Eis-"
+	line "Attacken ein."
 
-	para "That means you"
-	line "should melt him"
+	para "Das heißt, du"
+	line "solltest ihn mit"
 
-	para "with your burning"
-	line "ambition!"
+	para "deinem brennenden"
+	line "Ehrgeiz schmelzen!"
 	done
 
 BlueForestGymGuyWinText:
-	text "PRYCE is some-"
-	line "thing, but you're"
-	cont "something else!"
+	text "ALBERT ist nicht"
+	line "übel, aber du"
+	cont "bist noch besser!"
 
-	para "That was a hot"
-	line "battle that"
+	para "Das war ein heißer"
+	line "Kampf, der die"
 
-	para "bridged the gen-"
-	line "eration gap!"
+	para "Kluft zwischen den"
+	line "Generationen über-"
+	cont "wunden hat."
 	done
 
 BlueForestGym_MapEvents:

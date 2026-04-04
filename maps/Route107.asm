@@ -69,19 +69,19 @@ TrainerSwimmermGeorge:
 	end
 	
 SwimmermGeorgeSeenText:
-	text "Go! My all-star"
-	line "water team!"
+    text "Los! Mein Wasser-"
+    line "Allstar-Team!"
 	done
 
 SwimmermGeorgeBeatenText:
-	text "The stars have"
-	line "fallen!"
+	text "Die Sterne sind"
+	line "gefallen!"
 	done
 
 SwimmermGeorgeAfterBattleText:
-	text "Your team is"
-	line "clearly an all-"
-	cont "star ensemble!"
+	text "Dein Team ist auf"
+	line "jeden Fall ein"
+	cont "Allstar-Team!"
 	done
 
 SwimmermSethSeenText:
@@ -90,60 +90,63 @@ SwimmermSethSeenText:
 	done
 
 SwimmermSethBeatenText:
-	text "Glug…"
+	text "Gluck…"
 	done
 
 SwimmermSethAfterBattleText:
-	text "One day I'd like"
-	line "to train with the"
-	para "dragon master on"
-	line "KOBAN ISLAND."
+	text "Eines Tages möchte"
+	line "ich mit der"
+	para "Drachenmeisterin"
+	line "auf der SATORIA-"
+	cont "INSEL trainieren."
 	done
 	
 SwimmermCharlieSeenText:
-	text "Are you not"
-	line "strong enough to"
-	cont "swim on your own?"
+    text "Bist du etwa zu"
+    line "schwach, um selber"
+    cont "zu schwimmen?"
 	done
 
 SwimmermCharlieBeatenText:
-	text "I was wrong!"
+	text "Ich lag falsch!"
 	done
 
 SwimmermCharlieAfterBattleText:
-	text "Your #MON are"
-	line "definitely strong!"
+	text "Deine #MON sind"
+	line "definitiv stark!"
 	done
 
 SwimmerfNikkiSeenText:
-	text "If I win, you have"
-	line "to help me with my"
-	cont "suntan lotion!"
+	text "Falls ich gewinne,"
+	line "musst du mich mit"
+	cont "der Sonnencreme"
+	cont "einreiben!"
 	done
 
 SwimmerfNikkiBeatenText:
-	text "I'm worried about"
-	line "sunburn…"
+	text "Ich habe Angst vor"
+	line "einem Sonnenbrand…"
 	done
 
 SwimmerfNikkiAfterBattleText:
-	text "I have to watch"
-	line "out for blemishes"
-	cont "caused by the sun."
+	text "Ich muss mich"
+	line "vor Hautreizungen"
+	cont "in Acht nehmen."
 	done
 
 FisherArnoldSeenText:
-	text "I'm bored by fish-"
-	line "ing. Let's battle!"
+	text "Angeln langweilt"
+	line "mich. Lass uns"
+	cont "kämpfen!"
 	done
 
 FisherArnoldBeatenText:
-	text "Utter failure…"
+	text "Total versagt…"
 	done
 
 FisherArnoldAfterBattleText:
-	text "I'll just go back"
-	line "to fishing…"
+	text "Ich gehe zurück"
+	line "zum Angeln…"
 	done
 
 Route107_MapEvents:
