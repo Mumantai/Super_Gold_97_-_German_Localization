@@ -319,7 +319,7 @@ Route112Worker1Text:
 
 	para "Der Sturm hat"
 	line "Schnee den Hang"
-	para "herunter, direkt
+	para "herunter, direkt"
 	line "in dieses Tort"
 	cont "geweht!"
 	done
