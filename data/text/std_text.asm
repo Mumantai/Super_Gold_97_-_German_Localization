@@ -244,7 +244,7 @@ RematchMText:
 	done
 
 AskNumber1FText:
-	para "Du kämpfst sehr"
+	text "Du kämpfst sehr"
 	line "gut."
 
 	para "Gibst du mir deine"
