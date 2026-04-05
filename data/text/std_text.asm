@@ -250,7 +250,7 @@ AskNumber1FText:
 	para "Gibst du mir deine"
 	line "Telefonnummer?"
 
-	text "Ich melde mich,"
+	para "Ich melde mich,"
 	line "wenn ich erneut"
 	cont "kämpfen möchte!"
 	done
