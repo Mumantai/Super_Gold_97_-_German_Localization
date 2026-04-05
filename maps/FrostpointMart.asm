@@ -45,7 +45,7 @@ FrostpointMartRockerText:
 	line "CITY herstellt."
 
 	para "Ich habe noch nie"
-	line "welche benutzt.
+	line "welche benutzt."
 
     para "Ich wette, sie"
     line "funktionieren in"
