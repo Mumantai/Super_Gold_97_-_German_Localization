@@ -22,11 +22,11 @@ BlueForestPokecenter1FCooltrainerMScript:
 	jumpstd HappinessCheckScript
 
 BlueForestPokecenter1FGentlemanText:
-	text "Hoch oben, auf der"
-	line "Spitze des KOROKA-"
-	para "NIABERGs, befindet"
-	line "sich die #MON"
-	cont "LIGA."
+	text "Hoch oben,"
+	line "auf der Spitze des"
+	para "KOROKANIABERGes,"
+	line "befindet sich die"
+	cont "#MON LIGA."
 
 	para "Ich hörte, die"
 	line "besten Trainer des"

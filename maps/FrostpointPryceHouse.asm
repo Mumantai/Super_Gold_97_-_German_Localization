@@ -123,115 +123,121 @@ FrostpointPryceHouseBookshelf:
 	jumpstd PictureBookshelfScript
 	
 HereIsWhirlpool:
-	text "Ah, I can see"
-	line "that you have"
-	para "received the"
-	line "GLACIERBADGE from"
-	cont "my husband."
-	para "Here, I have"
-	line "something that"
-	para "will be of use to"
-	line "you."
+    text "Ah, ich sehe, du"
+    line "hast den EISORDEN"
+    para "von meinem Mann"
+    line "erhalten."
+
+    para "Hier, ich habe"
+    line "etwas für dich,"
+    para "das sehr nützlich"
+    line "für dich sein"
+    cont "wird."
 	done
 	
 NowYouHaveWhirlpool:
-	text "That HM teaches"
-	line "WHIRLPOOL."
-	para "It is very useful"
-	line "for traversing the"
-	para "rough waters of"
-	line "northern NIHON."
+    text "Diese VM enthält"
+    line "WHIRLPOOL."
+
+    para "Sie wird dir"
+    line "helfen, die rauen"
+    para "Gewässer im Norden"
+    line "von NIHON zu"
+    cont "durchqueren."
 	done
 	
 PryceVisitingIsMyFavoriteG:
-	text "I always respect"
-	line "the dedication"
-	para "PRYCE has for his"
-	line "responsibilities."
+    text "Ich respektiere"
+    line "die Hingabe, die"
+    para "ALBERT für seine"
+    line "Verantwortungen"
+    cont "zeigt."
 	done
 	
 PryceIsComingToVisitG:
-	text "PRYCE, my husband,"
-	line "is the GYM LEADER"
-	cont "in BLUE FOREST."
-	para "He has to travel"
-	line "there frequently"
-	cont "to battle."
-	para "He also spends a"
-	line "lot of time"
-	para "training in the"
-	line "DEEPWATER PASSAGE."
-	para "But he always"
-	line "makes time to"
-	cont "come home."
-	para "He should be here"
-	line "soon."
+    text "ALBERT, mein Ehe-"
+    line "mann, ist der"
+    para "ARENALEITER in"
+    line "KITAOMORIA CITY."
+
+    para "Er reist oft"
+    line "dorthin, um zu"
+    cont "kämpfen."
+
+    para "Er verbringt auch"
+    line "viel Zeit mit dem"
+    para "Training im TIEF-"
+    line "WASSERPFAD."
+
+    para "Aber er nimmt sich"
+    line "immer Zeit, um"
+    para "nach Hause zu"
+    line "kommen."
+
+    para "Er sollte bald"
+    line "hier sein."
 	done
 	
 PryceIsHereG:
-	text "It's always nice"
-	line "to have PRYCE at"
-	cont "home."
+    text "Es ist schön,"
+    line "ALBERT zu Hause"
+    cont "zu haben."
 	done
 	
 GoBeatHimPryce:
-	text "I see that PRYCE"
-	line "is awaiting your"
-	cont "challenge."
-	para "Defeat him, then"
-	line "come see me."
-	para "I'll have a gift"
-	line "for you."
+    text "Ich sehe, dass"
+    line "ALBERT auf deine"
+    para "Herausforderung"
+    line "wartet."
+
+    para "Komm zu mir, wenn"
+    line "du ihn besiegen"
+    cont "solltest."
+
+    para "Ich habe dann ein"
+    line "Geschenk für dich."
 	done
 
 PryceVisitingIsMyFavorite:
-	text "It's my favorite"
-	line "when grandpa comes"
-	cont "to visit."
+	text "Am schönsten ist"
+	line "es, wenn Opa zu"
+	cont "Besuch kommt."
 	done
 	
 PryceIsComingToVisit:
-	text "Grandpa should be"
-	line "coming to visit"
-	cont "soon!"
+	text "Opa kommt bald"
+	line "zu Besuch!"
 	done
 	
 PryceIsHere:
-	text "Yay! Grandpa is"
-	line "here!"
+	text "Juhu! Opa ist da!"
 	done
 	
 FrostpointPryceHousePryceText:
-	text "Glad you could"
-	line "visit."
-	para "Any trainer that"
-	line "can make it to"
-	para "my training site"
-	line "is a trainer I"
-	cont "respect."
-	para "What is your name,"
-	line "by the way?"
-	para "<PLAYER>?"
-	para "Well, <PLAYER>,"
-	line "as I promised, I"
-	para "will get back to"
-	line "my GYM."
-	para "I expect you to be"
-	line "a worthy opponent."
-	done
+    text "Schön, dass du es"
+    line "geschafft hast,"
+    cont "vorbeizuschauen."
 
-FrostpointPryceHousePokefanFText:
-	text "LAVENDER is a"
-	line "tiny, quiet town"
+    para "Jeder Trainer, der"
+    line "es zu meinem"
+    para "Trainingsplatz"
+    line "schafft, ist ein"
+    para "Trainer, den ich"
+    line "respektiere."
 
-	para "at the foot of the"
-	line "mountains."
+    para "Wie heißt du"
+    line "eigentlich?"
 
-	para "It's gotten a bit"
-	line "busier since the"
+    para "<PLAYER>?"
 
-	para "RADIO TOWER was"
-	line "built."
+    para "Also, <PLAYER>, wie"
+    line "versprochen, werde"
+    para "ich wieder in"
+    line "meine PKMN-ARENA"
+    cont "zurückkehren."
+
+	para "Ich erwarte einen"
+	line "würdigen Gegner."
 	done
 
 FrostpointPryceHouse_MapEvents:

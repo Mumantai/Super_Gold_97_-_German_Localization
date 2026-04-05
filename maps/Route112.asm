@@ -310,161 +310,177 @@ Route112OfficerText:
 	done
 	
 Route112Worker1Text:
-	text "Whew!"
-	para "STAND CITY is at"
-	line "a much lower"
-	para "altitude than"
-	line "BLUE FOREST."
-	para "The storm blew"
-	line "snow down the"
-	para "hill and right"
-	line "into this gate!"
+	text "Puh!"
+
+	para "SENDESTIA CITY"
+	line "liegt viel tiefer"
+	para "als KITAOMORIA"
+	line "CITY."
+
+	para "Der Sturm hat"
+	line "Schnee den Hang"
+	para "herunter, direkt
+	line "in dieses Tort"
+	cont "geweht!"
 	done
 	
 Route112Worker2Text:
-	text "Be careful, kid!"
-	para "There might be"
-	line "broken glass"
-	cont "around here."
-	para "You should stay"
-	line "back until we're"
-	cont "done with repairs."
+    text "Pass auf, Kleiner!"
+
+    para "Hier könnten über-"
+    line "all Glasscherben"
+    cont "herumliegen."
+
+    para "Du solltest besser"
+    line "wegbleiben, bis"
+    para "wir mit den"
+    line "Reparaturen fertig"
+    cont "geworden sind."
 	done
 
 YoungsterGordonSeenText:
-	text "I found some good"
-	line "#MON in the"
-	cont "grass!"
+	text "Ich habe gute"
+	line "#MON im"
+	cont "Gras gefunden!"
 
-	para "I think they'll do"
-	line "it for me!"
+	para "Ich denke, sie"
+	line "passen ganz gut"
+	cont "zu mir!"
 	done
 
 YoungsterGordonBeatenText:
-	text "Darn. I thought I"
-	line "could win."
+	text "Mist. Ich dachte,"
+	line "ich könnte"
+	cont "gewinnen."
 	done
 
 YoungsterGordonAfterText:
-	text "The grass is full"
-	line "of clingy things."
+	text "Im Gras findest"
+	line "du viele Dinge."
 	done
 
 CamperRolandSeenText:
-	text "I'm spending my"
-	line "day camping at"
-	para "the base of this"
-	line "snowy hill."
+	text "Ich zelte heute"
+	line "am Fuß dieses"
+	para "verschneiten"
+	line "Hügels."
 	done
 
 CamperRolandBeatenText:
-	text "Hmmm. This is"
-	line "disappointing."
+	text "Hm. Das ist"
+	line "enttäuschend."
 	done
 
 CamperRolandAfterText:
-	text "A snowy hill is"
-	line "such a pleasant"
-	cont "camping location!"
+    text "Ein verschneiter"
+    line "Hügel ist so ein"
+    para "angenehmer Ort"
+    line "zum Zelten!"
 	done
 
 PicnickerLiz1SeenText:
-	text "Uh-huh. Yeah, and"
-	line "you know…"
+	text "A-ha. Ja,"
+	line "du weißt…"
 
-	para "Pardon? Battle?"
-	line "I'm on the phone."
+	para "Wie bitte? Kampf?"
+	line "Ich telefoniere."
 
-	para "Oh, all right. But"
-	line "make it fast."
+	para "Oh, O.K. Aber"
+	line "mach schnell."
 	done
 
 PicnickerLiz1BeatenText:
-	text "Oh! I've got to"
-	line "relieve my anger!"
+	text "Ich muss meinem"
+	line "Ärger Luft machen!"
 	done
 
 PicnickerLiz1AfterText:
-	text "I was having a"
-	line "nice chat too."
+	text "Ich hatte einen"
+	line "netten Plausch."
 	done
 
-
-
 MeetFriedaText:
-	text "FRIEDA: Yahoo!"
-	line "It's Friday!"
+	text "FRIEDA: Juhu!"
+	line "Es ist Freitag!"
 
-	para "I'm FRIEDA of"
-	line "Friday!"
+	para "Ich bin FRIEDA"
+	line "von Freitag!"
 
-	para "Nice to meet you!"
+	para "Schön dich"
+	line "kennen zu lernen!"
 	done
 
 FriedaGivesGiftText:
-	text "Here's a POISON"
-	line "BARB for you!"
+	text "Hier, GIFTSTICH"
+	line "ist für dich!"
 	done
 
 FriedaGaveGiftText:
-	text "FRIEDA: Give it to"
-	line "a #MON that has"
-	cont "poison-type moves."
+	text "FRIEDA: Gib es"
+	line "einem #MON, das"
+	cont "über Gift-Attacken"
+	cont "verfügt."
 
 	para "Oh!"
 
-	para "It's wicked!"
+	para "Es ist gemein!"
 
-	para "You'll be shocked"
-	line "how good it makes"
-	cont "poison moves!"
+	para "Du wirst dich"
+	line "wundern, wie"
+	cont "effektiv deine"
+	cont "Gift-Attacken"
+	cont "werden!"
 	done
 
 FriedaFridayText:
-	text "FRIEDA: Hiya! What"
-	line "day do you like?"
+	text "FRIEDA: Hossa!"
+	line "Welchen Wochentag"
+	cont "hast du am"
+	cont "liebsten?"
 
-	para "I love Friday. No"
-	line "doubt about it!"
+	para "Ich liebe Freitag."
+	line "Daran gibt es"
+	cont "keinen Zweifel!"
 
-	para "Don't you think"
-	line "it's great too?"
+	para "Denkst du nicht"
+	line "auch, dass Freitag"
+	cont "großartig ist?"
 	done
 
 FriedaNotFridayText:
-	text "FRIEDA: Isn't it"
-	line "Friday today?"
+	text "FRIEDA: Ist heute"
+	line "nicht Freitag?"
 
-	para "It's so boring"
-	line "when it's not!"
+	para "Es wäre langwei-"
+	line "lig, wenn nicht!"
 	done
 
 Route112SignText:
 	text "ROUTE 112"
 
-	para "BLUE FOREST -"
-	line "STAND CITY"
+	para "KITAOMORIA CITY -"
+	line "SENDESTIA CITY"
 	done
-	
 
 PicnickerGina1SeenText:
-	text "Are you a trainer?"
+	text "Bist du"
+	line "ein Trainer?"
 
-	para "Let's have a"
-	line "practice battle."
+	para "Hast du Lust auf"
+	line "einen Übungskampf?"
 	done
 
 PicnickerGina1BeatenText:
-	text "Oh, no! I just"
-	line "can't win…"
+	text "Oh nein! Ich habe"
+	line "noch nie gewonnen…"
 	done
 
 PicnickerGina1AfterText:
-	text "You're too strong"
-	line "to be a practice"
-	cont "partner."
+	text "Du bist mir zu"
+	line "stark. Das ist"
+	cont "keine Übung"
+	cont "für mich."
 	done
-
 
 Route112_MapEvents:
 	db 0, 0 ; filler

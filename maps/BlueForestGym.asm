@@ -227,8 +227,7 @@ BlueForestGymGuyNotAroundText:
     para "Er verbringt seine"
     line "Tage mit seinem"
     para "strengen Training"
-    line "in der TIEFWASSER"
-    cont "PASSAGE."
+    line "im TIEFWASSERPFAD."
 
     para "Was ich damit"
     line "sagen will, ist,"
@@ -390,10 +389,10 @@ BoarderDouglasAfterBattleText:
 	text "Das Geheimnis von"
 	line "ALBERTs Kraft…"
 
-	para "Er trainiert unter"
-	line "den harten Beding-"
-	para "ungen der TIEF-"
-	cont "WASSER-PASSAGE."
+	para "Er trainiert"
+	line "unter den harten"
+	para "Bedingungen des"
+	cont "TIEFWASSERPFADs."
 	done
 
 SkierRoxanneSeenText:

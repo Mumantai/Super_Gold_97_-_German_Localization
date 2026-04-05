@@ -15,13 +15,18 @@ FrostpointOtherHouse:
 	end
 	
 FrostpointOtherHouseText:
-	text "FROSTPOINT TOWN is"
-	line "cold and remote."
-	para "We don't get many"
-	line "visitors."
-	para "But those who live"
-	line "here are a close"
-	cont "community."
+    text "SPIZARDIA ist eine"
+    line "abgelegene und"
+    cont "kalte Stadt."
+
+    para "Wir kriegen hier"
+    line "nicht viele"
+    cont "Besucher."
+
+    para "Aber die Leute,"
+    line "die hier leben,"
+    para "sind eine enge"
+    line "Gemeinschaft."
 	done
 
 

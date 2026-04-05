@@ -43,48 +43,55 @@ FrostpointTownTeacherScript:
 	jumptextfaceplayer FrostpointTownTeacherText
 	
 FrostpointTownTwinText:
-	text "I love the snow!"
-	para "I also love"
-	line "swimming, but it's"
-	para "too cold here to"
-	line "spend too long"
-	cont "in the water."
+    text "Ich liebe den"
+    line "Schnee!"
+
+    para "Schwimmen mag ich"
+    line "auch, aber es ist"
+    para "zu kalt hier, um"
+    line "lange im Wasser"
+    cont "zu bleiben."
 	done
 	
 FrostpointTownRockerText:
-	text "The air is so"
-	line "crisp and clean"
-	cont "here."
-	para "I could never live"
-	line "in a smoggy city."
+    text "Die Luft hier ist"
+    line "so frisch und"
+    cont "sauber."
+
+    para "Ich könne niemals"
+    line "in einer ver-"
+    para "smogten Stadt"
+    line "leben."
 	done
 	
 FrostpointTownTeacherText:
-	text "Did you come"
-	line "through the"
-	cont "DEEPWATER PASSAGE?"
-	para "It's difficult to"
-	line "get here by water"
-	para "because of the"
-	line "whirlpools along"
-	cont "the way."
-	para "PRYCE's wife knows"
-	line "a secret technique"
-	para "that allows"
-	line "#MON to cross"
-	cont "whirlpools."
+    text "Bist du duch den"
+    line "TIEFWASSERPFAD"
+    cont "hergekommen?"
+
+    para "Wegen der vielen"
+    line "Strudel, ist es"
+    para "schwierig über das"
+    line "Wasser hierher zu"
+    cont "kommen."
+
+    para "ALBERTs Frau kennt"
+    line "eine geheime"
+    para "Technik, mit der"
+    line "#MON Strudel"
+    cont "überqueren können."
 	done
 
 FrostpointTownDeepwaterSignText:
-	text "DEEPWATER PASSAGE"
-	line "North Entrance"
+	text "TIEFWASSERPFAD"
+	line "Nordeingang"
 	done
 
 FrostpointTownSignText:
-	text "FROSTPOINT TOWN"
+	text "SPIZARDIA"
 
-	para "The Frigid Land"
-	line "of Hardy People"
+	para "Das kalte Land"
+	line "der harten Leute"
 	done
 
 FrostpointTown_MapEvents:

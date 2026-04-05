@@ -127,10 +127,10 @@ BlueForestCooltrainerF1Text:
 	done
 
 BlueForestYoungsterText:
-    text "In der TIEFWASSER"
-    line "PASSAGE gibt es"
-    para "viele #MON vom"
-    line "Typ Eis."
+    text "Im TIEFWASSERPFAD"
+    line "gibt es viele"
+    para "#MON vom Typ"
+    line "Eis."
 	done
 
 MeetSantosText:
@@ -179,8 +179,8 @@ SantosNotSaturdayText:
 
 BlueForestCooltrainerF2Text:
 	text "Wow, du bist über"
-	line "die TIEFWASSER"
-	cont "PASSAGE gekommen?"
+	line "den TIEFWASSERPFAD"
+	cont "gekommen?"
 
 	para "Du musst ein rich-"
 	line "tiger Heißsporn"
@@ -191,8 +191,8 @@ BlueForestCooltrainerF2TextNotWow:
 	text "Ich war noch nie"
 	line "in SPIZARDIA."
 
-	para "Durch die"
-	line "TIEFWASSER PASSAGE"
+	para "Durch den"
+	line "TIEFWASSERPFAD"
 	para "zu reisen ist mir"
 	line "zu unheimlich."
 	done
@@ -215,8 +215,8 @@ BlueForestGymSignText:
 
 
 DeepwaterPassageSignText:
-	text "DEEPWATER PASSAGE"
-	line "South Entrance"
+	text "TIEFWASSERPFAD"
+	line "Südlicher Eingang"
 	done
 
 

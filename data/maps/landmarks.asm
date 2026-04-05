@@ -103,7 +103,7 @@ Landmarks:
 	landmark  36, 124, FastShipName
 
 SilentTownName:     db "SILENITIA@"         ; Silens (lat. Stille) + initium (lat. Anfang)
-CrownCityName:      db "KOROKANIA CITY@"       ; Coroa (port. Krone) + oukan (jap. Krone)
+CrownCityName:      db "KOROKANIA CITY@"    ; Coroa (port. Krone) + oukan (jap. Krone)
 PagotaCityName:     db "PAGETIA CITY@"      ; Pagode + vetus (lat. alt)
 BirdonTownName:     db "TOTOMONIA@"         ; Tottori + Flegmon
 WestportCityName:   db "PORT ABANISHI@"     ; Port (alt. Hafen) + Abanti (ahd. Abend bzw. Westen) + Nishi (jap. Westen)     evtl. PORT ABANTIA
@@ -126,7 +126,7 @@ EndonCaveName:      db "ENDON HÖHLE@"       ; NICHT FINAL Endon vielleicht von 
 WhirlIslandsName:   db "STRUDELINSEL@"      ;
 MtMortarName:       db "NOT USED@"
 DragonsDenName:     db "DRACHENSCHLUND@"    ;
-IcePathName:        db "TIEFWASSER PASSAGE@";
+IcePathName:        db "TIEFWASSERPFAD@";
 NotApplicableName:  db "N/A@" ; "オバケやしき" ("HAUNTED HOUSE") in Japanese
 KobanIslandName:    db "SATORIA-INSEL@"     ; Satou (jap. Zucker)    alt. Satoria Eiland
 IejimaTown:         db "IEJIMA TOWN@"       ;
