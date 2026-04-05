@@ -103,20 +103,20 @@ Route109HiddenNugget:
 	
 
 BugCatcherEdSeenText:
-    text "Setzt du KÄFER-"
+    text "Setzt du Käfer-"
     line "#MON ein?"
 	done
 
 BugCatcherEdBeatenText:
     text "Ich benutze aus-"
-    line "schließlich KÄFER-"
+    line "schließlich Käfer-"
     cont "#MON!"
 	done
 
 BugCatcherEdAfterBattleText:
 	text "Jeder Trainer"
 	line "sollte ein paar"
-	cont "KÄFER-#MON"
+	cont "Käfer-#MON"
 	cont "einsetzen!"
 	done
 

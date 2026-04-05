@@ -274,7 +274,7 @@ PryceText_Intro:
 	para "Ich verliere nicht"
 	line "gerne."
 
-	para "Ich, NORBERT, der"
+	para "Ich, ALBERT, der"
 	line "Wintertrainer,"
 
 	para "werde meine Macht"

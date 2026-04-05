@@ -363,46 +363,50 @@ InstructorRandAfterBattleTextNotDone:
 	done
 
 TwinsLeaandpia1SeenText:
-	text "It's a stranger we"
-	line "don't know."
+	text "Ein Fremder, den"
+	line "wir nicht kennen."
 	done
 
 TwinsLeaandpia1BeatenText:
-	text "Ouchies."
+	text "Aua!"
 	done
 
 TwinsLeaandpia1AfterBattleText:
-	text "Have you ever"
-	line "battled LANCE?"
-	para "He is the only"
-	line "dragon trainer"
-	para "considered CLAIR's"
-	line "superior."
+    text "Hast du schon mal"
+    line "gegen SIEGFRIED"
+    cont "gekämpft?"
+
+    para "Er ist der einzige"
+    line "Drachen-Trainer,"
+    para "der SANDRA über-"
+    line "legen ist."
 	done
 	
 TwinsLeaandpia1AfterBattleTextNotDone:
-	text "A DRAGON ORB?"
-	line "Nope, not here!"
+	text "Ein DRACHEN ORB?"
+	line "Nein, nicht hier!"
 	done
 
 TwinsLeaandpia2SeenText:
-	text "Who are you?"
+	text "Wer bist du?"
 	done
 
 TwinsLeaandpia2BeatenText:
-	text "Meanie."
+	text "Fiesling."
 	done
 
 TwinsLeaandpia2AfterBattleTextNotDone:
-	text "DRAGON ORB? I"
-	line "don't have it!"
+	text "DRACHEN ORB?"
+	line "Den hab ich"
+	cont "nicht!"
 	done
 
 TwinsLeaandpia2AfterBattleText:
-	text "Me and my sister"
-	line "are going to rival"
-	para "CLAIR and LANCE"
-	line "someday!"
+	text "Meine Schwester"
+	line "und ich werden"
+	para "eines Tages SANDRA"
+	line "und SIEGFRIED"
+	cont "übertreffen!"
 	done
 
 DragonsMaw1F_MapEvents:

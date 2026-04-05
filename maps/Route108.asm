@@ -74,9 +74,9 @@ BirdKeeperTobyAfterBattleText:
 	para "im KAMPF-DOJO zu"
 	line "trainieren."
 
-	para "FLUG-#MON sind"
+	para "Flug-#MON sind"
 	line "stark gegen"
-	cont "KAMPF-#MON."
+	cont "Kampf-#MON."
 
 	para "…Ist das ein"
     line "unfairer Vorteil?"

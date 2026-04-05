@@ -151,7 +151,7 @@ Text_FocusBandDescription:
     text "RABAUZ kann sich"
     line "zu einem von drei"
     para "verschiedenen"
-    line "KAMPF-#MON"
+    line "Kampf-#MON"
     cont "entwickeln!"
 
     para "Ein Trainer wie du"

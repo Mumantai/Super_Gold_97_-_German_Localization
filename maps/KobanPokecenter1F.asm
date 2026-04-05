@@ -23,32 +23,41 @@ KobanPokecenter1FYoungsterScript:
 	
 
 KobanPokecenter1FGentlemanText:
-	text "This town doesn't"
-	line "get too many"
-	cont "visitors."
-	para "Mainly just people"
-	line "wanting to train"
-	cont "in the cave."
+    text "Diese Stadt sieht"
+    line "nicht viele"
+    cont "Besucher."
+
+    para "Hauptsächlich sind"
+    line "es Leute, die im"
+    para "DRACHENSCHLUND"
+    line "trainieren wollen."
 	done
 
 KobanPokecenter1FTeacherText:
-	text "I've lived on this"
-	line "island my whole"
-	para "life and I've not"
-	line "seen you before."
-	para "I assume you're"
-	line "here to learn of"
-	cont "dragon #MON."
+	text "Ich lebe schon"
+	line "mein ganzes Leben"
+	para "auf dieser Insel"
+	line "und habe dich hier"
+	cont "noch nie gesehen."
+
+	para "Ich schätze, du"
+	line "willst etwas über"
+	cont "Drachen-#MON"
+	cont "lernen."
 	done
 
 KobanPokecenter1FYoungsterText:
-	text "I'm not too"
-	line "interested in"
-	cont "dragon #MON."
-	para "There isn't much"
-	line "for me to do here."
-	para "I might move away"
-	line "someday."
+	text "Drachen-#MON"
+	line "interessieren mich"
+	cont "nicht besonders."
+
+	para "Hier gibt es"
+	line "nicht viel für"
+	cont "mich zu tun."
+
+	para "Vielleicht ziehe"
+	line "ich irgendwann"
+	cont "mal weg."
 	done
 
 

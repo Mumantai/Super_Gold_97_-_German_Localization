@@ -266,7 +266,7 @@ Jasmine_SteelTypeIntro:
     para "Gegner für die"
     line "unglaubliche Ver-"
     para "teidigung meiner"
-    line "STAHL-#MON"
+    line "Stahl-#MON"
     cont "zu sein."
 
     para "Du hast dich gut"
@@ -365,7 +365,7 @@ GentlemanPrestonSeenText:
     text "Bist du jemals"
     line "gegen die Vertei-"
     para "digungen von"
-    line "STAHL-#MON"
+    line "Stahl-#MON"
     cont "angetreten?"
 	done
 
@@ -376,7 +376,7 @@ GentlemanPrestonBeatenText:
 	done
 
 GentlemanPrestonAfterBattleText:
-    text "STAHL-#MON"
+    text "Stahl-#MON"
     line "haben eine hohe"
     cont "VERTEIDIGUNG."
 

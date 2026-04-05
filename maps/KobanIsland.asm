@@ -58,77 +58,101 @@ KobanIslandClairScript:
 	end
 
 KobanIslandTeacherText:
-	text "Water currents"
-	line "help keep this"
-	para "island slightly"
-	line "warmer than BLUE"
-	para "FOREST, which is"
-	line "just east of here."
+	text "Meeresströmungen"
+	line "machen diese Insel"
+	para "etwas wärmer als"
+	line "KITAOMORIA CITY,"
+	para "das gleich östlich"
+	line "von hier liegt."
 	done
 
 KobanIslandGrampsText:
-	text "The trainers of"
-	line "this town have a"
-	para "longstanding"
-	line "tradition of"
-	cont "raising dragons."
+    text "Die Trainer in"
+    line "dieser Stadt haben"
+    para "eine langreichende"
+    line "Tradition, Drachen"
+    cont "großzuziehen."
 	done
 
 KobanIslandFisherText:
-	text "One day I want"
-	line "to raise a dragon!"
+	text "Eines Tages will"
+	line "ich einen Drachen"
+	cont "großziehen!"
 	done
 
 OaksLabSignText:
-	text "KOBAN ISLAND"
-	para "A Small Island"
-	line "With Big History"
+	text "SATORIA INSEL"
+	para "Eine kleine Insel"
+	line "mit großer"
+	cont "Geschichte"
 	done
 
 BluesHouseSignText:
-	text "DRAGON'S MAW"
+	text "DRACHENSCHLUND"
 	done
 	
 ClairGreetingsText:
-	text "Greetings."
-	para "Who might you be?"
-	para "…"
-	para "Well, <PLAYER>,"
-	line "my name is CLAIR."
-	para "I am NIHON's most"
-	line "notable dragon"
-	cont "master."
-	para "…Well, the"
-	line "second most."
-	para "But what matters"
-	line "here is that"
-	para "behind me is the"
-	line "DRAGON'S MAW."
-	para "It is a mystical"
-	line "place where it"
-	para "is said dragon"
-	line "#MON first came"
-	cont "to live."
-	para "Do you have any"
-	line "dragon #MON?"
-	para "If you want to"
-	line "be respected among"
-	para "dragon trainers,"
-	line "you should train"
-	cont "in the cave."
-	para "Inside are several"
-	line "dragon trainers."
-	para "One of them holds"
-	line "the DRAGON ORB."
-	para "Find which trainer"
-	line "has the ORB, and"
-	cont "bring it to me."
-	para "This is your first"
-	line "step to being a"
-	para "respected dragon"
-	line "trainer."
-	para "I'll be waiting in"
-	line "my house."
+    text "Sei gegrüßt."
+
+    para "Wer bist du denn?"
+
+    para "…"
+
+    para "Nun, <PLAYER>,"
+    line "mein Name ist"
+    cont "SANDRA."
+
+    para "Ich bin NIHONs"
+    line "bekannteste"
+    cont "Drachenmeisterin."
+
+    para "…Naja, die"
+    line "zweitbekannteste."
+
+    para "Aber worum es hier"
+    line "eigentlich geht,"
+    para "ist, dass hinter"
+    line "mir der DRACHEN-"
+    cont "SCHLUND liegt."
+
+    para "Er ist ein"
+    line "mystischer Ort, an"
+    para "dem die ersten"
+    line "Drachen-#MON"
+    para "gelebt haben"
+    line "sollen."
+
+    para "Hast du schon"
+    line "Drachen-#MON?"
+
+	para "Wenn du unter"
+	line "Drachentrainern"
+	cont "respektiert werden"
+	para "willst, solltest"
+	line "du in der Höhle"
+	cont "trainieren."
+
+	para "Dort drin sind"
+    line "mehrere Drachen-"
+    cont "trainer."
+
+    para "Einer von ihnen"
+    line "trägt den DRACHEN"
+    cont "ORB bei sich."
+
+	para "Finde heraus, wer"
+	line "den ORB hat und"
+	cont "bring ihn mir."
+
+	para "Das ist dein"
+	line "erster Schritt, um"
+	para "ein respektierter"
+	line "Drachentrainer zu"
+	cont "werden."
+
+	para "Ich werde in"
+	line "meinem Haus auf"
+	cont "dich warten."
 	done
 
 ClairLeavesMovement:

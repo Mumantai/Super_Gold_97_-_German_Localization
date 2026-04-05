@@ -15,7 +15,7 @@ SunpointFishGuruText:
     cont "Stadt ist es echt"
     cont "brütend heiß."
 
-    para "FEUER-#MON"
+    para "Feuer-#MON"
     line "sollen sich davon"
     cont "angezogen fühlen."
 	done

@@ -320,7 +320,7 @@ Route112Worker1Text:
 	para "Der Sturm hat"
 	line "Schnee den Hang"
 	para "herunter, direkt"
-	line "in dieses Tort"
+	line "in dieses Tor"
 	cont "geweht!"
 	done
 	

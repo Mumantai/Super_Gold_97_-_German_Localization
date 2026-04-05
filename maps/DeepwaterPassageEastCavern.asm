@@ -68,7 +68,7 @@ PryceGreetingText:
     line "dieser Höhle."
 
     para "Lebe unter den"
-    line "EIS-#MON, um"
+    line "Eis-#MON, um"
     para "sie wirklich zu"
     line "verstehen."
 
