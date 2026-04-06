@@ -647,7 +647,7 @@ StandCityRockerText:
 StandCityRockerAllGoodText:
 	text "Das war gar nicht"
 	line "der echte"
-	cont "PROF. EICH?
+	cont "PROF. EICH?"
 
 	para "Total verrückt!"
 
