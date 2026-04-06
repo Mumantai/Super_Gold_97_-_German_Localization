@@ -33,8 +33,8 @@ StandPokeNurse2Script:
 	jumptextfaceplayer StandPokeNurse2Text
 	
 StandPokeNurse2Text:
-    text "Das ist die"
-    line "#MON-Klinik des"
+    text "Das ist das"
+    line "#MON-Klinikum des"
     para "ZOOs von SENDESTIA"
     line "CITY."
 

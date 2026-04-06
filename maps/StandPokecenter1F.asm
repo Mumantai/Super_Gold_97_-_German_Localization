@@ -112,8 +112,8 @@ StandPokecenter1FJanineImpersonatorText1:
 
     para "Ich bin schon"
     line "etwas wütend, dass"
-    para "ich jetzt nichts"
-    line "davon machen kann…"
+    para "beides jetzt nicht"
+    line "möglich ist…"
 	done
 
 StandPokecenter1FJanineImpersonatorText2:
