@@ -65,53 +65,61 @@ StandPokecenter1FJanineImpersonatorScript:
 	end
 
 StandPokecenter1FCooltrainerMText:
-	text "I'm worried about"
-	line "my #MON getting"
-	cont "sick."
+    text "Ich habe Angst,"
+    line "dass meine #MON"
+    cont "krank werden."
 	done
 	
 StandPokecenter1FCooltrainerMText2:
-	text "The staff for the"
-	line "STAND CITY ZOO do"
-	para "a lot of work"
-	line "making sure the"
-	para "#MON are"
-	line "healthy."
+    text "Die Mitarbeiter"
+    line "vom SENDESTIA CITY"
+    para "ZOO arbeiten hart,"
+    line "damit es den"
+    cont "#MON gut geht."
 	done
 
 StandPokecenter1FCooltrainerFText:
-	text "What's going on in"
-	line "this town right"
-	cont "now?"
-	para "Things are usually"
-	line "so peaceful."
+    text "Was ist gerade nur"
+    line "los in dieser"
+    cont "Stadt?"
+
+    para "Normalerweise ist"
+    line "hier doch alles so"
+    cont "friedlich."
 	done
 	
 StandPokecenter1FCooltrainerFText2:
-	text "You have a lot of"
-	line "GYM BADGES!"
-	para "Have you taken on"
-	line "the LEAGUE?"
-	para "One day I want to"
-	line "climb MT.FUJI"
-	cont "myself."
+    text "Du hast aber viele"
+    line "ARENA-ORDEN!"
+
+    para "Hast du schon die"
+    line "#MON LIGA"
+    cont "herausgefordert?"
+
+    para "Eines Tages möchte"
+    line "ich selbst den"
+    para "KOROKANIABERG"
+    line "besteigen."
 	done
 
 StandPokecenter1FJanineImpersonatorText1:
-	text "I came to visit"
-	line "STAND CITY to see"
-	para "the NATIONAL PARK"
-	line "and all of the"
-	cont "#MON."
-	para "I'm kind of upset"
-	line "I can't do any of"
-	cont "that right now…"
+    text "Ich bin nach"
+    line "SENDESTIA CITY"
+    para "gereist, um den"
+    line "NATIONALPARK und"
+    para "all die #MON"
+    line "zu sehen."
+
+    para "Ich bin schon"
+    line "etwas wütend, dass"
+    para "ich jetzt nichts"
+    line "davon machen kann…"
 	done
 
 StandPokecenter1FJanineImpersonatorText2:
-	text "STAND CITY has so"
-	line "many interesting"
-	cont "things to see!"
+    text "SENDESTIA CITY hat"
+    line "so viele tolle"
+    cont "Dinge zu sehen!"
 	done
 
 StandPokecenter1F_MapEvents:

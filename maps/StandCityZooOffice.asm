@@ -58,63 +58,70 @@ SafariOfficePokefanMScript:
 	end
 
 SafariOfficeSuperNerdText:
-	text "Hello. This is the"
-	line "office for the"
-	cont "STAND CITY ZOO."
-	para "We are very busy"
-	line "working on"
-	para "researching why"
-	line "our #MON are"
-	cont "feeling ill."
-	para "The ZOO is closed"
-	line "until further"
-	cont "notice."
+    text "Hallo. Dies ist"
+    line "das Büro des ZOOs"
+    para "von SENDESTIA"
+    line "CITY."
+
+    para "Wir sind sehr"
+    line "beschäftigt damit,"
+    para "zu erforschen,"
+    line "warum unsere"
+    para "#MON plötzlich"
+    line "erkrankt sind."
+
+    para "Der ZOO bleibt bis"
+    line "auf Weiteres"
+    cont "geschlossen."
 	done
 	
 SafariOfficeSuperNerdText2:
-	text "Welcome to the"
-	line "STAND CITY ZOO"
-	cont "office!"
-	para "We are hard at"
-	line "work examining the"
-	para "data we gather"
-	line "from our #MON"
-	para "in order to learn"
-	line "more about them."
+    text "Willkommen im Büro"
+    line "des SENDESTIA CITY"
+    cont "ZOOs!"
+
+    para "Wir arbeiten hart"
+    line "daran, die Daten"
+    para "zu untersuchen,"
+    line "die wir von"
+    para "unseren #MON"
+    line "sammeln, um mehr"
+    para "über sie zu"
+    line "erfahren."
 	done
 	
 SafariOfficeRockerText:
-	text "It seems that the"
-	line "#MON are"
-	para "suffering from"
-	line "headaches…"
-	para "That's the inital"
-	line "symptom."
+    text "Es scheint, als"
+    line "hätten die #MON"
+    cont "Kopfschmerzen…"
+
+    para "Das ist das erste"
+    line "Symptom."
 	done
 
 SafariOfficeRockerText2:
-	text "We frequently take"
-	line "the #MON over"
-	para "to NATIONAL PARK"
-	line "so they have a"
-	para "chance to spend"
-	line "time outside of"
-	cont "the exhibit."
+    text "Wir bringen die"
+    line "#MON regelmäßig"
+    para "rüber in den"
+    line "NATIONALPARK,"
+    para "damit sie etwas"
+    line "Zeit außerhalb der"
+    para "Gehege verbringen"
+    line "können."
 	done
 	
 SafariOfficePokefanMText:
-	text "I've never seen"
-	line "anything like"
-	cont "this…"
+    text "So etwas habe ich"
+    line "noch nie gesehen…"
 	done
 
 SafariOfficePokefanMText2:
-	text "The research from"
-	line "this ZOO has led"
-	para "to many break-"
-	line "throughs on proper"
-	para "nutrition for"
-	line "#MON."
+    text "Die Forschung aus"
+    line "diesem ZOO hat zu"
+    para "vielen Durch-"
+    line "brüchen in der"
+    para "Ernährung von"
+    line "#MON geführt."
 	done
 
 StandCityZooOffice_MapEvents:
