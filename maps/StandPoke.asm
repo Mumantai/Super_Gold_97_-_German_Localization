@@ -55,7 +55,7 @@ StandPokeItsCryIsWeakText:
 
 
 StandPokeNurse1Text:
-    "text "Dieses PIEPI"
+    text "Dieses PIEPI"
     line "fühlt sich unwohl."
 
     para "Wir haben die"
