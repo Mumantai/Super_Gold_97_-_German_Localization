@@ -580,7 +580,7 @@ ImposterText2:
 	
 ImposterText3:
     text "Macht euch"
-    line "keine Sorgen!
+    line "keine Sorgen!"
 
     para "TEAM ROCKET"
     line "leistet großartige"
