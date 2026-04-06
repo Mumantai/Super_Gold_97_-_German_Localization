@@ -24,21 +24,24 @@ BillsBrothersHouseYoungsterScript:
 	
 
 BillsBrothersHouseYoungsterText:
-	text "The house next"
-	line "door is really"
-	cont "suspicious."
-	para "That seems to be"
-	line "where all of these"
-	para "TEAM ROCKET"
-	line "members are coming"
-	cont "and going from."
+    text "Das Haus nebenan"
+    line "ist ziemlich"
+    cont "verdächtig."
+
+    para "Dort kommen und"
+    line "gehen ständig"
+    para "Mitglieder von"
+    line "TEAM ROCKET ein"
+    cont "und aus."
 	done
 
 BillsBrothersHouseYoungsterAllGoodText:
-	text "STAND CITY is no"
-	line "place for crime."
-	para "Good riddance to"
-	line "TEAM ROCKET!"
+    text "SENDESTIA CITY ist"
+    line "kein Ort für"
+    cont "Verbrechen."
+
+    para "Endlich ist TEAM"
+    line "ROCKET weg!"
 	done
 
 BillsBrothersHouse_MapEvents:

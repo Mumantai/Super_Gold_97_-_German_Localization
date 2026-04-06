@@ -517,7 +517,7 @@ _OPT_IntroText1::
 
 _OPT_IntroText2::
 	text_start
-	line "PROF. EICHs"
+	line "KENs"
 	done
 
 _OPT_IntroText3::
@@ -527,7 +527,7 @@ _OPT_IntroText3::
 
 _OPT_OakText1::
 	text_start
-	line "EICH: @"
+	line "KEN: @"
 	text_ram wMonOrItemNameBuffer
 	text_end
 

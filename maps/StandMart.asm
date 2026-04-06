@@ -49,9 +49,9 @@ StandMartCooltrainerFScript:
 StandMartFisherText:
     text "Ich frage mich,"
     line "wie sich die"
-    para "Schließung des ZOOs"
-    line "auf den lokalen"
-    para "SUPERMARKT"
+    para "Schließung des"
+    line "ZOOs auf den"
+    para "lokalen SUPERMARKT"
     line "auswirkt…"
 	done
 	
