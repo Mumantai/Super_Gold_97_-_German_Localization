@@ -136,9 +136,9 @@ Warden2FFineYouWin:
     para "Wir verschwinden"
     line "jetzt."
 
-    para "Hier gibt es nicht"
-    line "mehr für dich zu"
-    cont "sehen."
+    para "Hier gibt es"
+    line "nichts mehr für"
+    cont "dich zu sehen."
 
     para "Tschüss, Kniprs."
 	done
@@ -164,7 +164,7 @@ Warden2FWhoDoYouThinkYouAreText:
     line "kurz davor, die"
     para "größte Revolution"
     line "in der #MON-"
-    line "Technologie zu"
+    para "Technologie zu"
     line "starten!"
 
     para "…"
@@ -251,9 +251,9 @@ GruntM6AfterBattleText:
     text "Der VORSTAND wird"
     line "es nicht gerne"
     para "hören, dass schon"
-    line "wieder ein paar"
-    para "Knirpse unseren"
-    line "Plan durchkreuzen…"
+    line "wieder ein Knirps"
+    para "unsere Pläne"
+    line "durchkreuzt…"
 	done
 
 StandCityRocketHouse2F_MapEvents:

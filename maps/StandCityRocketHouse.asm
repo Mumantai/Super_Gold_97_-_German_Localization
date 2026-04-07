@@ -358,7 +358,7 @@ SilverActuallyShowsUpNow5:
     para "Ich werde ver-"
     line "suchen den kranken"
     para "#MON drüben im"
-    line" ZOO zu helfen."
+    line "ZOO zu helfen."
 	done
 	
 StandCityRocketHouse1FTVText:
@@ -388,8 +388,8 @@ SilverLetsGoDownThere:
 
     para "Zeig mir, dass ich"
     line "nicht grundlos"
-    para "gegen dich verloren"
-    line "habe!"
+    para "gegen dich"
+    line "verloren habe!"
 
     para "Geh da runter und"
     line "schmeiß diese"
@@ -441,7 +441,7 @@ RocketShockedText:
 
     para "Ich hoffe, du hast"
     line "nicht gedacht, du"
-    cont "könntest an mir"
+    para "könntest an mir"
     line "vorbeischleichen!"
 
     para "Niemand schleicht"
