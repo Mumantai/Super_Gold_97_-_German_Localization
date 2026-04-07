@@ -471,7 +471,7 @@ CooltrainermAaronAfterBattleText:
 	done
 
 StandGymGuyText2:
-    text Hey, CHAMP in spe!"
+    text "Hey, CHAMP in spe!"
 
     para "Hier drinnen ist"
     line "es echt dunkel!"
