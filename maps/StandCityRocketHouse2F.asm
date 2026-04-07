@@ -119,28 +119,32 @@ Warden2FOneStepLeftAndUp:
 	step_end
 	
 StandCityRocketHouse2FTVText:
-	text "It's a rerun…"
+	text "Eine Wiederholung…"
 	done
 
 StandCityRocketHouse2FPosterText:
-	text "TEAM ROCKET aims"
-	line "to make money from"
-	cont "all #MON!"
+	text "Alle #MON sind"
+	line "für TEAM ROCKETs"
+	cont "Profit da!"
 	done
 	
 Warden2FFineYouWin:
-	text "Heh. Fine."
-	para "You win."
-	para "We'll head out"
-	line "now."
-	para "Nothing else left"
-	line "here for you to"
-	cont "see."
-	para "Bye, kid."
+    text "Heh. Gut."
+
+    para "Du hast gewonnen."
+
+    para "Wir verschwinden"
+    line "jetzt."
+
+    para "Hier gibt es nicht"
+    line "mehr für dich zu"
+    cont "sehen."
+
+    para "Tschüss, Kniprs."
 	done
 	
 ImposterWinText:
-	text "You little brat!"
+	text "Du kleines Balg!"
 	done
 
 ImposterLossText:
@@ -148,94 +152,108 @@ ImposterLossText:
 	done
 	
 Warden2FWhoDoYouThinkYouAreText:
-	text "Just who do you"
-	line "think you are?"
-	para "Why are you trying"
-	line "to interfere with"
-	cont "our amazing work?"
-	para "TEAM ROCKET is"
-	line "about to launch"
-	para "the biggest"
-	line "revolution in"
-	para "#MON technology"
-	line "ever!"
-	para "…"
-	para "Clearly you don't"
-	line "feel the same."
-	para "I guess I'll have"
-	line "to help you"
-	cont "understand!"
-	para "I'm through"
-	line "letting you get in"
-	cont "the way!"
+    text "Für wen hältst du"
+    line "dich eigentlich?"
+
+    para "Warum versuchst du"
+    line "unsere unglaub-"
+    para "liche Arbeit zu"
+    line "zu sabotieren?"
+
+    para "TEAM ROCKET steht"
+    line "kurz davor, die"
+    para "größte Revolution"
+    line "in der #MON-"
+    line "Technologie zu"
+    line "starten!"
+
+    para "…"
+
+    para "Offensichtlich"
+    line "siehst du das"
+    cont "nicht so."
+
+    para "Dann muss ich"
+    line "wohl ein wenig"
+    cont "nachhelfen!"
+
+    para "Ich bin es satt,"
+    line "dass du uns"
+    para "ständig in die"
+    line "Quere kommst!"
 	done
 
 ImposterHeyYouText:
-	text "Hey, you!"
-	line "Kid!"
+    text "Hey, du!"
+    line "Knirps!"
 	done
 
 GruntM7SeenText:
-	text "I've been given"
-	line "strict orders."
+    text "Ich habe strikte"
+    line "Befehle bekommen."
 
-	para "I'm to crush any-"
-	line "one who challenges"
-	cont "TEAM ROCKET!"
+    para "Ich soll jeden,"
+    line "der TEAM ROCKET"
+    para "in die Quere"
+    line "kommt, vernichten!"
 	done
 
 GruntM7BeatenText:
-	text "What?!"
+	text "Was?!"
 	done
 
 GruntM7AfterBattleText:
-	text "I failed in my"
-	line "duties…"
+    text "Ich habe meine"
+    line "Pflichten nicht"
+    cont "erfüllt…"
 
-	para "I'll be docked pay"
-	line "for this…"
+    para "Dafür wird meine"
+    line "Bezahlung gekürzt…"
 	done
 
 GruntF4SeenText:
-	text "Don't I think"
-	line "#MON are cute?"
+    text "Ob ich #MON"
+    line "süß finde?"
 
-	para "I'll think my"
-	line "#MON are cute--"
+    para "Ich finde meine"
+    line "#MON süß…"
 
-	para "after they beat"
-	line "yours!"
+    para "Nachdem sie deine"
+    line "fertiggemacht"
+    cont "haben!"
 	done
 
 GruntF4BeatenText:
-	text "Oh, no! They're so"
-	line "useless!"
+    text "Oh nein! Sie sind"
+    line "so nutzlos!"
 	done
 
 GruntF4AfterBattleText:
-	text "I love my"
-	line "beautiful self!"
+    text "Ich liebe mich"
+    line "selbst!"
 
-	para "Who cares about"
-	line "#MON?"
+    para "Wen kümmern schon"
+    line "ein paar #MON?"
 	done
 
 
 GruntM6SeenText:
-	text "Hey, hey! Keep out"
-	line "of our way!"
+    text "Hey, hey! Stell"
+    line "dich uns nicht"
+    cont "in den Weg!"
 	done
 
 GruntM6BeatenText:
-	text "Arggh. I give up."
+    text "Argh! Ich geb auf."
 	done
 
 GruntM6AfterBattleText:
-	text "The EXECUTIVE"
-	line "won't like hearing"
-	para "about more kids"
-	line "getting in the way"
-	cont "of the plan…"
+    text "Der VORSTAND wird"
+    line "es nicht gerne"
+    para "hören, dass schon"
+    line "wieder ein paar"
+    para "Knirpse unseren"
+    line "Plan durchkreuzen…"
 	done
 
 StandCityRocketHouse2F_MapEvents:

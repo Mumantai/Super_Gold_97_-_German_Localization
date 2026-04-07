@@ -320,95 +320,112 @@ SilverRunsIntoStairsMovement:
 	step_end
 	
 SilverActuallyShowsUpNow1:
-	text "Wait for me!"
+    text "Wartet auf mich!"
 	done
 	
 SilverActuallyShowsUpNow2:
-	text "<RIVAL>: I'm"
-	line "strong, too!"
-	para "It's time for me"
-	line "to show TEAM"
-	cont "ROCKET who's boss!"
+    text "<RIVAL>: Ich bin"
+    line "auch stark!"
+
+    para "Es ist Zeit, dass"
+    line "ich TEAM ROCKET"
+    para "zeige, wer hier"
+    line "der Boss ist!"
 	done
 	
 SilverActuallyShowsUpNow3:
-	text "OKERA: Um, sure."
-	para "The more, the"
-	line "merrier, I guess."
+    text "RABAN: Äh, klar."
+
+    para "Je mehr, desto"
+    line "besser, schätze"
+    cont "ich."
 	done
 	
 SilverActuallyShowsUpNow4:
-	text "<RIVAL>: Okay!"
-	para "<PLAYER>, let's"
-	line "go!"
+    text "<RIVAL>: O.K.!"
+
+    para "Los geht's,"
+    line "<PLAYER>!"
 	done
 	
 SilverActuallyShowsUpNow5:
-	text "You better follow"
-	line "him down before"
-	para "he runs himself"
-	line "right into"
-	cont "trouble."
-	para "I'm going to go"
-	line "try to help out"
-	para "with the sick"
-	line "#MON over at"
-	cont "the ZOO."
+    text "Du solltest ihm"
+    line "besser folgen,"
+    para "bevor er sich"
+    line "irgendwelchen"
+    cont "Ärger einhandelt."
+
+    para "Ich werde ver-"
+    line "suchen den kranken"
+    para "#MON drüben im"
+    line" ZOO zu helfen."
 	done
 	
 StandCityRocketHouse1FTVText:
-	text "It's not turned"
-	line "on…"
+	text "Er ist nicht"
+	line "eingeschaltet…"
 	done
 	
 StandCityRocketHouse1FPosterText:
-	text "All #MON are"
-	line "for the profit of"
-	cont "TEAM ROCKET!"
+	text "Alle #MON sind"
+	line "für TEAM ROCKETs"
+	cont "Profit da!"
 	done
 	
 SilverLetsGoDownThere:
-	text "How are your"
-	line "#MON feeling?"
-	para "Mine aren't doing"
-	line "so hot. I think"
-	para "whatever TEAM"
-	line "ROCKET is up to"
-	para "is starting to"
-	line "make them sick!"
-	para "…"
-	para "Show me that it"
-	line "wasn't a fluke"
-	para "that I lost to"
-	line "you!"
-	para "Go down there and"
-	line "kick these guys"
-	cont "outta my town!"
+    text "Wie geht es deinen"
+    line "#MON?"
+
+    para "Meinen geht es"
+    line "nicht so gut."
+
+    para "Ich glaube, was"
+    line "immer TEAM ROCKET"
+    para "anstellt, macht"
+    line "die #MON krank!"
+
+    para "…"
+
+    para "Zeig mir, dass ich"
+    line "nicht grundlos"
+    para "gegen dich verloren"
+    line "habe!"
+
+    para "Geh da runter und"
+    line "schmeiß diese"
+    para "Typen aus meiner"
+    line "Stadt!"
 	done
 	
 SilverTellsYouAboutHiddenStairs2:
-	text "Right here!"
-	para "TEAM ROCKET is"
-	line "hiding out down"
-	cont "here!"
+    text "Genau hier!"
+
+    para "TEAM ROCKET ver-"
+    line "steckt sich dort"
+    cont "unten!"
 	done
 	
 SilverShowsUpInBase:
-	text "OKERA: <PLAYER>!"
-	para "Wait, don't leave!"
+    text "RABAN: <PLAYER>!"
+
+    para "Warte, geh nicht!"
 	done
 	
 SilverTellsYouAboutHiddenStairs:
-	text "I don't know what"
-	line "these TEAM ROCKET"
-	para "thugs are doing"
-	line "showing up in my"
-	para "town, but they're"
-	line "up to no good!"
-	para "I heard one of"
-	line "them talking about"
-	para "a hidden basement"
-	line "in this building."
+    text "Ich weiß nicht,"
+    line "was diese Rüpel"
+    para "von TEAM ROCKET"
+    line "hier in meiner"
+    para "Stadt vorhaben,"
+    line "aber es ist sicher"
+    cont "nichts Gutes!"
+
+    para "Ich habe gehört,"
+    line "wie einer von"
+    para "ihnen über einen"
+    line "versteckten Keller"
+    para "in diesem Gebäude"
+    line "gesprochen hat."
 	done
 	
 ShockedRocketWinText:
@@ -420,23 +437,26 @@ ShockedRocketLossText:
 	done
 
 RocketShockedText:
-	text "And who are you?"
-	para "I hope you didn't"
-	line "think you could"
-	cont "sneak past me!"
-	para "No one sneaks past"
-	line "me!"
+    text "Und wer bist du?"
+
+    para "Ich hoffe, du hast"
+    line "nicht gedacht, du"
+    cont "könntest an mir"
+    line "vorbeischleichen!"
+
+    para "Niemand schleicht"
+    line "sich einfach an"
+    cont "mir vorbei!"
 	done
 	
 WardensGranddaughterText1:
-	text "You might not be"
-	line "able to sneak"
-	cont "past me,"
-	para "but you sure can"
-	line "just walk on by"
-	para "if you've got"
-	line "#MON that"
-	cont "strong…"
+    text "Du kannst viel-"
+    line "leicht nicht an"
+    para "mir vorbeischlei-"
+    line "chen, aber mit so"
+    para "starken #MON,"
+    line "kannst du einfach"
+    cont "durchlaufen…"
 	done
 
 

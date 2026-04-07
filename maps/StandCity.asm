@@ -575,7 +575,7 @@ ImposterText2:
 	para "zusammengetan, um"
     line "euch diese neue"
     para "Technologie zu"
-    cont "bringen!"
+    line "bringen!"
 	done
 	
 ImposterText3:
@@ -599,12 +599,13 @@ ImposterText3:
     line "entwickelt!"
 
     para "Eine mögliche"
-    line "Nebenwirkung dieses"
-    para "Signals könnte sein,"
-    para "dass #MON, die"
-    line "ihm ausgesetzt"
-    para "werden, sich etwas"
-    line "unwohl fühlen…"
+    line "Nebenwirkung des"
+    para "Signals könnte"
+    para "sein, dass die"
+    line "#MON, die ihm"
+    para "ausgesetzt werden,"
+    line "sich etwas unwohl"
+    cont "fühlen…"
 
     para "…"
 
@@ -616,7 +617,7 @@ ImposterText3:
     cont "gehen!"
 
     para "Die Ergebnisse"
-    line "dieser Forschung,"
+    line "dieser Forschung"
     para "werden unser"
     line "Verständnis von"
     para "#MON in nie"
@@ -624,7 +625,7 @@ ImposterText3:
     cont "erweitern!"
 
     para "Da könnt ihr mir"
-    line "vertrauen, denn"
+    line "vertrauen, denn,"
     para "wie ihr sehen"
     line "könnt, bin ich"
     cont "PROF. EICH!"

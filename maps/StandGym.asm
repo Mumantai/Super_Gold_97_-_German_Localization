@@ -520,11 +520,11 @@ ChuckIntroText1:
     para "gegenübergetreten,"
     line "die ihre Stärke"
     para "aus der Dunkelheit"
-    para "zieht?"
+    line "zieht?"
 
     para "Unlicht-#MON"
     line "besitzen eine"
-    para "Kraft, die ihres"
+    para "Kraft, die ihres-"
     line "gleichen sucht."
 
     para "Selbst in der"
