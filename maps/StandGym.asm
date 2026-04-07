@@ -325,85 +325,90 @@ LightSwitch5:
 	end
 
 OkeraGivesYouSomething:
-	text "Hey, man."
-	para "I guess I owe ya"
-	line "one for kicking"
-	para "out those ROCKET"
-	line "losers."
-	para "Here, I got some-"
-	line "thing you could"
-	cont "use."
+    text "Hey, Mann."
+
+    para "Ich glaube, ich"
+    line "schulde dir was"
+    para "dafür, dass du die"
+    line "Loser von TEAM"
+    para "ROCKET rausge-"
+    line "schmissen hast."
+
+    para "Hier, ich habe was"
+    line "für dich, das dir"
+    cont "vielleicht hilft."
 	done
 	
 OkeraGivesYouSomething2:
-	text "Maybe you'll find"
-	line "that useful if"
-	para "you have some"
-	line "dark #MON."
+    text "Vielleicht findest"
+    line "du es nützlich,"
+    para "wenn du ein paar"
+    line "Unlicht-#MON"
+    cont "hast."
 	done
 
 ItsASwitch:
-	text "It's labeled"
-	line "'FAULTY'."
-	para "Press it?"
+    text "Es steht"
+    line "'DEFEKT' drauf."
+
+    para "Drücken?"
 	done
 	
 ItsASwitch2:
-	text "The lights don't"
-	line "stay on!"
+    text "Das Licht bleibt"
+    line "nicht an!"
 	done
 	
-	
 CooltrainerfIreneSeenText:
-	text "Kyaaah!"
-	line "Someone found me!"
+	text "Uargh! Ich"
+	line "wurde entdeckt!"
 	done
 
 CooltrainerfIreneBeatenText:
 	text "Ohhh!"
-	line "Too strong!"
+	line "Zu stark!"
 	done
 
 CooltrainerfIreneAfterText:
-	text "The dark can be"
-	line "scary."
+    text "Die Dunkelheit"
+    line "kann einem Angst"
+    cont "einjagen."
 
-	para "But it can be"
-	line "safe too."
+    para "Aber sie kann auch"
+    line "Sicherheit bieten."
 	done
 	
 CooltrainerfJuliaSeenText:
-	text "Do you believe in"
-	line "bad luck?"
+    text "Glaubst du an"
+    line "Pech?"
 	done
 
 CooltrainerfJuliaBeatenText:
-	text "I certainly have"
-	line "bad luck!"
+    text "Ich habe auf jeden"
+    line "Fall Pech!"
 	done
 
 CooltrainerfJuliaAfterText:
-	text "These switches"
-	line "have never worked"
-	cont "correctly."
+    text "Diese Schalter"
+    line "haben noch nie"
+    para "so richtig"
+    line "funktioniert."
 	done
-	
-
 
 OkeraRematchText:
-	text "What do you want?"
-	
-	para "Aren't you the"
-	line "CHAMPION now?"
-	
-	para "You want a second"
-	line "BADGE from me or"
-	cont "something?"
-	
-	para "Don't think I'll"
-	line "back down from"
-	para "a challenge like"
-	line "this!"
+    text "Was willst du?"
+
+    para "Bist du jetzt"
+    line "nicht der CHAMP?"
+
+    para "Willst du jetzt"
+    line "'nen zweiten ORDEN"
+    cont "von mir, oder was?"
+
+    para "Glaub nicht, dass"
+    line "ich vor so einer"
+    para "Herausforderung"
+    line "zurückschrecke!"
 	done
 
 OkeraRematchWinText:
@@ -411,156 +416,185 @@ OkeraRematchWinText:
 	done
 
 OkeraAfterRematchText:
-	text "I wasn't really"
-	line "expecting to win,"
-	para "but I'd never"
-	line "back out of a"
-	cont "fight."
-	para "Even if all bets"
-	line "are against me."
-	
-	para "You're the same"
-	line "way, aren't you?"
+    text "Ich hab nicht"
+    line "erwartet zu ge-"
+    para "winnen, aber ich"
+    line "drücke mich nie"
+    cont "vor einem Kampf."
+
+    para "Auch nicht, wenn"
+    line "alles gegen mich"
+    cont "sprechen sollte."
+
+    para "Du bist genauso,"
+    line "nicht wahr?"
 	done
 
 
 CooltrainerfKellySeenText:
-	text "What do you see"
-	line "when you open"
-	para "your eyes in the"
-	line "dark?"
+    text "Was siehst du,"
+    line "wenn du deine"
+    para "Augen im Dunkeln"
+    line "öffnest?"
 	done
 
 CooltrainerfKellyBeatenText:
-	text "Fine. I lost."
+	text "Gut. Dann habe ich"
+	line "eben verloren."
 	done
 
 CooltrainerfKellyAfterBattleText:
-	text "Where is the GYM"
-	line "LEADER?"
-	para "He lives in the"
-	line "shadows, beyond"
-	cont "what can be seen."
+    text "Wo der ARENALEITER"
+    line "ist? Er lebt in"
+    para "den Schatten,"
+    line "jenseits dem, was"
+    cont "man sehen kann."
 	done
 
 CooltrainermAaronSeenText:
-	text "Are you afraid"
-	line "of the dark?"
+    text "Hast du Angst vor"
+    line "der Dunkelheit?"
 	done
 
 CooltrainermAaronBeatenText:
-	text "Whew…"
-	line "Good battle."
+	text "Wow…"
+	line "Toller Kampf!"
 	done
 
 CooltrainermAaronAfterBattleText:
-	text "This GYM isn't"
-	line "really that scary."
-	para "The lights are"
-	line "just turned off."
+    text "Diese ARENA ist"
+    line "nicht wirklich so"
+    cont "gruselig."
+
+    para "Das Licht ist nur"
+    line "ausgeschaltet."
 	done
 
 StandGymGuyText2:
-	text "Hey, champ-in-the-"
-	line "making!"
-	para "It sure is dark in"
-	line "here!"
-	para "OKERA can be kind"
-	line "of moody, and he"
-	cont "likes it dark."
-	para "But don't let his"
-	line "age and behavior"
-	cont "fool you."
-	para "He's one tough"
-	line "trainer!"
+    text Hey, CHAMP in spe!"
+
+    para "Hier drinnen ist"
+    line "es echt dunkel!"
+
+    para "RABAN kann ein"
+    line "bisschen launisch"
+    para "sein und er mag"
+    line "die Dunkelheit."
+
+    para "Aber lass dich von"
+    line "seinem Alter und"
+    para "seinem Verhalten"
+    line "nicht täuschen."
+
+    para "Er ist ein echt"
+    line "harter Trainer!"
 	done
 	
 StandGymGuyWinText2:
-	text "I knew you weren't"
-	line "afraid of the"
-	cont "dark!"
+    text "Ich wusste, du"
+    line "hast keine Angst"
+    cont "im Dunkeln!"
 	done
 
 ChuckIntroText1:
-	text "Heh."
-	para "You've traveled a"
-	line "long way from"
-	cont "home, haven't you?"
-	para "You've experienced"
-	line "a lot of new"
-	cont "things."
-	para "Met a lot of"
-	line "people."
-	para "Faced a lot of"
-	line "challenges."
-	para "…"
-	para "But have you"
-	line "faced the sheer"
-	para "power that finds"
-	line "its strength in"
-	cont "the dark?"
-	para "Dark-type #MON"
-	line "possess a power"
-	cont "like none other."
-	para "Even in the short"
-	line "time that I've"
-	cont "been a GYM LEADER,"
-	para "I've learned much"
-	line "about what they"
-	cont "are capable of."
-	para "I will show you"
-	line "now."
+    text "Heh."
+
+    para "Du bist einen"
+    line "weiten Weg"
+    para "von zu Hause"
+    line "gereist, was?"
+
+    para "Du hast viele neue"
+    line "Dinge erlebt."
+
+    para "Viele Leute"
+    line "getroffen."
+
+    para "Viele Herausforde-"
+    line "rungen gemeistert."
+
+    para "…"
+
+    para "Aber bist du schon"
+    line "der schieren Kraft"
+    para "gegenübergetreten,"
+    line "die ihre Stärke"
+    para "aus der Dunkelheit"
+    para "zieht?"
+
+    para "Unlicht-#MON"
+    line "besitzen eine"
+    para "Kraft, die ihres"
+    line "gleichen sucht."
+
+    para "Selbst in der"
+    line "kurzen Zeit, in"
+    para "der ich ARENA-"
+    line "LEITER bin, habe"
+    para "ich viel darüber"
+    line "gelernt, wozu sie"
+    cont "in der Lage sind."
+
+    para "Ich werde es dir"
+    line "jetzt zeigen."
 	done
 
 
 OkeraLossText:
-	text "Hm. I lost."
+    text "Hm. Ich habe"
+    line "verloren."
 
-	para "This is"
-	line "unexpected."
-	para "But it proves you"
-	line "are worthy to earn"
-	cont "DUSKBADGE."
+    para "Das habe ich"
+    line "nicht erwartet."
+
+    para "Aber es zeigt,"
+    line "dass du es würdig"
+    para "bist den FINSTER-"
+    line "ORDEN zu tragen."
 	done
 
 GetStormBadgeText:
-	text "<PLAYER> received"
-	line "DUSKBADGE."
+	text "<PLAYER> erhält"
+	line "FINSTERORDEN."
 	done
 
 ChuckExplainBadgeText:
-	text "DUSKBADGE makes"
-	line "all #MON up to"
+	text "Durch den FINSTER-"
+	line "ORDEN gehorchen"
+	para "dir alle #MON"
+	line "bis LV 70. Dies"
+	para "gilt auch für Ge-"
+	line "tauschte."
 
-	para "L70 obey, even"
-	line "traded ones."
+	para "Außerdem können"
+	line "deine #MON"
+	para "ZERTRÜMMERER auch"
+	line "außerhalb eines"
+	cont "Kampfes einsetzen."
 
-	para "Your #MON can"
-	line "now use ROCK SMASH"
-
-	para "when you're not in"
-	line "a battle."
-	
-	para "I guess I'm in a"
-	line "good mood, so you"
-	cont "can have this too."
+	para "Ich bin in guter"
+	line "Stimmung, also"
+	para "kannst du das hier"
+	line "auch noch haben."
 	done
 
 OkeraExplainTMText:
-	text "That move is"
-	line "THIEF."
+    text "Das ist RAUB."
 
-	para "It causes damage,"
-	line "and also can steal"
-	para "an opponent's held"
-	line "item."
+    para "Diese Attacke fügt"
+    line "Schaden zu und sie"
+    cont "kann auch das"
+    para "getragene Item des"
+    line "Gegners stehlen."
 	done
 
 OkeraAfterText:
-	text "That was a good"
-	line "battle."
-	para "Your challenge was"
-	line "worth my time."
+    text "Das war ein"
+    line "guter Kampf."
+
+    para "Deine Herausfor-"
+    line "derung war meine"
+    cont "Zeit wert."
 	done
 
 StandGym_MapEvents:
