@@ -44,7 +44,7 @@ KantoPokecenter1FCooltrainerFText2:
 
 KantoPokecenter1FCooltrainerFText:
     text "Du bist auf dem"
-    line "Weg zur ARENA.
+    line "Weg zur ARENA."
 
     para "Das sehe ich in"
     line "deinen Augen."
