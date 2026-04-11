@@ -32,11 +32,11 @@ MainMenu:
 	call MainMenu_PrintCurrentTimeAndDay
 	ld hl, .MenuHeader
 	call LoadMenuHeader
-	hlcoord 1, 9
+	hlcoord 14, 9
 	ld de, MainMenu_PrintCurrentTimeAndDay.VersionNumberPrint;new
-	ld de, MainMenu_PrintCurrentTimeAndDay.VersionSpacePrint;new
+;	ld de, MainMenu_PrintCurrentTimeAndDay.VersionSpacePrint;new
 	call PlaceString;new
-	hlcoord 1, 10
+	hlcoord 13, 11
 	ld de, MainMenu_PrintCurrentTimeAndDay.LocVersionPrint
 	call PlaceString
 	call MainMenuJoypadLoop
