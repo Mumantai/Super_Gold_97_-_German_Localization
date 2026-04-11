@@ -191,10 +191,11 @@ RadioTower3fSuperNerdTextTakeover:
 	line "Gutes bedeuten!"
 
 	para "TEAM ROCKET wird"
-	line "#MON wehtun, wenn"
-	cont "sie die Kontrolle"
-	cont "über den RADIOTURM"
-	cont "behalten!"
+	line "#MON wehtun,"
+	para "wenn sie die Kon-"
+	line "trolle über den"
+	para "RADIOTURM"
+	line "behalten!"
 	done
 	
 RadioTower3fTeacherText:

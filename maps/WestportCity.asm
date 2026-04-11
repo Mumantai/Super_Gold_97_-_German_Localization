@@ -234,10 +234,11 @@ SilverHasItFiguredOut2:
 
     para "Ich brauche nur"
     line "noch einen ORDEN,"
-    para "um den FUJIYAMA zu"
-    line "besteigen und die"
-    para "TOP VIER heraus-"
-    cont "fordern zu dürfen!"
+    para "um den KOROKANIA-"
+    line "BERG zu besteigen"
+    para "und die TOP VIER"
+    line "herausfordern zu"
+    cont "dürfen!"
 
     para "Ich wette, ich bin"
     line "schneller als du!"

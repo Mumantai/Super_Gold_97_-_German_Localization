@@ -76,18 +76,18 @@ MenuHeader_0x24ee9:
 MenuData_0x24ef1:
 	db STATICMENU_CURSOR | STATICMENU_DISABLE_B ; flags
 	dn 2, 2 ; rows, columns
-	db 12 ; spacing
+	db 8 ; spacing
 	dba Strings24efa
 	dba Strings24f13
 
 Strings24efa:
 	db "KMPF@"
 	db "<PK><MN>@"
-	db "PARKBALL×  @"
+	db "BALL×  @"
 	db "FLUCHT@"
 
 Strings24f13:
-	hlcoord 13, 16
+	hlcoord 10, 16
 	ld de, wParkBallsRemaining
 	lb bc, PRINTNUM_LEADINGZEROS | 1, 2
 	call PrintNum

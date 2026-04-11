@@ -268,9 +268,9 @@ RadioTower4fRockerText:
 	
 RadioTower4fRockerTextTakeover:
 	text "Unsere normalen"
-	line "Sendungen sind"
+	line "Sendungen werden"
 	para "zur Zeit nicht"
-	line "auf Sendung!"
+	line "ausgestrahlt!"
 	done
 	
 	

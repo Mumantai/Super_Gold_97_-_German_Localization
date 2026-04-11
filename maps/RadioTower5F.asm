@@ -96,7 +96,7 @@ ScientistRichSeenText:
 	line "nicht mehr von"
 	cont "Nutzen, da wir"
 	cont "gerade niemanden"
-	cont "müssen!"
+	cont "reinlegen müssen!"
 
 	para "Also haben wir uns"
 	line "seiner entledigt!"

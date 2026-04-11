@@ -180,7 +180,7 @@ DirectorThanksText:
     text "Oh je!"
 
     para "Wo sind all die"
-    line "fiesen TEAM ROCKER"
+    line "fiesen TEAM ROCKET"
     cont "Rüpel hin?"
 
     para "Sind sie weg?"
