@@ -217,7 +217,7 @@ HikerSidneyBeatenText:
 
 HikerSidneyAfterBattleText:
     text "Das mit dem"
-    line "Geheimnis war nur
+    line "Geheimnis war nur"
     cont "ein Scherz."
 
     para "Ich weiß nichts"
