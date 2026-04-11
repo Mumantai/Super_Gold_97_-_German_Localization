@@ -104,30 +104,31 @@ TrainerGruntM21:
 	end
 	
 GruntM21SeenText:
-	text "The ZOO #MON"
-	line "getting sick is"
-	para "just a step away"
-	line "from them being"
-	para "fully under our"
-	line "control!"
+    text "Dass die #MON"
+    line "vom ZOO krank"
+    para "werden, ist nur"
+    line "ein Schritt davon"
+    para "entfernt, dass sie"
+    line "vollständig unter"
+    para "unserer Kontrolle"
+    line "stehen!"
 	done
 	
 GruntM21BeatenText:
-	text "Gasp!"
+	text "Huch!"
 	done
 	
 GruntM21AfterBattleText:
-	text "You wouldn't be"
-	line "able to defeat me"
-	para "if your #MON"
-	line "were under our"
-	cont "control!"
+    text "Du hättest keine"
+    line "Chance gegen mich,"
+    para "wenn deine #MON"
+    line "unter unserer"
+    cont "Kontrolle stünden!"
 	done
 	
 GruntM20SeenText:
-	text "Finding what"
-	line "you're looking"
-	cont "for?"
+    text "Hast du gefunden,"
+    line "wonach du suchst?"
 	done
 	
 GruntM20BeatenText:
@@ -135,74 +136,83 @@ GruntM20BeatenText:
 	done
 	
 GruntM20AfterBattleText:
-	text "There's probably"
-	line "some useful stuff"
-	para "lying around that"
-	line "you could just"
-	cont "take."
-	para "You didn't hear it"
-	line "from me, though."
+    text "Hier liegt sicher"
+    line "brauchbarer Kram,"
+    para "den du einfach so"
+    line "nehmen könntest."
+
+    para "Das hast du aber"
+    line "nicht von mir"
+    cont "gehört."
 	done
 	
 GruntM19SeenText:
-	text "What's this big"
-	line "machine do?"
-	para "Oh, only allows"
-	line "complete control"
-	cont "of any #MON!"
+    text "Was diese große"
+    line "Maschine macht?"
+
+    para "Ach, sie erlaubt"
+    line "uns nur jedes"
+    para "#MON komplett"
+    line "zu kontrollieren!"
 	done
 	
 GruntM19BeatenText:
-	text "Ouch!"
+	text "Autsch!"
 	done
 	
 GruntM19AfterBattleText:
-	text "This machine is"
-	line "controlled by a"
-	cont "computer upstairs."
-	para "It's really noisy"
-	line "standing right"
-	cont "here by it."
+    text "Die Maschine wird"
+    line "von einem Computer"
+    cont "oben gesteuert."
+
+    para "Es ist echt laut,"
+    line "direkt neben dem"
+    cont "Ding zu stehen."
 	done
 	
 GruntM18SeenText:
-	text "What are you"
-	line "doing here?"
+	text "Was machst du"
+	line "hier?"
 	done
 	
 GruntM18BeatenText:
-	text "That's what you're"
-	line "doing here…"
+	text "Das machst du"
+	line "hier…"
 	done
 	
 GruntM18AfterBattleText:
-	text "I don't really"
-	line "know what I'm"
-	cont "doing here."
-	para "TEAM ROCKET can be"
-	line "disorganized."
-	para "I was almost left"
-	line "behind on the"
-	cont "cargo ship…"
+    text "Ich weiß selbst"
+    line "nicht genau, was"
+    cont "ich hier mache."
+
+    para "TEAM ROCKET kann"
+    line "ziemlich chaotisch"
+    cont "sein."
+
+    para "Man hat mich fast"
+    line "auf dem Frachter"
+    cont "zurückgelassen…"
 	done
 	
 GruntM17SeenText:
-	text "I'm GRUNT number"
-	line "17!"
-	para "That's all that"
-	line "the EXECUTIVE ever"
-	cont "refers to me as…"
+    text "Ich bin RÜPEL"
+    line "Nummer 17!"
+
+    para "So nennt mich der"
+    line "VORSTAND zumindest"
+    cont "immer…"
 	done
 	
 GruntM17BeatenText:
-	text "I expected this."
+	text "Das habe ich"
+	line "erwartet."
 	done
 	
 GruntM17AfterBattleText:
-	text "None of the"
-	line "leadership bothers"
-	para "to learn any of"
-	line "our names."
+	text "Keiner aus der"
+	line "Führung macht sich"
+	para "die Mühe, unsere"
+	line "Namen zu lernen."
 	done
 
 

@@ -34,7 +34,7 @@ TrainerClassNames::
 	db "GENTLEMAN@"
 	db "SKIFAHRER@"
 	db "LEHRERIN@"
-	db "DOPPELGÄNGER@"
+	db "BETRÜGER@"
 	db "KÄFERSAMMLER@"
 	db "ANGLER@"
 	db "SCHWIMMER♂@"

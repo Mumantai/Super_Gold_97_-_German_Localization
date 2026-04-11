@@ -404,10 +404,10 @@ TeamRocketBaseB1FComputerConsoleMenu:
 .MenuDataConsole:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "ABOUT SYSTEM@"
-	db "CURRENT STATUS@"
-	db "POWER SETTINGS@"
-	db "SIGN OUT@"
+	db "SYSTEMINFO@"
+	db "AKT. STATUS@"
+	db "ENERGIE-OPT.@"
+	db "ABMELDEN@"
 	
 TeamRocketBaseB1FComputerConsolePowerMenu:
 	db MENU_BACKUP_TILES ; flags
@@ -418,10 +418,10 @@ TeamRocketBaseB1FComputerConsolePowerMenu:
 .MenuDataPowerConsole:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "INCREASE POWER@"
-	db "DECREASE POWER@"
-	db "SHUT DOWN POWER@"
-	db "PREVIOUS MENU@"
+	db "ENERGIE ERHÖHEN@"
+	db "ENERGIE VERRINGERN@"
+	db "HERUNTERFAHREN@"
+	db "VORH. MENÜ@"
 	
 TeamRocketBaseB1FComputerConsole_cancel:
 	writetext TeamRocketBaseB1FComputerConsoleCancelText
@@ -497,158 +497,197 @@ StraigarJumpsDown:
 	step_end
 	
 WaitGottaFindOut:
-	text "<RIVAL>: Wait!"
-	line "There's still"
-	cont "more!?"
-	para "Come on,"
-	line "<PLAYER>!"
-	para "I'm going to find"
-	line "out what that"
-	cont "means!"
-	para "You should come"
-	line "too!"
-	para "We have to take"
-	line "these guys out,"
-	cont "once and for all!"
+    text "<RIVAL>: Warte!"
+    line "Da ist noch mehr?!"
+
+    para "Komm schon,"
+    line "<PLAYER>!"
+
+    para "Ich werde heraus-"
+    line "finden, was das zu"
+    cont "bedeuten hat!"
+
+    para "Du solltest besser"
+    line "mitkommen!"
+
+    para "Wir müssen diese"
+    line "Typen ein für alle"
+    cont "Mal ausschalten!"
 	done
 	
 WhatHaveYouDoneText:
-	text "EXECUTIVE: No!"
-	para "What have you"
-	line "done?!"
-	para "You've destroyed"
-	line "all of our hard"
-	cont "work!"
-	para "GIOVANNI is"
-	line "going to be"
-	para "furious when he"
-	line "finds out!"
-	para "But he'll be even"
-	line "more furious at"
-	para "you two if he ever"
-	line "meets you!"
+    text "VORSTAND: Nein!"
+
+    para "Was habt ihr"
+    line "angestellt?!"
+
+    para "Ihr habt unsere"
+    line "harte Arbeit"
+    cont "vernichtet!"
+
+    para "GIOVANNI wird"
+    line "ausflippen, wenn"
+    cont "er davon erfährt!"
+
+    para "Aber auf euch zwei"
+    line "wird er noch viel"
+    para "wütender sein,"
+    line "wenn er euch"
+    cont "jemals trifft!"
 	done
 	
 WhatHaveYouDoneText2:
-	text "…"
-	para "I had hoped it"
-	line "wouldn't have to"
-	cont "come to this."
-	para "But TEAM ROCKET is"
-	line "not out yet!"
-	para "We have one final"
-	line "plan."
-	para "And we intend to"
-	line "use it!"
+    text "…"
+
+    para "Ich habe gehofft."
+    line "es würde nicht so"
+    cont "weit kommen."
+
+    para "Aber TEAM ROCKET"
+    line "ist noch nicht am"
+    cont "Ende!"
+
+    para "Wir haben noch"
+    line "einen letzten"
+    cont "Trumpf im Ärmel."
+
+    para "Und den werden wir"
+    line "auch ausspielen!"
 	done
 	
 StraigarDestroyedTheThing:
-	text "<RIVAL>: Great"
-	line "job, STRAIGAR!"
-	para "You did it!"
+    text "<RIVAL>: Super,"
+    line "TORADONAR!"
+
+    para "Du hast es"
+    line "geschafft!"
 	done
 	
 StraigarDestroyedTheThing2:
-	text "Now this thing"
-	line "will never hurt"
-	cont "another #MON!"
+    text "Dieses Ding wird"
+    line "keinem #MON"
+    cont "mehr Leid zufügen!"
 	done
 	
 StraigarDestroysTheThing:
-	text "STRAIGAR:"
-	line "Raiiiii!!"
+	text "TORADONAR:"
+	line "Donaaar!!"
 	done
 	
 StraigarDestroyThisThing:
-	text "Go! STRAIGAR!"
+	text "Los! TORADONAR!"
 	done
 	
 StraigarDestroyThisThing2:
-	text "Hop on up there"
-	line "and destroy this"
-	para "thing with your"
-	line "best THUNDERBOLT"
-	cont "attack!"
+    text "Spring da hoch und"
+    line "vernichte dieses"
+    para "Teil mit deinem"
+    line "allerstärksten"
+    cont "DONNERBLITZ!"
 	done
 	
 WowItsShuttingDown:
-	text "<RIVAL>: Wow,"
-	line "<PLAYER>!"
-	para "You got it to turn"
-	line "off!"
-	para "You know what I've"
-	line "found out?"
-	para "This machine was"
-	line "going to be able"
-	para "to control the"
-	line "minds of #MON!"
-	para "That's what TEAM"
-	line "ROCKET's plan was"
-	cont "all along!"
-	para "I can't believe"
-	line "that's what they"
-	cont "were going to do!"
-	para "It's terrible!"
-	para "I don't think"
-	line "it's enough to"
-	para "just turn this"
-	line "thing off!"
-	para "It needs to be"
-	line "destroyed!"
+    text "<RIVAL>: Wow,"
+    line "<PLAYER>!"
+
+    para "Du hast es"
+    line "ausgeschaltet!"
+
+    para "Weißt du, was ich"
+    line "herausgefunden"
+    cont "habe?"
+
+    para "Diese Maschine war"
+    line "dazu gedacht, die"
+    para "Gedanken der"
+    line "#MON zu"
+    cont "kontrollieren!"
+
+    para "Das war also die"
+    line "die ganze Zeit"
+    cont "TEAM ROCKETs Plan!"
+
+    para "Ich kann es nicht"
+    line "fassen, dass sie"
+    cont "das vorhatten!"
+
+    para "Das ist"
+    line "schrecklich!"
+
+    para "Ich glaube, es"
+    line "reicht nicht, das"
+    para "Ding nur auszu-"
+    line "schalten!"
+
+    para "Es muss komplett"
+    line "zerstört werden!"
 	done
 	
 HowDidYouKidsGetDownHereText:
-	text "IMPOSTOR OAK: Hey!"
-	line "How'd you kids get"
-	cont "down here!"
-	para "No one who is un-"
-	line "authorized should"
-	para "be anywhere near"
-	line "this machine!"
-	para "It is a very"
-	line "powerful antenna,"
-	para "and it takes a"
-	line "very long time to"
-	cont "reach full power!"
-	para "Well, I guess it"
-	line "doesn't matter,"
-	para "since you can't"
-	line "turn it off unless"
-	para "you know the"
-	line "password!"
-	para "And there's no way"
-	line "you could figure"
-	cont "that out!"
-	para "I gotta tell the"
-	line "boss that we have"
-	cont "intruders!"
+    text "BETRÜGER EICH:"
+    line "Hey! wie seid ihr"
+    para "Knirpse hier"
+    line "runtergekommen?!"
+
+    para "Unbefugte sollten"
+    line "überhaupt nicht in"
+    para "die Nähe dieser"
+    line "Maschine kommen!"
+
+    para "Das hier ist eine"
+    line "sehr mächtige"
+    para "Antenne, und es"
+    line "dauert sehr lange,"
+    para "bis sie die volle"
+    line "Leistung erreicht!"
+
+    para "Aber ist ja auch"
+    line "egal. Ihr könnt"
+    para "sie ja eh nicht"
+    line "ausschalten, wenn"
+    para "ihr das Passwort"
+    line "nicht kennt!"
+
+    para "Und das findet ihr"
+    line "niemals heraus!"
+
+    para "Ich muss dem Boss"
+    line "jetzt melden, dass"
+    para "wir Eindringlinge"
+    line "haben!"
 	done
 	
 SilverHeyWaitWhatsGoingOnText:
-	text "Hey, wait!"
-	para "What's this all"
-	line "about!?"
-	para "I demand answers!"
+    text "Hey, Moment mal!"
+
+    para "Was soll das?!"
+
+    para "Ich verlange eine"
+    line "Erklärung!"
 	done
 	
 YoureNotOakCompScene:
-	text "<RIVAL>: Wait!"
-	para "What's going on"
-	line "here!?"
-	para "You're not PROF."
-	line "OAK!"
+    text "<RIVAL>: Warte!"
+
+    para "Was geht hier"
+    line "vor sich?!"
+
+    para "Du bist nicht"
+    line "PROF. EICH!"
 	done
 	
 SystemAlreadyOff:
-	text "The system makes"
-	line "no noise and seems"
-	cont "inoperable…"
+    text "Das System gibt"
+    line "keinen Mucks von"
+    para "von sich und ist"
+    line "anscheinend nicht"
+    cont "bedienbar…"
 	done
 	
 SystemShuttingDown:
-	text "REQUEST CONFIRMED"
-	para "SYSTEM POWER"
-	line "SHUTTING DOWN"
+    text "ANFRAGE BESTÄTIGT"
+    para "ENERGIEZUFUHR WIRD"
+    line "HERUNTERGEFAHREN"
 	para "---------"
 	para "--------"
 	para "-------"
@@ -661,242 +700,266 @@ SystemShuttingDown:
 	done
 	
 AreYouSurePowerText:
-	text "ARE YOU ABSOLUTELY"
-	line "SURE?"
+    text "BIST DU DIR"
+    line "WIRKLICH SICHER?"
 	done
 	
 ReturningToPowerMenu:
-	text "RETURNING TO"
-	line "PREVIOUS MENU…"
+    text "ZURÜCK ZUM"
+    line "VORHERIGEN"
+    cont "MENÜ…"
 	done
 	
 PasswordEntered:
-	text "<PLAYER> entered"
-	line "the password…"
-	para "'HAIL GIOVANNI'"
-	para "…"
-	para "WARNING!"
-	line "THE ACTION YOU ARE"
-	para "ABOUT TO TAKE CAN-"
-	line "NOT BE EASILY"
-	cont "REVERSED!"
-	para "PLEASE CONFIRM"
-	line "INTENT AGAIN."
-	para "DO YOU WISH TO"
-	line "SHUT DOWN ALL"
-	cont "SYSTEM POWER?"
+    text "<PLAYER> gibt das"
+    line "Passwort ein…"
+
+    para "'PREISET GIOVANNI'"
+
+    para "…"
+
+    para "WARNUNG!"
+    line "DIESE AKTION KANN"
+    para "NICHT EINFACH"
+    line "RÜCKGÄNGIG GEMACHT"
+    cont "WERDEN!"
+
+    para "BITTE ERNEUT"
+    line "BESTÄTIGEN."
+
+    para "ENERGIEZUFUHR DES"
+    line "SYSTEMS WIRKLICH"
+    cont "HERUNTERFAHREN?"
 	done
 	
 ConsoleWhatDoPower:
-	text "SELECT POWER"
-	line "ADJUSTMENTS"
+    text "ENERGIE-OPTIONEN"
+    line "ANPASSEN"
 	done
 	
 ConsolePowerMenu1Text:
-	text "POWER IS ALREADY"
-	line "INCREASING!"
+    text "ENERGIE STEIGT"
+    line "BEREITS!"
 	done
 	
 ConsolePowerMenu2Text:
-	text "THIS FUNCTION IS"
-	line "NOT CURRENTLY"
-	cont "AVAILABLE"
+    text "FUNKTION DERZEIT"
+    line "NICHT VERFÜGBAR"
 	done
 	
 ConsolePowerMenu3Text:
-	text "PASSWORD REQUIRED"
-	line "FOR THIS FUNCTION"
+    text "DIESE FUNKTION"
+    line "BENÖTIGT PASSWORT"
 	done
 	
 ConsoleWhatDo:
-	text "MAIN MENU -"
-	line "SELECT ACTION"
+    text "HAUPTMENÜ -"
+    line "FUNKTION WÄHLEN"
 	done
 	
 ConsoleMenu1Text:
-	text "MIND CONTROL"
-	line "SYSTEM SOFTWARE"
-	cont "VERSION 1.03"	
+    text "GEDANKENKONTROLLE"
+    line "SYSTEM SOFTWARE"
+    cont "VERSION 1.03"
 	done
 	
 ConsoleMenu2Text:
-	text "CURRENT CAPACITY-"
-	line "74 PERCENT…"
+    text "AKTUELLE KAPAZITÄT"
+    line "BEI 74 PROZENT…"
 	done
 	
 ConsoleMenu3Text:
-	text "ENTERING POWER"
-	line "SETTINGS MENU"
+    text "ÖFFNE"
+    line "ENERGIE-OPTIONEN"
 	done
 	
 TeamRocketBaseB1FComputerConsoleCancelText:
-	text "SIGNING OUT OF"
-	line "CONSOLE…"
+    text "MELDE VON KONSOLE"
+    line "AB…"
 	done
 	
 TeamRocketBaseB1FComputerConsoleIntroText:
-	text "BOOTING TEAM"
-	line "ROCKET #MON"
-	cont "CONTROL CONSOLE"
+    text "TEAM ROCKET"
+    line "#MON-KONTROLL-"
+    cont "SYSTEM FÄHRT HOCH"
 	done
 
 ScientistMitchSeenText:
-	text "Our mind control"
-	line "wave will allow"
-	para "us to take over"
-	line "the world!"
+    text "Mit unserer"
+    line "Gedankenkontrolle"
+    para "werden wir die"
+    line "Welt erobern!"
 	done
 	
 ScientistMitchBeatenText:
-	text "As soon as it's"
-	line "fully functional."
+    text "Sobald sie voll"
+    line "funktionsfähig"
+    cont "ist."
 	done
 	
 ScientistMitchAfterBattleText:
-	text "TEAM ROCKET's"
-	line "scientific"
-	para "accomplishments"
-	line "are incredible!"
+    text "TEAM ROCKETs"
+    line "wissenschaftliche"
+    para "Errungenschaften"
+    line "sind unglaublich!"
 	done
 
 
 ScientistRossSeenText:
-	text "What are we"
-	line "doing here, you"
-	cont "ask?"
-	para "Nothing much."
-	para "Only on the brink"
-	line "of taking control"
-	para "of every #MON"
-	line "in the world!"
+    text "Du fragst, was wir"
+    line "hier machen?"
+
+    para "Nichts Besonderes."
+
+    para "Wir stehen nur"
+    line "kurz davor, die"
+    para "Kontrolle über"
+    line "jedes #MON auf"
+    para "der Welt zu"
+    line "übernehmen!"
 	done
 	
 ScientistRossBeatenText:
-	text "Yours clearly"
-	line "aren't under our"
-	cont "control…"
+    text "Deine stehen ganz"
+    line "klar nicht unter"
+    para "unserer Kontrolle…"
 	done
 	
 ScientistRossAfterBattleText:
-	text "The antenna isn't"
-	line "at full power yet."
-	para "It takes a very"
-	line "long time to"
-	cont "reach full power."
+    text "Die Antenne hat"
+    line "noch nicht die"
+    para "volle Leistung"
+    line "erreicht."
+
+    para "Es dauert sehr"
+    line "lange, bis sie die"
+    para "volle Leistung"
+    line "erreicht."
 	done
 
 GruntM16SeenText:
-	text "You again?"
-	para "I'm really tired"
-	line "of seeing you"
-	cont "around."
+    text "Du schon wieder?"
+
+    para "Ich bin es leid,"
+    line "dich immer wieder"
+    cont "zu sehen."
 	done
 	
 GruntM16BeatenText:
-	text "I'm really tired"
-	line "of losing, too."
+    text "Ich bin es auch"
+    line "leid, immer wieder"
+    cont "zu velieren."
 	done
 	
 GruntM16AfterBattleText:
-	text "I'm kinda tired"
-	line "of working for"
-	para "TEAM ROCKET as"
-	line "well."
+    text "Für TEAM ROCKET"
+    line "zu arbeiten bin"
+    para "ich auch langsam"
+    line "leid."
 	done
 
 
 GruntM15SeenText:
-	text "You're a real"
-	line "pain, you know"
-	cont "that?"
+	text "Du bist echt"
+	line "eine Plage,"
+	cont "weißt du das?"
 	done
 	
 GruntM15BeatenText:
-	text "This was also"
-	line "painful!"
+	text "Das tat auch"
+	line "ziemlich weh!"
 	done
 	
 GruntM15AfterBattleText:
-	text "You know, we all"
-	line "get in trouble"
-	para "after you kids"
-	line "come in here and"
-	cont "walk all over us."
+	text "Weißt du, wir alle"
+	line "kriegen Ärger,"
+	para "wenn ihr Knirpse"
+	line "hier reinkommt und"
+	cont "über uns herfallt."
 	done
 
-
 GruntM14SeenText:
-	text "We're all really"
-	line "excited about"
-	para "what's about to"
-	line "happen!"
-	para "I don't want to"
-	line "see some kid get"
-	cont "in the way!"
+    text "Wir sind alle"
+    line "total aufgeregt"
+    para "wegen dem, was"
+    line "bald passieren"
+    cont "wird!"
+
+    para "Ich will nicht,"
+    line "dass irgendein"
+    para "Knirps uns in die"
+    line "Quere kommt!"
 	done
 	
 GruntM14BeatenText:
-	text "How dare you!"
+    text "Wie kannst du"
+    line "es wagen?!"
 	done
 	
 GruntM14AfterBattleText:
-	text "Just try to stop"
-	line "our operations!"
+	text "Versuch uns doch"
+	line "aufzuhalten!"
 	done
 
-
 GruntM10SeenText:
-	text "I'll show you what"
-	line "happens when you"
-	cont "get in my way!"
+    text "Ich zeige dir, was"
+    line "passiert, wenn du"
+    para "mir in die Quere"
+    line "kommst!"
 	done
 	
 GruntM10BeatenText:
-	text "I lose…"
+	text "Ich verliere…"
 	done
 	
 GruntM10AfterBattleText:
-	text "Apparently I get"
-	line "defeated when you"
-	cont "get in my way…"
+    text "Anscheinend werde"
+    line "ich besiegt, wenn"
+    para "du mir in die"
+    line "Quere kommst…"
 	done
 
 GruntM9SeenText:
-	text "I'm the one who"
-	line "is really going to"
-	cont "stop you!"
+    text "Ich bin derjenige,"
+    line "der dich wirklich"
+    cont "aufhalten wird!"
 	done
 	
 GruntM9BeatenText:
-	text "Why did I expect"
-	line "anything else?"
+    text "Warum habe ich"
+    line "überhaupt etwas"
+    cont "anderes erwartet?"
 	done
 	
 GruntM9AfterBattleText:
-	text "We GRUNTS don't"
-	line "really get much"
-	para "time to raise our"
-	line "#MON."
+	text "Wir RÜPEL haben"
+	line "kaum Zeit, unsere"
+	para "#MON richtig"
+	line "zu trainieren."
 	done
 	
 GruntM8SeenText:
-	text "You don't belong"
-	line "in here!"
-	para "TEAM ROCKET"
-	line "members only!"
+    text "Du gehörst hier"
+    line "nicht hin!"
+
+    para "Nur für TEAM"
+    line "ROCKET Mitglieder!"
 	done
 	
 GruntM8BeatenText:
-	text "You still don't"
-	line "belong…"
+    text "Du gehörst hier"
+    line "trotzdem nicht"
+    cont "hin…"
 	done
 	
 GruntM8AfterBattleText:
-	text "Go on ahead, I"
-	line "suppose."
-	para "I don't care to"
-	line "do anything else"
-	cont "to stop you."
+    text "Dann geh halt"
+    line "weiter."
+
+    para "Ich habe keine"
+    line "Lust mehr, zu"
+    para "versuchen, dich"
+    line "aufzuhalten."
 	done
 
 TeamRocketBaseB1F_MapEvents:

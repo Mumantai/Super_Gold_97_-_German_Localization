@@ -121,98 +121,113 @@ ExecutiveLeavesOffice:
 	step_end
 	
 RocketBossRoomGrunt1Text:
-	text "This is the final"
-	line "preparation"
-	para "meeting before our"
-	line "machine becomes"
-	cont "fully functional."
-	para "I'm sure there"
-	line "isn't anything"
-	para "that can get in"
-	line "the way of our"
-	cont "plan now!"
+    text "Das ist die letzte"
+    line "Besprechung, bevor"
+    para "unsere Maschine"
+    line "voll funktions-"
+    cont "fähig ist."
+
+    para "Ich bin sicher,"
+    line "dass es nichts"
+    para "gibt, was unserem"
+    line "Plan jetzt noch"
+    para "in die Quere"
+    line "kommen könnte!"
 	done
 	
 RocketBossRoomGrunt2Text:
-	text "IMPOSTOR OAK did a"
-	line "great job"
-	para "convincing the"
-	line "people of STAND"
-	para "CITY to not worry"
-	line "about our"
-	cont "operations here."
+    text "Der BETRÜGER EICH"
+    line "hat gute Arbeit"
+    para "geleistet, die"
+    line "Bewohner von"
+    para "SENDESTIA CITY"
+    line "davon zu über-"
+    cont "zeugen, sich keine"
+    para "Sorgen wegen uns"
+    line "zu machen."
 	done
 	
 RocketBossRoomGrunt3Text:
-	text "The EXECUTIVE is"
-	line "the only person"
-	para "who knows the"
-	line "password to shut"
-	para "down the mind"
-	line "control antenna."
-	para "He can also be"
-	line "very forgetful…"
+    text "Der VORSTAND ist"
+    line "der einzige, der"
+    para "das Passwort zum"
+    line "Abschalten der"
+    para "Gedankenkontrolle"
+    line "kennt."
+
+    para "Er ist aber auch"
+    line "sehr vergesslich…"
 	done
 	
 RocketBossRoomGrunt4Text:
-	text "The world won't"
-	line "know what hit them"
-	para "when our machine"
-	line "is at full power"
-	para "and we summon all"
-	line "of their #MON"
-	cont "to do our work!"
+    text "Die Welt wird
+    line "nicht wissen, was"
+    para "sie erwartet, wenn"
+    line "unsere Maschine"
+    para "bei voller Kapa-"
+    line "zität ist und wir"
+    para "alle ihre #MON"
+    line "für uns arbeiten!"
 	done
 	
 RocketBossRoomGrunt5Text:
-	text "According to my"
-	line "calculations, the"
-	para "mind control"
-	line "signal should be"
-	para "at full strength"
-	line "within the next"
-	cont "week!"
+    text "Meinen Berechnung-"
+    line "en zufolge, sollte"
+    para "das Signal zur"
+    line "Gedankenkontrolle"
+    para "in der nächsten"
+    line "Woche seine volle"
+    cont "Stärke erreichen!"
 	done
 	
 BadSecurityPractices:
-	text "What's this?"
-	para "The EXECUTIVE has"
-	line "a note stuck to"
-	cont "his computer…"
-	para "It's the password"
-	line "to the console!"
-	para "…"
-	para "<PLAYER>"
-	line "remembered the"
-	cont "password!"
+    text "Was ist das?"
+
+    para "Der VORSTAND hat"
+    line "einen Zettel an"
+    para "seinen Computer"
+    line "geklebt…"
+
+    para "Es ist das Pass-"
+    line "wort für die"
+    cont "Konsole!"
+
+    para "…"
+
+    para "<PLAYER> merkt sich"
+    line "das Passwort!"
 	done
 	
 ExecutiveSceneAfterBattleText:
-	text "Argh!"
-	para "You may have"
-	line "defeated me in"
-	para "battle, but that"
-	line "means little now."
-	para "Our machine is"
-	line "inching ever"
-	para "closer to full"
-	line "power!"
-	para "Your #MON may"
-	line "have defeated mine"
-	para "now, but it won't"
-	line "matter soon when"
-	para "even they are"
-	line "under my control!"
-	para "Now if you'll"
-	line "excuse me, I've"
-	para "got some very"
-	line "important business"
-	cont "to attend to!"
+    text "Argh!"
+
+    para "Du hast mich zwar"
+    line "im Kampf besiegt,"
+    para "aber das ändert"
+    line "gar nichts!"
+
+    para "Unsere Maschine"
+    line "ist schon fast bei"
+    cont "voller Leistung!"
+
+    para "Deine #MON"
+    line "haben meine zwar"
+    para "besiegt, aber das"
+    line "wird bald egal"
+    para "sein, wenn auch"
+    line "sie unter meiner"
+    cont "Kontrolle stehen!"
+
+    para "Wenn du mich jetzt"
+    line "entschuldigen wür-"
+    cont "dest, ich habe"
+    para "wichtige Dinge zu"
+    line "erledigen!"
 	done
 	
 ExecutiveWinText:
-	text "I can't believe"
-	line "this!"
+	text "Das kann ich nicht"
+	line "glauben!"
 	done
 	
 ExecutiveLossText:
@@ -220,70 +235,97 @@ ExecutiveLossText:
 	done
 	
 TheExecutiveGreeting:
-	text "Do you understand"
-	line "what you've gotten"
-	cont "yourself into?"
-	para "Clearly you don't,"
-	line "or you wouldn't be"
-	cont "here."
-	para "…"
-	para "You remember me,"
-	line "right?"
-	para "I was the CAPTAIN"
-	line "of our cargo ship."
-	para "But primarily, I'm"
-	line "the lead EXECUTIVE"
-	cont "of TEAM ROCKET."
-	para "Second only to our"
-	line "leader, GIOVANNI."
-	para "Am I right to"
-	line "assume you've"
-	para "figured out what"
-	line "we're doing here?"
-	para "All of the money"
-	line "and supplies we've"
-	para "gathered have been"
-	line "used for this one"
-	cont "ultimate goal!"
-	para "We've built a"
-	line "device that can"
-	para "emit a powerful"
-	line "wave which can be"
-	para "used to control"
-	line "the minds of"
-	cont "#MON!"
-	para "Soon, all #MON"
-	line "will be under the"
-	para "command of TEAM"
-	line "ROCKET!"
-	para "We'll make better"
-	line "use of them than"
-	cont "anyone ever has!"
-	para "I refuse to let"
-	line "you get in the way"
-	para "of TEAM ROCKET any"
-	line "longer!"
+    text "Ist dir eigentlich"
+    line "klar, woraus du"
+    para "dich hier einge-"
+    line "lassen hast?"
+
+    para "Offensichtlich"
+    line "nicht, sonst wärst"
+    cont "du nicht hier."
+
+    para "…"
+
+    para "Du erinnerst dich"
+    line "an mich, oder?"
+
+    para "Ich war der KÄPT'N"
+    line "unseres Frachters."
+
+    para "Doch vor allem bin"
+    line "ich der leitende"
+    para "VORSTAND von TEAM"
+    cont "ROCKET."
+
+    para "Nur GIOVANNI,"
+    line "unser Anführer,"
+    cont "steht über mir."
+
+    para "Gehe ich richtig"
+    line "in der Annahme,"
+    para "dass du herausge-"
+    line "funden hast, was"
+    cont "wir hier vorhaben?"
+
+    para "Alle Ressourcen,"
+    line "die wie gesammelt"
+    para "haben, wurden in"
+    line "dieses eine Ziel"
+    cont "investiert!"
+
+    para "Wir haben ein"
+    line "Gerät gebaut, das"
+    para "eine mächtige"
+    line "Welle aussendet,"
+    para "mit der man die"
+    line "Gedanken von"
+    para "#MON kontrol-"
+    line "lieren kann!"
+
+    para "Schon bald stehen"
+    line "alle #MON unter"
+    para "der Kontrolle von"
+    line "TEAM ROCKET!"
+
+    para "Unter unserer Füh-"   ; Absatz evtl. ändern
+    line "rung, werden sie"
+    para "endlich vernünftig"
+    line "eingesetzt!"
+
+    para "Ich werde es nicht"
+    line "zulassen, dass du"
+    para "dich weiter in den"
+    line "Weg von TEAM"
+    cont "ROCKET stellst!"
 	done
 	
 	
 ImposterTellsYouToSeeExecutive:
-	text "Looks like none"
-	line "of our GRUNTS"
-	cont "could stop you."
-	para "But honestly, we"
-	line "expected that by"
-	cont "this point."
-	para "I think you need"
-	line "to go see the"
-	cont "EXECUTIVE."
-	para "But I know you"
-	line "were planning on"
-	cont "doing that anyway."
-	para "He's not too"
-	line "happy about this"
-	cont "whole situation."
-	para "I'd be worried"
-	line "if I were you."
+    text "Anscheinend haben"
+    line "unsere RÜPEL es"
+    para "nicht geschafft,"
+    line "dich aufzuhalten."
+
+    para "Ehrlich gesagt,"
+    line "haben wir damit"
+    cont "schon gerechnet."
+
+    para "Ich glaube, du"
+    line "solltest den"
+    cont "VORSTAND sehen."
+
+    para "Aber ich weiß,"
+    line "dass du das eh"
+    cont "vorhattest."
+
+    para "Er ist von der"
+    line "ganzen Situation"
+    para "nicht besonders"
+    line "begeistert."
+
+    para "An deiner Stelle,"
+    line "hätte ich jetzt"
+    cont "'ne Heidenangst."
 	done
 
 
