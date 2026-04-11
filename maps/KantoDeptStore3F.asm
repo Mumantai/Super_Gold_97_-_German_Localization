@@ -56,48 +56,54 @@ KantoDeptStore3FDirectory:
 	jumptext KantoDeptStore3FDirectoryText
 
 KantoDeptStore3FYoungsterText:
-	text "I can't decide"
-	line "which #MON I"
+	text "Ich kann mich"
+	line "nicht entscheiden,"
 
-	para "should use this TM"
-	line "on…"
+	para "welches #MON"
+	line "diese TM erhalten"
+	cont "soll…"
 	done
 
 KantoDeptStore3FGameboyKid1Text:
-	text "Uh-oh! I traded my"
-	line "#MON without"
+	text "Oh, oh! Ich habe"
+	line "mein #MON"
 
-	para "removing the UP-"
-	line "GRADE from it."
+	para "getauscht, ohne"
+	line "ihm UP-GRADE"
+	cont "wegzunehmen."
 	done
 
 KantoDeptStore3FGameboyKid2Text:
-	text "Yeah! I'm finally"
-	line "getting a PORYGON!"
+	text "Ja! Endlich"
+	line "habe ich mein"
+	cont "PORYGON!"
 
-	para "I'm no good at the"
-	line "slots, so I could"
+	para "Ich bin nicht sehr"
+	line "gut an den Spiel-"
+	cont "automaten. Deswe-"
+	cont "gen habe ich nie"
+	cont "genügend Münzen…"
 
-	para "never get enough"
-	line "coins…"
+	para "…Was?"
 
-	para "…Huh?"
-
-	para "The traded PORYGON"
-	line "turned into a dif-"
-	cont "ferent #MON!"
+	para "Das getauschte"
+	line "PORYGON hat sich"
+	cont "in ein anderes"
+	cont "#MON"
+	cont "verwandelt!"
 	done
 
 KantoDeptStore3FSuperNerdText:
-	text "The TM SHOP sells"
-	line "some rare moves."
+	text "Im TM-LADEN erhält"
+	line "man seltene"
+	cont "Attacken."
 	done
 
 KantoDeptStore3FDirectoryText:
-	text "3F: TM SHOP"
+	text "2S: TM-LADEN"
 
-	para "Make Your #MON"
-	line "Stronger!"
+	para "Mach Deine #MON"
+	line "Stärker!"
 	done
 
 KantoDeptStore3F_MapEvents:

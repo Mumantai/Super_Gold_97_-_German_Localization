@@ -226,7 +226,7 @@ PokemonNames::
 	db "BOTOGEL@@@"
 	db "MANTAX@@@@"
 	db "PANZAERON@"
-	db "HUNDUSTER"
+	db "HUNDUSTER@"
 	db "HUNDEMON@@"
 	db "SEEDRAKING"
 	db "PHANPY@@@@"

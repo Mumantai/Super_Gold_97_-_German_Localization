@@ -46,29 +46,34 @@ KantoDeptStore5FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 KantoDeptStore5FGentlemanText:
-	text "I want to buy some"
-	line "items that raise"
+	text "Ich möchte Items"
+	line "kaufen, mit denen"
 
-	para "#MON stats, but"
-	line "I don't have"
-	cont "enough money…"
+	para "der Status meiner"
+	line "#MON verbessert"
+	cont "wird, aber ich"
+	cont "habe nicht genug"
+	cont "Geld…"
 	done
 
 KantoDeptStore5FSailorText:
-	text "I want PP UP, so I"
-	line "can raise the PP"
+	text "Ich möchte AP-PLUS"
+	line "kaufen, damit die"
 
-	para "of moves. But you"
-	line "can't buy it…"
+	para "AP der Attacken"
+	line "steigen, aber das"
+
+	para "kann man nicht"
+	line "kaufen…"
 	done
 
 KantoDeptStore5FTeacherText:
-	text "SPEAROW:"
+	text "HABITAK:"
 	line "Kwaaa!"
 	done
 
 KantoDeptStore5FDirectoryText:
-	text "5F: DRUG STORE"
+	text "4S: DROGERIE"
 	done
 
 KantoDeptStore5F_MapEvents:

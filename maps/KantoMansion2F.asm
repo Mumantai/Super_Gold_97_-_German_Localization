@@ -19,38 +19,48 @@ KantoMansionClerk:
 	jumptextfaceplayer KantoMansionClerkText
 	
 KantoMansionClerkText:
-	text "Hiya! I'm the"
-	line "developer!"
-	para "The other one."
-	para "The one that the"
-	line "guys upstairs"
-	para "wouldn't want to"
-	line "know about."
-	para "Thank you so much"
-	line "for playing"
-	cont "through this!"
-	para "I worked very hard"
-	line "on it."
-	para "Tried to make it"
-	line "feel as authentic"
-	cont "as possible."
-	para "Apart from this"
-	line "4th wall break,"
-	cont "that is."
+	text "Hey! Ich bin der"
+	line "Entwickler!"
+
+	para "Also der andere."
+
+	para "Der, von dem die"
+	line "da oben nichts"
+	cont "wissen sollen."
+
+	para "Vielen Dank fürs"
+	line "Durchspielen!"
+
+	para "Ich habe sehr hart"
+	line "hieran gearbeitet."
+
+	para "Ich wollte, dass"
+	line "es sich anfühlt,"
+	para "wie die Original-"
+	line "spiele."
+
+	para "Abgesehen von"
+	line "diesem Bruch der"
+	cont "4. Wand."
 	done
 
 KantoMansion2FComputerText:
-	text "It's a computer"
-	line "with lots of"
+	text "Ein Computer mit"
+	line "vielen offenen"
+	cont "Fenstern:"
+
 	para "Paint, Explorer,"
-	line "Notepad Plus Plus,"
-	para "Polished Map, and"
-	line "BGB windows open."
+	line "Notepad++, Polished"
+	cont "Map und BGB."
+
+	para "Alles was man zum"
+	line "Entwickeln eines"
+	cont "ROM-Hacks braucht!"
 	done
 
 KantoMansion2FMeetingRoomSignText:
 	text "GAME FREAK"
-	line "MEETING ROOM"
+	line "KONFERENZRAUM"
 	done
 
 KantoMansion2F_MapEvents:

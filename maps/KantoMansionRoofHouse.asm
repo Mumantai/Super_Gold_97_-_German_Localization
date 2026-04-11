@@ -34,83 +34,100 @@ KantoMansionRoofHousePharmacistScript:
 	end
 
 KantoMansionRoofHousePharmacistIntroText:
-	text "Let me recount a"
-	line "terrifying tale…"
+	text "Lass mich eine"
+	line "gruselige Ge-"
+	cont "schichte erzählen…"
 	done
 
 KantoMansionRoofHousePharmacistNotNightText:
-	text "Then again, it's"
-	line "not as scary while"
+	text "Allerdings so"
+	line "unheimlich ist"
 
-	para "it's still light"
-	line "outside."
+	para "sie gar nicht,"
+	line "wenn es draußen"
+	cont "noch hell ist."
 
-	para "Come back after"
-	line "sunset, OK?"
+	para "Komm wieder, wenn"
+	line "die Sonne unterge-"
+	cont "gangen ist, O.K.?"
 	done
 
 KantoMansionRoofHousePharmacistStoryText:
-	text "Once upon a time,"
-	line "there was a little"
+	text "Es war einmal ein"
+	line "kleiner Junge. Er"
 
-	para "boy who was given"
-	line "a new BICYCLE…"
+	para "hat eines Tages"
+	line "ein neues FAHRRAD"
+	cont "bekommen…"
 
-	para "He wanted to try"
-	line "it right away…"
+	para "Er wollte sofort"
+	line "darauf fahren…"
 
-	para "He was having so"
-	line "much fun that he"
+	para "Das machte ihm so"
+	line "viel Spaß, dass er"
 
-	para "didn't notice the"
-	line "sun had set…"
+	para "gar nicht be-"
+	line "merkte, dass die"
 
-	para "While riding home"
-	line "in the pitch-black"
+	para "Sonne unterge-"
+	line "gangen war…"
 
-	para "night, the bike"
-	line "suddenly slowed!"
+	para "Auf dem Weg nach"
+	line "Hause durch die"
 
-	para "The pedals became"
-	line "heavy!"
+	para "pechschwarze Nacht"
+	line "wurde das Rad"
+	cont "langsamer!"
 
-	para "When he stopped"
-	line "pedaling, the bike"
+	para "Die Pedale wurden"
+	line "schwer wie Blei!"
 
-	para "began slipping"
-	line "backwards!"
+	para "Als er aufhörte,"
+	line "in die Pedale zu"
 
-	para "It was as if the"
-	line "bike were cursed"
+	para "treten, rollte das"
+	line "Rad rückwärts!"
 
-	para "and trying to drag"
-	line "him into oblivion!"
+	para "Es schien fast,"
+	line "als wäre das Rad"
+
+	para "verhext und ver-"
+	line "suche, ihn ins"
+
+	para "Verderben zu"
+	line "bringen!"
 
 	para "…"
 
 	para "…"
 
-	para "SHRIEEEEK!"
+	para "Kreiiisch!"
 
-	para "The boy had been"
-	line "riding uphill!"
+	para "Der Junge war den"
+	line "RADWEG bergauf"
+	cont "gefahren!"
 
 	para "…"
 	line "Ba-dum ba-dum!"
 
-	para "For listening so"
-	line "patiently, you may"
-	cont "take this--TM03!"
+	para "Es ist schön, dass"
+	line "du meiner Ge-"
+	cont "schichte so"
+	cont "aufmerksam"
+	cont "gelauscht hast."
+	cont "Nimm dies - TM03!"
 	done
 
 KantoMansionRoofHousePharmacistCurseText:
-	text "TM03 is CURSE."
+	text "TM03 enthält"
+	line "FLUCH."
 
-	para "It's a terrifying"
-	line "move that slowly"
+	para "Das ist eine"
+	line "schreckliche"
 
-	para "whittles down the"
-	line "victim's HP."
+	para "Attacke, bei der"
+	line "die KP des Opfers"
+	cont "verringert werden."
 	done
 
 KantoMansionRoofHouse_MapEvents:

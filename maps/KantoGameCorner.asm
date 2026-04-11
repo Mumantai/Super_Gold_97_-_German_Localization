@@ -75,7 +75,7 @@ KantoGameCornerFisherScript:
 	end
 
 .coinname
-	db "COIN@"
+	db "MÜNZEN@"
 
 .NoCoinCase:
 	writetext KantoGameCornerFisherNoCoinCaseText
@@ -204,156 +204,177 @@ GameCornerN64RockerDownMovement:
 	step_end
 
 SendN64RockerOffText:
-	text "I like games, but"
-	line "I'm kind of tired"
-	para "of games of"
-	line "chance."
-	para "I'd like to play"
-	line "a good video game"
-	cont "or something."
-	para "Huh?"
-	para "There's a place"
-	line "near WESTPORT CITY"
-	para "that I should"
-	line "check out?"
-	para "Alright, I'll give"
-	line "it a go, thanks!"
+    text "Ich mag Spiele,"
+    line "aber Glücksspiele""
+    cont "langweilen mich."
+
+    para "Ich würde gerne"
+    line "ein Videospiel"
+    cont "oder so spielen."
+
+    para "Hä?"
+
+    para "Es gibt einen Ort"
+    line "in der Nähe von"
+    para "PORT ABANISHI, den"
+    line "ich mir ansehen"
+    cont "sollte?"
+
+    para "Alles klar, ich"
+    line "gucke es mir mal"
+    cont "an, danke!"
 	done
 
 KantoGameCornerReceptionistText:
-	text "Welcome!"
+	text "Willkommen!"
 
-	para "You may exchange"
-	line "your coins for"
+	para "Du kannst deine"
+	line "Münzen nebenan"
 
-	para "fabulous prizes"
-	line "next door."
+	para "gegen fabelhafte"
+	line "Preise ein-"
+	cont "tauschen."
 	done
 
 KantoGameCornerPokefanMText:
-	text "The slot machines"
-	line "are all state of"
-	cont "the art."
+	text "Die Spielautomaten"
+	line "sind alle"
+	cont "hochmodern."
 	done
 
 KantoGameCornerTeacherText:
-	text "It's this machine"
-	line "I want."
+	text "An diesem Automa-"
+	line "ten will ich"
+	cont "spielen."
 
-	para "It cleaned me out"
-	line "yesterday, so it"
+	para "An dem habe ich"
+	line "gestern haushoch"
 
-	para "should pay out"
-	line "today."
+	para "verloren. Das will"
+	line "ich heute wieder-"
+	cont "haben."
 	done
 
 KantoGameCornerFishingGuruText:
-	text "I think this slot"
-	line "machine will pay"
-	cont "out…"
+	text "Ich glaube, an"
+	line "diesem Automaten"
+	cont "werde ich"
+	cont "gewinnen…"
 
-	para "The odds vary"
-	line "among machines."
+	para "Die Gewinnchancen"
+	line "sind bei jedem"
+	cont "Automaten anders."
 	done
 
 KantoGameCornerFisherText1:
-	text "Gahahaha!"
+	text "Guahahaha!"
 
-	para "The coins just"
-	line "keep popping out!"
+	para "Die Münzen kommen"
+	line "mir entgegen!"
 
-	para "Hm? What, kid? You"
-	line "want to play?"
+	para "Hm? Was, Zwerg?"
+	line "Du willst spielen?"
 
-	para "I'll share my luck"
-	line "with you!"
+	para "Ich teile mein"
+	line "Glück mit dir!"
 	done
 
 KantoGameCornerFisherText2:
-	text "Gahahaha!"
+	text "Hahahaha!"
 
-	para "It makes me feel"
-	line "good to do nice"
+	para "Ich fühle mich"
+	line "wohl, wenn ich"
 
-	para "things for other"
-	line "people!"
+	para "anderen etwas"
+	line "Gutes tue!"
 	done
 
 KantoGameCornerFisherNoCoinCaseText:
-	text "Hey, you don't"
-	line "have a COIN CASE."
+	text "Eh, du hast keinen"
+	line "MÜNZKORB."
 
-	para "How am I supposed"
-	line "to give you any"
-	cont "coins, kid?"
+	para "Wie soll ich dir"
+	line "denn so Münzen"
+	cont "geben, Zwerg?"
 	done
 
 KantoGameCornerFisherFullCoinCaseText:
-	text "Hey, your COIN"
-	line "CASE is full, kid."
+	text "Heh, dein MÜNZKORB"
+	line "ist voll, Wicht."
 
-	para "You must be riding"
-	line "a winning streak"
-	cont "too."
+	para "Du hast wohl auch"
+	line "eine Glücks-"
+	cont "strähne."
 	done
 
 KantoGymGuyText:
-	text "Are you playing"
-	line "the slots too?"
+	text "He! Ein CHAMP"
+	line "in spe!"
 
-	para "I'm trying to get"
-	line "enough coins for a"
-	cont "prize #MON."
+	para "Spielst du auch an"
+	line "den Automaten?"
 
-	para "But I don't have"
-	line "enough coins yet…"
+	para "Ich möchte genug"
+	line "Münzen sammeln für"
+	cont "ein prämiertes"
+	cont "#MON."
+
+	para "Aber ich habe noch"
+	line "nicht genug"
+	cont "Münzen…"
 	done
 
 KantoGameCornerPokefanMText2:
-	text "Hmmm… The odds are"
-	line "surely better for"
+	text "Hm… Die Chancen,"
+	line "eine PIKACHU-Reihe"
 
-	para "PIKACHU's line,"
-	line "but… What to do?"
+	para "zu bekommen,"
+	line "stehen gut, aber…"
+	cont "Was nun?"
 	done
 	
 KantoGameCornerGrampsText:
-	text "My daddy takes me"
-	line "here sometimes."
-	para "I'm not old enough"
-	line "to play, though."
+    text "Mein Papa nimmt"
+    line "mich manchmal"
+    cont "hierhin mit."
+
+    para "Ich bin noch zu"
+    line "um selber spielen"
+    cont "zu dürfen."
 	done
 
 KantoGameCornerPoster1Text:
-	text "Hey!"
+	text "He!"
 
-	para "Underneath this"
-	line "poster…"
+	para "Hinter diesem"
+	line "Poster…"
 
-	para "There's nothing!"
+	para "Da ist nichts!"
 	done
 
 KantoGameCornerPoster2Text:
-	text "Hey!"
+	text "He!"
 
-	para "Underneath this"
-	line "poster…"
+	para "Hinter diesem"
+	line "Poster…"
 
-	para "There's nothing!"
+	para "Da ist nichts!"
 	done
 
 KantoGameCornerLighterText:
-	text "There's a lighter"
-	line "here."
+	text "Da ist ein"
+	line "Feuerzeug."
 	done
 
 KantoGameCornerSodaCanText:
-	text "A can of soda…"
+	text "Eine Wasser-"
+	line "flasche…"
 
-	para "Someone must be"
-	line "coming back…"
+	para "Die muss jemandem"
+	line "gehören, der sie"
+	cont "holen wird…"
 
-	para "Huh? It's empty!"
+	para "Was? Sie ist leer!"
 	done
 
 KantoGameCorner_MapEvents:

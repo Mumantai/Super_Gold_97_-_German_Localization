@@ -36,27 +36,30 @@ KantoDeptStore2FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 KantoDeptStore2FPokefanMText:
-	text "I just recently"
-	line "became a trainer."
+	text "Ich bin erst vor"
+	line "kurzem Trainer"
+	cont "geworden.
 
-	para "I'm impressed by"
-	line "the selection of"
-	cont "convenient items."
+	para "Dieses riesige"
+	line "Angebot an nütz-"
+	cont "lichen Items ist"
+	cont "überwältigend."
 	done
 
 KantoDeptStore2FYoungsterText:
-	text "This store has"
-	line "more items than"
-	para "I'll ever know"
-	line "what to do with."
+    text "Dieser Laden hat"
+    line "mehr Artikel als"
+    para "ich jemals kennen"
+    line "und gebrauchen"
+    cont "könnte."
 	done
 
 KantoDeptStore2FDirectoryText:
-	text "Top Grade Items"
-	line "for Trainers!"
+	text "Nützliche Items"
+	line "für Trainer!"
 
-	para "2F: TRAINER'S"
-	line "    MARKET"
+	para "1S: ZUBEHÖR für"
+	line "    TRAINER"
 	done
 
 KantoDeptStore2F_MapEvents:

@@ -86,10 +86,10 @@ KantoDeptStore6FVendingMachine:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "FRESH WATER  ¥200@"
-	db "SODA POP     ¥300@"
-	db "LEMONADE     ¥350@"
-	db "CANCEL@"
+	db "TAFELWASSER  ¥200@"
+	db "SPRUDEL      ¥300@"
+	db "LIMONADE     ¥350@"
+	db "ZURÜCK@"
 
 KantoDeptStore6FDirectory:
 	jumptext KantoDeptStore6FDirectoryText
@@ -99,48 +99,51 @@ KantoDeptStore6FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 KantoVendingText:
-	text "A vending machine!"
-	line "Here's the menu."
+	text "Ein Automat!"
+	line "Hier ist die"
+	cont "Anleitung."
 	done
 
 KantoClangText:
-	text "Clang!"
+	text "Klang!"
 
 	para "@"
 	text_ram wStringBuffer3
 	text_start
-	line "popped out."
+	line "liegt im Schacht."
 	done
 
 KantoVendingNoMoneyText:
-	text "Oops, not enough"
-	line "money…"
+	text "Ups, nicht"
+	line "genügend Geld…"
 	done
 
 KantoVendingNoSpaceText:
-	text "There's no more"
-	line "room for stuff…"
+	text "Da ist nicht genug"
+	line "Platz für mehr"
+	cont "Utensilien…"
 	done
 
 KantoDeptStore6FSuperNerdText:
-	text "A vending machine"
-	line "with a prize rou-"
-	cont "lette…"
+	text "Ein Spielautomat"
+	line "mit einem"
+	cont "Roulette…"
 
-	para "You never see"
-	line "those anymore."
+	para "Die gibt es schon"
+	line "lange nicht mehr."
 	done
 
 KantoDeptStore6FYoungsterText:
-	text "Aww! There's no"
-	line "games here!"
+	text "Aww! Hier gibt es"
+	line "keine Spiele!"
 
-	para "I wanted to play…"
+	para "Ich wollte doch"
+	line "spielen…"
 	done
 
 KantoDeptStore6FDirectoryText:
-	text "6F: ROOFTOP SQUARE"
-	line "VENDING MACHINES"
+	text "5S: DACHTERRASSE"
+	line "SPIELAUTOMATEN"
 	done
 
 KantoDeptStore6F_MapEvents:
