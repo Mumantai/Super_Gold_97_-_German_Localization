@@ -45,13 +45,12 @@ Route113Route114GateTeacherText:
     text "Ist die Luft hier"
     line "nicht erfrischend?"
 
-    para "#MON lieben Luft"
-    line "mit süßem Geruch."
+    para "#MON lieben"
+    line "süße Gerüche."
 
     para "Bestimmte #MON"
-    line "können diesen"
-    para "süßen Geruch"
-    line "verströmen."
+    line "können diese"
+    cont "verströmen."
 
     para "Wusstest du das?"
 	done

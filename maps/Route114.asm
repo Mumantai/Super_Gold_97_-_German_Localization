@@ -123,7 +123,7 @@ CamperDeanBeatenText:
 
 CamperDeanAfterBattleText:
     text "Ich gehe lieber im"
-    line "JAADEWALD zelten."
+    line "JADEWALD zelten."
 	done
 
 PicnickerHeidiSeenText:
