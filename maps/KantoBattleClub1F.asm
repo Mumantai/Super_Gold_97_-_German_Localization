@@ -170,39 +170,45 @@ NoEntryAllowed:
 	step_end
 	
 NoPassText:
-	text "I'm sorry, but no"
-	line "one can enter"
-	para "without a BATTLE"
-	line "PASS."
+	text "Es tut mir leid,"
+	line "aber ohne einen"
+	para "KAMPFPASS darf"
+	line "niemand hinein."
 	done
 
 PassGiveText:
-	text "Hello and welcome"
-	line "to the KANTO"
-	cont "BATTLE CLUB!"
-	para "This is a high-"
-	line "tier establishment"
-	para "for serious"
-	line "trainers!"
-	para "And judging by how"
-	line "many BADGES you"
-	para "have, I can tell"
-	line "you're quite the"
-	cont "serious trainer!"
-	para "This establishment"
-	line "is members-only."
-	para "And I'm offering"
-	line "you membership!"
+	text "Willkommen im"
+	line "KANTO-KAMPFCLUB!"
+
+	para "Dies ist ein"
+	line "Etablissement der"
+	para "Extraklasse für"
+	line "ernsthafte"
+	cont "Trainer!"
+
+	para "An der Zahl deiner"
+	line "ORDEN sehe ich,"
+	para "dass du ein ziem-"
+	line "lich ernsthafter"
+    cont "Trainer bist!"
+
+	para "Dieses Etablisse-"
+	line "ment ist nur für"
+	cont "Mitglieder."
+
+	para "Und ich biete dir"
+	line "eine Mitglied-"
+	cont "schaft an!"
 	done
 
 AlreadyApprovedText:
-	text "Go ahead in for"
-	line "the day!"
+	text "Du darfst für"
+	line "heute herein."
 	done
 	
 BouncerChecksYou:
-	text "Ah, a BATTLE PASS!"
-	line "Welcome, member!"
+	text "Ah, ein KAMPFPASS!"
+	line "Willkommen!"
 	done
 
 KantoBattleClub1F_MapEvents:

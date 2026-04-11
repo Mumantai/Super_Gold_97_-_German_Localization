@@ -132,7 +132,7 @@ ItemNames::
 	db "STERNENSTAUB@"
 	db "STERNENSTÜCK@"
 	db "SCHIFFÖFFNER@"
-	db "KAMPF-PASS@"
+	db "KAMPFPASS@"
 	db "SCHLANG.HAUT@"
 	db "SCHÖNSCHWEIF@"
 	db "TONERDE@"

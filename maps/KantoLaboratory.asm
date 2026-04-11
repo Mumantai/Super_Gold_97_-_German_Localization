@@ -355,134 +355,154 @@ ScientistGoesToMachine7:
 	step_end
 	
 KantoLaboratoryGentlemanText:
-	text "This place is a"
-	line "hub for NIHON's"
-	para "brightest"
-	line "researchers."
+    text "Dieser Ort ist ein"
+    line "Zentrum für NIHONs"
+    para "schlaueste"
+    line "Forscher."
 	done
 	
 KantoLaboratoryScientist1Text:
-	text "Did you know?"
-	para "We've made great"
-	line "strides in #MON"
-	cont "fossil technology!"
-	para "We are now able"
-	line "to bring back"
-	para "fossilized #MON"
-	line "in mere seconds!"
+    text "Wusstest du schon?"
+
+    para "Wir haben große"
+    line "Fortschritte in"
+    para "Fosiilienforschung"
+    line "gemacht!"
+
+    para "Wir können jetzt"
+    line "#MON-Fossilien"
+    para "innerhalb weniger"
+    line "Sekunden wieder-"
+    cont "beleben!"
 	done
 
 ScientistHereYouGoText:
-	text "All done!"
-	para "Here you go!"
+	text "Schon fertig!"
+	para "Hier, bitte!"
 	done
 	
 IfYouHaveAnyOtherFossilsText:
-	text "Let me know if"
-	line "you come across"
-	cont "any other fossils!"
+	text "Sag Bescheid, wenn"
+	line "du noch andere"
+	cont "Fossilien findest!"
 	done
 	
 NoRoomForFossilmon:
-	text "Oh, wait! I can't"
-	line "do this yet!"
-	para "You'd have no room"
-	line "to hold onto this"
+	text "Oh, warte! So"
+	line "geht das nicht!"
+
+	para "Du hast keinen"
+	line "Platz für dieses"
 	cont "#MON!"
-	para "Come back once you"
-	line "have some space in"
-	cont "your party!"
+
+	para "Komm wieder, wenn"
+	line "du Platz in deinem"
+	cont "Team hast!"
 	done
 	
 PlayerGetsAnOmanyte:
-	text "<PLAYER> received"
-	line "OMANYTE!"
+	text "<PLAYER> erhält"
+	line "AMONITAS!"
 	done
 	
 PlayerGetsAKabuto:
-	text "<PLAYER> received"
+	text "<PLAYER> erhält"
 	line "KABUTO!"
 	done
 	
 PlayerGetsAnAerodactyl:
-	text "<PLAYER> received"
+	text "<PLAYER> erhält"
 	line "AERODACTYL!"
 	done
 	
 TimeToGetAFossilmonText:
-	text "Alright, just let"
-	line "me see this fossil"
-	para "and I'll have it"
-	line "back to life in"
-	cont "just a second!"
+    text "O.K., zeig mir das"
+    line "Fossil und ich"
+    para "werde es in ein"
+    line "paar Sekunden"
+    cont "wiederbeleben!"
 	done
 	
 YouHaveHelixFossilText:
-	text "Oh, what's this?"
-	para "You have a HELIX"
-	line "FOSSIL!"
-	para "Want me to turn it"
-	line "into a #MON?"
+	text "Oh, was ist das?"
+
+	para "Du hast ein"
+	line "HELIXFOSSIL!"
+
+	para "Soll ich es in"
+	line "ein #MON"
+	cont "verwandeln?"
 	done
 	
 YouHaveDomeFossilText:
-	text "Oh, what's this?"
-	para "You have a DOME"
-	line "FOSSIL!"
-	para "Want me to turn it"
-	line "into a #MON?"
+	text "Oh, was ist das?"
+
+	para "Du hast ein"
+	line "DOMFOSSIL!"
+
+	para "Soll ich es in"
+	line "ein #MON"
+	cont "verwandeln?"
 	done
 	
 YouHaveOldAmberText:
-	text "Oh, what's this?"
-	para "You have an OLD"
-	line "AMBER!"
-	para "Want me to turn it"
-	line "into a #MON?"
+	text "Oh, was ist das?"
+
+	para "Du hast einen"
+	line "ALTBERNSTEIN!"
+
+	para "Soll ich ihn in"
+	line "ein #MON"
+	cont "verwandeln?"
 	done
 	
 AnotherTimeFossilText:
-	text "Oh, really?"
-	para "Well, let me know"
-	line "if you change your"
-	cont "mind."
+	text "Oh, wirklich?"
+
+	para "Sag mir Bescheid,"
+	line "wenn du es dir"
+	cont "anders überlegst."
 	done
 	
 FossilScientistIntroText:
-	text "Hiya! I'm a"
-	line "scientist who"
-	para "specializes in"
-	line "#MON fossils!"
-	para "Let me know if you"
-	line "have any fossils"
-	para "and I can turn"
-	line "them back into"
-	cont "living #MON!"
+	text "Hi! Ich bin ein"
+	line "Forscher, der sich"
+	para "auf die Fossilien"
+	line "von #MON"
+	cont "spezialisiert hat!"
+
+	para "Sag Bescheid, wenn"
+	line "du ein Fossil"
+	para "findest, dann kann"
+	line "ich daraus wieder"
+	para "ein lebendes"
+	line "#MON machen!"
 	done
 	
 
 KantoLabPhotoStudioScientistText_Question:
-	text "This device here"
-	line "can print out"
-	para "photographs of"
-	line "your #MON."
-	
-	para "Interested?"
+	text "Dieses Gerät hier,"
+	line "kann Fotos deiner"
+	cont "#MON drucken."
 
-	para "How about a photo"
-	line "for a souvenir?"
+	para "Hast du Interesse?"
+
+	para "Wie wär's mit ei-"
+	line "nem Foto als Sou-"
+	cont "venir?"
 	done
 
 KantoLabPhotoStudioScientistText_Yes:
-	text "OK! Big smile now!"
+	text "O.K.! Und jetzt"
+	line "sag: CHEESE!"
 	done
 
 KantoLabPhotoStudioScientistText_No:
-	text "Oh, that's too"
-	line "bad. I thought it"
+	text "Oh, schade. Ich"
+	line "dachte, das wäre"
 
-	para "would be a great"
-	line "memento…"
+	para "ein schönes Anden-"
+	line "ken…"
 	done	
 
 

@@ -119,90 +119,102 @@ KantoCafe2Trashcan:
 ChefText_Eatathon:
 	text "Hi!"
 
-	para "We're holding an"
-	line "eatathon contest."
+	para "Wir halten gerade"
+	line "ein Wettessen ab."
 
-	para "We can't serve you"
-	line "right now. Sorry."
+	para "Wir können dich"
+	line "im Moment leider"
+	cont "nicht bedienen."
 	done
 
 Fisher1Text_Snarfle:
-	text "…Snarfle, chew…"
+	text "…Schlürf,"
+	line "schlabber…"
 	done
 
 Fisher1Text_Concentration:
-	text "Don't talk to me!"
+	text "Sprich mich"
+	line "nicht an!"
 
-	para "You'll break my"
-	line "concentration!"
+	para "Du störst meine"
+	line "Konzentration!"
 	done
 
 Fisher2Text_GulpChew:
-	text "…Gulp… Chew…"
+	text "…Schluck…"
+	line "Schling…"
 	done
 
 Fisher2Text_Quantity:
-	text "I take quantity"
-	line "over quality!"
+	text "Quantität ist mir"
+	line "wichtiger als"
+	cont "Qualität!"
 
-	para "I'm happy when I'm"
-	line "full!"
+	para "Ich bin erst"
+	line "glücklich, wenn"
+	cont "ich platze!"
 	done
 
 Fisher3Text_MunchMunch:
-	text "Munch, munch…"
+	text "Mampf, mampf…"
 	done
 
 Fisher3Text_WestportIsBest:
-	text "The food is good"
-	line "here, but ALLOY"
-	para "CAFE has the best"
-	line "food anywhere."
+	text "Das Essen hier ist"
+	line "gut, aber in"
+	cont "GENEOS CITY gibt"
+	cont "es die besten"
+	cont "Speisen der Welt."
 	done
 
 TeacherText_CrunchCrunch:
-	text "Crunch… Crunch…"
+	text "Krümel… Mampf…"
 	done
 
 TeacherText_NoCoinCase:
-	text "Nobody here will"
-	line "give you a COIN"
+	text "Hier wird dir"
+	line "niemand einen"
 
-	para "CASE. You should"
-	line "look elsewhere."
+	para "MÜNZKORB geben."
+	line "Den bekommst du"
+	cont "in JOHTO."
 	done
 
 TeacherText_KeepEating:
-	text "Crunch… Crunch…"
+	text "Krümel… Kau…"
 
-	para "I can keep eating!"
+	para "Ich esse immer"
+	line "weiter!"
 	done
 
 TeacherText_MoreChef:
-	text "More, CHEF!"
+	text "Nachschub,"
+	line "CHEFKOCH!"
 	done
 
 EatathonContestPosterText:
-	text "Eatathon Contest!"
-	line "No time limit!"
+	text "Wettessen! Essen"
+	line "bis zum Umfallen!"
 
-	para "A battle without"
-	line "end! The biggest"
+	para "Kein Zeitlimit!"
+	line "Der größte"
 
-	para "muncher gets it"
-	line "all for free!"
+	para "Vielfraß bekommt"
+	line "alles umsonst!"
 	done
 
 FoundLeftoversText2:
-	text "<PLAYER> found"
+	text "<PLAYER> hat"
 	line "@"
 	text_ram wStringBuffer3
-	text "!"
+	text_start
+	cont "gefunden."
 	done
 
 NoRoomForLeftoversText2:
-	text "But <PLAYER> can't"
-	line "hold another item…"
+	text "Aber <PLAYER> kann"
+	line "kein weiteres Item"
+	cont "aufnehmen…"
 	done
 
 KantoRestaurant_MapEvents:
