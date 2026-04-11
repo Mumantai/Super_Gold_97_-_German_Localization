@@ -205,7 +205,7 @@ GameCornerN64RockerDownMovement:
 
 SendN64RockerOffText:
     text "Ich mag Spiele,"
-    line "aber Glücksspiele""
+    line "aber Glücksspiele"
     cont "langweilen mich."
 
     para "Ich würde gerne"
