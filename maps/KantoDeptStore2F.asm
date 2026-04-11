@@ -38,7 +38,7 @@ KantoDeptStore2FElevatorButton:
 KantoDeptStore2FPokefanMText:
 	text "Ich bin erst vor"
 	line "kurzem Trainer"
-	cont "geworden.
+	cont "geworden."
 
 	para "Dieses riesige"
 	line "Angebot an nütz-"
