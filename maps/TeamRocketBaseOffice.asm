@@ -160,7 +160,7 @@ RocketBossRoomGrunt3Text:
 	done
 	
 RocketBossRoomGrunt4Text:
-    text "Die Welt wird
+    text "Die Welt wird"
     line "nicht wissen, was"
     para "sie erwartet, wenn"
     line "unsere Maschine"

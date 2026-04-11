@@ -87,7 +87,7 @@ jobs:
           PY
 
       - name: Dateien hochladen
-        if: always()
+        if: success()
         uses: actions/upload-artifact@v4
         with:
           name: pokemon_sg97
@@ -98,7 +98,7 @@ jobs:
             free_space.txt
 
       - name: Summary schreiben
-        if: always()
+        if: success()
         run: |
           {
             echo "## ROM Bank and Section Report"
