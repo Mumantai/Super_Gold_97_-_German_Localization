@@ -418,8 +418,8 @@ TeamRocketBaseB1FComputerConsolePowerMenu:
 .MenuDataPowerConsole:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "ENERGIE ERHÖHEN@"
-	db "ENERGIE VERRINGERN@"
+	db "ZUFUHR ERHÖHEN@"
+	db "ZUFUHR VERRINGERN@"
 	db "HERUNTERFAHREN@"
 	db "VORH. MENÜ@"
 	
@@ -942,8 +942,9 @@ GruntM8SeenText:
     text "Du gehörst hier"
     line "nicht hin!"
 
-    para "Nur für TEAM"
-    line "ROCKET Mitglieder!"
+    para "Nur TEAM ROCKET"
+    line "Mitglieder sind"
+    cont "hier erlaubt!"
 	done
 	
 GruntM8BeatenText:

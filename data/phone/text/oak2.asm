@@ -30,6 +30,7 @@ Oak2PhonePokemonStolenText:
 
 Oak2PhoneCheckingTheEggText:
 	text "Hallo, <PLAYER>?"
+	text "Hallo, <PLAYER>?"
 
 	para "Wir überprüfen das"
 	line "EI. Es scheint"
@@ -246,9 +247,9 @@ Oak2PhoneRadioTowerRocketTakeoverText:
 
 	para "Du könntest den"
 	line "RADIOTURM in PORT"
-	line "ABANISHI besuchen"
-	para "und diesen selt-"
-	line "samen Radiosen-"
+	para "ABANISHI besuchen"
+	line "und diesen selt-"
+	cont "samen Radiosen-"
 	cont "dungen nachgehen."
 
 	para "Halt mich auf dem"

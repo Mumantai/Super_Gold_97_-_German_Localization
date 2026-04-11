@@ -161,13 +161,15 @@ RocketBossRoomGrunt3Text:
 	
 RocketBossRoomGrunt4Text:
     text "Die Welt wird"
-    line "nicht wissen, was"
-    para "sie erwartet, wenn"
-    line "unsere Maschine"
-    para "bei voller Kapa-"
-    line "zität ist und wir"
-    para "alle ihre #MON"
-    line "für uns arbeiten!"
+    line "nicht wissen, wie"
+    para "ihr geschieht,"
+    line "wenn die Maschine"
+    para "auf Hochtouren"
+    line "läuft und wir"
+    para "all ihre #MON"
+    line "für unsere Zwecke"
+    cont "einsetzen!"
+
 	done
 	
 RocketBossRoomGrunt5Text:
@@ -236,7 +238,7 @@ ExecutiveLossText:
 	
 TheExecutiveGreeting:
     text "Ist dir eigentlich"
-    line "klar, woraus du"
+    line "klar, worauf du"
     para "dich hier einge-"
     line "lassen hast?"
 
@@ -255,7 +257,7 @@ TheExecutiveGreeting:
     para "Doch vor allem bin"
     line "ich der leitende"
     para "VORSTAND von TEAM"
-    cont "ROCKET."
+    line "ROCKET."
 
     para "Nur GIOVANNI,"
     line "unser Anführer,"
@@ -268,7 +270,7 @@ TheExecutiveGreeting:
     cont "wir hier vorhaben?"
 
     para "Alle Ressourcen,"
-    line "die wie gesammelt"
+    line "die wir gesammelt"
     para "haben, wurden in"
     line "dieses eine Ziel"
     cont "investiert!"
