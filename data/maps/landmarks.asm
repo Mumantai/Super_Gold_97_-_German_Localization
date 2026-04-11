@@ -134,7 +134,7 @@ KumeCityName:       db "KUME CITY@"         ;
 NagoVillageName:    db "NAGO VILLAGE@"      ;
 LavenderTownName:   db "LAVANDIA@"
 AmamiTownName:      db "AMAMIA@"            ; NICHT FINAL Amami - Ort in Ryukyu
-KantoRegionName:    db "KANTO REGION@"      ; alt. Kanto
+KantoRegionName:    db "KANTO-REGION@"      ; alt. Kanto
 RyukyuCityName:     db "RYUKYU CITY@"       ; Ryukyu-Inseln
 StandCityName:      db "SENDESTIA CITY@"    ; Sendai + Podest
 FrostpointTownName: db "SPIZARDIA@"         ; Spitze + Blizzard     NICHT FINAL
