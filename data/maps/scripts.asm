@@ -29,8 +29,7 @@ SECTION "Map Scripts 2", ROMX
 
 INCLUDE "maps/KikaiHouse2.asm"
 INCLUDE "maps/FiveFloorTower4F.asm"
-INCLUDE "maps/NationalPark.asm"
-INCLUDE "maps/NationalParkBugContest.asm"
+
 INCLUDE "maps/RadioTower1F.asm"
 INCLUDE "maps/RadioTower2F.asm"
 INCLUDE "maps/RadioTower3F.asm"
@@ -63,6 +62,8 @@ INCLUDE "maps/TeknosAquarium1F.asm"
 INCLUDE "maps/TeknosAquarium2F.asm"
 INCLUDE "maps/EndonCave2F.asm"
 INCLUDE "maps/EndonCaveRuinsConnection.asm"
+INCLUDE "maps/NationalPark.asm"
+INCLUDE "maps/NationalParkBugContest.asm"
 
 
 SECTION "Map Scripts 4", ROMX

@@ -217,7 +217,7 @@ UnknownText_0x5c4f3:
 
 	para "Zum Beispiel…"
 
-	para "Es gibt 50"
+	para "Es gibt {d:NUM_TMS}"
 	line "verschiedene TMs."
 
 	para "Getauschte #MON"
