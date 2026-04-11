@@ -32,10 +32,13 @@ MainMenu:
 	call MainMenu_PrintCurrentTimeAndDay
 	ld hl, .MenuHeader
 	call LoadMenuHeader
-	hlcoord 1, 11
+	hlcoord 1, 9
 	ld de, MainMenu_PrintCurrentTimeAndDay.VersionNumberPrint;new
 	ld de, MainMenu_PrintCurrentTimeAndDay.VersionSpacePrint;new
 	call PlaceString;new
+	hlcoord 1, 10
+	ld de, MainMenu_PrintCurrentTimeAndDay.LocVersionPrint
+	call PlaceString
 	call MainMenuJoypadLoop
 	call CloseWindow
 	jr c, .quit
@@ -225,6 +228,9 @@ MainMenu_PrintCurrentTimeAndDay:
 
 .VersionNumberPrint:
 	db "v7.42@"
+
+.LocVersionPrint:
+    db "DE 0.1@"
 
 PrintDayOfWeek:
 	push de

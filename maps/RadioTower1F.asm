@@ -212,10 +212,6 @@ GruntM12SeenText:
 	done
 	
 GruntM12BeatenText:
-	text "Losing a battle"
-	line "isn't what I was"
-	cont "talking about…"
-
 	text "Einen Kampf zu"
 	line "verlieren hab' ich"
 	cont "damit eigentlich"
