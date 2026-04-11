@@ -110,170 +110,182 @@ NationalParkHiddenFullHeal:
 	hiddenitem FULL_HEAL, EVENT_NATIONAL_PARK_HIDDEN_FULL_HEAL
 
 NationalParkLassText:
-	text "How many #MON"
-	line "are there?"
-	para "There has to be"
-	line "at least 200."
+    text "Wieviele #MON"
+    line "gibt es so?"
+
+    para "Es müssen bestimmt"
+    line "über 200 sein."
 	done
 
 NationalParkPokefanFText:
-	text "My daughter calls"
-	line "me from her #-"
-	cont "GEAR."
-	para "It cheers me up."
+    text "Meine Tochter ruft"
+    line "mich von ihrem"
+    cont "#COM aus an."
+
+    para "Das macht mich"
+    line "glücklich."
 	done
 
 NationalParkTeacher1Text:
-	text "Pay attention,"
-	line "please!"
+	text "Pass bitte auf!"
 
-	para "…Oops, I have to"
-	line "quit thinking like"
+	para "…Ohh, ich muss"
+	line "aufhören, immer"
 
-	para "a teacher all the"
-	line "time."
+	para "wie ein Lehrer zu"
+	line "denken."
 
-	para "You must be a"
-	line "#MON trainer."
+	para "Du musst ein"
+	line "#MON-Trainer"
+	cont "sein."
 
-	para "Since you're work-"
-	line "ing so hard, I"
+	para "Da du so hart"
+	line "arbeitest, möchte"
 
-	para "want you to have"
-	line "this."
+	para "ich dir dies"
+	line "überreichen."
 	done
 
 NationalParkTeacher1Text_GotQuickClaw:
-	text "Let a #MON hold"
-	line "that QUICK CLAW."
+	text "Gib die FLINKKLAUE"
+	line "einem #MON."
 
-	para "Sometimes it will"
-	line "strike first"
-	cont "during battle."
+	para "Manchmal erhält es"
+	line "durch sie die"
+	cont "Initiative."
 	done
 
 NationalParkYoungster1Text:
-	text "I'm playing with"
-	line "stickers of my"
-	cont "#MON!"
+	text "Ich spiele mit"
+	line "Stickern, die ich"
+	cont "aus meinem #DEX"
+	cont "gedruckt habe."
 	done
 
 NationalParkYoungster2Text:
-	text "I get the other"
-	line "guy's GRENMAR"
-	cont "sticker if I win."
+	text "Falls ich gewinne,"
+	line "erhalte ich den"
+	cont "ROBBOMB-Sticker"
+	cont "meines Gegners."
 	done
 
 NationalParkTeacher2Text:
-	text "I take walks in"
-	line "the PARK, but I"
+	text "Ich gehe oft"
+	line "im PARK spazieren,"
 
-	para "never go into the"
-	line "grass."
+	para "aber ich meide"
+	line "das hohe Gras."
 
-	para "Trainers always"
-	line "want to battle…"
+	para "Trainer möchten"
+	line "immer kämpfen…"
 	done
 
 NationalParkPersianText:
-	text "PERSIAN: Fufushaa!"
+	text "SNOBILIKAT: Fauch!"
 	done
 
 NationalParkGameboyKidText:
-	text "I'm playing #MON"
-	line "RED!"
-	para "Did you know that"
-	line "you can connect"
-	para "to previous games"
-	line "to trade?"
+    text "Ich spiele #MON"
+    line "ROTE EDITION!"
+
+    para "Wusstest du, dass"
+    line "du dich zu vorigen"
+    para "Spielen verbinden"
+    line "kannst, um mit"
+    cont "ihnen zu tauschen?"
 	done
 
 SchoolboyJack1SeenText:
-	text "The world of"
-	line "#MON is deep."
+	text "Die #MON-Welt"
+	line "bietet dir viel."
 
-	para "There are still"
-	line "lots of things we"
-	cont "don't know."
+	para "Es gibt noch viele"
+	line "Dinge, über die"
+	cont "wir nichts wissen."
 
-	para "But I know more"
-	line "than you do!"
+	para "Aber ich weiß"
+	line "mehr als du!"
 	done
 
 SchoolboyJack1BeatenText:
-	text "Wha-wha-what?"
+	text "Wa-Wa-Was?"
 	done
 
 UnknownText_0x5c4f3:
-	text "There is a lot"
-	line "to learn."
+	text "Man kann noch"
+	line "viel lernen."
 
-	para "For example…"
+	para "Zum Beispiel…"
 
-	para "There are 50 kinds"
-	line "of TMs."
+	para "Es gibt {d:NUM_TMS}"
+	line "verschiedene TMs."
 
-	para "Traded #MON"
-	line "level up faster."
+	para "Getauschte #MON"
+	line "erhalten mehr"
+	cont "Erfahrungspunkte."
 	done
 
 PokefanfBeverly1SeenText:
-	text "My #MON are"
-	line "simply darling."
+	text "Meine #MON sind"
+	line "entzückend."
 
-	para "Let me tell you"
-	line "how proud my"
-	cont "darlings make me."
+	para "Ich will dir"
+	line "sagen, wie stolz"
+	cont "sie mich machen."
 	done
 
 PokefanfBeverly1BeatenText:
-	text "I can beat you in"
-	line "pride, but…"
+	text "Was Stolz angeht,"
+	line "kann ich dich"
+	cont "schlagen, aber…"
 	done
 
 UnknownText_0x5c5bd:
-	text "I must say, your"
-	line "#MON are quite"
-	cont "cute, too."
+	text "Ich muss zugeben,"
+	line "dass deine #MON"
+	cont "auch süß sind."
 	done
 
 PokefanmWilliamSeenText:
-	text "We adore our #-"
-	line "MON, even if they"
-	cont "dislike us."
+	text "Wir bewundern"
+	line "unsere #MON,"
+	cont "auch wenn sie uns"
+	cont "nicht mögen."
 
-	para "That's what being"
-	line "a FAN is about."
+	para "Das macht eben den"
+	line "wahren FAN aus."
 	done
 
 PokefanmWilliamBeatenText:
-	text "M-my #MON!"
+	text "Mei-Mein #MON!"
 	done
 
 PokefanmWilliamAfterBattleText:
-	text "I lost the battle,"
-	line "but my #MON win"
+	text "Ich habe zwar den"
+	line "Kampf verloren,"
 
-	para "the prize for"
-	line "being most lovely."
+	para "aber meine #MON"
+	line "gewinnen den"
+	cont "Schönheitspreis."
 	done
 
 UnknownText_0x5c68a:
-	text "My friend keeps a"
-	line "MARILL!"
+	text "Mein Freund hat"
+	line "ein MARILL!"
 
-	para "I find them very"
-	line "endearing."
+	para "Ich finde es"
+	line "liebenswert."
 
-	para "Oh, I wish for a"
-	line "MARILL of my own…"
+	para "Ich hätte gerne"
+	line "selbst ein MARILL…"
 	done
 
 LassKriseSeenText:
-	text "Hello? Why are you"
-	line "staring at me?"
+	text "Was ist? Warum"
+	line "starrst du mich"
+	cont "so an?"
 
-	para "Oh, a battle?"
+	para "Oh, ein Kampf?"
 	done
 
 LassKriseBeatenText:
@@ -281,34 +293,34 @@ LassKriseBeatenText:
 	done
 
 LassKriseAfterBattleText:
-	text "I thought you were"
-	line "staring at me"
-	cont "because I'm cute!"
+	text "Ich dachte, du"
+	line "starrst mich an,"
+	cont "weil ich süß bin!"
 	done
 
 NationalParkRelaxationSquareText:
-	text "RELAXATION SQUARE"
-	line "NATIONAL PARK"
+	text "ERHOLUNGSORT"
+	line "NATIONALPARK"
 	done
 
 NationalParkBattleNoticeText:
-	text "What is this"
-	line "notice?"
+	text "Was steht denn"
+	line "hier?"
 
-	para "Please battle only"
-	line "in the grass."
+	para "Kämpfe sind nur"
+	line "im Gras gestattet."
 
-	para "NATIONAL PARK"
-	line "WARDEN'S OFFICE"
+	para "NATIONALPARK"
+	line "BÜRO DES WÄCHTERs"
 	done
 
 NationalParkTrainerTipsText:
-	text "TRAINER TIPS"
+	text "TIPPS für TRAINER"
 
-	para "Different #MON"
-	line "appear during"
-	para "different times of"
-	line "the day."
+    para "Verschiedene #-"
+    line "MON erscheinen zu"
+    para "unterschiedlichen"
+    line "Tageszeiten."
 	done
 
 NationalPark_MapEvents:
