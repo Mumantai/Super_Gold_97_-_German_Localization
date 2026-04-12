@@ -1169,7 +1169,7 @@ FridayWinText:
 	
 FridayLossText:
 	text "Das habe ich super"
-	lin "gemacht!"
+	line "gemacht!"
 	done
 
 	
