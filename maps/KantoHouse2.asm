@@ -68,85 +68,102 @@ KantoHouse2PokefanMScript:
 	jumptextfaceplayer KantoHouse2PokefanMText
 
 KantoHouse2PokefanMText:
-	text "Well, hi there!"
-	para "We just love"
-	line "having visitors."
-	para "My wife can talk"
-	line "anyone's ear off"
-	cont "over some tea."
+    text "Oh, hallo!"
+
+    para "Wir lieben es,"
+    line "Besucher zu haben."
+
+    para "Meine Frau kann"
+    line "einem, bei einer"
+    para "Tasse Tee, echt"
+    line "ein Ohr abkauen.
 	done
 
 DaisyHelloText:
-	text "Oh, hello, dearie."
-	para "I love meeting new"
-	line "people."
-	para "Maybe stop by one"
-	line "afternoon and we"
-	cont "can have some tea."
+    text "Oh, hallo."
+
+    para "Ich liebe es, neue"
+    line "Leute zu treffen."
+
+    para "Vielleicht kommst"
+    line "du mal zu einer"
+    para "Tasse Tee am"
+    line "Nachmittag vorbei."
 	done
 
 DaisyOfferGroomingText:
-	text "Hello! Oh, good"
-	line "timing. I'm about"
-	cont "to have some tea."
+	text "Hi! Gutes Timing."
 
-	para "Would you like to"
-	line "join me?"
+	para "Ich war gerade"
+	cont "dabei, Tee zu"
+	cont "machen."
 
-	para "Oh, your #MON"
-	line "are a bit dirty."
+	para "Hättest du auch"
+	line "gern eine"
+	cont "Tasse Tee?"
 
-	para "Would you like me"
-	line "to groom one?"
+	para "Oh, deine #MON"
+	line "sehen ein bisschen"
+	cont "mitgenommen aus."
+
+	para "Möchtest du, dass"
+	line "ich eines für dich"
+	cont "verschönere?"
 	done
 
 DaisyWhichMonText:
-	text "Which one should"
-	line "I groom?"
+	text "Welches soll ich"
+	line "verschönern?"
 	done
 
 DaisyAlrightText:
-	text "OK, I'll get it"
-	line "looking nice in no"
-	cont "time."
+	text "Gut. In kürzester"
+	line "Zeit wird es"
+	cont "hübsch und adrett"
+	cont "aussehen."
 	done
 
 GroomedMonLooksContentText:
 	text_ram wStringBuffer3
-	text " looks"
-	line "content."
+	text " sieht"
+	line "zufrieden aus."
 	done
 
 DaisyAllDoneText:
-	text "There you go!"
-	line "All done."
+	text "Hier bitte."
+	line "Schon fertig."
 
-	para "See? Doesn't it"
-	line "look nice?"
+	para "Siehst du? Ist es"
+	line "jetzt nicht"
+	cont "wunderschön?"
 
-	para "It's such a cute"
-	line "#MON."
+	para "Es ist so ein"
+	line "süßes #MON."
 	done
 
 DaisyAlreadyGroomedText:
-	text "I always have tea"
-	line "around this time."
-	para "Feel free to join"
-	line "me."
+	text "Um diese Zeit"
+	line "trinke ich immer"
+	cont "meinen Tee."
+
+	para "Möchtest du auch"
+	line "eine Tasse Tee?"
 	done
 
 DaisyRefusedText:
-	text "You don't want to"
-	line "have one groomed?"
-
-	para "OK, we'll just"
-	line "have tea."
+	text "Möchtest du keines"
+	line "deiner #MON"
+	para "verschönern"
+	line "lassen? Gut, dann"
+	cont "trinken wir eben"
+	cont "nur Tee."
 	done
 
 DaisyCantGroomEggText:
-	text "Oh, sorry."
-	para "I honestly can't"
-	line "groom an EGG."
+	text "Es tut mir Leid,"
+	line "aber ich kann"
+	cont "wirklich kein EI"
+	cont "verschönern."
 	done
 
 KantoHouse2_MapEvents:

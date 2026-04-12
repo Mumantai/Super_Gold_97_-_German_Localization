@@ -121,82 +121,86 @@ MagikarpLengthRaterText_KikaiVillageHistory:
 	done
 
 MagikarpLengthRaterText_MenInBlack:
-	text "Get out of here,"
-	line "kid."
+	text "Verschwinde,"
+	line "Kleiner."
 	done
 
 MagikarpLengthRaterText_WorldsLargestMagikarp:
-	text "Ever since I was a"
-	line "boy, I've loved"
-	cont "MAGIKARP."
+	text "Seit ich ein Kind"
+	line "war, liebe ich"
+	cont "KARPADOR."
 
-	para "I may yet realize"
-	line "my dream of see-"
-	cont "ing the world's"
-	cont "largest MAGIKARP."
+	para "Vielleicht geht"
+	line "nun mein Traum in"
+	cont "Erfüllung, das"
+	cont "größte KARPADOR"
+	cont "der Welt zu sehen!"
 
-	para "Do you have a ROD?"
-	line "Please help me if"
-	cont "you do."
+	para "Hast du eine"
+	line "ANGEL? Wenn ja,"
+	cont "dann hilf mir"
+	cont "bitte!"
 	done
 
 MagikarpLengthRaterText_YouHaveAMagikarp:
-	text "Ah, you have a"
-	line "MAGIKARP! Let's"
+	text "Ah, du hast ein"
+	line "KARPADOR! Lass uns"
 
-	para "see how big that"
-	line "baby is."
+	para "sehen, wie groß"
+	line "das Kleine ist."
 	done
 
 MagikarpLengthRaterText_Memento:
-	text "Wow! This one is"
-	line "outstanding!"
+	text "Wow! Das ist ja"
+	line "riesig!"
 
-	para "I tip my hat to"
-	line "you!"
+	para "Ich ziehe meinen"
+	line "Hut vor dir!"
 
-	para "Take this as a"
-	line "memento!"
+	para "Nimm das als An-"
+	line "denken!"
 	done
 
 MagikarpLengthRaterText_Bonus:
-	text "The record is the"
-	line "important thing."
+	text "Wichtig ist nur"
+	line "die Erinnerung."
 
-	para "Think of that as"
-	line "a bonus!"
+	para "Sieh es als eine"
+	line "Art Bonus!"
 	done
 
 MagikarpLengthRaterText_TooShort:
-	text "Wow! This one is"
-	line "outstanding!"
+	text "Wow! Das ist ja"
+	line "riesig!"
 
-	para "…I wish I could"
-	line "say that, but I've"
+	para "…Zumindest würde"
+	line "ich das gerne sa-"
+	cont "gen, aber ich habe"
 
-	para "seen a bigger one"
-	line "before."
+	para "schon größere ge-"
+	line "sehen."
 	done
 
 MagikarpLengthRaterText_NotMagikarp:
-	text "What? That's not a"
-	line "MAGIKARP!"
+	text "Was? Das ist kein"
+	line "KARPADOR!"
 	done
 
 MagikarpLengthRaterText_Refused:
-	text "Oh… So you didn't"
-	line "get one good"
+	text "Oh… Du hast also"
+	line "keines, das es"
 
-	para "enough to show me?"
-	line "Maybe next time."
+	para "wert wäre, mir zu"
+	line "zeigen? Vielleicht"
+	cont "beim nächsten Mal."
 	done
 
 KikaiVillageMagikarpHouseUnusedRecordText:
-	text "CURRENT RECORD"
+	text "Aktueller Rekord"
 
 	para "@"
 	text_ram wStringBuffer3
-	text " caught by"
+	text " von"
 	line "@"
 	text_ram wStringBuffer4
 	text_end

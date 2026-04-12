@@ -22,29 +22,32 @@ KantoHotelClerk:
 	jumptextfaceplayer KantoHotelClerkText
 	
 KantoHotelClerkText:
-	text "I must apologize,"
-	line "but we are"
-	cont "booked full."
+    text "Tut mir Leid, aber"
+    line "wir sind komplett"
+    cont "ausgebucht."
 	done
 	
 KantoHotelJanineText:
-	text "Me and my boy-"
-	line "friend are on"
-	cont "vacation!"
+	text "Ich mache hier"
+	line "mit meinem Freund"
+	cont "Urlaub."
 	done
 	
 KantoHotelRockerText:
-	text "I've never been to"
-	line "KANTO before."
-	para "There's a lot to"
-	line "see here."
+    text "Ich war noch nie"
+    line "in KANTO."
+
+    para "Es gibt hier viel"
+    line "zu sehen."
 	done
 
 KantoHotelNurseText:
-	text "#MON? No, this"
-	line "is a hotel for"
-	cont "people."
-	para "We're full up."
+    text "#MON? Nein, das"
+    line "ist ein Hotel für"
+    cont "Menschen."
+
+    para "Wir sind voll"
+    line "ausgebucht."
 	done
 
 KantoHotel_MapEvents:
