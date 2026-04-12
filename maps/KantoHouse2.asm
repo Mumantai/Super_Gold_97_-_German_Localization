@@ -76,7 +76,7 @@ KantoHouse2PokefanMText:
     para "Meine Frau kann"
     line "einem, bei einer"
     para "Tasse Tee, echt"
-    line "ein Ohr abkauen.
+    line "ein Ohr abkauen."
 	done
 
 DaisyHelloText:
