@@ -1,10 +1,19 @@
-	db "PROWLER@" ; species name
-	dw 501, 1520 ; height, weight
+	db "PIRSCHER@" ; species name
+	db 15
+	dw 689 ; height, weight
 
-	db   "This #MON's skin"
-	next "seems to give off"
-	next "a glow, even in"
+	db   "Die Haut dieses"
+	next "#MON scheint zu"
+	next "leuchten, selbst"
 
-	page "darker areas."
-	next "Its cheeks glow"
-	next "brightest.@"
+	page "im Dunkeln. Seine"
+	next "Wangen leuchten"
+	next "am hellsten.@"
+
+;	db   "This #MON's skin"
+;	next "seems to give off"
+;	next "a glow, even in"
+
+;	page "darker areas."
+;	next "Its cheeks glow"
+;	next "brightest.@"

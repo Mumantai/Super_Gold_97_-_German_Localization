@@ -1,10 +1,19 @@
-	db "STAGBEETLE@" ; species name
-	dw 503, 1540 ; height, weight
+	db "KNEIFKÄFER@" ; species name
+	db 16
+	dw 699 ; height, weight
 
-	db   "The pincers on its"
-	next "head allow it a"
-	next "firm grip to be"
+	db   "Die Zangen am Kopf"
+	next "geben ihm einen"
+	next "festen Halt, mit"
 
-	page "able to inflict"
-	next "damage with the"
-	next "horn in between.@"
+	page "den es nutzt, um"
+	next "mit seinem Horn"
+	next "hart zuzstoßen.@"
+
+;	db   "The pincers on its"
+;	next "head allow it a"
+;	next "firm grip to be"
+
+;	page "able to inflict"
+;	next "damage with the"
+;	next "horn in between.@"

@@ -1,10 +1,19 @@
-	db "ROTUND@" ; species name
-	dw 203, 470 ; height, weight
+	db "RUNDKATZE@" ; species name
+	db 7
+	dw 213 ; height, weight
 
-	db   "Its whiskers have"
-	next "been used to pass"
-	next "electricity into"
+	db   "Seine Schnurrhaare"
+	next "wurden genutzt, um"
+	next "Strom in Geräte zu"
 
-	page "circuits to"
-	next "generate power"
-	next "in emergencies.@"
+	page "zu leiten, um in"
+	next "Krisenfällen Strom"
+	next "zu erzeugen.@"
+
+;	db   "Its whiskers have"
+;	next "been used to pass"
+;	next "electricity into"
+
+;	page "circuits to"
+;	next "generate power"
+;	next "in emergencies.@"

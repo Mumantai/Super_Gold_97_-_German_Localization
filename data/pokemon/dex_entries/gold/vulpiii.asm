@@ -1,10 +1,19 @@
-	db "FOX@" ; species name
-	dw 170, 170 ; height, weight
+	db "FUCHS@" ; species name
+	db 21
+	dw 77 ; height, weight
 
-	db   "Its three tails"
-	next "are its primary"
-	next "source of warmth."
+	db   "Die drei Schweife"
+	next "sind seine Haupt-"
+	next "wärmequelle."
 
-	page "Most of its body"
-	next "heat is stored"
-	next "in its tails.@"
+	page "Fast seine gesamte"
+	next "Körperwärme steckt"
+	next "in den Schweifen.@"
+
+;	db   "Its three tails"
+;	next "are its primary"
+;	next "source of warmth."
+
+;	page "Most of its body"
+;	next "heat is stored"
+;	next "in its tails.@"

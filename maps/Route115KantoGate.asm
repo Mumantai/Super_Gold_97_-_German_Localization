@@ -10,12 +10,14 @@ Route115KantoGateOfficerScript:
 	jumptextfaceplayer Route115KantoGateOfficerText
 
 Route115KantoGateOfficerText:
-	text "ROUTE 115 is a hot"
-	line "spot for really"
-	cont "tough trainers."
-	para "But I'm sure you'd"
-	line "be able to take"
-	cont "them!"
+    text "ROUTE 115 ist ein"
+    line "Hotspot für echt"
+    cont "starke Trainer."
+
+    para "Aber ich bin mir"
+    line "sicher, dass du es"
+    para "mit ihnen auf-"
+    line "nehmen kannst!"
 	done
 
 
