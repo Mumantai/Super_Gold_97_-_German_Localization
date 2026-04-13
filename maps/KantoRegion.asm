@@ -131,183 +131,204 @@ KantoLass2Script:
 	jumptextfaceplayer KantoLass2Text
 	
 Text_Reds_Door_Locked:
-	text "The door is"
-	line "locked…"
+	text "Die Tür ist"
+	line "verschlossen…"
 	done
 	
 Text_Reds_Door_Unocked:
-	text "The door is"
-	line "unlocked."
+	text "Die Tür ist"
+	line "offen."
 	done
 	
 KantoFisher3Text:
-	text "Doesn't returning"
-	line "to a familiar"
-	para "place give you a"
-	line "warm, fuzzy"
-	cont "feeling?"
+    text "An bekannte Orte"
+    line "zurückzukehren,"
+    para "gibt einem doch"
+    line "ein mollig warmes"
+    cont "Gefühl, oder?"
 	done
 	
 KantoLass2Text:
-	text "The SCIENTISTS in"
-	line "this lab are"
-	cont "amazing!"
-	para "They were able to"
-	line "turn my fossil"
-	para "into a living"
+	text "Die FORSCHER in"
+	line "diesem Labor sind"
+	cont "unglaublich!"
+
+	para "Sie machten aus"
+	line "meinem Fossil"
+	para "ein lebendes"
 	line "#MON!"
 	done
 	
 KantoFisher2Text:
-	text "Boy, I sure do"
-	line "love fishing!"
-	para "And this is such"
-	line "a peaceful spot"
-	cont "to do it!"
+    text "Oh Junge, ich"
+    line "angle wirklich"
+    cont "gerne!"
+
+    para "Und das ist auch"
+    line "so ein ruhiger Ort"
+    cont "um das zu tun!"
 	done
 	
 KantoYoungsterText:
-	text "One day, I want"
-	line "to be able to"
-	cont "win at this GYM."
-	para "I'm not sure that"
-	line "will happen,"
-	cont "though."
-	para "Very few people"
-	line "are as good as"
-	cont "the GYM LEADER."
+	text "Eines Tages will"
+	line "ich in dieser"
+	cont "ARENA gewinnen."
+
+	para "Ich weiß nur"
+	line "nicht, ob das"
+	cont "klappt."
+
+	para "Nur wenige sind"
+	line "so gut wie der"
+	cont "ARENALEITER."
 	done
 	
 KantoYoungsterTextAfter:
-	text "You beat RED?"
-	para "Wow! That's"
-	line "amazing!"
-	para "You must be really"
-	line "strong!"
+	text "Du hast ROT"
+	line "besiegt?"
+
+	para "Wow! Das ist"
+	line "unglaublich!"
+
+	para "Du musst echt"
+	line "stark sein!"
 	done
 	
 KantoSuperNerdText:
-	text "The owner of this"
-	line "GAME CORNER"
-	para "recently bought"
-	line "ownership of the"
-	para "newer one over on"
-	line "BOARDWALK."
+	text "Der Besitzer der"
+	line "SPIELHALLE hat vor"
+	para "kurzem auch die"
+	line "neue an NIHONs"
+	cont "PROMENADE gekauft."
 	done
 	
 KantoLassText:
-	text "Do you know about"
-	line "SILPH CO.?"
-	para "If not, you"
-	line "probably should."
-	para "There's a good"
-	line "chance they made"
-	para "the #BALLS your"
-	line "#MON are in!"
+    text "Kennst du die"
+    line "SILPH CO.?"
+
+    para "Das solltest du."
+
+    para "Die Chancen sind"
+    line "groß, dass sie die"
+    para "#BÄLLE gemacht"
+    line "haben, in denen"
+    para "deine #MON"
+    line "sind!"
 	done
 	
 KantoPokefanMText:
-	text "I've never been a"
-	line "serious trainer."
-	para "I mean, I train"
-	line "#MON, and I"
-	cont "battle."
-	para "But it's been more"
-	line "of a hobby."
-	para "The guy inside of"
-	line "the KANTO BATTLE"
-	para "CLUB wouldn't let"
-	line "me inside…"
+    text "Ich war nie ein"
+    line "ernsthafter Trainer."
+
+    para "Ich meine, ich"
+    line "trainiere #MON"
+    cont "und kämpfe auch."
+
+    para "Aber es war immer"
+    line "eher ein Hobby."
+
+    para "Der Typ im KANTO"
+    line "KAMPFCLUB wollte"
+    para "mich nicht herein-"
+    line "lassen…"
 	done
 	
 KantoFisherText:
-	text "Technology is"
-	line "incredible!"
-	para "You can now trade"
-	line "#MON across"
-	cont "time!"
+	text "Die Technik ist"
+	line "unglaublich!"
+
+	para "Du kannst jetzt"
+	line "#MON durch die"
+	cont "Zeit senden!
 	done
 	
 KantoSignText:
-	text "KANTO REGION"
-	para "NIHON's Southern"
-	line "Crown Jewel"
+	text "KANTO-REGION"
+
+	para "NIHONs südliches"
+	line "Kronjuwel"
 	done
 	
 KantoGymSignText:
-	text "KANTO REGION"
-	line "#MON GYM"
+	text "KANTO-REGION"
+	line "PKMN-ARENA"
 	done
 	
 KobanIslandSignText2:
-	text "PALLET TOWN"
+	text "ALABASTIA"
 
-	para "A Tranquil Setting"
-	line "of Peace and"
-	cont "Purity"
+	para "Eine Stätte des"
+	line "Friedens und der"
+	cont "Reinheit"
 	done
 	
 RedsHouseSignText2:
-	text "RED's house"
+	text "HAUS von ROT"
 	done
 	
 BluesHouseSignText2:
-	text "BLUE's house"
+	text "HAUS von BLAU"
 	done
 
 OaksLabSign2Text:
-	text "OAK #MON LAB"
-	para "NOTICE: PROF.OAK"
-	line "is currently"
-	para "researching in"
-	line "SILENT TOWN."
+	text "PROF. EICH"
+	line "#MON LABOR"
+
+	para "HINWEIS:"
+	line "PROF. EICH ist"
+	para "zur Forschung in"
+	line "SILENITIA."
 	done
 	
 KantoDeptSignText:
-	text "Full Selection of"
-	line "#MON Goods!"
+	text "Riesige Auswahl"
+	line "an #MON-Waren!"
 
-	para "KANTO DEPT.STORE"
+	para "KANTO-KAUFHAUS"
 	done
 	
 KantoMansionSignText:
-	text "KANTO MANSION"
+	text "KANTO-VILLA"
 	done
 	
 KantoBattleClubSignText:
-	text "KANTO BATTLE CLUB"
-	para "A members-only"
-	line "club for serious"
-	cont "trainers."
+	text "KANTO KAMPFCLUB"
+
+	para "Ein Club für"
+	line "ernsthafte Trainer"
+
+	para "Nur für Mitglieder"
 	done
 	
 PokemonTowerSignText:
-	text "#MON TOWER"
-	para "A monument to"
-	line "#MON who have"
-	cont "passed."
+	text "Mögen die Seelen"
+	line "der #MON im"
+	cont "#MON-TURM"
+	cont "in Frieden ruhen!"
 	done
 
 KantoCooltrainerMText:
-	text "They're holding an"
-	line "eating contest in"
-	cont "the restaurant."
-	para "Just watching them"
-	line "go at it makes me"
-	cont "feel bloated…"
+	text "Im Restaurant"
+	line "läuft gerade ein"
+	cont "Wettessen."
+
+	para "Schon vom Zusehen"
+	line "wird mir übel…"
 	done
 	
 KantoTeacherText:
-	text "The KANTO DEPT."
-	line "STORE has the best"
-	cont "selection."
-	para "If you can't get"
-	line "it there, you"
-	para "can't get it any-"
-	line "where!"
-	para "…Gee, I sound"
-	line "like a sales"
-	cont "clerk."
+	text "Das KANTO KAUFHAUS"
+	line "hat die beste"
+	cont "Auswahl."
+
+	para "Wenn es etwas dort"
+	line "nicht gibt, dann"
+	para "gibt es das"
+	line "nirgendwo!"
+
+	para "…Mensch, ich"
+	line "klinge ja wie"
+	cont "eine Verkäuferin."
 	done
 
 KantoRegion_MapEvents:

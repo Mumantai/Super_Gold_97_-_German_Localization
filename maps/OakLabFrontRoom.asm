@@ -311,7 +311,7 @@ DaisyStopsScript1:
 	end
 
 .mapcardname
-	db "MAP CARD@"
+	db "KARTEN-MODUL@"
 	
 
 DaisyStopsScript2:

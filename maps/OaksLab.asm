@@ -22,30 +22,36 @@ OaksOldLabAideScript:
 	jumptextfaceplayer OaksOldLabAideText
 	
 OaksOldLabAideText:
-	text "Hi there!"
-	para "PROF.OAK is study-"
-	line "ing over in SILENT"
-	cont "TOWN!"
-	para "I'm here watching"
-	line "over his old LAB."
+    text "Oh, hallo!"
+
+    para "Prof. EICH ist in"
+    line "SILENITIA auf"
+    cont "Forschungsreise."
+
+    para "Ich passe hier nur"
+    line "auf sein altes"
+    cont "LABOR auf."
 	done
 
 OaksLabPoster1Text:
-	text "Press START to"
-	line "open the MENU."
+	text "Drücke START, um"
+	line "das MENÜ zu"
+	cont "öffnen."
 	done
 
 OaksLabPoster2Text:
-	text "The SAVE option is"
-	line "on the MENU."
+	text "Möchtest du deinen"
+	line "Spielstand von"
 
-	para "Use it in a timely"
-	line "manner."
+	para "Zeit zu Zeit"
+	line "speichern, dann"
+	cont "wähle im MENÜ die"
+	cont "Option SICHERN."
 	done
 
 OaksLabPCText:
-	text "It isn't turned"
-	line "on…"
+	text "Er ist nicht"
+	line "an…"
 	done
 
 OaksLab_MapEvents:
