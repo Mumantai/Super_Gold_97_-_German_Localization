@@ -239,7 +239,7 @@ KantoFisherText:
 
 	para "Du kannst jetzt"
 	line "#MON durch die"
-	cont "Zeit senden!
+	cont "Zeit senden!"
 	done
 	
 KantoSignText:
