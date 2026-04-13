@@ -625,7 +625,7 @@ CooltrainerfMeganAfterBattleText:
 	para "Aber entwickelte"
 	line "#MON lernen"
 	para "neue Attacken auch"
-	line "erst später.
+	line "erst später."
 	done
 
 PsychicGilbertSeenText:
