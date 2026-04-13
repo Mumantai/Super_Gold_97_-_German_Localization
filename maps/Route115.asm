@@ -467,195 +467,209 @@ LeaveMovement:
 	
 Route115FisherLoveThisJobText:
 	text "Wahaha!"
-	
-	para "I love this job!"
+
+	para "Ich liebe"
+	line "diesen Job!"
 	done
 	
 Route115LookieText:
-	text "Oh! Looky there!"
-	
-	para "Looks like some-"
-	line "thing was inside"
-	cont "that boulder."
+	text "Oh! Gucki mal da!"
 
-	para "Why don't you take"
-	line "take it?"
+	para "Sieht aus, als"
+	line "wäre da was in"
+	cont "dem Fels drin."
+
+	para "Warum nimmst du"
+	line "es nicht?"
 	done
 	
 Route115ThatWasGreatText:
-	text "That was great!"
-	
-	para "The path to"
-	line "SILENT TOWN is"
-	cont "finally clear."
+	text "Das war klasse!"
 
-	para "Well, take care,"
-	line "kid!"
+	para "Der Weg nach"
+	line "SILENITIA ist"
+	cont "endlich frei."
+
+	para "Mach's gut,"
+	line "Kleiner!"
 	done
 
 	
 Route115FisherSettingUpText:
-	text "These rocks have"
-	line "been blocking the"
-	cont "path to SILENT"
-	cont "TOWN for months!"
-	
-	para "But don't worry,"
-	line "I will blast em'"
-	cont "away soon!"
-	
-	para "I just need some"
-	line "time to set up"
-	cont "the explosives."
-	
-	para "Why don't you go"
-	line "challenge the GYM"
-	cont "in KANTO while"
-	cont "you wait?"
+	text "Diese Felsen"
+	line "blockieren seit"
+	para "Monaten den Weg"
+	line "nach SILENITIA!"
+
+	para "Aber keine Sorge,"
+	line "ich jage sie bald"
+	cont "in die Luft!"
+
+	para "Ich brauche nur"
+	line "etwas Zeit, um"
+	para "den Sprengstoff"
+	line "vorzubereiten."
+
+	para "Warum forderst du"
+	line "nicht in der"
+	para "Zwischenzeit die"
+	line "PKMN-ARENA in"
+	cont "KANTO heraus?"
 	done
 	
 Route115FisherReadyToBlowText:
-	text "Ah, just in time!"
-	
-	para "These rocks are"
-	line "ready to blow!"
-	
-	para "We need to get to"
-	line "a safe distance!"
+	text "Ah, du kommst"
+	line "genau rechtzeitig!"
+
+	para "Die Felsen sind"
+	line "bereit zum"
+	cont "Sprengen!"
+
+	para "Wir müssen auf"
+	line "Abstand gehen!"
 	done
 	
 Route115FisherRocksGoneText:
-	text "What a nice clear"
-	line "path this is!"
+	text "Was für ein"
+	line "schöner freier"
+	cont "Weg!"
 	done
 	
 IFoundThisInTheRubble2:
-	text "I'm so glad the"
-	line "path is clear."
-	para "Sometimes, if you"
-	line "want something"
-	para "done, you gotta"
-	line "do it yourself!"
+	text "Ich bin so froh,"
+	line "dass der Weg"
+	cont "endlich frei ist."
+
+	para "Manchmal muss man"
+	line "die Dinge einfach"
+	para "selbst in die Hand"
+	line "nehmen!"
 	done
 
 CooltrainermBlakeSeenText:
-	text "You look pretty"
-	line "strong."
-	cont "Let me battle you!"
+	text "Du siehst ziemlich"
+	line "stark aus."
+
+	para "Kämpf mit mir!"
 	done
 
 CooltrainermBlakeBeatenText:
-	text "Yow!"
+	text "Autsch!"
 	done
 
 CooltrainermBlakeAfterBattleText:
-	text "You making your"
-	line "way to MT.FUJI?"
+	text "Bist du auf dem"
+	line "Weg zum KOROKANIA-"
+	cont "BERG?"
 	done
 
 CooltrainermBrianSeenText:
-	text "Hm? You're good,"
-	line "aren't you?"
+	text "Hm? Du bist gut,"
+	line "oder?"
 	done
 
 CooltrainermBrianBeatenText:
-	text "Just as I thought!"
+	text "Wie ich es mir"
+	line "gedacht habe!"
 	done
 
 CooltrainermBrianAfterBattleText:
-	text "A good trainer can"
-	line "recognize other"
-	cont "good trainers."
+    text "Ein guter Trainer"
+    line "kann andere gute"
+    cont "Trainer erkennen."
 	done
 
 CooltrainerfReenaSeenText:
-	text "You shouldn't"
-	line "underestimate the"
-
-	para "wild #MON in"
-	line "these parts."
+    text "Du solltest die"
+    line "wilden #MON"
+    para "hier besser nicht"
+    line "unterschätzen."
 	done
 
 CooltrainerfReenaBeatenText:
-	text "Oh! You're much"
-	line "too strong!"
+	text "Oh! Du bist"
+	line "viel zu stark!"
 	done
 
 CooltrainerfReenaAfterBattleText:
-	text "You're just a kid,"
-	line "but you're not to"
-
-	para "be underestimated"
-	line "either."
+	text "Du bist noch ein"
+	line "Kind, aber dich"
+	para "sollte man besser"
+	line "auch nicht"
+	cont "unterschätzen."
 	done
 
 CooltrainerfMeganSeenText:
-	text "What brings you"
-	line "out here?"
-	para "Are you training"
-	line "on your own?"
+	text "Was machst du"
+	line "hier draußen?"
+
+	para "Trainierst du"
+	line "alleine?"
 	done
 
 CooltrainerfMeganBeatenText:
-	text "Oh! You're really"
-	line "strong!"
+	text "Oh! Du bist echt"
+	line "stark!"
 	done
 
 CooltrainerfMeganAfterBattleText:
-	text "I'm checking out"
-	line "pre- and post-"
-	cont "evolution #MON."
+	text "Ich untersuche die"
+	line "Vor- und Nach-"
+	cont "entwicklungen von"
+	cont "#MON."
 
-	para "Evolution really"
-	line "does make #MON"
-	cont "stronger."
+	para "Die Entwicklung"
+	line "macht #MON"
+	cont "deutlich stärker."
 
-	para "But evolved forms"
-	line "also learn moves"
-	cont "later on."
+	para "Aber entwickelte"
+	line "#MON lernen"
+	para "neue Attacken auch"
+	line "erst später.
 	done
 
 PsychicGilbertSeenText:
-	text "Don't say a thing!"
+	text "Sag kein Wort!"
 
-	para "Let me guess what"
-	line "you're thinking."
+	para "Lass mich erraten,"
+	line "was du denkst."
 
-	para "Mmmmmmm…"
+	para "Mmmmmm…"
 
-	para "I got it! You're"
-	line "on the #MON"
-	cont "LEAGUE challenge!"
+	para "Ich hab's!"
+
+	para "Du willst die"
+	line "#MON-LIGA"
+	cont "herausfordern!"
 	done
 
 PsychicGilbertBeatenText:
-	text "You're too much!"
+	text "Du bist zu heftig!"
 	done
 
 PsychicGilbertAfterBattleText:
-	text "With your skills,"
-	line "you'll do well at"
-	cont "the LEAGUE."
+	text "Mit deinem Können,"
+	line "wirst du in der"
+	cont "LIGA weit kommen."
 
-	para "That's what my"
-	line "premonition says."
+	para "Das sagt mir meine"
+	line "Vorahnung."
 	done
 
 BirdKeeperJose2SeenText:
-	text "Tweet! Tweet!"
-	line "Tetweet!"
+	text "Bile, bile, bile!"
 	done
 
 BirdKeeperJose2BeatenText:
-	text "Tweet!"
+	text "Bile, bile!"
 	done
 
 BirdKeeperJose2AfterBattleText:
-	text "BIRD KEEPERS like"
-	line "me mimic bird"
-
-	para "whistles to com-"
-	line "mand #MON."
+    text "VOGELFÄNGER, wie"
+    line "ich, ahmen gerne"
+    para "Vogelrufe nach, um"
+    line "ihren #MON"
+    cont "Befehle zu geben."
 	done
 
 

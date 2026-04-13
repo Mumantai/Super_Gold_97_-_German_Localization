@@ -27,7 +27,7 @@ RedsHouse1FBookshelf:
 RedsMomText1:
 	text "Hi!"
 
-	text "Mein Junge, ROT,"
+	para "Mein Junge, ROT,"
 	line "ist hier der"
 	cont "ARENALEITER."
 
