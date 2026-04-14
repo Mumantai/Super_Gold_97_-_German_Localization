@@ -66,7 +66,7 @@ CrownPathGateCooltrainerMText:
 
     para "Ich stehe kurz"
     line "davor die #MON"
-    cont "LIGA herauszu-
+    cont "LIGA herauszu-"
     cont "fordern!"
 
     para "Darauf habe ich"
