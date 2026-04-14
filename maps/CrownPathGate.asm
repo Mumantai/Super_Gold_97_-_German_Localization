@@ -61,59 +61,71 @@ CrownPathGateCooltrainerFScript:
 	jumptextfaceplayer CrownPathGateCooltrainerFText
 	
 CrownPathGateCooltrainerMText:
-	text "I can't believe"
-	line "it!"
-	para "It's almost time"
-	line "for me to take on"
-	cont "the LEAGUE!"
-	para "I've been waiting"
-	line "my whole life for"
-	cont "this!"
+    text "Ich kann es kaum"
+    line "glauben!"
+
+    para "Ich stehe kurz"
+    line "davor die #MON"
+    cont "LIGA herauszu-
+    cont "fordern!"
+
+    para "Darauf habe ich"
+    line "mein ganzes Leben"
+    cont "lang gewartet!"
 	done
 	
 CrownPathGateCooltrainerFText:
-	text "CROWN PATH may"
-	line "be a cakewalk, but"
-	para "the real challenge"
-	line "is making it to"
-	para "the top of MT.FUJI"
-	line "from CROWN CITY."
+    text "Der KOROKANIA-PFAD"
+    line "ist ein Kinder-"
+    cont "spiel."
+
+    para "Die wahre Heraus-"
+    line "forderung ist es,"
+    para "von KOROKANIA CITY"
+    line "aus den Gipfel des"
+    para "KOROKANIABERGs zu"
+    line "erklimmen."
 	done
 	
 CrownPathGateNotEvenATrainer:
-	text "You don't even"
-	line "appear to be a"
-	cont "#MON trainer."
-	para "Sorry, kid. But I"
-	line "can only let"
-	para "qualified trainers"
-	line "pass through."
+    text "Du siehst ja nicht"
+    line "mal aus wie ein"
+    cont "#MON-TRAINER."
+
+    para "Tut mir Leid, aber"
+    line "ich kann hier nur"
+    para "qualifizierte"
+    line "Trainer durch-"
+    cont "lassen."
 	done
 
 CrownPathGateOfficerText:
-	text "Only trainers who"
-	line "have proven them-"
-	cont "selves may pass."
+	text "Nur Trainer, die"
+	line "sich als würdig"
+	cont "erwiesen haben,"
+	cont "dürfen eintreten."
 	done
 
 CrownPathGateNotEnoughBadgesText:
-	text "You don't have"
-	line "eight BADGES."
-	para "I'm sorry, but"
-	line "only trainers with"
-	para "enough BADGES are"
-	line "permitted to enter"
-	para "CROWN CITY and"
-	line "climb MT.FUJI."
+    text "Du besitzt keine"
+    line "acht ORDEN."
+
+    para "Tut mir Leid, aber"
+    line "nur Trainer, die"
+    para "genug ORDEN haben,"
+    line "dürfen KOROKANIA"
+    para "CITY betreten und"
+    line "den KOROKANIABERG"
+    cont "erklimmen."
 	done
 
 CrownPathGateEightBadgesText:
-	text "Ah! Eight BADGES!"
+    text "Oh! Acht Orden!"
 
-	para "You have proven"
-	line "yourself worthy."
-	para "Please, go on"
-	line "through!"
+    para "Du hast dich als"
+    line "würdig erwiesen."
+
+    para "Bitte, geh weiter!"
 	done
 
 CrownPathGate_MapEvents:

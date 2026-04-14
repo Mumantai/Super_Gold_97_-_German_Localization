@@ -633,10 +633,6 @@ Text_RivalGenerous:
     line "großzügiger Kerl!"
 	done
 
-
-
-
-
 Oak2Text_LetYourMonBattleIt:
 	text "Erscheint ein"
 	line "wildes #MON,"
@@ -706,9 +702,9 @@ Oak2DirectionsTextNew:
 	done
 
 
-Oak2DirectionsText2:
-	text "notused"
-	done
+;Oak2DirectionsText2:
+;	text "notused"
+;	done
 
 
 Oak2DescribesMrPokemonText:
@@ -723,120 +719,120 @@ Oak2PokeBallText:
 	cont "fangenes #MON."
 	done
 
-OakLabBackRoomHealingMachineText1:
-	text "Ich frage mich,"
-	line "wozu das gut ist!"
-	done
+;OakLabBackRoomHealingMachineText1:
+;	text "Ich frage mich,"
+;	line "wozu das gut ist!"
+;	done
 
-OakLabBackRoomHealingMachineText2:
-	text "Willst du deine"
-	line "#MON heilen?"
-	done
+;OakLabBackRoomHealingMachineText2:
+;	text "Willst du deine"
+;	line "#MON heilen?"
+;	done
 
-Oak2AfterTheftText1:
-	text "EICH2: <PLAYER>, es"
-	line "ist schrecklich…"
+;Oak2AfterTheftText1:
+;	text "EICH: <PLAYER>, es"
+;	line "ist schrecklich…"
 
-	para "Oh, was hat MR."
-	line "#MON denn"
-	cont "Großes entdeckt?"
-	done
+;	para "Oh, was hat MR."
+;	line "#MON denn"
+;	cont "Großes entdeckt?"
+;	done
 
-Oak2AfterTheftText2:
-	text "<PLAYER> übergibt"
-	line "PROF. EICH2 das"
-	cont "RÄTSEL-EI."
-	done
+;Oak2AfterTheftText2:
+;	text "<PLAYER> übergibt"
+;	line "PROF. EICH das"
+;	cont "RÄTSEL-EI."
+;	done
 
-Oak2AfterTheftText3:
-	text "EICH2: Das hier?"
-	done
+;Oak2AfterTheftText3:
+;	text "EICH: Das hier?"
+;	done
 
-Oak2AfterTheftText4:
-	text "Aber… ist das auch"
-	line "ein #MON-EI?"
+;Oak2AfterTheftText4:
+;	text "Aber… ist das auch"
+;	line "ein #MON-EI?"
 
-	para "Falls ja, dann ist"
-	line "es in der Tat eine"
-	cont "große Entdeckung!"
-	done
+;	para "Falls ja, dann ist"
+;	line "es in der Tat eine"
+;	cont "große Entdeckung!"
+;	done
 
-Oak2AfterTheftText5:
-	text "EICH2: Wie?!?"
+;Oak2AfterTheftText5:
+;	text "EICH2: Wie?!?"
 
-	para "PROF. EICH hat dir"
-	line "einen #DEX"
-	cont "gegeben?"
+;	para "PROF. EICH hat dir"
+;	line "einen #DEX"
+;	cont "gegeben?"
 
-	para "<PLAYER>, ist das"
-	line "wahr? D-Das ist ja"
-	cont "unglaublich!"
+;	para "<PLAYER>, ist das"
+;	line "wahr? D-Das ist ja"
+;	cont "unglaublich!"
 
-	para "Kein anderer ist"
-	line "wie er in der"
-	para "Lage, das wahre"
-	line "Potenzial eines"
-	para "Trainers zu er-"
-	line "kennen."
+;	para "Kein anderer ist"
+;	line "wie er in der"
+;	para "Lage, das wahre"
+;	line "Potenzial eines"
+;	para "Trainers zu er-"
+;	line "kennen."
 
-	para "Wow, <PLAYER>. Es"
-	line "ist vielleicht"
-	para "deine Bestimmung,"
-	line "der CHAMP zu"
-	cont "werden."
+;	para "Wow, <PLAYER>. Es"
+;	line "ist vielleicht"
+;	para "deine Bestimmung,"
+;	line "der CHAMP zu"
+;	cont "werden."
 
-	para "Es sieht auch so"
-	line "aus, als könntest"
-	para "du hervorragend"
-	line "mit #MON um-"
-	cont "gehen."
+;	para "Es sieht auch so"
+;	line "aus, als könntest"
+;	para "du hervorragend"
+;	line "mit #MON um-"
+;	cont "gehen."
 
-	para "Du solltest die"
-	line "Herausforderung"
-	para "der PKMN-ARENEN"
-	line "annehmen."
+;	para "Du solltest die"
+;	line "Herausforderung"
+;	para "der PKMN-ARENEN"
+;	line "annehmen."
 
-	para "Die nächste PKMN-"
-	line "ARENA befindet"
-	cont "sich in PAGETIA."
-	done
+;	para "Die nächste PKMN-"
+;	line "ARENA befindet"
+;	cont "sich in PAGETIA."
+;	done
 
-Oak2AfterTheftText6:
-	text "…<PLAYER>. Der"
-    line "Weg zum Ruhm ist"
-    para "lang und beschwer-"
-    line "lich."
+;Oak2AfterTheftText6:
+;	text "…<PLAYER>. Der"
+;    line "Weg zum Ruhm ist"
+;    para "lang und beschwer-"
+;    line "lich."
 
-    para "Bevor du los-"
-    line "ziehst, solltest"
-    cont "du mit deiner Mama"
-    cont "sprechen."
-	done
+;    para "Bevor du los-"
+;    line "ziehst, solltest"
+;    cont "du mit deiner Mama"
+;    cont "sprechen."
+;	done
 
-Oak2StudyingEggText:
-	text "EICH2: Gib nicht"
-	line "auf! Ich rufe dich"
-	para "an, wenn ich etwas"
-	line "über dieses EI he-"
-	cont "rausgefunden habe."
-	done
+;Oak2StudyingEggText:
+;	text "EICH2: Gib nicht"
+;	line "auf! Ich rufe dich"
+;	para "an, wenn ich etwas"
+;	line "über dieses EI he-"
+;	cont "rausgefunden habe."
+;	done
 
-Oak2AideHasEggText:
-	text "EICH2: <PLAYER>?"
-	line "Hast du schon mei-"
-	cont "nen Assistenten"
-	cont "getroffen?"
+;Oak2AideHasEggText:
+;	text "EICH2: <PLAYER>?"
+;	line "Hast du schon mei-"
+;	cont "nen Assistenten"
+;	cont "getroffen?"
 
-	para "Er sollte mit dem"
-	line "EI im #MON-"
-	cont "CENTER von PAGETIA"
-	cont "CITY warten."
+;	para "Er sollte mit dem"
+;	line "EI im #MON-"
+;	cont "CENTER von PAGETIA"
+;	cont "CITY warten."
 
-	para "Du musst ihn ver-"
-	line "passt haben. Ver-"
-	cont "suche, ihn dort zu"
-	cont "finden."
-	done
+;	para "Du musst ihn ver-"
+;	line "passt haben. Ver-"
+;	cont "suche, ihn dort zu"
+;	cont "finden."
+;	done
 
 OakHearsYouChallengeLeagueText:
     text "Wie ich höre,"
@@ -866,13 +862,13 @@ Oak2GiveEverstoneText1:
 
 
 
-AideText_AfterTheft:
-	text "Wir schätzen deine"
-	line "Hilfe sehr!"
-	done
+;AideText_AfterTheft:
+;	text "Wir schätzen deine"
+;	line "Hilfe sehr!"
+;	done
 
 Oak2GiveMasterBallText1:
-	text "EICH2: Hi, <PLAYER>!"
+	text "EICH: Hi, <PLAYER>!"
 	line "Dank dir komme ich"
 	para "mit meinen For-"
 	line "schungen hervor-"
@@ -937,73 +933,71 @@ Oak2GiveTicketText2:
 	done
 
 
-AideText_GiveYouPotion:
-	text "<PLAYER>, ich"
-    line "möchte, dass du"
-    cont "das mitnimmst."
-	done
+;AideText_GiveYouPotion:
+;	text "<PLAYER>, ich"
+;    line "möchte, dass du"
+;    cont "das mitnimmst."
+;	done
 
-AideText_AlwaysBusy:
-	text "Wir sind nur zu"          ;eigentlich "Wir schätzen deine Hilfe sehr!"
-	line "zweit und wir ha-"
-	cont "ben viel zu tun."
-	done
+;AideText_AlwaysBusy:
+;	text "Wir sind nur zu"          ;eigentlich "Wir schätzen deine Hilfe sehr!"
+;	line "zweit und wir ha-"
+;	cont "ben viel zu tun."
+;	done
 
-AideText_TheftTestimony:
-	text "Wir schätzen deine"
-	line "Hilfe sehr!"
-	done
+;AideText_TheftTestimony:
+;	text "Wir schätzen deine"
+;	line "Hilfe sehr!"
+;	done
 
+;OakLabBackRoomTravelTip1Text:
+;	text "<PLAYER> öffnet"
+;	line "ein Buch."
 
+;	para "Reise-Tipp 1:"
 
-OakLabBackRoomTravelTip1Text:
-	text "<PLAYER> öffnet"
-	line "ein Buch."
+;	para "Drücke START, um"
+;	line "das MENÜ zu"
+;	cont "öffnen."
+;	done
 
-	para "Reise-Tipp 1:"
+;OakLabBackRoomTravelTip2Text:
+;	text "<PLAYER> öffnet"
+;	line "ein Buch."
 
-	para "Drücke START, um"
-	line "das MENÜ zu"
-	cont "öffnen."
-	done
+;	para "Reise-Tipp 2:"
 
-OakLabBackRoomTravelTip2Text:
-	text "<PLAYER> öffnet"
-	line "ein Buch."
+;	para "Speichere deine"
+;	line "Fortschritte mit"
+;	cont "SICHERN!"
+;	done
 
-	para "Reise-Tipp 2:"
+;OakLabBackRoomTravelTip3Text:
+;	text "<PLAYER> öffnet"
+;	line "ein Buch."
 
-	para "Speichere deine"
-	line "Fortschritte mit"
-	cont "SICHERN!"
-	done
+;	para "Reise-Tipp 3:"
 
-OakLabBackRoomTravelTip3Text:
-	text "<PLAYER> öffnet"
-	line "ein Buch."
+;	para "Öffne deinen"
+;	line "BEUTEL und drücke"
+;	cont "SELECT, um deine"
+;	cont "Items zu ver-"
+;	cont "walten."
+;	done
 
-	para "Reise-Tipp 3:"
+;OakLabBackRoomTravelTip4Text:
+;	text "<PLAYER> öffnet"
+;	line "ein Buch."
 
-	para "Öffne deinen"
-	line "BEUTEL und drücke"
-	cont "SELECT, um deine"
-	cont "Items zu ver-"
-	cont "walten."
-	done
+;	para "Reise-Tipp 4:"
 
-OakLabBackRoomTravelTip4Text:
-	text "<PLAYER> öffnet"
-	line "ein Buch."
-
-	para "Reise-Tipp 4:"
-
-	para "Verwalte die At-"
-	line "tacken deiner"
-	cont "#MON. Drücke"
-	cont "den A-Knopf, um"
-	cont "ihre Position zu"
-	cont "verändern."
-	done
+;	para "Verwalte die At-"
+;	line "tacken deiner"
+;	cont "#MON. Drücke"
+;	cont "den A-Knopf, um"
+;	cont "ihre Position zu"
+;	cont "verändern."
+;	done
 
 OakLabBackRoomTrashcanText:
 	text "Die Verpackung"
@@ -1061,7 +1055,7 @@ Oak2YoureBasicallyAHeroText:
 
     para "Macht weiter so"
     line "und kämpft euch"
-    cont "zum FUJIYAMA!"        ;evtl. ändern
+    cont "zum KOROKANIABERG!"        ;evtl. ändern
 	done
 	
 Oak2AfterLeagueInPersonText:
