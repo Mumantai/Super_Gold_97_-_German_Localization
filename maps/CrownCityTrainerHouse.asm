@@ -44,61 +44,69 @@ CrownCityTrainerHouseLassScript:
 	
 
 IejimaTownDreamEaterFisherText:
-	text "Yawn!"
+	text "Gähn!"
 
-	para "I've been training"
-	line "so much lately…"
-	para "I'm so tired, I"
-	line "could fall asleep."
-	
-	para "Did you know"
-	line "there's a move"
-	para "that's only"
-	line "effective against"
-	cont "sleeping #MON?"
-	para "Here, check this"
-	line "out."
+	para "Ich habe in"
+	line "letzter Zeit so"
+	cont "viel trainiert…"
+
+	para "Ich bin so müde,"
+	line "ich könnte glatt"
+	cont "einschlafen."
+
+	para "Wusstest du, dass"
+	line "es eine Attacke"
+	para "gibt, die nur"
+	line "bei schlafenden"
+	cont "#MON wirkt?"
+
+	para "Hier, schau sie"
+	line "dir mal an."
 	done
 
 IejimaTownDreamEaterFisherGotDreamEaterText:
-	text "TM42 contains"
-	line "DREAM EATER…"
+	text "TM42 enthält"
+	line "TRAUMFRESSER…"
 
 	para "…Zzzzz…"
 	done
-
 	
 CrownCityTrainerHouseRockerText:
-	text "Which of my #-"
-	line "MON are tough"
-	para "enough to take on"
-	line "the LEAGUE?"
+    text "Welche meiner"
+    line "#MON sind tough"
+    para "genug, um in der"
+    line "LIGA zu bestehen?"
 	done
 	
 CrownCityTrainerHouseCooltrainermText:
-	text "I'm ready!"
-	para "I can do this!"
-	para "Just psyching"
-	line "myself up."
+    text "Ich bin bereit!"
+
+    para "Ich schaffe das!"
+
+    para "Ich bereite mich"
+    line "mental schon mal"
+    cont "vor."
 	done
 
 CrownCityTrainerHouseSuperNerdText:
-	text "I hear there are"
-	line "trainers in the"
-	para "LEAGUE that use"
-	line "psychic, poison,"
-	para "ghost, water, and"
-	line "dragon types."
+    text "Ich hörte in der"
+    line "LIGA gibt es"
+    para "Trainer, die"
+    line "#MON der Typen"
+    para "Psycho, Gift,"
+    line "Geist, Wasser und"
+    cont "Drache einsetzen."
 	done
 	
 CrownCityTrainerHouseCooltrainerfText:
-	text "I had a tough time"
-	line "getting eight"
-	cont "BADGES."
-	para "I might need to"
-	line "train more before"
-	para "I take on the"
-	line "LEAGUE."
+    text "Ich hatte es nicht"
+    line "leicht, die acht"
+    cont "ORDEN zu sammeln."
+
+    para "Ich sollte wohl"
+    line "mehr trainieren,"
+    para "bevor ich die LIGA"
+    line "herausfordere."
 	done
 
 CrownCityTrainerHouse_MapEvents:

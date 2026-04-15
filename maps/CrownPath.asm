@@ -194,7 +194,7 @@ UndergroundSilverAfterText:
     para "ganz bereit, mich"
     line "der #MON LIGA"
     para "zu stellen, bis"
-    line "ich an mehr an mir"
+    line "ich mehr an mir"
     para "gearbeitet habe"
     line "und mein Team auch"
     para "für die Herausfor-"
@@ -209,7 +209,7 @@ UndergroundSilverAfterText:
     para "#MON bereit für"
     line "die Herausforde-"
     cont "rung sind, damit"
-    para "wir  als ein Team"
+    para "wir als ein Team"
     line "kämpfen können!"
 
     para "Bis bald!"

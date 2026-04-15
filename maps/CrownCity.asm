@@ -51,46 +51,58 @@ CrownCityJanineScript:
 	jumptextfaceplayer CrownCityJanineText
 	
 CrownCityJanineText:
-	text "My older brother"
-	line "challenged the"
-	cont "LEAGUE once."
-	para "He couldn't de-"
-	line "feat them."
+    text "Mein großer Bruder"
+    line "hat die LIGA mal"
+    cont "herausgefordert."
+
+    para "Er konnte sie"
+    line "nicht besiegen."
 	done
 	
 CrownCityRockerText:
-	text "As imposing as"
-	line "MT.FUJI is, this"
-	para "town at the base"
-	line "of the mountain"
-	cont "is really scenic."
+    text "Der KOROKANIABERG"
+    line "ist echt imposant."
+
+    para "Diese Stadt, hier"
+    line "am Fuß des Berges,"
+    para "ist aber auch echt"
+    line "malerisch."
 	done
 	
 CrownCitySign2Text:
-	text "CROWN CITY"
-	line "TRAINER HOUSE"
+	text "KOROKANIA CITY"
+	line "TRAINERHAUS"
 	done
 	
 CrownCitySignText:
-	text "CROWN CITY"
-	para "The Base Camp For"
-	line "LEAGUE Challengers"
+	text "KOROKANIA CITY"
+
+	para "Das Basislager für"
+	line "Herausforderer der"
+	cont "#MON LIGA"
 	done
 	
 GoTrainerText:
-	text "Trainer!"
-	para "You are here"
-	line "because you have"
-	para "committed to"
-	line "climbing MT.FUJI!"
-	para "Gather your best"
-	line "team of #MON"
-	para "and all of your"
-	line "strength!"
-	para "Ascend the water-"
-	line "fall and begin"
-	cont "your climb!"
-	para "The LEAGUE awaits!"
+    text "Trainer!"
+
+    para "Du bist hier, weil"
+    line "du dich dazu"
+    para "entschlossen hast,"
+    line "den KOROKANIABERG"
+    cont "zu erklimmen!"
+
+    para "Stell dein best-"
+    line "mögliches #MON-"
+    cont "Team zusammen und"
+    para "gib alles, was du"
+    line "hast!"
+
+    para "Steige den Wasser-"
+    line "fall hinauf und"
+    para "beginne mit deinem"
+    line "Aufstieg!"
+
+    para "Die LIGA wartet!"
 	done
 
 CrownCity_MapEvents:

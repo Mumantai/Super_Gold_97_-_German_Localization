@@ -9,14 +9,15 @@ CrownHouse2PokefanMScript:
 	jumptextfaceplayer CrownHouse2PokefanMText
 	
 CrownHouse2PokefanMText:
-	text "It's interesting"
-	line "seeing all of the"
-	para "challengers who"
-	line "pass through this"
-	cont "town."
-	para "The LEAGUE brings"
-	line "through a lot of"
-	cont "tough trainers."
+    text "All die Herausfor-"
+    line "derer zu sehen,"
+    para "die durch diese"
+    line "Stadt ziehen, ist"
+    cont "echt spannend."
+
+    para "Die LIGA lockt"
+    line "viele starke"
+    cont "Trainer an."
 	done
 	
 CrownHouse2_MapEvents:

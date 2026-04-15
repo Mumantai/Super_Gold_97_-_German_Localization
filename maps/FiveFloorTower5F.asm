@@ -124,10 +124,11 @@ SageTellsYouToSeeBird:
     para "Ich spüre, dass es"
     line "dich treffen will."
 
-    para "Es hat entschieden,"
-    line "dass deine Taten"
-    line "dich als würdig"
-    para "erweisen, um ihm"
+    para "Es hat entschie"
+    line "den, dass deine"
+    para "Taten dich als"
+    line "würdig erweisen,"
+    para "ihm jetzt direkt"
     line "gegenüberzutreten."
 
     para "Nun begib dich"

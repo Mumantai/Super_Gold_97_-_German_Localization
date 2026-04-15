@@ -10,24 +10,29 @@ CrownLegendarySpeechHouseGrannyScript:
 	jumptextfaceplayer CrownLegendarySpeechHouseGrannyText
 
 CrownLegendarySpeechHouseGrannyText:
-	text "Many years ago, my"
-	line "mother told me of"
-	para "a mythical #MON"
-	line "that appeared as"
-	para "fire across the"
-	line "daytime sky,"
-	para "leaving behind a"
-	line "trail of ashes as"
-	cont "it burnt the air."
-	para "That #MON"
-	line "created from its"
-	para "ashes, three"
-	line "beasts of legend"
-	para "that were sent"
-	line "across the land."
-	para "To this day, no"
-	line "one has seen these"
-	cont "beasts in person."
+    text "Vor vielen Jahren,"
+    line "erzählte mir meine"
+    para "Mutter von einem"
+    line "mystischen"
+    para "#MON, das wie"
+    line "Feuer am Himmel"
+    para "erschien und eine"
+    line "Spur aus Asche"
+    para "hinterließ, als es"
+    line "die Luft ver-"
+    cont "brannte."
+
+    para "Dieses #MON"
+    line "schuf aus seiner"
+    para "Asche drei legen-"
+    line "däre Bestien, die"
+    para "ins Land gesandt"
+    line "wurden."
+
+    para "Bis heute hat"
+    line "niemand diese drei"
+    para "Bestien persönlich"
+    line "gesehen."
 	done
 
 CrownLegendarySpeechHouse_MapEvents:
