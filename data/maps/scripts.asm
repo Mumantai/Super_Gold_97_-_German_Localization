@@ -20,7 +20,6 @@ INCLUDE "maps/BoulderMineB3F.asm"
 INCLUDE "maps/SafariZoneStandGateBeta.asm"
 INCLUDE "maps/NanjoForest.asm"
 INCLUDE "maps/MtFujiInteriorLower.asm"
-INCLUDE "maps/MtFujiInteriorUpper.asm"
 INCLUDE "maps/KikaiPokecenter1F.asm"
 INCLUDE "maps/KikaiMart.asm"
 
@@ -43,6 +42,7 @@ INCLUDE "maps/KikaiHouse1.asm"
 INCLUDE "maps/IejimaHouse1.asm"
 INCLUDE "maps/IejimaHouse2.asm"
 INCLUDE "maps/IejimaPokecenter1F.asm"
+INCLUDE "maps/MtFujiInteriorUpper.asm"
 
 SECTION "Map Scripts 3", ROMX
 
