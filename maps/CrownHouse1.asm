@@ -56,7 +56,7 @@ CrownHouse1GrannyText2:
 
     para "Deine Gegner"
     line "werden nicht"
-    part "wissen, wie ihnen"
+    para "wissen, wie ihnen"
     line "geschieht!"
 	done
 
