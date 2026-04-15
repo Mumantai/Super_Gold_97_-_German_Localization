@@ -162,221 +162,248 @@ TrainerCooltrainerfCybil:
 	end
 
 BirdkeeperRoySeenText:
-	text "My birds don't"
-	line "have much room to"
-	cont "fly in this cave."
+    text "Meine Vögel haben"
+    line "in dieser Höhle"
+    cont "kaum Platz zum"
+    cont "Fliegen."
 	done
 
 BirdkeeperRoyBeatenText:
-	text "Grounded!"
+	text "Abgestürzt!"
 	done
 
 BirdkeeperRoyAfterBattleText:
-	text "My birds always"
-	line "do their best."
+    text "Meine Vögel geben"
+    line "immer ihr Bestes."
 	done
 
 CooltrainerfJennSeenText:
-	text "Let me see if you"
-	line "have what it takes"
-	para "to challenge the"
-	line "LEAGUE."
+    text "Mal sehen, ob du"
+    line "das Zeug dazu"
+    para "hast, die LIGA"
+    line "herauszufordern."
 	done
 
 CooltrainerfJennBeatenText:
-	text "I'd say you do…"
+	text "Ja, das hast du…"
 	done
 
 CooltrainerfJennAfterBattleText:
-	text "To defeat the"
-	line "LEAGUE, you'll"
-	para "have to face the"
-	line "ELITE FOUR all in"
-	cont "a row."
-	para "And the CHAMPION"
-	line "after that."
-	para "It takes a lot."
-	para "You better be"
-	line "ready!"
+    text "Um die LIGA zu"
+    line "gewinnen, musst du"
+    para "die TOP VIER am"
+    line "Stück besiegen."
+
+    para "Und danach noch"
+    line "den CHAMP."
+
+    para "Das ist ein Stück."
+
+    para "Du solltest vorbe-"
+    line "reitet sein!"
 	done
-	
 
 SwimmermKirkSeenText:
-	text "The water is calm"
-	line "in here."
-	para "It's kind of un-"
-	line "settling."
+    text "Das Wasser hier"
+    line "ist so ruhig."
+
+    para "Das ist irgendwie"
+    line "unheimlich."
 	done
 
 SwimmermKirkBeatenText:
-	text "I'm sunk!"
+	text "Treffer versenkt!"
 	done
 
 SwimmermKirkAfterBattleText:
-	text "It must be nice"
-	line "riding on a"
-	cont "#MON."
+    text "Es muss toll sein,"
+    line "auf einem #MON"
+    cont "zu reiten."
 	done
 
 SoldierAntonioSeenText:
-	text "It takes a real"
-	line "trooper to make it"
-	cont "through this cave!"
+    text "Nur ein echter"
+    line "Soldat schafft es"
+    cont "durch diese Höhle!"
 	done
 	
 SoldierAntonioBeatenText:
-	text "Keep pushing"
-	line "forward!"
+    text "Immer weiter"
+    line "vorwärts!"
 	done
 	
 SoldierAntonioAfterBattleText:
-	text "It's time for you"
-	line "to march on!"
+    text "Es ist Zeit für"
+    line "dich, weiter zu"
+    cont "marschieren!"
 	done
 	
 CooltrainermAndySeenText:
-	text "Which path is the"
-	line "right path?"
+	text "Welcher Weg ist"
+	line "der richtige?"
 	done
 
 CooltrainermAndyBeatenText:
-	text "Guess it wasn't"
-	line "this one."
+	text "Der hier war es"
+	line "wohl nicht."
 	done
 
 CooltrainermAndyAfterBattleText:
-	text "That was a serious"
-	line "question."
-	para "I don't want to"
-	line "get lost in here."
+    text "Das war eine"
+    line "ernste Frage."
+
+    para "Ich will mich hier"
+    line "nicht verlaufen."
 	done	
 
 PsychicRichardSeenText:
-	text "I know your deep-"
-	line "est desires!"
+    text "Ich kenne dein"
+    line "tiefstes Begehren!"
 	done
 
 PsychicRichardBeatenText:
-	text "Good battle!"
+	text "Guter Kampf!"
 	done
 
 PsychicRichardAfterBattleText:
-	text "You desire to make"
-	line "your way out of"
-	cont "this cave!"
-	para "…I guess that"
-	line "one is pretty"
-	cont "obvious."
+    text "Du willst es aus"
+    line "dieser Höhle"
+    cont "schaffen!"
+
+    para "…Das war ziemlich"
+    line "offensichtlich."
 	done
 	
 FirebreatherWaltSeenText:
-	text "I like my caves"
-	line "nice and warm."
-	para "This one is not."
+    text "Ich mag meine"
+    line "Höhlen warm und"
+    cont "muckelig."
+
+    para "Das ist diese"
+    line "hier nicht."
 	done
 	
 FirebreatherWaltBeatenText:
-	text "Ow, hot!"
+	text "Aua, heiß!"
 	done
 
 FirebreatherWaltAfterBattleText:
-	text "It's pretty chilly"
-	line "in here."
-	para "Have you ever been"
-	line "in MAGMA SHAFT?"
-	para "It's much more"
-	line "toasty there!"
+    text "Es ist ziemlich"
+    line "kühl hier."
+
+    para "Warst du schon im"
+    line "MAGMA-SCHACHT?"
+
+    para "Da ist es viel"
+    line "heißer!"
 	done
 
 HikerMichaelSeenText:
-	text "Yo! You're spunky!"
-	line "But you know what?"
+	text "He! Du hast Mumm"
+	line "in den Knochen!"
+	cont "Aber weißt du was?"
 
-	para "When it comes to"
-	line "sheer spunkiness,"
-	cont "I'm the man!"
+	para "Wenn es um echte"
+	line "Courage geht, bin"
+	cont "ich der Mann!"
 	done
 
 HikerMichaelBeatenText:
-	text "My #MON weren't"
-	line "spunky enough!"
+	text "Meine #MON"
+	line "waren leider nicht"
+	cont "couragiert genug!"
 	done
 
 HikerMichaelAfterBattleText:
-	text "Boy, do I love"
-	line "HP UP! Mmmm, yum!"
+	text "Mensch, wie ich"
+	line "diese KP-PLUS"
+	cont "liebe! Mm, lecker!"
 
-	para "I keep drinking my"
-	line "#MON's!"
+	para "Ich trinke immer"
+	line "die von meinen"
+	cont "#MON!"
 
-	para "I can't help it!"
+	para "Ich kann nichts"
+	line "dagegen tun!"
 	done
 
 
 HikerKennySeenText:
-	text "I should catch"
-	line "myself an ONIX."
+	text "Ich sollte mir"
+	line "ein ONIX fangen."
 	done
 
 HikerKennyBeatenText:
-	text "I lost…"
+	text "Ich habe verloren…"
 	done
 
 HikerKennyAfterBattleText:
-	text "Geological fea-"
-	line "tures don't appear"
-	cont "to change."
+	text "Es scheint, als"
+	line "würden sich geo-"
+	cont "logische Gegeben-"
+	cont "heiten nicht"
+	cont "ändern."
 
-	para "But they actually"
-	line "change, little by"
-	cont "little."
-	
-	para "MT.FUJI would have"
-	line "been shorter many"
-	cont "millennia ago."
+	para "Aber sie ändern"
+	line "sich; langsam,"
+	cont "ganz langsam."
+
+	para "Der KOROKANIABERG"
+	line "war vor vielen"
+	cont "Jahrtausenden um"
+	cont "einiges kleiner."
 	done
 	
 CooltrainermTylerSeenText:
-	text "This is the last"
-	line "section before the"
-	cont "summit!"
-	para "Can you make it?"
+    text "Das ist der letzte"
+    line "Abschnitt vor dem"
+    cont "Gipfel!"
+
+    para "Packst du das?"
 	done
 
 CooltrainermTylerBeatenText:
-	text "I think you've got"
-	line "this."
+	text "Ich glaube, du"
+	line "packst das."
 	done
 
 CooltrainermTylerAfterBattleText:
-	text "You're close to"
-	line "facing the LEAGUE."
-	para "How does that make"
-	line "you feel?"
+    text "Du stehst kurz"
+    line "davor, die LIGA"
+    cont "herauszufordern."
+
+    para "Wie fühlst du"
+    line "dich dabei?"
 	done
-	
 
 CooltrainerfCybilSeenText:
-	text "You look strong."
+	text "Du siehst sehr"
+	line "stark aus."
 
-	para "Good trainers seek"
-	line "tough opponents"
-	cont "instinctively."
+	para "Gute Trainer"
+	line "suchen instinktiv"
+	cont "nach starken"
+	cont "Gegnern."
 	done
 
 CooltrainerfCybilBeatenText:
-	text "Nope! This won't"
-	line "do at all."
+	text "Nein! So geht das"
+	line "auf gar keinen"
+	cont "Fall."
 	done
 
 CooltrainerfCybilAfterBattleText:
-	text "We all get better"
-	line "by experiencing"
-	cont "many battles."
+	text "Mit den Kämpfen"
+	line "steigen unsere"
+	cont "Erfahrungen und"
+	cont "wir werden besser."
 
-	para "I battled a lot to"
-	line "become what I am"
-	cont "today--an elite."
+	para "Ich habe viele"
+	line "Kämpfe ausge-"
+	cont "tragen, um das zu"
+	cont "werden, was ich"
+	cont "heute bin - ein"
+	cont "Profi."
 	done	
 
 MtFujiInteriorUpper_MapEvents:

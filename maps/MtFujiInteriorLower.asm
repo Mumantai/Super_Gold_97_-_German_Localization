@@ -144,194 +144,205 @@ TrainerCooltrainerfQuinn:
 	end
 
 CooltrainermErickSeenText:
-	text "Getting tired yet?"
+    text "Wirst du schon"
+    line "müde?"
 	done
 
 CooltrainermErickBeatenText:
-	text "Looks like I'm"
-	line "pretty tired."
+    text "Wie es aussieht,"
+    line "bin ich ziemlich"
+    cont "müde."
 	done
 
 CooltrainermErickAfterBattleText:
-	text "There's still a"
-	line "long way to go"
-	cont "before the top."
-	para "I hear the last"
-	line "part is like a"
-	cont "maze."
+    text "Bis zum Gipfel ist"
+    line "es noch ein weiter"
+    para "Weg. Ich hörte,"
+    line "das letzte Stück"
+    para "sei wie ein"
+    line "Labyrinth."
 	done
 
-
 CooltrainermJakeSeenText:
-	text "I'm making my"
-	line "final preparations"
-
-	para "for the #MON"
-	line "LEAGUE."
+	text "Ich treffe die"
+	line "letzten Vorberei-"
+	cont "tungen für die"
+	cont "#MON LIGA."
 	done
 
 CooltrainermJakeBeatenText:
-	text "I blew it!"
+	text "Ich habe es"
+	line "vermasselt!"
 	done
 
 CooltrainermJakeAfterBattleText:
-	text "It's going to be"
-	line "tough to win at"
-	cont "the LEAGUE."
+	text "Es ist sehr"
+	line "schwer, in der"
+	cont "LIGA zu gewinnen."
 
-	para "I need to do some"
-	line "more training."
+	para "Ich muss mehr"
+	line "trainieren."
 
-	para "I hear that the"
-	line "LEAGUE's ELITE"
+	para "Ich habe gehört,"
+	line "dass die TOP VIER"
 
-	para "FOUR are tougher"
-	line "than GYM LEADERS."
+	para "aus der LIGA noch"
+	line "stärker sind als"
+	cont "die ARENALEITER."
 	done
 
 CooltrainerfJoyceSeenText:
-	text "Since you've come"
-	line "this far, you must"
-	cont "be good."
+	text "Da du es bis"
+	line "hierher geschafft"
+	cont "hast, musst du"
+	cont "gut sein."
 
-	para "I'm going to give"
-	line "this battle every-"
-	cont "thing I've got!"
+	para "Ich werde in"
+	line "diesem Kampf"
+	cont "alles geben!"
 	done
 
 CooltrainerfJoyceBeatenText:
-	text "No! I don't"
-	line "believe this!"
+	text "Nein! Ich kann"
+	line "das nicht glauben!"
 	done
 
 CooltrainerfJoyceAfterBattleText:
-	text "I've defeated"
-	line "eight GYM LEADERS,"
+	text "Ich bezwang acht"
+	line "ARENALEITER, also"
+	para "hatte ich genug"
+	line "Selbstbewusstsein."
 
-	para "so I was feeling"
-	line "confident."
-
-	para "I'll have to try"
-	line "harder next time."
+	para "Das nächste Mal"
+	line "muss ich mich mehr"
+	cont "anstrengen."
 	done
 
 InstructorGeoffSeenText:
-	text "The trainers here"
-	line "are very strong."
-	para "Each battle can be"
-	line "a good learning"
-	cont "experience."
+    text "Die Trainer hier"
+    line "sind sehr stark."
+
+    para "Jeder Kampf kann"
+    line "eine gute Lern-"
+    cont "erfahrung sein."
 	done
 	
 InstructorGeoffBeatenText:
-	text "I definitely"
-	line "learned something"
-	cont "here."
+    text "Ich habe definitiv"
+    line "etwas gelernt."
 	done
 	
 InstructorGeoffAfterBattleText:
-	text "The wild #MON"
-	line "here are very"
-	cont "strong as well."
+    text "Die wilden #MON"
+    line "hier sind auch"
+    cont "sehr stark."
 	done
 
 
 SwimmermHaroldSeenText:
-	text "You're using a"
-	line "#MON to get you"
-	cont "through the cave?"
-	para "If you were ready"
-	line "for the LEAGUE,"
-	cont "you'd swim!"
+    text "Du benutzt ein"
+    line "#MON, um durch"
+    cont "die Höhle zu"
+    cont "gelangen?"
+
+    para "Wärst du bereit"
+    line "für die LIGA,"
+    cont "würdest du selber"
+    cont "schwimmen!"
 	done
 
 SwimmermHaroldBeatenText:
-	text "Glub…"
+	text "Gulp…"
 	done
 
 SwimmermHaroldAfterBattleText:
-	text "I guess swimming"
-	line "ability doesn't"
-	para "mean much in a"
-	line "#MON battle."
+    text "Schwimmen zu kön-"
+    line "nen hilft wohl in"
+    para "einem Kampf nicht"
+    line "wirklich."
 	done
 
 SwimmerfLisaSeenText:
-	text "The water is"
-	line "warmer than I'd"
-	cont "expected it to be."
+    text "Das Wasser ist"
+    line "wärmer, als ich"
+    cont "erwartet habe."
 	done
 
 SwimmerfLisaBeatenText:
-	text "I'm sunk!"
+	text "Ich gehe unter!"
 	done
 
 SwimmerfLisaAfterBattleText:
-	text "I prefer swimming"
-	line "in caves to the"
-	cont "outdoors."
+    text "Ich schwimme"
+    line "lieber in Höhlen,"
+    cont "als im Freien."
 	done
 	
 EngineerDavidsonSeenText:
-	text "I'm going to find"
-	line "a faster way to"
-	para "the summit than"
-	line "walking through"
-	cont "these caves!"
+    text "Ich werde einen"
+    line "schnelleren Weg"
+    para "zum Gipfel finden,"
+    line "als durch diese"
+    cont "Höhlen zu laufen!"
 	done
 	
 EngineerDavidsonBeatenText:
-	text "Maybe I'll just"
-	line "walk."
+    text "Vielleicht laufe"
+    line "ich einfach."
 	done
 	
 EngineerDavidsonAfterBattleText:
-	text "You're pretty"
-	line "tough."
-	para "Don't lose at the"
-	line "LEAGUE, or I'll"
-	para "feel worse about"
-	line "losing to you!"
+    text "Du bist ziemlich"
+    line "stark."
+
+    para "Verlier nicht in"
+    line "der LIGA, oder ich"
+    para "fühle mich noch"
+    line "schlechter, gegen"
+    para "dich verloren zu"
+    line "haben!"
 	done
 
 
 CooltrainermCodySeenText:
-	text "MT.FUJI is very"
-	line "large."
-	para "You better be pre-"
-	line "pared, because"
-	para "you're gonna be"
-	line "here for a while!"
+    text "Der KOROKANIABERG"
+    line "ist riesig."
+
+    para "Sei besser vor-"
+    line "bereitet, denn du"
+    para "wirst eine Weile"
+    line "hier sein!"
 	done
 
 CooltrainermCodyBeatenText:
-	text "Rats! If only I"
-	line "had better #-"
-	cont "MON!"
+	text "Mist! Wenn ich"
+	line "doch nur bessere"
+	cont "#MON hätte!"
 	done
 
 CooltrainermCodyAfterBattleText:
-	text "This mountain is"
-	line "divided into five"
-	cont "different parts."
-	para "This here is just"
-	line "part one!"
+    text "Dieser Berg ist in"
+    line "fünf Abschnitte"
+    cont "unterteilt."
+
+    para "Dieser hier, ist"
+    line "erst der erste!"
 	done
 	
 CooltrainerfQuinnSeenText:
-	text "You there!"
-	line "Want to battle?"
+	text "Du da!"
+	line "Willst du kämpfen?"
 	done
 
 CooltrainerfQuinnBeatenText:
-	text "Down and out…"
+	text "Versagt und weg…"
 	done
 
 CooltrainerfQuinnAfterBattleText:
-	text "You're strong."
+	text "Du bist stark."
 
-	para "You obviously must"
-	line "have trained hard."
+	para "Du hast offenbar"
+	line "hart trainiert."
 	done
 
 
