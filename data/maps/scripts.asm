@@ -76,7 +76,6 @@ INCLUDE "maps/TeamRocketBaseB1F.asm"
 INCLUDE "maps/TeamRocketBaseB2F.asm"
 INCLUDE "maps/JadeForest.asm"
 INCLUDE "maps/HydraulicCave.asm"
-INCLUDE "maps/MtFujiInteriorUpper.asm"
 
 
 SECTION "Map Scripts 5", ROMX
@@ -95,6 +94,7 @@ INCLUDE "maps/MagmaShaftB2F.asm"
 INCLUDE "maps/MagmaShaft1F.asm"
 INCLUDE "maps/DeepwaterPassageB1F.asm"
 INCLUDE "maps/DeepwaterPassageEastCavern.asm"
+INCLUDE "maps/MtFujiInteriorUpper.asm"
 
 
 SECTION "Map Scripts 6", ROMX
