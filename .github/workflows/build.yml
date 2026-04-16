@@ -86,6 +86,10 @@ jobs:
               print()
           PY
 
+      - name: Bank- und Dateigrößen in Summary schreiben
+        run: |
+          python3 tools/write_space_summary.py pokegold.map data/maps/scripts.asm >> "$GITHUB_STEP_SUMMARY"
+
       - name: Dateien hochladen
         if: success()
         uses: actions/upload-artifact@v4
