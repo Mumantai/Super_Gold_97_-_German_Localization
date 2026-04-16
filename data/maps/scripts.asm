@@ -42,7 +42,7 @@ INCLUDE "maps/KikaiHouse1.asm"
 INCLUDE "maps/IejimaHouse1.asm"
 INCLUDE "maps/IejimaHouse2.asm"
 INCLUDE "maps/IejimaPokecenter1F.asm"
-INCLUDE "maps/MtFujiInteriorUpper.asm"
+
 
 SECTION "Map Scripts 3", ROMX
 
@@ -76,6 +76,7 @@ INCLUDE "maps/TeamRocketBaseB1F.asm"
 INCLUDE "maps/TeamRocketBaseB2F.asm"
 INCLUDE "maps/JadeForest.asm"
 INCLUDE "maps/HydraulicCave.asm"
+INCLUDE "maps/MtFujiInteriorUpper.asm"
 
 
 SECTION "Map Scripts 5", ROMX
