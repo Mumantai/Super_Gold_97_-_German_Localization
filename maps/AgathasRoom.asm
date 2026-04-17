@@ -139,7 +139,7 @@ AgathaScript_AgathaDefeatText:
 
 	para "Vielleicht hat der"
 	line "alte Narr doch ein"
-	cont "gutes Gespür.
+	cont "gutes Gespür."
 
 	para "Nun geh weiter."
 
