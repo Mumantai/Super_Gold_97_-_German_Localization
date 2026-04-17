@@ -2,16 +2,23 @@
 # -*- coding: utf-8 -*-
 
 """
-Usage:
+Usage examples:
+
+  # Auto-find all scripts.asm files
+  python3 tools/write_space_summary.py pokegold.map
+
+  # Restrict to one file (backward-compatible style)
   python3 tools/write_space_summary.py pokegold.map data/maps/scripts.asm
 
+  # Custom glob(s)
+  python3 tools/write_space_summary.py pokegold.map --scripts-glob "**/scripts.asm"
+  python3 tools/write_space_summary.py pokegold.map --scripts-glob "**/scripts.asm" --scripts-glob "**/*scripts*.asm"
+
 Creates a GitHub Actions summary that shows:
+- scripts source file
 - ROMX section name
 - ROM bank
 - per-file ROM sizes inside each SECTION
-
-The script assumes that every included .asm file has a unique first global label
-that appears in the .map file.
 """
 
 from __future__ import annotations
@@ -43,6 +50,7 @@ class FileReport:
 
 @dataclass
 class SectionReport:
+    source_scripts: str
     section_name: str
     bank_no: int
     section_start: int
@@ -63,9 +71,23 @@ def resolve_path(base: Path, path_arg: str) -> Path:
     return p if p.is_absolute() else base / p
 
 
-def parse_scripts_file(path: Path) -> List[dict]:
+def find_scripts_files(repo_root: Path, patterns: List[str]) -> List[Path]:
+    seen = set()
+    out: List[Path] = []
+    for pattern in patterns:
+        for p in sorted(repo_root.glob(pattern)):
+            if p.is_file() and p.suffix.lower() == ".asm":
+                rp = p.resolve()
+                if rp not in seen:
+                    seen.add(rp)
+                    out.append(rp)
+    return out
+
+
+def parse_scripts_file(path: Path, repo_root: Path) -> List[dict]:
     sections: List[dict] = []
     current: Optional[dict] = None
+    source_rel = path.relative_to(repo_root).as_posix()
 
     for raw_line in path.read_text(encoding="utf-8").splitlines():
         line = raw_line.strip()
@@ -77,6 +99,7 @@ def parse_scripts_file(path: Path) -> List[dict]:
             current = {
                 "name": m_section.group(1),
                 "includes": [],
+                "source_scripts": source_rel,
             }
             continue
 
@@ -118,10 +141,6 @@ def load_map_reader(map_path: Path) -> MapReader:
 
 
 def build_section_index(reader: MapReader) -> Dict[str, dict]:
-    """
-    Returns:
-      { section_name: { 'bank_no': int, 'beg': int, 'end': int, 'symbols': [...] } }
-    """
     section_index: Dict[str, dict] = {}
 
     for bank_type_name, bank_type in reader.bank_types.items():
@@ -146,10 +165,6 @@ def build_section_index(reader: MapReader) -> Dict[str, dict]:
 
 
 def build_symbol_index(reader: MapReader) -> Dict[str, List[dict]]:
-    """
-    Returns:
-      { symbol_name: [ { 'address': int, 'section_name': str, 'beg': int, 'end': int, ... }, ... ] }
-    """
     symbol_index: Dict[str, List[dict]] = {}
 
     for bank_type_name, bank_type in reader.bank_types.items():
@@ -184,10 +199,7 @@ def lookup_symbol_address(
     if not candidates:
         return None
 
-    in_section = [
-        c for c in candidates
-        if section_beg <= c["address"] <= section_end
-    ]
+    in_section = [c for c in candidates if section_beg <= c["address"] <= section_end]
     if in_section:
         candidates = in_section
 
@@ -198,18 +210,22 @@ def lookup_symbol_address(
 def build_reports(
     repo_root: Path,
     map_path: Path,
-    scripts_path: Path,
+    scripts_paths: List[Path],
 ) -> List[SectionReport]:
     reader = load_map_reader(map_path)
     section_index = build_section_index(reader)
     symbol_index = build_symbol_index(reader)
 
-    scripts = parse_scripts_file(scripts_path)
+    scripts: List[dict] = []
+    for scripts_path in scripts_paths:
+        scripts.extend(parse_scripts_file(scripts_path, repo_root))
+
     reports: List[SectionReport] = []
 
     for section in scripts:
         section_name = section["name"]
         includes = section["includes"]
+        source_scripts = section["source_scripts"]
 
         section_info = section_index.get(section_name)
         if section_info is None:
@@ -259,7 +275,6 @@ def build_reports(
         if missing_label or not file_entries:
             continue
 
-        # Compute file end/size by using the next file's start as the boundary.
         for i, entry in enumerate(file_entries):
             if i + 1 < len(file_entries):
                 next_start = file_entries[i + 1].start
@@ -280,6 +295,7 @@ def build_reports(
 
         reports.append(
             SectionReport(
+                source_scripts=source_scripts,
                 section_name=section_name,
                 bank_no=bank_no,
                 section_start=sec_beg,
@@ -293,7 +309,7 @@ def build_reports(
 
 def render_summary(reports: List[SectionReport]) -> str:
     out: List[str] = []
-    out.append("# ROM-Dateigrößen in `data/maps/scripts.asm`")
+    out.append("# ROM-Dateigrößen pro scripts.asm")
     out.append("")
     out.append(
         "Die Größen beziehen sich auf den ROM-Bereich der jeweiligen Datei "
@@ -305,36 +321,70 @@ def render_summary(reports: List[SectionReport]) -> str:
         out.append("_Keine auswertbaren Sections gefunden._")
         return "\n".join(out)
 
-    for section in reports:
+    grouped: Dict[str, List[SectionReport]] = {}
+    for r in reports:
+        grouped.setdefault(r.source_scripts, []).append(r)
+
+    out.append("<details>")
+    out.append("<summary>Kompletter Report (alle scripts.asm)</summary>")
+    out.append("")
+
+    for source_file in sorted(grouped.keys()):
+        sections = sorted(grouped[source_file], key=lambda s: (s.bank_no, s.section_start, s.section_name))
+        total_size = sum(s.section_size for s in sections)
+
         out.append("<details>")
         out.append(
-            f"<summary>{section.section_name} — ROMX bank #{section.bank_no} — "
-            f"{fmt_bytes(section.section_size)}</summary>"
+            f"<summary>{source_file} — Sections: {len(sections)} — Gesamt: {fmt_bytes(total_size)}</summary>"
         )
         out.append("")
-        out.append(f"- Bereich: `${section.section_start:04X}`–`${section.section_end:04X}`")
-        out.append(f"- Dateien: {len(section.files)}")
-        out.append("")
-        out.append("| Datei | Label | Start | Ende | Größe |")
-        out.append("|---|---|---:|---:|---:|")
 
-        for entry in section.files:
+        for section in sections:
+            out.append("<details>")
             out.append(
-                f"| `{entry.include_path}` | `{entry.label}` | "
-                f"`${entry.start:04X}` | `${entry.end:04X}` | {fmt_bytes(entry.size)} |"
+                f"<summary>{section.section_name} — ROMX bank #{section.bank_no} — "
+                f"{fmt_bytes(section.section_size)}</summary>"
             )
+            out.append("")
+            out.append(f"- Bereich: `${section.section_start:04X}`–`${section.section_end:04X}`")
+            out.append(f"- Dateien: {len(section.files)}")
+            out.append("")
+            out.append("| Datei | Label | Start | Ende | Größe |")
+            out.append("|---|---|---:|---:|---:|")
 
-        out.append("")
+            for entry in section.files:
+                out.append(
+                    f"| `{entry.include_path}` | `{entry.label}` | "
+                    f"`${entry.start:04X}` | `${entry.end:04X}` | {fmt_bytes(entry.size)} |"
+                )
+
+            out.append("")
+            out.append("</details>")
+            out.append("")
+
         out.append("</details>")
         out.append("")
 
+    out.append("</details>")
+    out.append("")
     return "\n".join(out)
 
 
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("mapfile", help="Path to pokegold.map")
-    parser.add_argument("scriptsfile", help="Path to data/maps/scripts.asm")
+    parser.add_argument(
+        "scriptsfile",
+        nargs="?",
+        default=None,
+        help="Optional single scripts file (e.g. data/maps/scripts.asm). If omitted, --scripts-glob is used.",
+    )
+    parser.add_argument(
+        "--scripts-glob",
+        action="append",
+        default=["**/scripts.asm"],
+        help='Glob pattern for scripts files (default: "**/scripts.asm"). Can be repeated.',
+    )
     parser.add_argument(
         "--repo-root",
         default=None,
@@ -346,16 +396,21 @@ def main() -> int:
     repo_root = Path(args.repo_root).resolve() if args.repo_root else script_dir.parent
 
     map_path = resolve_path(repo_root, args.mapfile)
-    scripts_path = resolve_path(repo_root, args.scriptsfile)
-
     if not map_path.exists():
         print(f"error: map file not found: {map_path}", file=sys.stderr)
         return 1
-    if not scripts_path.exists():
-        print(f"error: scripts file not found: {scripts_path}", file=sys.stderr)
+
+    if args.scriptsfile:
+        scripts_paths = [resolve_path(repo_root, args.scriptsfile)]
+    else:
+        scripts_paths = find_scripts_files(repo_root, args.scripts_glob)
+
+    scripts_paths = [p for p in scripts_paths if p.exists()]
+    if not scripts_paths:
+        print("error: no scripts files found", file=sys.stderr)
         return 1
 
-    reports = build_reports(repo_root, map_path, scripts_path)
+    reports = build_reports(repo_root, map_path, scripts_paths)
     sys.stdout.write(render_summary(reports))
     if reports:
         sys.stdout.write("\n")

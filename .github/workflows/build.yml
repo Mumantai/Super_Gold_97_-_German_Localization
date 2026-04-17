@@ -88,7 +88,7 @@ jobs:
 
       - name: Bank- und Dateigrößen in Summary schreiben
         run: |
-          python3 tools/write_space_summary.py pokegold.map data/maps/scripts.asm >> bank_file_report.md
+          python3 tools/write_space_summary.py pokegold.map >> bank_file_report.md
 
       - name: Dateien hochladen
         if: success()
@@ -115,13 +115,8 @@ jobs:
             echo ""
             echo "</details>"
             echo ""
-            echo "<details><summary>Map Report</summary>"
-            echo ""
-            echo '```markdown'
             cat bank_file_report.md
-            echo '```'
             echo ""
-            echo "</details>"
             echo "<details><summary>Space allocation (shortened)</summary>"
             echo ""
             echo '```text'
