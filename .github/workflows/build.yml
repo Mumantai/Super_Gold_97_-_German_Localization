@@ -116,6 +116,7 @@ jobs:
             echo "</details>"
             echo ""
             echo "<details><summary>Map Report</summary>"
+            echo ""
             echo '```markdown'
             cat bank_file_report.md
             echo '```'
