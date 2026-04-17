@@ -12,13 +12,14 @@ MountFujiSign:
 	jumptext MountFujiSignText
 
 MountFujiSignText:
-	text "MT.FUJI"
+	text "KOROKANIABERG"
 
-	para "The Ultimate Goal"
-	line "for Trainers!"
+	para "Das Ultimative"
+	line "Ziel Aller"
+	cont "Trainer!"
 
-	para "NIHON #MON"
-	line "LEAGUE HQ"
+	para "HAUPTQUARTIER der"
+	line "#MON LIGA"
 	done
 
 FujiSummit_MapEvents:
