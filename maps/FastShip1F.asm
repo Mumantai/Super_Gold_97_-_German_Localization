@@ -210,85 +210,95 @@ MovementData_0x75238:
 	step_end
 	
 CaptainSpeakingText:
-	text "Um, hello, every-"
-	line "one."
-	para "This is your"
-	line "CAPTAIN speaking."
-	para "We've hit some un-"
-	line "expected rough"
-	cont "weather."
-	para "But everything is"
-	line "fine!"
-	para "Um, nothing is"
-	line "wrong at all!"
-	para "We will arrive as"
-	line "planned."
-	para "Uh… That is all."
+    text "Äh, hallo alle"
+    line "miteinander."
+
+    para "Hier spricht der"
+    line "KAPITÄN."
+
+    para "Wir haben mit"
+    line "unerwartet rauem"
+    cont "Wetter zu kämpfen."
+
+    para "Aber alles ist"
+    line "in Ordnung!"
+
+    para "Ähm, es ist gar"
+    line "nichts passiert!"
+
+    para "Wir werden wie"
+    line "geplant ankommen."
+
+    para "Äh… Das ist alles."
 	done
 
 
 FastShip1FSailor1Text_ToAmami:
-	text "FAST SHIP S.S.AQUA"
-	line "is en route to"
-	cont "AMAMI TOWN."
+	text "Die M.S. AQUA ist"
+	line "auf dem Weg nach"
+	cont "AMAMIA."
 
-	para "We will make an"
-	line "announcement when"
-	cont "we arrive."
+	para "Wir machen eine"
+	line "Durchsage, wenn"
+	cont "wir dort ankommen."
 	done
 
 FastShip1FSailor1Text_ToAlloy:
-	text "FAST SHIP S.S.AQUA"
-	line "is en route to"
-	cont "WESTPORT CITY."
+	text "Die M.S. AQUA ist"
+	line "auf dem Weg nach"
+	cont "PORT ABANISHI."
 
-	para "We will make an"
-	line "announcement when"
-	cont "we arrive."
+	para "Wir machen eine"
+	line "Durchsage, wenn"
+	cont "wir dort ankommen."
 	done
 
 FastShip1FSailor2Text_FirstTime:
-	text "Here's your cabin."
+	text "Das ist deine"
+	line "Kabine."
 
-	para "If your #MON"
-	line "are hurt, take a"
-	cont "nap in the bed."
+	para "Wenn deine #MON"
+	line "verletzt sind,"
+	para "dann mach hier"
+	line "ein Nickerchen."
 
-	para "That will heal"
-	line "them."
+	para "Dadurch werden"
+	line "sie geheilt."
 	done
 
 FastShip1FSailor2Text:
-	text "Here's your cabin."
+	text "Das ist deine"
+	line "Kabine."
 
-	para "You can heal your"
-	line "#MON by taking"
-	cont "a nap in the bed."
+	para "Du kannst deine"
+	line "#MON heilen,"
+	cont "indem du ein"
+	cont "Nickerchen machst."
 
-	para "The ship will"
-	line "arrive while"
-	cont "you're sleeping."
+	para "Das Schiff wird,"
+	line "während du"
+	cont "schläfst, im Ziel-"
+	cont "hafen einlaufen."
 	done
 
 FastShip1FSailor3Text:
-	text "The passengers are"
-	line "all trainers."
+	text "Alle Passagiere"
+	line "sind Trainer."
 
-	para "They're all itch-"
-	line "ing to battle in"
-	cont "their cabins."
+	para "Sie warten in"
+	line "ihren Kabinen auf"
+	cont "Herausforderer."
 	done
 
 FastShip1FSailor1Text_InAlloy:
-	text "FAST SHIP S.S.AQUA"
-	line "has arrived in"
-	cont "WESTPORT CITY."
+	text "Die M.S. AQUA legt"
+	line "in PORT ABANISHI"
+	cont "an."
 	done
 
 FastShip1FSailor1Text_InAmami:
-	text "FAST SHIP S.S.AQUA"
-	line "has arrived in"
-	cont "AMAMI TOWN."
+	text "Die M.S. AQUA legt"
+	line "in AMAMIA an."
 	done
 
 FastShip1F_MapEvents:

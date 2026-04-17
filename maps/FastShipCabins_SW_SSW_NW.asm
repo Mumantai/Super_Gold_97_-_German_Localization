@@ -111,114 +111,119 @@ FastShipCabinsNorthwestCabinTrashcan:
 	jumpstd TrashCanScript
 
 FirebreatherLyleSeenText:
-	text "I'm going to the"
-	line "ISLANDS to put on"
-	para "firebreathing"
-	line "shows!"
+	text "Ich gehe auf die"
+	line "INSELN, um meine"
+	cont "Feuerspuck-Künste"
+	cont "vorzuführen!"
 	done
 
 FirebreatherLyleBeatenText:
-	text "Fizzle… The"
-	line "flame's tiny…"
+	text "Zisch… Die"
+	line "Flamme ist klein…"
 	done
 
 FirebreatherLyleAfterBattleText:
-	text "I guess fire is"
-	line "weak on the sea."
+	text "Ich denke, Feuer"
+	line "ist schwach auf"
+	cont "hoher See."
 
-	para "It doesn't matter?"
-	line "Really?"
+	para "Das ist egal?"
+	line "Wirklich?"
 	done
 
 BugCatcherKenSeenText:
-	text "I'm visiting my"
-	line "grandma to catch"
-	cont "me some bugs!"
+	text "Ich besuche meine"
+	line "Oma, um einige"
+	cont "Käfer zu fangen!"
 	done
 
 BugCatcherKenBeatenText:
-	text "Ooh, wow."
-	line "You're tough!"
+	text "Oh, wow."
+	line "Du bist stark!"
 	done
 
 BugCatcherKenAfterBattleText:
-	text "You can find lots"
-	line "of #MON in the"
-	cont "trees of NIHON!"
+	text "In NIHON findest"
+	line "du viele #MON"
+	cont "in den Bäumen!"
 	done
 
 BeautyCassieSeenText:
-	text "I'm trying to"
-	line "forget my woes."
-	cont "Let's battle!"
+	text "Ich versuche,"
+	line "meine Leiden zu"
+	cont "vergessen. Lass"
+	cont "uns kämpfen!"
 	done
 
 BeautyCassieBeatenText:
-	text "My heart weeps…"
+	text "Mein Herz weint…"
 	done
 
 BeautyCassieAfterBattleText:
-	text "A voyage is best"
-	line "for getting over"
-	cont "a broken heart."
+	text "Eine Schiffsreise"
+	line "ist am besten,"
+	cont "um ein gebrochenes"
+	cont "Herz zu vergessen."
 
-	para "But a FAST SHIP"
-	line "trip is too short"
-	cont "for grieving."
+	para "Aber eine Reise"
+	line "mit dem SCHNELL-"
+	cont "BOOT ist für"
+	cont "die Trauer zu"
+	cont "kurz."
 	done
 
 GuitaristClydeSeenText:
-	text "I'm going to audi-"
-	line "tion my songs at"
-
-	para "the JOPM RADIO"
-	line "TOWER."
+	text "Ich werde meine"
+	line "Lieder bei der"
+	para "RADIOSTATION in"
+	line "PORT ABANISHI"
+	cont "vorspielen."
 	done
 
 GuitaristClydeBeatenText:
 	text "Yowza!"
-	line "Total distortion!"
+	line "Total verzerrt!"
 	done
 
 GuitaristClydeAfterBattleMobileText:
-	text "I was going to"
-	line "make my debut at"
-	para "the KANTO BATTLE"
-	line "CLUB."
+	text "Ich wollte mein"
+	line "Debut im KANTO"
+	cont "KAMPFCLUB geben…"
 
-	para "I should go back"
-	line "to AMAMI TOWN and"
-	cont "redo my training…"
+	para "Ich sollte nach"
+	line "AMAMIA zurückgehen"
+	cont "und härter"
+	cont "trainieren…"
 	done
 
 GuitaristClydeAfterBattleText:
-	text "Speaking of the"
-	line "RADIO STATION,"
+	text "Apropos RADIO-"
+	line "STATION: Wie "
 
-	para "what's this week's"
-	line "lucky number?"
+	para "lauten die"
+	line "Glückszahlen für"
+	cont "diese Woche?"
 	done
 
 FastShipBedText1:
-	text "A comfy bed!"
-	line "Time to sleep…"
+	text "Ein weiches Bett!"
+	line "Schlafenszeit…"
 	done
 
 FastShipBedText2:
-	text "Ah, refreshed and"
-	line "restored!"
+	text "Ah, ausgeruht und"
+	line "frisch!"
 	done
 
 FastShipArrivedAlloyText:
-	text "FAST SHIP S.S.AQUA"
-	line "has arrived in"
-	cont "WESTPORT CITY."
+	text "Die M.S. AQUA legt"
+	line "in PORT ABANISHI"
+	cont "an."
 	done
 
 FastShipArrivedAmamiText:
-	text "FAST SHIP S.S.AQUA"
-	line "has arrived in"
-	cont "AMAMI TOWN."
+	text "Die M.S. AQUA legt"
+	line "in AMAMIA an."
 	done
 
 FastShipCabins_SW_SSW_NW_MapEvents:

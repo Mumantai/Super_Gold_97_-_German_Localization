@@ -133,7 +133,7 @@ KikaiCalderaName:   db "KIKAI KRATER@"      ;
 KikaiStraitName:    db "STRAẞE VON KIKAI@"      ; Kikai - Ort in Ryukyu
 KikaiVillageName:   db "KIKAI TAL@"         ; NICHT FINAL Kikai - Ort in Ryukyu
 KobanIslandName:    db "SATORIA-INSEL@"     ; Satou (jap. Zucker)    alt. Satoria Eiland
-KumeCityName:       db "KUME CITY@"         ;
+KumeCityName:       db "KUMIA CITY@"        ; Kumijima (okinawaisch für Kume-jima) - Eine Ryukyu-Insel
 KumePointName:      db "PUNKT KUME@"        ; NICHT FINAL
 LavenderTownName:   db "LAVANDIA@"
 MagmaShaftName:     db "MAGMA-SCHACHT@"

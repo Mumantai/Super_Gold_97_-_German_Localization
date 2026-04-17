@@ -181,7 +181,7 @@ WestportDocksAfterHOFMenu:
 	db STATICMENU_CURSOR ; flags
 	db 3 ; items
 	db "TEKNOPIA CITY@"
-	db "SÜDWEST INSELN@"
+	db "SÜDWESTINSELN@"
 	db "ZURÜCK@"
 	
 WestportDocksCancel:
@@ -334,7 +334,7 @@ WelcomeToTheDocksAfterHOF:
     para "und bieten jetzt"
     line "Fahrten nach"
     para "TEKNOPIA CITY und"
-    line "NIHONs SÜDWEST"
+    line "NIHONs SÜDWEST-"
     cont "INSELN an!"
 
     para "Wohin möchtest du"
@@ -408,7 +408,7 @@ DontHaveTicketWhoopsText:
 NoTripsToIslandsTodayText:
     text "Tut mir leid, aber"
     line "die nächste Fähre"
-    para "zu den SÜDWEST"
+    para "zu den SÜDWEST-"
     line "INSELN fährt erst"
     cont "am Montag ab."
 
@@ -420,7 +420,7 @@ NoTripsToIslandsTodayText:
 NoTripsToIslandsToday2Text:
     text "Tut mir leid, aber"
     line "die nächste Fähre"
-    para "zu den SÜDWEST"
+    para "zu den SÜDWEST-"
     line "INSELN fährt erst"
     cont "am Freitag ab."
 

@@ -917,7 +917,7 @@ Oak2GiveTicketText2:
     line "ABANISHI kannst du"
     para "mit dem Schiff zu"
     line "den SÜDWESTINSELN"
-    cont "NIHON fahren."
+    cont "NIHONs fahren."
 
     para "Dort gibt es viele"
     line "seltene #MON,"
