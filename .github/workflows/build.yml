@@ -86,9 +86,9 @@ jobs:
               print()
           PY
 
-      - name: Bank- und Dateigrößen in Summary schreiben
+      - name: Größen der Map-Dateien in Summary schreiben
         run: |
-          python3 tools/write_space_summary.py pokegold.map --scripts-glob "**/scripts.asm" --scripts-glob "**/*scripts*.asm" > bank_file_report.md
+          python3 tools/write_space_summary.py pokegold.map >> bank_file_report.md
 
       - name: Dateien hochladen
         if: success()
