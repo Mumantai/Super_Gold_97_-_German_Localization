@@ -87,59 +87,66 @@ MistysRoom_EnterMovement:
 	step_end
 
 MistyScript_MistyBeforeText:
-	text "Hi, there!"
+	text "Hallo!"
 
-	para "I am MISTY of the"
-	line "ELITE FOUR."
+	para "Ich bin MISTY von"
+	line "der TOP VIER."
 
-	para "You're <PLAYER>?"
-	line "Well it's nice to"
-	cont "meet you."
-	
-	para "But I'm not just"
-	line "here for friendly"
-	cont "greetings!"
-	
-	para "My water #MON"
-	line "are ready to"
-	cont "battle."
-	para "And I'm ready to"
-	line "work with them to"
-	cont "defeat you!"
-	
-	para "Ready? I accept"
-	line "your challenge!"
+	para "Du bist <PLAYER>?"
+	line "Freut mich, dich"
+	cont "kennenzulernen."
+
+	para "Ich bin aber nicht"
+	line "nur für Nettig-"
+	cont "keiten hier!"
+
+	para "Meine Wasser-"
+	line "#MON sind"
+	cont "kampfbereit."
+
+	para "Und ich bin"
+	line "bereit, mit ihnen"
+	cont "daran zu arbeiten,"
+	cont "dich zu besiegen!"
+
+	para "Bereit? Ich nehme"
+	line "deine Heraus-"
+	line "forderung an!"
 	done
 
 MistyScript_MistyBeatenText:
-	text "Well, looks like"
-	line "you were ready to"
-	para "battle alongside"
-	line "your #MON as"
-	cont "well!"
+	text "Sieht so aus,"
+	line "als warst du"
+	para "auch bereit,"
+	line "an der Seite"
+	cont "deiner #MON"
+	cont "zu kämpfen!"
 	done
 
 MistyScript_MistyDefeatText:
-	text "The best #MON"
-	line "trainers aren't"
-	para "the ones who pick"
-	line "the strongest"
-	cont "#MON."
-	para "They're the ones"
-	line "who battle with"
-	cont "their favorites,"
-	para "and build a bond"
-	line "between trainer"
-	cont "and #MON."
-	
-	para "And that's how"
-	line "they win."
-	
-	para "I think you've"
-	line "figured that out."
+    text "Die besten Trainer"
+    line "sind nicht die,"
+    para "die die stärksten"
+    line "#MON benutzen."
 
-	para "Go on--the CHAM-"
-	line "PION is waiting."
+    para "Es sind die, die"
+    line "mit ihren"
+    para "Lieblings-#MON"
+    line "kämpfen und eine"
+    para "starke Bindung"
+    line "zwischen Trainer"
+    cont "und #MON"
+    cont "aufbauen."
+
+    para "Und so gewinnen"
+    line "sie."
+
+    para "Ich glaube, du"
+    line "hast das schon"
+    cont "herausgefunden."
+
+    para "Geh weiter."
+    line "Der CHAMP wartet."
 	done
 
 MistysRoom_MapEvents:

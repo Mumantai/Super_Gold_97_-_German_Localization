@@ -89,56 +89,62 @@ AgathasRoom_EnterMovement:
 AgathaScript_AgathaBeforeText:
 	text "Oho!"
 
-	para "So, old OAK has"
-	line "sent another child"
-	cont "on one of his"
-	cont "foolish errands…"
+	para "Da hat der alte"
+	line "EICH also wieder"
+	para "ein neues Kind"
+	line "als Laufburschen"
+	cont "losgeschickt…"
 
-	para "I am AGATHA of"
-	line "the ELITE FOUR."
-	
-	para "My years have seen"
-	line "many travels and"
-	cont "turmoil."
-	
-	para "That old fool OAK"
-	line "just lives in his"
-	cont "childhood dreams."
-	
-	para "#MON have"
-	line "always been for"
-	cont "battling!"
+    para "Ich bin AGATHE"
+    line "aus dem Team der"
+    cont "TOP VIER!"
 
-	para "Tell me, child."
+    para "In meinem Leben,"
+    line "habe ich schon"
+    cont "viel gesehen und"
+    cont "erlebt."
 
-	para "How far will your"
-	line "resolve take you"
-	para "in your journey"
-	line "to complete the"
-	cont "#DEX?"
-	
-	para "Let's find out."
-    line "Fufufufu…"
+    para "EICH, dieser alte"
+    line "Narr, lebt nur in"
+    cont "seinen Kindheits-"
+    cont "träumen."
+
+    para "#MON waren"
+    line "schon immer zum"
+    cont "Kämpfen da!"
+
+    para "Sag mir, Kind."
+
+    para "Wie weit wird dein"
+    line "Ehrgeiz dich, auf"
+    para "deiner Reise, den"
+    line "#DEX zu"
+    cont "vervollständigen,"
+    cont "bringen?"
+
+    para "Fufufufu…"
+    line "Finden wir es"
+    cont "doch heraus!"
 	done
 
 AgathaScript_BrunoBeatenText:
-	text "My gracious!"
-	
-	para "You certainly have"
-	line "it, my child."
+	text "Meine Güte!"
+
+	para "Da hast es echt"
+	line "drauf, mein Kind!"
 	done
 
 AgathaScript_AgathaDefeatText:
 	text "Hmm…"
-	
-	para "Perhaps that old"
-	line "fool does know"
-	cont "your potential."
-	
-	para "Run along now."
-	
-	para "Your journey is"
-	line "not yet over."
+
+	para "Vielleicht hat der"
+	line "alte Narr doch ein"
+	cont "gutes Gespür.
+
+	para "Nun geh weiter."
+
+	para "Dein Weg ist noch"
+	line "nicht zu Ende."
 	done
 
 AgathasRoom_MapEvents:

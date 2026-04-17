@@ -3767,7 +3767,7 @@ MysticalmanGroup:
 	
 EngineerGroup:; use super nerd sprite
 	; ENGINEER (1)
-	db "DAVIDSON@", TRAINERTYPE_NORMAL ;used, victory road 1f
+	db "DAVID@", TRAINERTYPE_NORMAL ;used, victory road 1f
 	db 38, ELEKID
 	db 40, ELECTABUZZ
 	db 39, ELECTRODE
