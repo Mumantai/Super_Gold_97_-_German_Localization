@@ -388,13 +388,15 @@ INCLUDE "maps/WestportPortPassage.asm"
 INCLUDE "maps/TeknosPortPassage.asm"
 INCLUDE "maps/AmamiPortPassage.asm"
 INCLUDE "maps/MountFujiOutside.asm"
-INCLUDE "maps/BoulderMineB4FGiftShop.asm"
-INCLUDE "maps/FiveFloorTowerRoof.asm"
-INCLUDE "maps/KantoRestaurant.asm"
+
 
 
 SECTION "Map Scripts 26", ROMX
 
+
+INCLUDE "maps/BoulderMineB4FGiftShop.asm"
+INCLUDE "maps/FiveFloorTowerRoof.asm"
+INCLUDE "maps/KantoRestaurant.asm"
 INCLUDE "maps/StandMart.asm"
 INCLUDE "maps/StandCityZooOffice.asm"
 INCLUDE "maps/OldFuchsiaGym.asm"
