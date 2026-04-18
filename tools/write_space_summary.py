@@ -32,7 +32,8 @@ from typing import Dict, List, Optional, Tuple
 from mapreader import MapReader
 
 
-SECTION_RE = re.compile(r'^\s*SECTION\s+"([^"]+)",\s*ROMX\b')
+# Accept ROMX and ROM declarations in scripts files.
+SECTION_RE = re.compile(r'^\s*SECTION\s+"([^"]+)",\s*ROM(?:X)?\b')
 INCLUDE_RE = re.compile(r'^\s*INCLUDE\s+"([^"]+)"')
 GLOBAL_LABEL_RE = re.compile(r'^\s*([A-Za-z_][A-Za-z0-9_]*)\s*::?')
 
@@ -147,20 +148,11 @@ def load_reader(map_path: Path) -> MapReader:
 
 
 def pick_banked_rom_type(reader: MapReader) -> Optional[str]:
-    # Prefer ROMX explicitly.
-    if "ROMX" in reader.bank_types and reader.bank_types["ROMX"].get("banked", False):
-        if reader.bank_data.get("ROMX"):
-            return "ROMX"
+    # 1) Prefer ROMX if it has bank data.
+    if reader.bank_data.get("ROMX"):
+        return "ROMX"
 
-    # Otherwise choose any banked type containing "ROM" but NOT ROM0.
-    for t_name, t_info in reader.bank_types.items():
-        up = t_name.upper()
-        if up == "ROM0":
-            continue
-        if t_info.get("banked", False) and "ROM" in up and reader.bank_data.get(t_name):
-            return t_name
-
-    # Fallback: any banked type except ROM0.
+    # 2) Any banked type with data, but never ROM0.
     for t_name, t_info in reader.bank_types.items():
         if t_name.upper() == "ROM0":
             continue
@@ -196,16 +188,20 @@ def lookup_symbol_address(
     candidates = symbol_index.get(symbol_name, [])
     if not candidates:
         return None
+
     local = [c for c in candidates if section_beg <= c["address"] <= section_end]
     if local:
         candidates = local
+
     candidates = sorted(candidates, key=lambda c: c["address"])
     return candidates[0]["address"] if candidates else None
 
 
-def build_base_bank_reports(reader: MapReader, bank_type: str) -> Tuple[List[BankReport], Dict[Tuple[int, str], SectionReport]]:
-    bank_type_info = reader.bank_types[bank_type]
-    # Use declared bank size if available; fallback to 0x4000.
+def build_base_bank_reports(
+    reader: MapReader,
+    bank_type: str,
+) -> Tuple[List[BankReport], Dict[Tuple[int, str], SectionReport]]:
+    bank_type_info = reader.bank_types.get(bank_type, {})
     bank_size = bank_type_info.get("size", 0x4000)
 
     by_bank: List[BankReport] = []
@@ -259,7 +255,7 @@ def attach_file_breakdown(
     for p in scripts_paths:
         parsed_sections.extend(parse_scripts_file(p, repo_root))
 
-    # Build quick map section index by name (first match), as fallback.
+    # Name->section fallback (first occurrence)
     section_index_by_name: Dict[str, dict] = {}
     for bank_no, bank_data in reader.bank_data.get(bank_type, {}).items():
         for sec in bank_data.get("sections", []):
@@ -285,19 +281,16 @@ def attach_file_breakdown(
         target.source_scripts = source_scripts
 
         entries: List[FileReport] = []
-        failed = False
 
         for include_rel in includes:
             include_path = resolve_path(repo_root, include_rel)
             label = first_global_label(include_path)
             if label is None:
-                failed = True
-                break
+                continue
 
             start = lookup_symbol_address(symbol_index, label, map_sec["beg"], map_sec["end"])
             if start is None:
-                failed = True
-                break
+                continue
 
             entries.append(
                 FileReport(
@@ -309,7 +302,7 @@ def attach_file_breakdown(
                 )
             )
 
-        if failed or not entries:
+        if not entries:
             continue
 
         entries.sort(key=lambda e: e.start)
@@ -334,7 +327,7 @@ def render_summary(bank_reports: List[BankReport]) -> str:
     bank_name = bank_reports[0].bank_name
     out.append(f"# {bank_name} bank report")
     out.append("")
-    out.append("Structure: bank → section → files")
+    out.append("Structure: bank -> section -> files")
     out.append("")
 
     total_banks = len(bank_reports)
@@ -363,7 +356,7 @@ def render_summary(bank_reports: List[BankReport]) -> str:
             out.append("<details>")
             out.append(
                 f"<summary>{sec.section_name} — "
-                f"Range: `${sec.section_start:04X}`–`${sec.section_end:04X}` — "
+                f"Range: `${sec.section_start:04X}`-`${sec.section_end:04X}` — "
                 f"Size: {fmt_bytes(sec.section_size)}</summary>"
             )
             out.append("")
