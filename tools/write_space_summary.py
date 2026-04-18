@@ -212,6 +212,35 @@ def lookup_symbol_address(
     return candidates[0]["address"] if candidates else None
 
 
+def compute_used_bytes_from_symbols(section_info: dict) -> int:
+    """
+    Compute used bytes in a section from map symbols, instead of include ranges.
+    This avoids reporting Free=0 when include-derived ranges are contiguous.
+    """
+    sec_beg = section_info["beg"]
+    sec_end = section_info["end"]
+    section_size = sec_end - sec_beg + 1
+
+    symbols = sorted(
+        {sym["address"] for sym in section_info.get("symbols", []) if sec_beg <= sym["address"] <= sec_end}
+    )
+
+    if not symbols:
+        return 0
+
+    used = 0
+    for i, addr in enumerate(symbols):
+        if i + 1 < len(symbols):
+            end_addr = symbols[i + 1] - 1
+        else:
+            end_addr = sec_end
+
+        if end_addr >= addr:
+            used += end_addr - addr + 1
+
+    return min(max(used, 0), section_size)
+
+
 def build_reports(
     repo_root: Path,
     map_path: Path,
@@ -298,8 +327,8 @@ def build_reports(
             entry.end = end
             entry.size = end - entry.start + 1
 
-        used_size = sum(e.size for e in file_entries)
         section_size = sec_end - sec_beg + 1
+        used_size = compute_used_bytes_from_symbols(section_info)
         free_space = max(0, section_size - used_size)
 
         reports.append(

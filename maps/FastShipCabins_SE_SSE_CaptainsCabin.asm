@@ -222,9 +222,9 @@ SSAquaCaptainShipIsBrokenText:
     cont "bis nach AMAMIA."
 
     para "Aber wir können"
-    line "nicht zurückfahren,"
-    cont "bis das repariert"
-    cont "ist!"
+    line "nicht zurück-"
+    cont "fahren bis das"
+    cont "repariert ist!"
 
     para "Es ist vielleicht"
     line "viel verlangt,"
