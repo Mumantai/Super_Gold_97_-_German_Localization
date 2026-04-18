@@ -14,12 +14,10 @@ Usage examples:
   python3 tools/write_space_summary.py pokegold.map --scripts-glob "**/scripts.asm"
   python3 tools/write_space_summary.py pokegold.map --scripts-glob "**/scripts.asm" --scripts-glob "**/*scripts*.asm"
 
-Creates a GitHub Actions summary that shows:
-- scripts source file
-- ROMX section name
+Creates a GitHub Actions summary organized as:
 - ROM bank
-- per-file ROM sizes inside each SECTION
-- per-section used/free space
+  - sections in this bank
+    - files in each section (with estimated per-file size)
 """
 
 from __future__ import annotations
@@ -37,6 +35,8 @@ from mapreader import MapReader
 SECTION_RE = re.compile(r'^\s*SECTION\s+"([^"]+)",\s*ROMX\b')
 INCLUDE_RE = re.compile(r'^\s*INCLUDE\s+"([^"]+)"')
 GLOBAL_LABEL_RE = re.compile(r'^\s*([A-Za-z_][A-Za-z0-9_]*)\s*::?')
+
+ROMX_BANK_SIZE = 0x4000
 
 
 @dataclass
@@ -56,15 +56,19 @@ class SectionReport:
     section_start: int
     section_end: int
     files: List[FileReport]
-    free_space: int = 0
 
     @property
     def section_size(self) -> int:
         return self.section_end - self.section_start + 1
 
-    @property
-    def used_space(self) -> int:
-        return max(0, self.section_size - self.free_space)
+
+@dataclass
+class BankReport:
+    bank_no: int
+    sections: List[SectionReport]
+    used_bytes: int
+    free_bytes: int
+    total_bytes: int = ROMX_BANK_SIZE
 
 
 def fmt_bytes(value: int) -> str:
@@ -148,23 +152,20 @@ def load_map_reader(map_path: Path) -> MapReader:
 def build_section_index(reader: MapReader) -> Dict[str, dict]:
     section_index: Dict[str, dict] = {}
 
-    for bank_type_name, bank_type in reader.bank_types.items():
-        if not bank_type["banked"]:
-            continue
-
-        bank_group = reader.bank_data.get(bank_type_name, {})
-        for bank_no, bank_data in bank_group.items():
-            for section in bank_data.get("sections", []):
-                section_index.setdefault(
-                    section["name"],
-                    {
-                        "bank_type": bank_type_name,
-                        "bank_no": bank_no,
-                        "beg": section["beg"],
-                        "end": section["end"],
-                        "symbols": section.get("symbols", []),
-                    },
-                )
+    # Only ROMX (banked ROM) sections for this report.
+    bank_group = reader.bank_data.get("ROMX", {})
+    for bank_no, bank_data in bank_group.items():
+        for section in bank_data.get("sections", []):
+            section_index.setdefault(
+                section["name"],
+                {
+                    "bank_type": "ROMX",
+                    "bank_no": bank_no,
+                    "beg": section["beg"],
+                    "end": section["end"],
+                    "symbols": section.get("symbols", []),
+                },
+            )
 
     return section_index
 
@@ -172,24 +173,20 @@ def build_section_index(reader: MapReader) -> Dict[str, dict]:
 def build_symbol_index(reader: MapReader) -> Dict[str, List[dict]]:
     symbol_index: Dict[str, List[dict]] = {}
 
-    for bank_type_name, bank_type in reader.bank_types.items():
-        if not bank_type["banked"]:
-            continue
-
-        bank_group = reader.bank_data.get(bank_type_name, {})
-        for bank_no, bank_data in bank_group.items():
-            for section in bank_data.get("sections", []):
-                for sym in section.get("symbols", []):
-                    symbol_index.setdefault(sym["name"], []).append(
-                        {
-                            "address": sym["address"],
-                            "section_name": section["name"],
-                            "section_beg": section["beg"],
-                            "section_end": section["end"],
-                            "bank_type": bank_type_name,
-                            "bank_no": bank_no,
-                        }
-                    )
+    bank_group = reader.bank_data.get("ROMX", {})
+    for bank_no, bank_data in bank_group.items():
+        for section in bank_data.get("sections", []):
+            for sym in section.get("symbols", []):
+                symbol_index.setdefault(sym["name"], []).append(
+                    {
+                        "address": sym["address"],
+                        "section_name": section["name"],
+                        "section_beg": section["beg"],
+                        "section_end": section["end"],
+                        "bank_type": "ROMX",
+                        "bank_no": bank_no,
+                    }
+                )
 
     return symbol_index
 
@@ -212,36 +209,7 @@ def lookup_symbol_address(
     return candidates[0]["address"] if candidates else None
 
 
-def compute_used_bytes_from_symbols(section_info: dict) -> int:
-    """
-    Compute used bytes in a section from map symbols, instead of include ranges.
-    This avoids reporting Free=0 when include-derived ranges are contiguous.
-    """
-    sec_beg = section_info["beg"]
-    sec_end = section_info["end"]
-    section_size = sec_end - sec_beg + 1
-
-    symbols = sorted(
-        {sym["address"] for sym in section_info.get("symbols", []) if sec_beg <= sym["address"] <= sec_end}
-    )
-
-    if not symbols:
-        return 0
-
-    used = 0
-    for i, addr in enumerate(symbols):
-        if i + 1 < len(symbols):
-            end_addr = symbols[i + 1] - 1
-        else:
-            end_addr = sec_end
-
-        if end_addr >= addr:
-            used += end_addr - addr + 1
-
-    return min(max(used, 0), section_size)
-
-
-def build_reports(
+def build_section_reports(
     repo_root: Path,
     map_path: Path,
     scripts_paths: List[Path],
@@ -309,6 +277,7 @@ def build_reports(
         if missing_label or not file_entries:
             continue
 
+        # Estimate per-file ranges by include order (within this section).
         for i, entry in enumerate(file_entries):
             if i + 1 < len(file_entries):
                 next_start = file_entries[i + 1].start
@@ -327,10 +296,6 @@ def build_reports(
             entry.end = end
             entry.size = end - entry.start + 1
 
-        section_size = sec_end - sec_beg + 1
-        used_size = compute_used_bytes_from_symbols(section_info)
-        free_space = max(0, section_size - used_size)
-
         reports.append(
             SectionReport(
                 source_scripts=source_scripts,
@@ -339,59 +304,89 @@ def build_reports(
                 section_start=sec_beg,
                 section_end=sec_end,
                 files=file_entries,
-                free_space=free_space,
             )
         )
 
     return reports
 
 
-def render_summary(reports: List[SectionReport]) -> str:
+def build_bank_reports(reader: MapReader, section_reports: List[SectionReport]) -> List[BankReport]:
+    # Real bank usage must come from full map bank sections, not from script-derived slices.
+    bank_reports: List[BankReport] = []
+    by_bank: Dict[int, List[SectionReport]] = {}
+
+    for s in section_reports:
+        by_bank.setdefault(s.bank_no, []).append(s)
+
+    romx_group = reader.bank_data.get("ROMX", {})
+    for bank_no in sorted(by_bank.keys()):
+        map_bank = romx_group.get(bank_no, {})
+        map_sections = map_bank.get("sections", [])
+
+        used_bytes = sum(sec["end"] - sec["beg"] + 1 for sec in map_sections)
+        used_bytes = min(max(used_bytes, 0), ROMX_BANK_SIZE)
+        free_bytes = max(0, ROMX_BANK_SIZE - used_bytes)
+
+        sections = sorted(by_bank[bank_no], key=lambda s: (s.section_start, s.section_name))
+        bank_reports.append(
+            BankReport(
+                bank_no=bank_no,
+                sections=sections,
+                used_bytes=used_bytes,
+                free_bytes=free_bytes,
+            )
+        )
+
+    return bank_reports
+
+
+def render_summary(bank_reports: List[BankReport]) -> str:
     out: List[str] = []
-    out.append("# File sizes in ROMX sections")
+    out.append("# ROMX bank report")
     out.append("")
     out.append(
-        "Sizes refer to each file's ROM area "
-        "(from the first global label to the next file start within the same `SECTION`)."
+        "Structure: ROM bank → sections → files. "
+        "Bank used/free values are derived from full map bank occupancy."
     )
     out.append("")
 
-    if not reports:
-        out.append("_No analyzable sections found._")
+    if not bank_reports:
+        out.append("_No analyzable ROMX banks found._")
         return "\n".join(out)
 
-    grouped: Dict[str, List[SectionReport]] = {}
-    for r in reports:
-        grouped.setdefault(r.source_scripts, []).append(r)
+    total_banks = len(bank_reports)
+    grand_total = total_banks * ROMX_BANK_SIZE
+    grand_used = sum(b.used_bytes for b in bank_reports)
+    grand_free = sum(b.free_bytes for b in bank_reports)
 
     out.append("<details>")
-    out.append("<summary>Full report (all scripts.asm files)</summary>")
+    out.append(
+        f"<summary>Full report — Banks: {total_banks} — "
+        f"Total: {fmt_bytes(grand_total)} — Used: {fmt_bytes(grand_used)} — Free: {fmt_bytes(grand_free)}</summary>"
+    )
     out.append("")
 
-    for source_file in sorted(grouped.keys()):
-        sections = sorted(grouped[source_file], key=lambda s: (s.bank_no, s.section_start, s.section_name))
-        total_size = sum(s.section_size for s in sections)
-        total_used = sum(s.used_space for s in sections)
-        total_free = sum(s.free_space for s in sections)
-
+    for bank in bank_reports:
         out.append("<details>")
         out.append(
-            f"<summary>{source_file} — Sections: {len(sections)} — "
-            f"Total: {fmt_bytes(total_size)} — Used: {fmt_bytes(total_used)} — Free: {fmt_bytes(total_free)}</summary>"
+            f"<summary>ROMX bank #{bank.bank_no} — "
+            f"Total: {fmt_bytes(bank.total_bytes)} — Used: {fmt_bytes(bank.used_bytes)} — Free: {fmt_bytes(bank.free_bytes)}</summary>"
         )
         out.append("")
 
-        for section in sections:
+        out.append(f"- Sections in report: {len(bank.sections)}")
+        out.append("")
+
+        for section in bank.sections:
             out.append("<details>")
             out.append(
-                f"<summary>{section.section_name} — ROMX bank #{section.bank_no} — "
-                f"Size: {fmt_bytes(section.section_size)} — Used: {fmt_bytes(section.used_space)} — Free: {fmt_bytes(section.free_space)}</summary>"
+                f"<summary>{section.section_name} — "
+                f"Range: `${section.section_start:04X}`–`${section.section_end:04X}` — "
+                f"Size: {fmt_bytes(section.section_size)}</summary>"
             )
             out.append("")
-            out.append(f"- Range: `${section.section_start:04X}`–`${section.section_end:04X}`")
+            out.append(f"- Source scripts file: `{section.source_scripts}`")
             out.append(f"- Files: {len(section.files)}")
-            out.append(f"- Used in section: {fmt_bytes(section.used_space)}")
-            out.append(f"- Free in section: {fmt_bytes(section.free_space)}")
             out.append("")
             out.append("| File | Label | Start | End | Size |")
             out.append("|---|---|---:|---:|---:|")
@@ -454,9 +449,12 @@ def main() -> int:
         print("error: no scripts files found", file=sys.stderr)
         return 1
 
-    reports = build_reports(repo_root, map_path, scripts_paths)
-    sys.stdout.write(render_summary(reports))
-    if reports:
+    reader = load_map_reader(map_path)
+    section_reports = build_section_reports(repo_root, map_path, scripts_paths)
+    bank_reports = build_bank_reports(reader, section_reports)
+
+    sys.stdout.write(render_summary(bank_reports))
+    if bank_reports:
         sys.stdout.write("\n")
     return 0
 
