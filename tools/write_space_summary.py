@@ -10,14 +10,14 @@ Usage examples:
   # Restrict to one file (backward-compatible style)
   python3 tools/write_space_summary.py pokegold.map data/maps/scripts.asm
 
-  # Custom glob(s)
+  # Custom globs
   python3 tools/write_space_summary.py pokegold.map --scripts-glob "**/scripts.asm"
   python3 tools/write_space_summary.py pokegold.map --scripts-glob "**/scripts.asm" --scripts-glob "**/*scripts*.asm"
 
-Creates a GitHub Actions summary organized as:
+Outputs markdown suitable for GitHub Actions summary:
 - ROM bank
-  - sections in this bank
-    - files in each section (with estimated per-file size)
+  - sections in that bank
+    - files in each section (estimated by first global labels)
 """
 
 from __future__ import annotations
@@ -27,7 +27,7 @@ import re
 import sys
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Tuple
 
 from mapreader import MapReader
 
@@ -36,7 +36,7 @@ SECTION_RE = re.compile(r'^\s*SECTION\s+"([^"]+)",\s*ROMX\b')
 INCLUDE_RE = re.compile(r'^\s*INCLUDE\s+"([^"]+)"')
 GLOBAL_LABEL_RE = re.compile(r'^\s*([A-Za-z_][A-Za-z0-9_]*)\s*::?')
 
-ROMX_BANK_SIZE = 0x4000
+ROM_BANK_SIZE = 0x4000
 
 
 @dataclass
@@ -65,19 +65,19 @@ class SectionReport:
 @dataclass
 class BankReport:
     bank_no: int
+    total: int
+    used: int
+    free: int
     sections: List[SectionReport]
-    used_bytes: int
-    free_bytes: int
-    total_bytes: int = ROMX_BANK_SIZE
 
 
 def fmt_bytes(value: int) -> str:
     return f"{value} B (0x{value:04X})"
 
 
-def resolve_path(base: Path, path_arg: str) -> Path:
-    p = Path(path_arg)
-    return p if p.is_absolute() else base / p
+def resolve_path(base: Path, p: str) -> Path:
+    path = Path(p)
+    return path if path.is_absolute() else base / path
 
 
 def find_scripts_files(repo_root: Path, patterns: List[str]) -> List[Path]:
@@ -98,15 +98,15 @@ def parse_scripts_file(path: Path, repo_root: Path) -> List[dict]:
     current: Optional[dict] = None
     source_rel = path.relative_to(repo_root).as_posix()
 
-    for raw_line in path.read_text(encoding="utf-8").splitlines():
-        line = raw_line.strip()
+    for raw in path.read_text(encoding="utf-8").splitlines():
+        line = raw.strip()
 
-        m_section = SECTION_RE.match(line)
-        if m_section:
+        m_sec = SECTION_RE.match(line)
+        if m_sec:
             if current is not None:
                 sections.append(current)
             current = {
-                "name": m_section.group(1),
+                "name": m_sec.group(1),
                 "includes": [],
                 "source_scripts": source_rel,
             }
@@ -115,9 +115,9 @@ def parse_scripts_file(path: Path, repo_root: Path) -> List[dict]:
         if current is None:
             continue
 
-        m_include = INCLUDE_RE.match(line)
-        if m_include:
-            current["includes"].append(m_include.group(1))
+        m_inc = INCLUDE_RE.match(line)
+        if m_inc:
+            current["includes"].append(m_inc.group(1))
 
     if current is not None:
         sections.append(current)
@@ -129,8 +129,8 @@ def first_global_label(path: Path) -> Optional[str]:
     if not path.exists():
         return None
 
-    for raw_line in path.read_text(encoding="utf-8").splitlines():
-        code = raw_line.split(";", 1)[0].rstrip()
+    for raw in path.read_text(encoding="utf-8").splitlines():
+        code = raw.split(";", 1)[0].rstrip()
         if not code.strip():
             continue
         if code.lstrip().startswith("."):
@@ -143,52 +143,62 @@ def first_global_label(path: Path) -> Optional[str]:
     return None
 
 
-def load_map_reader(map_path: Path) -> MapReader:
+def load_reader(map_path: Path) -> MapReader:
     reader = MapReader()
     reader.read_map_data(map_path.read_text(encoding="utf-8").splitlines())
     return reader
 
 
-def build_section_index(reader: MapReader) -> Dict[str, dict]:
-    section_index: Dict[str, dict] = {}
+def detect_rom_banked_type(reader: MapReader) -> Optional[str]:
+    # 1) Prefer explicit ROMX key
+    if reader.bank_data.get("ROMX"):
+        return "ROMX"
 
-    # Only ROMX (banked ROM) sections for this report.
-    bank_group = reader.bank_data.get("ROMX", {})
+    # 2) Look for banked type with ROM-ish name
+    for t_name, t_info in reader.bank_types.items():
+        if not t_info.get("banked", False):
+            continue
+        if "ROM" in t_name.upper() and reader.bank_data.get(t_name):
+            return t_name
+
+    # 3) Fallback: any banked type with data
+    for t_name, t_info in reader.bank_types.items():
+        if t_info.get("banked", False) and reader.bank_data.get(t_name):
+            return t_name
+
+    return None
+
+
+def build_map_indexes(reader: MapReader, rom_type: str) -> Tuple[Dict[str, dict], Dict[str, List[dict]], Dict[int, dict]]:
+    section_by_name: Dict[str, dict] = {}
+    symbol_index: Dict[str, List[dict]] = {}
+    bank_index: Dict[int, dict] = {}
+
+    bank_group = reader.bank_data.get(rom_type, {})
     for bank_no, bank_data in bank_group.items():
+        bank_index[bank_no] = bank_data
         for section in bank_data.get("sections", []):
-            section_index.setdefault(
+            section_by_name.setdefault(
                 section["name"],
                 {
-                    "bank_type": "ROMX",
                     "bank_no": bank_no,
                     "beg": section["beg"],
                     "end": section["end"],
                     "symbols": section.get("symbols", []),
                 },
             )
-
-    return section_index
-
-
-def build_symbol_index(reader: MapReader) -> Dict[str, List[dict]]:
-    symbol_index: Dict[str, List[dict]] = {}
-
-    bank_group = reader.bank_data.get("ROMX", {})
-    for bank_no, bank_data in bank_group.items():
-        for section in bank_data.get("sections", []):
             for sym in section.get("symbols", []):
                 symbol_index.setdefault(sym["name"], []).append(
                     {
                         "address": sym["address"],
+                        "bank_no": bank_no,
                         "section_name": section["name"],
                         "section_beg": section["beg"],
                         "section_end": section["end"],
-                        "bank_type": "ROMX",
-                        "bank_no": bank_no,
                     }
                 )
 
-    return symbol_index
+    return section_by_name, symbol_index, bank_index
 
 
 def lookup_symbol_address(
@@ -201,9 +211,9 @@ def lookup_symbol_address(
     if not candidates:
         return None
 
-    in_section = [c for c in candidates if section_beg <= c["address"] <= section_end]
-    if in_section:
-        candidates = in_section
+    local = [c for c in candidates if section_beg <= c["address"] <= section_end]
+    if local:
+        candidates = local
 
     candidates = sorted(candidates, key=lambda c: c["address"])
     return candidates[0]["address"] if candidates else None
@@ -213,55 +223,55 @@ def build_section_reports(
     repo_root: Path,
     map_path: Path,
     scripts_paths: List[Path],
-) -> List[SectionReport]:
-    reader = load_map_reader(map_path)
-    section_index = build_section_index(reader)
-    symbol_index = build_symbol_index(reader)
+) -> Tuple[List[SectionReport], MapReader, str, Dict[int, dict]]:
+    reader = load_reader(map_path)
+    rom_type = detect_rom_banked_type(reader)
+    if rom_type is None:
+        return [], reader, "", {}
 
-    scripts: List[dict] = []
+    section_by_name, symbol_index, bank_index = build_map_indexes(reader, rom_type)
+
+    parsed_sections: List[dict] = []
     for scripts_path in scripts_paths:
-        scripts.extend(parse_scripts_file(scripts_path, repo_root))
+        parsed_sections.extend(parse_scripts_file(scripts_path, repo_root))
 
     reports: List[SectionReport] = []
 
-    for section in scripts:
-        section_name = section["name"]
-        includes = section["includes"]
-        source_scripts = section["source_scripts"]
+    for sec in parsed_sections:
+        section_name = sec["name"]
+        includes = sec["includes"]
+        source_scripts = sec["source_scripts"]
 
-        section_info = section_index.get(section_name)
-        if section_info is None:
+        map_sec = section_by_name.get(section_name)
+        if map_sec is None:
             print(
-                f"warning: no ROMX section named '{section_name}' found in {map_path}",
+                f"warning: no section named '{section_name}' found in map",
                 file=sys.stderr,
             )
             continue
 
-        sec_beg = section_info["beg"]
-        sec_end = section_info["end"]
-        bank_no = section_info["bank_no"]
+        sec_beg = map_sec["beg"]
+        sec_end = map_sec["end"]
+        bank_no = map_sec["bank_no"]
 
         file_entries: List[FileReport] = []
-        missing_label = False
+        failed = False
 
         for include_rel in includes:
-            source_path = resolve_path(repo_root, include_rel)
-            label = first_global_label(source_path)
+            include_path = resolve_path(repo_root, include_rel)
+            label = first_global_label(include_path)
             if label is None:
-                print(
-                    f"warning: no global label found in {include_rel}",
-                    file=sys.stderr,
-                )
-                missing_label = True
+                print(f"warning: no global label in {include_rel}", file=sys.stderr)
+                failed = True
                 break
 
             start = lookup_symbol_address(symbol_index, label, sec_beg, sec_end)
             if start is None:
                 print(
-                    f"warning: could not find symbol '{label}' from {include_rel} in {map_path}",
+                    f"warning: could not map label '{label}' from {include_rel} in section {section_name}",
                     file=sys.stderr,
                 )
-                missing_label = True
+                failed = True
                 break
 
             file_entries.append(
@@ -274,25 +284,15 @@ def build_section_reports(
                 )
             )
 
-        if missing_label or not file_entries:
+        if failed or not file_entries:
             continue
 
-        # Estimate per-file ranges by include order (within this section).
+        # Estimate file ranges by include order + section end.
+        file_entries.sort(key=lambda e: e.start)
         for i, entry in enumerate(file_entries):
-            if i + 1 < len(file_entries):
-                next_start = file_entries[i + 1].start
-                end = next_start - 1
-            else:
-                end = sec_end
-
+            end = (file_entries[i + 1].start - 1) if i + 1 < len(file_entries) else sec_end
             if end < entry.start:
-                print(
-                    f"warning: invalid file range in {section_name} for {entry.include_path} "
-                    f"({entry.start:04X} > {end:04X})",
-                    file=sys.stderr,
-                )
                 end = entry.start
-
             entry.end = end
             entry.size = end - entry.start + 1
 
@@ -307,57 +307,57 @@ def build_section_reports(
             )
         )
 
-    return reports
+    return reports, reader, rom_type, bank_index
 
 
-def build_bank_reports(reader: MapReader, section_reports: List[SectionReport]) -> List[BankReport]:
-    # Real bank usage must come from full map bank sections, not from script-derived slices.
-    bank_reports: List[BankReport] = []
-    by_bank: Dict[int, List[SectionReport]] = {}
-
+def build_bank_reports(
+    section_reports: List[SectionReport],
+    bank_index: Dict[int, dict],
+) -> List[BankReport]:
+    by_bank_sections: Dict[int, List[SectionReport]] = {}
     for s in section_reports:
-        by_bank.setdefault(s.bank_no, []).append(s)
+        by_bank_sections.setdefault(s.bank_no, []).append(s)
 
-    romx_group = reader.bank_data.get("ROMX", {})
-    for bank_no in sorted(by_bank.keys()):
-        map_bank = romx_group.get(bank_no, {})
-        map_sections = map_bank.get("sections", [])
+    banks: List[BankReport] = []
+    for bank_no in sorted(bank_index.keys()):
+        map_sections = bank_index[bank_no].get("sections", [])
+        used = sum(sec["end"] - sec["beg"] + 1 for sec in map_sections)
+        used = min(max(used, 0), ROM_BANK_SIZE)
+        free = max(0, ROM_BANK_SIZE - used)
 
-        used_bytes = sum(sec["end"] - sec["beg"] + 1 for sec in map_sections)
-        used_bytes = min(max(used_bytes, 0), ROMX_BANK_SIZE)
-        free_bytes = max(0, ROMX_BANK_SIZE - used_bytes)
+        bank_sections = sorted(
+            by_bank_sections.get(bank_no, []),
+            key=lambda s: (s.section_start, s.section_name),
+        )
 
-        sections = sorted(by_bank[bank_no], key=lambda s: (s.section_start, s.section_name))
-        bank_reports.append(
+        banks.append(
             BankReport(
                 bank_no=bank_no,
-                sections=sections,
-                used_bytes=used_bytes,
-                free_bytes=free_bytes,
+                total=ROM_BANK_SIZE,
+                used=used,
+                free=free,
+                sections=bank_sections,
             )
         )
 
-    return bank_reports
+    return banks
 
 
-def render_summary(bank_reports: List[BankReport]) -> str:
+def render_summary(bank_reports: List[BankReport], rom_type: str) -> str:
     out: List[str] = []
-    out.append("# ROMX bank report")
+    out.append(f"# {rom_type} bank report")
     out.append("")
-    out.append(
-        "Structure: ROM bank → sections → files. "
-        "Bank used/free values are derived from full map bank occupancy."
-    )
+    out.append("Structure: bank → section → files")
     out.append("")
 
     if not bank_reports:
-        out.append("_No analyzable ROMX banks found._")
+        out.append("_No analyzable banks found._")
         return "\n".join(out)
 
     total_banks = len(bank_reports)
-    grand_total = total_banks * ROMX_BANK_SIZE
-    grand_used = sum(b.used_bytes for b in bank_reports)
-    grand_free = sum(b.free_bytes for b in bank_reports)
+    grand_total = sum(b.total for b in bank_reports)
+    grand_used = sum(b.used for b in bank_reports)
+    grand_free = sum(b.free for b in bank_reports)
 
     out.append("<details>")
     out.append(
@@ -369,12 +369,11 @@ def render_summary(bank_reports: List[BankReport]) -> str:
     for bank in bank_reports:
         out.append("<details>")
         out.append(
-            f"<summary>ROMX bank #{bank.bank_no} — "
-            f"Total: {fmt_bytes(bank.total_bytes)} — Used: {fmt_bytes(bank.used_bytes)} — Free: {fmt_bytes(bank.free_bytes)}</summary>"
+            f"<summary>{rom_type} bank #{bank.bank_no} — "
+            f"Total: {fmt_bytes(bank.total)} — Used: {fmt_bytes(bank.used)} — Free: {fmt_bytes(bank.free)}</summary>"
         )
         out.append("")
-
-        out.append(f"- Sections in report: {len(bank.sections)}")
+        out.append(f"- Sections shown: {len(bank.sections)}")
         out.append("")
 
         for section in bank.sections:
@@ -390,13 +389,11 @@ def render_summary(bank_reports: List[BankReport]) -> str:
             out.append("")
             out.append("| File | Label | Start | End | Size |")
             out.append("|---|---|---:|---:|---:|")
-
-            for entry in section.files:
+            for f in section.files:
                 out.append(
-                    f"| `{entry.include_path}` | `{entry.label}` | "
-                    f"`${entry.start:04X}` | `${entry.end:04X}` | {fmt_bytes(entry.size)} |"
+                    f"| `{f.include_path}` | `{f.label}` | "
+                    f"`${f.start:04X}` | `${f.end:04X}` | {fmt_bytes(f.size)} |"
                 )
-
             out.append("")
             out.append("</details>")
             out.append("")
@@ -411,23 +408,23 @@ def render_summary(bank_reports: List[BankReport]) -> str:
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("mapfile", help="Path to pokegold.map")
+    parser.add_argument("mapfile", help="Path to map file (e.g. pokegold.map)")
     parser.add_argument(
         "scriptsfile",
         nargs="?",
         default=None,
-        help="Optional single scripts file (e.g. data/maps/scripts.asm). If omitted, --scripts-glob is used.",
+        help="Optional single scripts file (legacy mode). If omitted, --scripts-glob is used.",
     )
     parser.add_argument(
         "--scripts-glob",
         action="append",
         default=["**/scripts.asm"],
-        help='Glob pattern for scripts files (default: "**/scripts.asm"). Can be repeated.',
+        help='Glob for scripts files (default: "**/scripts.asm"). Can be repeated.',
     )
     parser.add_argument(
         "--repo-root",
         default=None,
-        help="Repository root (defaults to the parent of this script's directory)",
+        help="Repository root (default: parent of this script dir).",
     )
     args = parser.parse_args()
 
@@ -449,11 +446,19 @@ def main() -> int:
         print("error: no scripts files found", file=sys.stderr)
         return 1
 
-    reader = load_map_reader(map_path)
-    section_reports = build_section_reports(repo_root, map_path, scripts_paths)
-    bank_reports = build_bank_reports(reader, section_reports)
+    section_reports, reader, rom_type, bank_index = build_section_reports(repo_root, map_path, scripts_paths)
 
-    sys.stdout.write(render_summary(bank_reports))
+    if not rom_type:
+        print("error: could not detect a banked ROM type in map data", file=sys.stderr)
+        return 1
+
+    print(f"info: detected banked ROM type: {rom_type}", file=sys.stderr)
+    print(f"info: banks in map: {len(bank_index)}", file=sys.stderr)
+    print(f"info: sections mapped from scripts: {len(section_reports)}", file=sys.stderr)
+
+    bank_reports = build_bank_reports(section_reports, bank_index)
+
+    sys.stdout.write(render_summary(bank_reports, rom_type))
     if bank_reports:
         sys.stdout.write("\n")
     return 0
