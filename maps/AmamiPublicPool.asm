@@ -65,91 +65,102 @@ AmamiPublicPoolLassScript:
 	jumptextfaceplayer AmamiPublicPoolLassText
 	
 AmamiPublicPoolLassText:
-	text "A more controlled"
-	line "environment like"
-	para "an indoor pool can"
-	line "be a better place"
-	para "to train weaker"
-	line "#MON than out"
-	cont "on the open sea."
+	text "Es ist besser,"
+	line "schwächere #MON"
+	para "in einem kontrol-"
+	line "lierten Umfeld,"
+	para "wie etwas einem"
+	line "Hallenbad, zu"
+	para "trainieren, als im"
+	line "offenen Meer."
 	done
 	
 AmamiPublicPoolBugCatcherText:
-	text "I want to go"
-	line "swimming!"
+	text "Ich will schwimmen"
+	line "gehen!"
 	done
 	
 AmamiPublicPoolGrannyText:
-	text "I can't really"
-	line "swim so well any-"
-	cont "more."
-	para "But my #MON"
-	line "love the water,"
-	para "so I bring them"
-	line "here frequently."
+	text "Ich kann nicht"
+	line "mehr so gut"
+	cont "schwimmen."
+
+	para "Aber meine #MON"
+	line "lieben das Wasser,"
+	para "also bringe ich"
+	line "sie oft hierher."
 	done
 	
 AmamiPublicPoolSwimmerGirlText:
-	text "Water type #MON"
-	line "love being in the"
-	cont "water!"
-	para "Makes sense,"
-	line "right?"
+    text "Wasser-#MON"
+    line "lieben es, im"
+    cont "Wasser zu sein!"
+
+    para "Ist doch logisch,"
+    line "oder?"
 	done
 	
 AmamiPublicPoolSwimmerGuyText:
-	text "Swimming is good"
-	line "exercise for both"
-	para "people and #-"
-	line "MON!"
+    text "Schwimmen ist eine"
+    line "tolle Übung für"
+    para "Menschen, sowie"
+    line "für #MON!"
 	done
 	
 ReceiveSquirtleText:
-	text "<PLAYER> received"
-	line "SQUIRTLE."
+	text "<PLAYER> erhält"
+	line "SCHIGGY."
 	done
 	
 AlreadyGotSquirtleText:
-	text "I come here to"
-	line "swim with my"
-	para "SQUIRTLE almost"
-	line "every day!"
+	text "Ich komme fast"
+	line "jeden Tag hierher,"
+	para "um mit meinem"
+	line "SCHIGGY zu"
+	cont "schwimmen!"
 	done
 	
 PartyFullSquirtleText:
-	text "You've already got"
-	line "too many #MON"
-	cont "with you!"
+	text "Du trägst zu viele"
+	line "#MON mit dir!"
 	done
 	
 NoSquirtleText:
-	text "You sure?"
-	para "They're such great"
-	line "#MON!"
+	text "Bist du sicher?"
+
+	para "Das sind so"
+	line "tolle #MON!"
 	done
 	
 	
 ILoveSquirtleText:
-	text "SQUIRTLE are great"
-	line "swimmers!"
-	para "Have you ever gone"
-	line "swimming with a"
-	cont "SQUIRTLE?"
-	para "You have to try"
-	line "it!"
-	para "They're also great"
-	line "#MON to raise!"
-	para "I've got a young"
-	line "one that needs"
-	para "someone to train"
-	line "it."
-	para "Here, you should"
-	line "raise a SQUIRTLE!"
+    text "SCHIGGY sind tolle"
+    line "Schwimmer!"
+
+    para "Warst du schon mal"
+    line "mit einem SCHIGGY"
+    cont "schwimmen?"
+
+    para "Du solltest es mal"
+    line "ausprobieren!"
+
+    para "Sie sind auch"
+    line "tolle #MON zum"
+    cont "Trainieren!"  ; etvl. ändern
+
+    para "Ich habe ein"
+    line "junges SCHIGGY,"
+    para "das einen guten"
+    line "Trainer braucht."
+
+    para "Hier, du solltest"
+    line "ein SCHIGGY"
+    cont "aufziehen!"
 	done
 	
 GiveSquirtleText:
-	text "Help it grow up"
-	line "big and strong!"
+	text "Hilf ihm, groß und"
+	line "stark zu werden!"
 	done
 	
 AmamiPublicPool_MapEvents:

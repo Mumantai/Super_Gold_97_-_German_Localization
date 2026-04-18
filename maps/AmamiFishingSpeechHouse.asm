@@ -13,33 +13,36 @@ FishingDudesHousePhoto:
 	jumptext FishingDudesHousePhotoText
 
 FishingDudeText:
-	text "I am the FISHING"
-	line "GURU, the elder of"
-	cont "the FISHING BROS."
+	text "Ich bin der ANG-"
+	line "LER, der Ältere"
+	cont "der ANGLERBRÜDER."
 
-	para "Do you happen to"
-	line "know FISHERMAN"
+    para "Kennst du den"
+    line "ANGLER ALFRIED?"
 
-	para "WILTON? He fishes"
-	line "on ROUTE 44."
+    para "Er angelt auf"
+    line "ROUTE 44."
 
-	para "He came through"
-	line "with an amazing"
-	cont "tip on the phone."
+    para "Er hat mir einen"
+    line "tollen Tipp am"
+    cont "Telefon gegeben."
 
-	para "Thanks to him, I"
-	line "caught a whole lot"
+    para "Dank ihm habe ich"
+    line "jede Menge eines"
+    cont "seltenen #MON"
+    cont "gefangen."
 
-	para "of a rare #MON."
-	line "What a day it was!"
+    para "Was für ein Tag"
+    line "das war!"
 	done
 
 FishingDudesHousePhotoText:
-	text "It's a photo of"
-	line "people fishing…"
+	text "Das ist ein Foto,"
+	line "auf dem Angler zu"
+	cont "sehen sind…"
 
-	para "They're having a"
-	line "great time…"
+	para "Sie haben viel"
+	line "Spaß beim Angeln…"
 	done
 
 AmamiFishingSpeechHouse_MapEvents:

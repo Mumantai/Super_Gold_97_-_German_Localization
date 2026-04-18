@@ -129,9 +129,9 @@ JadeForestName:     db "JADEWALD@"
 JouleCaveName:      db "JOULE HÖHLE@"
 KantoRegionName:    db "KANTO-REGION@"      ; alt. Kanto
 KeramaStraitName:   db "STRAẞE VON KERAMA@"     ;
-KikaiCalderaName:   db "KIKAI KRATER@"      ;
-KikaiStraitName:    db "STRAẞE VON KIKAI@"      ; Kikai - Ort in Ryukyu
-KikaiVillageName:   db "KIKAI TAL@"         ; NICHT FINAL Kikai - Ort in Ryukyu
+KikaiCalderaName:   db "KIKAI KESSEL@"      ; Caldera (span. Kessel) ggf. aber auch Caldera, da Fachbegriff
+KikaiStraitName:    db "STRAẞE VON KIKAI@"  ; Kikai - Ort in Ryukyu
+KikaiVillageName:   db "KIKAITANI@"         ; NICHT FINAL Kikai - Ort in Ryukyu + tanima (jap. Tal)
 KobanIslandName:    db "SATORIA-INSEL@"     ; Satou (jap. Zucker)    alt. Satoria Eiland
 KumeCityName:       db "KUMIA CITY@"        ; Kumijima (okinawaisch für Kume-jima) - Eine Ryukyu-Insel
 KumePointName:      db "PUNKT KUME@"        ; NICHT FINAL

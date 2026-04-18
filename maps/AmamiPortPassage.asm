@@ -225,37 +225,46 @@ AmamiPortPassageTeacherText:
 	
 
 TeleportGuyText1:
-	text "Don't feel like"
-	line "taking the ship?"
-	para "Or maybe it isn't"
-	line "running today?"
-	para "Well look here!"
-	para "My beloved ABRA"
-	line "can send you back"
-	para "to the mainland in"
-	line "an instant!"
-	para "I got a buddy"
-	line "waiting at the"
-	cont "WESTPORT DOCK."
-	para "I'll send you to"
-	line "him!"
-	para "How about it?"
+    text "Fühlst du dich"
+    line "nicht danach, das"
+    cont "Schiff zu nehmen?"
+
+    para "Oder vielleicht"
+    line "fährt es heute"
+    line "gar nicht?"
+
+    para "Dann schau mal!
+
+    para "Mein liebes ABRA"
+    line "kann dich im"
+    para "Handumdrehen aufs"
+    line "Festland bringen!"
+
+    para "Ich habe einen"
+    line "Kumpel, der am"
+    para "PIER von PORT"
+    line "ABANISHI wartet."
+
+    para "Ich schicke dich"
+    line "zu ihm!"
+
+    para "Na, wie wär's?"
 	done
 	
 TeleportGuyText1_2:
-	text "Want to go to"
-	line "WESTPORT CITY?"
+	text "Möchtest du nach"
+	line "PORT ABANISHI?"
 	done
 
 TeleportGuyYesText:
-	text "OK, OK. Picture"
-	line "WESTPORT CITY in"
-	cont "your mind…"
+	text "O.K. Stell dir"
+	line "PORT ABANISHI"
+	cont "vor…"
 	done
 
 TeleportGuyNoText:
-	text "OK, OK. I'll be"
-	line "here!"
+	text "O.K. Alles"
+	line "Gute!"
 	done
 
 AbraText:

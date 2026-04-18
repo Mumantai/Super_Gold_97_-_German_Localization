@@ -48,46 +48,54 @@ AmamiTownGrampsScript:
 	jumptextfaceplayer AmamiTownGrampsText
 	
 AmamiTownGrampsText:
-	text "I've lived on this"
-	line "island my whole"
-	cont "life."
-	para "I wouldn't have"
-	line "had it any other"
-	cont "way."
+    text "Ich lebe schon"
+    line "mein ganzes Leben"
+    cont "auf dieser Insel."
+
+    para "Ich hätte es nicht"
+    line "einen Tag anders"
+    cont "haben wollen."
 	done
 	
 AmamiTownLassText1:
-	text "This is your first"
-	line "visit to AMAMI"
-	cont "TOWN, right?"
-	para "Welcome!"
+    text "Das ist dein"
+    line "erster Besuch in"
+    cont "AMAMIA, oder?"
+
+    para "Willkommen!"
 	done
 	
 AmamiTownLassText2:
-	text "We get a lot of"
-	line "visitors here."
-	para "Tourism is a very"
-	line "important industry"
-	cont "in this area."
+    text "Wir kriegen hier"
+    line "eine Menge"
+    cont "Besucher."
+
+    para "Der Tourismus ist"
+    line "eine sehr wichtige"
+    cont "Einnahmequelle in"
+    cont "dieser Gegend."
 	done
 
 AmamiTownBugCatcherText:
-	text "I've never been to"
-	line "the mainland."
-	para "One day, I want to"
-	line "ride on a FAST"
-	cont "SHIP!"
+    text "Ich war noch nie"
+    line "auf dem Festland."
+
+    para "Eines Tages möchte"
+    line "ich mit einem"
+    cont "SCHNELLBOOT"
+    cont "fahren!"
 	done
 
 AmamiTownSignText:
-	text "AMAMI TOWN"
-	para "A Destination For"
-	line "Adventurers!"
+	text "AMAMIA"
+
+	para "Ein Zielort für"
+	line "Abenteurer!"
 	done
 	
 AmamiPoolText:
-	text "AMAMI TOWN"
-	line "COMMUNITY POOL"
+	text "AMAMIA"
+	line "HALLENBAD"
 	done
 	
 AmamiTown_MapEvents:

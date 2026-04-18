@@ -33,44 +33,45 @@ AmamiTownSuperRodHouseFishingGuruScript:
 	end
 
 OfferSuperRodText:
-	text "I can see that you"
-	line "like fishing."
+	text "Wie ich sehe,"
+	line "macht dir Angeln"
+	para "Spaß. Darüber gibt"
+	line "es keinen Zweifel!"
 
-	para "There's no doubt"
-	line "in my mind at all!"
-
-	para "So? I know I'm"
-	line "right."
+	para "Na? Das stimmt"
+	line "doch, oder?"
 	done
 
 GiveSuperRodText:
-	text "Yes, yes. Just as"
-	line "I thought!"
+	text "Jawohl! Genau, wie"
+	line "ich dachte!"
 
-	para "Here, fishing fan!"
-	line "Take this--it's a"
-	cont "SUPER ROD."
+	para "Hier, Angelfreak!"
+	line "Nimm dies - die"
+	cont "SUPERANGEL."
 	done
 
 GaveSuperRodText:
-	text "Try your hand at"
-	line "fishing wherever"
-	cont "there is water."
+	text "Wirf sie aus und"
+	line "angle, wo immer"
+	cont "es Wasser gibt."
 
-	para "Remember--you can"
-	line "catch different"
+	para "Denk daran - du"
+	line "kannst mit ver-"
+	cont "schiedenen Angeln"
 
-	para "#MON using"
-	line "different RODS."
-	
-	para "The SUPER ROD is"
-	line "the best of them"
-	cont "all!"
+	para "auch verschiedene"
+	line "#MON fangen."
+
+	para "Die SUPERANGEL ist"
+	line "die beste Angel"
+	cont "von allen!"
 	done
 
 DontWantSuperRodText:
-	text "Huh? My own eyes"
-	line "deceived me?"
+	text "Hä? Meine Augen"
+	line "haben mich"
+	cont "getäuscht."
 	done
 
 AmamiTownSuperRodHouse_MapEvents:

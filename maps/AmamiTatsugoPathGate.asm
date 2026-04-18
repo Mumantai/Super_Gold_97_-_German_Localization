@@ -16,12 +16,15 @@ AmamiTatsugoPathGuardScript:
 
 
 AmamiTatsugoPathGuardWelcomeText:
-	text "Head east from"
-	line "here to get to"
-	cont "KIKAI VILLAGE."
-	para "But be ready to"
-	line "face the heat of"
-	cont "the CALDERA."
+    text "Geh von hier aus"
+    line "nach Osten, um"
+    para "nach KIKAITANI"
+    line "zu gelangen."
+
+    para "Aber sei bereit,"
+    line "der Hitze des"
+    para "KESSELs ausgesetzt"
+    line "zu sein."
 	done
 
 
