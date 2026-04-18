@@ -19,6 +19,7 @@ Creates a GitHub Actions summary that shows:
 - ROMX section name
 - ROM bank
 - per-file ROM sizes inside each SECTION
+- per-section used/free space
 """
 
 from __future__ import annotations
@@ -29,7 +30,6 @@ import sys
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Dict, List, Optional
-
 
 from mapreader import MapReader
 
@@ -56,10 +56,15 @@ class SectionReport:
     section_start: int
     section_end: int
     files: List[FileReport]
+    free_space: int = 0
 
     @property
     def section_size(self) -> int:
         return self.section_end - self.section_start + 1
+
+    @property
+    def used_space(self) -> int:
+        return max(0, self.section_size - self.free_space)
 
 
 def fmt_bytes(value: int) -> str:
@@ -293,6 +298,10 @@ def build_reports(
             entry.end = end
             entry.size = end - entry.start + 1
 
+        used_size = sum(e.size for e in file_entries)
+        section_size = sec_end - sec_beg + 1
+        free_space = max(0, section_size - used_size)
+
         reports.append(
             SectionReport(
                 source_scripts=source_scripts,
@@ -301,6 +310,7 @@ def build_reports(
                 section_start=sec_beg,
                 section_end=sec_end,
                 files=file_entries,
+                free_space=free_space,
             )
         )
 
@@ -309,16 +319,16 @@ def build_reports(
 
 def render_summary(reports: List[SectionReport]) -> str:
     out: List[str] = []
-    out.append("# ROM-Dateigrößen pro scripts.asm")
+    out.append("# File sizes in ROMX sections")
     out.append("")
     out.append(
-        "Die Größen beziehen sich auf den ROM-Bereich der jeweiligen Datei "
-        "(vom ersten globalen Label bis zum nächsten Dateistart innerhalb derselben `SECTION`)."
+        "Sizes refer to each file's ROM area "
+        "(from the first global label to the next file start within the same `SECTION`)."
     )
     out.append("")
 
     if not reports:
-        out.append("_Keine auswertbaren Sections gefunden._")
+        out.append("_No analyzable sections found._")
         return "\n".join(out)
 
     grouped: Dict[str, List[SectionReport]] = {}
@@ -326,16 +336,19 @@ def render_summary(reports: List[SectionReport]) -> str:
         grouped.setdefault(r.source_scripts, []).append(r)
 
     out.append("<details>")
-    out.append("<summary>Kompletter Report (alle scripts.asm)</summary>")
+    out.append("<summary>Full report (all scripts.asm files)</summary>")
     out.append("")
 
     for source_file in sorted(grouped.keys()):
         sections = sorted(grouped[source_file], key=lambda s: (s.bank_no, s.section_start, s.section_name))
         total_size = sum(s.section_size for s in sections)
+        total_used = sum(s.used_space for s in sections)
+        total_free = sum(s.free_space for s in sections)
 
         out.append("<details>")
         out.append(
-            f"<summary>{source_file} — Sections: {len(sections)} — Gesamt: {fmt_bytes(total_size)}</summary>"
+            f"<summary>{source_file} — Sections: {len(sections)} — "
+            f"Total: {fmt_bytes(total_size)} — Used: {fmt_bytes(total_used)} — Free: {fmt_bytes(total_free)}</summary>"
         )
         out.append("")
 
@@ -343,13 +356,15 @@ def render_summary(reports: List[SectionReport]) -> str:
             out.append("<details>")
             out.append(
                 f"<summary>{section.section_name} — ROMX bank #{section.bank_no} — "
-                f"{fmt_bytes(section.section_size)}</summary>"
+                f"Size: {fmt_bytes(section.section_size)} — Used: {fmt_bytes(section.used_space)} — Free: {fmt_bytes(section.free_space)}</summary>"
             )
             out.append("")
-            out.append(f"- Bereich: `${section.section_start:04X}`–`${section.section_end:04X}`")
-            out.append(f"- Dateien: {len(section.files)}")
+            out.append(f"- Range: `${section.section_start:04X}`–`${section.section_end:04X}`")
+            out.append(f"- Files: {len(section.files)}")
+            out.append(f"- Used in section: {fmt_bytes(section.used_space)}")
+            out.append(f"- Free in section: {fmt_bytes(section.free_space)}")
             out.append("")
-            out.append("| Datei | Label | Start | Ende | Größe |")
+            out.append("| File | Label | Start | End | Size |")
             out.append("|---|---|---:|---:|---:|")
 
             for entry in section.files:
