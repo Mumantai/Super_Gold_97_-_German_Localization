@@ -55,7 +55,7 @@ jobs:
       - name: Verify ROM files exist
         run: |
           test -f base.gbc
-          test -f pokegold.gbc
+          test -f pokemon_sg97.gbc
 
       - name: Build floating IPS (flips)
         run: |
