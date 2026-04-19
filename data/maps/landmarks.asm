@@ -124,25 +124,25 @@ HydroPlantName:     db "WASSERKRAFTWERK@"   ;
 IcedCavernName:     db "ICED CAVERN@"
 IcePathName:        db "TIEFWASSERPFAD@";
 IejimaTown:         db "IEJIMA TOWN@"       ;
-IsenStraitName:     db "STRAẞE VON ISEN@"       ;
+IsenStraitName:     db "ISEN-STRAẞE@"       ;
 JadeForestName:     db "JADEWALD@"
-JouleCaveName:      db "JOULE HÖHLE@"
+JouleCaveName:      db "JOULEHÖHLE@"
 KantoRegionName:    db "KANTO-REGION@"      ; alt. Kanto
 KeramaStraitName:   db "STRAẞE VON KERAMA@"     ;
 KikaiCalderaName:   db "KIKAI KESSEL@"      ; Caldera (span. Kessel) ggf. aber auch Caldera, da Fachbegriff
 KikaiStraitName:    db "STRAẞE VON KIKAI@"  ; Kikai - Ort in Ryukyu
-KikaiVillageName:   db "KIKAITANI@"         ; NICHT FINAL Kikai - Ort in Ryukyu + tanima (jap. Tal)
+KikaiVillageName:   db "KIKAITANI@"         ; Kikai - Ort in Ryukyu + tanima (jap. Tal)
 KobanIslandName:    db "SATORIA-INSEL@"     ; Satou (jap. Zucker)    alt. Satoria Eiland
 KumeCityName:       db "KUMIA CITY@"        ; Kumijima (okinawaisch für Kume-jima) - Eine Ryukyu-Insel
-KumePointName:      db "PUNKT KUME@"        ; NICHT FINAL
+KumePointName:      db "PUNKT KUMIA@"       ; NICHT FINAL
 LavenderTownName:   db "LAVANDIA@"
 MagmaShaftName:     db "MAGMA-SCHACHT@"
 MeridianPathName:   db "MERIDIAN PFAD@"
 MotobuPathName:     db "MOTOBU PFAD@"       ; Motobu - Ort in Ryukyu
 MountFujiName:      db "KOROKANIABERG@"     ;
 MtFujiInteriorLowerName:     db "KOROKANIA-PFAD@"
-NagoCaveName:       db "NAGO HÖHLE@"        ; NICHT FINAL
-NagoVillageName:    db "NAGO VILLAGE@"      ;
+NagoCaveName:       db "NAGOHÖHLE@"        ; NICHT FINAL
+NagoVillageName:    db "NAGOTANI@"          ; Nago - Stadt auf Okinawa + tanima (jap. Tal)
 NanjoForestName:    db "NANJO WALD@"        ;
 NationalParkName:   db "NATIONALPARK@"      ;
 NotApplicableName:  db "N/A@" ; "オバケやしき" ("HAUNTED HOUSE") in Japanese
@@ -154,7 +154,7 @@ RyukyuCityName:     db "RYUKYU CITY@"       ; Ryukyu-Inseln
 SafariZoneName:     db "SAFARI ZONE@"       ;
 SanskritRuinsName:  db "GLYPHONTIA-RUINEN@" ; siehe Glyphontia
 SanskritTownName:   db "GLYPHONTIA@"        ; Glyphe + Font
-SeasidePathName:    db "SEASIDE PFAD@"
+SeasidePathName:    db "KÜSTENPFAD@"
 SilentHillsName:    db "SILENITIA HÜGEL@"
 SilentTownName:     db "SILENITIA@"         ; Silens (lat. Stille) + initium (lat. Anfang)
 SilphCoName:        db "SILPH CO.@"         ;

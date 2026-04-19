@@ -15,23 +15,26 @@ SeasidePathIsenStraitGateBugCatcherScript:
 	jumptextfaceplayer SeasidePathIsenStraitGateBugCatcherText
 	
 SeasidePathIsenStraitGateBugCatcherText:
-	text "The wild #MON"
-	line "on the ISLANDS are"
-	cont "very strong."
-	para "Much more tough"
-	line "than the mainland,"
-	cont "I think."
+    text "Die wilden #MON"
+    line "auf den INSELN"
+    cont "sind sehr stark."
+
+    para "Viel stärker, als"
+    line "auf dem Festland,"
+    cont "glaube ich."
 	done
 
 SeasidePathIsenStraitGateOfficerText:
-	text "I've heard that"
-	line "ISEN STRAIT holds"
-	para "hidden remnants of"
-	line "secret experiments"
-	para "into creating a"
-	line "manmade #MON."
-	para "What could that"
-	line "mean?"
+	text "Ich hörte, die"
+	line "ISEN-STRAẞE birgt"
+	para "verborgene Reste"
+	line "geheimer Experi-"
+	cont "mente zur Erschaf-"
+	para "fung eines künst-"
+	line "lichen #MONs."
+
+	para "Was könnte das"
+	line "wohl bedeuten?"
 	done
 
 

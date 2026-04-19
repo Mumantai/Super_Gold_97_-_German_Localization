@@ -69,7 +69,7 @@ AmamiPublicPoolLassText:
 	line "schwächere #MON"
 	para "in einem kontrol-"
 	line "lierten Umfeld,"
-	para "wie etwas einem"
+	para "wie etwa einem"
 	line "Hallenbad, zu"
 	para "trainieren, als im"
 	line "offenen Meer."

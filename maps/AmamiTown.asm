@@ -95,6 +95,8 @@ AmamiTownSignText:
 	
 AmamiPoolText:
 	text "AMAMIA"
+
+	para "ÖFFENTLICHES"
 	line "HALLENBAD"
 	done
 	

@@ -54,65 +54,70 @@ FrostpointGymSign:
 	jumptext FrostpointGymSignText
 
 SwimmerfNicoleSeenText:
-	text "I feel so much"
-	line "lighter in water."
+	text "Im Wasser fühle"
+	line "ich mich so"
+	cont "leicht."
 	done
 
 SwimmerfNicoleBeatenText:
-	text "Oh, no!"
+	text "Oh, nein!"
 	done
 
 SwimmerfNicoleAfterBattleText:
-	text "Swimming exercises"
-	line "your full body."
+	text "Beim Schwimmen"
+	line "wird der gesamte"
 
-	para "It's really good"
-	line "for you."
+	para "Körper trainiert."
+	line "Schwimmen ist"
+	cont "gesund."
 	done
 
 SwimmerfLoriSeenText:
-	text "What an impressive"
-	line "collection of GYM"
+	text "Du besitzt eine"
+	line "umwerfende Anzahl"
 
-	para "BADGES. We should"
-	line "battle!"
+	para "ARENA-ORDEN. Lass"
+	line "uns kämpfen!"
 	done
 
 SwimmerfLoriBeatenText:
-	text "No!"
+	text "Nein!"
 	done
 
 SwimmerfLoriAfterBattleText:
-	text "SURF is no longer"
-	line "the only HM move"
-	cont "you use in water."
+	text "SURFER ist nicht"
+	line "mehr die einzige"
+	cont "VM, die du im"
+	cont "Wasser einsetzen"
+	cont "kannst."
 	done
 
 SwimmermCameronSeenText:
-	text "I guess it's im-"
-	line "possible to swim"
+	text "Ich denke es ist"
+	line "unmöglich, den"
 
-	para "all the way to"
-	line "the mainland."
+	para "ganzen Weg zum"
+	line "Festland zu"
+	cont "schwimmen."
 	done
 
 SwimmermCameronBeatenText:
-	text "Aiyah!"
+	text "Yippie!"
 	done
 
 SwimmermCameronAfterBattleText:
-	text "Besides the sea, I"
-	line "can also swim in"
-	cont "ponds and rivers."
+	text "Ich schwimme auch"
+	line "in Teichen und"
+	cont "Flüssen."
 	done
 
 FrostpointGymSignText:
-	text "#MON RESEARCH"
-	line "FACILITY"
-	para "…The sign reads,"
-	line "with the word"
-	para "'CONDEMNED'"
-	line "written over it…"
+    text "EINRICHTUNG ZUR"
+    line "#MON-FORSCHUNG"
+
+    para "…über der Schrift"
+    line "steht das Wort"
+    cont "'STILLGELEGT'…"
 	done
 
 IsenStrait_MapEvents:

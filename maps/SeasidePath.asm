@@ -66,83 +66,88 @@ JouleCaveSign:
 	jumptext JouleCaveSignText
 	
 SeasidePathSignText:
-	text "SEASIDE PATH"
-	para "AMAMI TOWN -"
-	line "NAGO VILLAGE"
+	text "KÜSTENPFAD"
+
+	para "AMAMIA -"
+	line "NAGOTANI"
 	done
 	
 JouleCaveSignText:
-	text "JOULE CAVE"
-	line "ENTRANCE"
+	text "JOULEHÖHLE"
+	line "EINGANG"
 	done
 
 HikerTimothySeenText:
-	text "Why do I climb"
-	line "mountains?"
+	text "Warum ich auf"
+	line "Berge klettere?"
 
-	para "Because they're"
-	line "there."
+	para "Weil es sie"
+	line "gibt."
 
-	para "Why do I train"
-	line "#MON?"
+	para "Warum ich"
+	line "#MON trainiere?"
 
-	para "Because they're"
-	line "there!"
+	para "Weil es sie"
+	line "gibt!"
 	done
 
 HikerTimothyBeatenText:
-	text "Losses…"
-	line "They're there too!"
+	text "Niederlagen…"
+	line "Die gibt es auch!"
 	done
 
 HikerTimothyAfterBattleText:
-	text "The best thing to"
-	line "ever happen to me"
+	text "#MON zu"
+	line "entdecken, war das"
 
-	para "was discovering"
-	line "#MON."
+	para "Beste, was mir"
+	line "passieren konnte."
 	done
 
 PsychicFidelSeenText:
-	text "I can see it…"
+	text "Ich kann es sehen…"
 
-	para "Everything to see"
-	line "about you…"
+	para "Ich kann alles"
+	line "über dich sehen…"
 	done
 
 PsychicFidelBeatenText:
-	text "I couldn't foresee"
-	line "your power…"
+	text "Deine Stärke"
+	line "konnte ich nicht"
+	cont "sehen…"
 	done
 
 PsychicFidelAfterBattleText:
-	text "You know, where"
-	line "I'm standing is"
-	para "technically its"
-	line "own small island."
+    text "Wusstest du? Das"
+    line "worauf ich hier"
+    para "stehe, ist im"
+    line "Grunde eine eigene"
+    cont "kleine Insel."
 	done
 
 BirdKeeperPeterSeenText:
-	text "My birds can't fly"
-	line "far enough to"
-	para "bring me back to"
-	line "the mainland."
+    text "Meine Vögel können"
+    line "nicht weit genug"
+    para "fliegen, um mich"
+    line "zurück aufs Fest-"
+    cont "land zu bringen."
 	done
 
 BirdKeeperPeterBeatenText:
-	text "I know what my"
-	line "weaknesses are."
+	text "Ich kenne meine"
+	line "Schwächen."
 	done
 
 BirdKeeperPeterAfterText:
-	text "I wish I could"
-	line "fly…"
+    text "Ich wünschte, ich"
+    line "könnte fliegen…"
 	done
 	
 PokefanmJoshuaSeenText:
-	text "Nihihi! Would you"
-	line "like to battle my"
-	cont "PIKACHU gang?"
+	text "Hihi! Möchtest du"
+	line "gegen mein"
+	cont "PIKACHU-Team"
+	cont "antreten?"
 	done
 
 PokefanmJoshuaBeatenText:
@@ -150,11 +155,12 @@ PokefanmJoshuaBeatenText:
 	done
 
 PokefanmJoshuaAfterBattleText:
-	text "You look like you"
-	line "have many #MON,"
+	text "Es scheint, dass"
+	line "du viele #MON"
 
-	para "but PIKACHU is"
-	line "still the best."
+	para "hast, aber PIKACHU"
+	line "ist immer noch das"
+	cont "Beste."
 	done
 
 SeasidePath_MapEvents:

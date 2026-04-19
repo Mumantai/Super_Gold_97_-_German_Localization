@@ -78,42 +78,45 @@ JouleCave1FHiddenMaxRepel:
 	hiddenitem MAX_REPEL, EVENT_JOULE_CAVE_1F_HIDDEN_MAX_REPEL
 	
 HikerErikSeenText:
-	text "Be prepared for"
-	line "anything!"
+	text "Sei auf alles"
+	line "vorbereitet!"
 
-	para "Let me see if your"
-	line "#MON have been"
-	cont "raised properly!"
+	para "Lass mich mal"
+	line "sehen, wie gut"
+	cont "deine #MON"
+	cont "trainiert sind!"
 	done
 
 HikerErikBeatenText:
-	text "Oh, I lost that!"
+	text "Oh, ich habe"
+	line "verloren!"
 	done
 
 HikerErikAfterBattleText:
-	text "I'll train here"
-	line "until I get"
-	cont "stronger!"
+    text "Ich werde hier"
+    line "trainieren, bis"
+    cont "ich stärker bin!"
 	done
 
 PokemaniacMillerSeenText:
-	text "I'm not losing"
-	line "to you!"
+	text "Heute verliere ich"
+	line "gewiss nicht!"
 	done
 
 PokemaniacMillerBeatenText:
-	text "I lost to some"
-	line "kid…?"
+	text "Ich habe gegen ein"
+	line "Kind verloren…?"
 	done
 
 PokemaniacMillerAfterBattleText:
-	text "I heard that a"
-	line "rare bird some-"
-	para "times roosts in"
-	line "this mountain."
-	para "I haven't been"
-	line "able to find it,"
-	cont "though."
+    text "Ich hörte, dass"
+    line "ein seltener Vogel"
+    para "manchmal in diesem"
+    line "Berg nistet."
+
+    para "Ich konnte ihn"
+    line "bisher aber nicht"
+    cont "finden."
 	done
 
 SupernerdMarkusSeenText:
@@ -121,14 +124,16 @@ SupernerdMarkusSeenText:
 	done
 
 SupernerdMarkusBeatenText:
-	text "You startled me…"
+	text "Du hast mich"
+	line "erschreckt…"
 	done
 
 SupernerdMarkusAfterBattleText:
-	text "I came to explore"
-	line "JOULE CAVE, but"
-	para "I haven't found"
-	line "anything cool."
+    text "Ich wollte die"
+    line "JOULEHÖHLE erkun-"
+    cont "den, aber ich habe"
+    para "nichts Cooles"
+    line "gefunden."
 	done
 
 JouleCave1F_MapEvents:
