@@ -233,7 +233,7 @@ TeleportGuyText1:
     line "fährt es heute"
     line "gar nicht?"
 
-    para "Dann schau mal!
+    para "Dann schau mal!"
 
     para "Mein liebes ABRA"
     line "kann dich im"
