@@ -1,0 +1,82 @@
+name: Build IPS Patch
+
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  build-ips:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install system packages
+        run: |
+          sudo apt update
+          sudo apt -y install make g++-10 bison git python-is-python3 python3-pip pkg-config libpng-dev gnupg
+          python3 -m pip install --upgrade pip
+          python3 -m pip install pypng
+
+      - name: Checkout RGBDS
+        uses: actions/checkout@v4
+        with:
+          repository: gbdev/rgbds
+          path: rgbds
+          ref: v0.6.1
+
+      - name: Build and install RGBDS
+        run: |
+          cd rgbds
+          make Q=
+          sudo make install
+
+      - name: Build ROM (target)
+        run: |
+          make -j gold
+
+      - name: Decrypt base ROM
+        env:
+          BASE_ROM_PASSPHRASE: ${{ secrets.BASE_ROM_PASSPHRASE }}
+        run: |
+          if [ -z "$BASE_ROM_PASSPHRASE" ]; then
+            echo "Missing secret BASE_ROM_PASSPHRASE"
+            exit 1
+          fi
+          gpg --batch --yes --passphrase "$BASE_ROM_PASSPHRASE" \
+            -o base.gbc -d base.gbc.gpg
+
+      - name: Verify ROM files exist
+        run: |
+          test -f base.gbc
+          test -f pokegold.gbc
+
+      - name: Build floating IPS (flips)
+        run: |
+          git clone --depth 1 https://github.com/Alcaro/Flips.git flips
+          cd flips
+          make
+
+      - name: Create IPS patch
+        run: |
+          mkdir -p dist
+          ./flips/flips --create --ips base.gbc pokegold.gbc dist/Super_Gold_97_German.ips
+
+      - name: Upload IPS artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: super-gold-97-german-ips
+          path: dist/*.ips
+
+      - name: Create GitHub Release (tags only)
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: dist/*.ips
+          generate_release_notes: true
