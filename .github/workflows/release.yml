@@ -61,7 +61,7 @@ jobs:
         run: |
           git clone --depth 1 https://github.com/Alcaro/Flips.git flips
           cd flips
-          make
+          TARGET=cli make
 
       - name: Create IPS patch
         run: |
