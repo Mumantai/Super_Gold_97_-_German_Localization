@@ -66,7 +66,7 @@ jobs:
       - name: Create IPS patch
         run: |
           mkdir -p dist
-          ./flips/flips --create --ips base.gbc pokegold.gbc dist/Super_Gold_97_German.ips
+          ./flips/flips --create --ips base.gbc pokemon_sg97.gbc dist/Super_Gold_97_German.ips
 
       - name: Upload IPS artifact
         uses: actions/upload-artifact@v4
