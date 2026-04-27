@@ -266,7 +266,7 @@ UnknownText_0x1811dd:
 	done
 
 UnknownText_0x18121b:
-	text "PROF. EICH: Ah,"
+	text "EICH: Ah,"
 	line "<PLAYER>!"
 
 	para "Es ist schon"

@@ -182,189 +182,210 @@ TrainerLassEliza:
 	end
 	
 LassElizaSeenText:
-	text "Just because I'm"
-	line "on vacation"
-	para "doesn't mean I'm"
-	line "not up for a good"
-	cont "battle!"
+	text "Nur weil ich im"
+	line "Urlaub bin, heißt"
+	para "das nicht, dass"
+	line "ich nicht kämpfen"
+	cont "möchte!"
 	done
 
 LassElizaBeatenText:
-	text "Still a good"
-	line "battle!"
+	text "War trotzdem ein"
+	line "toller Kampf!"
 	done
 
 LassElizaAfterBattleText:
-	text "Even if I lose,"
-	line "every battle is a"
-	cont "good experience."
+	text "Auch wenn ich"
+	line "verliere, ist"
+	para "jeder Kampf eine"
+	line "gute Erfahrung."
 	done
 	
-	
 CooltrainermWozniakSeenText:
-	text "Time for my daily"
-	line "battle victory!"
+	text "Zeit für meinen"
+	line "täglichen Sieg!"
 	done
 
 CooltrainermWozniakBeatenText:
-	text "Doesn't count!"
+	text "Das zählt nicht!"
 	done
 
 CooltrainermWozniakAfterBattleText:
-	text "I'll find someone"
-	line "else to defeat"
-	cont "today."
+    text "Ich finde jemand"
+    line "anderen, den ich"
+    cont "heute besiege."
 	done
 
 CooltrainerfAyakaSeenText:
-	text "Sure, I'll battle"
-	line "you!"
+	text "Klar, ich kämpfe"
+	line "gegen dich!"
 	done
 
 CooltrainerfAyakaBeatenText:
-	text "I lost this one!"
+	text "Diesmal habe ich"
+	line "verloren!"
 	done
 
 CooltrainerfAyakaAfterBattleText:
-	text "I need to spend"
-	line "more time raising"
-	cont "my #MON."
+    text "Ich muss mehr Zeit"
+    line "in die Aufzucht"
+    para "meiner #MON"
+    line "investieren."
 	done
 
 CooltrainerfYukaSeenText:
-	text "A battle?"
-	para "I'll never turn"
-	line "that down!"
+	text "Ein Kampf?"
+
+	para "Den lehne ich nie"
+	line "ab!"
 	done
 
 CooltrainerfYukaBeatenText:
-	text "No good!"
+	text "Nicht gut!"
 	done
 
 CooltrainerfYukaAfterBattleText:
-	text "My #MON and I"
-	line "should go train."
+	text "Meine #MON und"
+	line "ich sollten"
+	cont "trainieren."
 	done
 
 CooltrainerfAyanoSeenText:
-	text "Oh, a battle?"
-	para "I'm pretty good at"
-	line "those."
+	text "Oh, ein Kampf?"
+
+	para "Darin bin ich"
+	line "ziemlich gut."
 	done
 
 CooltrainerfAyanoBeatenText:
-	text "Not good enough!"
+	text "Nicht gut genug!"
 	done
 
 CooltrainerfAyanoAfterBattleText:
-	text "Where do you train"
-	line "your #MON?"
+	text "Wo trainierst du"
+	line "deine #MON?"
 	done
 	
 PsychicRaphaelSeenText:
-	text "I can read your"
-	line "mind!"
+	text "Ich kann deine"
+	line "Gedanken lesen!"
 	done
 
 PsychicRaphaelBeatenText:
-	text "I know why you're"
-	line "here!"
+	text "Ich weiß, warum"
+	line "du hier bist!"
 	done
 
 PsychicRaphaelAfterBattleText:
-	text "You're here"
-	line "because you're"
-	cont "on vacation!"
+	text "Du bist hier,"
+	line "weil du Urlaub"
+	cont "machst!"
 	done
-	
 
 CamperQuentinSeenText:
-	text "Does a hotel count"
-	line "as camping?"
+	text "Zählt ein Hotel"
+	line "als Zeltplatz?"
 	done
 
 CamperQuentinBeatenText:
-	text "Smacked down!"
+	text "Umgehauen!"
 	done
 
 CamperQuentinAfterBattleText:
-	text "If I say that I'm"
-	line "camping, then I'm"
-	cont "camping!"
+	text "Wenn ich sage, ich"
+	line "zelte, dann zelte"
+	cont "ich auch!"
 	done
 	
 SoldierWarnellSeenText:
-	text "This ISLAND is"
-	line "my official post!"
+	text "Diese INSEL ist"
+	line "mein offizieller"
+	cont "Posten!"
 	done
 
 SoldierWarnellBeatenText:
-	text "Nothing to report!"
+	text "Nichts zu melden!"
 	done
 
 SoldierWarnellAfterBattleText:
-	text "I really am"
-	line "stationed here,"
-	cont "believe it or not."
+	text "Ich bin wirklich"
+	line "hier stationiert,"
+	para "ob du's glaubst"
+	line "oder nicht."
 	done
 	
-	
 RyukyuHotelRoomsOakBefore2:
-	text "Let's both give"
-	line "it our best!"
+	text "Geben wir beide"
+	line "unser Bestes!"
 	done
 	
 RyukyuHotelRoomsOakNoBattle:
-	text "Not a problem!"
-	para "Some other time,"
-	line "then."
+	text "Kein Problem!"
+
+	para "Dann eben ein"
+	line "andermal."
 	done
 	
 RyukyuHotelRoomsOakBefore:
-	text "PROF.OAK: Why,"
-	line "<PLAYER>!"
-	para "How good to see"
-	line "you here!"
-	para "It seems like"
-	line "you've had an"
-	para "exciting and ful-"
-	line "filling adventure"
-	cont "with #MON!"
-	para "I've been so in-"
-	line "spired by you and"
-	cont "<RIVAL>!"
-	para "I've taken up"
-	line "raising some #-"
-	cont "MON."
-	para "It's something I"
-	line "haven't done in"
-	cont "quite some time!"
-	para "If you would like,"
-	line "we could battle!"
-	para "I'm sure both of"
-	line "our #MON would"
-	cont "enjoy it."
-	para "How about it?"
+    text "EICH: Oh, <PLAYER>!"
+
+    para "Wie schön, dich"
+    line "hier zu sehen!"
+
+    para "Es scheint, als"
+    line "hättest du ein"
+    para "spannendes und er-"
+    line "fülltes Abenteuer"
+    cont "mit deinen #MON"
+    cont "erlebt!"
+
+    para "Du und <RIVAL>,"
+    line "ihr beide habt"
+    para "mich wirklich sehr"
+    line "inspiriert!"
+
+    para "Ich habe wieder"
+    line "angefangen, ein"
+    para "paar #MON"
+    line "großzuziehen."
+
+    para "Das habe ich schon"
+    line "sehr lange nicht"
+    cont "mehr gemacht!"
+
+    para "Wenn du möchtest,"
+    line "könnten wir doch"
+    para "gegeneinander"
+    line "kämpfen!"
+
+    para "Ich bin sicher,"
+    line "dass es unseren"
+    para "#MON gefallen"
+    line "würde."
+
+    para "Wie wäre es?"
 	done
 	
 RyukyuHotelRoomsOakTextWin:
-	text "That was so"
-	line "exciting!"
+	text "Das war richtig"
+	line "aufregend!"
 	done
 	
 RyukyuHotelRoomsOakTextLoss:
-	text "Oh, dear!"
+	text "Ohje!"
 	done
 	
 RyukyuHotelRoomsOakAfter:
-	text "PROF.OAK: I can't"
-	line "thank you enough"
-	cont "for your help!"
-	para "I've reached new"
-	line "heights in my"
-	para "research and love"
-	line "of #MON that I"
-	cont "never have before!"
+    text "EICH: Ich kann dir"
+    line "nicht genug für"
+    cont "deine Hilfe"
+    cont "danken!"
+
+    para "Ich habe völlig"
+    line "neue Höhen in"
+    para "meiner Forschung"
+    line "und Liebe zu"
+    cont "#MON erreicht!"
 	done
 
 HotelBed:	
@@ -386,14 +407,16 @@ HotelBed:
 	end
 	
 HotelBedText1:
-	text "It's your hotel"
-	line "bed."
-	para "Time for a rest…"
+    text "Es ist dein"
+    line "Hotelbett."
+
+    para "Zeit sich"
+    line "auszuruhen…"
 	done
 	
 HotelBedText2:
-	text "Refreshed and"
-	line "restored!"
+	text "Ah, ausgeruht und"
+	line "frisch!"
 	done
 
 

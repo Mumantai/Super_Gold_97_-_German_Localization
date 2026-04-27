@@ -25,23 +25,26 @@ HotelDoorLockedScript:
 	jumptextfaceplayer HotelDoorLockedText
 	
 RyukyuHotel2FClerkText:
-	text "Welcome, guest!"
-	para "Please let me know"
-	line "if there is any-"
-	cont "thing you need!"
+    text "Willkommen, Gast!"
+
+    para "Sagen Sie mir"
+    line "bitte Bescheid,"
+    para "wenn Sie etwas"
+    line "brauchen!"
 	done
 	
 RyukyuHotel2FYoungsterText:
-	text "Wow! You have"
-	line "eight GYM BADGES?"
-	para "One day I'd like"
-	line "to defeat a GYM"
-	cont "LEADER."
+	text "Wow! Du hast"
+	line "acht ARENA-ORDEN?"
+
+	para "Eines Tages möchte"
+	line "ich einen ARENA-"
+	cont "LEITER besiegen."
 	done
 	
 HotelDoorLockedText:
-	text "The door is"
-	line "locked…"
+	text "Die Tür ist"
+	line "verschlossen…"
 	done
 	
 RyukyuHotel2F_MapEvents:

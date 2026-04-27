@@ -78,83 +78,86 @@ GrassStarterTest:
 	jumptext GrassStarterTestText
 	
 GrassStarterTestText:
-	text "grass"
+	text "Pflanze"
 	done
 
 WaterStarterTestText:
-	text "water"
+	text "Wasser"
 	done
 	
 FireStarterTestText:
-	text "fire"
+	text "Feuer"
 	done
 	
 RyukyuPokefanM2Text:
-	text "I just enjoy"
-	line "watching the waves"
-	cont "on the sea."
+    text "Ich schaue gerne"
+    line "den Wellen auf"
+    cont "dem Meer zu."
 	done
 	
 RyukyuCitySignText:
-	text "RYUKYU CITY"
-	para "The SOUTHWEST"
-	line "ISLANDS' Shining"
-	cont "Gem"
+	text "RUUCHUU CITY"
+
+	para "Das strahlende"
+	line "Juwel der"
+	cont "SÜDWESTINSELN"
 	done
 
 RyukyuCityHotelSignText:
-	text "RYUKYU HOTEL AND"
+	text "RUUCHUU HOTEL UND"
 	line "RESTAURANT"
-	para "The ultimate"
-	line "SOUTHWEST ISLANDS"
-	cont "travel experience!"
+
+	para "Das ultimative"
+	line "Reiseerlebnis auf"
+	cont "den SÜDWESTINSELN!"
 	done
 
 RyukyuTeacherText:
-	text "Now now, children."
-	para "Don't just run off"
-	line "into the ocean!"
+    text "Aber aber, Kinder."
+
+    para "Lauft doch nicht"
+    line "einfach ins Meer!"
 	done
 	
 RyukyuPokefanMText:
-	text "The weather is"
-	line "perfect here, if a"
-	cont "bit humid."
+	text "Das Wetter hier"
+	line "ist perfekt, wenn"
+	cont "auch etwas feucht."
 	done
 	
 RyukyuBugCatcherText:
-	text "I wanna go"
-	line "swimming!"
+	text "Ich will schwimmen"
+	line "gehen!"
 	done
 	
 RyukyuTwinText:
-	text "Let's get some"
-	line "ice cream!"
+	text "Lass uns ein Eis"
+	line "holen!"
 	done
 	
 RyukyuCooltrainerMText:
-	text "I think I'll go"
-	line "out on a boat"
-	cont "today."
+	text "Ich glaube, ich"
+	line "fahre heute mit"
+	cont "dem Boot raus."
 	done
 	
 RyukyuLassText:
-	text "Many of the people"
-	line "you see in this"
-	para "city don't live"
-	line "here."
+    text "Viele Leute, die"
+    line "du in der Stadt"
+    para "siehst, leben gar"
+    line "nicht hier."
 	done
 	
 RyukyuSwimmerGuyText:
-	text "I come here on"
-	line "vacation whenever"
-	cont "I get the chance!"
+	text "Ich komme im"
+	line "Urlaub immer her,"
+	cont "wenn ich kann!"
 	done
 	
 RyukyuSwimmerGirlText:
-	text "There's nowhere"
-	line "better to relax"
-	cont "than right here!"
+    text "Nirgendwo kann man"
+    line "sich besser ent-"
+    cont "spannen, als hier!"
 	done
 
 RyukyuCity_MapEvents:

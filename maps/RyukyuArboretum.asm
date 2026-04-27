@@ -79,10 +79,12 @@ RyukyuArboretumHouseYoungsterScript:
 	jumptextfaceplayer RyukyuArboretumHouseYoungsterText
 	
 RyukyuArboretumHouseYoungsterText:
-	text "This place is"
-	line "neat!"
-	para "Grass #MON seem"
-	line "to love it here!"
+    text "Dieser Ort ist"
+    line "klasse!"
+
+    para "Pflanzen-#MON"
+    line "fühlen sich hier"
+    cont "besonders wohl!"
 	done
 	
 RyukyuMagnetTrainParasText:
@@ -91,69 +93,78 @@ RyukyuMagnetTrainParasText:
 	done
 	
 RyukyuMagnetTrainBulbasaurText:
-	text "BULBASAUR:"
-	line "Bulba!"
+	text "BISASAM:"
+	line "Bisa!"
 	done
 	
 RyukyuMagnetTrainOddishText:
-	text "ODDISH:"
-	line "Oddd?"
+	text "MYRAPLA:"
+	line "Myyy?"
 	done
 	
 UnknownText_0x7e355ab:
-	text "<PLAYER> received"
-	line "BULBASAUR."
+	text "<PLAYER> erhält"
+	line "BISASAM."
 	done
 	
 AlreadyGotBulbasaurText:
-	text "I have many tree"
-	line "species from"
-	cont "around NIHON!"
+	text "Ich habe viele"
+	line "Baumarten aus"
+	cont "ganz NIHON!"
 	done
 	
 PartyFullBulbasaurText:
-	text "You've already got"
-	line "too many #MON"
-	cont "with you!"
+    text "Du trägst zu viele"
+    line "#MON mit dir!"
 	done
 	
 NoBulbasaurText:
-	text "I understand."
-	para "I'll be here if"
-	line "you change your"
-	cont "mind!"
+	text "Ich verstehe."
+
+	para "Ich warte hier,"
+	line "falls du es dir"
+	cont "anders überlegst!"
 	done
 	
 
 ILoveBulbasaurText:
-	text "Hi there!"
-	para "I'm running an"
-	line "arboretum."
-	para "That means I take"
-	line "care of trees!"
-	para "This building is"
-	line "full of windows"
-	para "that let light in"
-	line "for the trees."
-	para "It's also full of"
-	line "grass #MON to"
-	cont "take care of them!"
-	para "I can only keep so"
-	line "many #MON here,"
-	cont "though."
-	para "I've got a"
-	line "BULBASAUR that I"
-	para "need to find a"
-	line "good home for."
-	para "Would you be"
-	line "willing to take"
-	cont "it?"
+    text "Hallo!"
+
+    para "Ich betreibe"
+    line "dieses Arboretum."
+
+    para "Das heißt, ich"
+    line "kümmere mich um"
+    cont "Bäume!"
+
+    para "Dieses Gebäude ist"
+    line "voller Fenster,"
+    para "die Licht für die"
+    line "Bäume reinlassen."
+
+    para "Hier leben auch"
+    line "viele Pflanzen-"
+    para "#MON, um die"
+    line "ich mich kümmere!"
+
+    para "Leider habe ich"
+    line "nur begrenzt Platz"
+    cont "für #MON hier."
+
+    para "Ich suche gerade"
+    line "nach einem guten"
+    para "Zuhause für ein"
+    line "BISASAM."
+
+    para "Würdest du es"
+    line "vielleicht bei"
+    cont "dir aufnehmen?"
 	done
 	
 GiveBulbasaurText:
-	text "I'm sure you'll"
-	line "take great care"
-	cont "of it!"
+	text "Ich bin sicher,"
+	line "du kümmerst dich"
+	cont "gut darum!"
 	done
 
 

@@ -103,140 +103,154 @@ MeridianPathSign:
 	jumptext MeridianPathSignText
 	
 MeridianPathSignText:
-	text "MERIDIAN PATH"
-	para "NAGO VILLAGE -"
-	line "RYUKYU CITY"
+	text "MERIDIAN-PFAD"
+
+	para "NAGOTANI    -"
+	line "RUUCHUU CITY"
 	done
 
 
 BeautyVictoriaSeenText:
-	text "You ever climbed"
-	line "the CHARRED"
-	cont "SUMMIT?"
+    text "Hast du schon mal"
+    line "den RUẞGIPFEL"
+    cont "bestiegen?"
 	done
 
 BeautyVictoriaBeatenText:
-	text "How could I lose?"
+	text "Wie konnte ich"
+	line "verlieren?"
 	done
 
 BeautyVictoriaAfterBattleText:
-	text "The view is very"
-	line "pretty up there."
+    text "Die Aussicht ist"
+    line "toll da oben."
 	done
 
 SchoolboyJoeSeenText:
-	text "You've traveled"
-	line "all of NIHON?"
-	para "That's cool."
-	para "But do you stand"
-	line "a chance against"
-	cont "a trainer like me?"
+    text "Du hast ganz NIHON"
+    line "bereist?"
+
+    para "Das ist cool."
+
+    para "Aber hast du auch"
+    line "eine Chance gegen"
+    cont "einen Trainer wie"
+    cont "mich?"
 	done
 
 SchoolboyJoeBeatenText:
-	text "Ow! Stomped flat!"
+    text "Au! Plattgemacht!"
 	done
 
 SchoolboyJoeAfterBattleText:
-	text "Looks like you had"
-	line "plenty of time to"
-	para "raise your #MON"
-	line "while traveling."
+    text "So wie es aus-"
+    line "sieht, hattest du"
+    para "auf deinen Reisen"
+    line "eine Menge Zeit,"
+    para "um deine #MON"
+    line "zu trainieren."
 	done
 
 LassLauraSeenText:
-	text "You look like"
-	line "you're far from"
-	cont "home."
+    text "Du siehst aus,"
+    line "als wärst du weit"
+    cont "weg von zu Hause."
 	done
 
 LassLauraBeatenText:
-	text "I'm out!"
+    text "Ich bin raus!"
 	done
 
 LassLauraAfterBattleText:
-	text "Where are you"
-	line "from?"
-	para "SILENT TOWN?"
-	para "I've never been"
-	line "there."
+    text "Woher kommst du?"
+
+    para "SILENITIA?"
+
+    para "Da war ich noch"
+    line "nie."
 	done
 
 CamperLloydSeenText:
-	text "Going to CHARRED"
-	line "SUMMIT?"
+    text "Gehst du zum"
+    line "RUẞGIPFEL?"
 	done
 
 CamperLloydBeatenText:
-	text "Whoa! Too much."
+	text "Woah! Zu viel."
 	done
 
 CamperLloydAfterBattleText:
-	text "Legend says that a"
-	line "rare #MON"
-	cont "roosts here."
-	para "But I've climbed"
-	line "to the top and"
-	para "never seen any-"
-	line "thing."
+    text "Der Legende nach,"
+    line "nistet ein selten-"
+    cont "es #MON hier."
+
+    para "Ich bin schon bis"
+    line "auf den Gipfel"
+    para "geklettert, aber"
+    line "ich habe nie etwas"
+    cont "gesehen."
 	done
 
 LassShannonSeenText:
-	text "Let me tell you,"
-	line "I'm a tough"
-	cont "trainer!"
+    text "Lass mich dir"
+    line "sagen, ich bin"
+    cont "eine harte Nuss!"
 	done
 
 LassShannonBeatenText:
-	text "You're kidding."
+	text "Du machst Witze."
 	done
 
 LassShannonAfterBattleText:
-	text "I did my best."
-	line "But you did"
-	cont "better, I guess."
+    text "Ich habe alles"
+    line "gegeben, aber du"
+    cont "warst wohl besser."
 	done
 
 SupernerdPatSeenText:
-	text "Mufufufu…"
+	text "Uffuffuff…"
 
-	para "Battle me."
+	para "Kämpf mit mir."
 	done
 
 SupernerdPatBeatenText:
-	text "You weren't"
-	line "supposed to win."
+	text "Du hättest nicht"
+	line "gewinnen sollen."
 	done
 
 SupernerdPatAfterBattleText:
-	text "There's a lady"
-	line "in NAGO VILLAGE"
-	para "who has like a"
-	line "million CHARMANDER"
-	cont "in her house."
-	para "I worry that it'll"
-	line "catch fire."
+    text "Es gibt da diese"
+    line "Frau in NAGOTANI,"
+    para "die einen Haufen"
+    line "GLUMANDAs in ihrem"
+    cont "Haus hat."
+
+    para "Ich mache mir"
+    line "Sorgen, dass es"
+    cont "bald Feuer fängt."
 	done
 
 
 CooltrainermKevinSeenText:
-	text "You want to"
-	line "battle, right?"
-	para "Right."
+    text "Du möchtest"
+    line "kämpfen, oder?"
+
+    para "Oder?"
 	done
 
 CooltrainermKevinBeatenText:
-	text "I've never had a"
-	line "battle this good!"
+	text "Das war der beste"
+	line "Kampf meines"
+	cont "Lebens!"
 	done
 
 CooltrainermKevinAfterBattleText:
-	text "That was a great"
-	line "battle!"
+	text "Der Kampf war"
+	line "großartig!"
 
-	para "You and your #-"
-	line "MON are truly out-"
-	cont "standing!"
+	para "Du und deine #-"
+	line "MON seid ein"
+	cont "perfektes Team!"
 	done
 
 

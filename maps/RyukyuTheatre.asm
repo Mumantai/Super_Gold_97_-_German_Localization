@@ -139,7 +139,7 @@ RyukyuTheaterCoinsGuy:
 	end
 
 .coinname
-	db "COIN@"
+	db "MÜNZEN@"
 
 .NoCoinCase:
 	writetext CoinsGuyNoCoinCaseText
@@ -191,243 +191,252 @@ RyukyuTheatreSuperNerdScript:
 	jumptextfaceplayer RyukyuTheatreSuperNerdText
 	
 RyukyuTheatreSuperNerdText:
-	text "This show is"
-	line "great!"
+	text "Die Vorstellung"
+	line "ist großartig!"
 	done
 
 RyukyuTheatrePokefanMText:
-	text "My wife loves to"
-	line "stay at the RYUKYU"
-	cont "HOTEL!"
+	text "Meine Frau liebt"
+	line "es, im RUUCHUU"
+	cont "HOTEL zu wohnen!"
 	done
 	
 RyukyuTheatrePokefanFText:
-	text "What a lovely"
-	line "vacation this has"
-	cont "been!"
+	text "Was für ein"
+	line "wunderschöner"
+	cont "Urlaub das war!"
 	done
 	
 RyukyuTheatreJanineText:
-	text "Nothing beats"
-	line "dinner and a show"
-	para "when I visit"
-	line "RYUKYU CITY!"
+	text "Nichts über ein"
+	line "Essen und eine"
+	para "Vorstellung, wenn"
+	line "ich RUUCHUU CITY"
+	cont "besuche!"
 	done
 	
 CoinsGuyNoCoinCaseText:
-	text "Oh, what's this?"
-	para "You have no COIN"
-	line "CASE!"
+	text "Oh, was ist das?"
+
+	para "Du hast keinen"
+	line "MÜNZKORB!"
 	done
 	
 CoinsGuyFullCoinCaseText:
-	text "Well, lad. Looks"
-	line "like your case is"
-	cont "already full!"
+    text "Tja, Kumpel. Sieht"
+    line "so aus, als wäre"
+    para "dein MÜNZKORB"
+    line "schon voll!"
 	done
 	
 CoinsGuyGotCoins:
-	text "Go get yourself"
-	line "something nice"
-	para "from any of the"
-	line "GAME CORNERS all"
-	cont "around NIHON!"
+	text "Hol dir was Schönes"
+	line "in einer der"
+	para "SPIELHALLEN in"
+	line "ganz NIHON!"
 	done
 
 KimonoGirlNaokoSeenText:
-	text "You have lovely"
-	line "#MON. May I see"
-	cont "them in battle?"
+	text "Du hast hübsche"
+	line "#MON. Darf ich"
+	cont "sehen, wie sie"
+	cont "kämpfen?"
 	done
 
 KimonoGirlNaokoBeatenText:
-	text "Oh, you are very"
-	line "strong."
+	text "Oh, du bist sehr"
+	line "stark."
 	done
 
 KimonoGirlNaokoAfterBattleText:
-	text "I enjoyed that"
-	line "bout. I would like"
-	cont "to see you again."
+	text "Das war ein toller"
+	line "Kampf. Ich würde"
+	cont "dich gerne mal"
+	cont "wieder sehen."
 	done
 
 KimonoGirlSayoSeenText:
-	text "I always dance"
-	line "with my #MON."
-
-	para "Of course, I also"
-	line "train them."
+	text "Ich tanze immer"
+	line "mit meinen #-"
+	cont "MON. Natürlich"
+	para "trainiere ich sie"
+	line "auch."
 	done
 
 KimonoGirlSayoBeatenText:
-	text "Oh, so close!"
-	line "I almost had you."
+	text "Oh, beinahe!"
+	line "Fast hätte ich"
+	cont "dich gehabt."
 	done
 
 KimonoGirlSayoAfterBattleText:
-	text "Rhythm is impor-"
-	line "tant for both"
-
-	para "dancing and #-"
-	line "MON."
+	text "Rhythmus ist nicht"
+	line "nur zum Tanzen,"
+	para "sondern auch für"
+	line "#MON wichtig."
 	done
 
 KimonoGirlKyokoSeenText:
-	text "Dancing is a"
-	line "great stress-"
-	cont "reliever."
+	text "Tanzen ist ein"
+	line "tolles Mittel"
+	cont "gegen Stress."
 	done
 
 KimonoGirlKyokoBeatenText:
-	text "I believe I have"
-	line "been defeated."
+	text "Ich glaube, ich"
+	line "wurde besiegt."
 	done
 
 KimonoGirlKyokoAfterBattleText:
-	text "We learn a new"
-	line "dance each month."
+    text "Wir lernen jeden"
+    line "Monat einen neuen"
+    cont "Tanz."
 	done
 
 KimonoGirlZukiSeenText:
-	text "Isn't my barrette"
-	line "pretty?"
+	text "Ist meine Haar-"
+	line "spange nicht"
+	cont "hübsch?"
 
-	para "Oh. A #MON"
-	line "battle?"
+	para "Oh, ein #MON-"
+	line "Kampf?"
 	done
 
 KimonoGirlZukiBeatenText:
-	text "I don't have any"
-	line "#MON left…"
+	text "Ich habe keine"
+	line "#MON mehr"
+	cont "übrig…"
 	done
 
 KimonoGirlZukiAfterBattleText:
-	text "I put a different"
-	line "flower in my bar-"
-	cont "rette every month."
+	text "Jeden Monat stecke"
+	line "ich mir eine ande-"
+	cont "re Blume in die"
+	cont "Spange."
 	done
 
 KimonoGirlKuniSeenText:
-	text "Oh, you're a cute"
-	line "trainer. Would you"
-	cont "like to battle?"
+	text "Oh, du scheinst"
+	line "nett zu sein."
+	cont "Willst du kämpfen?"
 	done
 
 KimonoGirlKuniBeatenText:
-	text "You're stronger"
-	line "than you look."
+	text "Du bist stärker"
+	line "als du aussiehst."
 	done
 
 KimonoGirlKuniAfterBattleText:
-	text "I trained a lot,"
-	line "so I thought I was"
-
-	para "a capable trainer."
-	line "I guess I'm not."
+	text "Ich habe viel"
+	line "trainiert. Also"
+	para "dachte ich, ich"
+	line "wäre gut. Aber ich"
+	cont "bin es wohl nicht."
 	done
 
 KimonoGirlMikiSeenText:
-	text "Do you like my"
-	line "dancing? I'm good"
-	cont "at #MON too."
+	text "Gefällt dir mein"
+	line "Tanz? Ich kenne"
+	cont "mich auch gut mit"
+	cont "#MON aus."
 	done
 
 KimonoGirlMikiBeatenText:
-	text "Ooh, you're good"
-	line "at #MON too."
+	text "Ooh, du kennst"
+	line "dich auch gut mit"
+	cont "#MON aus."
 	done
 
 KimonoGirlMikiAfterBattleText:
-	text "I can keep dancing"
-	line "because there are"
+	text "Ich werde nicht"
+	line "aufhören zu tan-"
+	cont "zen, solange es"
+	cont "Leute gibt, denen"
+	para "ich dadurch Freude"
+	line "bereite."
 
-	para "people who enjoy"
-	line "what I do."
-
-	para "My #MON keep my"
-	line "spirits up too."
+	para "Auch meine #MON"
+	line "unterstützen mich"
+	cont "dabei."
 	done
 
 CoinsGuyNeverLeftAScratchText:
-	text "Not only are the"
-	line "KIMONO GIRLS great"
+	text "Die KIMONO-GIRLS"
+	line "sind nicht nur"
+	para "großartige Tänzer,"
+	line "sie sind auch gute"
+	cont "#MON-Trainer."
 
-	para "dancers, they're"
-	line "also skilled at"
-	cont "#MON."
-
-	para "I always challenge"
-	line "them, but I've"
-
-	para "never even left a"
-	line "scratch…"
+	para "Ich fordere sie"
+	line "ständig heraus,"
+	para "konnte sie aber"
+	line "noch nie besiegen…"
 	done
 
 CoinsGuyLadGiftText:
-	text "Lad! I've had a"
-	line "bout of good luck"
-	para "at the games of"
-	line "chance upstairs!"
-	para "If you can show me"
-	line "that you can"
-	para "defeat all of the"
-	line "KIMONO GIRLS, I'll"
-	para "fill your COIN"
-	line "CASE to the brim!"
+    text "Junge! Ich hatte"
+    line "etwas Glück bei"
+    cont "den Spielen oben!"
+
+    para "Wenn du alle"
+    line "KIMONO-GIRLS"
+    para "besiegst, fülle"
+    line "ich deinen MÜNZ-"
+    cont "KORB bis zum Rand!"
 	done
 
 CoinsGuyLikeADanceText:
-	text "The way you bat-"
-	line "tled, it was like"
-	cont "watching a dance."
+	text "Die Art wie du"
+	line "kämpfst, ist wie"
+	cont "ein Tanz."
 
-	para "It was a rare"
-	line "treat to see!"
+	para "So etwas sieht man"
+	line "nicht oft!"
 
-	para "Here, lad, as I"
-	line "promised!"
+	para "Hier, Kumpel, wie"
+	line "versprochen!"
 	done
 
 CoinsGuyElegantKimonoGirlsText:
-	text "I wish my #MON"
-	line "were as elegant as"
-	cont "the KIMONO GIRLS…"
+	text "Ich wünschte, mei-"
+	line "ne #MON wären"
+	cont "so elegant wie die"
+	cont "KIMONO-GIRLS…"
 	done
 
 RhydonText:
-	text "RHYDON: Gugooh"
+	text "RIZEROS: Gugooh"
 	line "gugogooh!"
 	done
 
 RyukyuTheatreCooltrainerMText:
-	text "The KIMONO GIRLS'"
-	line "dances are so"
-	cont "mesmerizing…"
+	text "Die Tänze der"
+	line "KIMONO-GIRLS sind"
+	cont "so hypnotisch…"
 	done
 
 RyukyuTheatreGrannyText:
-	text "The KIMONO GIRLS"
-	line "are so beautiful…"
+	text "Die KIMONO-GIRLS"
+	line "sind so hübsch…"
 
-	para "But they have to"
-	line "go through rigor-"
-	cont "ous training."
+	para "Aber sie müssen"
+	line "hart trainieren."
 
-	para "And they have to"
-	line "learn to follow"
+	para "Und sie müssen"
+	line "so viele Dinge"
+	para "lernen, bevor sie"
+	line "öffentlich auftre-"
+	cont "ten."
 
-	para "customs before ap-"
-	line "pearing in public."
-
-	para "But if you love"
-	line "something, any-"
-	cont "thing is possible."
+	para "Aber wenn du etwas"
+	line "liebst, ist alles"
+	cont "möglich."
 	done
 
 RyukyuTheatreFancyPanelText:
-	text "It's a fancy panel"
-	line "that's decorated"
-	cont "with flowers."
+	text "Eine hübsche, mit"
+	line "Blumen dekorierte"
+	cont "Tafel."
 	done
 
 RyukyuTheatre_MapEvents:

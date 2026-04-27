@@ -194,122 +194,129 @@ RyukyuRestaurantGameCornerTMVendorMenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "FIRE STONE    800@"
-	db "WATER STONE   800@"
-	db "THUNDERSTONE  800@"
-	db "CANCEL@"
+	db "FEUERSTEIN    800@"
+	db "WASSERSTEIN   800@"
+	db "DONNERSTEIN   800@"
+	db "ZURÜCK@"
 	
 RyukyuRestaurantPokefanM2Text:
-	text "My #MON love"
-	line "the food here"
-	cont "more than I do!"
+	text "Meine #MON"
+	line "mögen das Essen"
+	cont "hier mehr als ich!"
 	done
 	
 RyukyuRestaurantSuperNerdText:
-	text "This is the best"
-	line "place to eat in"
-	cont "all of NIHON!"
+	text "Das ist der beste"
+	line "Ort zum Essen in"
+	cont "ganz NIHON!"
 	done
 	
 RyukyuRestaurantJanineText:
-	text "The service here"
-	line "is as good as the"
-	cont "food is!"
+	text "Der Service hier"
+	line "ist genauso gut"
+	cont "wie das Essen!"
 	done
 	
 RyukyuRestaurantCooltrainerFText:
-	text "Waiter!"
-	para "More water,"
-	line "please!"
+	text "Bedienung!"
+
+	para "Bitte noch ein"
+	line "Wasser!"
 	done
 	
 RyukyuRestaurantCooltrainerMText:
-	text "The food here is"
-	line "delicious!"
+	text "Das Essen hier ist"
+	line "einfach köstlich!"
 	done
 	
 RyukyuRestaurantTwinText:
-	text "I want a piece"
-	line "of cake!"
+	text "Ich möchte ein"
+	line "Stück Kuchen!"
 	done
 	
 RyukyuRestaurantTeacherText:
-	text "Be sure to eat"
-	line "your vegetables!"
+	text "Iss auch dein"
+	line "Gemüse auf!"
 	done
 	
 RyukyuRestaurantPokefanMText:
-	text "This machine is"
-	line "lucky!"
-	para "No one else is"
-	line "going to use it!"
+	text "Dieser Automat"
+	line "bringt Glück!"
+
+	para "Den lasse ich"
+	line "niemand sonst"
+	comt "benutzen!"
 	done
 	
 RyukyuRestaurantTheatreText:
-	text "Downstairs to"
-	line "RYUKYU THEATRE"
+	text "RUUCHUU THEATER"
+	line "Die Treppe runter"
 	done
 
 RyukyuRestaurantGameCornerPrizeVendorIntroText:
-	text "Welcome!"
+	text "Willkommen!"
 
-	para "We exchange your"
-	line "game coins for"
-	cont "fabulous prizes!"
+	para "Wir tauschen deine"
+	line "Spielmünzen gegen"
+	cont "tolle Preise!"
 	done
 
 RyukyuRestaurantGameCornerPrizeVendorWhichPrizeText:
-	text "Which prize would"
-	line "you like?"
+	text "Welchen Preis"
+	line "möchtest du?"
 	done
 
 RyukyuRestaurantGameCornerPrizeVendorConfirmPrizeText:
 	text_ram wStringBuffer3
 	text "."
-	line "Is that right?"
+	line "Ist das O.K.?"
 	done
 
 RyukyuRestaurantGameCornerPrizeVendorHereYouGoText:
-	text "Here you go!"
+	text "Hier, bitte!"
 	done
 
 RyukyuRestaurantGameCornerPrizeVendorNeedMoreCoinsText:
-	text "Sorry! You need"
-	line "more coins."
+	text "Tut mir Leid, aber"
+	line "du brauchst mehr"
+	cont "Münzen."
 	done
 
 RyukyuRestaurantGameCornerPrizeVendorNoMoreRoomText:
-	text "Sorry. You can't"
-	line "carry any more."
+	text "Du kannst nichts"
+	line "mehr tragen."
 	done
 
 RyukyuRestaurantGameCornerPrizeVendorQuitText:
-	text "OK. Please save"
-	line "your coins and"
-	cont "come again!"
+	text "Sammle ein paar"
+	line "Münzen und komm"
+	cont "dann wieder!"
 	done
 
 RyukyuRestaurantGameCornerPrizeVendorNoCoinCaseText:
-	text "Oh? You don't have"
-	line "a COIN CASE."
+	text "Oh? Du hast keinen"
+	line "MÜNZKORB."
 	done
 	
 RyukyuRestaurantClerkText:
-	text "I'm sorry, but"
-	line "access to the"
-	para "THEATRE is for"
-	line "HOTEL guests only."
-	para "You'll need a ROOM"
-	line "PASS to enter."
+	text "Tut mir leid, der"
+	line "Zugang zum THEATER"
+	para "ist nur für Gäste"
+	line "unseres HOTELs."
+
+	para "Du brauchst eine"
+	line "ZIMMERKARTE um"
+	cont "hereinzukommen."
 	done
 	
 RyukyuRestaurantBarText:
-	text "Welcome!"
-	para "I hope you enjoy"
-	line "our many options"
-	para "for entertainment"
-	line "here at RYUKYU"
-	cont "HOTEL!"
+	text "Willkommen!"
+
+	para "Ich hoffe, dir"
+	line "gefallen unsere"
+	para "Unterhaltungs-"
+	line "angebote hier im"
+	cont "RUUCHUU HOTEL!"
 	done
 
 RyukyuRestaurant_MapEvents:

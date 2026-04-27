@@ -17,27 +17,31 @@ RyukyuHotel3FCooltrainerM:
 	jumptextfaceplayer RyukyuHotel3FCooltrainerMText
 	
 RyukyuHotel3FCooltrainerMText:
-	text "Hmm…"
-	para "I need to make"
-	line "sure I've packed"
-	para "everything before"
-	line "I return my ROOM"
-	cont "PASS…"
+	text "Hm…"
+
+	para "Ich muss sicher-"
+	line "gehen, dass ich"
+	oara "alles eingepackt"
+	line "habe, bevor ich"
+	para "meine ZIMMERKARTE"
+	line "zurückgebe…"
 	done
 	
 RyukyuHotel3FCooltrainerF:
 	jumptextfaceplayer RyukyuHotel3FCooltrainerFText
 	
 RyukyuHotel3FCooltrainerFText:
-	text "This place is"
-	line "huge!"
-	para "I forget where my"
-	line "room is…"
+	text "Dieses Hotel ist"
+	line "riesig!"
+
+	para "Ich habe schon"
+	line "vergessen, wo mein"
+	cont "Zimmer ist…"
 	done
 	
 HotelDoorLockedText3F:
-	text "The door is"
-	line "locked…"
+	text "Die Tür ist"
+	line "verschlossen…"
 	done
 
 RyukyuHotel3F_MapEvents:

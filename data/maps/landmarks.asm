@@ -110,7 +110,7 @@ BirdonTownName:     db "TOTOMONIA@"         ; Tottori + Flegmon
 BlueForestName:     db "KITAOMORIA CITY@"   ; Kita (jap. Norden) + ao (jap. Blau) + mori (jap. Wald)
 BoardwalkName:      db "PROMENADE@"
 BoulderMineName:    db "GERÖLLMINE@"        ;
-CharredSummitName:  db "RUẞ-GIPFEL@"        ;
+CharredSummitName:  db "RUẞGIPFEL@"        ;
 CrownCityName:      db "KOROKANIA CITY@"    ; Coroa (port. Krone) + oukan (jap. Krone)
 DaitoRanchName:     db "DAITO RANCH@"       ; NICHT FINAL Daito - Ort in Ryukyu
 DragonsDenName:     db "DRACHENSCHLUND@"    ;
@@ -137,7 +137,7 @@ KumeCityName:       db "KUMIA CITY@"        ; Kumijima (okinawaisch für Kume-ji
 KumePointName:      db "PUNKT KUMIA@"       ; NICHT FINAL
 LavenderTownName:   db "LAVANDIA@"
 MagmaShaftName:     db "MAGMA-SCHACHT@"
-MeridianPathName:   db "MERIDIAN PFAD@"
+MeridianPathName:   db "MERIDIAN-PFAD@"
 MotobuPathName:     db "MOTOBU PFAD@"       ; Motobu - Ort in Ryukyu
 MountFujiName:      db "KOROKANIABERG@"     ;
 MtFujiInteriorLowerName:     db "KOROKANIA-PFAD@"
@@ -150,7 +150,7 @@ PagotaCityName:     db "PAGETIA CITY@"      ; Pagode + vetus (lat. alt)
 PokemonMansionName: db "#MON VILLA@"        ;
 RadioTowerName:     db "RADIOTURM@"         ;
 RainbowIslandName:  db "REGENBOGENINSEL@"
-RyukyuCityName:     db "RYUKYU CITY@"       ; Ryukyu-Inseln
+RyukyuCityName:     db "RUUCHUU CITY@"      ; Ruuchuu - ryukyu für Ryukyu
 SafariZoneName:     db "SAFARI ZONE@"       ;
 SanskritRuinsName:  db "GLYPHONTIA-RUINEN@" ; siehe Glyphontia
 SanskritTownName:   db "GLYPHONTIA@"        ; Glyphe + Font

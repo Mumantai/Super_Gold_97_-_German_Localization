@@ -11,11 +11,11 @@ MeridianPathRyukyuGateOfficerScript:
 
 
 MeridianPathRyukyuGateOfficerText:
-	text "RYUKYU CITY is"
-	line "probably the most"
-	para "popular tourist"
-	line "attraction on the"
-	cont "ISLANDS."
+    text "RUUCHUU CITY ist"
+    line "die wahrscheinlich"
+    para "beliebteste Touri-"
+    line "stenattraktion auf"
+    cont "den INSELN."
 	done
 
 MeridianPathRyukyuGate_MapEvents:

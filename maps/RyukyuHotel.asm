@@ -122,117 +122,127 @@ RyukyuHotelJanine:
 	jumptextfaceplayer RyukyuHotelJanineText
 	
 RyukyuHotelYoungsterText:
-	text "I've never stayed"
-	line "in such a huge"
-	cont "hotel before!"
+	text "Ich war noch nie"
+	line "in so einem"
+	cont "großen Hotel!"
 	done
 	
 RyukyuHotelBugCatcherText:
-	text "I want to go out"
-	line "to the beach!"
+	text "Ich will raus an"
+	line "den Strand!"
 	done
 	
 RyukyuHotelTeacherText:
-	text "Our hotel suite"
-	line "is so cozy!"
+	text "Unsere Suite ist"
+	line "so gemütlich!"
 	done
 
 RyukyuHotelLassText:
-	text "Which floor is my"
-	line "room on?"
+	text "Auf welcher Etage"
+	line "ist mein Zimmer?"
 	done
 	
 RyukyuHotelJanineText:
-	text "The weather here"
-	line "is beautiful!"
+	text "Das Wetter hier"
+	line "ist wunderschön!"
 	done
 	
 RyukyuHotelElevatorNeedsPassText:
-	text "It requires a ROOM"
-	line "PASS to access…"
+    text "Man braucht eine"
+    line "ZIMMERKARTE, um"
+    cont "reinzukommen…"
 	done
 	
 RyukyuHotelClerkText:
-	text "I'm terribly"
-	line "sorry, but I can"
-	para "only allow access"
-	line "to those with a"
-	cont "ROOM PASS."
+	text "Es tut mir Leid,"
+	line "aber kann nur"
+	para "Gästen mit einer"
+	line "ZIMMERKARTE Zugang"
+	cont "gewähren."
 	done
 	
 RyukyuHotelClerk2Text:
-	text "Welcome!"
-	para "Many of our guests"
-	line "are experienced"
-	para "#MON trainers"
-	line "who are waiting"
-	para "to battle in"
-	line "their suites!"
+	text "Willkommen!"
+
+	para "Viele unserer"
+	line "Gäste sind starke"
+	para "#MON-TRAINER,"
+	line "die in ihren"
+	para "Suiten auf Kämpfe"
+	line "warten!"
 	done
 	
 HotelReceptionistNoSaleText:
-	text "Not interested?"
-	para "The offer will"
-	line "be waiting."
+	text "Kein Interesse?"
+
+	para "Das Angebot bleibt"
+	line "natürlich."
 	done
 	
 HotelReceptionistNoMoneyText:
-	text "Oh, I would have"
-	line "assumed the CHAMP-"
-	para "ION could have"
-	line "afforded this."
+	text "Oh, ich dachte,"
+	line "der CHAMP könne"
+	cont "sich das leisten."
 	done
 	
 HotelReceptionist_GotPass:
-	text "Here you go!"
-	para "Your room is on"
-	line "the 5th floor."
+	text "Hier, bitte!"
+
+	para "Dein Zimmer liegt"
+	line "im 4. Stock."
 	done
 	
 
 HotelReceptionistText:
-	text "…Say, aren't you"
-	line "<PLAYER>?"
-	para "As NIHON's CHAMP-"
-	line "ION, surely you'd"
-	para "want to book a"
-	line "room with us."
-	para "May I offer you"
-	line "a discounted ROOM"
-	cont "PASS?"
-	para "It's good for the"
-	line "year for only"
-	cont "¥10000."
+	text "…Moment, bist du"
+	line "nicht <PLAYER>?"
+
+	para "Als CHAMP von"
+	line "NIHON willst du"
+	para "sicher ein Zimmer"
+	line "bei uns buchen."
+
+	para "Darf ich dir eine"
+	line "vergünstigte"
+	cont "ZIMMERKARTE"
+	cont "anbieten?"
+
+	para "Sie gilt das ganze"
+	line "Jahr und kostet"
+	cont "nur ¥10000."
 	done
 	
 HotelReceptionistText2:
-	text "Welcome to RYUKYU"
-	line "HOTEL!"
-	para "We are a major"
-	line "tourist hotspot"
-	cont "for all of NIHON!"
-	para "We often have some"
-	line "well-known faces"
-	cont "booking with us!"
+	text "Willkommen im"
+	line "RUUCHUU HOTEL!"
+
+	para "Wir sind eine der"
+	line "größten Touristen-"
+	cont "attraktionen in"
+	cont "ganz NIHON!"
+
+	para "Bei uns checken oft"
+	line "auch bekannte"
+	cont "Gesichter ein!"
 	done
 
 HotelReceptionistText3:
-	text "You know PROF.OAK,"
-	line "correct?"
-	para "He's recently"
-	line "started booking"
-	cont "weekends here."
+	text "Du kennst doch"
+	line "PROF.EICH, oder?"
+
+	para "Er besucht uns"
+	line "regelmäßig am"
+	cont "Wochenende."
 	done
 	
 HotelReceptionistText4:
-	text "Though if what I"
-	line "hear about the"
-	para "S.S.AQUA being out"
-	line "of service is"
-	para "true, it may dis-"
-	line "rupt the travel"
-	para "plans of some of"
-	line "our future guests…"
+    text "Wenn es stimmt,"
+    line "dass die M.S.AQUA"
+    para "außer Betrieb ist,"
+    line "könnte das die"
+    para "Reisepläne einiger"
+    line "zukünftiger Gäste"
+    cont "stören…"
 	done
 
 RyukyuHotel_MapEvents:

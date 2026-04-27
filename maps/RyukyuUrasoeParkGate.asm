@@ -86,9 +86,9 @@ DollSalesmanSaturdayMenu:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 3 ; items
-	db "MACHOP      ¥5000@"
-	db "TENTACOOL   ¥5000@"
-	db "CANCEL@"
+	db "MACHOLLO    ¥5000@"
+	db "TENTACHA    ¥5000@"
+	db "ZURÜCK@"
 	
 DollSalesmanSaturday_FinishScript:
 	waitsfx
@@ -111,49 +111,57 @@ DollSalesmanSaturdayNoMoney:
 	end
 	
 SendItemToPCTextDollSaturday:
-	text "Send this DOLL to"
-	line "your bedroom PC?"
+    text "Die PUPPE an den"
+    line "PC schicken?"
 	done
 
 AlreadyHaveDecorItemTextSalesmanSaturday:
-	text "You already have"
-	line "this DOLL!"
+    text "Du hast diese"
+    line "PUPPE bereits!"
 	done
 
 DollSalesmanSaturday_HereYouGoText:
-	text "Here you go!"
+	text "Hier, bitte schön!"
 	done
 	
 DollSalesmanSaturdayComeAgain:
-	text "Hope to see you"
-	line "again somewhere!"
+    text "Ich hoffe, wir"
+    line "sehen uns bald"
+    cont "wieder irgendwo!"
 	done
 	
 DollSalesmanSaturdayNoMoneyText:
-	text "Sorry, you'll"
-	line "need more money!"
+    text "Tut mir leid, du"
+    line "hast nicht genug"
+    line "Geld!"
 	done
 	
 DollSalesmanTextSaturday:
-	text "Hiya!"
-	para "I'm a traveling"
-	line "DOLL salesman!"
-	para "What does that"
-	line "mean?"
-	para "It means that I'm"
-	line "who you talk to"
-	para "if you want to"
-	line "deck out your"
-	cont "bedroom!"
-	para "My stock and my"
-	line "location change"
-	para "daily, so keep an"
-	line "eye out for me!"
+    text "Hey!"
+
+    para "Ich bin ein rei-"
+    line "sender PUPPEN-"
+    cont "Händler!"
+
+    para "Was das heißt?"
+
+    para "Das soll heißen,"
+    line "ich bin dein"
+    para "Ansprechpartner,"
+    line "wenn es darum"
+    cont "geht, dein Zimmer"
+    cont "aufzupeppen!"
+
+    para "Mein Angebot und"
+    line "mein Standort"
+    para "wechseln täglich,"
+    line "also halte deine"
+    cont "Augen offen!"
 	done
 	
 DollSalesmanTextSaturday_AskWhichPrizeText:
-	text "Now which DOLL"
-	line "would you like?"
+    text "Also, welche PUPPE"
+    line "hättest du gerne?"
 	done
 	
 ;---------------------------------
@@ -161,11 +169,11 @@ DollSalesmanTextSaturday_AskWhichPrizeText:
 
 
 Route101NRyukyuGuardWelcomeText:
-	text "Somedays I wish"
-	line "I could leave my"
-	para "guard post and go"
-	line "relax out on the"
-	cont "beach."
+	text "Manchmal wünsche"
+	line "ich, ich könnte"
+	para "meinen Posten"
+	line "verlassen und am"
+	cont "Strand entspannen."
 	done
 
 
