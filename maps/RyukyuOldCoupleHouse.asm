@@ -34,18 +34,20 @@ RyukyuOldCoupleHouseZubatScript:
 	end
 
 RyukyuOldCoupleHouseGrannyText:
-	text "My husband lives"
-	line "happily with #-"
-	cont "MON he got through"
-	cont "trades."
+    text "Mein Mann lebt"
+    line "zufrieden mit den"
+    para "#MON, die er"
+    line "durch Tauschen"
+    cont "bekommen hat."
 	done
 
 RyukyuOldCoupleHouseGrampsText:
-	text "Ah… I'm so happy…"
+	text "Ah… Ich bin so"
+	line "glücklich…"
 	done
 
 RyukyuOldCoupleHouseRhydonText:
-	text "KANGASKHAN: Garu"
+	text "KANGAMA: Garu"
 	line "garuu."
 	done
 

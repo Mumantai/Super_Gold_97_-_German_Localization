@@ -221,8 +221,8 @@ HotelReceptionistText2:
 	cont "attraktionen in"
 	cont "ganz NIHON!"
 
-	para "Bei uns checken oft"
-	line "auch bekannte"
+	para "Bei uns checken"
+	line "oft auch bekannte"
 	cont "Gesichter ein!"
 	done
 

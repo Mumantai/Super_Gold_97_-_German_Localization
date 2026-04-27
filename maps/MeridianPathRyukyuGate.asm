@@ -13,9 +13,9 @@ MeridianPathRyukyuGateOfficerScript:
 MeridianPathRyukyuGateOfficerText:
     text "RUUCHUU CITY ist"
     line "die wahrscheinlich"
-    para "beliebteste Touri-"
-    line "stenattraktion auf"
-    cont "den INSELN."
+    para "beliebteste"
+    line "Touristenattraktion"
+    cont "auf den INSELN."
 	done
 
 MeridianPathRyukyuGate_MapEvents:
