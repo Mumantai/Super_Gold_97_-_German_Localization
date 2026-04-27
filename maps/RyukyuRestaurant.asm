@@ -245,7 +245,7 @@ RyukyuRestaurantPokefanMText:
 
 	para "Den lasse ich"
 	line "niemand sonst"
-	comt "benutzen!"
+	cont "benutzen!"
 	done
 	
 RyukyuRestaurantTheatreText:

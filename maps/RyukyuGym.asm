@@ -478,7 +478,6 @@ Trainer2AfterWaterText:
 	done
 
 TakeGoodCareOfStarter2:
-TakeGoodCareOfStarter2:
 	text "Kümmere dich gut"
 	line "um das #MON!"
 

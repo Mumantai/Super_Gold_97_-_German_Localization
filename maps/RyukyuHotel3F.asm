@@ -21,7 +21,7 @@ RyukyuHotel3FCooltrainerMText:
 
 	para "Ich muss sicher-"
 	line "gehen, dass ich"
-	oara "alles eingepackt"
+	para "alles eingepackt"
 	line "habe, bevor ich"
 	para "meine ZIMMERKARTE"
 	line "zurückgebe…"
