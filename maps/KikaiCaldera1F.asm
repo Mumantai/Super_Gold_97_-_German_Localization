@@ -22,20 +22,21 @@ TrainerBBIzo:
 	end
 
 IzoSeenText:
-	text "Hiyah! Feel my"
-	line "burning hot"
-	cont "fighting spirit!"
+	text "Hiyah! Spüre"
+	line "meinen brennend"
+	cont "heißen Kampfgeist!"
 	done
 
 IzoBeatenText:
-	text "Hooah!"
+	text "Huah!"
 	done
 	
 IzoAfterBattleText:
-	text "I can't tell what"
-	line "is hotter, this"
-	para "volcano or my"
-	line "burning passion!"
+    text "Ich weiß nicht,"
+    line "was heißer ist,"
+    para "dieser Vulkan oder"
+    line "meine brennende"
+    cont "Leidenschaft!"
 	done
 
 TrainerBBTakeshi:
@@ -50,21 +51,23 @@ TrainerBBTakeshi:
 	end
 	
 TakeshiSeenText:
-	text "Welcome to the"
-	line "CALDERA Kitchen!"
-	
-	para "Now face the heat!"
+    text "Willkommen in der"
+    line "KESSEL-Küche!"
+
+    para "Jetzt spüre"
+    line "die Hitze!"
 	done
 	
 TakeshiBeatenText:
-	text "I can smell what"
-	line "you're cookin' up!"
+	text "Ich rieche, was"
+	line "du da kochst!"
 	done
 	
 TakeshiAfterBattleText:
-	text "Those who can't"
-	line "stand the heat"
-	cont "shouldn't be here!"
+	text "Wer die Hitze"
+	line "nicht aushält,"
+	para "hat hier nichts"
+	line "verloren!"
 	done
 	
 	
@@ -80,24 +83,26 @@ TrainerBBTaro:
 	end
 
 TaroSeenText:
-	text "My fists flow"
-	line "faster than the"
-	para "river of sweat"
-	line "from my efforts!"
+    text "Meine Fäuste flie-"
+    line "gen schneller, als"
+    para "die Schweißperlen"
+    line "von meiner Stirn!"
 	done
 	
 TaroBeatenText:
-	text "Maybe it's time"
-	line "to hit the sauna."
+    text "Vielleicht ist"
+    line "es Zeit für"
+    cont "die Sauna."
 	done
 	
 TaroAfterBattleText:
-	text "Fighters began to"
-	line "train in the"
-	para "CALDERA because"
-	line "the intense heat"
-	para "builds their"
-	line "cardiac strength!"
+    text "Kämpfer haben mit"
+    line "hier im KESSEL mit"
+    para "dem Training be-"
+    line "gonnen, weil die"
+    para "intensive Hitze"
+    line "ihre Herzfunktion"
+    cont "stärkt!"
 	done
 
 KKC1Itemball1:

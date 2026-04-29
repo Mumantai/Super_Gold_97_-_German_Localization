@@ -46,15 +46,15 @@ KikaiStraitStarPiece:
 
 	
 KikaiStraitYoungsterText:
-	text "Wow, the CALDERA"
-	line "looks absolutely"
-	cont "massive from here."
+    text "Wow, von hier aus"
+    line "sieht der KESSEL"
+    cont "riesig aus!"
 	done
 
 SwimmerfDeniseSeenText:
-	text "The weather is so"
-	line "beautiful, I'm in"
-	cont "a daze!"
+	text "Das Wetter ist so"
+	line "herrlich. Ich bin"
+	cont "richtig benommen!"
 	done
 
 SwimmerfDeniseBeatenText:
@@ -62,34 +62,40 @@ SwimmerfDeniseBeatenText:
 	done
 
 SwimmerfDeniseAfterBattleText:
-	text "A sunburn is the"
-	line "worst for skin."
+	text "Ein Sonnenbrand"
+	line "ist sehr schlecht"
+	cont "für die Haut."
 
-	para "But I don't use"
-	line "any sunblock."
+	para "Aber ich benutze"
+	line "keine Sonnencreme."
 
-	para "I won't pollute"
-	line "the water."
+	para "Ich möchte das"
+	line "Wasser nicht"
+	cont "verschmutzen."
 	done
 
 
 SwimmerfWendySeenText:
-	text "At night, STARYU"
-	line "gather near the"
-	cont "water's surface."
+	text "NACHTs sammeln"
+	line "sich STERNDU"
+	cont "nahe der Wasser-"
+	cont "oberfläche."
 	done
 
 SwimmerfWendyBeatenText:
-	text "Oh, dear…"
+	text "Oje…"
 	done
 
 SwimmerfWendyAfterBattleText:
-	text "The clusters of"
-	line "STARYU light up"
-	cont "at the same time."
+	text "In der Gruppe"
+	line "fangen"
+	cont "STERNDU an"
+	cont "zu leuchten."
 
-	para "It's so beautiful,"
-	line "it's scary."
+	para "Das ist"
+	line "wunderschön und"
+	cont "beängstigend"
+	cont "zugleich."
 	done
 
 

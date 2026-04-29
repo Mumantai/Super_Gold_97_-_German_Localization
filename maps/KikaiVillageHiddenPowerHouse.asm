@@ -31,38 +31,41 @@ HiddenPowerHouseBookshelf:
 	jumpstd DifficultBookshelfScript
 
 HiddenPowerGuyText1:
-	text "…You have strayed"
-	line "far…"
+	text "…Du bist viel he-"
+	line "rumgekommen…"
 
-	para "Here I have medi-"
-	line "tated. Inside me,"
+	para "Ich habe hier me-"
+	line "ditiert. In mir"
 
-	para "a new power has"
-	line "been awakened."
+	para "ist eine neue"
+	line "Kraft zum Leben"
+	cont "erwacht."
 
-	para "Let me share my"
-	line "power with your"
+	para "Lass mich meine"
+	line "Kraft mit deinen"
 
-	para "#MON."
-	line "Take this, child."
+	para "#MON teilen."
+	line "Nimm dies, Kind."
 	done
 
 HiddenPowerGuyText2:
-	text "Do you see it? It"
-	line "is HIDDEN POWER!"
+	text "Siehst du? Das"
+	line "ist KRAFTRESERVE!"
 
-	para "It draws out the"
-	line "power of #MON"
-	cont "for attacking."
+	para "Sie bringt die"
+	line "wahre Kraft der"
+	cont "#MON zum"
+	cont "Vorschein."
 
-	para "Remember this: its"
-	line "type and power de-"
-	cont "pend on the #-"
-	cont "MON using it."
+	para "Vergiss nicht: Typ"
+	line "und Stärke der At-"
+	cont "tacke hängen vom"
+	cont "jeweiligen #MON"
+	cont "ab."
 	done
 
 HiddenPowerGuyText3:
-	text "I am meditating…"
+	text "Ich meditiere…"
 	done
 
 KikaiVillageHiddenPowerHouse_MapEvents:

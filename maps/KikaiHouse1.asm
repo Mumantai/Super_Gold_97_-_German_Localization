@@ -14,26 +14,28 @@ KKHouse1GrannyScript:
 	jumptextfaceplayer KKHouse1GrannyText
 	
 KKHouse1BBText:
-	text "I traveled all"
-	line "the way from the"
-	para "FIGHTING DOJO in"
-	line "ALLOY CITY to"
-	para "train inside the"
-	line "KIKAI CALDERA!"
+    text "Ich kam den ganzen"
+    line "Weg aus dem KAMPF-"
+    cont "DOJO in GENEOS"
+    cont "CITY, um hier im"
+    para "KIKAI-KESSEL zu"
+    line "trainieren!"
 	done
 
 KKHouse1GrannyText:
-	text "Traveling martial"
-	line "artists seek"
-	para "lodging here in"
-	line "my humble home."
-	
-	para "I may not look it,"
-	line "but many years ago"
-	para "I too was one of"
-	line "the fighters who"
-	para "came to train at"
-	line "the CALDERA."
+    text "Reisende Kampf-"
+    line "künstler suchen"
+    para "Unterkunft, hier"
+    line "in meinem beschei-"
+    cont "denen Zuhause."
+
+    para "Ich sehe nicht so"
+    line "aus, aber vor"
+    para "vielen Jahren war"
+    line "ich auch eine der"
+    para "Kämpfer, die zum"
+    line "Trainieren im"
+    cont "KESSEL herkamen."
 	done
 	
 
