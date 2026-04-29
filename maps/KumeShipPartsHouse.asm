@@ -35,35 +35,49 @@ FuelLineGuruScript:
 	end
 	
 SSAquaDoingGreatText:
-	text "Hey, kid!"
-	para "I hear the S.S."
-	line "AQUA is sailing"
-	para "the seas as smooth"
-	line "as ever!"
+    text "Hey, Kleiner!"
+
+    para "Ich hörte, dass "
+    line "die M.S. AQUA"
+    para "wieder geschmeidig"
+    line "über die Wellen"
+    cont "gleitet!"
 	done
 	
 YouNeedAFuelLine:
-	text "Well, hello!"
-	para "You need parts for"
-	line "seafaring vessels?"
-	para "I'm your guy!"
-	para "…"
-	para "Oh, dear!"
-	para "The S.S.AQUA needs"
-	line "a new FUEL LINE?"
-	para "Why, that ship is"
-	line "a modern marvel!"
-	para "I'll give you the"
-	line "part you need,"
-	cont "free of charge!"
+    text "Oh, hallo!"
+
+    para "Du brauchs ein"
+    line "Ersatzteil für ein"
+    cont "Schiff?"
+
+    para "Da bist du an der"
+    line "richtigen Adresse!"
+
+    para "…"
+
+    para "Oh, nein!"
+
+    para "Die BENZINLEITUNG"
+    line "der M.S.AQUA ist"
+    cont "kaputt?"
+
+    para "Das Schiff ist ein"
+    line "modernes Wunder!"
+
+    para "Ich gebe dir das"
+    line "passende Teil."
+    cont "Komplett gratis!"
 	done
 	
 AlreadyGotFuelLineText:
-	text "Alright, kid. That"
-	line "should be what"
-	cont "they need!"
-	para "You'll be a hero"
-	line "to the whole crew!"
+    text "So, Kleiner. Das"
+    line "hier sollte das"
+    cont "Teil sein!"
+
+    para "Damit wirst du zum"
+    line "Helden der ganzen"
+    cont "Besatzung!"
 	done
 
 KumeShipPartsHouse_MapEvents:

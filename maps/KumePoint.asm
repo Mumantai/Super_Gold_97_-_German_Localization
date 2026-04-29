@@ -31,43 +31,48 @@ TrainerFisherMartin:
 	
 	
 FisherMartinSeenText:
-	text "Patience is the"
-	line "key to both fish-"
-	cont "ing and #MON."
+	text "Geduld ist das"
+	line "Zauberwort. Das"
+	cont "gilt fürs Angeln"
+	cont "und für #MON."
 	done
 
 FisherMartinBeatenText:
-	text "Gwaaah!"
+	text "Guaah!"
 	done
 
 FisherMartinAfterBattleText:
-	text "I'm too impatient"
-	line "for fishing…"
+	text "Ich bin zu unge-"
+	line "duldig für das"
+	cont "Angeln…"
 	done
-	
 
 FisherKyleSeenText:
-	text "This is the best"
-	line "fishing spot, I"
-	cont "promise!"
+    text "Das hier, ist der"
+    line "beste Angelplatz,"
+    cont "versprochen!"
 	done
 
 FisherKyleBeatenText:
-	text "You ever fish"
-	line "here?"
+	text "Hast du schon hier"
+	line "geangelt?"
 	done
 
 FisherKyleAfterBattleText:
-	text "There's more"
-	line "FISHERS on the"
-	para "other side of the"
-	line "STRAIT that claim"
-	para "that side is a"
-	line "better fishing"
-	cont "spot."
-	para "But they're wrong!"
-	para "I know this side"
-	line "is better."
+    text "Auf der anderen"
+    line "Seite der STRAẞE,"
+    para "gibt es jede Menge"
+    line "ANGLER, die ihre"
+    para "Seite für den"
+    line "besten Angelplatz"
+    cont "halten."
+
+    para "Aber die irren"
+    line "sich alle!"
+
+    para "Ich weiß, dass"
+    line "diese Seite hier"
+    cont "besser ist."
 	done
 
 KumePoint_MapEvents:

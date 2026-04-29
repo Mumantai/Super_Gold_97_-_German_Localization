@@ -121,29 +121,29 @@ ForkedStraitName:   db "FORKED STRAIT@"     ;
 FrostpointTownName: db "SPIZARDIA@"         ; Spitze + Blizzard     NICHT FINAL
 GreatEastStraitName:    db "GROẞE ÖSTL. MEERENGE@"
 HydroPlantName:     db "WASSERKRAFTWERK@"   ;
-IcedCavernName:     db "ICED CAVERN@"
+IcedCavernName:     db "GEFRIERGROTTE@"     ; alt. FROSTHÖHLE
 IcePathName:        db "TIEFWASSERPFAD@";
 IejimaTown:         db "IEJIMA TOWN@"       ;
 IsenStraitName:     db "ISEN-STRAẞE@"       ;
 JadeForestName:     db "JADEWALD@"
 JouleCaveName:      db "JOULEHÖHLE@"
 KantoRegionName:    db "KANTO-REGION@"      ; alt. Kanto
-KeramaStraitName:   db "STRAẞE VON KERAMA@"     ;
+KeramaStraitName:   db "STRAẞE VON KIRAMA@"     ; okinawa. für Kerama - Inselgruppe in Ryukyu
 KikaiCalderaName:   db "KIKAI KESSEL@"      ; Caldera (span. Kessel) ggf. aber auch Caldera, da Fachbegriff
 KikaiStraitName:    db "STRAẞE VON KIKAI@"  ; Kikai - Ort in Ryukyu
 KikaiVillageName:   db "KIKAITANI@"         ; Kikai - Ort in Ryukyu + tanima (jap. Tal)
 KobanIslandName:    db "SATORIA-INSEL@"     ; Satou (jap. Zucker)    alt. Satoria Eiland
 KumeCityName:       db "KUMIA CITY@"        ; Kumijima (okinawaisch für Kume-jima) - Eine Ryukyu-Insel
-KumePointName:      db "PUNKT KUMIA@"       ; NICHT FINAL
+KumePointName:      db "KUMIA-SPITZE@"      ;
 LavenderTownName:   db "LAVANDIA@"
 MagmaShaftName:     db "MAGMA-SCHACHT@"
 MeridianPathName:   db "MERIDIAN-PFAD@"
 MotobuPathName:     db "MOTOBU PFAD@"       ; Motobu - Ort in Ryukyu
 MountFujiName:      db "KOROKANIABERG@"     ;
 MtFujiInteriorLowerName:     db "KOROKANIA-PFAD@"
-NagoCaveName:       db "NAGOHÖHLE@"        ; NICHT FINAL
+NagoCaveName:       db "NAGOHÖHLE@"         ; NICHT FINAL
 NagoVillageName:    db "NAGOTANI@"          ; Nago - Stadt auf Okinawa + tanima (jap. Tal)
-NanjoForestName:    db "NANJO WALD@"        ;
+NanjoForestName:    db "NANJUU-WALD@"       ; Nanchuu /Nanjuu - okinawa. für Nanjo
 NationalParkName:   db "NATIONALPARK@"      ;
 NotApplicableName:  db "N/A@" ; "オバケやしき" ("HAUNTED HOUSE") in Japanese
 PagotaCityName:     db "PAGETIA CITY@"      ; Pagode + vetus (lat. alt)
@@ -166,8 +166,8 @@ TatsugoPathName:    db "TATSUGO PFAD@"      ; Tatsugo - Ort in Ryukyu
 TeknosCityName:     db "TEKNOPIA CITY@"     ; Teknos (griech. Technik) + Utopia
 TropicalIslandJungleName:          db "ROUTE 1@"
 TropicalIslandName: db "TROPENINSEL@"       ;
-UrasoeParkName:     db "URASOE PARK@"       ; NICHT FINAL Urasoe - Ort in Ryukyu
-UrasoeTrailName:    db "URASOE TRAIL@"
+UrasoeParkName:     db "URASHI-PARK@"       ; okinawa. für Urasoe - Stadt auf Okinawa
+UrasoeTrailName:    db "URASHI-WANDERWEG@"  ;
 ViridianForestName: db "VERTANIAWALD@"
 WeatheredTrailName: db "WEATHERED TRAIL@"   ;
 WestportCityName:   db "PORT ABANISHI@"     ; Port (alt. Hafen) + Abanti (ahd. Abend bzw. Westen) + Nishi (jap. Westen)     evtl. PORT ABANTIA

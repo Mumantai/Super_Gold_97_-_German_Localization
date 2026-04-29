@@ -98,7 +98,7 @@ N64HouseScientistScript:
 	end
 	
 .eggname3
-	db "EGG@"
+	db "EI@"
 	
 .GetStarter3Egg:
 	jumpstd ReceiveTogepiEggScript

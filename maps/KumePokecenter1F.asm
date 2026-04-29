@@ -36,31 +36,31 @@ Chris:
 	end
 
 KumePokecenter1FTeacherText:
-	text "…Yeah, and he's"
-	line "not even a real"
-	cont "GYM LEADER!"
+	text "…Ja, und er ist"
+	line "kein richtiger"
+	cont "ARENALEITER!"
 
-	para "…Yes? I'm on the"
-	line "phone. Go away!"
+	para "…Ja? Ich"
+	line "telefoniere!"
+	cont "Lass mich in Ruhe!"
 	done
 
 KumeJigglypuffText:
-	text "JIGGLYPUFF: Puu"
+	text "PUMMELUFF: Puu"
 	line "pupuu."
 	done
 
 KumePokecenter1FBugCatcherText:
-	text "Most #MON get"
-	line "drowsy if they"
+	text "Die meisten #-"
+	line "MON werden"
+	cont "schläfrig, wenn"
+	cont "PUMMELUFF singt."
 
-	para "hear a JIGGLYPUFF"
-	line "singing."
+	para "Manche Attacken"
+	line "kann man nur an-"
 
-	para "There are several"
-	line "moves that can be"
-
-	para "used only while a"
-	line "#MON is asleep."
+	para "wenden, wenn ein"
+	line "#MON schläft."
 	done
 
 KumePokecenter1F_MapEvents:

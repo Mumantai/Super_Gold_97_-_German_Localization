@@ -62,84 +62,88 @@ UrasoeTrailHiddenElixer:
 
 
 FisherStephenSeenText:
-	text "I feel so content,"
-	line "fishing while lis-"
-	cont "tening to some"
-	cont "tunes on my radio."
+	text "Wenn ich beim"
+	line "Angeln Radio hören"
+	cont "kann, bin ich"
+	cont "glücklich."
 	done
 
 FisherStephenBeatenText:
-	text "My stupid radio"
-	line "distracted me!"
+	text "Das blöde Radio"
+	line "beunruhigt mich!"
 	done
 
 FisherStephenAfterBattleText:
-	text "Have you ever met"
-	line "any of the radio"
-	cont "hosts?"
-	para "I wonder if"
-	line "they're as cool"
-	cont "as they sound."
+    text "Hast du schon mal"
+    line "einen Moderator"
+    para "aus dem Radio"
+    line "getroffen?"
+
+    para "Ich frage mich, ob"
+    line "sie so cool sind,"
+    cont "wie sie klingen."
 	done
 
 FisherBarneySeenText:
-	text "Nothing beats a"
-	line "day of fishing!"
+	text "Nichts geht über"
+	line "einen Angeltag!"
 	done
 
 FisherBarneyBeatenText:
-	text "Oof!"
+	text "Uff!"
 	done
 
 FisherBarneyAfterBattleText:
-	text "Rumors going"
-	line "around say that"
-	para "KUME POINT on"
-	line "the other side of"
-	para "the STRAIT is a"
-	line "better spot for"
-	cont "fishing."
-	para "That's a bunch of"
-	line "nonsense."
-	para "This side is"
-	line "clearly better!"
+	text "Angeblich ist an"
+	line "der KUMIASPITZE,"
+	para "auf der anderen"
+	line "Seite der STRAẞE,"
+	para "ein viel besserer"
+	line "Angelplatz."
+
+	para "Das ist aber alles"
+	line "totaler Quatsch."
+
+	para "Hier ist es"
+	line "deutlich besser!"
 	done
 
-
 PokemaniacShaneSeenText:
-	text "What does rarity"
-	line "mean to you?"
+	text "Was bedeutet"
+	line "Seltenheit für"
+	cont "dich?"
 	done
 
 PokemaniacShaneBeatenText:
-	text "I should have used"
-	line "my MOON STONE…"
+	text "Ich hätte meinen"
+	line "MONDSTEIN benutzen"
+	cont "sollen…"
 	done
 
 PokemaniacShaneAfterBattleText:
-	text "You're working on"
-	line "a #DEX?"
+	text "Du erstellst einen"
+	line "#DEX?"
 
-	para "Wow, you must know"
-	line "some pretty rare"
+	para "Wow, du kennst"
+	line "bestimmt einige"
+	cont "sehr seltene"
 	cont "#MON!"
 
-	para "May I please see"
-	line "it. Please?"
+	para "Darf ich bitte mal"
+	line "eines sehen?"
 	done
 
 UrasoeTrailSignText:
-	text "URASOE TRAIL"
+	text "URASHI-WANDERWEG"
 
-	para "RYUKYU CITY -"
-	line "KUME CITY"
+	para "RUUCHUU CITY -"
+	line "KUMIA CITY"
 	done
 
 FishingSpotSignText:
-	text "NANJO FOREST"
+	text "NANJUU-WALD"
 	
-	para "Entrance to the"
-	line "right"
+	para "Eingang rechts"
 	done
 
 UrasoeTrail_MapEvents:

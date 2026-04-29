@@ -10,11 +10,11 @@ UrasoeParkUrasoeTrailGateOfficerScript:
 	jumptextfaceplayer UrasoeParkUrasoeTrailGateOfficerText
 
 UrasoeParkUrasoeTrailGateOfficerText:
-	text "Have you been to"
-	line "WESTPORT CITY?"
+	text "Warst du schon in"
+	line "PORT ABANISHI?"
 
-	para "There's a tall"
-	line "RADIO TOWER there."
+	para "Dort steht ein"
+	line "hoher RADIOTURM."
 	done
 
 UrasoeParkUrasoeTrailGate_MapEvents:

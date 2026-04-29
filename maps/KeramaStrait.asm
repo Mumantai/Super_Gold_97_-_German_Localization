@@ -57,88 +57,95 @@ KeramaStraitSign:
 
 
 SwimmermTuckerSeenText:
-	text "Pant, pant…"
-	line "Just… a little…"
+	text "Uff, uff…"
+	line "Nur… noch… ein"
 
-	para "farther… to…"
-	line "KUME…"
+	para "kleines Stück… bis"
+	line "…KUMIA CITY…"
 	done
 
 SwimmermTuckerBeatenText:
-	text "I'm drowning!"
+	text "Ich ertrinke!"
 	done
 
 SwimmermTuckerAfterBattleText:
-	text "I… asked my girl-"
-	line "friend to swim to"
-	cont "KUME… Gasp…"
+	text "Ich… bat meine"
+	line "Freundin nach"
+	cont "KUMIAIA CITY…"
+	cont "zu schwimmen…"
 	done
 
 SwimmerfDawnSeenText:
-	text "I'm disgusted by"
-	line "wimpy people!"
+	text "Schwächlinge"
+	line "widern mich an!"
 	done
 
 SwimmerfDawnBeatenText:
-	text "I could beat you"
-	line "at swimming…"
+	text "Ich schlage dich"
+	line "beim Schwimmen…"
 	done
 
 SwimmerfDawnAfterBattleText:
-	text "It's a quick swim"
-	line "to KUME CITY…"
+	text "Es ist nur eine"
+	line "kurze Distanz"
+	cont "bis KUMIA CITY…"
 
-	para "Sheesh, some big"
-	line "man my boyfriend"
-
-	para "is! What a wimp!"
+	para "Uah, mein Freund"
+	line "ist so groß und"
+	para "dennoch ein"
+	line "Schwächling!"
 	done
 
 SwimmermJeromeSeenText:
-	text "Swimming?"
-	line "It's my favorite"
-	cont "thing."
+	text "Schwimmen?"
+	line "Ich mache nichts"
+	cont "lieber."
 	done
 
 SwimmermJeromeBeatenText:
-	text "I thought I could"
-	line "win."
+	text "Ich dachte, ich"
+	line "könnte gewinnen."
 	done
 
 SwimmermJeromeAfterBattleText:
-	text "I'm great at"
-	line "swimming, and I"
-	cont "love the sea!"
+    text "Ich bin ein toller"
+    line "Schwimmer und ich"
+    cont "liebe das Meer!"
 	done
 
 KeramaStraitFisher1Text:
-	text "The FISHERS who"
-	line "say the east side"
-	para "of the STRAIT is"
-	line "the best fishing"
-	cont "spot are wrong."
-	para "The FISHERS who"
-	line "say the west side"
-	para "of the STRAIT is"
-	line "the best fishing"
-	cont "spot are wrong."
-	para "It's here in the"
-	line "middle that's the"
-	cont "best spot!"
+	text "Die ANGLER, die"
+	line "behaupten, die"
+	para "Ostseite der"
+	line "STRAẞE sei der"
+	para "beste Angelplatz,"
+	line "liegen falsch."
+
+	para "Die ANGLER, die"
+	line "behaupten, die"
+	para "Westseite der"
+	line "STRAẞE sei der"
+	para "beste Angelplatz,"
+	line "liegen ebenfalls"
+	cont "falsch."
+
+	para "Hier in der Mitte"
+	line "ist nämlich der"
+	cont "beste Angelplatz!"
 	done
 
 KeramaStraitFisher2Text:
-	text "This here is"
-	line "definitely the"
-	cont "best spot."
+	text "Das hier ist"
+	line "auf jeden Fall"
+	cont "der beste Platz."
 	done
 
 
 KeramaStraitSignText:
-	text "KERAMA STRAIT"
+	text "STRAẞE VON KIRAMA"
 
-	para "RYUKYU CITY -"
-	line "KUME CITY"
+	para "RUUCHUU CITY -"
+	line "KUMIA CITY"
 	done
 
 
