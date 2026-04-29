@@ -203,8 +203,10 @@ TakeGoodCareOfStarter3:
 	done
 	
 NoRoomForStarter3:
-    text "Oh, warte! Du hast"
-    line "keinen Platz dafür!"
+    text "Oh, warte!"
+
+    para "Du hast keinen"
+    line "Platz dafür!"
 	done
 	
 AlreadyGotStarter3Text:
@@ -221,7 +223,8 @@ N64HouseScientistText5:
     text "Wow, schau die all"
     line "diese Trainer an."
 
-    para "Es ist unglaublich!"
+    para "Das ist ja total"
+    line "unglaublich!"
 
     para "Ich schulde dir"
     line "eine Menge!"

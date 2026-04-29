@@ -70,8 +70,8 @@ SwimmermTuckerBeatenText:
 
 SwimmermTuckerAfterBattleText:
 	text "Ich… bat meine"
-	line "Freundin nach"
-	cont "KUMIAIA CITY…"
+	line "Freundin… nach"
+	cont "KUMIA CITY…"
 	cont "zu schwimmen…"
 	done
 

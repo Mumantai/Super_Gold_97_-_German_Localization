@@ -130,7 +130,7 @@ SendN64LassOffText:
     cont "dahin zu machen."
 
     para "Ich habe einen"
-    line "Freund in PORT"       ; TODO: Herausfinden ob Freund oder Freundin ggf. in Route1024GamHOuse.asm anpassen
+    line "Freund in PORT"
     cont "ABANISHI, den ich"
     cont "gerne sehen würde."
 
