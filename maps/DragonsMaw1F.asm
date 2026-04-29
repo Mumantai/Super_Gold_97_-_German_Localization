@@ -350,7 +350,7 @@ InstructorRandSeenText:
 	done
 
 InstructorRandBeatenText:
-	text "Ohje, verloren!"
+	text "Oje, verloren!"
 	done
 
 InstructorRandAfterBattleText:

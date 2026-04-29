@@ -208,7 +208,7 @@ SSAquaCaptainThankYouText:
 	done
 
 SSAquaCaptainShipIsBrokenText:
-    text "Ohje."
+    text "Oje."
 
     para "Wir haben hier ein"
     line "ernstes Problem."

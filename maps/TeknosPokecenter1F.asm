@@ -86,7 +86,7 @@ TeknosPokecenter1FPlayerMovement1:
 	step_end
 
 TeknosPokecenter1F_BillText1:
-    text "Ohje, ohje."
+    text "Oje, oje."
 
     para "Hier ist sie auch"
     line "nicht!"
@@ -94,7 +94,7 @@ TeknosPokecenter1F_BillText1:
     para "Ich habe schon"
     line "überall gesucht!"
 
-    para "Ohje, ohje."
+    para "Oje, oje."
 
     para "Du hast nicht zu-"
     line "fällig ein junges"
@@ -136,7 +136,7 @@ TeknosPokecenter1F_BillText1:
     line "sie sonst sein"
     cont "könnte."
 
-    para "Ohje, ohje."
+    para "Oje, oje."
     done
 
 TeknosPokecenter1F_BillText2:

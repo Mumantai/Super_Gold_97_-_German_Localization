@@ -372,7 +372,7 @@ RyukyuHotelRoomsOakTextWin:
 	done
 	
 RyukyuHotelRoomsOakTextLoss:
-	text "Ohje!"
+	text "Oje!"
 	done
 	
 RyukyuHotelRoomsOakAfter:
