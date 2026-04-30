@@ -63,83 +63,90 @@ MotobuPathItemball:
 	itemball EARTHEN_CLAY
 	
 MotobuYoungsterText:
-	text "The strength of"
-	line "the trainers and"
-	para "wild #MON on"
-	line "the ISLANDS amazes"
-	cont "me!"
+    text "Die Stärke der"
+    line "Trainer und wilden"
+    para "#MON auf den"
+    line "INSELN erstaunt"
+    cont "mich!"
 	done
 	
 CooltrainermLiamSeenText:
-	text "I've raised my"
-	line "team to be ready"
-	cont "for anything!"
-	para "Bring it!"
+    text "Ich habe mein Team"
+    line "so trainiert, dass"
+    para "es auf alles vor-"
+    line "bereitet ist!"
+
+    para "Zeig mir, was du"
+    line "drauf hast!"
 	done
 	
 CooltrainermLiamBeatenText:
-	text "You brought it."
+	text "Du hast es mir"
+	line "gezeigt."
 	done
 	
 CooltrainermLiamAfterBattleText:
-	text "I think I might go"
-	line "for a swim…"
+	text "Ich glaube, ich"
+	line "gehe schwimmen…"
 	done
 
 SwimmerfJillSeenText:
-	text "The water is so"
-	line "nice and warm"
-	cont "around here!"
+    text "Das Wasser ist"
+    line "so schön und"
+    cont "warm hier!"
 	done
 
 SwimmerfJillBeatenText:
-	text "Kyah!"
+	text "Iieh!"
 	done
 
 SwimmerfJillAfterBattleText:
-	text "Going to the"
-	line "#MON CENTER"
-	para "means I have to"
-	line "get out of the"
-	cont "water. Oh, well."
+    text "Jetzt muss ich ins"
+    line "#MON-CENTER,"
+    para "also muss ich auch"
+    line "aus dem Wasser."
+    cont "Na ja."
 	done
 
 SwimmerfMarySeenText:
-	text "I'll swim circles"
-	line "around you!"
+    text "Ich ziehe Kreise"
+    line "um dich herum!"
 	done
 
 SwimmerfMaryBeatenText:
-	text "I'm dizzy!"
+	text "Jetzt ist mir"
+	line "schwindelig!"
 	done
 
 SwimmerfMaryAfterBattleText:
-	text "I think I'm"
-	line "getting some heat"
-	cont "stroke out here."
+    text "Ich glaube, ich"
+    line "kriege hier einen"
+    cont "Hitzschlag."
 	done
 
 SwimmerfKatieSeenText:
-	text "Ka-splash!"
+	text "Platsch!"
 	done
 
 SwimmerfKatieBeatenText:
-	text "Washed out!"
+	text "Weggespült!"
 	done
 
 SwimmerfKatieAfterBattleText:
-	text "Want to see how"
-	line "long I can hold"
-	cont "my breath?"
+    text "Willst du sehen,"
+    line "wie lange ich die"
+    cont "Luft anhalten"
+    line "kann?"
 	done
 
 MotobuPathSign:
 	jumptext MotobuPathSignText
 	
 MotobuPathSignText:
-	text "MOTOBU PATH"
-	para "NAGO VILLAGE -"
-	line "IEJIMA TOWN"
+	text "MUTUBU-PFAD"
+
+	para "NAGOTANI -"
+	line "II-SHIMA"
 	done
 
 

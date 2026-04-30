@@ -123,7 +123,7 @@ GreatEastStraitName:    db "GROẞE ÖSTL. MEERENGE@"
 HydroPlantName:     db "WASSERKRAFTWERK@"   ;
 IcedCavernName:     db "GEFRIERGROTTE@"     ; alt. FROSTHÖHLE
 IcePathName:        db "TIEFWASSERPFAD@";
-IejimaTown:         db "IEJIMA TOWN@"       ;
+IejimaTown:         db "II-SHIMA@"          ; okinawa. Iejima - eine der Ryukyu Inseln
 IsenStraitName:     db "ISEN-STRAẞE@"       ;
 JadeForestName:     db "JADEWALD@"
 JouleCaveName:      db "JOULEHÖHLE@"
@@ -138,7 +138,7 @@ KumePointName:      db "KUMIA-SPITZE@"      ;
 LavenderTownName:   db "LAVANDIA@"
 MagmaShaftName:     db "MAGMA-SCHACHT@"
 MeridianPathName:   db "MERIDIAN-PFAD@"
-MotobuPathName:     db "MOTOBU PFAD@"       ; Motobu - Ort in Ryukyu
+MotobuPathName:     db "MUTUBU-PFAD@"       ; okinawa. Motobu - Ort in Ryukyu
 MountFujiName:      db "KOROKANIABERG@"     ;
 MtFujiInteriorLowerName:     db "KOROKANIA-PFAD@"
 NagoCaveName:       db "NAGOHÖHLE@"         ; NICHT FINAL

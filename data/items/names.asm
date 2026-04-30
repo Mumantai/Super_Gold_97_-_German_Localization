@@ -64,7 +64,7 @@ ItemNames::
 	db "ÄTHER@"
 	db "TOP-ÄTHER@"
 	db "ELIXIER@"
-	db "ROTE HAUT@"
+	db "TRI-SCHWINGE@"
 	db "GEHEIMTRANK@"
 	db "BOOTSTICKET@"
 	db "RÄTSEL-EI@"

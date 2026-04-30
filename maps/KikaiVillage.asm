@@ -138,7 +138,7 @@ KikaiBlackBeltText:
     text "Dieses Dorf ist"
     line "ein beliebter Ort"
     para "für Praktizierende"
-    cont "der Kampfkünste!"
+    line "der Kampfkünste!"
 	done
 
 KikaiGrampsText:

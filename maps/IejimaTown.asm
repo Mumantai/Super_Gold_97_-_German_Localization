@@ -173,128 +173,147 @@ IejimaTownSwimmerGuy:
 	jumptextfaceplayer IejimaTownSwimmerGuyText
 	
 ItemWashedUpText:
-	text "Hey, check this"
-	line "out!"
-	para "Something washed"
-	line "onto the shore"
-	para "when the water"
-	line "started flowing"
-	cont "again!"
-	para "It looks like a"
-	line "wing of some sort."
-	para "I don't know what"
-	line "to do with this,"
-	cont "so you take it!"
+    text "Hey, sieh mal!"
+
+    para "Etwas wurde an die"
+    line "Küste gespült, als"
+    para "das Wasser wieder"
+    line "zu fließen begann!"
+
+    para "Es sieht aus, wie"
+    line "eine Art Feder."
+
+    para "Ich wüsste nicht,"
+    line "was ich damit tun"
+    para "soll, also nimm du"
+    line "es ruhig!"
 	done
 	
 GotTriWingText:
-	text "<PLAYER> got"
-	line "TRI-WING!"
+	text "<PLAYER> erhält"
+	line "TRI-SCHWINGE!"
 	done
 	
 IejimaTownLassText:
-	text "I'm glad things"
-	line "are okay at the"
-	cont "HYDRO PLANT now."
+    text "Zum Glück ist mit"
+    line "dem WASSERKRAFT-"
+    cont "WERK wieder alles"
+    line "in Ordnung."
 	done
 	
 IejimaTownLassText2:
-	text "The waterfall and"
-	line "the pond it feeds"
-	para "into are the pride"
-	line "and joy of this"
-	cont "town."
-	para "It's definitely"
-	line "bad that the water"
-	cont "isn't flowing now."
+    text "Der Wasserfall und"
+    line "der Teich, den er"
+    para "speist, sind der"
+    line "ganze Stolz dieser"
+    cont "Stadt."
+
+    para "Es ist wirklich"
+    line "schlimm, dass das"
+    para "Wasser jetzt nicht"
+    line "mehr fließt."
 	done
 	
 IejimaTownSwimmerGirlText:
-	text "This pond is so"
-	line "peaceful."
+    text "Dieser Teich ist"
+    line "so friedlich."
 	done
 	
 IejimaTownSwimmerGuyText:
-	text "I like swimming"
-	line "laps around here"
-	cont "to exercise!"
+    text "Ich schwimme hier"
+    line "gerne ein paar"
+    para "Runden, um zu"
+    line "trainieren!"
 	done
 	
 IejimaTownBiker4Text:
-	text "We got chased"
-	line "out of the basin"
-	cont "by some cops."
-	para "Good thing, too,"
-	line "cause the water"
-	cont "started flowing!"
+    text "Wir wurden von ein"
+    line "paar Polizisten"
+    para "aus dem Becken"
+    line "gejagt."
+
+    para "Zum Glück, denn"
+    line "das Wasser fing an"
+    cont "wieder zu fließen!"
 	done
 	
 IejimaTownBiker5Text:
-	text "People really"
-	line "didn't like it"
-	para "when we stopped"
-	line "the waterfall."
-	para "Maybe we shouldn't"
-	line "do that again if"
-	para "we want to stay"
-	line "out of trouble."
+    text "Die Leute mochten"
+    line "es gar nicht, als"
+    para "wir den Wasserfall"
+    line "gestoppt haben."
+
+    para "Vielleicht sollten"
+    line "wir das nicht noch"
+    para "einmal machen,"
+    line "wenn wir keinen"
+    cont "Ärger wollen."
 	done
 
 IejimaTownBiker6Text:
-	text "I'm up for riding"
-	line "somewhere else."
+    text "Ich hätte Lust,"
+    line "woanders hin zu"
+    cont "fahren."
 	done
 	
 IejimaTownBiker1Text:
 	text "Hehe!"
-	para "This place is"
-	line "great for riding"
-	cont "our bikes around!"
+
+	para "Dieser Ort ist"
+	line "super, um mit dem"
+	para "Motorrad herum"
+	line "zu fahren!"
 	done
 	
 IejimaTownBiker2Text:
-	text "Watch out, IEJIMA"
-	line "TOWN!"
-	para "We're here to"
-	line "stay!"
+    text "II-SHIMA, pass"
+    line "auf!"
+
+    para "Wir sind gekommen,"
+    line "um zu bleiben!"
 	done
 	
 IejimaTownBiker3Text:
-	text "This land has"
-	line "dried up now that"
-	para "we closed the dam"
-	line "in the HYDRO"
-	cont "PLANT!"
-	para "There's so much"
-	line "room to ride!"
+    text "Seit wir den Damm"
+    line "im WASSERKRAFTWERK"
+    para "geschlossen haben,"
+    line "ist der Boden hier"
+    cont "schön trocken!"
+
+    para "Jetzt haben wir so"
+    line "viel Platz zum"
+    cont "Fahren!"
 	done
 	
 IejimaTownYoungsterText:
-	text "It's so nice to"
-	line "stand here by"
-	cont "the water."
+    text "Es ist so schön,"
+    line "hier am Wasser zu"
+    cont "stehen."
 	done
 	
 IejimaTownYoungsterText2:
-	text "This is horrible!"
-	para "The water should"
-	line "be coming up to"
-	cont "my feet here!"
-	para "What could be"
-	line "going on at the"
-	cont "HYDRO PLANT?"
+    text "Das ist furchtbar!"
+
+    para "Das Wasser sollte"
+    line "hier bis zu meinen"
+    cont "Füßen reichen!"
+
+    para "Was ist denn da"
+    line "nur los im WASSER-"
+    cont "KRAFTWERK?"
 	done
 	
 IejimaTownGrampsBeforeText:
-	text "Oh, dear!"
-	para "What has happened"
-	line "to our beloved"
-	cont "waterfall?"
-	para "This has to have"
-	line "something to do"
-	para "with all of these"
-	line "BIKERS that have"
-	cont "shown up here!"
+    text "Oje!"
+
+    para "Was ist nur mit"
+    line "unserem geliebten"
+    cont "Wasserfall los?"
+
+    para "Dahinter stecken"
+    line "bestimmt diese"
+    para "BIKER, die hier"
+    line "aufgetaucht sind!"
 	done
 
 IejimaTown_MapEvents:

@@ -24,25 +24,27 @@ IejimaTownGrampsAfter:
 	end
 	
 IejimaGrampsThanksText:
-	text "Ohoho!"
-	para "You helped get the"
-	line "water flowing"
-	cont "again!"
-	para "IEJIMA TOWN just"
-	line "wasn't the same"
-	cont "without it!"
-	para "Let me give you"
-	line "something to show"
-	cont "my appreciation!"
+    text "Ohoho!"
+
+    para "Du hast dabei ge-"
+    line "holfen, dass der"
+    para "Wasserfall wieder"
+    line "fließt!"
+
+    para "II-SHIMA ist ohne"
+    line "ihn einfach nicht"
+    cont "dasselbe!"
+
+    para "Lass mich dir zum"
+    line "Dank etwas geben!"
 	done
 	
 IejimaGrampsThanksText2:
-	text "Have your #MON"
-	line "hold that and"
-	para "you'll have an"
-	line "easier time"
-	para "catching other"
-	line "wild #MON!"
+    text "Lass dein #MON"
+    line "das tragen, dann"
+    para "wirst du wilde"
+    line "#MON leichter"
+    cont "fangen können!"
 	done
 
 	

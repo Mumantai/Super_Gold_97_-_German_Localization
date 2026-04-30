@@ -2144,7 +2144,7 @@ SwimmerFGroup:
 	db -1 ; end
 
 	; SWIMMERF (7)
-	db "GERDA@", TRAINERTYPE_MOVES; in sailorhuey
+	db "GERDA@", TRAINERTYPE_MOVES; in sailorhuey   TODO: evtl. Team anpassen, da zu unterlevelt
 	db 25, HORSEA,     BUBBLE, SMOKESCREEN, LEER, WATER_GUN
 	db 25, HORSEA,     DRAGON_RAGE, SMOKESCREEN, LEER, WATER_GUN
 	db -1 ; end
