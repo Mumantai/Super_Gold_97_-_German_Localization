@@ -59,8 +59,8 @@ TrainerBikerJermaine:
 	
 
 BikerBlazeSeenText:
-	text "Hey! No outsiders"
-	line "allowed!"
+    text "Hey! Keine Außen-"
+    line "seiter erlaubt!"
 	done
 	
 BikerBlazeBeatenText:
@@ -68,72 +68,76 @@ BikerBlazeBeatenText:
 	done
 	
 BikerBlazeAfterBattleText:
-	text "Just let us have"
-	line "our fun, man!"
+    text "Lass uns doch un-"
+    line "seren Spaß haben,"
+    cont "Mann!"
 	done
-	
 
 BikerRafaelSeenText:
-	text "There's no need"
-	line "for you to come"
-	cont "this way!"
+    text "Du brauchst hier"
+    line "nicht lang!"
 	done
 	
 BikerRafaelBeatenText:
-	text "I'm crushed!"
+	text "Ich bin erledigt!"
 	done
 	
 BikerRafaelAfterBattleText:
-	text "All we want to"
-	line "do is ride!"
+    text "Alles was wir"
+    line "wollen, ist zu"
+    cont "fahren!"
 	done
-	
 
 BikerColtonSeenText:
-	text "Hey punk!"
-	para "…Well, I guess"
-	line "I'm the punk."
-	para "But you should get"
-	line "outta our way!"
+	text "Hey, Punk!"
+
+	para "…Naja, ich bin"
+	line "wohl selbst einer."
+
+	para "Aber geh uns aus"
+	line "dem Weg!"
 	done
 	
 BikerColtonBeatenText:
-	text "Argh, no way!"
+	text "Argh, unmöglich!"
 	done
 	
 BikerColtonAfterBattleText:
-	text "Why you getting"
-	line "in our territory?"
+    text "Warum dringst du"
+    line "in unser Revier"
+    cont "ein?"
 	done
-	
 
 BikerJermaineSeenText:
-	text "Kids like you have"
-	line "no chance!"
+    text "Kinder wie du"
+    line "haben keine"
+    cont "Chance!"
 	done
 	
 BikerJermaineBeatenText:
-	text "Not what I"
-	line "expected…"
+    text "Nicht, was ich"
+    line "erwartet habe…"
 	done
 	
 BikerJermaineAfterBattleText:
-	text "We're not causing"
-	line "any trouble,"
-	cont "promise!"
+	text "Wir machen doch"
+	line "keinen Ärger,"
+	cont "versprochen!"
 	done
 	
 WeatheredOfficer1Text:
-	text "We're beefing up"
-	line "security after"
-	cont "this incident."
+    text "Wir verstärken die"
+    line "Sicherheit nach"
+    cont "diesem Vorfall."
 	done
 	
 WeatheredOfficer2Text:
-	text "Hey, kid!"
-	para "Thanks for your"
-	line "help."
-	para "You can go in!"
+    text "Hey, Kleiner!"
+
+    para "Danke für deine"
+    line "Hilfe."
+
+    para "Geh ruhig rein!"
 	done
 	
 	
