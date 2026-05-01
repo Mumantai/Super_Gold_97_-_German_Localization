@@ -296,7 +296,7 @@ PhoneSwarmGrassText:
 	text_ram wStringBuffer4
 	text " ist"
 
-	para " hier aufgetaucht:"
+	para "hier aufgetaucht:"
 	line "@"
 	text_ram wStringBuffer5
 	text "!"

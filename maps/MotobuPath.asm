@@ -135,7 +135,7 @@ SwimmerfKatieBeatenText:
 SwimmerfKatieAfterBattleText:
     text "Willst du sehen,"
     line "wie lange ich die"
-    cont "Luft anhalten"
+    para "Luft anhalten"
     line "kann?"
 	done
 

@@ -61,8 +61,8 @@ IejimaTownHouse2TeacherText2:
 	line "es, in dem Teich"
 	para "vor dem Wasserfall"
 	line "zu schwimmen, aber"
-	para "Aber jetzt geht"
-	line "das leider nicht."
+	para "jetzt geht das"
+	line "leider nicht mehr."
 	done
 	
 IejimaTownHouse2TeacherText:

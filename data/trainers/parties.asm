@@ -1079,7 +1079,7 @@ CooltrainerMGroup:
 	db -1 ; end
 	
 	; COOLTRAINERM (11)
-	db "WOLFGANG@", TRAINERTYPE_NORMAL
+	db "HEINER@", TRAINERTYPE_NORMAL
 	db 53, FLAREON
 	db 55, TRICULES
 	db 54, JUNGELA
@@ -3568,7 +3568,7 @@ KimonoGirlGroup:
 	db -1 ; end
 
 	; KIMONO_GIRL (2)
-	db "SATSUKI@", TRAINERTYPE_NORMAL
+	db "LORE@", TRAINERTYPE_NORMAL
 	db 70, FLAREON
 	db -1 ; end
 

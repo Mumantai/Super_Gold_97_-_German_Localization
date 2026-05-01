@@ -169,7 +169,7 @@ TropicalIslandName: db "TROPENINSEL@"       ;
 UrasoeParkName:     db "URASHI-PARK@"       ; okinawa. für Urasoe - Stadt auf Okinawa
 UrasoeTrailName:    db "URASHI-WANDERWEG@"  ;
 ViridianForestName: db "VERTANIAWALD@"
-WeatheredTrailName: db "WEATHERED TRAIL@"   ;
+WeatheredTrailName: db "VERWITTERTER PFAD@"   ;
 WestportCityName:   db "PORT ABANISHI@"     ; Port (alt. Hafen) + Abanti (ahd. Abend bzw. Westen) + Nishi (jap. Westen)     evtl. PORT ABANTIA
 WhirlIslandsName:   db "STRUDELINSEL@"      ;
 

@@ -198,7 +198,7 @@ IejimaTownLassText:
     text "Zum Glück ist mit"
     line "dem WASSERKRAFT-"
     cont "WERK wieder alles"
-    line "in Ordnung."
+    cont "in Ordnung."
 	done
 	
 IejimaTownLassText2:

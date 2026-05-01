@@ -230,9 +230,9 @@ CoinsGuyFullCoinCaseText:
 	done
 	
 CoinsGuyGotCoins:
-	text "Hol dir was Schönes"
-	line "in einer der"
-	para "SPIELHALLEN in"
+	text "Hol dir was"
+	line "Schönes in einer"
+	para "der SPIELHALLEN in"
 	line "ganz NIHON!"
 	done
 
