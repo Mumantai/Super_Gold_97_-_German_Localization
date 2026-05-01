@@ -212,100 +212,116 @@ PlayerGreetsOfficer:
 	step_end
 	
 BikerSwansonSeenText:
-	text "Get outta here,"
-	line "kid!"
-	para "You're just here"
-	line "to ruin our fun!"
+    text "Verschwinde hier,"
+    line "Kniprs!"
+
+    para "Du bist doch nur"
+    line "hier, um uns den"
+    cont "Spaß zu verderben!"
 	done
 	
 BikerSwansonBeatenText:
-	text "You're so lame!"
+    text "Du bist so ein"
+    line "Langweiler!"
 	done
 	
 BikerSwansonAfterBattleText:
-	text "Why you gotta"
-	line "mess with us?"
-	para "You better not"
-	line "open the dam back"
-	cont "up!"
+    text "Warum legst du"
+    line "dich mit uns an?"
+
+    para "Wehe du öffnest"
+    line "den Damm wieder!"
 	done
 	
 OfficerInTheDistance:
-	text "OFFICER: Hey!"
-	para "What's been going"
-	line "on in here?"
+    text "POLIZIST: Hey!"
+
+    para "Was geht hier"
+    line "vor sich?"
 	done
 	
 BikerSwansonAfterBattleText2:
-	text "Agh!"
-	line "The cops!"
-	para "I better get out"
-	line "of here!"
+    text "Aaah!"
+    line "Die Bullen!"
+
+    para "Ich verschwinde"
+    line "besser von hier!"
 	done
 	
 	
 OfficerThanksYou:
-	text "Well, now!"
-	para "Thanks for helping"
-	line "out here!"
-	para "I was on my way to"
-	line "deal with all of"
-	para "these hooligans"
-	line "that had made"
-	para "their way into the"
-	line "HYDRO PLANT."
-	para "But you got here"
-	line "first and tired"
-	para "them all out with"
-	line "#MON battles!"
-	para "They didn't want"
-	line "anything to do"
-	para "with me and all"
-	line "took off as soon"
-	cont "as I showed up!"
-	para "I'm sure the"
-	line "citizens of IEJIMA"
-	para "TOWN will be very"
-	line "grateful to have"
-	para "the water flowing"
-	line "again!"
-	para "We'll have to post"
-	line "some more security"
-	para "here for the"
-	line "future to keep"
-	cont "those guys out!"
-	para "Anyways, thanks"
-	line "again!"
+    text "Nun ja!"
+
+    para "Danke für deine"
+    line "Hilfe hier!"
+
+    para "Ich war auf dem"
+    line "Weg, um mich um"
+    para "diese Rowdys zu"
+    line "kümmern, die sich"
+    para "in das WASSER-"
+    line "KRAFTWERK einge-"
+    cont "schlichen hatten."
+
+    para "Aber du warst"
+    line "zuerst hier und"
+    para "hast sie alle mit"
+    line "#MON-Kämpfen"
+    cont "erschöpft!"
+
+    para "Sie wollten nichts"
+    line "mit mir zu tun"
+    para "haben und sind"
+    line "sofort abgehauen,"
+    cont "sobald ich aufge-"
+    cont "taucht bin!"
+
+    para "Ich bin sicher,"
+    line "die Bürger von"
+    para "II-SHIMA werden"
+    line "sehr dankbar sein,"
+    para "dass das Wasser"
+    line "wieder fließt!"
+
+    para "In Zukunft müssen"
+    line "wir mehr Sicher-"
+    para "heitspersonal hier"
+    line "postieren, damit"
+    para "diese Rowdys hier"
+    line "fernbleiben!"
+
+    para "Wie dem auch sei,"
+    line "danke nochmal!"
 	done
 	
 LetsNotMessWithItText:
-	text "Better not mess"
-	line "with this any"
-	cont "more…"
+    text "Besser, du lässt"
+    line "die Finger davon…"
 	done
 
 DamOpenText:
-	text "It's the control"
-	line "console for the"
-	cont "dam."
-	para "Want to open the"
-	line "dam?"
+    text "Das ist das"
+    line "Steuerpult für"
+    cont "den Damm."
+
+    para "Möchtest du den"
+    line "Damm öffnen?"
 	done
 	
 DamOpenTextButton:
-	text "<PLAYER> pressed"
-	line "the button."
+	text "<PLAYER> drückt"
+	line "den Knopf."
 	done
 	
 DamOpenText2:
-	text "The dam is"
-	line "opening!"
+	text "Der Damm öffnet"
+	line "sich!"
 	done
 	
 DamOpenText3:
-	text "Water is once"
-	line "again flowing into"
-	cont "IEJIMA TOWN!"
+    text "Das Wasser fließt"
+    line "jetzt wieder nach"
+    cont "II-SHIMA!"
 	done
 
 HydraulicCave_MapEvents:
