@@ -127,7 +127,7 @@ MangoText:
     para "um am Baum voll"
     line "zu reifen."
 
-    para Und die Bäume"
+    para "Und die Bäume"
     line "selbst brauchen"
     para "Jahre, um groß"
     line "genug zu werden,"
