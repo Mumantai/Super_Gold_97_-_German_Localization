@@ -49,15 +49,16 @@ SupernerdHughSeenText:
 	done
 
 SupernerdHughBeatenText:
-	text "Sorry, I was"
-	line "startled."
+    text "Tut mir Leid, du"
+    line "hast mich echt"
+    cont "erschreckt."
 	done
 
 SupernerdHughAfterBattleText:
-	text "I'm looking for"
-	line "rare #MON, but"
-	para "I haven't found"
-	line "any."
+    text "Ich suche nach"
+    line "seltenen #MON,"
+    para "aber ich habe noch"
+    line "keinen gefunden."
 	done
 
 IcedCavern1F_MapEvents:
