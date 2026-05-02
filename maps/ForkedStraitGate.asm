@@ -231,7 +231,7 @@ FSGScientist3Text:
     line "Regenbogenlicht"
     cont "gehüllt ist."
 
-    para "Ich frage mich, ob
+    para "Ich frage mich, ob"
     line "das bloß eine"
     para "Legende ist oder"
     line "ob diese Insel"
