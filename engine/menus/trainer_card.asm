@@ -551,7 +551,7 @@ endr
 
 ; pushc and popc isn't working lol
 .StatusTitle:
-	db "  STATUS@"
+	db " ◀STATUS@"
 
 .HorizDivide:
 rept 18
