@@ -56,32 +56,34 @@ TrainerSwimmermParker:
 	
 	
 SwimmermLewisSeenText:
-	text "Glub…"
+	text "Blubb…"
 
-	para "I'm up! Come and"
-	line "get me!"
+	para "Ich bin dran!"
+
+	para "Komm und hol mich!"
 	done
 
 SwimmermLewisBeatenText:
-	text "This can't be…"
+	text "Das kann nicht"
+	line "sein…"
 	done
 
 SwimmermLewisAfterBattleText:
-	text "Don't let your"
-	line "guard down, or"
-	cont "you'll be crushed!"
+    text "Lass deine Deckung"
+    line "nicht fallen, oder"
+    cont "du wirst zermalmt!"
 	done
 
 DanSeenText:
-	text "This island is"
-	line "my battleground,"
-	para "the waves my war"
-	line "siren."
-	
-	para "As long as I'm"
-	line "above water, you"
-	para "will never take"
-	line "me alive!"
+    text "Diese Insel ist"
+    line "mein Schlachtfeld,"
+    para "die Wellen mein"
+    line "Luftalarm."
+
+    para "Solange ich über"
+    line "Wasser bin, wirst"
+    para "du mich niemals"
+    line "lebend kriegen!"
 	done
 
 DanBeatenText:
@@ -89,25 +91,27 @@ DanBeatenText:
 	done
 	
 DanAfterBattleText:
-	text "The war is never"
-	line "over! I fight my"
-	para "own war every day"
-	line "in this place!"
+    text "Der Krieg ist nie"
+    line "vorbei!"
+
+    para "Ich kämpfe jeden"
+    line "Tag meinen eigenen"
+    cont "Krieg hier!"
 	done
 	
 SwimmermParkerSeenText:
-	text "Rough waters here,"
-	line "eh?"
+    text "Raue Gewässer"
+    line "hier, was?"
 	done
 
 SwimmermParkerBeatenText:
-	text "This was not"
-	line "the plan!"
+	text "Das war nicht"
+	line "der Plan!"
 	done
 
 SwimmermParkerAfterBattleText:
-	text "Watch out for all"
-	line "the WHIRLPOOLs!"
+	text "Pass auf all die"
+	line "STRUDEL auf!"
 	done
 
 GESItemball:

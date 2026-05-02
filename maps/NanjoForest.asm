@@ -171,110 +171,140 @@ NanjoForestSign2:
 	jumptext NanjoForestSign2Text
 	
 NanjoForestSignText:
-	text "'NO LITTERING'"
-	para "Please pick up"
-	line "after yourself."
+    text "KEINEN MÜLL"
+    line "ABLADEN"
+
+    para "Bitte räumt hinter"
+    line "euch auf."
 	done
 	
 NanjoForestSign2Text:
-	text "Exit here for"
-	line "GREAT EAST STRAIT"
+	text "Ausgang zur"
+	line "GROẞEN ÖTSLICHEN"
+	para "STRAẞE"
 	done
 	
 NanjoForestSilverBefore:
 	text "<RIVAL>: Hey,"
 	line "<PLAYER>!"
-	para "It's been a while!"
-	para "I'm here out on"
-	line "the ISLANDS to"
-	para "continue training"
-	line "and bonding with"
-	cont "my #MON."
-	para "I've learned more"
-	line "about how to work"
-	para "with them as a"
-	line "team."
-	para "We've grown a lot"
-	line "closer recently."
-	para "But we've also"
-	line "grown a lot"
-	cont "stronger!"
-	para "You know what that"
-	line "means!"
+
+	para "Lange nicht"
+	line "gesehen!"
+
+	para "Ich bin hier auf"
+	line "den INSELN, um"
+	para "weiter zu trainie-"
+	line "ren und das Band"
+	para "mit meinen #MON"
+	line "zu stärken."
+
+	para "Ich habe mehr da-"
+	line "rüber gelernt, wie"
+	para "ich mit ihnen als"
+    line "Team arbeite."
+
+    para "Wir sind uns in"
+    line "letzter Zeit viel"
+    cont "näher gekommen."
+
+    para "Wir sind auch viel"
+    line "stärker geworden!"
+
+    para "Du weißt, was das"
+    line "bedeutet!"
 	done
 	
 NanjoForestSilverTextWin:
-	text "You got me!"
+	text "Du hast mich!"
 	done
 	
 NanjoForestSilverTextLoss:
-	text "Alright!"
+	text "Alles klar!"
 	done
 	
 NanjoForestSilverAfter:
-	text "Whew, that was a"
-	line "great battle."
-	para "I think I'm about"
-	line "done training"
-	cont "here."
-	para "Maybe I'll catch"
-	line "you around some-"
-	cont "place else!"
+	text "Puh, das war ein"
+	line "guter Kampf."
+
+	para "Ich glaube, ich"
+	line "bin mit dem Trai-"
+	cont "ning hier fertig."
+
+	para "Vielleicht treffe"
+	line "ich dich irgendwo"
+	cont "anders mal wieder!"
 	done
 	
 WhatDoesLuckyEggDoText:
-	text "I wonder where it"
-	line "came from."
-	para "Can #MON use"
-	line "it?"
+	text "Ich frage mich,"
+	line "woher es kommt."
+
+	para "Können #MON das"
+	line "benutzen?"
 	done
 	
 HeresLuckyEggText:
-	text "Hey, check this"
-	line "out!"
-	para "I found something!"
-	para "It's some sort"
-	line "of EGG?"
-	para "Not sure what it"
-	line "is, but you can"
-	cont "have it!"
+    text "Hey, schau dir"
+    line "das mal an!"
+
+    para "Ich habe etwas"
+    line "gefunden!"
+
+    para "Es ist eine Art"
+    line "von EI?"
+
+    para "Ich bin mir nicht"
+    line "sicher, was es"
+    para "ist, aber du"
+    line "kannst es haben!"
 	done
 	
 AlreadyGaveLuckyEggText:
-	text "You never know"
-	line "what you'll find"
-	cont "here."
+	text "Man weiß nie, was"
+	line "man hier findet."
 	done
 	
 NoLuckyEggYetText:
-	text "I'm looking for"
-	line "interesting things"
-	para "that wash up on"
-	line "the shore."
-	para "I find lots of"
-	line "items like POTIONS"
-	cont "and FULL HEALS."
-	para "Once I even found"
-	line "a NUGGET!"
-	para "You can find some"
-	line "cool stuff here."
-	para "Come back and"
-	line "check with me"
-	cont "sometime."
-	para "I'll share some-"
-	line "thing I find"
-	cont "with you."
+    text "Ich suche nach"
+    line "interessanten"
+    para "Sachen, die an den"
+    line "Strand gespült"
+    cont "werden."
+
+    para "Ich finde viele"
+    line "Items, wie TRÄNKE"
+    cont "und HYPERHEILER."
+
+    para "Einmal habe ich"
+    line "sogar ein NUGGET"
+    cont "gefunden!"
+
+    para "Hier kann man"
+    line "echt coole Sachen"
+    cont "finden."
+
+    para "Komm doch irgend-"
+    line "wann mal wieder"
+    para "und schau bei mir"
+    line "vorbei."
+
+    para "Ich teile dann ein"
+    line "Bisschen von dem,"
+    para "was ich gefunden"
+    line "habe, mit dir!"
 	done
 	
 LuckyEggBugCatcherText:
-	text "My brother and I"
-	line "find lots of cool"
-	para "things that wash"
-	line "up on the shore!"
-	para "We don't think of"
-	line "it as trash,"
-	para "because sometimes"
-	line "we find treasure!"
+    text "Mein Bruder und"
+    line "ich finden viele"
+    para "coole Sachen, die"
+    line "an den Strand ge-"
+    cont "spült werden!"
+
+    para "Wir sehen das"
+    line "nicht als Müll,"
+    para "denn manchmal sind"
+    line "es echte Schätze!"
 	done	
 
 NanjoForest_MapEvents:
