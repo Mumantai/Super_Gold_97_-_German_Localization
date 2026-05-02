@@ -253,13 +253,13 @@ TrainerCard_Page2_LoadGFX:
 	lb bc, BANK(BadgeGFX), 44
 	call Request2bpp
 
-; temporarily map ÄÖÜäöü to border tiles
+; temporarily map characters from $d0 to border tiles
 	ld de, CardBorderGFX
 	ld hl, vTiles0 tile $D0
 	lb bc, BANK(CardBorderGFX), 6
 	call Request2bpp
 
-; temporarily map ÄÖÜäöü to border tiles
+; temporarily map characters from $d0 to border tiles
 	ld de, CardLeftArrowGFX
 	ld hl, vTiles0 tile $D0
 	lb bc, BANK(CardLeftArrowGFX), 1
@@ -561,7 +561,7 @@ endr
 
 ; pushc and popc isn't working lol
 .LinePart1:
-	db "'d'l'l'l'l'l'l'l'l'l'l'l'l'l'l'l'l'm"
+	db "'s'l'l'l'l'l'l'l'l'l'l'l'l'l'l'l'l'm"
 	db "@"
 .LinePart2:
 	db "'r<LF>"
