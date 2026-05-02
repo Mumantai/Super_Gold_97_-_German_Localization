@@ -255,13 +255,13 @@ TrainerCard_Page2_LoadGFX:
 
 ; temporarily map ÄÖÜäöü to border tiles
 	ld de, CardBorderGFX
-	ld hl, vTiles0 tile $C0
+	ld hl, vTiles0 tile $D0
 	lb bc, BANK(CardBorderGFX), 6
 	call Request2bpp
 
 ; temporarily map ÄÖÜäöü to border tiles
 	ld de, CardLeftArrowGFX
-	ld hl, vTiles0 tile $C0
+	ld hl, vTiles0 tile $D0
 	lb bc, BANK(CardLeftArrowGFX), 1
 	call Request2bpp
 
@@ -551,7 +551,7 @@ endr
 
 ; pushc and popc isn't working lol
 .StatusTitle:
-	db " ◀STATUS@"
+	db " 'dSTATUS@"
 
 .HorizDivide:
 rept 18
@@ -561,19 +561,19 @@ endr
 
 ; pushc and popc isn't working lol
 .LinePart1:
-	db "öÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÜ"
+	db "'d'l'l'l'l'l'l'l'l'l'l'l'l'l'l'l'l'm"
 	db "@"
 .LinePart2:
-	db "ä<LF>"
-	db "ä<LF>"
-	db "ä<LF>"
-	db "ä<LF>"
+	db "'r<LF>"
+	db "'r<LF>"
+	db "'r<LF>"
+	db "'r<LF>"
 	db "@"
 .LinePart3:
-	db "ÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖü"
+	db "'l'l'l'l'l'l'l'l'l'l'l'l'l'l'l'l'l'l't"
 	db "@"
 .LinePart4:
-	db "ÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖ"
+	db "'l'l'l'l'l'l'l'l'l'l'l'l'l'l'l'l'l'l"
 	db "@"
 
 TrainerCardSetup_PlaceTilemapString:
