@@ -1,35 +1,36 @@
 # Pokémon Super Gold 97
 
-This page is the source for Pokemon Super Gold 97, a game which intends to serve as a "completed" version of the 1997 Pokemon Gold and Silver Spaceworld Demo.
 
-Intro
-- With the release of the Spaceworld 97 demo, I was inspired to create a game that would represent what I felt like a "finished" version of that demo could look like. How would the game turned out if it continued on the path that was shown at that event? Well, that's what I set out to create, and what you can find here!
+Diese Seite ist die Quelle für die deutsche Lokalisierung von Pokémon Super Gold 97, ein Spiel, das als eine „vollständige“ Version der Spaceworld-Demo von Pokémon Gold und Silber aus dem Jahr 1997 gedacht ist.
 
-Story
-- You are a new trainer who sets out on a journey to help Professor Oak with researching Pokemon, very much like the very first games. This story is built on the foundation that was pulled from the demo itself, and has you traverse Nihon, based on the entirety of Japan, while you collect badges and catch Pokemon. You'll also have to face off against Team Rocket, who are building a machine that would give them incredible power over Pokemon! Silver is portrayed in the manner that he was in the demo - not as an antagonist, but as an energetic rival, kind of similar to gen 4's Barry. The story is admittedly kind of simple, but intentionally so. It was written to feel like the story that might have been in the demo had it been completed.
+## Einleitung
+- Als die Spaceworld '97 Demo veröffentlicht wurde, inspirierte das [@lvl-3-g](https://github.com/lvl-3-g) dazu, ein Spiel zu erschaffen, das darstellen sollte, wie eine „fertige“ Version dieser Demo ausgesehen haben könnte. Wie hätte sich das Spiel entwickelt, wenn es den Weg weitergegangen wäre, der damals auf dem Event gezeigt wurde? Genau das wollte [@lvl-3-g](https://github.com/lvl-3-g) erschaffen — und das findet ihr hier!
 
-New! Full-length Player's Guidebook!
-- Join the Discord Server for Super Gold 97 to obtain access to a 300-page PDF containing a full walkthrough, Pokedex, and all sorts of information about Super Gold 97! As well as to just chat about the game and anything related to it!
+## Story
+- Du bist ein neuer Trainer, der sich auf eine Reise begibt, um Professor Eich bei der Erforschung von Pokémon zu helfen, ganz ähnlich wie in den allerersten Spielen. Die Geschichte basiert auf dem Fundament, das direkt aus der Demo stammt, und führt dich durch Nihon, das auf ganz Japan basiert, während du Orden sammelst und Pokémon fängst. Außerdem musst du dich Team Rocket stellen, die eine Maschine bauen, mit der sie unglaubliche Macht über Pokémon erlangen wollen! Silber wird so dargestellt, wie er es schon in der Demo war — nicht als Antagonist, sondern als energiegeladener Rivale, ein wenig vergleichbar mit Barry aus der 4. Generation. Die Geschichte ist bewusst eher einfach gehalten, aber genau das ist beabsichtigt. Sie wurde so geschrieben, dass sie sich wie die Geschichte anfühlt, die in der Demo gewesen sein könnte, wenn sie fertiggestellt worden wäre.
 
-Features
-- Graphics fully pulled from the Spaceworld demo, complete with Pokemon sprites, overworld tilesets, trainer sprites, etc, along with a handful of sprites I had to redesign myself to better match the art style of the demo
-- Interface elements such as Pokedex, status screen, etc have been redesigned to appear similar to the demo
-- Pikachu minigame! (press Left +B on title screen and wait for music to end)
-- 251 Pokemon, the complete Pokedex as it appeared in the demo. The main way that this differs from what would have been in an "official" game is that all 251 Pokemon are obtainable in one save file
-- New key items that match the story presented in the game
-- Evolutionary stones that match the Demo (Heart Stone, Poison Stone) as well as an additional Covenant Orb that allows for the evolution of Pokemon that would normally require trading
-- New in-game status booster held items, pulled from the demo
-- 8 badges, Pokemon League, a full length game
-- A new original postgame map not present in the Spaceworld demo
-- Type chart inspired by the demo
-- Full support for the original Game Boy
-- Full support for the Super Game Boy
-- Full support for the Game Boy Color (with two different color modes)
-- Improved level curve compared to final Gold and levels are generally higher, leading to a slightly tougher game but still not overly difficult
-- Additional rematches for Gym Leaders and Pokemon League
+## Neu! Vollständiges Spielerhandbuch!
+- Tretet dem Discord-Server für Super Gold 97 bei, um Zugriff auf ein 300-seitiges PDF zu erhalten, das eine vollständige Komplettlösung, den Pokédex und allerlei Informationen über Super Gold 97 enthält! Außerdem könnt ihr dort einfach mit anderen über das Spiel und alles, was damit zu tun hat, chatten!
+
+## Features
+- Grafiken vollständig aus der Spaceworld-Demo übernommen, inklusive Pokémon-Sprites, Overworld-Tilesets, Trainer-Sprites usw. — ergänzt um einige Sprites, die [@lvl-3-g](https://github.com/lvl-3-g) selbst neu zeichnen musste, um besser zum Stil der Demo zu passen
+- Interface-Elemente wie der Pokédex, der Statusbildschirm usw. wurden neu gestaltet, damit sie ähnlich wie in der Demo wirken
+- Pikachu-Minispiel! (auf dem Titelbildschirm Links + B drücken und warten, bis die Musik endet)
+- 251 Pokémon, der vollständige Pokédex, wie er in der Demo vorgesehen war. Der Hauptunterschied zu einem „offiziellen“ Spiel besteht darin, dass alle 251 Pokémon in einem einzigen Spielstand erhältlich sind
+- Neue Schlüsselitems, die zur Geschichte des Spiels passen
+- Entwicklungssteine, die der Demo entsprechen (Herzstein, Giftstein) sowie zusätzlich ein Wunderstein, mit dem sich Pokémon entwickeln können, die normalerweise per Tausch entwickelt würden
+- Neue, im Spiel nutzbare Status-Boost-Items, direkt aus der Demo übernommen
+- 8 Orden, Pokémon-Liga, ein vollständiges Spiel
+- Eine neue originale Postgame-Map, die in der Spaceworld-Demo nicht enthalten war
+- Ein Typenchart, das von der Demo inspiriert ist
+- Volle Unterstützung für den originalen Game Boy
+- Volle Unterstützung für den Super Game Boy
+- Volle Unterstützung für den Game Boy Color (mit zwei verschiedenen Farbmodi)
+- Verbesserte Levelkurve im Vergleich zum finalen Gold; die Level sind allgemein höher, wodurch das Spiel etwas anspruchsvoller, aber nicht übermäßig schwer ist
+- Zusätzliche Rematches für Arenaleiter und Pokémon-Liga
 - Skateboard!
-- Additional moves based on scrapped moves from the demo
-- Several Beta music tracks
-- Expanded bedroom decoration system
+- Zusätzliche Attacken, basierend auf verworfenen Attacken aus der Demo
+- Mehrere Beta-Musikstücke
+- Erweitertes System für Schlafzimmerdekoration
 
-If you want information on the finer details of the game, such as movesets, base stats, encounter locations, etc, join the Discord for Super Gold 97 where you can download the Player's Guidebook that contains all this information and more!
+Wenn ihr Informationen zu den feineren Details des Spiels haben möchtet, wie Attacken, Basiswerte, Fundorte von wilden Pokémon usw., tretet dem Discord von Super Gold 97 bei, wo ihr das Spielerhandbuch herunterladen könnt, das all diese Informationen und mehr enthält!
