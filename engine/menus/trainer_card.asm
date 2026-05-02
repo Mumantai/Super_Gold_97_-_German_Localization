@@ -547,11 +547,11 @@ endr
 	db $79, $7a, $7b, $7c, $7d, $7e, -1 ; "BADGES"
 
 .LeagueTitle:
-	db "#MON LEAGUE@"
+	db "#MON LIGA@"
 
 ; pushc and popc isn't working lol
 .StatusTitle:
-	db " ÄSTATUS@"
+	db "  STATUS@"
 
 .HorizDivide:
 rept 18

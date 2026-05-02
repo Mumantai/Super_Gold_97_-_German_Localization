@@ -156,6 +156,8 @@ INCLUDE "engine/battle/consume_held_item.asm"
 INCLUDE "engine/battle/returntobattle_useball.asm"
 INCLUDE "data/moves/moves.asm"
 
+INCLUDE "engine/menus/trainer_card.asm"
+
 
 SECTION "Effect Commands", ROMX
 
@@ -192,8 +194,6 @@ INCLUDE "engine/gfx/place_graphic.asm"
 INCLUDE "engine/pokemon/mail.asm"
 INCLUDE "engine/games/pikachu_minigame.asm"
 INCLUDE "audio/music/surfingpikachu.asm"
-
-INCLUDE "engine/menus/trainer_card.asm"
 
 SECTION "bank14", ROMX
 
