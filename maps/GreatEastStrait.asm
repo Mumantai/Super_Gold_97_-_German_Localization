@@ -13,11 +13,13 @@ GreatEastSign:
 	jumptext GreatEastSignText
 	
 GreatEastSignText:
-	text "GREAT EAST STRAIT"
-	para "NANJO FOREST -"
-	line "DAITO RANCH"
-	para "Watch Out For"
-	line "Whirlpools!"
+    text "GROẞE ÖTSL. STRAẞE"
+
+    para "NANJUU-WALD  -"
+    line "DAITO-RANCH"
+
+    para "Vorsicht vor den"
+    line "STRUDELN!"
 	done
 
 
