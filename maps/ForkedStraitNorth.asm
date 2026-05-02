@@ -90,7 +90,7 @@ CheckpointSignpostText:
 	
 	para "OFFIZIELLE"
 	line "ERLAUBSNIS ZUM"
-	cont "BETRETEN BENÖTIGT
+	cont "BETRETEN BENÖTIGT"
 	done
 
 ForkedStraitNorth_MapEvents:
