@@ -117,9 +117,9 @@ DragonsDenName:     db "DRACHENSCHLUND@"    ;
 EndonCaveName:      db "ENDON HÖHLE@"       ; NICHT FINAL Endon vielleicht von "No End" ?
 FastShipName:       db "SCHNELLBOOT@"
 FiveFloorTowerName: db "5-EBENEN-TURM@"     ; "Ebenen" anstelle von "Etagen" um Zweideutigkeit mit Spirituellem zu haben
-ForkedStraitName:   db "FORKED STRAIT@"     ;
+ForkedStraitName:   db "MEERESGABELUNG@"     ;
 FrostpointTownName: db "SPIZARDIA@"         ; Spitze + Blizzard     NICHT FINAL
-GreatEastStraitName:    db "AGARIDINO MEERENGE@"    ; ufuagari (okinawa. äußerster Osten) + Borodino (europ. Name für Daito-Inseln)
+GreatEastStraitName:    db "AGARIDINO-STRAẞE@"    ; ufuagari (okinawa. äußerster Osten) + Borodino (europ. Name für Daito-Inseln)
 HydroPlantName:     db "WASSERKRAFTWERK@"   ;
 IcedCavernName:     db "GEFRIERGROTTE@"     ; alt. FROSTHÖHLE
 IcePathName:        db "TIEFWASSERPFAD@";
