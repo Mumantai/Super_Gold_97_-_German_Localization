@@ -208,7 +208,7 @@ FSGScientist2Text:
     para "SÜDLICHEN INSELN"
     line "bekommen hat."
 
-    para "Es soll soga ein"
+    para "Es soll sogar ein"
     line "Promokartenset mit"
     para "den unglaublichen"
     line "#MON-Fotos der"

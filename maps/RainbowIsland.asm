@@ -83,7 +83,7 @@ BlueLeavesText:
 
 	para "So ins Schwitzen"
 	line "gebracht wurde ich"
-	para "das letzte Mal, als"
+	para "das zuletzt, als"
     line "ich gegen meinen"
     para "alten Kumpel um"
     line "meinen Titel"
