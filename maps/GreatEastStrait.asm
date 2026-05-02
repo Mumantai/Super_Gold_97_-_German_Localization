@@ -13,10 +13,10 @@ GreatEastSign:
 	jumptext GreatEastSignText
 	
 GreatEastSignText:
-    text "GROẞE ÖTSL. STRAẞE"
+    text "AGARIDINO MEERENGE"
 
     para "NANJUU-WALD  -"
-    line "DAITO-RANCH"
+    line "DAITO RANCH"
 
     para "Vorsicht vor den"
     line "STRUDELN!"

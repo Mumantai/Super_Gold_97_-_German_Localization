@@ -18,16 +18,17 @@ DaitoPokecenter1FYoungsterScript:
 	jumptextfaceplayer DaitoPokecenter1FYoungsterText
 
 DaitoPokecenter1FGrannyText:
-	text "Oh, I do just love"
-	line "the fresh APPLES"
-	cont "you can find here!"
+    text "Oh ich liebe die"
+    line "frischen ÄPFEL,"
+    cont "die hier wachsen!"
 	done
 	
 DaitoPokecenter1FYoungsterText:
-	text "I think I had some"
-	line "MOOMOO milk in"
-	para "BIRDON TOWN that"
-	line "originated here."
+    text "Ich glaube, ich"
+    line "hatte mal eine"
+    para "KUHMUH-MILCH in"
+    line "TOTOMONIA, die"
+    cont "von hier stammte."
 	done
 
 DaitoPokecenter1F_MapEvents:

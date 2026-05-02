@@ -79,83 +79,102 @@ DaitoRancheroScript_Milking:
 	end
 	
 HeyYouHealedMooMoo:
-	text "Well, hey now!"
-	para "I sure do ap-"
-	line "preciate you"
-	para "helpin' out my"
-	line "MOOMOO."
-	para "I owe ya one, son."
-	para "Here's something I"
-	line "found when we was"
-	para "clearin' land to"
-	line "build this here"
-	cont "RANCH."
-	para "Take it!"
+    text "Ach, hallo!"
+
+    para "Ich bin dir echt"
+    line "dankbar, dass du"
+    para "meiner MUHMUH"
+    line "geholfen hast."
+
+    para "Ich schule dir"
+    line "was, Jungchen."
+
+    para "Hier, das habe ich"
+    line "gefunden, als wir"
+    para "das Land für den"
+    line "Bau dieser RANCH"
+    cont "freigeräumt haben."
+
+    para "Nimm es!"
 	done
 	
 HeyYouHealedMooMoo2:
-	text "And if you're ever"
-	line "needin' some"
-	para "MOOMOO MILK, y'all"
-	line "just let me know."
+    text "Und wenn du jemals"
+    line "etwas KUHMUH-MILCH"
+    para "brauchst, sag mir"
+    line "einfach Bescheid."
 	done
 
 
 DaitoRancheroText_SickCow:
-	text "My MILTANK ain't"
-	line "givin' me milk"
-	cont "n'more."
+	text "Mein MILTANK gibt"
+	line "keine Milch"
+	cont "mehr."
 
-	para "This here FARM's"
-	line "got famous milk."
+	para "Diese FARM ist"
+	line "berühmt für die"
+	cont "Milch, die hier"
+	cont "produziert wird."
 
-	para "Most everyone"
-	line "wants a drink."
+	para "Fast jeder trinkt"
+	line "sie gern."
 
-	para "It'll give me lots"
-	line "o' milk if'n I"
+	para "Es würde mir viel"
+	line "Milch geben, wenn"
+	para "ich es mit vielen"
+	line "ÄPFELN füttern"
+	cont "würde."
 
-	para "feed it lots o'"
-	line "APPLES, I reckon."
+	para "Glaube ich"
+	line "zumindest."
 	done
 
 DaitoRancheroText_BuyMilk:
-	text "How'd you like my"
-	line "MOOMOO MILK?"
+	text "Wie findest du"
+	line "die MILCH von"
+	cont "meinem MILTANK?"
 
-	para "It's my pride and"
-	line "joy, there."
+	para "Sie ist mein gan-"
+	line "zer Stolz."
 
-	para "Give it to #MON"
-	line "to restore HP!"
+	para "Gib sie einem"
+	line "#MON, um dessen"
+	cont "KP aufzufrischen!"
 
-	para "I'll give it to ya"
-	line "fer just ¥500."
+	para "Ich gebe sie dir"
+	line "für nur ¥500."
 	done
 
 DaitoRancheroText_GotMilk:
-	text "Here ya go!"
-	line "Drink up'n enjoy!"
+	text "Bitte sehr!"
+	line "Trink aus und"
+	cont "genieße es!"
 	done
 
 DaitoRancheroText_NoMoney:
-	text "Sorry, there."
-	line "No cash, no sale!"
+	text "Tut mir Leid, mein"
+	line "Kind. Wenn du kein"
+	cont "Geld hast, kann"
+	cont "ich dir nichts"
+	cont "verkaufen!"
 	done
 
 DaitoRancheroText_NoRoom:
-	text "I reckon yer"
-	line "PACK's full."
+	text "Ich schätze,"
+	line "dein BEUTEL ist"
+	cont "voll."
 	done
 
 DaitoRancheroText_NoSale:
-	text "You don't want it?"
-	line "Come again, hear?"
+	text "Du hast kein"
+	line "Interesse? Komm"
+	cont "aber wieder, hörst"
+	cont "du?"
 	done
 
 DaitoRancheroText_Milking:
-	text "I best go do my"
-	line "milkin'."
+	text "Dann melke ich"
+	line "mal weiter."
 	done
 
 DaitoHouseWifeScript:
@@ -178,20 +197,20 @@ DaitoHouseWifeScript:
 	end
 	
 DaitoRanchHouseRestAWhileText:
-	text "Your #MON look"
-	line "a little tired."
+	text "Deine #MON"
+	line "sehen müde aus."
 
-	para "You should rest"
-	line "them a while."
+	para "Gönne ihnen eine"
+	line "kleine Pause."
 	done
 
 DaitoRanchHouseKeepAtItText:
-	text "There!"
+	text "Hier!"
 
-	para "Your #MON are"
-	line "looking good!"
+	para "Deine #MON"
+	line "sehen gut aus!"
 
-	para "Keep at it!"
+	para "Mach weiter so!"
 	done
 
 

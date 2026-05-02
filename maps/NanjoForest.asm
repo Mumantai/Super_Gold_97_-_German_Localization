@@ -180,8 +180,7 @@ NanjoForestSignText:
 	
 NanjoForestSign2Text:
 	text "Ausgang zur"
-	line "GROẞEN ÖTSLICHEN"
-	para "STRAẞE"
+	line "AGARIDINO MEERENGE"
 	done
 	
 NanjoForestSilverBefore:

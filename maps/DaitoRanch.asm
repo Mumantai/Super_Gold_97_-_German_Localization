@@ -30,18 +30,18 @@ DaitoRanchSign:
 	
 DaitoRanchSignText:
 	text "DAITO RANCH"
-	para "Dairy Producers"
-	line "Of the SOUTHWEST"
-	cont "ISLANDS"
+
+	para "Milcherzeuger der"
+	line "SÜDWEST-INSELN"
 	done
 
 SummerHomeSign:
 	jumpstd PokecenterSignScript
 	
 SummerHomeSignText:
-	text "GEOFFREY the"
-	line "Gardener's summer"
-	cont "resort house."
+    text "Sommerhaus von"
+    line "GEOFFREY dem"
+    cont "Gärtner."
 	done
 
 DaitoRanchMiltank:
@@ -59,15 +59,13 @@ AppleOrchardSign:
 	jumptext AppleOrchardSignText
 	
 DaitoRanchJanineText:
-	text "This is such a"
-	line "lovely place,"
-	cont "isn't it?"
+	text "Das ist so ein"
+	line "schöner Ort, oder?"
 	done
 	
 	
 AppleOrchardSignText:
-	text "DAITO APPLE"
-	line "ORCHARD"
+	text "DAITO APFELGARTEN"
 	done
 
 Appletree1:
@@ -106,34 +104,33 @@ DaitoFarmer1Script:
 	jumptextfaceplayer DaitoFarmer1Text
 	
 DaitoFarmer1Text:
-	text "See those trees?"
-	
-	para "This is called"
-	line "a windbreak."
-	para "It protects the"
-	line "crops from being"
-	para "damaged by the"
-	line "winds that blow"
-	cont "through here."
+	text "Siehst du die"
+	line "Bäume dort?"
+
+	para "Das nennt man"
+	line "einen Windschutz."
+
+	para "Er schützt die"
+	line "Felder vor den"
+	para "starken Winden,"
+	line "die hier durch-"
+	cont "wehen."
 	done
 
 DaitoFarmer2Script:
 	jumptextfaceplayer DaitoFarmer2Text
 	
 DaitoFarmer2Text:
-	text "This crop field"
-	line "is full of"
-	para "flowers right now"
-	line "because we're"
-	para "cycling the land"
-	line "in preparation"
-	para "for next planting"
-	line "season!"
-	
-	para "If you look around"
-	line "you might find"
-	para "some left over"
-	line "berries."
+	text "Das Feld ist zur"
+	line "Zeit voll von"
+	para "Blumen, weil wir"
+	line "den Boden für die"
+	para "nächste Pflanzzeit"
+	line "vorbereiten!"
+
+	para "Eventuell liegen"
+	line "hier noch ein paar"
+	cont "Beeren herum."
 	done
 
 HiddenBerry1:
@@ -167,45 +164,48 @@ DaitoGeoffPatioScript:
 	end
 
 GeoffThanksVisitText:
-	text "Hey, didn't we"
-	line "meet back over on"
-	cont "ROUTE 104?"
-	
-	para "I was sick of"
-	line "trying to grow"
-	para "crops out in the"
-	line "desert, so I've"
-	para "moved myself out"
-	line "here to work on"
-	cont "this RANCH!"
+    text "Hey, haben wir uns"
+    line "nicht schon mal"
+    para "auf ROUTE 104"
+    line "getroffen?"
 
-	para "Since you took"
-	line "the time to come"
-	para "all the way out"
-	line "here to see me,"
-	para "this drink's on"
-	line "the house!"
+    para "Ich war es satt,"
+    line "zu versuchen, im"
+    para "Wüstenboden etwas"
+    line "anzubauen, also"
+    para "bin ich hierher"
+    line "gezogen, um auf"
+    para "dieser RANCH zu"
+    line "arbeiten!"
+
+    para "Da du dir extra"
+    line "die Mühe gemacht"
+    para "hast, hierher zu"
+    line "kommen, gebe ich"
+    para "dir ein Getränk"
+    line "aus!"
 	done
 
 GeoffIslandLifeText:
-	text "What do you"
-	line "think of this"
-	cont "place?"
-	
-	para "Great view, isn't"
-	line "it?"
-	para "Much better than"
-	line "dusty old ROUTE"
-	cont "104."
-	
-	para "I can grow all"
-	line "kinds of tropical"
-	cont "plants here too!"
-	
-	para "Come inside some-"
-	line "time later and"
-	para "I'll tell you"
-	line "all about it."
+    text "Was hälst du von"
+    line "diesem Ort?"
+
+    para "Tolle Aussicht,"
+    line "oder?"
+
+    para "Viel besser als"
+    line "das verstaubte"
+    cont "ROUTE 104."
+
+    para "Hier kann ich"
+    line "sogar allerlei"
+    para "tropische Pflanzen"
+    line "anbauen!"
+
+    para "Komm doch später"
+    line "mal rein, dann"
+    para "erzähle ich dir"
+    line "alles darüber."
 	done
 
 

@@ -119,7 +119,7 @@ FastShipName:       db "SCHNELLBOOT@"
 FiveFloorTowerName: db "5-EBENEN-TURM@"     ; "Ebenen" anstelle von "Etagen" um Zweideutigkeit mit Spirituellem zu haben
 ForkedStraitName:   db "FORKED STRAIT@"     ;
 FrostpointTownName: db "SPIZARDIA@"         ; Spitze + Blizzard     NICHT FINAL
-GreatEastStraitName:    db "GROẞE ÖSTL. STRAẞE@"
+GreatEastStraitName:    db "AGARIDINO MEERENGE@"    ; ufuagari (okinawa. äußerster Osten) + Borodino (europ. Name für Daito-Inseln)
 HydroPlantName:     db "WASSERKRAFTWERK@"   ;
 IcedCavernName:     db "GEFRIERGROTTE@"     ; alt. FROSTHÖHLE
 IcePathName:        db "TIEFWASSERPFAD@";
