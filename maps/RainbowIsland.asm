@@ -38,74 +38,74 @@ BlueScriptRI:
 	end
 	
 BlueWinLossText:
-	text "It's all over!"
-	
-	para "That was a battle"
-	line "for the history"
-	para "books, no doubt"
-	line "about it!"
+    text "Es ist vorbei!"
+
+    para "Das war wirklich"
+    line "ein Kampf für die"
+    cont "Geschichtsbücher!"
 	done
 
 BlueSeenText:
-	text "Hi, <PLAYER>!"
-	para "I'm here studying"
-	line "the many species"
-	para "of #MON that"
-	line "live on this"
-	cont "island."
-	
-	
-	para "But I see you have"
-	line "a fire in your"
-	cont "eyes."
-	
-	para "I know that"
-	line "feeling well."
-	
-	para "It was what drove"
-	line "me to become the"
-	cont "CHAMPION."
-	
-	para "Well… There's"
-	line "only one thing"
-	para "I could imagine"
-	line "you'd want!"
-	
-	para "<PLAYER>!"
-	
-	para "As the former"
-	line "CHAMPION of the"
-	para "#MON LEAGUE,"
-	line "I challenge you!"
+    text "Hey, <PLAYER>!"
+
+    para "Ich untersuche die"
+    line "vielen Arten von"
+    para "#MON, die hier"
+    line "auf dieser Insel"
+    cont "leben."
+
+    para "Aber ich sehe das"
+    line "Feuer in deinen"
+    cont "Augen."
+
+    para "Ich kenne dieses"
+    line "Gefühl nur zu gut."
+
+    para "Es war das, was"
+    line "mich dazu antrieb,"
+    cont "CHAMP zu werden."
+
+    para "Tja… Es gibt"
+    line "nur eine Sache,"
+    para "die du dir wohl"
+    line "wünschen könntest!"
+
+    para "<PLAYER>!"
+
+    para "Als ehemaliger"
+    line "CHAMP der #MON"
+    para "LIGA, fordere ich"
+    line "dich heraus!"
 	done
 	
 BlueLeavesText:
-	text "Whew…"
-	
-	para "I haven't had"
-	line "someone give me a"
-	para "run for my money"
-	line "like that since"
-	para "I fought my old"
-	line "pal when I was"
-	cont "CHAMPION!"
-	
-	para "Man… That still"
-	line "feels like it was"
-	cont "just yesterday…"
-	
-	para "Welp! I guess it's"
-	line "time for me to"
-	para "wrap up my"
-	line "research tour."
-	
-	para "What a time it's"
-	line "been!"
-	
-	para "<PLAYER>! I guess"
-	line "I'll…"
-	
-	para "Smell ya later!"
+	text "Puh…"
+
+	para "So ins Schwitzen"
+	line "gebracht wurde ich"
+	para "das letzte Mal, als"
+    line "ich gegen meinen"
+    para "alten Kumpel um"
+    line "meinen Titel"
+    cont "gekämpft habe!"
+
+    para "Mann… Das fühlt"
+    line "sich an, als wäre"
+    cont "es erst gestern"
+    cont "gewesen…"
+
+    para "Naja! Ich denke,"
+    line "es ist Zeit für"
+    para "mich, meine For-"
+    line "schungsreise zu"
+    cont "beenden."
+
+    para "Was für eine Zeit"
+    line "das doch war!"
+
+    para "<PLAYER>! Ich…"
+
+    para "Ciao!"
 	done
 
 RainbowIsland_MapEvents:

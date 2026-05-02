@@ -173,63 +173,59 @@ SlowkingScript:
 	
 SlowkingHint1Text:
 	text "…"
-	line "Slow…"
-	
-	para "SLOWKING gestures"
-	line "toward the jungle"
-	cont "as if to tell you"
-	cont "something…"
+	line "King…"
+
+	para "LASCHOKING zeigt"
+	line "auf den Dschungel,"
+	para "als wolle es dir"
+	line "etwas sagen…"
 	done
 
 SlowkingHint2Text:
-	text "SLOWKING gestures"
-	line "toward the far"
-	cont "northeast of the"
-	cont "island…"
+    text "LASCHOKING zeigt"
+    line "auf den nordöst-"
+    para "lichsten Punkt der"
+    line "Insel…"
 	done
 
 SlowkingHint3Text:
-	text "SLOWKING gestures"
-	line "to the upper-"
-	cont "middle of the"
-	cont "island…"
+    text "LASCHOKING zeigt"
+    line "auf die obere"
+    cont "Mitte der Insel…"
 	done
 
 SlowkingHint4Text:
-	text "SLOWKING gestures"
-	line "to the far west"
-	cont "of the island…"
+    text "LASCHOKING zeigt"
+    line "nach Westen…"
 	done
 
 SlowkingHint5Text:
-	text "SLOWKING gestures"
-	line "into the jungle"
-	cont "again…"
+	text "LASCHOKING zeigt"
+	line "wieder auf den"
+	cont "Dschungel…"
 	done
 
 SlowkingHint6Text:
-	text "SLOWKING gestures"
-	line "along the beach…"
+    text "LASCHOKING zeigt"
+    line "auf den Strand…"
 	done
 
 SlowkingHint7Text:
-	text "SLOWKING gestures"
-	line "to the far north"
-	cont "of the island…"
+    text "LASCHOKING zeigt"
+    line "nach Norden…"
 	done
 	
 SlowkingHint8Text:
-	text "SLOWKING gestures"
-	line "to the highest"
-	cont "point of the"
-	cont "whole island…"
+    text "Laschoking zeigt"
+    line "auf den höchsten"
+    cont "Punkt der Insel…"
 	done
 
 SlowkingFinalText:
 	text "… … …"
-	
-	para "SLOWKING nods"
-	line "in approval…"
+
+	para "LASCHOKINGT nickt"
+	line "zustimmend…"
 	done
 
 TropicalIslandOutside_MapEvents:
