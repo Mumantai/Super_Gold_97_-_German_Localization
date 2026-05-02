@@ -304,7 +304,7 @@ PikachuMiniGame_BlinkText:
 	ret
 
 .text
-	db "START ▶ Title"
+	db "START ▶ Titelbild"
 	db 0	; terminator
 
 PikachuMiniGame_RunFrame:
