@@ -827,7 +827,7 @@ Animate_MinigamePikachu::
 	dec [hl]
 	ld d, $30
 	ld e, a
-	;callba BattleAnim_Sine_e
+	callba BattleAnim_Sine_e
 	ld a, e
 	ld hl, SPRITEANIMSTRUCT_YOFFSET
 	add hl, bc
