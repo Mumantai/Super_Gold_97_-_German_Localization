@@ -331,7 +331,7 @@ Route101_MapEvents:
 	db 3 ; bg events
 	bg_event 20,  8, BGEVENT_READ, Route101Sign1
 	bg_event 12,  7, BGEVENT_READ, SilentHillsEntranceSign
-	bg_event 16,  3, BGEVENT_READ, DebugSign        ;TODO: 3 zu 2 ändern
+	bg_event 16,  2, BGEVENT_READ, DebugSign        ;TODO: 3 zu 2 ändern
 
 	db 5 ; object events
 	object_event 23, 11, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_SCRIPT, 0, CatchingTutorialDudeScript, -1
