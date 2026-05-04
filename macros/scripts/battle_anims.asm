@@ -1,4 +1,4 @@
-MACRO anim_wait
+anim_wait: MACRO
 if \1 >= $d0
 	fail "anim_wait argument must be less than $d0."
 endc
@@ -9,7 +9,7 @@ ENDM
 	enum_start $d0
 
 	enum anim_obj_command ; $d0
-MACRO anim_obj
+anim_obj: MACRO
 	db anim_obj_command
 if _NARG <= 4
 	db \1 ; object
@@ -26,20 +26,20 @@ endc
 ENDM
 
 	enum anim_1gfx_command ; $d1
-MACRO anim_1gfx
+anim_1gfx: MACRO
 	db anim_1gfx_command
 	db \1 ; gfx1
 ENDM
 
 	enum anim_2gfx_command ; $d2
-MACRO anim_2gfx
+anim_2gfx: MACRO
 	db anim_2gfx_command
 	db \1 ; gfx1
 	db \2 ; gfx2
 ENDM
 
 	enum anim_3gfx_command ; $d3
-MACRO anim_3gfx
+anim_3gfx: MACRO
 	db anim_3gfx_command
 	db \1 ; gfx1
 	db \2 ; gfx2
@@ -47,7 +47,7 @@ MACRO anim_3gfx
 ENDM
 
 	enum anim_4gfx_command ; $d4
-MACRO anim_4gfx
+anim_4gfx: MACRO
 	db anim_4gfx_command
 	db \1 ; gfx1
 	db \2 ; gfx2
@@ -56,7 +56,7 @@ MACRO anim_4gfx
 ENDM
 
 	enum anim_5gfx_command ; $d5
-MACRO anim_5gfx
+anim_5gfx: MACRO
 	db anim_5gfx_command
 	db \1 ; gfx1
 	db \2 ; gfx2
@@ -66,147 +66,147 @@ MACRO anim_5gfx
 ENDM
 
 	enum anim_incobj_command ; $d6
-MACRO anim_incobj
+anim_incobj: MACRO
 	db anim_incobj_command
 	db \1 ; object_id
 ENDM
 
 	enum anim_setobj_command ; $d7
-MACRO anim_setobj
+anim_setobj: MACRO
 	db anim_setobj_command
 	db \1 ; object_id
 	db \2 ; value
 ENDM
 
 	enum anim_incbgeffect_command ; $d8
-MACRO anim_incbgeffect
+anim_incbgeffect: MACRO
 	db anim_incbgeffect_command
 	db \1 ; effect
 ENDM
 
 	enum anim_battlergfx_2row_command ; $d9
-MACRO anim_battlergfx_2row
+anim_battlergfx_2row: MACRO
 	db anim_battlergfx_2row_command
 ENDM
 
 	enum anim_battlergfx_1row_command ; $da
-MACRO anim_battlergfx_1row
+anim_battlergfx_1row: MACRO
 	db anim_battlergfx_1row_command
 ENDM
 
 	enum anim_checkpokeball_command ; $db
-MACRO anim_checkpokeball
+anim_checkpokeball: MACRO
 	db anim_checkpokeball_command
 ENDM
 
 	enum anim_transform_command ; $dc
-MACRO anim_transform
+anim_transform: MACRO
 	db anim_transform_command
 ENDM
 
 	enum anim_raisesub_command ; $dd
-MACRO anim_raisesub
+anim_raisesub: MACRO
 	db anim_raisesub_command
 ENDM
 
 	enum anim_dropsub_command ; $de
-MACRO anim_dropsub
+anim_dropsub: MACRO
 	db anim_dropsub_command
 ENDM
 
 	enum anim_resetobp0_command ; $df
-MACRO anim_resetobp0
+anim_resetobp0: MACRO
 	db anim_resetobp0_command
 ENDM
 
 	enum anim_sound_command ; $e0
-MACRO anim_sound
+anim_sound: MACRO
 	db anim_sound_command
 	db (\1 << 2) | \2 ; duration, tracks
 	db \3 ; sound_id
 ENDM
 
 	enum anim_cry_command ; $e1
-MACRO anim_cry
+anim_cry: MACRO
 	db anim_cry_command
 	db \1 ; pitch
 ENDM
 
 	enum anim_minimizeopp_command ; $e2
-MACRO anim_minimizeopp
+anim_minimizeopp: MACRO
 	db anim_minimizeopp_command
 ENDM
 
 	enum anim_oamon_command ; $e3
-MACRO anim_oamon
+anim_oamon: MACRO
 	db anim_oamon_command
 ENDM
 
 	enum anim_oamoff_command ; $e4
-MACRO anim_oamoff
+anim_oamoff: MACRO
 	db anim_oamoff_command
 ENDM
 
 	enum anim_clearobjs_command ; $e5
-MACRO anim_clearobjs
+anim_clearobjs: MACRO
 	db anim_clearobjs_command
 ENDM
 
 	enum anim_beatup_command ; $e6
-MACRO anim_beatup
+anim_beatup: MACRO
 	db anim_beatup_command
 ENDM
 
 	enum anim_0xe7_command ; $e7
-MACRO anim_0xe7
+anim_0xe7: MACRO
 	db anim_0xe7_command
 ENDM
 
 	enum anim_updateactorpic_command ; $e8
-MACRO anim_updateactorpic
+anim_updateactorpic: MACRO
 	db anim_updateactorpic_command
 ENDM
 
 	enum anim_minimize_command ; $e9
-MACRO anim_minimize
+anim_minimize: MACRO
 	db anim_minimize_command
 ENDM
 
 	enum anim_0xea_command ; $ea
-MACRO anim_0xea
+anim_0xea: MACRO
 	db anim_0xea_command
 ENDM
 
 	enum anim_0xeb_command ; $eb
-MACRO anim_0xeb
+anim_0xeb: MACRO
 	db anim_0xeb_command
 ENDM
 
 	enum anim_0xec_command ; $ec
-MACRO anim_0xec
+anim_0xec: MACRO
 	db anim_0xec_command
 ENDM
 
 	enum anim_0xed_command ; $ed
-MACRO anim_0xed
+anim_0xed: MACRO
 	db anim_0xed_command
 ENDM
 
 	enum anim_if_param_and_command ; $ee
-MACRO anim_if_param_and
+anim_if_param_and: MACRO
 	db anim_if_param_and_command
 	db \1 ; value
 	dw \2 ; address
 ENDM
 
 	enum anim_jumpuntil_command ; $ef
-MACRO anim_jumpuntil
+anim_jumpuntil: MACRO
 	db anim_jumpuntil_command
 	dw \1 ; address
 ENDM
 
 	enum anim_bgeffect_command ; $f0
-MACRO anim_bgeffect
+anim_bgeffect: MACRO
 	db anim_bgeffect_command
 	db \1 ; effect
 	db \2 ; jumptable index
@@ -215,88 +215,88 @@ MACRO anim_bgeffect
 ENDM
 
 	enum anim_bgp_command ; $f1
-MACRO anim_bgp
+anim_bgp: MACRO
 	db anim_bgp_command
 	db \1 ; colors
 ENDM
 
 	enum anim_obp0_command ; $f2
-MACRO anim_obp0
+anim_obp0: MACRO
 	db anim_obp0_command
 	db \1 ; colors
 ENDM
 
 	enum anim_obp1_command ; $f3
-MACRO anim_obp1
+anim_obp1: MACRO
 	db anim_obp1_command
 	db \1 ; colors
 ENDM
 
 	enum anim_keepsprites_command ; $f4
-MACRO anim_keepsprites
+anim_keepsprites: MACRO
 	db anim_keepsprites_command
 ENDM
 
 	enum anim_0xf5_command ; $f5
-MACRO anim_0xf5
+anim_0xf5: MACRO
 	db anim_0xf5_command
 ENDM
 
 	enum anim_0xf6_command ; $f6
-MACRO anim_0xf6
+anim_0xf6: MACRO
 	db anim_0xf6_command
 ENDM
 
 	enum anim_0xf7_command ; $f7
-MACRO anim_0xf7
+anim_0xf7: MACRO
 	db anim_0xf7_command
 ENDM
 
 	enum anim_if_param_equal_command ; $f8
-MACRO anim_if_param_equal
+anim_if_param_equal: MACRO
 	db anim_if_param_equal_command
 	db \1 ; value
 	dw \2 ; address
 ENDM
 
 	enum anim_setvar_command ; $f9
-MACRO anim_setvar
+anim_setvar: MACRO
 	db anim_setvar_command
 	db \1 ; value
 ENDM
 
 	enum anim_incvar_command ; $fa
-MACRO anim_incvar
+anim_incvar: MACRO
 	db anim_incvar_command
 ENDM
 
 	enum anim_if_var_equal_command ; $fb
-MACRO anim_if_var_equal
+anim_if_var_equal: MACRO
 	db anim_if_var_equal_command
 	db \1 ; value
 	dw \2 ; address
 ENDM
 
 	enum anim_jump_command ; $fc
-MACRO anim_jump
+anim_jump: MACRO
 	db anim_jump_command
 	dw \1 ; address
 ENDM
 
 	enum anim_loop_command ; $fd
-MACRO anim_loop
+anim_loop: MACRO
 	db anim_loop_command
 	db \1 ; count
 	dw \2 ; address
 ENDM
 
 	enum anim_call_command ; $fe
-MACRO anim_call
+anim_call: MACRO
 	db anim_call_command
 	dw \1 ; address
 ENDM
 
 	enum anim_ret_command ; $ff
-MACRO anim_ret
+anim_ret: MACRO
 	db anim_ret_command
 ENDM

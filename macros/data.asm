@@ -27,46 +27,46 @@ out_of EQUS "* $100 /"
 
 ; Constant data (db, dw, dl) macros
 
-MACRO dwb
+dwb: MACRO
 	dw \1
 	db \2
 ENDM
 
-MACRO dbw
+dbw: MACRO
 	db \1
 	dw \2
 ENDM
 
-MACRO dbbw
+dbbw: MACRO
 	db \1, \2
 	dw \3
 ENDM
 
-MACRO dbww
+dbww: MACRO
 	db \1
 	dw \2, \3
 ENDM
 
-MACRO dbwww
+dbwww: MACRO
 	db \1
 	dw \2, \3, \4
 ENDM
 
-MACRO dn ; nybbles
+dn: MACRO ; nybbles
 rept _NARG / 2
 	db ((\1) << 4) | (\2)
 	shift 2
 endr
 ENDM
 
-MACRO dc ; "crumbs"
+dc: MACRO ; "crumbs"
 rept _NARG / 4
 	db ((\1) << 6) | ((\2) << 4) | ((\3) << 2) | (\4)
 	shift 4
 endr
 ENDM
 
-MACRO dx
+dx: MACRO
 x = 8 * ((\1) - 1)
 rept \1
 	db ((\2) >> x) & $ff
@@ -74,26 +74,26 @@ x = x - 8
 endr
 ENDM
 
-MACRO dt ; three-byte (big-endian)
+dt: MACRO ; three-byte (big-endian)
 	dx 3, \1
 ENDM
 
-MACRO dd ; four-byte (big-endian)
+dd: MACRO ; four-byte (big-endian)
 	dx 4, \1
 ENDM
 
-MACRO bigdw ; big-endian word
+bigdw: MACRO ; big-endian word
 	dx 2, \1 ; db HIGH(\1), LOW(\1)
 ENDM
 
-MACRO dba ; dbw bank, address
+dba: MACRO ; dbw bank, address
 rept _NARG
 	dbw BANK(\1), \1
 	shift
 endr
 ENDM
 
-MACRO dab ; dwb address, bank
+dab: MACRO ; dwb address, bank
 rept _NARG
 	dwb \1, BANK(\1)
 	shift
@@ -108,7 +108,7 @@ ENDM
 ;     BANK("Pics 14") -> $1f
 ;
 ; Otherwise, the ROM bank will match the defined bank.
-MACRO dba_pic ; dbw bank, address
+dba_pic: MACRO ; dbw bank, address
 	db (BANK(\1) == BANK("Pics 12")) * ($13 - BANK("Pics 12")) \
 		+ (BANK(\1) == BANK("Pics 13")) * ($14 - BANK("Pics 13")) \
 		+ (BANK(\1) == BANK("Pics 14")) * ($1f - BANK("Pics 14")) \
@@ -116,14 +116,14 @@ MACRO dba_pic ; dbw bank, address
 	dw \1
 ENDM
 
-MACRO bcd
+bcd: MACRO
 rept _NARG
 	dn ((\1) % 100) / 10, (\1) % 10
 	shift
 endr
 ENDM
 
-MACRO sine_table
+sine_table: MACRO
 ; \1 samples of sin(x) from x=0 to x<32768 (pi radians)
 x = 0
 rept \1

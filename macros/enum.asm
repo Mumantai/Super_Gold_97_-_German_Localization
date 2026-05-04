@@ -1,6 +1,6 @@
 ; Enumerate variables
 
-MACRO enum_start
+enum_start: MACRO
 if _NARG >= 1
 __enum__ = \1
 else
@@ -13,18 +13,18 @@ __enumdir__ = 1
 endc
 ENDM
 
-MACRO enum
+enum: MACRO
 \1 EQU __enum__
 __enum__ = __enum__ + __enumdir__
 ENDM
 
-MACRO enum_set
+enum_set: MACRO
 __enum__ = \1
 ENDM
 
 ; Enumerate constants
 
-MACRO const_def
+const_def: MACRO
 if _NARG >= 1
 const_value = \1
 else
@@ -32,12 +32,12 @@ const_value = 0
 endc
 ENDM
 
-MACRO const
+const: MACRO
 \1 EQU const_value
 const_value = const_value + 1
 ENDM
 
-MACRO shift_const
+shift_const: MACRO
 \1 EQU (1 << const_value)
 const_value = const_value + 1
 ENDM

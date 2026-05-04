@@ -11,127 +11,127 @@ prompt EQUS "db \"<PROMPT>\"" ; Prompt the player to end a text box (initiating 
 	enum_start
 
 	enum TX_START ; $00
-MACRO text_start
+text_start: MACRO
 	db TX_START
 ENDM
 
 	enum TX_RAM ; $01
-MACRO text_ram
+text_ram: MACRO
 	db TX_RAM
 	dw \1
 ENDM
 
 	enum TX_BCD ; $02
-MACRO text_bcd
+text_bcd: MACRO
 	db TX_BCD
 	dw \1
 	db \2
 ENDM
 
 	enum TX_MOVE ; $03
-MACRO text_move
+text_move: MACRO
 	db TX_MOVE
 	dw \1
 ENDM
 
 	enum TX_BOX ; $04
-MACRO text_box
+text_box: MACRO
 	db TX_BOX
 	dw \1
 	db \2, \3
 ENDM
 
 	enum TX_LOW ; $05
-MACRO text_low
+text_low: MACRO
 	db TX_LOW
 ENDM
 
 	enum TX_PROMPT_BUTTON ; $06
-MACRO text_promptbutton
+text_promptbutton: MACRO
 	db TX_PROMPT_BUTTON
 ENDM
 
 	enum TX_SCROLL ; $07
-MACRO text_scroll
+text_scroll: MACRO
 	db TX_SCROLL
 ENDM
 
 	enum TX_START_ASM ; $08
-MACRO text_asm
+text_asm: MACRO
 	db TX_START_ASM
 ENDM
 
 	enum TX_NUM ; $09
-MACRO text_decimal
+text_decimal: MACRO
 	db TX_NUM
 	dw \1 ; address
 	dn \2, \3 ; bytes, digits
 ENDM
 
 	enum TX_PAUSE ; $0a
-MACRO text_pause
+text_pause: MACRO
 	db TX_PAUSE
 ENDM
 
 	enum TX_SOUND_DEX_FANFARE_50_79 ; $0b
-MACRO sound_dex_fanfare_50_79
+sound_dex_fanfare_50_79: MACRO
 	db TX_SOUND_DEX_FANFARE_50_79
 ENDM
 
 	enum TX_DOTS ; $0c
-MACRO text_dots
+text_dots: MACRO
 	db TX_DOTS
 	db \1
 ENDM
 
 	enum TX_LINK_PROMPT_BUTTON ; $0d
-MACRO text_linkpromptbutton
+text_linkpromptbutton: MACRO
 	db TX_LINK_PROMPT_BUTTON
 ENDM
 
 	enum TX_SOUND_DEX_FANFARE_20_49 ; $0e
-MACRO sound_dex_fanfare_20_49
+sound_dex_fanfare_20_49: MACRO
 	db TX_SOUND_DEX_FANFARE_20_49
 ENDM
 
 	enum TX_SOUND_ITEM ; $0f
-MACRO sound_item
+sound_item: MACRO
 	db TX_SOUND_ITEM
 ENDM
 
 	enum TX_SOUND_CAUGHT_MON ; $10
-MACRO sound_caught_mon
+sound_caught_mon: MACRO
 	db TX_SOUND_CAUGHT_MON
 ENDM
 
 	enum TX_SOUND_DEX_FANFARE_80_109 ; $11
-MACRO sound_dex_fanfare_80_109
+sound_dex_fanfare_80_109: MACRO
 	db TX_SOUND_DEX_FANFARE_80_109
 ENDM
 
 	enum TX_SOUND_FANFARE ; $12
-MACRO sound_fanfare
+sound_fanfare: MACRO
 	db TX_SOUND_FANFARE
 ENDM
 
 	enum TX_SOUND_SLOT_MACHINE_START ; $13
-MACRO sound_slot_machine_start
+sound_slot_machine_start: MACRO
 	db TX_SOUND_SLOT_MACHINE_START
 ENDM
 
 	enum TX_STRINGBUFFER ; $14
-MACRO text_buffer
+text_buffer: MACRO
 	db TX_STRINGBUFFER
 	db \1
 ENDM
 
 	enum TX_DAY ; $15
-MACRO text_today
+text_today: MACRO
 	db TX_DAY
 ENDM
 
 	enum TX_FAR ; $16
-MACRO text_far
+text_far: MACRO
 	db TX_FAR
 	dw \1
 	db BANK(\1)
@@ -140,6 +140,6 @@ ENDM
 	enum_set $50
 
 	enum TX_END ; $50
-MACRO text_end
+text_end: MACRO
 	db TX_END
 ENDM

@@ -1,4 +1,4 @@
-MACRO RGB
+RGB: MACRO
 rept _NARG / 3
 	dw palred (\1) + palgreen (\2) + palblue (\3)
 	shift 3
@@ -21,7 +21,7 @@ tile  EQUS "+ LEN_2BPP_TILE *"
 ; INCBIN "foo.gbcpal", middle_colors
 middle_colors EQUS "PAL_COLOR_SIZE, PAL_COLOR_SIZE * 2"
 
-MACRO dbpixel
+dbpixel: MACRO
 if _NARG >= 4
 ; x tile, y tile, x pixel, y pixel
 	db \1 * TILE_WIDTH + \3, \2 * TILE_WIDTH + \4
@@ -31,7 +31,7 @@ else
 endc
 ENDM
 
-MACRO ldpixel
+ldpixel: MACRO
 if _NARG >= 5
 ; register, x tile, y tile, x pixel, y pixel
 	lb \1, \2 * TILE_WIDTH + \4, \3 * TILE_WIDTH + \5
@@ -44,7 +44,7 @@ ENDM
 depixel EQUS "ldpixel de,"
 bcpixel EQUS "ldpixel bc,"
 
-MACRO dbsprite
+dbsprite: MACRO
 ; x tile, y tile, x pixel, y pixel, vtile offset, attributes
 	db (\2 * TILE_WIDTH) % $100 + \4, (\1 * TILE_WIDTH) % $100 + \3, \5, \6
 ENDM

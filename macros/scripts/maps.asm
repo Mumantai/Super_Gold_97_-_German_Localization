@@ -1,23 +1,23 @@
-MACRO map_id
+map_id: MACRO
 ;\1: map id
 	db GROUP_\1, MAP_\1
 ENDM
 
 object_const_def EQUS "const_def 2"
 
-MACRO scene_script
+scene_script: MACRO
 ;\1: script pointer
 	dw \1
 	dw 0 ; filler
 ENDM
 
-MACRO callback
+callback: MACRO
 ;\1: type: a MAPCALLBACK_* constant
 ;\2: script pointer
 	dbw \1, \2
 ENDM
 
-MACRO warp_event
+warp_event: MACRO
 ;\1: x: left to right, starts at 0
 ;\2: y: top to bottom, starts at 0
 ;\3: map id: from constants/map_constants.asm
@@ -26,7 +26,7 @@ MACRO warp_event
 	map_id \3
 ENDM
 
-MACRO coord_event
+coord_event: MACRO
 ;\1: x: left to right, starts at 0
 ;\2: y: top to bottom, starts at 0
 ;\3: scene id: a SCENE_* constant; controlled by setscene/setmapscene
@@ -37,7 +37,7 @@ MACRO coord_event
 	dw 0 ; filler
 ENDM
 
-MACRO bg_event
+bg_event: MACRO
 ;\1: x: left to right, starts at 0
 ;\2: y: top to bottom, starts at 0
 ;\3: function: a BGEVENT_* constant
@@ -46,7 +46,7 @@ MACRO bg_event
 	dw \4
 ENDM
 
-MACRO object_event
+object_event: MACRO
 ;\1: x: left to right, starts at 0
 ;\2: y: top to bottom, starts at 0
 ;\3: sprite: a SPRITE_* constant
@@ -76,7 +76,7 @@ MACRO object_event
 	dw \9
 ENDM
 
-MACRO trainer
+trainer: MACRO
 ;\1: trainer group
 ;\2: trainer id
 ;\3: flag: an EVENT_BEAT_* constant
@@ -89,7 +89,7 @@ MACRO trainer
 	dw \4, \5, \6, \7
 ENDM
 
-MACRO itemball
+itemball: MACRO
 ;\1: item: from constants/item_constants.asm
 ;\2: quantity: default 1
 if _NARG == 1
@@ -99,13 +99,13 @@ else
 endc
 ENDM
 
-MACRO hiddenitem
+hiddenitem: MACRO
 ;\1: item: from constants/item_constants.asm
 ;\2: flag: an EVENT_* constant
 	dwb \2, \1
 ENDM
 
-MACRO elevfloor
+elevfloor: MACRO
 ;\1: floor: a FLOOR_* constant
 ;\2: warp destination: starts at 1
 ;\3: map id
@@ -113,20 +113,20 @@ MACRO elevfloor
 	map_id \3
 ENDM
 
-MACRO conditional_event
+conditional_event: MACRO
 ;\1: flag: an EVENT_* constant
 ;\2: script pointer
 	dw \1, \2
 ENDM
 
-MACRO cmdqueue
+cmdqueue: MACRO
 ;\1: type: a CMDQUEUE_* constant
 ;\2: data pointer
 	dbw \1, \2
 	dw 0 ; filler
 ENDM
 
-MACRO stonetable
+stonetable: MACRO
 ;\1: warp id
 ;\2: object_event id
 ;\3: script pointer

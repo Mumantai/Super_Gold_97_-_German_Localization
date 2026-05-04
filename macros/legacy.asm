@@ -7,7 +7,7 @@ callba EQUS "farcall"
 callab EQUS "callfar"
 
 ; macros/gfx.asm
-MACRO dsprite
+dsprite: MACRO
 	dbsprite \2, \4, \1, \3, \5, \6
 ENDM
 
@@ -15,24 +15,24 @@ ENDM
 __ EQU 0
 CC EQU 13
 
-MACRO musicheader
+musicheader: MACRO
 	channel_count \1
 	channel \2, \3
 ENDM
 
-MACRO sound
+sound: MACRO
 	note \1, \2
 	db \3
 	dw \4
 ENDM
 
-MACRO noise
+noise: MACRO
 	note \1, \2
 	db \3
 	db \4
 ENDM
 
-MACRO notetype
+notetype: MACRO
 IF _NARG >= 2
 	note_type \1, \2 >> 4, \2 & $0f
 ELSE
@@ -40,22 +40,22 @@ ELSE
 ENDC
 ENDM
 
-MACRO pitchoffset
+pitchoffset: MACRO
 	transpose \1, \2 - 1
 ENDM
 
 dutycycle EQUS "duty_cycle"
 
-MACRO intensity
+intensity: MACRO
 	volume_envelope \1 >> 4, \1 & $0f
 ENDM
 
-MACRO soundinput
+soundinput: MACRO
 	pitch_sweep \1 >> 4, \1 & $0f
 ENDM
 
 unknownmusic0xde EQUS "sound_duty"
-MACRO sound_duty
+sound_duty: MACRO
 	db duty_cycle_pattern_cmd
 IF _NARG == 4
 	db \1 | (\2 << 2) | (\3 << 4) | (\4 << 6)
@@ -66,13 +66,13 @@ ENDM
 
 togglesfx EQUS "toggle_sfx"
 
-MACRO slidepitchto
+slidepitchto: MACRO
 	pitch_slide \1, (8 - \2), \3
 ENDM
 
 togglenoise EQUS "toggle_noise"
 
-MACRO panning
+panning: MACRO
 	force_stereo_panning ((\1 >> 4) & 1), (\1 & 1)
 ENDM
 
@@ -82,7 +82,7 @@ newsong        EQUS "new_song"
 sfxpriorityon  EQUS "sfx_priority_on"
 sfxpriorityoff EQUS "sfx_priority_off"
 
-MACRO stereopanning
+stereopanning: MACRO
 	stereo_panning ((\1 >> 4) & 1), (\1 & 1)
 ENDM
 
@@ -142,35 +142,35 @@ vartomem      EQUS "getnum"
 mapnametotext EQUS "getcurlandmarkname"
 readcoins     EQUS "getcoins"
 
-MACRO pokenamemem
+pokenamemem: MACRO
 	getmonname \2, \1
 ENDM
 
-MACRO itemtotext
+itemtotext: MACRO
 	getitemname \2, \1
 ENDM
 
-MACRO landmarktotext
+landmarktotext: MACRO
 	getlandmarkname \2, \1
 ENDM
 
-MACRO trainertotext
+trainertotext: MACRO
 	gettrainername \3, \1, \2
 ENDM
 
-MACRO trainerclassname
+trainerclassname: MACRO
 	gettrainerclassname \2, \1
 ENDM
 
-MACRO name
+name: MACRO
 	getname \3, \1, \2
 ENDM
 
-MACRO stringtotext
+stringtotext: MACRO
 	getstring \2, \1
 ENDM
 
-MACRO readmoney
+readmoney: MACRO
 	getmoney \2, \1
 ENDM
 
@@ -201,25 +201,25 @@ loadbytec2cf      EQUS "writeunusedbytebuffer"
 
 ; macros/scripts/maps.asm
 
-MACRO mapconst
+mapconst: MACRO
 	map_const \1, \3, \2
 ENDM
 
 maptrigger EQUS "scene_script"
 
-MACRO warp_def
+warp_def: MACRO
 	warp_event \2, \1, \4, \3
 ENDM
 
-MACRO xy_trigger
+xy_trigger: MACRO
 	coord_event \3, \2, \1, \5
 ENDM
 
-MACRO signpost
+signpost: MACRO
 	bg_event \2, \1, \3, \4
 ENDM
 
-MACRO person_event
+person_event: MACRO
 ;	object_event \3, \2, \1, \4, \5, \6, \7, \8, \9, \10, \11, \12, \13
 	db \1, \2 + 4, \3 + 4, \4
 	dn \6, \5
