@@ -811,7 +811,7 @@ Animate_MinigamePikachu::
 	ld hl, SPRITEANIMSTRUCT_JUMPTABLE_INDEX
 	add hl, bc
 	inc [hl]
-	ld a, 8
+	ld a, 64
 	ld [wPikachuMinigamePikachuYOffset], a
 	ld a, 3
 	ld [wPikachuMinigamePikachuNextAnim], a
