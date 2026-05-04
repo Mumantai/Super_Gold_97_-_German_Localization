@@ -24,12 +24,12 @@ jobs:
         with:
           repository: gbdev/rgbds
           path: rgbds
-          ref: 'v0.6.1'
+          ref: 'v0.4.0'
 
-      - name: RGBDS installieren
+      - name: RGBDS bauen und installieren
         run: |
           cd rgbds
-          make Q=
+          make Q= LDFLAGS="-Wl,--allow-multiple-definition"
           sudo make install
 
       - name: Gold ROM bauen
