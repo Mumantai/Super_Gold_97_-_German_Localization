@@ -1,4 +1,4 @@
-MACRO mon_cry
+mon_cry: MACRO
 ; index, pitch, length
 	dw \1, \2, \3
 ENDM
