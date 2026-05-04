@@ -95,7 +95,7 @@ RotateUnownFrontpic:
 	jr nz, .loop_count
 	ret
 
-MACRO gbprinterrect
+gbprinterrect: MACRO
 y = 0
 rept \1
 x = \1 * (\2 - 1) + y

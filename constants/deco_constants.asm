@@ -54,7 +54,7 @@ const_value = 1
 	const SET_UP_ORNAMENT
 	const PUT_AWAY_ORNAMENT
 
-MACRO deco
+deco: MACRO
 	const DECO_\1
 	enum DECOFLAG_\1
 ENDM

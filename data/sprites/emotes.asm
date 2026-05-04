@@ -1,4 +1,4 @@
-MACRO emote
+emote: MACRO
 ; graphics pointer, length, starting tile
 	dw \1
 	db \2 tiles, BANK(\1)

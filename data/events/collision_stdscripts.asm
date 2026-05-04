@@ -1,6 +1,6 @@
 ; std scripts associated with tile collisions
 
-MACRO stdcoll
+stdcoll: MACRO
 	db \1
 	dw (\2StdScript - StdScripts) / 3
 ENDM

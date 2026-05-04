@@ -1,4 +1,4 @@
-MACRO overworld_sprite
+overworld_sprite: MACRO
 ; pointer, length, type, palette
 	dw \1
 	db \2 tiles, BANK(\1), \3, \4

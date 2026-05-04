@@ -503,7 +503,7 @@ RIGHT_QUADRANT_F EQU 0 ; bit set in UPPER_RIGHT and LOWER_RIGHT
 LOWER_QUADRANT_F EQU 1 ; bit set in LOWER_LEFT and LOWER_RIGHT
 
 .spintable
-MACRO spintable_entry
+spintable_entry: MACRO
 	db \1
 	dw .wedge\2
 	dwcoord \3, \4
@@ -847,7 +847,7 @@ StartTrainerBattle_ZoomToBlack:
 	ret
 
 .boxes
-MACRO zoombox
+zoombox: MACRO
 ; width, height, start y, start x
 	db \1, \2
 	dwcoord \3, \4

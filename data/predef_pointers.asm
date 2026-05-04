@@ -1,7 +1,7 @@
 ; Predef routines can be used with the "predef" and "predef_jump" macros.
 ; This preserves registers bc, de, hl and f.
 
-MACRO add_predef
+add_predef: MACRO
 \1Predef::
 	dab \1
 ENDM

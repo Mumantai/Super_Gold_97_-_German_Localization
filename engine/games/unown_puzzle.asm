@@ -112,7 +112,7 @@ InitUnownPuzzlePiecePositions:
 	ret
 
 .PuzzlePieceInitialPositions:
-MACRO initpuzcoord
+initpuzcoord: MACRO
 rept _NARG / 2
 	db \1 puzcoord \2
 	shift 2
@@ -568,7 +568,7 @@ RedrawUnownPuzzlePieces:
 
 UnownPuzzleCoordData:
 
-MACRO puzzle_coords
+puzzle_coords: MACRO
 	dbpixel \1, \2, \3, \4
 	dwcoord \5, \6
 	db \7, \8

@@ -1,4 +1,4 @@
-MACRO mon_prob
+mon_prob: MACRO
 ; percent, index
 	db \1, \2 * 2
 ENDM

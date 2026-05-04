@@ -1343,7 +1343,7 @@ DebugTrade: ; unreferenced
 	jr nz, .loop2
 	ret
 
-MACRO debugtrade
+debugtrade: MACRO
 ; species, ot name, ot id (?)
 	db \1, \2
 	dw \3

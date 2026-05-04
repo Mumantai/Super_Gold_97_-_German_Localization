@@ -1,4 +1,4 @@
-MACRO trainerclass
+trainerclass: MACRO
 	enum \1
 const_value = 1
 ENDM
@@ -152,8 +152,8 @@ CHRIS EQU __enum__
 	const CHAD3
 	const JACK4
 	const JACK5
-;	const ALAN4
-;	const ALAN5
+	const ALAN4
+	const ALAN5
 	const CHAD4
 	const CHAD5
 
@@ -273,7 +273,7 @@ CHRIS EQU __enum__
 	const ANDREW
 	const CALVIN
 	const SHANE
-;	const BEN
+	const BEN
 	const BRENT1
 	const RON
 	const ETHAN
@@ -321,7 +321,7 @@ CHRIS EQU __enum__
 	trainerclass GENTLEMAN ; 20
 	const PRESTON
 	const EDWARD
-;	const GREGORY
+	const GREGORY
 	const VIRGIL
 	const ALFRED
 
@@ -360,7 +360,7 @@ CHRIS EQU __enum__
 	const RALPH1
 	const ARNOLD
 	const KYLE
-;	const HENRY
+	const HENRY
 	const MARVIN
 	const CHRIS1
 	const ANDRE
@@ -405,10 +405,10 @@ CHRIS EQU __enum__
 	const PARKER
 
 	trainerclass SWIMMERF ; 27
-;	const ELAINE
-;	const PAULA
+	const ELAINE
+	const PAULA
 	const KAYLEE
-;	const SUSIE
+	const SUSIE
 	const DENISE
 	const KARA
 	const WENDY
@@ -422,8 +422,8 @@ CHRIS EQU __enum__
 	const LORI
 	const JODY
 	const NIKKI
-;	const DIANA
-;	const BRIANA
+	const DIANA
+	const BRIANA
 
 	trainerclass SAILOR ; 28
 	const EUGENE
@@ -465,7 +465,7 @@ CHRIS EQU __enum__
 
 	trainerclass GUITARIST ; 2b
 	const CLYDE
-;	const VINCENT
+	const VINCENT
 
 	trainerclass HIKER ; 2c
 	const ANTHONY1
@@ -520,13 +520,13 @@ CHRIS EQU __enum__
 	const BURT
 	const BILL
 	const WALT
-;	const RAY
+	const RAY
 	const LYLE
 
 	trainerclass JUGGLER ; 31
 	const IRWIN1
 	const FRITZ
-;	const HORTON
+	const HORTON
 	const IRWIN2
 	const IRWIN3
 
@@ -553,8 +553,8 @@ CHRIS EQU __enum__
 
 	trainerclass PSYCHIC_T ; 34
 	const NATHAN
-;	const FRANKLIN
-;	const HERMAN
+	const FRANKLIN
+	const HERMAN
 	const FIDEL
 	const GREG
 	const NORMAN
@@ -562,7 +562,7 @@ CHRIS EQU __enum__
 	const PHIL
 	const RICHARD
 	const GILBERT
-;	const JARED
+	const JARED
 	const RODNEY
 	const RAPHAEL
 
@@ -600,7 +600,7 @@ CHRIS EQU __enum__
 	const SID
 	const HARVEY
 	const DALE
-;	const TED
+	const TED
 	const TODD2
 	const TODD3
 	const THOMAS
@@ -612,8 +612,8 @@ CHRIS EQU __enum__
 	const QUENTIN
 
 	trainerclass EXECUTIVEF ; 37
-;	const EXECUTIVEF_1
-;	const EXECUTIVEF_2
+	const EXECUTIVEF_1
+	const EXECUTIVEF_2
 
 	trainerclass SAGE ; 38
 	const CHOW
@@ -640,7 +640,7 @@ CHRIS EQU __enum__
 	const DORIS
 
 	trainerclass BOARDER ; 3a
-;	const RONALD
+	const RONALD
 	const BRAD
 	const DOUGLAS
 
@@ -671,8 +671,8 @@ CHRIS EQU __enum__
 	const ANNANDANNE1
 	const ANNANDANNE2
 	const AMYANDMAY2
-;	const JOANDZOE1
-;	const JOANDZOE2
+	const JOANDZOE1
+	const JOANDZOE2
 	const MEGANDPEG1
 	const MEGANDPEG2
 	const LEAANDPIA1

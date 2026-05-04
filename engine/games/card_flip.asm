@@ -1334,7 +1334,7 @@ CardFlip_UpdateCursorOAM:
 	ret
 
 .OAMData:
-MACRO cardflip_cursor
+cardflip_cursor: MACRO
 if _NARG >= 5
 	dbpixel \1, \2, \3, \4
 	dw \5

@@ -1,4 +1,4 @@
-MACRO momitem
+momitem: MACRO
 ; money to trigger, cost, kind, item
 	dt \1
 	dt \2

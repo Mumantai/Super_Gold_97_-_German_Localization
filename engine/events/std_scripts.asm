@@ -1,4 +1,4 @@
-MACRO add_stdscript
+add_stdscript: MACRO
 \1StdScript::
 	dba \1
 ENDM
@@ -234,19 +234,19 @@ DayToTextScript:
 	getstring STRING_BUFFER_3, .SaturdayText
 	end
 .SundayText:
-	db "Sonntag@"
+	db "SUNDAY@"
 .MondayText:
-	db "Montag@"
+	db "MONDAY@"
 .TuesdayText:
-	db "Dienstag@"
+	db "TUESDAY@"
 .WednesdayText:
-	db "Mittwoch@"
+	db "WEDNESDAY@"
 .ThursdayText:
-	db "Donnerstag@"
+	db "THURSDAY@"
 .FridayText:
-	db "Feitag@"
+	db "FRIDAY@"
 .SaturdayText:
-	db "Samstag@"
+	db "SATURDAY@"
 
 WestportRocketsScript:
 	clearevent EVENT_WESTPORT_CITY_ROCKET_TAKEOVER
@@ -770,7 +770,7 @@ CoinVendor_IntroScript:
 	db 3 ; items
 	db " 50 :  ¥1000@"
 	db "500 : ¥10000@"
-	db "ZURÜCK@"
+	db "CANCEL@"
 
 HappinessCheckScript:
 	faceplayer
