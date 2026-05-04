@@ -13,14 +13,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
       - name: Systempakete aktualisieren
         run: |
           sudo apt update
           sudo apt -y install make g++ flex bison git python-is-python3 python3-pip pkg-config libpng-dev
           sudo pip install pypng
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
       - name: RGBDS auschecken
         uses: actions/checkout@v4
@@ -37,7 +37,7 @@ jobs:
 
       - name: Build ROM (target)
         run: |
-          make -j gold
+          make -j -k gold
 
       - name: Decrypt base ROM
         env:
