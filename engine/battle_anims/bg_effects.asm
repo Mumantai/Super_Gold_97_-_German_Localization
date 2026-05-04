@@ -849,7 +849,7 @@ BattleBGEffect_RunPicResizeScript:
 	dwcoord 14,  4
 
 .BGSquares:
-MACRO bgsquare
+bgsquare: MACRO
 	dn \1, \2
 	dw \3
 ENDM

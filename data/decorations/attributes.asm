@@ -1,4 +1,4 @@
-MACRO decoration
+decoration: MACRO
 	; type, name, command, event flag, tile/sprite
 	db \1, \2, \3
 	dw \4

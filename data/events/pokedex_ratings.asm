@@ -1,4 +1,4 @@
-MACRO rating
+rating: MACRO
 ; count, sfx, text
 	dbww \1, \2, \3
 ENDM

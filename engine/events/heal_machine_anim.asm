@@ -59,7 +59,7 @@ HealMachineAnim:
 	dw .Oak2Lab
 	dw .HallOfFame
 
-MACRO healmachineanimseq
+healmachineanimseq: MACRO
 rept _NARG
 	db HEALMACHINESTATE_\1
 	shift
