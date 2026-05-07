@@ -514,9 +514,14 @@ FalknerGreets:
 
     para "Ich gehe zurück"
     line "in die ARENA,"
-    para "damit du mich um"
-    line "meinen ORDEN her-"
-    cont "ausfordern kannst."
+
+    para "damit du mit mir"
+    line "um meinen ORDEN"
+    cont "kämpfen kannst."
+; alt.
+;    para "damit du mich um"
+;    line "meinen ORDEN her-"
+;    cont "ausfordern kannst."
 
     para "…"
 
