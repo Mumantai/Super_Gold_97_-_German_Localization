@@ -260,7 +260,7 @@ MomGivesPokegearText:
 	line "rät auf deinem"
 	cont "Pfad als Trainer."
 
-	para "Oh, der Wochentag"
+	para "Oh, die Zeit"
 	line "ist noch nicht"
 	cont "eingestellt."
 

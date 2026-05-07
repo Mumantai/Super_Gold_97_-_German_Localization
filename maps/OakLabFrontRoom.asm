@@ -827,7 +827,7 @@ DaisySpeechText2:
     line "noch ein paar"
     para "#BÄLLE mit, um"
     line "dir den Start"
-    para "etwas leichter"
+    cont "etwas leichter"
     cont "zu machen."
 	done
 
@@ -894,7 +894,8 @@ TimeToBattle:
 	cont "ihnen kämpfen!"
 
 	para "Ich werde mich"
-	line "nicht zurückhalten!"
+	line "nicht zurück-"
+	cont "halten!"
 	done
 	
 Text_InBack:
