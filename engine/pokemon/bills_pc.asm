@@ -1771,11 +1771,11 @@ DepositPokemon:
 	call Textbox
 	call WaitBGMap
 	hlcoord 1, 16
-	ld de, PCString_Stored
+    ld de, wStringBuffer1
 	call PlaceString
 	ld l, c
 	ld h, b
-	ld de, wStringBuffer1
+	ld de, PCString_Stored
 	call PlaceString
 	ld a, "!"
 	ld [bc], a
@@ -1826,11 +1826,11 @@ TryWithdrawPokemon:
 	call Textbox
 	call WaitBGMap
 	hlcoord 1, 16
-	ld de, PCString_Got
+	ld de, wStringBuffer1
 	call PlaceString
 	ld l, c
 	ld h, b
-	ld de, wStringBuffer1
+	ld de, PCString_Got
 	call PlaceString
 	ld a, "!"
 	ld [bc], a
@@ -2198,8 +2198,8 @@ PCString_NoMoreUsablePKMN: db "Nicht einsetzbar.@"
 PCString_RemoveMail: db "Entferne BRIEF.@"
 PCString_ReleasedPKMN: db "<PK><MN> freigelassen.@"
 PCString_Bye: db "Ade, @"
-PCString_Stored: db " abgel.!@"
-PCString_Got: db " erhal.!@"
+PCString_Stored: db " abgel.@"
+PCString_Got: db " erhal.@"
 PCString_Non: db "Nein@" ; unreferenced
 PCString_BoxFull: db "Die BOX ist voll!@"
 PCString_PartyFull: db "Team ist voll!@"
