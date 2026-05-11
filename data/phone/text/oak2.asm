@@ -252,7 +252,7 @@ Oak2PhoneRadioTowerRocketTakeoverText:
 	cont "samen Radiosen-"
 	cont "dungen nachgehen."
 
-	para "Halt mich auf dem"
+	para "Halte mich auf dem"
 	line "Laufenden!"
 
 	para "Ich drück dir und"
