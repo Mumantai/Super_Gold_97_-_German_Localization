@@ -482,7 +482,7 @@ ItemfinderDesc:
 
 RoomPassDesc:
 	db   "Eine Zimmerkarte"
-	next "des RYUKYU HOTELs.@"
+	next "des RUUCHU-HOTELs.@"
 
 ExpShareDesc:
 	db   "Teilt Kampf-EP."
@@ -521,8 +521,8 @@ ElixerDesc:
 	next "um 10 auf.@"
 
 RedScaleDesc:
-	db   "Haut vom roten"
-	next "GARADOS.@"
+	db   "Eine blau, rot und"
+	next "gelbe Feder.@"
 
 SecretPotionDesc:
 	db   "Heilt jedes #-"

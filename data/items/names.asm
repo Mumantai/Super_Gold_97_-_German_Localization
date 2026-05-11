@@ -139,7 +139,7 @@ ItemNames::
 	db "HOLZKOHLE@"
 	db "BEERENSAFT@"
 	db "SCOPE-LINSE@"
-	db "STIMULUS ORB@"
+	db "STIMULUS-ORB@"
 	db "KONF. KRALLE@"
 	db "METALLMANTEL@"
 	db "DRACHENZAHN@"
