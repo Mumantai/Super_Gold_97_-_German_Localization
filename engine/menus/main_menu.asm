@@ -230,7 +230,7 @@ MainMenu_PrintCurrentTimeAndDay:
 	db "v7.42@"
 
 .LocVersionPrint:
-    db "DE 1.2@"
+    db "DE 1.3@"
 
 PrintDayOfWeek:
 	push de
