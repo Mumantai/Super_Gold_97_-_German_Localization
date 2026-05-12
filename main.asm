@@ -130,7 +130,6 @@ INCLUDE "engine/battle/menu.asm"
 INCLUDE "engine/overworld/decorations.asm"
 INCLUDE "data/moves/effects.asm"
 
-INCLUDE "engine/menus/trainer_card.asm"
 
 SECTION "bankA", ROMX
 
@@ -157,7 +156,7 @@ INCLUDE "engine/battle/consume_held_item.asm"
 INCLUDE "engine/battle/returntobattle_useball.asm"
 INCLUDE "data/moves/moves.asm"
 
-
+INCLUDE "engine/menus/trainer_card.asm"
 
 
 SECTION "Effect Commands", ROMX
@@ -404,9 +403,9 @@ INCLUDE "data/pokemon/names.asm"
 INCLUDE "data/moves/names.asm"
 
 
-;SECTION "Move Descriptions", ROMX
+SECTION "Move Descriptions", ROMX
 
-;INCLUDE "data/moves/descriptions.asm"
+INCLUDE "data/moves/descriptions.asm"
 
 
 SECTION "Item Descriptions", ROMX

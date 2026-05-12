@@ -255,8 +255,8 @@ ROMX $6b
 	"Tileset Data 10"
 ROMX $6c
 	"Names"
-;ROMX $6d
-;	"Move Descriptions"
+ROMX $6d
+	"Move Descriptions"
 ROMX $6e
 	"Item Descriptions"
 ROMX $70

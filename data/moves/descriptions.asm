@@ -363,7 +363,7 @@ MegaKickDescription:
 
 JumpKickDescription:
 	db   "Verfehlt evtl."
-	next "+ eigener Schaden.@"
+	next " + eigener Schaden.@"
 
 RollingKickDescription:
 	db   "Schneller"
@@ -849,7 +849,7 @@ SporeDescription:
 
 FlashDescription:
 	db   "Blendet Gegner"
-	next "+ senkt Präzision.@"
+	next " + senkt Präzision.@"
 
 PsywaveDescription:
 	db   "Angriff mit"
