@@ -87,7 +87,7 @@ RadioTower4fSuperNerd:
 	end
 
 .mapcardname
-	db "MAP CARD@"
+	db "KARTEN-MODUL@"
 	
 
 	

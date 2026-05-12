@@ -97,7 +97,7 @@ PlayersHouse2F_Ken:
 	end
 
 .mapcardname
-	db "KARTENMODUL@"
+	db "KARTEN-MODUL@"
 	
 
 

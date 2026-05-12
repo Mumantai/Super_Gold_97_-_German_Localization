@@ -769,7 +769,7 @@ Text_OakIsOld:
 
     para "Dieser alte Kauz"
     line "soll PROF. EICH"
-    para "sein…"
+    cont "sein…"
 	done
 	
 WhatIsDexText:
