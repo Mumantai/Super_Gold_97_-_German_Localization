@@ -44,11 +44,9 @@ PagotaMartCooltrainerMText:
 
 	para "Aber offenbar sind"
 	line "sie nicht in der"
-
 	para "Lage, künstlich"
 	line "hergestellte Items"
-
-	para "zu benutzen."
+	cont "zu benutzen."
 	done
 
 PagotaMart_MapEvents:

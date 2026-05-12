@@ -172,7 +172,7 @@ ReceivedEeveeText:
 	done
 
 BillEeveeMayEvolveText:
-	text "BILL: PROF. EICH2"
+	text "BILL: PROF. EICH"
 	line "sagt, EVOLI kann"
 
 	para "sich in neue, un-"

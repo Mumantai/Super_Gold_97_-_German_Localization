@@ -231,7 +231,6 @@ FalknerZephyrBadgeText:
 
 	para "Außerdem können"
 	line "deine #MON"
-
 	para "jederzeit den"
 	line "ZERSCHNEIDER"
 	cont "einsetzen."
@@ -257,7 +256,6 @@ FalknerTMMudSlapText:
 
 	para "Sie fügt dem Geg-"
 	line "ner Schaden zu und"
-
 	para "reduziert gleich-"
 	line "zeitig seine Ge-"
 	cont "nauigkeit."
@@ -291,7 +289,6 @@ BirdKeeperRodSeenText:
 
 	para "Sie alle hier üben"
 	line "Tag und Nacht,"
-
 	para "um Vogel-Meister-"
 	line "Trainer zu werden."
 
@@ -380,7 +377,6 @@ PagotaGymGuyTextNotHere:
 PagotaGymGuyWinText:
 	text "Netter Kampf! Mach"
 	line "weiter so und bald"
-
 	para "schon wirst du der"
 	line "CHAMP sein!"
 	done

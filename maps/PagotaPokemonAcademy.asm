@@ -503,8 +503,7 @@ AcademyNotebookText3:
 AcademyStickerMachineText:
 	text "Mit dieser Maschi-"
 	line "ne kann man"
-
-	para "Sticker drucken!"
+	cont "Sticker drucken!"
 	done
 
 PagotaPokemonAcademy_MapEvents:

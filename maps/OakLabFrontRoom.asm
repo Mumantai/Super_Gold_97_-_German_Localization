@@ -619,10 +619,11 @@ Oak2DirectionsText1:
     cont "super!"
 
 	para "Aber nur für den"
-	line "Fall, dass… hier"
-	para "ist meine Nummer."
-	line "Ruft an, wenn es"
-	cont "etwas gibt!"
+	line "Fall, ist hier"
+	cont "meine Nummer."
+
+	para "Ruft an, wenn es"
+	line "etwas gibt!"
 	done
 	
 

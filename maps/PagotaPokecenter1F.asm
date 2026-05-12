@@ -227,11 +227,9 @@ UnknownText_0x69791:
 PagotaPokecenter1FGameboyKidText:
 	text "Ein Kerl namens"
 	line "BILL hat das"
-
 	para "#MON-PC-LAGE-"
 	line "RUNGS-SYSTEM"
-
-	para "erfunden."
+	cont "erfunden."
 	done
 
 PagotaPokecenter1FGentlemanText:
