@@ -404,9 +404,9 @@ INCLUDE "data/pokemon/names.asm"
 INCLUDE "data/moves/names.asm"
 
 
-SECTION "Move Descriptions", ROMX
+;SECTION "Move Descriptions", ROMX
 
-INCLUDE "data/moves/descriptions.asm"
+;INCLUDE "data/moves/descriptions.asm"
 
 
 SECTION "Item Descriptions", ROMX
