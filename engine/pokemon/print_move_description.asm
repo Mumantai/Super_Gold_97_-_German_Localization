@@ -12,5 +12,6 @@ PrintMoveDescription:
 	ld d, h
 	ld e, l
 	pop hl
-	ld a, BANK(MoveDescriptions)
 	jp PlaceString
+
+INCLUDE "data/moves/descriptions.asm"
