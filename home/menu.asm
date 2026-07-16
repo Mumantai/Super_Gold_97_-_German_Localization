@@ -377,7 +377,7 @@ CopyNameFromMenu::
 	ret
 
 YesNoBox::
-	lb bc, SCREEN_WIDTH - 7, 7
+	lb bc, SCREEN_WIDTH - 6, 7
 
 PlaceYesNoBox::
 	jr _YesNoBox
@@ -425,7 +425,7 @@ InterpretTwoOptionMenu::
 
 YesNoMenuHeader::
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 10, 5, 15, 9
+	menu_coords 10, 5, 16, 9
 	dw .MenuData
 	db 1 ; default option
 
