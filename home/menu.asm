@@ -392,7 +392,13 @@ _YesNoBox::
 	ld hl, YesNoMenuHeader
 	call CopyMenuHeader
 	pop bc
+	ld a, b
+	cp SCREEN_WIDTH - 6
+	jr nz, .okay ; should this be "jr nc"?
+	ld a, SCREEN_WIDTH - 7
+	ld b, a
 
+.okay
 	ld a, b
 	ld [wMenuBorderLeftCoord], a
 	add 6
