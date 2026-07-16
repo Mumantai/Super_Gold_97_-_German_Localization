@@ -126,7 +126,6 @@ WestportHappinessRatingText_LooksMean:
 WestportHappinessRaterPokefanMText:
 	text "Ständig verliere"
 	line "ich in Kämpfen und"
-
 	para "meine #MON"
 	line "werden immer be-"
 	cont "siegt…"

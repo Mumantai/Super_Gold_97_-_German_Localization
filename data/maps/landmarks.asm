@@ -155,7 +155,7 @@ SafariZoneName:     db "SAFARI ZONE@"       ;
 SanskritRuinsName:  db "GLYPHONTIA-RUINEN@" ; siehe Glyphontia
 SanskritTownName:   db "GLYPHONTIA@"        ; Glyphe + Font
 SeasidePathName:    db "KÜSTENPFAD@"
-SilentHillsName:    db "SILENITIA HÜGEL@"
+SilentHillsName:    db "SILENITIA-HÜGEL@"
 SilentTownName:     db "SILENITIA@"         ; Silens (lat. Stille) + initium (lat. Anfang)
 SilphCoName:        db "SILPH CO.@"         ;
 SlowpokeWellName:   db "FLEGMON-BRUNNEN@"   ;

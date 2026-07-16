@@ -328,7 +328,7 @@ N64HouseScientistText:
 	line "Spielhütte als Ort"
 	para "für Trainer eröff-"
 	line "net, um sich"
-	line "zwischen den Kämp-"
+	cont "zwischen den Kämp-"
 	cont "fen auszutauschen."
 
     para "Aber es findet"

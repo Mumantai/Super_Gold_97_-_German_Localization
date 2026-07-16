@@ -346,8 +346,9 @@ BugCatcherAlAfterBattleText:
 	done
 
 BugCatcherJoshSeenText:
-    text "#MON werden"
-    line "schnell stärker!"
+    text "Käfer-#MON"
+    line "werden schnell"
+    cont "stärker!"
 
     para "Willst du es"
     line "sehen?"

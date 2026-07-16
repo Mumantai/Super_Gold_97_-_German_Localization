@@ -90,7 +90,7 @@ TrainerSagePing:
 
 
 SagePingSeenText:
-    text "Im fünften Stock"
+    text "Im vierten Stock"
     line "befindet sich der"
     cont "Zugang zum Dach."
 
