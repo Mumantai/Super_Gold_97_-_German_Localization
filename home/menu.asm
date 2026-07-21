@@ -382,9 +382,9 @@ YesNoBox::
 PlaceYesNoBox::
 	jr _YesNoBox
 
-PlaceGenericTwoOptionBox:: ; unreferenced
-	call LoadMenuHeader
-	jr InterpretTwoOptionMenu
+;PlaceGenericTwoOptionBox:: ; unreferenced
+;	call LoadMenuHeader
+;	jr InterpretTwoOptionMenu
 
 _YesNoBox::
 ; Return nc (yes) or c (no).
@@ -684,14 +684,14 @@ PlaceNthMenuStrings::
 	call PlaceString
 	ret
 
-GetNthMenuStrings:: ; unreferenced
-	call GetMenuDataPointerTableEntry
-	inc hl
-	inc hl
-	ld a, [hli]
-	ld d, [hl]
-	ld e, a
-	ret
+;GetNthMenuStrings:: ; unreferenced
+;	call GetMenuDataPointerTableEntry
+;	inc hl
+;	inc hl
+;	ld a, [hli]
+;	ld d, [hl]
+;	ld e, a
+;	ret
 
 MenuJumptable::
 	ld a, [wMenuSelection]
