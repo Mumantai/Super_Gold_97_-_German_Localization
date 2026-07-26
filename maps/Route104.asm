@@ -48,6 +48,10 @@ GardenerStopsYou2:
 	jump Route104GardenerScript
 	end
 
+ResetRoute104Gardener:
+    setscene SCENE_DEFAULT
+    end
+
 Route104GardenerScript:
 	showemote EMOTE_SHOCK, ROUTE104_GARDENER, 15
 	opentext
@@ -437,9 +441,10 @@ Route104_MapEvents:
 	db 1 ; warp events
 	warp_event 55,  7, ROUTE_104_GEOFFS_HOUSE, 1
 
-	db 2 ; coord events
+	db 3 ; coord events
 	coord_event 52, 12, SCENE_DEFAULT, GardenerStopsYou
 	coord_event 52, 13, SCENE_DEFAULT, GardenerStopsYou2
+	coord_event 52, 14, SCENE_DEFAULT, ResetRoute104Gardener
 
 	db 2 ; bg events
 	bg_event 56,  8, BGEVENT_READ, Route104Sign
