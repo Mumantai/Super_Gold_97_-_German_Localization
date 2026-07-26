@@ -445,7 +445,7 @@ Route104_MapEvents:
 	coord_event 52, 12, SCENE_DEFAULT, GardenerStopsYou
 	coord_event 52, 13, SCENE_DEFAULT, GardenerStopsYou2
 
-	db 2 ; bg events
+	db 3 ; bg events
 	bg_event 56,  8, BGEVENT_READ, Route104Sign
 	bg_event  6,  8, BGEVENT_READ, Route104SignActual
 	bg_event 12, 9, BGEVENT_READ, ResetRoute104Gardener
