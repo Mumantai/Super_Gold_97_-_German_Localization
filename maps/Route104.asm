@@ -48,16 +48,6 @@ GardenerStopsYou2:
 	jump Route104GardenerScript
 	end
 
-ResetRoute104Gardener:
-	clearevent EVENT_ROCKETS_IN_BOAT_AT_SUNPOINT
-	setscene SCENE_DEFAULT
-	appear ROUTE104_GARDENER
-	moveobject ROUTE104_GARDENER, 52, 11
-	turnobject ROUTE104_GARDENER, DOWN
-    jumptext DebugText
-    closetext
-    end
-
 Route104GardenerScript:
 	showemote EMOTE_SHOCK, ROUTE104_GARDENER, 15
 	opentext
@@ -441,10 +431,6 @@ TuscanyNotTuesdayText:
 	cont "schade…"
 	done
 
-DebugText:
-    text "DEBUG"
-    done
-
 Route104_MapEvents:
 	db 0, 0 ; filler
 
@@ -455,10 +441,9 @@ Route104_MapEvents:
 	coord_event 52, 12, SCENE_DEFAULT, GardenerStopsYou
 	coord_event 52, 13, SCENE_DEFAULT, GardenerStopsYou2
 
-	db 3 ; bg events
+	db 2 ; bg events
 	bg_event 56,  8, BGEVENT_READ, Route104Sign
 	bg_event  6,  8, BGEVENT_READ, Route104SignActual
-	bg_event 57, 7, BGEVENT_READ, ResetRoute104Gardener
 
 	db 11 ; object events
 	object_event 88,  7, SPRITE_LASS, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, Route104LassScript, -1
