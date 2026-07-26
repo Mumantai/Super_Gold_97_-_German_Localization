@@ -458,7 +458,7 @@ Route104_MapEvents:
 	db 3 ; bg events
 	bg_event 56,  8, BGEVENT_READ, Route104Sign
 	bg_event  6,  8, BGEVENT_READ, Route104SignActual
-	bg_event 12, 9, BGEVENT_READ, ResetRoute104Gardener
+	bg_event 57, 7, BGEVENT_READ, ResetRoute104Gardener
 
 	db 11 ; object events
 	object_event 88,  7, SPRITE_LASS, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, Route104LassScript, -1
