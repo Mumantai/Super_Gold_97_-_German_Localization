@@ -49,7 +49,13 @@ GardenerStopsYou2:
 	end
 
 ResetRoute104Gardener:
-    setscene SCENE_DEFAULT
+	clearevent EVENT_ROCKETS_IN_BOAT_AT_SUNPOINT
+	setscene SCENE_DEFAULT
+	appear ROUTE104_GARDENER
+	moveobject ROUTE104_GARDENER, 52, 11
+	turnobject ROUTE104_GARDENER, DOWN
+    jumptext DebugText
+    closetext
     end
 
 Route104GardenerScript:
@@ -434,6 +440,10 @@ TuscanyNotTuesdayText:
 	cont "tag. Das ist"
 	cont "schade…"
 	done
+
+DebugText:
+    text "DEBUG"
+    done
 
 Route104_MapEvents:
 	db 0, 0 ; filler
