@@ -441,14 +441,14 @@ Route104_MapEvents:
 	db 1 ; warp events
 	warp_event 55,  7, ROUTE_104_GEOFFS_HOUSE, 1
 
-	db 3 ; coord events
+	db 2 ; coord events
 	coord_event 52, 12, SCENE_DEFAULT, GardenerStopsYou
 	coord_event 52, 13, SCENE_DEFAULT, GardenerStopsYou2
-	coord_event 52, 14, SCENE_DEFAULT, ResetRoute104Gardener
 
 	db 2 ; bg events
 	bg_event 56,  8, BGEVENT_READ, Route104Sign
 	bg_event  6,  8, BGEVENT_READ, Route104SignActual
+	bg_event 12, 9, BGEVENT_READ, ResetRoute104Gardener
 
 	db 11 ; object events
 	object_event 88,  7, SPRITE_LASS, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, Route104LassScript, -1
