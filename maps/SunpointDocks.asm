@@ -134,7 +134,7 @@ DocksRocket6Text:
 
 GruntM29SeenText:
     text "Was willst du,"
-    line "Kindchen?"
+    line "Rotzlöffel?"
 
     para "Nur autorisiertes"
     line "Personal erlaubt!"

@@ -35,9 +35,8 @@ DontDisturbSnorlaxScript:
 	end
 	
 SnorlaxAloneText:
-	text "Better leave it"
-	line "alone…"
-	done
+    text "Lass es lieber"
+    line "in Ruhe…"
 	
 SnorlaxText:
     text "Dieses RELAXO"

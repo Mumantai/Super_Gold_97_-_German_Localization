@@ -370,7 +370,7 @@ GruntF1SeenText:
 	done
 
 GruntF1BeatenText:
-	text "Du freches Gör!"
+	text "Verdammtes Balg!"
 	done
 
 GruntF1AfterBattleText:

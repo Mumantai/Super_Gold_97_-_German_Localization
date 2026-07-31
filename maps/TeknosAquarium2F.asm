@@ -147,7 +147,7 @@ WhitneyWayToGoText:
 
 	para "Hey…"
 
-	para "Du bist wirklich"
+	para "Du bist ja echt"
 	line "ziemlich stark!"
 
 	para "Schau doch später"

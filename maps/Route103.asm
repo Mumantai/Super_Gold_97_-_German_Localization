@@ -278,7 +278,7 @@ BirdKeeperBryanAfterBattleText:
 
 	para "Versuche, sie mit"
 	line "KURTs TURBOBALL"
-	cont "einzufangen. "
+	cont "einzufangen."
 
 	para "Sobald ich eine"
 	line "APRIKOKO WSS"

@@ -338,7 +338,6 @@ IfYouUnderstandText:
 
 	para "Attacke so toll"
 	line "ist, dann darfst"
-
 	para "du dich einen"
 	line "Trainer nennen."
 	done

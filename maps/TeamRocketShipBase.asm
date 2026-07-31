@@ -422,8 +422,8 @@ GruntM13SeenText:
 	cont "verläufst."
 
 	para "Du tauchst hier"
-	line "auf! Du bist nur"
-	cont "ein Opfer!"
+	line "auf, also bist du"
+	cont "nur ein Opfer!"
 	done
 
 GruntM13BeatenText:
@@ -468,8 +468,8 @@ CaptainRBeforeText:
     para "Dieser nutzlose"
     line "Haufen."
 
-    para "Unsere Operationen"
-    line "hier sind jedoch"
+    para "Unser Vorhaben"
+    line "hier ist jedoch"
     cont "abgeschlossen."
 
     para "Wir ziehen uns"
@@ -662,7 +662,7 @@ BurglarEddieAfterBattleText:
 GruntM22HowdGetKey:
 	text "Wie bist du an"
 	line "den Schlüssel"
-	line "gekommen?!"
+	cont "gekommen?!"
 	done
 	
 ImposterGreetingText:

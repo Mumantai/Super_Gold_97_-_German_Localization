@@ -180,7 +180,7 @@ TeknosPokecenter1FPokefanMTextMobile:
 
 	para "Wo, fragst du?"
 
-	para "Kurz nach"
+	para "Etwas hinter"
 	line "GENEOS CITY."
     done
 

@@ -271,9 +271,9 @@ BoardwalkGameCornerDecorVendorMenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "BETT@"
-	db "TEPPICH@"
-	db "PFLANZE@"
+	db "BETTEN@"
+	db "TEPPICHE@"
+	db "PFLANZEN@"
 	db "ZURÜCK@"
 
 ;--------------------------------------
@@ -611,8 +611,7 @@ BoardwalkGameCornerPharmacistText:
 
 	para "Ich glaube, er"
 	line "spuckt mehr aus"
-
-	para "als die anderen."
+	cont "als die anderen."
 	done
 
 BoardwalkGameCornerPokefanM1Text:
@@ -633,9 +632,9 @@ BoardwalkGameCornerCooltrainerMText:
 
 BoardwalkGameCornerPokefanFText:
 	text "Karten…"
+
 	para "Ich ziehe sie den"
 	line "Automaten vor,"
-
 	para "weil man seine"
 	line "Chancen besser ab-"
 	cont "schätzen kann."

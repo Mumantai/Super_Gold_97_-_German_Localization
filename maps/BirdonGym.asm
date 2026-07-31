@@ -232,22 +232,15 @@ MortyIntroText:
 	cont "Trainer erscheinen"
 	cont "wird."
 
-	para "nur wahrlich star-"
-	line "ken Trainern er-"
-	cont "scheinen werden."
-
-	para "Ich glaube an die-"
-	line "se Legende. Daher"
-
+	para "Ich glaubte diese"
+	line "Legende. Daher"
 	para "habe ich mein gan-"
 	line "zes Leben lang im"
-
 	para "Geheimen trai-"
 	line "niert."
 
 	para "Als Resultat kann"
 	line "ich nun Dinge"
-
 	para "sehen, die andere"
 	line "nicht sehen kön-"
 	cont "nen."
@@ -256,7 +249,6 @@ MortyIntroText:
 
 	para "Mit ein wenig Mehr"
 	line "könnte ich eine"
-
 	para "Zukunft sehen, in"
 	line "der ich das legen-"
 	cont "däre regenbogen-"

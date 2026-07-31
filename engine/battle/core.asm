@@ -1596,9 +1596,9 @@ HandleScreens:
 	jp CopyName2
 
 .Your:
-	db "Your@"
+	db "Dein@"
 .Enemy:
-	db "Enemy@"
+	db "Gegner@"
 
 .LightScreenTick:
 	ld a, [de]
@@ -5390,7 +5390,7 @@ MoveInfoBox:
 
 	hlcoord 0, 8
 	ld b, 3
-	ld c, 9
+	ld c, 10
 	call Textbox
 
 	ld a, [wPlayerDisableCount]
@@ -5462,9 +5462,9 @@ MoveInfoBox:
 	ret
 
 .Disabled:
-	db "Disabled!@"
+	db "Blockiert!@"
 .Type:
-	db "TYPE/@"
+	db "TYP/@"
 
 ParseEnemyAction:
 	ld a, [wEnemyIsSwitching]
@@ -8046,11 +8046,11 @@ ShowLinkBattleParticipantsAfterEnd:
 	ret
 
 .YouWin:
-	db "YOU WIN@"
+	db "   GEWONNEN   @"
 .YouLose:
-	db "YOU LOSE@"
+	db "   VERLOREN   @"
 .Draw:
-	db "  DRAW@"
+	db "UNENTSCHIEDEN @"
 
 LINK_BATTLE_RECORD_LENGTH EQUS "(sLinkBattleRecord1End - sLinkBattleRecord1)" ; 18
 NUM_LINK_BATTLE_RECORDS EQUS "((sLinkBattleStatsEnd - sLinkBattleRecord) / LINK_BATTLE_RECORD_LENGTH)" ; 5
@@ -8196,11 +8196,11 @@ ReadAndPrintLinkBattleRecord:
 	db "  ---  <LF>"
 	db "         -    -    -@"
 .Record:
-	db "<PLAYER>'s RECORD@"
+	db "<PLAYER>s STATISTIK@"
 .Result:
-	db "RESULT WIN LOSE DRAW@"
+	db "Erg. Gew. Verl. Patt@"
 .Total:
-	db "TOTAL  WIN LOSE DRAW@"
+	db "Ges. Gew. Verl. Patt@"
 
 BattleEnd_HandleRoamMons:
 	ld a, [wBattleType]
